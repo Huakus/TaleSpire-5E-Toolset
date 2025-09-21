@@ -1,12 +1,3 @@
-// TS.realtime.onSyncMessage((message, source) => {
-//     // Check if the message is from the PlayerScript
-//     if (source === "PlayerScript") {
-//         // Process the message, e.g., extract the roll result and update the UI
-//         const rollResult = extractRollResult(message);
-//         // Update the DMScript UI with the roll result
-//     }
-// });
-
 function extractRollResult(message) {
     console.log(message)
     // Implement a function to extract the roll result from the message
@@ -80,7 +71,7 @@ async function establishMonsterData(){
     
     populateConditionSelect();
     populateEquipmentList();
-
+    // initAbacus();
 }
 
 async function loadAndSetLanguage(){
@@ -116,6 +107,7 @@ const playerCharacters = [
 ];
 
 function populateMonsterDropdown() {
+    console.warn("populateMonsterDropdown")
     // Populate the dropdown list with monster names
     const monsterList = document.getElementById("monster-list");
     const nameInput = document.getElementById("monster-name-input");
@@ -139,25 +131,29 @@ function populateMonsterDropdown() {
     });
 
     // Show dropdown on focus
-    nameInput.addEventListener('focus', () => {
-        monsterList.style.display = 'block';
-    });
-
-    // Filter dropdown items based on input
-    nameInput.addEventListener('input', () => {
-        const filterText = nameInput.value.toLowerCase();
-        monsterList.querySelectorAll('li').forEach(li => {
-            const monsterName = li.textContent.toLowerCase();
-            li.style.display = monsterName.includes(filterText) ? 'block' : 'none';
+    if (!nameInput._dropdownEventsAttached) {
+        nameInput.addEventListener('focus', () => {
+            monsterList.style.display = 'block';
         });
-    });
 
-    // Hide dropdown when clicking outside
-    document.addEventListener('click', (event) => {
-        if (!dropdownContainer.contains(event.target) && event.target !== nameInput) {
-            monsterList.style.display = 'none';
-        }
-    });
+        // Filter dropdown items based on input
+        nameInput.addEventListener('input', () => {
+            const filterText = nameInput.value.toLowerCase();
+            monsterList.querySelectorAll('li').forEach(li => {
+                const monsterName = li.textContent.toLowerCase();
+                li.style.display = monsterName.includes(filterText) ? 'block' : 'none';
+            });
+        });
+
+        // Hide dropdown when clicking outside
+        document.addEventListener('click', (event) => {
+            if (!dropdownContainer.contains(event.target) && event.target !== nameInput) {
+                setTimeout(() => {
+                    monsterList.style.display = 'none';
+                }, 300);
+            }
+        });
+    }
 }
 
 // Event listener for saving each encounter
@@ -981,24 +977,24 @@ function populatePlayerDropdown() {
         playerList.appendChild(listItem);
     });
 
-    // Show dropdown on focus
     nameInput.addEventListener('focus', () => {
         playerList.style.display = 'block';
     });
 
-    // Filter dropdown items based on input
     nameInput.addEventListener('input', () => {
         const filterText = nameInput.value.toLowerCase();
         playerList.querySelectorAll('li').forEach(li => {
-            const monsterName = li.textContent.toLowerCase();
-            li.style.display = monsterName.includes(filterText) ? 'block' : 'none';
+            const playerName = li.textContent.toLowerCase();
+            li.style.display = playerName.includes(filterText) ? 'block' : 'none';
         });
     });
 
-    // Hide dropdown when clicking outside
     document.addEventListener('click', (event) => {
         if (!dropdownContainer.contains(event.target) && event.target !== nameInput) {
-            playerList.style.display = 'none';
+            setTimeout(() => {
+                    playerList.style.display = 'none';
+            }, 300);
+            
         }
     });
 }
@@ -1260,7 +1256,7 @@ async function updatePlayerCard(card, player) {
         card.appendChild(dropdownContainer);
     }
     debouncedSendInitiativeListToPlayer();
-    saveMonsterCardsAsEncounter("AutoSaveTemporary");
+    debounceAutoSave()
     reorderCards();
 }
 
@@ -1358,11 +1354,11 @@ function reorderCards() {
     highlightCurrentTurn();
 
     debouncedSendInitiativeListToPlayer();
-    saveMonsterCardsAsEncounter("AutoSaveTemporary")
+    debounceAutoSave()
 }
 
-const debouncedSendInitiativeListToPlayer = debounce(sendInitiativeListToPlayer, 1000);
-const debouncedRequestPlayerInfo = debounce(requestPlayerInfo, 1000); 
+const debouncedSendInitiativeListToPlayer = debounce(sendInitiativeListToPlayer, 5000);
+const debouncedRequestPlayerInfo = debounce(requestPlayerInfo, 5000);
 
 //Event listener for the request player stats button. Should broadcast to all players for stats. 
 document.getElementById("request-player-stats").addEventListener("click", debouncedRequestPlayerInfo);
@@ -1421,7 +1417,7 @@ function nextTurn() {
         conditionsSet = conditionsMap.get(currentMonsterCard);
 
         if (conditionsSet) {
-            if (conditionsSet.has('Recharging')) {
+            if (conditionsSet.has('recharging')) {
                 showErrorModal(`Roll Recharge`,1000);
             }
         }
@@ -1442,7 +1438,7 @@ function nextTurn() {
     }
 
     highlightCurrentTurn(); // Highlight the current card
-    saveMonsterCardsAsEncounter("AutoSaveTemporary")
+    debounceAutoSave()
 }
 
 function previousTurn() {
@@ -1459,7 +1455,7 @@ function previousTurn() {
         highlightCurrentTurn(); // Highlight the current card
     }
 
-    saveMonsterCardsAsEncounter("AutoSaveTemporary")
+    debounceAutoSave()
 }
 
 function makeRoundEditable() {
@@ -1649,7 +1645,7 @@ function monsterConditions(condition) {
     else{
         showErrorModal("No monster currently slected. Please click on the monster you would like to apply a condition to.")
     }
-    saveMonsterCardsAsEncounter("AutoSaveTemporary")
+    debounceAutoSave()
 }
 
 // Function to remove a condition pill
@@ -1684,16 +1680,16 @@ function removeMonsterCondition(condition) {
         }
     }
     debouncedSendInitiativeListToPlayer()
-    saveMonsterCardsAsEncounter("AutoSaveTemporary")
+    debounceAutoSave()
+    
 }
 
 
+const debouncedAutoSave = debounce(() => saveMonsterCardsAsEncounter("AutoSaveTemporary"), 1000);
 
-
-
-
-
-
+function debounceAutoSave() {
+    debouncedAutoSave();
+}
 
 
 // Saving and loading encounters
@@ -1702,7 +1698,6 @@ function removeMonsterCondition(condition) {
 let allSavedEncounters = [];
 
 function saveMonsterCardsAsEncounter(encounterName) {
-
     console.log("Trying to Save Encounter: ", encounterName)
     // Get all monster cards on the screen
     const monsterCards = document.querySelectorAll('.monster-card');
@@ -2092,42 +2087,77 @@ function handleInitiativeResult(resultGroup) {
     }
 }
 
-
 let playersInCampaign;
 
+
+
 async function getPlayersInCampaign() {
-    // Get the array of player fragments from the campaign
-    let tester = await TS.players.getPlayersInThisCampaign();
-    console.log("Player Fragments:", tester);  // Log the player fragments array for reference
-
-    // Create an array of promises to process each player
-    const playerPromises = tester.map(async (playerFragment) => {
-        try {
-            // Check if this player is 'me' using the isMe function
-            const isPlayerMe = await TS.players.isMe(playerFragment);
-
-            if (isPlayerMe) {
-                console.log("Skipping player (it's you):", playerFragment);  // Log that it's you
-                return null;  // Skip this player by returning null
-            }
-
-            // Call getMoreInfo to get additional information about the player
-            const playerInfo = await TS.players.getMoreInfo([playerFragment]);
-            console.log("Player Info:", playerInfo);  // Log the player info to console
-            return playerInfo;  // Return the player info
-
-        } catch (error) {
-            console.error("Error fetching info for player:", playerFragment, error);
-            return null;  // In case of error, return null
+    try {
+        // Step 1: Get player fragments with timeout
+        console.log("Fetching player fragments...");
+        const tester = await withTimeout(
+            TS.players.getPlayersInThisCampaign(), 
+            5000, 
+            "getPlayersInThisCampaign"
+        );
+        
+        if (!tester || tester.length === 0) {
+            console.log("No players found in campaign");
+            playersInCampaign = [];
+            return;
         }
-    });
 
-    // Wait for all the promises to resolve and handle them in parallel
-    const playerInfos = await Promise.all(playerPromises);
+        console.log(`Found ${tester.length} player fragments`);
 
-    // Filter out null values (the ones that were skipped or had errors)
-    const validPlayerInfos = playerInfos.filter(info => info !== null);
-    playersInCampaign = validPlayerInfos
+        // Step 2: Batch process all players with individual timeouts
+        const playerPromises = tester.map(async (playerFragment, index) => {
+            try {
+                // Timeout each individual API call
+                const isPlayerMe = await withTimeout(
+                    TS.players.isMe(playerFragment), 
+                    2000, 
+                    `isMe check for player ${index}`
+                );
+                
+                if (isPlayerMe) {
+                    console.log(`Player ${index}: Skipping (it's you)`);
+                    return null;
+                }
+
+                // Get more info with timeout
+                const playerInfo = await withTimeout(
+                    TS.players.getMoreInfo([playerFragment]), 
+                    3000, 
+                    `getMoreInfo for player ${index}`
+                );
+                
+                console.log(`Player ${index}: Info retrieved successfully`);
+                return playerInfo;
+                
+            } catch (error) {
+                console.warn(`Player ${index}: Failed to get info -`, error.message);
+                return null; // Don't let one failure break everything
+            }
+        });
+
+        // Step 3: Process all promises with overall timeout
+        console.log("Processing all player info requests...");
+        const playerInfos = await withTimeout(
+            Promise.all(playerPromises), 
+            10000, 
+            "All player info requests"
+        );
+
+        // Step 4: Filter and store results
+        const validPlayerInfos = playerInfos.filter(info => info !== null);
+        playersInCampaign = validPlayerInfos;
+        
+        console.log(`Successfully retrieved info for ${validPlayerInfos.length}/${tester.length} players`);
+        
+    } catch (error) {
+        console.error("getPlayersInCampaign failed:", error.message);
+        playersInCampaign = []; // Ensure it's always an array
+    }
 }
 
 
@@ -4259,15 +4289,6 @@ document.getElementById("addshopItem").addEventListener("click", function (event
         console.error("Item inputs container not found!");
     }
 });
-
-
-// Function to attach dropdown behavior to an input
-function attachDropdownBehavior(input, dropdown) {
-    input.addEventListener("focus", () => showDropdown(input, dropdown));
-    input.addEventListener("input", () => filterDropdown(input, dropdown));
-    input.addEventListener("blur", () => hideDropdown(dropdown));
-}
-
 
 
 document.getElementById("addShopGroup").addEventListener("click", function () {

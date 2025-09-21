@@ -1,0 +1,373 @@
+{
+    "language": {
+        "Preferred Language": "es"
+    },
+    "Custom Equipment": {
+        "Capa con runas": {
+            "index": "capa-con-runas",
+            "name": "Capa con runas",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "adventuring-gear"
+            },
+            "description": [
+                "Capa con runas",
+                "+1 slots conjuros nivel 1"
+            ],
+            "properties": [],
+            "cost": {
+                "quantity": 0,
+                "unit": "cp"
+            },
+            "weight": 5,
+            "rarity": {
+                "index": "uncommon",
+                "name": "uncommon"
+            },
+            "gearCategory": ""
+        },
+        "Bastón de Acelerar": {
+            "index": "baston-de-acelerar",
+            "name": "Bastón de Acelerar",
+            "equipment_category": {
+                "index": "weapon",
+                "name": "Weapon",
+                "url": "/api/equipment-categories/weapon"
+            },
+            "weapon_category": "Simple",
+            "description": "Un bastón largo de madera que permite conjurar Acelerar una vez por descanso largo y que se utiliza a menudo como arma cuerpo a cuerpo versátil. Se puede manejar con una o dos manos para golpear o bloquear.",
+            "weapon_range": "Melee",
+            "category_range": "Simple Melee",
+            "cost": {
+                "quantity": 20,
+                "unit": "gp"
+            },
+            "damage": {
+                "damage_dice": "1d6",
+                "damage_type": {
+                    "index": "bludgeoning",
+                    "name": "Contundente",
+                    "url": "/api/damage-types/bludgeoning"
+                }
+            },
+            "range": {
+                "normal": 5
+            },
+            "weight": 4,
+            "properties": [
+                {
+                    "index": "versatile",
+                    "name": "Versátil",
+                    "url": "/api/weapon-properties/versatile"
+                },
+                {
+                    "index": "monk",
+                    "name": "Monk",
+                    "url": "/api/weapon-properties/monk"
+                }
+            ],
+            "two_handed_damage": {
+                "damage_dice": "1d8",
+                "damage_type": {
+                    "index": "bludgeoning",
+                    "name": "Contundente",
+                    "url": "/api/damage-types/bludgeoning"
+                }
+            },
+            "url": "/api/equipment/quarterstaff"
+        },
+        "Gema Rota": {
+            "index": "gem-broken",
+            "name": "Gema Rota",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "Equipo de aventuras",
+                "url": "/api/equipment-categories/adventuring-gear"
+            },
+            "gear_category": {
+                "index": "treasure",
+                "name": "Tesoro",
+                "url": "/api/equipment-categories/treasure"
+            },
+            "cost": {
+                "quantity": 10,
+                "unit": "gp"
+            },
+            "weight": 0,
+            "desc": [
+                "Una gema de poco valor, con imperfecciones o fragmentada. Ejemplos: ágata, ojo de gato, lapislázuli, turquesa."
+            ],
+            "url": "/api/equipment/gem-broken"
+        },
+        "Gema Común": {
+            "index": "gem-common",
+            "name": "Gema Común",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "Equipo de aventuras",
+                "url": "/api/equipment-categories/adventuring-gear"
+            },
+            "gear_category": {
+                "index": "treasure",
+                "name": "Tesoro",
+                "url": "/api/equipment-categories/treasure"
+            },
+            "cost": {
+                "quantity": 50,
+                "unit": "gp"
+            },
+            "weight": 0,
+            "desc": [
+                "Una gema de buena calidad, pero frecuente en el comercio. Ejemplos: amatista, granate, jade, perla, turmalina."
+            ],
+            "url": "/api/equipment/gem-common"
+        },
+        "Gema Opaca": {
+            "index": "gem-dull",
+            "name": "Gema Opaca",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "Equipo de aventuras",
+                "url": "/api/equipment-categories/adventuring-gear"
+            },
+            "gear_category": {
+                "index": "treasure",
+                "name": "Tesoro",
+                "url": "/api/equipment-categories/treasure"
+            },
+            "cost": {
+                "quantity": 100,
+                "unit": "gp"
+            },
+            "weight": 0,
+            "desc": [
+                "Una gema llamativa, con brillo tenue o particular. Ejemplos: ópalo, ópalo de fuego, peridoto, topacio."
+            ],
+            "url": "/api/equipment/gem-dull"
+        },
+        "Gema Brillante": {
+            "index": "gem-bright",
+            "name": "Gema Brillante",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "Equipo de aventuras",
+                "url": "/api/equipment-categories/adventuring-gear"
+            },
+            "gear_category": {
+                "index": "treasure",
+                "name": "Tesoro",
+                "url": "/api/equipment-categories/treasure"
+            },
+            "cost": {
+                "quantity": 500,
+                "unit": "gp"
+            },
+            "weight": 0,
+            "desc": [
+                "Una gema preciosa, muy apreciada por su pureza y brillo. Ejemplos: esmeralda, zafiro, rubí."
+            ],
+            "url": "/api/equipment/gem-bright"
+        },
+        "Gema Radiante": {
+            "index": "gem-radiant",
+            "name": "Gema Radiante",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "Equipo de aventuras",
+                "url": "/api/equipment-categories/adventuring-gear"
+            },
+            "gear_category": {
+                "index": "treasure",
+                "name": "Tesoro",
+                "url": "/api/equipment-categories/treasure"
+            },
+            "cost": {
+                "quantity": 1000,
+                "unit": "gp"
+            },
+            "weight": 0,
+            "desc": [
+                "Una gema excepcional, de rareza considerable. Ejemplos: diamante, zafiro azul fino, rubí de sangre."
+            ],
+            "url": "/api/equipment/gem-radiant"
+        },
+        "Gema Legendaria": {
+            "index": "gem-legendary",
+            "name": "Gema Legendaria",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "Equipo de aventuras",
+                "url": "/api/equipment-categories/adventuring-gear"
+            },
+            "gear_category": {
+                "index": "treasure",
+                "name": "Tesoro",
+                "url": "/api/equipment-categories/treasure"
+            },
+            "cost": {
+                "quantity": 5000,
+                "unit": "gp"
+            },
+            "weight": 0,
+            "desc": [
+                "Una gema de belleza única, prácticamente mítica. Ejemplos: diamante excepcional, zafiro estelar, rubí estrella."
+            ],
+            "url": "/api/equipment/gem-legendary"
+        },
+        "Varita de Armadura de Mago": {
+            "index": "wand-of-mage-armor",
+            "name": "Varita de Armadura de Mago",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "Objeto maravilloso",
+                "url": "/api/equipment-categories/wondrous-item"
+            },
+            "gear_category": {
+                "index": "magical-accessory",
+                "name": "Accesorio mágico",
+                "url": "/api/equipment-categories/magical-accessory"
+            },
+            "description": [
+                "Esta varita tiene 3 cargas. Mientras la sostienes, puedes usar una acción para gastar 1 carga y lanzar el conjuro Armadura de mago.",
+                "El conjuro no requiere componentes materiales cuando se lanza desde la varita.",
+                "La varita recupera 1d6+1 cargas gastadas cada día al amanecer.",
+                "Si gastas la última carga, tira 1d20. Con un 1, la varita se desintegra en polvo inerte."
+            ],
+            "properties": [],
+            "cost": {
+                "quantity": 2000,
+                "unit": "gp"
+            },
+            "weight": 0.2,
+            "rarity": {
+                "index": "uncommon",
+                "name": "Poco común"
+            },
+            "bonus": [],
+            "requires_attunement": true,
+            "hasCharges": true,
+            "chargesOptions": {
+                "chargeReset": "at-dawn",
+                "maxCharges": 3
+            }
+        },
+        "Túnica de Agati": {
+            "index": "túnica-de-agati",
+            "name": "Túnica de Agati",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "wondrous-item"
+            },
+            "description": [
+                "\"Esta túnica ligera está imbuida con antiguas runas protectoras atribuidas al sabio Agati.\",",
+                "\"Mientras lleves puesta la túnica, tu Clase de Armadura aumenta en +3.\",",
+                "\"La túnica no se considera armadura y puede usarse sin interferir con el lanzamiento de conjuros.\""
+            ],
+            "properties": [],
+            "cost": {
+                "quantity": 15000,
+                "unit": "gp"
+            },
+            "weight": 1,
+            "rarity": {
+                "index": "very-rare",
+                "name": "very-rare"
+            },
+            "hasCharges": false,
+            "chargesOptions": null,
+            "bonus": [
+                {
+                    "category": "combatStats",
+                    "key": "AC",
+                    "value": 3,
+                    "description": ""
+                }
+            ]
+        },
+        "Varita de molestar": {
+            "index": "varita-de-molestar",
+            "name": "Varita de molestar",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "wondrous-item"
+            },
+            "description": [
+                "La varita molesta a los enemigos con DC=14"
+            ],
+            "properties": [],
+            "cost": {
+                "quantity": 1,
+                "unit": "gp"
+            },
+            "weight": 1,
+            "rarity": {
+                "index": "rare",
+                "name": "rare"
+            },
+            "hasCharges": true,
+            "chargesOptions": {
+                "chargeReset": "at-dawn",
+                "maxCharges": 3
+            },
+            "bonus": []
+        }
+    },
+    "npcList": {
+        "1": {
+            "column0": "Thrain Ironforge",
+            "column1": "Dwarf",
+            "column2": "A grizzled blacksmith with a fiery beard.",
+            "column3": "Constantly hums a tune while working."
+        },
+        "4": {
+            "column0": "Seraphina Brightblade",
+            "column1": "Human",
+            "column2": "A skilled swordswoman with a noble demeanor.",
+            "column3": "Has an irrational fear of spiders."
+        },
+        "14": {
+            "column0": "Rurik Thunderbeard",
+            "column1": "Dwarf",
+            "column2": "A boisterous dwarf with a hearty laugh and a love for ale.",
+            "column3": "Claims to have wrestled a giant in his youth."
+        }
+    },
+    "checklists": {
+        "item-1745982182417": {
+            "text": "Reforzar empalizada",
+            "checked": false
+        },
+        "item-1745982243204": {
+            "text": "Preparar defensas",
+            "checked": false
+        }
+    },
+    "encounters": {
+        "2": {
+            "column0": "3",
+            "column1": "\n                                         <ul>\n                                             <li>A mysterious portal has opened, and strange creatures are emerging. The portal seems unstable.</li>\n                                         </ul>\n                                     "
+        },
+        "3": {
+            "column0": "",
+            "column1": ""
+        }
+    },
+    "loot": {
+        "0": {
+            "column0": "1",
+            "column1": "\n                                         <ul>\n                                             <li>A small chest containing a potion of healing, a silver necklace, and 20 gold coins.</li>\n                                         </ul>\n                                     "
+        }
+    },
+    "travel-1": {
+        "2": {
+            "column0": "Coach",
+            "column1": "2 sp per mile",
+            "column2": "30 mph"
+        },
+        "3": {
+            "column0": "Teleportation circle",
+            "column1": "2,500 gp",
+            "column2": "Instant"
+        }
+    }
+}

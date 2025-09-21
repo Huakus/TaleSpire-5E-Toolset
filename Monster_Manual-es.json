@@ -85,12 +85,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Consumir vida.",
-            "ToHit": "+6",
-            "Damage": "4d8+3",
-            "DamageType": "necrótico"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Consumir vida.",
+                "ToHit": "+6",
+                "Damage": "4d8+3",
+                "DamageType": "necrótico"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -454,12 +456,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Cimitarra.",
-            "ToHit": "+9",
-            "Damage": "2d6+5/1d6",
-            "DamageType": "dañocortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Cimitarra.",
+                "ToHit": "+9",
+                "Damage": "2d6+5/1d6",
+                "DamageType": "dañocortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -496,9 +500,11 @@
         },
         "DamageVulnerabilities": [],
         "DamageResistances": [],
-        "DamageImmunities": [],
+        "DamageImmunities": [
+            "veneno"
+        ],
         "ConditionImmunities": [
-            "poisoned"
+            "envenenado"
         ],
         "Saves": [
             {
@@ -528,12 +534,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+3",
-            "Damage": "1d6+5",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+3",
+                "Damage": "1d6+5",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -733,12 +741,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Toque paralizante.",
-            "ToHit": "+12",
-            "Damage": "3d6",
-            "DamageType": "frío"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Toque paralizante.",
+                "ToHit": "+12",
+                "Damage": "3d6",
+                "DamageType": "frío"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [
             {
@@ -1122,12 +1132,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+4",
-            "Damage": "1d4+2",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+4",
+                "Damage": "1d4+2",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -1289,12 +1301,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordiscos",
-            "ToHit": "+2",
-            "Damage": "5d6",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordiscos",
+                "ToHit": "+2",
+                "Damage": "5d6",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -1394,12 +1408,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordiscos",
-            "ToHit": "+4",
-            "Damage": "1d10+2/1d6",
-            "DamageType": "perforante/veneno"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordiscos",
+                "ToHit": "+4",
+                "Damage": "1d10+2/1d6",
+                "DamageType": "perforante/veneno"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -1487,12 +1503,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garra",
-            "ToHit": "+7",
-            "Damage": "2d6+2",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garra",
+                "ToHit": "+7",
+                "Damage": "2d6+2",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -1896,7 +1914,6 @@
                 "Content": "El dragón se transforma mágicamente en un humanoide o bestia con un valor de desafío que no sea mayor al suyo propio, o de vuelta a su forma original. Si muere, retornará a su aspecto auténtico. Cualquier equipo que vista o lleve será absorbido por la nueva forma o portado por esta, a elección del dragón. Mientras asuma su nueva forma, el dragón mantendrá su alineamiento, puntos de golpe, Dados de Golpe, capacidad para hablar, competencias, Resistencia Legendaria, acciones en guarida y puntuaciones de Inteligencia, Sabiduría y Carisma, así como esta acción. El resto de su perfil y capacidades son reemplazadas por las de la nueva forma, aunque no obtiene ni los rasgos de clase ni las acciones legendarias de esta. ",
                 "Usage": ""
             }
-
         ],
         "Reactions": [],
         "LegendaryActions": [
@@ -2165,12 +2182,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+7",
-            "Damage": "2d8+4",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+7",
+                "Damage": "2d8+4",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -2237,12 +2256,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Lanza",
-            "ToHit": "+2",
-            "Damage": "1d6/1d8",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Lanza",
+                "ToHit": "+2",
+                "Damage": "1d6/1d8",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -2401,12 +2422,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Toque putrefacto",
-            "ToHit": "+2",
-            "Damage": "1d8",
-            "DamageType": "necrótico"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Toque putrefacto",
+                "ToHit": "+2",
+                "Damage": "1d8",
+                "DamageType": "necrótico"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -2591,12 +2614,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Aguijón",
-            "ToHit": "+5",
-            "Damage": "1d4+3",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Aguijón",
+                "ToHit": "+5",
+                "Damage": "1d4+3",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -2900,12 +2925,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Toque",
-            "ToHit": "+6",
-            "Damage": "2d6+3",
-            "DamageType": "fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Toque",
+                "ToHit": "+6",
+                "Damage": "2d6+3",
+                "DamageType": "fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -3021,12 +3048,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+6",
-            "Damage": "2d8+4",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+6",
+                "Damage": "2d8+4",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -3087,12 +3116,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Cascos",
-            "ToHit": "+6",
-            "Damage": "2d6+4",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Cascos",
+                "ToHit": "+6",
+                "Damage": "2d6+4",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -3172,12 +3203,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Martillo de guerra",
-            "ToHit": "+5",
-            "Damage": "2d8+3/1d10+3",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Martillo de guerra",
+                "ToHit": "+5",
+                "Damage": "2d8+3/1d10+3",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -3358,12 +3391,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+10",
-            "Damage": "3d8+6",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+10",
+                "Damage": "3d8+6",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -3666,12 +3701,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Pseudópodo",
-            "ToHit": "+5",
-            "Damage": "1d8+3",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Pseudópodo",
+                "ToHit": "+5",
+                "Damage": "1d8+3",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -3746,12 +3783,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Cascos",
-            "ToHit": "+6",
-            "Damage": "2d6+4",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Cascos",
+                "ToHit": "+6",
+                "Damage": "2d6+4",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -3906,12 +3945,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+2",
-            "Damage": "1d4/1d4",
-            "DamageType": "contundente/fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+2",
+                "Damage": "1d4/1d4",
+                "DamageType": "contundente/fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -4198,12 +4239,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+4",
-            "Damage": "1d10+2",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+4",
+                "Damage": "1d10+2",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -4389,12 +4432,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco/Garras",
-            "ToHit": "+3",
-            "Damage": "1d4+1",
-            "DamageType": "perforante/cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco/Garras",
+                "ToHit": "+3",
+                "Damage": "1d4+1",
+                "DamageType": "perforante/cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -4603,12 +4648,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+11",
-            "Damage": "6d10+7/3d6",
-            "DamageType": "perforante/fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+11",
+                "Damage": "6d10+7/3d6",
+                "DamageType": "perforante/fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -4755,12 +4802,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Toque",
-            "ToHit": "+4",
-            "Damage": "2d6",
-            "DamageType": "fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Toque",
+                "ToHit": "+4",
+                "Damage": "2d6",
+                "DamageType": "fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -4846,7 +4895,7 @@
                 "Content": "El dragón puede elegir tener éxito en una tirada de salvación que haya fallado.",
                 "Usage": ""
             }
-],
+        ],
         "Actions": [
             {
                 "Name": "Ataque múltiple",
@@ -4985,12 +5034,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+6",
-            "Damage": "1d10+4",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+6",
+                "Damage": "1d10+4",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -5066,12 +5117,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Puñetazo",
-            "ToHit": "+3",
-            "Damage": "1d4",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Puñetazo",
+                "ToHit": "+3",
+                "Damage": "1d4",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -5144,12 +5197,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Daga/Honda",
-            "ToHit": "+4",
-            "Damage": "1d4+2",
-            "DamageType": "perforante/contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Daga/Honda",
+                "ToHit": "+4",
+                "Damage": "1d4+2",
+                "DamageType": "perforante/contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -5235,12 +5290,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+8",
-            "Damage": "1d10+5",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+8",
+                "Damage": "1d10+5",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -5336,12 +5393,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+3",
-            "Damage": "1d4+1/1d4",
-            "DamageType": "cortante/fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+3",
+                "Damage": "1d4+1/1d4",
+                "DamageType": "cortante/fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -5543,12 +5602,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Puño putrefacto",
-            "ToHit": "+9",
-            "Damage": "3d6+4/6d6",
-            "DamageType": "contundente/necrótico"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Puño putrefacto",
+                "ToHit": "+9",
+                "Damage": "3d6+4/6d6",
+                "DamageType": "contundente/necrótico"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [
             {
@@ -5667,12 +5728,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+7",
-            "Damage": "2d8+4",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+7",
+                "Damage": "2d8+4",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -6008,12 +6071,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Cascos",
-            "ToHit": "+6",
-            "Damage": "2d8+4/2d6",
-            "DamageType": "contundente/fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Cascos",
+                "ToHit": "+6",
+                "Damage": "2d8+4/2d6",
+                "DamageType": "contundente/fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -6100,12 +6165,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+8",
-            "Damage": "2d8+5",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+8",
+                "Damage": "2d8+5",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -6269,12 +6336,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+3",
-            "Damage": "1d4+1",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+3",
+                "Damage": "1d4+1",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -6344,12 +6413,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+3",
-            "Damage": "1d8+1",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+3",
+                "Damage": "1d8+1",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -6453,12 +6524,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garra",
-            "ToHit": "+8",
-            "Damage": "2d8+4",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garra",
+                "ToHit": "+8",
+                "Damage": "2d8+4",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [
             {
@@ -7106,12 +7179,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+6",
-            "Damage": "1d10+4/1d6",
-            "DamageType": "perforante/fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+6",
+                "Damage": "1d10+4/1d6",
+                "DamageType": "perforante/fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -7192,12 +7267,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Asfixiar",
-            "ToHit": "+5",
-            "Damage": "2d6+3",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Asfixiar",
+                "ToHit": "+5",
+                "Damage": "2d6+3",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -7279,12 +7356,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco/Garras",
-            "ToHit": "+4",
-            "Damage": "1d6+2",
-            "DamageType": "perforante/cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco/Garras",
+                "ToHit": "+4",
+                "Damage": "1d6+2",
+                "DamageType": "perforante/cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -7385,12 +7464,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+3",
-            "Damage": "1d4+1/1d4",
-            "DamageType": "cortante/frío"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+3",
+                "Damage": "1d4+1/1d4",
+                "DamageType": "cortante/frío"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -7615,7 +7696,6 @@
                 "Usage": ""
             },
             {
-
                 "Name": "Aquelarres De Sagas",
                 "Content": "Cuando deben trabajar juntas, las sagas, pese a su naturaleza egoísta, se agrupan en aquelarres. Estos grupos están compuestos de sagas de todo tipo, pero dentro del aquelarre todas están en una posición de igualdad. No obstante, esto no impide que todas ellas ansíen conseguir más poder para sí mismas.\nLos aquelarres están compuestos de tres sagas, de tal manera que las discusiones entre dos de ellas puedan ser resueltas por la tercera. Si alguna vez llegan a reunirse más de tres sagas, algo que podría suceder cuando dos aquelarres entran en conflicto, el resultado suele ser el caos. ",
                 "Usage": ""
@@ -7648,12 +7728,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+5",
-            "Damage": "2d6+3",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+5",
+                "Damage": "2d6+3",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -7873,12 +7955,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Puñetazo",
-            "ToHit": "+7",
-            "Damage": "2d6+4",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Puñetazo",
+                "ToHit": "+7",
+                "Damage": "2d6+4",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [
             {
                 "Name": "Escudar",
@@ -8160,12 +8244,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+3",
-            "Damage": "2d4+1",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+3",
+                "Damage": "2d4+1",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -8412,12 +8498,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Espada larga",
-            "ToHit": "+3",
-            "Damage": "1d8+1",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Espada larga",
+                "ToHit": "+3",
+                "Damage": "1d8+1",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -8514,12 +8602,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+4",
-            "Damage": "1d4+3/2d4",
-            "DamageType": "perforante/veneno"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+4",
+                "Damage": "1d4+3/2d4",
+                "DamageType": "perforante/veneno"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -8617,12 +8707,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+4",
-            "Damage": "1d10+2/1d4",
-            "DamageType": "perforante/ácido"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+4",
+                "Damage": "1d10+2/1d4",
+                "DamageType": "perforante/ácido"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -9035,12 +9127,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Pseudópodo",
-            "ToHit": "+4",
-            "Damage": "2d6+2/1d6",
-            "DamageType": "contundente/ácido"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Pseudópodo",
+                "ToHit": "+4",
+                "Damage": "2d6+2/1d6",
+                "DamageType": "contundente/ácido"
+            }
+        ],
         "Reactions": [
             {
                 "Name": "Dividirse",
@@ -9122,12 +9216,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Aplastar",
-            "ToHit": "+5",
-            "Damage": "1d6+3",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Aplastar",
+                "ToHit": "+5",
+                "Damage": "1d6+3",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -9285,12 +9381,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Cola",
-            "ToHit": "+7",
-            "Damage": "4d6+4",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Cola",
+                "ToHit": "+7",
+                "Damage": "4d6+4",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -9526,12 +9624,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Maza",
-            "ToHit": "+8",
-            "Damage": "1d6+4/4d8",
-            "DamageType": "contundente/radiante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Maza",
+                "ToHit": "+8",
+                "Damage": "1d6+4/4d8",
+                "DamageType": "contundente/radiante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -9622,7 +9722,6 @@
                 "Usage": ""
             },
             {
-
                 "Name": "Aquelarres De Sagas",
                 "Content": "Cuando deben trabajar juntas, las sagas, pese a su naturaleza egoísta, se agrupan en aquelarres. Estos grupos están compuestos de sagas de todo tipo, pero dentro del aquelarre todas están en una posición de igualdad. No obstante, esto no impide que todas ellas ansíen conseguir más poder para sí mismas.\nLos aquelarres están compuestos de tres sagas, de tal manera que las discusiones entre dos de ellas puedan ser resueltas por la tercera. Si alguna vez llegan a reunirse más de tres sagas, algo que podría suceder cuando dos aquelarres entran en conflicto, el resultado suele ser el caos. ",
                 "Usage": ""
@@ -9660,12 +9759,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garras",
-            "ToHit": "+7",
-            "Damage": "2d8+4",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+7",
+                "Damage": "2d8+4",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -9845,12 +9946,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+4",
-            "Damage": "1d4+2",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+4",
+                "Damage": "1d4+2",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -10100,12 +10203,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Chupar sangre",
-            "ToHit": "+5",
-            "Damage": "1d4+3",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Chupar sangre",
+                "ToHit": "+5",
+                "Damage": "1d4+3",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -10182,12 +10287,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Pseudópodo",
-            "ToHit": "+4",
-            "Damage": "3d6",
-            "DamageType": "ácido"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Pseudópodo",
+                "ToHit": "+4",
+                "Damage": "3d6",
+                "DamageType": "ácido"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -10426,7 +10533,7 @@
             "cortante y perforante de ataques ni mágicos ni hechos con armas de plata"
         ],
         "ConditionImmunities": [
-            "envenennado"
+            "envenenado"
         ],
         "Saves": [],
         "Skills": [
@@ -10735,12 +10842,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+8",
-            "Damage": "2d10+5",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+8",
+                "Damage": "2d10+5",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -10944,12 +11053,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Consumir vida",
-            "ToHit": "+4",
-            "Damage": "3d6",
-            "DamageType": "necrótico"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Consumir vida",
+                "ToHit": "+4",
+                "Damage": "3d6",
+                "DamageType": "necrótico"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -10991,7 +11102,7 @@
         ],
         "DamageImmunities": [
             "fuego",
-            "veenno"
+            "veneno"
         ],
         "ConditionImmunities": [
             "envenenado"
@@ -11333,12 +11444,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+6",
-            "Damage": "3d6+4",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+6",
+                "Damage": "3d6+4",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -11633,12 +11746,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+6",
-            "Damage": "2d6+3",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+6",
+                "Damage": "2d6+3",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -11827,12 +11942,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+8",
-            "Damage": "2d8+5",
-            "DamageType": "contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+8",
+                "Damage": "2d8+5",
+                "DamageType": "contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -11947,12 +12064,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Espadón",
-            "ToHit": "+12",
-            "Damage": "4d6+7/5d8",
-            "DamageType": "cortante/radiante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Espadón",
+                "ToHit": "+12",
+                "Damage": "4d6+7/5d8",
+                "DamageType": "cortante/radiante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -12500,12 +12619,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garra",
-            "ToHit": "+12",
-            "Damage": "2d10+6",
-            "DamageType": "cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garra",
+                "ToHit": "+12",
+                "Damage": "2d10+6",
+                "DamageType": "cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [
             {
@@ -12984,12 +13105,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+5",
-            "Damage": "1d10+3",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+5",
+                "Damage": "1d10+3",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -13431,12 +13554,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+4",
-            "Damage": "1d10+2",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+4",
+                "Damage": "1d10+2",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -13534,12 +13659,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+6",
-            "Damage": "1d10+4",
-            "DamageType": "perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+6",
+                "Damage": "1d10+4",
+                "DamageType": "perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -14166,7 +14293,6 @@
                 "Content": "El dragón se transforma mágicamente en un humanoide o bestia con un valor de desafío que no sea mayor al suyo propio, o de vuelta a su forma original. Si muere, retornará a su aspecto auténtico. Cualquier equipo que vista o lleve será absorbido por la nueva forma o portado por esta, a elección del dragón. Mientras asuma su nueva forma, el dragón mantendrá su alineamiento, puntos de golpe, Dados de Golpe, capacidad para hablar, competencias, Resistencia Legendaria, acciones en guarida y puntuaciones de Inteligencia, Sabiduría y Carisma, así como esta acción. El resto de su perfil y capacidades son reemplazadas parlas de la nueva forma, aunque no obtiene ni los rasgos de clase ni las acciones legendarias de esta.",
                 "Usage": ""
             }
-
         ],
         "Reactions": [],
         "LegendaryActions": [
@@ -14270,12 +14396,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garrote",
-            "ToHit": "+5",
-            "Damage": "1d4+3/1d4",
-            "DamageType": "Contundente/Perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garrote",
+                "ToHit": "+5",
+                "Damage": "1d4+3/1d4",
+                "DamageType": "Contundente/Perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -14362,12 +14490,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Pseudópodo",
-            "ToHit": "+3",
-            "Damage": "1d6+1/2d6",
-            "DamageType": "Contundente/Ácido"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Pseudópodo",
+                "ToHit": "+3",
+                "Damage": "1d6+1/2d6",
+                "DamageType": "Contundente/Ácido"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -14459,12 +14589,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Garrote",
-            "ToHit": "++6",
-            "Damage": "1d8+4",
-            "DamageType": "Contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Garrote",
+                "ToHit": "++6",
+                "Damage": "1d8+4",
+                "DamageType": "Contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -14570,12 +14702,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Cadena",
-            "ToHit": "+8",
-            "Damage": "2d6+4/2d6",
-            "DamageType": "Cortante/Perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Cadena",
+                "ToHit": "+8",
+                "Damage": "2d6+4/2d6",
+                "DamageType": "Cortante/Perforante"
+            }
+        ],
         "LegendaryActions": [],
         "Description": "",
         "Player": "",
@@ -14729,12 +14863,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+5",
-            "Damage": "2d6+3/1d6",
-            "DamageType": "Cortante/Ácido"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+5",
+                "Damage": "2d6+3/1d6",
+                "DamageType": "Cortante/Ácido"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -15293,12 +15429,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Hacha de guerra",
-            "ToHit": "+7",
-            "Damage": "2d8+5",
-            "DamageType": "Cortante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Hacha de guerra",
+                "ToHit": "+7",
+                "Damage": "2d8+5",
+                "DamageType": "Cortante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -15387,7 +15525,7 @@
             },
             {
                 "Name": "Etéreo",
-                "Content": "El fantasma entra en el Plano Etéreo si se encontraba en el Plano Material, o en este si se hallaba en aquel. Mientras se sitúe en la Frontera Etérea, será visible también en el Plano Material, y viceversa, aunque no podrá afectar o ser afectado por nada que se encuentre en el otro plano." ,
+                "Content": "El fantasma entra en el Plano Etéreo si se encontraba en el Plano Material, o en este si se hallaba en aquel. Mientras se sitúe en la Frontera Etérea, será visible también en el Plano Material, y viceversa, aunque no podrá afectar o ser afectado por nada que se encuentre en el otro plano.",
                 "Usage": ""
             },
             {
@@ -16123,12 +16261,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Golpe",
-            "ToHit": "+7",
-            "Damage": "2d8+4",
-            "DamageType": "Contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Golpe",
+                "ToHit": "+7",
+                "Damage": "2d8+4",
+                "DamageType": "Contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -16387,12 +16527,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+4",
-            "Damage": "1d10+2/1d4",
-            "DamageType": "Perforante/Frío"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+4",
+                "Damage": "1d10+2/1d4",
+                "DamageType": "Perforante/Frío"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -16554,12 +16696,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Tenaza",
-            "ToHit": "+6",
-            "Damage": "2d6+4",
-            "DamageType": "Contundente"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Tenaza",
+                "ToHit": "+6",
+                "Damage": "2d6+4",
+                "DamageType": "Contundente"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -17041,12 +17185,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+5",
-            "Damage": "1d8+3/2d6",
-            "DamageType": "Perforante/Fuego"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+5",
+                "Damage": "1d8+3/2d6",
+                "DamageType": "Perforante/Fuego"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -17129,12 +17275,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Pseudópodo",
-            "ToHit": "+5",
-            "Damage": "1d6+3/4d8",
-            "DamageType": "Contundente/Ácido"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Pseudópodo",
+                "ToHit": "+5",
+                "Damage": "1d6+3/4d8",
+                "DamageType": "Contundente/Ácido"
+            }
+        ],
         "Reactions": [
             {
                 "Name": "Dividirse",
@@ -17401,12 +17549,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+5",
-            "Damage": "1d10+3/1d6",
-            "DamageType": "Perforante/Relámpago"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+5",
+                "Damage": "1d10+3/1d6",
+                "DamageType": "Perforante/Relámpago"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -17474,12 +17624,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Espada corta",
-            "ToHit": "+4",
-            "Damage": "1d6+2",
-            "DamageType": "Perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Espada corta",
+                "ToHit": "+4",
+                "Damage": "1d6+2",
+                "DamageType": "Perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -17742,12 +17894,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Mordisco",
-            "ToHit": "+7",
-            "Damage": "4d12+4",
-            "DamageType": "Perforante"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+7",
+                "Damage": "4d12+4",
+                "DamageType": "Perforante"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -17832,12 +17986,14 @@
                 "Usage": ""
             }
         ],
-        "QuickAction": [{
-            "Name": "Puño putrefacto",
-            "ToHit": "+5",
-            "Damage": "2d6+3/3d6",
-            "DamageType": "Contundente/Necrotico"
-        }],
+        "QuickAction": [
+            {
+                "Name": "Puño putrefacto",
+                "ToHit": "+5",
+                "Damage": "2d6+3/3d6",
+                "DamageType": "Contundente/Necrotico"
+            }
+        ],
         "Reactions": [],
         "LegendaryActions": [],
         "Description": "",
@@ -17959,7 +18115,7 @@
         "Version": "1.8.0",
         "ImageURL": ""
     },
-"Ifrit": {
+    "Ifrit": {
         "Id": "Ifrit",
         "Name": "Ifrit",
         "Path": "",
@@ -18056,7 +18212,7 @@
         "Version": "1.8.0",
         "ImageURL": ""
     },
-"Dragón Blanco Adulto": {
+    "Dragón Blanco Adulto": {
         "Id": "Dragón Blanco Adulto",
         "Name": "Dragón Blanco Adulto",
         "Path": "",
@@ -18203,8 +18359,8 @@
         "Source": "Custom",
         "Type": "Medium Undead",
         "HP": {
-        "Value": 230,
-        "Notes": "(17d8 + 68)"
+            "Value": 230,
+            "Notes": "(17d8 + 68)"
         },
         "AC": {
             "Value": 18,
@@ -18433,12 +18589,12 @@
         "ConditionImmunities": [],
         "Saves": [
             {
-            "Name": "Dexterity",
-            "Modifier": 6
+                "Name": "Dexterity",
+                "Modifier": 6
             },
             {
-            "Name": "Wisdom",
-            "Modifier": 4
+                "Name": "Wisdom",
+                "Modifier": 4
             }
         ],
         "Skills": [],
@@ -18454,41 +18610,41 @@
         "XP": 2300,
         "Traits": [
             {
-            "Name": "Commanding Presence",
-            "Content": "As long as Draven is alive, allied vampire spawn within 60 feet of him have advantage on saving throws against being turned.",
-            "Usage": ""
+                "Name": "Commanding Presence",
+                "Content": "As long as Draven is alive, allied vampire spawn within 60 feet of him have advantage on saving throws against being turned.",
+                "Usage": ""
             },
             {
-            "Name": "Regeneration",
-            "Content": "Draven regains 10 hit points at the start of his turn if he has at least 1 hit point and isn’t in sunlight or running water. If Draven takes radiant damage or damage from holy water, this trait doesn’t function at the start of his next turn.",
-            "Usage": ""
+                "Name": "Regeneration",
+                "Content": "Draven regains 10 hit points at the start of his turn if he has at least 1 hit point and isn’t in sunlight or running water. If Draven takes radiant damage or damage from holy water, this trait doesn’t function at the start of his next turn.",
+                "Usage": ""
             },
             {
-            "Name": "Shadow Step",
-            "Content": "As a bonus action, Draven can teleport up to 30 feet to an unoccupied space he can see that is in dim light or darkness.",
-            "Usage": "Bonus Action"
+                "Name": "Shadow Step",
+                "Content": "As a bonus action, Draven can teleport up to 30 feet to an unoccupied space he can see that is in dim light or darkness.",
+                "Usage": "Bonus Action"
             }
         ],
         "Actions": [
             {
-            "Name": "Multiattack",
-            "Content": "Draven makes two attacks, either with his longsword or with his claws.",
-            "Usage": ""
+                "Name": "Multiattack",
+                "Content": "Draven makes two attacks, either with his longsword or with his claws.",
+                "Usage": ""
             },
             {
-            "Name": "Longsword",
-            "Content": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 6) slashing damage, or 12 (1d12 + 6) slashing damage if wielded with two hands.",
-            "Usage": ""
+                "Name": "Longsword",
+                "Content": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d10 + 6) slashing damage, or 12 (1d12 + 6) slashing damage if wielded with two hands.",
+                "Usage": ""
             },
             {
-            "Name": "Claws",
-            "Content": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 6) slashing damage, and the target is grappled (escape DC 15). Until the grapple ends, the target is restrained, and Draven can’t use his claws on another target.",
-            "Usage": ""
+                "Name": "Claws",
+                "Content": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 6) slashing damage, and the target is grappled (escape DC 15). Until the grapple ends, the target is restrained, and Draven can’t use his claws on another target.",
+                "Usage": ""
             },
             {
-            "Name": "Command Spawn",
-            "Content": "Recharge 5–6. Draven can use his bonus action to command one allied vampire spawn within 60 feet to make an additional attack immediately. The vampire spawn also gains advantage on its next attack roll.",
-            "Usage": ""
+                "Name": "Command Spawn",
+                "Content": "Recharge 5–6. Draven can use his bonus action to command one allied vampire spawn within 60 feet to make an additional attack immediately. The vampire spawn also gains advantage on its next attack roll.",
+                "Usage": ""
             }
         ],
         "LegendaryActions": [],
@@ -18496,6 +18652,957 @@
         "Description": "",
         "Player": "",
         "Version": "1.0.0",
+        "ImageURL": ""
+    },
+    "Búho": {
+        "Id": "Búho",
+        "Name": "Búho",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 11,
+            "Notes": ""
+        },
+        "InitiativeModifier": 1,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "5 pies.",
+            "volar 60 pies."
+        ],
+        "Abilities": {
+            "Fue": 3,
+            "Des": 13,
+            "Con": 8,
+            "Int": 2,
+            "Sab": 12,
+            "Car": 7
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Percepción",
+                "Modifier": 4
+            },
+            {
+                "Name": "Sigilo",
+                "Modifier": 3
+            }
+        ],
+        "Senses": [
+            "visión en la oscuridad 120 pies,",
+            "percepción pasiva 14"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Sobrevuelo",
+                "Content": "El búho no provoca ataques de oportunidad cuando vuela fuera del alcance de un enemigo.",
+                "Usage": ""
+            },
+            {
+                "Name": "Vista aguda",
+                "Content": "El búho tiene ventaja en las tiradas de Sabiduría (Percepción) que dependan de la vista.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Garras",
+                "Content": "Ataque con arma cuerpo a cuerpo: +3 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño cortante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+3",
+                "Damage": "1",
+                "DamageType": "cortante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Araña": {
+        "Id": "Araña",
+        "Name": "Araña",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 12,
+            "Notes": ""
+        },
+        "InitiativeModifier": 2,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "20 pies.",
+            "trepar 20 pies."
+        ],
+        "Abilities": {
+            "Fue": 2,
+            "Des": 14,
+            "Con": 8,
+            "Int": 1,
+            "Sab": 10,
+            "Car": 2
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Sigilo",
+                "Modifier": 4
+            }
+        ],
+        "Senses": [
+            "visión en la oscuridad 30 pies,",
+            "percepción pasiva 12"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Trepar como araña",
+                "Content": "La araña puede trepar por superficies difíciles, incluso boca abajo en techos, sin necesidad de hacer pruebas de característica.",
+                "Usage": ""
+            },
+            {
+                "Name": "Sentido de la telaraña",
+                "Content": "Mientras esté en contacto con una telaraña, la araña conoce la localización exacta de cualquier otra criatura que esté en contacto con la misma telaraña.",
+                "Usage": ""
+            },
+            {
+                "Name": "Caminante de telarañas",
+                "Content": "La araña ignora las restricciones de movimiento impuestas por telarañas.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Mordisco",
+                "Content": "Ataque con arma cuerpo a cuerpo: +4 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño perforante y el objetivo debe superar una tirada de salvación de Constitución CD 9 o sufrir 2 (1d4) de daño por veneno.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+4",
+                "Damage": "1",
+                "DamageType": "perforante + 1d4 veneno (TS Con CD 9)"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Caballito de Mar": {
+        "Id": "Caballito de Mar",
+        "Name": "Caballito de Mar",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 11,
+            "Notes": ""
+        },
+        "InitiativeModifier": 1,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "nadar 20 pies."
+        ],
+        "Abilities": {
+            "Fue": 1,
+            "Des": 12,
+            "Con": 8,
+            "Int": 1,
+            "Sab": 10,
+            "Car": 2
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [],
+        "Senses": [
+            "percepción pasiva 10"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Respirar bajo el agua",
+                "Content": "El caballito de mar solo puede respirar bajo el agua.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [],
+        "QuickAction": [],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Comadreja": {
+        "Id": "Comadreja",
+        "Name": "Comadreja",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 13,
+            "Notes": ""
+        },
+        "InitiativeModifier": 3,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "30 pies."
+        ],
+        "Abilities": {
+            "Fue": 3,
+            "Des": 16,
+            "Con": 8,
+            "Int": 2,
+            "Sab": 12,
+            "Car": 3
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Percepción",
+                "Modifier": 3
+            },
+            {
+                "Name": "Sigilo",
+                "Modifier": 5
+            }
+        ],
+        "Senses": [
+            "percepción pasiva 13"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Audición y olfato agudos",
+                "Content": "La comadreja tiene ventaja en las pruebas de Sabiduría (Percepción) que se basen en la audición o el olfato.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Mordisco",
+                "Content": "Ataque con arma cuerpo a cuerpo: +5 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño perforante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+5",
+                "Damage": "1",
+                "DamageType": "perforante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Cuervo": {
+        "Id": "Cuervo",
+        "Name": "Cuervo",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 12,
+            "Notes": ""
+        },
+        "InitiativeModifier": 2,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "10 pies.",
+            "volar 50 pies."
+        ],
+        "Abilities": {
+            "Fue": 2,
+            "Des": 14,
+            "Con": 8,
+            "Int": 2,
+            "Sab": 12,
+            "Car": 6
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Percepción",
+                "Modifier": 3
+            }
+        ],
+        "Senses": [
+            "percepción pasiva 13"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Mimetismo",
+                "Content": "El cuervo puede imitar sonidos simples que haya oído, como un susurro humano, el llanto de un bebé o el parloteo de un animal. Una criatura que oiga los sonidos puede reconocer que son imitaciones si supera una tirada de Sabiduría (Perspicacia) CD 10.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Pico",
+                "Content": "Ataque con arma cuerpo a cuerpo: +4 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño perforante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Pico",
+                "ToHit": "+4",
+                "Damage": "1",
+                "DamageType": "perforante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Gato": {
+        "Id": "Gato",
+        "Name": "Gato",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 2,
+            "Notes": "(1d4)"
+        },
+        "AC": {
+            "Value": 12,
+            "Notes": ""
+        },
+        "InitiativeModifier": 2,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "40 pies.",
+            "trepar 30 pies."
+        ],
+        "Abilities": {
+            "Fue": 3,
+            "Des": 15,
+            "Con": 10,
+            "Int": 3,
+            "Sab": 12,
+            "Car": 7
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Percepción",
+                "Modifier": 3
+            },
+            {
+                "Name": "Sigilo",
+                "Modifier": 4
+            }
+        ],
+        "Senses": [
+            "percepción pasiva 13"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Olfato agudo",
+                "Content": "El gato tiene ventaja en las pruebas de Sabiduría (Percepción) que se basen en el olfato.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Garras",
+                "Content": "Ataque con arma cuerpo a cuerpo: +0 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño cortante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+0",
+                "Damage": "1",
+                "DamageType": "cortante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Halcón": {
+        "Id": "Halcón",
+        "Name": "Halcón",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 13,
+            "Notes": ""
+        },
+        "InitiativeModifier": 3,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "10 pies.",
+            "volar 60 pies."
+        ],
+        "Abilities": {
+            "Fue": 5,
+            "Des": 16,
+            "Con": 8,
+            "Int": 2,
+            "Sab": 14,
+            "Car": 6
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Percepción",
+                "Modifier": 4
+            }
+        ],
+        "Senses": [
+            "percepción pasiva 14"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Vista aguda",
+                "Content": "El halcón tiene ventaja en las pruebas de Sabiduría (Percepción) que dependan de la vista.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Garras",
+                "Content": "Ataque con arma cuerpo a cuerpo: +5 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño cortante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Garras",
+                "ToHit": "+5",
+                "Damage": "1",
+                "DamageType": "cortante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Lagarto": {
+        "Id": "Lagarto",
+        "Name": "Lagarto",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 2,
+            "Notes": "(1d4)"
+        },
+        "AC": {
+            "Value": 10,
+            "Notes": ""
+        },
+        "InitiativeModifier": 0,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "20 pies.",
+            "trepar 20 pies."
+        ],
+        "Abilities": {
+            "Fue": 2,
+            "Des": 11,
+            "Con": 10,
+            "Int": 1,
+            "Sab": 8,
+            "Car": 3
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [],
+        "Senses": [
+            "visión en la oscuridad 30 pies,",
+            "percepción pasiva 9"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [],
+        "Actions": [
+            {
+                "Name": "Mordisco",
+                "Content": "Ataque con arma cuerpo a cuerpo: +0 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño perforante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+0",
+                "Damage": "1",
+                "DamageType": "perforante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Murciélago": {
+        "Id": "Murciélago",
+        "Name": "Murciélago",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 12,
+            "Notes": ""
+        },
+        "InitiativeModifier": 2,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "5 pies.",
+            "volar 30 pies."
+        ],
+        "Abilities": {
+            "Fue": 2,
+            "Des": 15,
+            "Con": 8,
+            "Int": 2,
+            "Sab": 12,
+            "Car": 4
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [],
+        "Senses": [
+            "visión ciega 60 pies,",
+            "percepción pasiva 11"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Ecolocación",
+                "Content": "El murciélago no puede usar su visión ciega mientras esté ensordecido.",
+                "Usage": ""
+            },
+            {
+                "Name": "Oído agudo",
+                "Content": "El murciélago tiene ventaja en las pruebas de Sabiduría (Percepción) que dependan del oído.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Mordisco",
+                "Content": "Ataque con arma cuerpo a cuerpo: +0 a impactar, alcance 5 pies, una criatura. Impacto: 1 de daño perforante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+0",
+                "Damage": "1",
+                "DamageType": "perforante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Pulpo": {
+        "Id": "Pulpo",
+        "Name": "Pulpo",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Pequeña, sin alineamiento",
+        "HP": {
+            "Value": 3,
+            "Notes": "(1d6)"
+        },
+        "AC": {
+            "Value": 12,
+            "Notes": ""
+        },
+        "InitiativeModifier": 2,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "5 pies.",
+            "nadar 30 pies."
+        ],
+        "Abilities": {
+            "Fue": 4,
+            "Des": 15,
+            "Con": 11,
+            "Int": 3,
+            "Sab": 10,
+            "Car": 4
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Percepción",
+                "Modifier": 2
+            },
+            {
+                "Name": "Sigilo",
+                "Modifier": 4
+            }
+        ],
+        "Senses": [
+            "visión en la oscuridad 30 pies,",
+            "percepción pasiva 12"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Contener la respiración",
+                "Content": "Fuera del agua, el pulpo puede contener la respiración durante 30 minutos.",
+                "Usage": ""
+            },
+            {
+                "Name": "Camuflaje acuático",
+                "Content": "El pulpo tiene ventaja en las pruebas de Destreza (Sigilo) realizadas bajo el agua.",
+                "Usage": ""
+            },
+            {
+                "Name": "Respirar bajo el agua",
+                "Content": "El pulpo solo puede respirar bajo el agua.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Tentáculos",
+                "Content": "Ataque con arma cuerpo a cuerpo: +4 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño contundente, y el objetivo queda apresado (escapar CD 10). Hasta que termine la presa, el pulpo no puede usar sus tentáculos en otro objetivo.",
+                "Usage": ""
+            },
+            {
+                "Name": "Nube de tinta (Recarga tras un descanso corto o largo)",
+                "Content": "Una nube de tinta de 5 pies de radio se extiende alrededor del pulpo si está bajo el agua. El área queda fuertemente oscurecida durante 1 minuto, aunque una corriente significativa puede dispersarla. Tras liberar la tinta, el pulpo puede usar la acción de Correr como acción adicional.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Tentáculos",
+                "ToHit": "+4",
+                "Damage": "1",
+                "DamageType": "contundente (más presa, CD 10)"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Rana": {
+        "Id": "Rana",
+        "Name": "Rana",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 11,
+            "Notes": ""
+        },
+        "InitiativeModifier": 1,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "20 pies.",
+            "nadar 20 pies."
+        ],
+        "Abilities": {
+            "Fue": 1,
+            "Des": 13,
+            "Con": 8,
+            "Int": 1,
+            "Sab": 8,
+            "Car": 3
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [
+            {
+                "Name": "Percepción",
+                "Modifier": 1
+            },
+            {
+                "Name": "Sigilo",
+                "Modifier": 3
+            }
+        ],
+        "Senses": [
+            "visión en la oscuridad 30 pies,",
+            "percepción pasiva 11"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Anfibio",
+                "Content": "La rana puede respirar tanto aire como agua.",
+                "Usage": ""
+            },
+            {
+                "Name": "Salto en pie",
+                "Content": "La rana puede hacer un salto de longitud de hasta 10 pies y un salto de altura de hasta 5 pies, con o sin carrera previa.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [],
+        "QuickAction": [],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Rata": {
+        "Id": "Rata",
+        "Name": "Rata",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 1,
+            "Notes": "(1d4-1)"
+        },
+        "AC": {
+            "Value": 10,
+            "Notes": ""
+        },
+        "InitiativeModifier": 0,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "20 pies."
+        ],
+        "Abilities": {
+            "Fue": 2,
+            "Des": 11,
+            "Con": 9,
+            "Int": 2,
+            "Sab": 10,
+            "Car": 4
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [],
+        "Senses": [
+            "visión en la oscuridad 30 pies,",
+            "percepción pasiva 10"
+        ],
+        "Languages": [],
+        "Challenge": "0",
+        "Traits": [
+            {
+                "Name": "Olfato agudo",
+                "Content": "La rata tiene ventaja en las pruebas de Sabiduría (Percepción) que dependan del olfato.",
+                "Usage": ""
+            }
+        ],
+        "Actions": [
+            {
+                "Name": "Mordisco",
+                "Content": "Ataque con arma cuerpo a cuerpo: +0 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño perforante.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+0",
+                "Damage": "1",
+                "DamageType": "perforante"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
+        "ImageURL": ""
+    },
+    "Serpiente Venenosa": {
+        "Id": "Serpiente Venenosa",
+        "Name": "Serpiente Venenosa",
+        "Path": "",
+        "Source": "Monster Manual",
+        "Type": "Bestia Diminuta, sin alineamiento",
+        "HP": {
+            "Value": 2,
+            "Notes": "(1d4)"
+        },
+        "AC": {
+            "Value": 13,
+            "Notes": ""
+        },
+        "InitiativeModifier": 3,
+        "InitiativeAdvantage": false,
+        "Speed": [
+            "30 pies.",
+            "nadar 30 pies."
+        ],
+        "Abilities": {
+            "Fue": 2,
+            "Des": 16,
+            "Con": 11,
+            "Int": 1,
+            "Sab": 10,
+            "Car": 3
+        },
+        "DamageVulnerabilities": [],
+        "DamageResistances": [],
+        "DamageImmunities": [],
+        "ConditionImmunities": [],
+        "Saves": [],
+        "Skills": [],
+        "Senses": [
+            "visión ciega 10 pies,",
+            "percepción pasiva 10"
+        ],
+        "Languages": [],
+        "Challenge": "1/8",
+        "Traits": [],
+        "Actions": [
+            {
+                "Name": "Mordisco",
+                "Content": "Ataque con arma cuerpo a cuerpo: +5 a impactar, alcance 5 pies, un objetivo. Impacto: 1 de daño perforante, y el objetivo debe superar una tirada de salvación de Constitución CD 10 o sufrir 5 (2d4) de daño por veneno. Si la supera, recibe la mitad.",
+                "Usage": ""
+            }
+        ],
+        "QuickAction": [
+            {
+                "Name": "Mordisco",
+                "ToHit": "+5",
+                "Damage": "1 + 2d4",
+                "DamageType": "perforante y veneno (TS Con CD 10, mitad si se supera)"
+            }
+        ],
+        "Reactions": [],
+        "LegendaryActions": [],
+        "Description": "",
+        "Player": "",
+        "Version": "1.8.0",
         "ImageURL": ""
     }
 }

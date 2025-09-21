@@ -1,0 +1,1222 @@
+{
+    "characters": {
+        "Delerion": {
+            "characterTempHp": "0",
+            "currentHitDice": "0",
+            "insp": 0,
+            "upcastToggle": 1,
+            "exhaustionToggle": 0,
+            "playerWeaponProficiency": [
+                "Daga",
+                "Bastón",
+                "Ballesta Ligera",
+                "Dardo",
+                "Honda"
+            ],
+            "playerArmorProficiency": [],
+            "playerLanguageProficiency": [
+                "Comun",
+                "Elfo",
+                "Dracónico",
+                "Aeloriano"
+            ],
+            "playerToolsProficiency": [],
+            "initiativeButton": "+2",
+            "AC": "15",
+            "speed": "30ft.",
+            "characterLevel": "6",
+            "playerXP": "18000",
+            "playerClass": "Class (SubClass)",
+            "currentCharacterHP": "38",
+            "maxCharacterHP": "38",
+            "strengthScore": "9",
+            "dexterityScore": "14",
+            "constitutionScore": "14",
+            "intelligenceScore": "14",
+            "wisdomScore": "10",
+            "charismaScore": "11",
+            "acrobaticsMod": "DES",
+            "animalHandlingMod": "SAB",
+            "arcanaMod": "INT",
+            "athleticsMod": "FUE",
+            "deceptionMod": "CAR",
+            "historyMod": "INT",
+            "insightMod": "SAB",
+            "intimidationMod": "CAR",
+            "investigationMod": "INT",
+            "medicineMod": "SAB",
+            "natureMod": "INT",
+            "perceptionMod": "SAB",
+            "performanceMod": "CAR",
+            "persuasionMod": "CAR",
+            "religionMod": "INT",
+            "sleightofHandMod": "DES",
+            "stealthMod": "DES",
+            "survivalMod": "SAB",
+            "": 1,
+            "hitDiceButton": "0d8",
+            "pb-1": 0,
+            "pb-2": 0,
+            "pb-3": 1,
+            "pb-4": 0,
+            "pb-5": 0,
+            "pb-6": 0,
+            "pb-7": 0,
+            "pb-8": 0,
+            "pb-9": 1,
+            "pb-10": 1,
+            "pb-11": 0,
+            "pb-12": 1,
+            "pb-13": 0,
+            "pb-14": 0,
+            "pb-15": 1,
+            "pb-16": 0,
+            "pb-17": 0,
+            "pb-18": 0,
+            "pb-19": 0,
+            "pb-20": 0,
+            "pb-21": 0,
+            "pb-22": 1,
+            "pb-23": 1,
+            "pb-24": 0,
+            "conditions": [],
+            "coins": {
+                "cp": 0,
+                "sp": 5,
+                "ep": 0,
+                "gp": 181,
+                "pp": 100
+            },
+            "alignment": "TN",
+            "actionTable": [
+                {
+                    "1": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Bastón de Acelerar",
+                        "itemId": "item-1756663384324-9b6c8ddb",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+2",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Versátil, Monk",
+                        "elventhColumn": "Un bastón largo de madera que permite conjurar Acelerar una vez por descanso largo y que se utiliza a menudo como arma cuerpo a cuerpo versátil. Se puede manejar con una o dos manos para golpear o bloquear.",
+                        "twelvethColumn": "Contundente",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                }
+            ],
+            "spellData": {
+                "spellcastingModifier": "INT",
+                "spelllevelselected": "3",
+                "Cantrip": {
+                    "spells": [
+                        {
+                            "name": "Impacto verdadero",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Mano de mago",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Rayo de escarcha",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Rociada venenosa",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Rayo de fuego",
+                            "prepared": "false"
+                        }
+                    ],
+                    "slots": []
+                },
+                "1st-level": {
+                    "spells": [
+                        {
+                            "name": "Grasa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hechizar persona",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Proyectil mágico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Armadura de mago",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Encontrar familiar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Imagen silenciosa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Entender idiomas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Dormir",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Retirada expeditiva",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rociada de color",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Escudo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Falsa vida",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "2nd-level": {
+                    "spells": [
+                        {
+                            "name": "Alterar el propio aspecto",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Paso brumoso",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo abrasador",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar pensamientos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Levitar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ceguera/sordera",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera de llamas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invisibilidad",
+                            "prepared": "1"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "3rd-level": {
+                    "spells": [
+                        {
+                            "name": "Animar a los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hablar con los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Volar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Bola de fuego",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Relámpago",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Toque vampírico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Clarividencia",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false,
+                        false
+                    ]
+                },
+                "4th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "5th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "6th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "7th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "8th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "9th-level": {
+                    "spells": [],
+                    "slots": []
+                }
+            },
+            "inventoryData": {
+                "equipment": [
+                    {
+                        "name": "Capa con runas",
+                        "uniqueId": "item-1756659266075-4b0928c6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1756660760382-82ed676b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
+                    },
+                    {
+                        "name": "Bastón de Acelerar",
+                        "uniqueId": "item-1756663384324-9b6c8ddb",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "20 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Bastón",
+                        "uniqueId": "item-1756664779683-e5b7da08",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "2 sp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1756664889350-23e1b9b0",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1756664913705-2bbed02c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1756664928386-7f4e70ee",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Martillo ligero",
+                        "uniqueId": "item-1756665157600-a30d6b29",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Poción de curación",
+                        "uniqueId": "item-1756666284136-db46bf3d",
+                        "quantity": 4,
+                        "weight": 2,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Varita de Armadura de Mago",
+                        "uniqueId": "item-1756670608780-0e699639",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Túnica de Agati",
+                        "uniqueId": "item-1756671255752-9730fb1f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "15000 gp",
+                        "equipped": true
+                    }
+                ],
+                "backpack": [
+                    {
+                        "name": "Libro de hechizos",
+                        "uniqueId": "item-1756660543171-d50b4add",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "50 gp"
+                    },
+                    {
+                        "name": "Mochila",
+                        "uniqueId": "item-1756660682429-22215c87",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Libro",
+                        "uniqueId": "item-1756660682431-6cb33b37",
+                        "quantity": 4,
+                        "weight": 20,
+                        "cost": "25 gp"
+                    },
+                    {
+                        "name": "Tinta (botella de 1 onza)",
+                        "uniqueId": "item-1756660682432-d44c4935",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "10 gp"
+                    },
+                    {
+                        "name": "Bolígrafo de tinta",
+                        "uniqueId": "item-1756660682433-9d742a4b",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Pergamino (una hoja)",
+                        "uniqueId": "item-1756660682433-5fedbe2d",
+                        "quantity": 10,
+                        "weight": 0,
+                        "cost": "1 sp"
+                    },
+                    {
+                        "name": "Pequeña bolsa de arena",
+                        "uniqueId": "item-1756660682434-fcadf07c",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Cuchillo pequeño",
+                        "uniqueId": "item-1756660682435-cbcceed1",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Kit de herbolario",
+                        "uniqueId": "item-1756660882312-f4605458",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 gp"
+                    },
+                    {
+                        "name": "Cristal",
+                        "uniqueId": "item-1757219112011-7d5eeba0",
+                        "quantity": 10,
+                        "weight": 10,
+                        "cost": "10 gp"
+                    }
+                ],
+                "other-possessions": [
+                    {
+                        "name": "Gema Radiante",
+                        "uniqueId": "item-1756664808163-1e231520",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "1000 gp"
+                    },
+                    {
+                        "name": "Gema Opaca",
+                        "uniqueId": "item-1756665211827-4a90abfc",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "100 gp"
+                    },
+                    {
+                        "name": "Gema Común",
+                        "uniqueId": "item-1756665229834-26321b9f",
+                        "quantity": 2,
+                        "weight": 0,
+                        "cost": "50 gp"
+                    }
+                ],
+                "attunement": []
+            },
+            "groupTraitData": [
+                {
+                    "group-title": "Elfo",
+                    "group-chevron": true,
+                    "traits": [
+                        {
+                            "traitName": "Ascendencia Feerica",
+                            "cheveron": false,
+                            "traitDescription": "- Tienes ventaja en las tiradas de salvación contra Encantamiento\n- No puedes ser dormido mediante la magia.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "combatStats",
+                            "adjustmentSubCategory": "AC",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Visión en la oscuridad",
+                            "cheveron": false,
+                            "traitDescription": "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Trance",
+                            "cheveron": false,
+                            "traitDescription": "- El descanso largo equivale a una meditación de 4 horas.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Ermitaño",
+                    "group-chevron": true,
+                    "traits": [
+                        {
+                            "traitName": "Revelación",
+                            "cheveron": false,
+                            "traitDescription": "La reclusión pacífica de tu extendido aislamiento te dio acceso a un único y poderoso descubrimiento. La exacta naturaleza de esta revelación depende de la naturaleza de tu reclusión. Podría ser una gran verdad acerca del cosmos, las deidades, los seres poderosos de otros planos o las fuerzas de la naturaleza. Podría ser un sitio que nadie más vio nunca. Podrías haber descubierto un hecho que fue olvidado hace mucho, o desenterrado alguna reliquia del pasado que podría reescribir la historia. Podría ser información potencialmente dañina para la gente que te consignó al exilio, y he ahí la razón por la cual regresas a la sociedad.\n\nCuando estaba en el campamento de los mercenarios se le reveló que estaba escrito en el lenguaje de las hadas.\nDelerion puede leer texto escrito en lenguaje de las hadas, pero lo olvida inmediatamente.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "CHA",
+                            "adjustmentValue": "0",
+                            "resetType": "long rest"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "Conjuros en libros y pergaminos encontrados",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Nivel 1",
+                            "noteContent": "- Sirviente invisible\n- Manos ardientes\n- Caida de pluma\n- Orbe cromatico\n- Rayo de enfermedad\n- Telaraña (pergamino)"
+                        },
+                        {
+                            "noteTitle": "Nivel 2",
+                            "noteContent": "- Descanso apacible\n- Flecha acida de Melf\n- Esfera flamífera\n- Rayo debilitador"
+                        },
+                        {
+                            "noteTitle": "Nivel 3",
+                            "noteContent": "- Transferencia de vida\n- Imponer maldicion"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Palabras",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Sylor",
+                            "noteContent": "Activa la sala del tesoro."
+                        },
+                        {
+                            "noteTitle": "Aelun",
+                            "noteContent": ""
+                        },
+                        {
+                            "noteTitle": "Carmis",
+                            "noteContent": ""
+                        },
+                        {
+                            "noteTitle": "Vesmark",
+                            "noteContent": ""
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Revelaciones",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Epifanía al aparecer en la última salaas",
+                            "noteContent": "En el sur hay cadaveres de mejor calidad para interrogar."
+                        }
+                    ]
+                }
+            ],
+            "extrasData": [
+                {
+                    "name": "Búho (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Araña (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Caballito de Mar (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Comadreja (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Cuervo (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Gato (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Murciélago (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Halcón (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Pulpo (A)",
+                    "currentHp": "3",
+                    "maxHp": "3",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Rana (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Rata (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Serpiente Venenosa (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Zombi (A)",
+                    "currentHp": "22",
+                    "maxHp": "22",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Esqueleto (A)",
+                    "currentHp": "13",
+                    "maxHp": "13",
+                    "tempHp": "0"
+                }
+            ]
+        },
+        "Skitrixx \"Stix Ernesto\" Koboldtanz": {
+            "characterTempHp": "0",
+            "currentHitDice": "0",
+            "insp": 1,
+            "upcastToggle": 1,
+            "exhaustionToggle": 0,
+            "playerWeaponProficiency": [],
+            "playerArmorProficiency": [],
+            "playerLanguageProficiency": [],
+            "playerToolsProficiency": [],
+            "initiativeButton": "+3",
+            "AC": "13",
+            "speed": "30ft.",
+            "characterLevel": "6",
+            "playerXP": "17560",
+            "playerClass": "Rogue",
+            "currentCharacterHP": "47",
+            "maxCharacterHP": "47",
+            "strengthScore": "8",
+            "dexterityScore": "16",
+            "constitutionScore": "13",
+            "intelligenceScore": "8",
+            "wisdomScore": "8",
+            "charismaScore": "16",
+            "acrobaticsMod": "DES",
+            "animalHandlingMod": "SAB",
+            "arcanaMod": "INT",
+            "athleticsMod": "FUE",
+            "deceptionMod": "CAR",
+            "historyMod": "INT",
+            "insightMod": "SAB",
+            "intimidationMod": "CAR",
+            "investigationMod": "INT",
+            "medicineMod": "SAB",
+            "natureMod": "INT",
+            "perceptionMod": "SAB",
+            "performanceMod": "CAR",
+            "persuasionMod": "CAR",
+            "religionMod": "INT",
+            "sleightofHandMod": "DES",
+            "stealthMod": "DES",
+            "survivalMod": "SAB",
+            "": 1,
+            "hitDiceButton": "0d8",
+            "pb-1": 1,
+            "pb-2": 0,
+            "pb-3": 0,
+            "pb-4": 0,
+            "pb-5": 1,
+            "pb-6": 0,
+            "pb-7": 1,
+            "pb-8": 0,
+            "pb-9": 0,
+            "pb-10": 0,
+            "pb-11": 0,
+            "pb-12": 1,
+            "pb-13": 0,
+            "pb-14": 1,
+            "pb-15": 0,
+            "pb-16": 2,
+            "pb-17": 2,
+            "pb-18": 0,
+            "pb-19": 0,
+            "pb-20": 0,
+            "pb-21": 0,
+            "pb-22": 0,
+            "pb-23": 0,
+            "pb-24": 0,
+            "conditions": [],
+            "coins": {
+                "cp": 50,
+                "sp": 0,
+                "ep": 0,
+                "gp": 15,
+                "pp": 0
+            },
+            "alignment": "TN",
+            "actionTable": [
+                {
+                    "1": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Dagger",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+6",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "DES",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "0",
+                        "damageBonus": "0",
+                        "tenthColumn": "Small, Single-Handed",
+                        "elventhColumn": "A brightly Colored Maul",
+                        "twelvethColumn": "Piercing",
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Shortbow",
+                        "itemId": "item-1746239860521-0b3033f4",
+                        "thirdColumn": "80ft/320ft",
+                        "fourthColumn": "+6",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "DES",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Ammunition, Two-Handed",
+                        "elventhColumn": "A compact and lightweight ranged weapon, ideal for quick shots at medium distances. It is favored for its ease of use and portability, often carried by hunters or scouts.",
+                        "twelvethColumn": "Piercing",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "3": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Sneak Attack",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+6",
+                        "fifthColumn": "4d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "DES",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Heavy, Two-Handed",
+                        "elventhColumn": "A brightly Colored Maul",
+                        "twelvethColumn": "",
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                }
+            ],
+            "spellData": {
+                "spellcastingModifier": "CHA",
+                "spelllevelselected": "0",
+                "Cantrip": {
+                    "spells": [
+                        {
+                            "name": "Message",
+                            "prepared": "false"
+                        }
+                    ],
+                    "slots": []
+                },
+                "1st-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "2nd-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "3rd-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "4th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "5th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "6th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "7th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "8th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "9th-level": {
+                    "spells": [],
+                    "slots": []
+                }
+            },
+            "inventoryData": {
+                "equipment": [
+                    {
+                        "name": "Agua bendita (frasco)",
+                        "uniqueId": "item-1758415291298-d9165f7c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "25 gp"
+                    }
+                ],
+                "backpack": [],
+                "other-possessions": [],
+                "attunement": []
+            },
+            "groupTraitData": [
+                {
+                    "group-title": "Haste",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Haste",
+                            "cheveron": false,
+                            "traitDescription": "Haste spell (+1 att/round, +2 AC, +100% speed, +DEX savings)",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "combatStats",
+                            "adjustmentSubCategory": "AC",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Equipment",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Boots of Elvenkind",
+                            "cheveron": false,
+                            "traitDescription": "bota",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "skills",
+                            "adjustmentSubCategory": "Stealth",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "3",
+                            "resetType": "none",
+                            "advantage": false,
+                            "disadvantage": false
+                        }
+                    ]
+                },
+                {
+                    "group-title": "temp",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "temp",
+                            "cheveron": false,
+                            "traitDescription": "opio del vial",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "attributes",
+                            "adjustmentSubCategory": "CHA",
+                            "adjustmentAbility": "CHA",
+                            "adjustmentValue": "2",
+                            "resetType": "none"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "test",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "aux inventory",
+                            "noteContent": "piedra\nalgodon\nticket de un bar\nflyer para la gran feria del queso\npalo con estopa\nDaga goblin ornamentada\nMonedas de Cu x 50\nLibro de hechizos del goblin\ntrampa arcana del más alto nivel\nanillo de oro\ncarta con la firma de la orden noble para recuperar el amuleto del oráculo\nEstuche con 3 ampollas de la asistente de Emilio\n\n---\n\nSir Edric de Amondear\nEpitafio: “Fue ley, fue luz, fue escudo. Cayó sin rendirse.”\n\nLady Calendra Lys de Norwyn\nEpitafio: “Sus manos sanaban, su juicio pesaba.”\n\nSir Baltras del Alba Eterna\nEpitafio: “En la luz juzgó. En la sombra, no dudó.”\n\nDame Ysmena de Corlanth\nEpitafio: “Donde otros dudaron, ella se adelantó.”\n\nSir Tavric el Implacable\nEpitafio: “Solo dobló la rodilla ante la ley.”\n\nDame Lucille Ferrant\nEpitafio: “Caminó por el filo del juicio.”\n\nSir Galvain Mornclad\nEpitafio: “Habló con su espada, respondió con su fe.”\n\nLady Mariel del Silencio\nCapa de las Juramentadas (permite lanzar silencio 1/día).\n"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "notes": []
+                }
+            ],
+            "extrasData": []
+        }
+    },
+    "DmNotes": {
+        "groupNotesData": [
+            {
+                "group-title": "Notas importantes",
+                "group-chevron": false,
+                "notes": [
+                    {
+                        "noteTitle": "Trolos",
+                        "noteContent": "Putos todos"
+                    }
+                ]
+            },
+            {
+                "group-title": "",
+                "group-chevron": false,
+                "notes": []
+            }
+        ]
+    },
+    "Encounter Data": {
+        "Encuentro 01": [
+            {
+                "isMonster": 1,
+                "init": "20",
+                "name": "Wraith (A)",
+                "currentHp": "20",
+                "maxHp": "67",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Adler",
+                "talespireId": "34c58d3f-270d-492e-93c0-3f0e4b12fcc8",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 23,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Skitrixx \"Stix Ernesto\" Koboldtanz",
+                "talespireId": "403b99d9-3d1e-461c-b35a-1f2fcf10bcd3",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 14,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Joaquín Senn",
+                "talespireId": "9c46e975-5507-443b-b729-757404e8c172",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 11,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Varka",
+                "talespireId": "77868f4d-5229-47aa-9dbe-fa72cddd12a9",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 10,
+                "passivePerception": 0,
+                "spellSave": 0
+            }
+        ],
+        "Templo del Círculo Eterno 01": [
+            {
+                "isMonster": 1,
+                "init": "13",
+                "name": "Stone Golem (A)",
+                "currentHp": "143",
+                "maxHp": "178",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Skitrixx \"Stix Ernesto\" Koboldtanz",
+                "talespireId": "403b99d9-3d1e-461c-b35a-1f2fcf10bcd3",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 10,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Delerion",
+                "talespireId": "9c46e975-5507-443b-b729-757404e8c172",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 22,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": true,
+                "name": "Calvus Thrennor",
+                "talespireId": null,
+                "hp": {
+                    "current": 40,
+                    "max": 40
+                },
+                "ac": 14,
+                "initiative": 7,
+                "passivePerception": 0,
+                "spellSave": 12
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Varka",
+                "talespireId": "77868f4d-5229-47aa-9dbe-fa72cddd12a9",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 6,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Adler",
+                "talespireId": "34c58d3f-270d-492e-93c0-3f0e4b12fcc8",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 5,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "PowerStrings",
+                "talespireId": "34c58d3f-270d-492e-93c0-3f0e4b12fcc8",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 0,
+                "passivePerception": 0,
+                "spellSave": 0
+            }
+        ],
+        "AutoSaveTemporary": [
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Varka",
+                "talespireId": "77868f4d-5229-47aa-9dbe-fa72cddd12a9",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 0,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Skitrixx \"Stix Ernesto\" Koboldtanz",
+                "talespireId": "403b99d9-3d1e-461c-b35a-1f2fcf10bcd3",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 0,
+                "passivePerception": 0,
+                "spellSave": 0
+            }
+        ]
+    }
+}
