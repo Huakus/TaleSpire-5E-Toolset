@@ -5,9 +5,7 @@
 #>
 
 # --- Descubrir rutas y rama automáticamente ---
-# $PSScriptRoot = carpeta donde está este .ps1  → …\Symbiote\scripts
 $ScriptsDir = $PSScriptRoot
-# El repo es la carpeta padre → …\Symbiote
 $Repo = (Resolve-Path (Join-Path $ScriptsDir "..")).Path
 
 # Detectar rama actual; si falla, usar "main"
@@ -15,6 +13,13 @@ try {
   $Branch = (git -C $Repo rev-parse --abbrev-ref HEAD).Trim()
   if (-not $Branch) { $Branch = "main" }
 } catch { $Branch = "main" }
+
+# --- Auto-curar problemas con origin/HEAD ---
+try {
+  git -C $Repo fetch --all --prune | Out-Null
+  git -C $Repo remote set-head origin -a | Out-Null
+  git -C $Repo branch -u origin/$Branch $Branch | Out-Null
+} catch { }
 
 # --- Logging dentro del repo ---
 $LogDir = Join-Path $Repo "scripts\logs"
