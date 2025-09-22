@@ -1244,11 +1244,11 @@
                 "1st-level": {
                     "spells": [
                         {
-                            "name": "Detect Evil and Good",
+                            "name": "Detectar el bien y el mal",
                             "prepared": "1"
                         },
                         {
-                            "name": "Detect Poison and Disease",
+                            "name": "Detectar venenos y enfermedades",
                             "prepared": "1"
                         }
                     ],
