@@ -1272,9 +1272,7 @@
                             "prepared": "1"
                         }
                     ],
-                    "slots": [
-                        false
-                    ]
+                    "slots": []
                 },
                 "3rd-level": {
                     "spells": [
