@@ -599,7 +599,7 @@
             "groupNotesData": [
                 {
                     "group-title": "Conjuros en libros y pergaminos encontrados",
-                    "group-chevron": true,
+                    "group-chevron": false,
                     "notes": [
                         {
                             "noteTitle": "Nivel 1",
@@ -617,7 +617,7 @@
                 },
                 {
                     "group-title": "Palabras",
-                    "group-chevron": true,
+                    "group-chevron": false,
                     "notes": [
                         {
                             "noteTitle": "Sylor",
@@ -639,7 +639,7 @@
                 },
                 {
                     "group-title": "Revelaciones",
-                    "group-chevron": true,
+                    "group-chevron": false,
                     "notes": [
                         {
                             "noteTitle": "Epifanía al aparecer en la última sala",
