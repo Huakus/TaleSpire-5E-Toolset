@@ -393,21 +393,6 @@
                         "weight": 1,
                         "cost": "15000 gp",
                         "equipped": true
-                    },
-                    {
-                        "name": "Veneno, básico (vial)",
-                        "uniqueId": "item-1758510116618-aab10c7f",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "100 gp"
-                    },
-                    {
-                        "name": "Poción de veneno",
-                        "uniqueId": "item-1758510140157-e6a52afc",
-                        "quantity": 1,
-                        "weight": 0.5,
-                        "cost": "2000 gp",
-                        "useable": true
                     }
                 ],
                 "backpack": [
