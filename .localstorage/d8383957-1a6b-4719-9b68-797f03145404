@@ -1347,7 +1347,7 @@
             "groupNotesData": [
                 {
                     "group-title": "Inventario auxiliar",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "notes": [
                         {
                             "noteTitle": "Notas",
