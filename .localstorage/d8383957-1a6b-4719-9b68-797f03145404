@@ -1260,11 +1260,11 @@
                 "2nd-level": {
                     "spells": [
                         {
-                            "name": "Levitate",
+                            "name": "Levitar",
                             "prepared": "1"
                         },
                         {
-                            "name": "Cloud of Daggers*",
+                            "name": "Nube de dagas",
                             "prepared": "1"
                         }
                     ],
