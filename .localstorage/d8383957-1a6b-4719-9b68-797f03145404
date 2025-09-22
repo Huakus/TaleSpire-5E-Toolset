@@ -951,7 +951,15 @@
                 }
             },
             "inventoryData": {
-                "equipment": [],
+                "equipment": [
+                    {
+                        "name": "Pua, hierro",
+                        "uniqueId": "item-1758508535963-23e6da11",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "1 sp"
+                    }
+                ],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
