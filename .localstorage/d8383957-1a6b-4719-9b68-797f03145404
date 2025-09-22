@@ -869,7 +869,7 @@
                 "Cantrip": {
                     "spells": [
                         {
-                            "name": "Message",
+                            "name": "Mensaje",
                             "prepared": "false"
                         },
                         {
