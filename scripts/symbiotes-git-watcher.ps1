@@ -1,9 +1,12 @@
 <#  
   symbiotes-git-watcher.ps1
-  Watcher Git: add/commit (solo si hay cambios) + pull(rebase) + push
-  - auto-cura origin/HEAD
-  - heartbeat 1 minuto
-  - debounce 3s con Register-ObjectEvent (confiable)
+  Ubicación: <Symbiote>\scripts\symbiotes-git-watcher.ps1
+
+  Watcher Git:
+  - add/commit (solo si hay cambios) + pull(rebase) + push automáticos
+  - auto-cura de refs rotas de origin/HEAD
+  - heartbeat cada 3 minutos
+  - debounce 30 segundos
   - sin logs a disco
   - flags: -Once (una corrida) y -VerboseMode (salida a consola)
 #>
@@ -70,48 +73,40 @@ function Sync-Git {
   }
 }
 
-# --- Debounce confiable (3s) con Register-ObjectEvent ---
+# --- Debounce confiable (30s) con Register-ObjectEvent ---
 $timer = New-Object System.Timers.Timer
-$timer.Interval = 3000
+$timer.Interval = 30000           # 30 segundos
 $timer.AutoReset = $false
-# Suscripción explícita para que el handler viva
 $timerSub = Register-ObjectEvent -InputObject $timer -EventName Elapsed -Action {
-  # Este bloque corre en otro runspace; llamamos a Sync-Git por nombre (está en el global scope del host)
   Sync-Git
-  Write-Host ([string]::Format("[{0}] Debounce → Sync", (Get-Date).ToString("HH:mm:ss"))) | Out-Null
+  Write-Host ("[{0}] Debounce → Sync" -f (Get-Date).ToString("HH:mm:ss")) | Out-Null
 }
-$timer.Start() | Out-Null
-$timer.Stop()  | Out-Null  # arranca parado; lo rearmamos en cada evento
+$timer.Stop()  | Out-Null
 
 # --- Watcher de archivos ---
 $fsw = New-Object System.IO.FileSystemWatcher
 $fsw.Path  = $Repo
 $fsw.IncludeSubdirectories = $true
-$fsw.Filter = "*.*"
-# Opcional: más señales
+$fsw.Filter = "*"   # importante: capta archivos con y sin extensión
 $fsw.NotifyFilter = [IO.NotifyFilters]'FileName, DirectoryName, LastWrite, LastAccess, Size, Attributes, Security, CreationTime'
 $fsw.EnableRaisingEvents = $true
 
-# Ignorar por path (más fuerte que regex)
+# Ignorar por path
 $gitDir     = (Join-Path $Repo ".git")
 $scriptsDir = (Join-Path $Repo "scripts")
-
 $ignoreRegexes = @("\.tmp$", "\.lock$", "sync-conflict-")
 
 $action = {
   param($source, $eventArgs)
   $path = $eventArgs.FullPath
 
-  # Ignorar todo lo bajo .git\ y scripts\ (incluye este mismo archivo)
-  if ($path.StartsWith($gitDir, [System.StringComparison]::OrdinalIgnoreCase)) { return }
+  if ($path.StartsWith($gitDir,     [System.StringComparison]::OrdinalIgnoreCase)) { return }
   if ($path.StartsWith($scriptsDir, [System.StringComparison]::OrdinalIgnoreCase)) { return }
-
   foreach($r in $ignoreRegexes){ if ($path -match $r) { return } }
 
   Write-Host ("[{0}] Evento: {1} → {2}" -f (Get-Date).ToString("HH:mm:ss"), $eventArgs.ChangeType, $path) | Out-Null
 
-  # Rearmar debounce
-  $timer.Stop() | Out-Null
+  $timer.Stop()  | Out-Null
   $timer.Start() | Out-Null
 }
 
@@ -120,9 +115,9 @@ $eh2 = Register-ObjectEvent $fsw Changed -Action $action
 $eh3 = Register-ObjectEvent $fsw Renamed -Action $action
 $eh4 = Register-ObjectEvent $fsw Deleted -Action $action
 
-# --- Heartbeat (cada 1 min) ---
+# --- Heartbeat (cada 3 minutos) ---
 $hb = New-Object System.Timers.Timer
-$hb.Interval = 60 * 1000
+$hb.Interval = 3 * 60 * 1000
 $hb.AutoReset = $true
 $hbSub = Register-ObjectEvent -InputObject $hb -EventName Elapsed -Action { Sync-Git; Write-Host ("[{0}] Heartbeat → Sync" -f (Get-Date).ToString("HH:mm:ss")) | Out-Null }
 $hb.Start()
