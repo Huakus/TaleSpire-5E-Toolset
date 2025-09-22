@@ -960,7 +960,15 @@
                         "cost": "1 sp"
                     }
                 ],
-                "backpack": [],
+                "backpack": [
+                    {
+                        "name": "Vial",
+                        "uniqueId": "item-1758509641490-091a5a62",
+                        "quantity": 3,
+                        "weight": 0,
+                        "cost": "1 gp"
+                    }
+                ],
                 "other-possessions": [],
                 "attunement": []
             },
