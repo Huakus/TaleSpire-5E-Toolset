@@ -1,8 +1,8 @@
 <#  
-  symbiotes-git-watcher.ps1
-  Ubicación esperada: <Symbiote>\scripts\symbiotes-git-watcher.ps1
-  Vigila el repo del Symbiote (carpeta padre de /scripts) y hace add/commit/pull(rebase)/push automáticos,
-  sin commits vacíos y auto-curando refs rotas de origin/HEAD.
+  symbiotes-git-watcher.ps1  (sin logs)
+  Ubicación: <Symbiote>\scripts\symbiotes-git-watcher.ps1
+  Watcher Git: add/commit (solo si hay cambios)/pull(rebase)/push automáticos
+  + auto-cura de refs rotas de origin/HEAD
 #>
 
 # --- Descubrir rutas y rama automáticamente ---
@@ -11,81 +11,46 @@ $Repo = (Resolve-Path (Join-Path $ScriptsDir "..")).Path
 
 # Detectar rama actual; si falla, usar "main"
 try {
-  $Branch = (git -C $Repo rev-parse --abbrev-ref HEAD).Trim()
+  $Branch = (git -C $Repo rev-parse --abbrev-ref HEAD) -replace '\s+$',''
   if (-not $Branch) { $Branch = "main" }
 } catch { $Branch = "main" }
 
-# --- Logging dentro del repo ---
-$LogDir = Join-Path $Repo "scripts\logs"
-$Log    = Join-Path $LogDir "git-watcher.log"
-New-Item -Force -ItemType Directory -Path $LogDir | Out-Null
-function Log($msg){
-  $ts = Get-Date -Format o
-  "$ts  $msg" | Out-File -FilePath $Log -Append -Encoding utf8
-}
+$ErrorActionPreference = "SilentlyContinue"
 
-$ErrorActionPreference = "Continue"
-
-# --- Auto-curar problemas con origin/HEAD (robusto) ---
+# --- Auto-curar problemas con origin/HEAD (robusto, sin salida) ---
+try { git -C $Repo update-ref -d refs/remotes/origin/HEAD 2>$null | Out-Null } catch { }
 try {
-  # Eliminar ref rota (si existe)
-  git -C $Repo update-ref -d refs/remotes/origin/HEAD 2>$null | Out-Null
-} catch { }
-try {
-  # Borrar archivo suelto de la ref (si quedó)
   $headRefFile = Join-Path $Repo ".git\refs\remotes\origin\HEAD"
-  if (Test-Path $headRefFile) {
-    Remove-Item $headRefFile -Force -ErrorAction SilentlyContinue
-  }
+  if (Test-Path $headRefFile) { Remove-Item $headRefFile -Force -ErrorAction SilentlyContinue }
 } catch { }
 try {
-  # Podar y traer refs limpias
-  git -C $Repo fetch --all --prune | Out-Null
-
-  # Fijar HEAD del remoto a la rama seleccionada (o autodetectar con -a)
+  git -C $Repo fetch --all --prune 2>$null | Out-Null
   git -C $Repo remote set-head origin $Branch 2>$null | Out-Null
-  # Alternativa automática:
-  # git -C $Repo remote set-head origin -a 2>$null | Out-Null
-
-  # Alinear upstream local (por si se perdió)
   git -C $Repo branch -u origin/$Branch $Branch 2>$null | Out-Null
-
-  # Crear simbólica de respaldo si hiciera falta
   git -C $Repo symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/$Branch 2>$null | Out-Null
-
-  Log "Auto-cura origin/HEAD aplicada (branch=$Branch)."
-} catch {
-  Log "Auto-cura origin/HEAD: $($_.Exception.Message)"
-}
+} catch { }
 
 # --- Ajustes útiles de Git ---
-git -C $Repo config pull.rebase true       | Out-Null
-git -C $Repo config rebase.autoStash true  | Out-Null
+git -C $Repo config pull.rebase true       2>$null | Out-Null
+git -C $Repo config rebase.autoStash true  2>$null | Out-Null
 
 # --- Función de sincronización completa (sin commits vacíos) ---
 function Sync-Git {
   try {
-    Log "SYNC start"
+    git -C $Repo add -A 2>$null | Out-Null
 
-    git -C $Repo add -A | Out-Null
-
-    # Solo commit si hay cambios reales
-    if (git -C $Repo status --porcelain) {
-      git -C $Repo commit -m "auto: $(Get-Date -Format o)" | Out-Null
+    # Commit solo si hay cambios reales
+    if (git -C $Repo status --porcelain 2>$null) {
+      git -C $Repo commit -m "auto: $(Get-Date -Format o)" 2>$null | Out-Null
     }
 
-    git -C $Repo fetch origin                                  | Out-Null
-    git -C $Repo pull --rebase --autostash origin $Branch      | Out-Null
-    git -C $Repo push origin $Branch                           | Out-Null
-
-    Log "SYNC ok"
-  }
-  catch {
-    Log "SYNC error: $($_.Exception.Message)"
-  }
+    git -C $Repo fetch origin                              2>$null | Out-Null
+    git -C $Repo pull --rebase --autostash origin $Branch  2>$null | Out-Null
+    git -C $Repo push origin $Branch                       2>$null | Out-Null
+  } catch { }
 }
 
-# --- Debounce (agrupar eventos) ---
+# --- Debounce (agrupar eventos ~2s) ---
 $timer = New-Object System.Timers.Timer
 $timer.Interval = 2000
 $timer.AutoReset = $false
@@ -112,7 +77,7 @@ Register-ObjectEvent $fsw Changed -Action $action  | Out-Null
 Register-ObjectEvent $fsw Renamed -Action $action  | Out-Null
 Register-ObjectEvent $fsw Deleted -Action $action  | Out-Null
 
-# --- Heartbeat (seguro cada 5 minutos) ---
+# --- Heartbeat (por si se pierde un evento) cada 5 min ---
 $hb = New-Object System.Timers.Timer
 $hb.Interval = 5 * 60 * 1000
 $hb.AutoReset = $true
@@ -121,5 +86,4 @@ $hb.Start()
 
 # --- Sync inicial + loop ---
 Sync-Git
-Log "Watcher iniciado. Repo: $Repo | Rama: $Branch"
 while ($true) { Start-Sleep -Seconds 5 }
