@@ -372,9 +372,9 @@
     },
     "ThemeSettings": {
         "UserTheme": {
-            "selectedTheme": "alternate-theme-red",
-            "primaryColor": null,
-            "secondaryColor": null
+            "selectedTheme": "alternate-theme-custom",
+            "primaryColor": "#166325",
+            "secondaryColor": "#345678"
         }
     }
 }
