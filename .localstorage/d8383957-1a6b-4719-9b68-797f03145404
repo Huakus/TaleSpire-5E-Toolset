@@ -1249,11 +1249,11 @@
                     "spells": [
                         {
                             "name": "Detectar el bien y el mal",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Detectar venenos y enfermedades",
-                            "prepared": "1"
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -1265,11 +1265,11 @@
                     "spells": [
                         {
                             "name": "Levitar",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Nube de dagas",
-                            "prepared": "1"
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
@@ -1278,7 +1278,7 @@
                     "spells": [
                         {
                             "name": "Disipar magia",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Volar",
