@@ -894,7 +894,11 @@
                             "prepared": "0"
                         },
                         {
-                            "name": "Imagen silenciosa",
+                            "name": "Comando",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hechizar persona",
                             "prepared": "0"
                         }
                     ],
