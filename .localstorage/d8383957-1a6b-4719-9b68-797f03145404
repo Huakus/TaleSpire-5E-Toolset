@@ -1072,6 +1072,378 @@
                 }
             ],
             "extrasData": []
+        },
+        "Varka": {
+            "characterTempHp": "0",
+            "currentHitDice": "0",
+            "insp": 0,
+            "upcastToggle": 1,
+            "exhaustionToggle": 0,
+            "playerWeaponProficiency": [],
+            "playerArmorProficiency": [],
+            "playerLanguageProficiency": [
+                "Common",
+                "Elvish",
+                "Sylvan"
+            ],
+            "playerToolsProficiency": [
+                "Herbalism Kit"
+            ],
+            "initiativeButton": "+2",
+            "AC": "12",
+            "speed": "30ft.",
+            "characterLevel": "6",
+            "playerXP": "14000",
+            "playerClass": "Class (SubClass)",
+            "currentCharacterHP": "38",
+            "maxCharacterHP": "38",
+            "strengthScore": "8",
+            "dexterityScore": "15",
+            "constitutionScore": "15",
+            "intelligenceScore": "8",
+            "wisdomScore": "10",
+            "charismaScore": "16",
+            "acrobaticsMod": "DEX",
+            "animalHandlingMod": "WIS",
+            "arcanaMod": "INT",
+            "athleticsMod": "STR",
+            "deceptionMod": "CHA",
+            "historyMod": "INT",
+            "insightMod": "WIS",
+            "intimidationMod": "CHA",
+            "investigationMod": "INT",
+            "medicineMod": "WIS",
+            "natureMod": "INT",
+            "perceptionMod": "WIS",
+            "performanceMod": "CHA",
+            "persuasionMod": "CHA",
+            "religionMod": "INT",
+            "sleightofHandMod": "DEX",
+            "stealthMod": "DEX",
+            "survivalMod": "WIS",
+            "": 0,
+            "hitDiceButton": "0d8",
+            "pb-1": 0,
+            "pb-2": 0,
+            "pb-3": 0,
+            "pb-4": 0,
+            "pb-5": 0,
+            "pb-6": 0,
+            "pb-7": 0,
+            "pb-8": 0.5,
+            "pb-9": 0,
+            "pb-10": 0.5,
+            "pb-11": 0.5,
+            "pb-12": 0,
+            "pb-13": 0,
+            "pb-14": 0,
+            "pb-15": 0.5,
+            "pb-16": 0,
+            "pb-17": 0,
+            "pb-18": 0,
+            "pb-19": 0,
+            "pb-20": 0,
+            "pb-21": 0,
+            "pb-22": 0,
+            "pb-23": 1,
+            "pb-24": 1,
+            "conditions": [],
+            "coins": {
+                "cp": 0,
+                "sp": 0,
+                "ep": 0,
+                "gp": 120,
+                "pp": 0
+            },
+            "alignment": "TN",
+            "actionTable": [
+                {
+                    "1": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Maul of Fire",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "-1",
+                        "fifthColumn": "2d6/1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "STR",
+                        "weaponType": "Melee",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Heavy, Two-Handed",
+                        "elventhColumn": "A brightly Colored Maul",
+                        "twelvethColumn": "",
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Crossbow, light +2",
+                        "itemId": "item-1751423731694-6ea680b6",
+                        "thirdColumn": "80ft/320ft",
+                        "fourthColumn": "+7",
+                        "fifthColumn": "1d8",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "DEX",
+                        "weaponType": "Ranged",
+                        "eighthColumn": "2",
+                        "damageBonus": "2",
+                        "tenthColumn": "Ammunition, Loading, Two-Handed",
+                        "elventhColumn": "A small, one-handed ranged weapon that fires bolts with high accuracy, often favored for its ease of use and portability.",
+                        "twelvethColumn": "Piercing",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "3": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Maul of Fire",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "-1",
+                        "fifthColumn": "2d6/1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "STR",
+                        "weaponType": "Melee",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Heavy, Two-Handed",
+                        "elventhColumn": "A brightly Colored Maul",
+                        "twelvethColumn": "",
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": true
+                        }
+                    }
+                }
+            ],
+            "spellData": {
+                "spellcastingModifier": "CHA",
+                "spelllevelselected": "6",
+                "Cantrip": {
+                    "spells": [
+                        {
+                            "name": "Eldritch Blast",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Minor Illusion",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Mage Hand",
+                            "prepared": "false"
+                        }
+                    ],
+                    "slots": []
+                },
+                "1st-level": {
+                    "spells": [
+                        {
+                            "name": "Detect Evil and Good",
+                            "prepared": "1"
+                        },
+                        {
+                            "name": "Detect Poison and Disease",
+                            "prepared": "1"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false
+                    ]
+                },
+                "2nd-level": {
+                    "spells": [
+                        {
+                            "name": "Levitate",
+                            "prepared": "1"
+                        },
+                        {
+                            "name": "Cloud of Daggers*",
+                            "prepared": "1"
+                        }
+                    ],
+                    "slots": [
+                        false
+                    ]
+                },
+                "3rd-level": {
+                    "spells": [
+                        {
+                            "name": "Dispel Magic",
+                            "prepared": "1"
+                        },
+                        {
+                            "name": "Fear",
+                            "prepared": "1"
+                        },
+                        {
+                            "name": "Fly",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": []
+                },
+                "4th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "5th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "6th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "7th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "8th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "9th-level": {
+                    "spells": [],
+                    "slots": []
+                }
+            },
+            "inventoryData": {
+                "equipment": [
+                    {
+                        "name": "Wand",
+                        "uniqueId": "item-1751423539155-09a25cc9",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "10 gp"
+                    },
+                    {
+                        "name": "Backpack",
+                        "uniqueId": "item-1751423595725-701417f1",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Book",
+                        "uniqueId": "item-1751423595727-4407196a",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp"
+                    },
+                    {
+                        "name": "Ink (1 ounce bottle)",
+                        "uniqueId": "item-1751423595728-39656e1a",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "10 gp"
+                    },
+                    {
+                        "name": "Ink pen",
+                        "uniqueId": "item-1751423595729-2866ecaa",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Parchment (one sheet)",
+                        "uniqueId": "item-1751423595730-5f55869c",
+                        "quantity": 10,
+                        "weight": 0,
+                        "cost": "1 sp"
+                    },
+                    {
+                        "name": "Little bag of sand",
+                        "uniqueId": "item-1751423595731-389d669f",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Small knife",
+                        "uniqueId": "item-1751423595732-0d31fed5",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Crossbow, light +2",
+                        "uniqueId": "item-1751423731694-6ea680b6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Potion of Healing",
+                        "uniqueId": "item-1751423790464-46fb1c4a",
+                        "quantity": 1,
+                        "weight": 0.5,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Potion of Healing",
+                        "uniqueId": "item-1751423803264-13a84a77",
+                        "quantity": 1,
+                        "weight": 0.5,
+                        "cost": "50 gp",
+                        "useable": true
+                    }
+                ],
+                "backpack": [],
+                "other-possessions": [],
+                "attunement": []
+            },
+            "groupTraitData": [
+                {
+                    "group-title": "Rasgo del Patron",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Misty escape",
+                            "cheveron": false,
+                            "traitDescription": "cuando recibo dagno , me vuelvo invisible y me teletransporto hasta 18 metros (1/descanso)",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "Inventario auxiliar",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Notas",
+                            "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob"
+                        }
+                    ]
+                }
+            ],
+            "extrasData": []
         }
     },
     "DmNotes": {
