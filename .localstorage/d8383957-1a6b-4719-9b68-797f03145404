@@ -1081,14 +1081,8 @@
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [],
             "playerArmorProficiency": [],
-            "playerLanguageProficiency": [
-                "Common",
-                "Elvish",
-                "Sylvan"
-            ],
-            "playerToolsProficiency": [
-                "Herbalism Kit"
-            ],
+            "playerLanguageProficiency": [],
+            "playerToolsProficiency": [],
             "initiativeButton": "+2",
             "AC": "12",
             "speed": "30ft.",
@@ -1103,24 +1097,24 @@
             "intelligenceScore": "8",
             "wisdomScore": "10",
             "charismaScore": "16",
-            "acrobaticsMod": "DEX",
-            "animalHandlingMod": "WIS",
+            "acrobaticsMod": "DES",
+            "animalHandlingMod": "SAB",
             "arcanaMod": "INT",
-            "athleticsMod": "STR",
-            "deceptionMod": "CHA",
+            "athleticsMod": "FUE",
+            "deceptionMod": "CAR",
             "historyMod": "INT",
-            "insightMod": "WIS",
-            "intimidationMod": "CHA",
+            "insightMod": "SAB",
+            "intimidationMod": "CAR",
             "investigationMod": "INT",
-            "medicineMod": "WIS",
+            "medicineMod": "SAB",
             "natureMod": "INT",
-            "perceptionMod": "WIS",
-            "performanceMod": "CHA",
-            "persuasionMod": "CHA",
+            "perceptionMod": "SAB",
+            "performanceMod": "CAR",
+            "persuasionMod": "CAR",
             "religionMod": "INT",
-            "sleightofHandMod": "DEX",
-            "stealthMod": "DEX",
-            "survivalMod": "WIS",
+            "sleightofHandMod": "DES",
+            "stealthMod": "DES",
+            "survivalMod": "SAB",
             "": 0,
             "hitDiceButton": "0d8",
             "pb-1": 0,
@@ -1165,8 +1159,8 @@
                         "fourthColumn": "-1",
                         "fifthColumn": "2d6/1d4",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "STR",
-                        "weaponType": "Melee",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
                         "tenthColumn": "Heavy, Two-Handed",
@@ -1187,11 +1181,11 @@
                         "secondColumn": "Crossbow, light +2",
                         "itemId": "item-1751423731694-6ea680b6",
                         "thirdColumn": "80ft/320ft",
-                        "fourthColumn": "+7",
+                        "fourthColumn": "+4",
                         "fifthColumn": "1d8",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "DEX",
-                        "weaponType": "Ranged",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "2",
                         "damageBonus": "2",
                         "tenthColumn": "Ammunition, Loading, Two-Handed",
@@ -1214,8 +1208,8 @@
                         "fourthColumn": "-1",
                         "fifthColumn": "2d6/1d4",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "STR",
-                        "weaponType": "Melee",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
                         "tenthColumn": "Heavy, Two-Handed",
@@ -1325,88 +1319,7 @@
                 }
             },
             "inventoryData": {
-                "equipment": [
-                    {
-                        "name": "Wand",
-                        "uniqueId": "item-1751423539155-09a25cc9",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "10 gp"
-                    },
-                    {
-                        "name": "Backpack",
-                        "uniqueId": "item-1751423595725-701417f1",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 gp"
-                    },
-                    {
-                        "name": "Book",
-                        "uniqueId": "item-1751423595727-4407196a",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp"
-                    },
-                    {
-                        "name": "Ink (1 ounce bottle)",
-                        "uniqueId": "item-1751423595728-39656e1a",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "10 gp"
-                    },
-                    {
-                        "name": "Ink pen",
-                        "uniqueId": "item-1751423595729-2866ecaa",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Parchment (one sheet)",
-                        "uniqueId": "item-1751423595730-5f55869c",
-                        "quantity": 10,
-                        "weight": 0,
-                        "cost": "1 sp"
-                    },
-                    {
-                        "name": "Little bag of sand",
-                        "uniqueId": "item-1751423595731-389d669f",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "0 cp"
-                    },
-                    {
-                        "name": "Small knife",
-                        "uniqueId": "item-1751423595732-0d31fed5",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "0 cp"
-                    },
-                    {
-                        "name": "Crossbow, light +2",
-                        "uniqueId": "item-1751423731694-6ea680b6",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Potion of Healing",
-                        "uniqueId": "item-1751423790464-46fb1c4a",
-                        "quantity": 1,
-                        "weight": 0.5,
-                        "cost": "50 gp",
-                        "useable": true
-                    },
-                    {
-                        "name": "Potion of Healing",
-                        "uniqueId": "item-1751423803264-13a84a77",
-                        "quantity": 1,
-                        "weight": 0.5,
-                        "cost": "50 gp",
-                        "useable": true
-                    }
-                ],
+                "equipment": [],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
