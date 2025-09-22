@@ -1237,6 +1237,10 @@
                         {
                             "name": "Mage Hand",
                             "prepared": "false"
+                        },
+                        {
+                            "name": "Estallido Arcano",
+                            "prepared": "false"
                         }
                     ],
                     "slots": []
