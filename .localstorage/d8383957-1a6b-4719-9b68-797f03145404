@@ -884,7 +884,20 @@
                     "slots": []
                 },
                 "1st-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Disfrazarse",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Encontrar familiar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Imagen silenciosa",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": []
                 },
                 "2nd-level": {
