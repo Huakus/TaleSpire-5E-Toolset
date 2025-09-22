@@ -1231,11 +1231,11 @@
                 "Cantrip": {
                     "spells": [
                         {
-                            "name": "Minor Illusion",
+                            "name": "Ilusión menor",
                             "prepared": "false"
                         },
                         {
-                            "name": "Mage Hand",
+                            "name": "Mano de mago",
                             "prepared": "false"
                         },
                         {
