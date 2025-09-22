@@ -369,5 +369,12 @@
             "column1": "2,500 gp",
             "column2": "Instant"
         }
+    },
+    "ThemeSettings": {
+        "UserTheme": {
+            "selectedTheme": "alternate-theme-purple",
+            "primaryColor": null,
+            "secondaryColor": null
+        }
     }
 }
