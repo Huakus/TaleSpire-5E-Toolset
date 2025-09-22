@@ -871,6 +871,14 @@
                         {
                             "name": "Message",
                             "prepared": "false"
+                        },
+                        {
+                            "name": "Ilusión menor",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Mano de mago",
+                            "prepared": "false"
                         }
                     ],
                     "slots": []
@@ -978,7 +986,7 @@
                             "adjustmentCategory": "attributes",
                             "adjustmentSubCategory": "CHA",
                             "adjustmentAbility": "CHA",
-                            "adjustmentValue": "2",
+                            "adjustmentValue": "3",
                             "resetType": "none"
                         }
                     ]
