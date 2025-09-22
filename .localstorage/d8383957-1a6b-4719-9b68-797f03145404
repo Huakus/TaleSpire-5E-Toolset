@@ -865,7 +865,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "CHA",
-                "spelllevelselected": "0",
+                "spelllevelselected": "1",
                 "Cantrip": {
                     "spells": [
                         {
