@@ -1347,11 +1347,19 @@
             "groupNotesData": [
                 {
                     "group-title": "Inventario auxiliar",
-                    "group-chevron": true,
+                    "group-chevron": false,
                     "notes": [
                         {
                             "noteTitle": "Notas",
                             "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob"
+                        },
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
+                        },
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
                         }
                     ]
                 }
