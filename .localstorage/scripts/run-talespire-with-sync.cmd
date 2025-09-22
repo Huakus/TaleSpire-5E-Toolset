@@ -10,7 +10,7 @@ if not exist "%GIT%" set "GIT=%LOCALAPPDATA%\Programs\Git\cmd\git.exe"
 if not exist "%GIT%" set "GIT=git"
 
 rem --- Intervalo de sync (segundos): 180 = 3 minutos (dejé 10 para probar) ---
-set "INTERVAL=180"
+set "INTERVAL=10"
 
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
   "$ErrorActionPreference='SilentlyContinue';" ^
