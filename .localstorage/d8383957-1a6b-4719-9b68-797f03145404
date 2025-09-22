@@ -1363,7 +1363,14 @@
                     ]
                 }
             ],
-            "extrasData": []
+            "extrasData": [
+                {
+                    "name": "Diablillo (A)",
+                    "currentHp": "10",
+                    "maxHp": "10",
+                    "tempHp": "0"
+                }
+            ]
         }
     },
     "DmNotes": {
