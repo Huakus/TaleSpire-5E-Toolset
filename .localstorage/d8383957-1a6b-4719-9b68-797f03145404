@@ -951,15 +951,7 @@
                 }
             },
             "inventoryData": {
-                "equipment": [
-                    {
-                        "name": "Agua bendita (frasco)",
-                        "uniqueId": "item-1758415291298-d9165f7c",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "25 gp"
-                    }
-                ],
+                "equipment": [],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
