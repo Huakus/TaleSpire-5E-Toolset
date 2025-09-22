@@ -865,7 +865,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "CHA",
-                "spelllevelselected": "1",
+                "spelllevelselected": "2",
                 "Cantrip": {
                     "spells": [
                         {
@@ -905,7 +905,12 @@
                     "slots": []
                 },
                 "2nd-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Ver invisibilidad",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": []
                 },
                 "3rd-level": {
