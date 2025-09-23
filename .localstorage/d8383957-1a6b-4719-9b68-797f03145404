@@ -1262,6 +1262,10 @@
                         {
                             "name": "Detectar venenos y enfermedades",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Entender idiomas",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
