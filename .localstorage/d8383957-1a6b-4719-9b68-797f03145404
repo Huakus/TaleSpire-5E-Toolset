@@ -1582,20 +1582,6 @@
                 "initiative": 0,
                 "passivePerception": 0,
                 "spellSave": 0
-            },
-            {
-                "isMonster": 0,
-                "isCustom": false,
-                "name": "Skitrixx \"Stix Ernesto\" Koboldtanz",
-                "talespireId": "403b99d9-3d1e-461c-b35a-1f2fcf10bcd3",
-                "hp": {
-                    "current": 0,
-                    "max": 0
-                },
-                "ac": 0,
-                "initiative": 0,
-                "passivePerception": 0,
-                "spellSave": 0
             }
         ]
     }
