@@ -398,6 +398,27 @@
             "spell_save_dc_type": "",
             "ability_modifier": "no",
             "damage_type_01": "cold"
+        },
+        "Brazos de Hadar": {
+            "name": "Brazos de Hadar",
+            "desc": "Invocas el poder de Hadar, el Hambriento Oscuro. Zarcillos de oscura energía brotan de ti y azotan a todas las criaturas que se encuentren a menos de 10 pies (2 casillas, 3 m). Cada criatura en el área debe realizar una tirada de salvación de Fuerza. En caso de que falle la tirada de salvación, el objetivo sufre 2d6 puntos de daño necrótico y no podrá reaccionar hasta su siguiente turno. En caso de que supere la tirada de salvación la criatura sufre sólo la mitad del daño y ningún otro efecto.",
+            "higher_level": "Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2 o superior, el daño se incrementa con 1d6 por cada nivel de espacio de conjuros por encima de nivel 1.",
+            "material": "",
+            "range": "Personal (un radio de 10 pies [2 casillas])",
+            "components": "V, S",
+            "ritual": "",
+            "duration": "Instantaneous",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "1st-level",
+            "school": "Conjuration",
+            "class": "Warlock",
+            "toHitOrDC": "DC",
+            "damage_dice": "2d6",
+            "damage_dice_upcast": "1d6",
+            "spell_save_dc_type": "str",
+            "ability_modifier": "no",
+            "damage_type_01": "necrotic"
         }
     }
 }
