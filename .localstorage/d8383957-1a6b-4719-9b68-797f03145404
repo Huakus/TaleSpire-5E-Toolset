@@ -1254,6 +1254,10 @@
                         {
                             "name": "Detectar venenos y enfermedades",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Armadura de Agathys",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
