@@ -1284,7 +1284,11 @@
                             "prepared": "0"
                         }
                     ],
-                    "slots": []
+                    "slots": [
+                        false,
+                        false,
+                        false
+                    ]
                 },
                 "3rd-level": {
                     "spells": [
