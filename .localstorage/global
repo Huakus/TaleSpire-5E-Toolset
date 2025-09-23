@@ -377,5 +377,27 @@
             "secondaryColor": "#345678"
         }
     },
-    "Custom Spells": {}
+    "Custom Spells": {
+        "Armadura de Agathys": {
+            "name": "Armadura de Agathys",
+            "desc": "Una fuerza mágica protectora te envuelve, manifestándose como un espectro helado que te cubre a ti y a tu equipo. Ganas 5 puntos temporales de golpe mientras dure el conjuro. Si una criatura te golpea mediante un ataque de cuerpo a cuerpo mientras tienes estos Puntos de Golpe temporales, la criatura sufre 5 puntos de daño por frío. A niveles superiores.",
+            "higher_level": "Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2 o superior, tanto los Puntos de Golpe temporales como los puntos de daño por frio se incrementan en 5 por cada nivel de espacio de conjuros por encima de nivel 1.",
+            "material": "Una copa de agua",
+            "range": "Personal",
+            "components": "V, S, M",
+            "ritual": "",
+            "duration": "1 Hour",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "1st-level",
+            "school": "Abjuration",
+            "class": "Warlock",
+            "toHitOrDC": "",
+            "damage_dice": "",
+            "damage_dice_upcast": "",
+            "spell_save_dc_type": "",
+            "ability_modifier": "no",
+            "damage_type_01": "cold"
+        }
+    }
 }
