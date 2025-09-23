@@ -1382,6 +1382,163 @@
                     "tempHp": "0"
                 }
             ]
+        },
+        "JuanPi": {
+            "characterTempHp": "",
+            "currentHitDice": "1",
+            "insp": 0,
+            "upcastToggle": 1,
+            "exhaustionToggle": 0,
+            "playerWeaponProficiency": [],
+            "playerArmorProficiency": [],
+            "playerLanguageProficiency": [],
+            "playerToolsProficiency": [],
+            "initiativeButton": "+5",
+            "AC": "20",
+            "speed": "30ft.",
+            "characterLevel": "1",
+            "playerXP": "0",
+            "playerClass": "Class (SubClass)",
+            "currentCharacterHP": "0",
+            "maxCharacterHP": "50",
+            "strengthScore": "20",
+            "dexterityScore": "20",
+            "constitutionScore": "20",
+            "intelligenceScore": "20",
+            "wisdomScore": "20",
+            "charismaScore": "20",
+            "acrobaticsMod": "DEX",
+            "animalHandlingMod": "WIS",
+            "arcanaMod": "INT",
+            "athleticsMod": "STR",
+            "deceptionMod": "CHA",
+            "historyMod": "INT",
+            "insightMod": "WIS",
+            "intimidationMod": "CHA",
+            "investigationMod": "INT",
+            "medicineMod": "WIS",
+            "natureMod": "INT",
+            "perceptionMod": "WIS",
+            "performanceMod": "CHA",
+            "persuasionMod": "CHA",
+            "religionMod": "INT",
+            "sleightofHandMod": "DEX",
+            "stealthMod": "DEX",
+            "survivalMod": "WIS",
+            "": 1,
+            "hitDiceButton": "1d8",
+            "pb-1": 0,
+            "pb-2": 0,
+            "pb-3": 0,
+            "pb-4": 0,
+            "pb-5": 0,
+            "pb-6": 0,
+            "pb-7": 0,
+            "pb-8": 0,
+            "pb-9": 0,
+            "pb-10": 0,
+            "pb-11": 0,
+            "pb-12": 0,
+            "pb-13": 0,
+            "pb-14": 0,
+            "pb-15": 0,
+            "pb-16": 0,
+            "pb-17": 0,
+            "pb-18": 0,
+            "pb-19": 0,
+            "pb-20": 0,
+            "pb-21": 0,
+            "pb-22": 0,
+            "pb-23": 0,
+            "pb-24": 0,
+            "conditions": [],
+            "coins": {
+                "cp": 0,
+                "sp": 0,
+                "ep": 0,
+                "gp": 0,
+                "pp": 0
+            },
+            "alignment": "LG",
+            "actionTable": [
+                {
+                    "1": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Maul of Fire",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+7",
+                        "fifthColumn": "2d6/1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Heavy, Two-Handed",
+                        "elventhColumn": "A brightly Colored Maul",
+                        "twelvethColumn": "",
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                }
+            ],
+            "spellData": {
+                "spellcastingModifier": "STR",
+                "spelllevelselected": "0",
+                "Cantrip": {
+                    "spells": [],
+                    "slots": []
+                },
+                "1st-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "2nd-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "3rd-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "4th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "5th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "6th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "7th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "8th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "9th-level": {
+                    "spells": [],
+                    "slots": []
+                }
+            },
+            "inventoryData": {
+                "equipment": [],
+                "backpack": [],
+                "other-possessions": [],
+                "attunement": []
+            },
+            "groupTraitData": [],
+            "groupNotesData": [],
+            "extrasData": []
         }
     },
     "DmNotes": {
