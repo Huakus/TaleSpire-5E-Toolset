@@ -1248,6 +1248,10 @@
                 "1st-level": {
                     "spells": [
                         {
+                            "name": "Armadura de Agathys",
+                            "prepared": "0"
+                        },
+                        {
                             "name": "Detectar el bien y el mal",
                             "prepared": "0"
                         },
