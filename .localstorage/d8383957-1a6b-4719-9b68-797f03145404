@@ -1124,7 +1124,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 0,
+            "": 1,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -1235,11 +1235,11 @@
                 },
                 {
                     "4": {
-                        "proficiencyButton": "0",
+                        "proficiencyButton": "1",
                         "secondColumn": "Ballesta ligera",
                         "itemId": "item-1758674027569-a579fe65",
                         "thirdColumn": "80ft/320ft",
-                        "fourthColumn": "-1",
+                        "fourthColumn": "+2",
                         "fifthColumn": "1d8",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
