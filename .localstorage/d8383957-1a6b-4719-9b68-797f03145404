@@ -1300,13 +1300,6 @@
                         "weight": 5,
                         "cost": "25 gp",
                         "equipped": true
-                    },
-                    {
-                        "name": "Kit de herbolario",
-                        "uniqueId": "item-1758682757857-dca96ff3",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 gp"
                     }
                 ],
                 "backpack": [
@@ -1372,6 +1365,13 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "1 gp"
+                    },
+                    {
+                        "name": "Kit de herbolario",
+                        "uniqueId": "item-1758682778985-854d98ca",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 gp"
                     }
                 ],
                 "other-possessions": [],
