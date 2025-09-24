@@ -1180,7 +1180,13 @@
                         "tenthColumn": "Munición, De carga, Dos manos",
                         "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
                         "twelvethColumn": "Perforante",
-                        "ninthColumn": {}
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
                     }
                 }
             ],
