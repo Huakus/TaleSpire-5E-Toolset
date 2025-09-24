@@ -1198,11 +1198,11 @@
                         "eighthColumn": "",
                         "damageBonus": "",
                         "tenthColumn": "Heavy, Two-Handed",
-                        "elventhColumn": "A brightly Colored Maul",
+                        "elventhColumn": "Puedes forzar a cada criatura en un cubo de 10 pies (3 metros) centrado en ti, a que realice una tirada de salvación de Sabiduría contra la CD de tus conjuros de brujo. Las criaturas que fallen su tirada de salvación quedan hechizadas o asustadas por ti (a tu elección) hasta el final de tu siguiente turno. Una vez que usas este rasgo, no puedes usarlo nuevamente hasta que finalices un descanso corto o prolongado. ",
                         "twelvethColumn": "",
                         "ninthColumn": {
                             "attacks": false,
-                            "actions": false,
+                            "actions": true,
                             "bonus-actions": false,
                             "reactions": false,
                             "other": false
