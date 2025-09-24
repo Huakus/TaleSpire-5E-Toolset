@@ -1478,6 +1478,12 @@
                     "currentHp": "7",
                     "maxHp": "7",
                     "tempHp": "0"
+                },
+                {
+                    "name": "Quasit (A)",
+                    "currentHp": "7",
+                    "maxHp": "7",
+                    "tempHp": "0"
                 }
             ]
         },
