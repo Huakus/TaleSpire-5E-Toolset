@@ -1081,7 +1081,10 @@
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [],
             "playerArmorProficiency": [],
-            "playerLanguageProficiency": [],
+            "playerLanguageProficiency": [
+                "Comun",
+                "Elfo"
+            ],
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
             "AC": "13",
