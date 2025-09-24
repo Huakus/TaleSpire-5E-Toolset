@@ -224,6 +224,10 @@
                         {
                             "name": "Caída de pluma",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Orbe cromatico",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
