@@ -1424,6 +1424,11 @@
                             "resetType": "none"
                         }
                     ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "traits": []
                 }
             ],
             "groupNotesData": [
