@@ -1484,6 +1484,12 @@
                     "currentHp": "7",
                     "maxHp": "7",
                     "tempHp": "0"
+                },
+                {
+                    "name": "Duende (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
                 }
             ]
         },
