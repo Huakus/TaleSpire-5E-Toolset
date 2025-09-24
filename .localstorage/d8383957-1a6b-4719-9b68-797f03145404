@@ -1083,7 +1083,8 @@
             "playerArmorProficiency": [],
             "playerLanguageProficiency": [
                 "Comun",
-                "Elfo"
+                "Elfo",
+                "Sylvano"
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
