@@ -1400,7 +1400,7 @@
             },
             "groupTraitData": [
                 {
-                    "group-title": "Rasgos del Patron",
+                    "group-title": "Patrón: Archihada",
                     "group-chevron": true,
                     "traits": [
                         {
@@ -1500,14 +1500,6 @@
                         {
                             "noteTitle": "Notas",
                             "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob"
-                        },
-                        {
-                            "noteTitle": "Nota de prueba",
-                            "noteContent": "descripcion etc. Joaquin"
-                        },
-                        {
-                            "noteTitle": "",
-                            "noteContent": ""
                         }
                     ]
                 }
