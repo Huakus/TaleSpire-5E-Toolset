@@ -1093,7 +1093,7 @@
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
-            "AC": "14",
+            "AC": "18",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "14000",
@@ -1375,6 +1375,14 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Armadura de Placas",
+                        "uniqueId": "item-1758676953639-8eb54d4b",
+                        "quantity": 1,
+                        "weight": 65,
+                        "cost": "1500 gp",
                         "equipped": true
                     }
                 ],
