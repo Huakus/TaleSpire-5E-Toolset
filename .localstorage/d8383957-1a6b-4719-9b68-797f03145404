@@ -1297,6 +1297,14 @@
                         "weight": 10,
                         "cost": "10 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1758681615257-97c68b69",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
