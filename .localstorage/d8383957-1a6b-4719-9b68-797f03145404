@@ -1379,6 +1379,13 @@
                         "quantity": 1,
                         "weight": 0,
                         "cost": "1 sp"
+                    },
+                    {
+                        "name": "Frazada",
+                        "uniqueId": "item-1758683164246-86198ecb",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
                     }
                 ],
                 "other-possessions": [],
