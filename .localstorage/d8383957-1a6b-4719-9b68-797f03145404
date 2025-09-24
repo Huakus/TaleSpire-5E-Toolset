@@ -1080,7 +1080,9 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [],
-            "playerArmorProficiency": [],
+            "playerArmorProficiency": [
+                "Liviano"
+            ],
             "playerLanguageProficiency": [
                 "Comun",
                 "Elfo",
