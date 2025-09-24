@@ -1324,6 +1324,14 @@
                         "weight": 1,
                         "cost": "2 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758681704773-19db50c3",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
