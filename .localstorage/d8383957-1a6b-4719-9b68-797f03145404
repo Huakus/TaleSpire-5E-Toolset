@@ -1412,7 +1412,7 @@
                         {
                             "traitName": "",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
