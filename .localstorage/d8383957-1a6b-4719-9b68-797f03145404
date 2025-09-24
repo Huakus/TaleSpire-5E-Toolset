@@ -1093,7 +1093,7 @@
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
-            "AC": "13",
+            "AC": "14",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "14000",
@@ -1368,6 +1368,14 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "1 gp"
+                    },
+                    {
+                        "name": "Armadura de Cuero",
+                        "uniqueId": "item-1758676564790-f2f0a39a",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "10 gp",
+                        "equipped": true
                     }
                 ],
                 "backpack": [],
