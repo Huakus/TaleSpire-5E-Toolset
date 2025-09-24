@@ -1376,9 +1376,21 @@
                     "group-chevron": false,
                     "traits": [
                         {
-                            "traitName": "Misty escape",
+                            "traitName": "Escape brumoso",
                             "cheveron": false,
                             "traitDescription": "cuando recibo dagno , me vuelvo invisible y me teletransporto hasta 18 metros (1/descanso)",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
@@ -1425,7 +1437,7 @@
                     "traits": [
                         {
                             "traitName": "Lista de conjuros expandida por nivel",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Los siguientes conjuros se añaden a la tu lista de conjuros que puedes aprender.\n\n1- Fuego feérico / Dormir\n2- Calmar emociones / Fuerza fantasmal\n3- Intermitencia / Crecimiento vegetal\n4- Dominar bestia / Invisibilidad mayor\n5- Dominar persona / Similitud",
                             "checkboxStates": [],
                             "numberOfUses": "0",
