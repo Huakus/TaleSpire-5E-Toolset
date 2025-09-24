@@ -1232,6 +1232,31 @@
                             "other": true
                         }
                     }
+                },
+                {
+                    "4": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Ballesta ligera",
+                        "itemId": "item-1758674027569-a579fe65",
+                        "thirdColumn": "80ft/320ft",
+                        "fourthColumn": "-1",
+                        "fifthColumn": "1d8",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Munición, De carga, Dos manos",
+                        "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
                 }
             ],
             "spellData": {
@@ -1338,7 +1363,16 @@
                 }
             },
             "inventoryData": {
-                "equipment": [],
+                "equipment": [
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758674027569-a579fe65",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": true
+                    }
+                ],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
