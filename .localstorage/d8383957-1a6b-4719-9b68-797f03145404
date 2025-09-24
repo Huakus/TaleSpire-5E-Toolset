@@ -1464,20 +1464,6 @@
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
                             "resetType": "none"
-                        },
-                        {
-                            "traitName": "",
-                            "cheveron": false,
-                            "traitDescription": "",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "saves",
-                            "adjustmentSubCategory": "WIS",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none",
-                            "advantage": false,
-                            "disadvantage": false
                         }
                     ]
                 }
