@@ -1372,6 +1372,13 @@
                         "quantity": 1,
                         "weight": 3,
                         "cost": "5 gp"
+                    },
+                    {
+                        "name": "Pergamino de Erudito",
+                        "uniqueId": "item-1758683099219-264df8ff",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "1 sp"
                     }
                 ],
                 "other-possessions": [],
