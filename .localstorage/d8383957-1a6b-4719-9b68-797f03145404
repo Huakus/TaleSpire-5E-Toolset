@@ -1124,7 +1124,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 1,
+            "": 0,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -1182,6 +1182,25 @@
                             "reactions": false,
                             "other": false
                         }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Ballesta ligera",
+                        "itemId": "item-1758681798905-3cdf7d65",
+                        "thirdColumn": "80ft/320ft",
+                        "fourthColumn": "-1",
+                        "fifthColumn": "1d8",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Munición, De carga, Dos manos",
+                        "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {}
                     }
                 }
             ],
@@ -1296,6 +1315,14 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "10 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758681798905-3cdf7d65",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
                         "equipped": true
                     }
                 ],
