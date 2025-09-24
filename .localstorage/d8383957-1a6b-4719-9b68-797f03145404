@@ -1430,9 +1430,9 @@
                     "group-chevron": false,
                     "traits": [
                         {
-                            "traitName": "Lista de conjuros expandida",
+                            "traitName": "Lista de conjuros expandida ",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "1- Fuego feérico, dormir\n2- Calmar emociones, Fuerza fantasmal\n3- Intermitencia, Crecimiento vegetal\n4- Dominar bestia, Invisibilidad mayor\n5- Dominar persona, Similitud",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
