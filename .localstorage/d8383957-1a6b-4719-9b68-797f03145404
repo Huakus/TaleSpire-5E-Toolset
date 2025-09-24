@@ -1163,31 +1163,6 @@
                 {
                     "1": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Ballesta ligera",
-                        "itemId": "item-1758674027569-a579fe65",
-                        "thirdColumn": "80ft/320ft",
-                        "fourthColumn": "+2",
-                        "fifthColumn": "1d8",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Munición, De carga, Dos manos",
-                        "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
-                        "twelvethColumn": "Perforante",
-                        "ninthColumn": {
-                            "attacks": true,
-                            "actions": true,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                },
-                {
-                    "2": {
-                        "proficiencyButton": "1",
                         "secondColumn": "Presencia feérica",
                         "thirdColumn": "5ft",
                         "fourthColumn": "+7",
@@ -1315,14 +1290,6 @@
             },
             "inventoryData": {
                 "equipment": [
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758674027569-a579fe65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
                     {
                         "name": "Armadura de Cuero",
                         "uniqueId": "item-1758676564790-f2f0a39a",
