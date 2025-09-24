@@ -5581,7 +5581,8 @@ function equipShield(item) {
     // Check proficiency
     const normalizedProficiencies = playerArmorProficiency.map(normalize);
     if (!normalizedProficiencies.includes("shield")) {
-        showErrorModal(`Warning: Not proficient with shields`);
+        // showErrorModal(`Warning: Not proficient with shields`);
+        showErrorModal(playerArmorProficiency);
     }
 
     if (item.properties){
