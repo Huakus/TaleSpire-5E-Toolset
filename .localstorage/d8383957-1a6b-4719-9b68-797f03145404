@@ -1395,7 +1395,7 @@
                     "traits": [
                         {
                             "traitName": "Visión en la oscuridad",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Gracias a tu sangre élfica, tienes una visión superior en la oscuridad y la luz tenue.\nPuedes ver en luz tenue hasta los 60 (18 m) pies como si fuera a plena luz, y en la oscuridad como si fuera en luz tenue.\nNo puedes distinguir colores en la oscuridad, sólo tonos de gris.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -1407,7 +1407,7 @@
                         },
                         {
                             "traitName": "Ascendencia Feérica",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
