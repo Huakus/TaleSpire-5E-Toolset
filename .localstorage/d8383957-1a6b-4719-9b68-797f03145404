@@ -13,7 +13,9 @@
                 "Dardo",
                 "Honda",
                 "Espada Larga",
-                "Espada Corta"
+                "Espada Corta",
+                "Arco largo",
+                "Arco corto"
             ],
             "playerArmorProficiency": [],
             "playerLanguageProficiency": [
