@@ -1308,7 +1308,71 @@
                         "equipped": true
                     }
                 ],
-                "backpack": [],
+                "backpack": [
+                    {
+                        "name": "Mochila",
+                        "uniqueId": "item-1758680577843-049a99e3",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Palanca",
+                        "uniqueId": "item-1758680577844-92bc8267",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Martillo",
+                        "uniqueId": "item-1758680577845-814eec2e",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Pitón",
+                        "uniqueId": "item-1758680577846-a696eb6a",
+                        "quantity": 10,
+                        "weight": 2.5,
+                        "cost": "5 cp"
+                    },
+                    {
+                        "name": "Antorcha",
+                        "uniqueId": "item-1758680577847-d4e859e6",
+                        "quantity": 10,
+                        "weight": 10,
+                        "cost": "1 cp"
+                    },
+                    {
+                        "name": "Yesquero",
+                        "uniqueId": "item-1758680577848-3b152092",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Raciones (1 día)",
+                        "uniqueId": "item-1758680577849-03f96dd8",
+                        "quantity": 10,
+                        "weight": 20,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Odre de agua",
+                        "uniqueId": "item-1758680577850-de3cfbcd",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 sp"
+                    },
+                    {
+                        "name": "Cuerda de cáñamo (50 pies)",
+                        "uniqueId": "item-1758680577851-cc819e22",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "1 gp"
+                    }
+                ],
                 "other-possessions": [],
                 "attunement": []
             },
