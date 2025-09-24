@@ -552,7 +552,7 @@
                         {
                             "traitName": "Trance",
                             "cheveron": false,
-                            "traitDescription": "- El descanso largo equivale a una meditación de 4 horas.",
+                            "traitDescription": "- El descanso largo dura 4 horas.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
@@ -565,7 +565,7 @@
                 },
                 {
                     "group-title": "Ermitaño",
-                    "group-chevron": true,
+                    "group-chevron": false,
                     "traits": [
                         {
                             "traitName": "Revelación",
