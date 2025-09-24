@@ -1184,6 +1184,30 @@
                             "other": false
                         }
                     }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Maul of Fire",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+2",
+                        "fifthColumn": "2d6/1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Heavy, Two-Handed",
+                        "elventhColumn": "A brightly Colored Maul",
+                        "twelvethColumn": "",
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
                 }
             ],
             "spellData": {
