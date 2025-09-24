@@ -310,6 +310,28 @@
                 "maxCharges": 3
             },
             "bonus": []
+        },
+        "Pergamino de Erudito": {
+            "index": "pergamino-de-erudito",
+            "name": "Pergamino de Erudito",
+            "equipment_category": {
+                "index": "adventuring-gear",
+                "name": "adventuring-gear"
+            },
+            "description": [
+                "Un rollo de pergamino lleno de notas de tus estudios o plegarias"
+            ],
+            "properties": [],
+            "cost": {
+                "quantity": 1,
+                "unit": "sp"
+            },
+            "weight": 0,
+            "rarity": {
+                "index": "common",
+                "name": "common"
+            },
+            "gearCategory": "Equipo estándar"
         }
     },
     "npcList": {
