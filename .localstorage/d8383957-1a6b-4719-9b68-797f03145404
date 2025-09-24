@@ -1426,11 +1426,11 @@
                     ]
                 },
                 {
-                    "group-title": "Brujo",
+                    "group-title": "Archihada",
                     "group-chevron": false,
                     "traits": [
                         {
-                            "traitName": "",
+                            "traitName": "Lista de conjuros expandida",
                             "cheveron": false,
                             "traitDescription": "",
                             "checkboxStates": [],
