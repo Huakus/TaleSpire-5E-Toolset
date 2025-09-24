@@ -1386,6 +1386,13 @@
                         "quantity": 1,
                         "weight": 3,
                         "cost": "5 sp"
+                    },
+                    {
+                        "name": "Ropa, común",
+                        "uniqueId": "item-1758683177619-9d9829bc",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
                     }
                 ],
                 "other-possessions": [],
