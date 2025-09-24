@@ -5510,7 +5510,8 @@ function equipArmor(item) {
     // Check proficiency
     const normalizedProficiencies = playerArmorProficiency.map(normalize);
     if (!normalizedProficiencies.includes(normalize(item.armor_category)) && item.armor_category !=="None") {
-        showErrorModal(`Warning: Not proficient with ${item.armor_category} Armor`);
+        // showErrorModal(`Warning: Not proficient with ${item.armor_category} Armor`);
+        showErrorModal(playerArmorProficiency);
     }
 
     // Ensure the item gets the uniqueId from the row
@@ -5581,8 +5582,7 @@ function equipShield(item) {
     // Check proficiency
     const normalizedProficiencies = playerArmorProficiency.map(normalize);
     if (!normalizedProficiencies.includes("shield")) {
-        // showErrorModal(`Warning: Not proficient with shields`);
-        showErrorModal(playerArmorProficiency);
+        showErrorModal(`Warning: Not proficient with shields`);
     }
 
     if (item.properties){
