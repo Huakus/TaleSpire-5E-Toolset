@@ -1672,7 +1672,7 @@
       "name": "Armadura",
       "url": "/api/equipment-categories/armor"
     },
-    "armor_category": "Light",
+    "armor_category": "Liviano",
     "armor_class": {
       "base": 11,
       "dex_bonus": true
