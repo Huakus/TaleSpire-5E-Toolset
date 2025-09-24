@@ -5511,7 +5511,7 @@ function equipArmor(item) {
     const normalizedProficiencies = playerArmorProficiency.map(normalize);
     if (!normalizedProficiencies.includes(normalize(item.armor_category)) && item.armor_category !=="None") {
         // showErrorModal(`Warning: Not proficient with ${item.armor_category} Armor`);
-        showErrorModal(`${playerArmorProficiency} - ${item.armor_category}`);
+        showErrorModal(`${normalizedProficiencies} - ${normalize(item.armor_category)}`);
     }
 
     // Ensure the item gets the uniqueId from the row
