@@ -1300,20 +1300,6 @@
                         "equipped": true
                     },
                     {
-                        "name": "Orbe",
-                        "uniqueId": "item-1758674080623-734d1c5b",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "20 gp"
-                    },
-                    {
-                        "name": "Mochila",
-                        "uniqueId": "item-1758676046635-ff0ea49b",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 gp"
-                    },
-                    {
                         "name": "Palanca",
                         "uniqueId": "item-1758676046637-b525dd8d",
                         "quantity": 1,
@@ -1347,27 +1333,6 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "5 sp"
-                    },
-                    {
-                        "name": "Raciones (1 día)",
-                        "uniqueId": "item-1758676046644-bdb87706",
-                        "quantity": 10,
-                        "weight": 20,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Odre de agua",
-                        "uniqueId": "item-1758676046645-e61a0cb7",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 sp"
-                    },
-                    {
-                        "name": "Cuerda de cáñamo (50 pies)",
-                        "uniqueId": "item-1758676046646-d9d18504",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "1 gp"
                     },
                     {
                         "name": "Armadura de Cuero",
