@@ -1372,7 +1372,7 @@
             },
             "groupTraitData": [
                 {
-                    "group-title": "Rasgo del Patron",
+                    "group-title": "Rasgos del Patron",
                     "group-chevron": false,
                     "traits": [
                         {
@@ -1471,6 +1471,12 @@
                     "name": "Diablillo (A)",
                     "currentHp": "10",
                     "maxHp": "10",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Pseudodragón (A)",
+                    "currentHp": "7",
+                    "maxHp": "7",
                     "tempHp": "0"
                 }
             ]
