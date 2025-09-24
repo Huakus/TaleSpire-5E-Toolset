@@ -1124,7 +1124,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 1,
+            "": 0,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -1182,6 +1182,25 @@
                             "reactions": false,
                             "other": false
                         }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Daga",
+                        "itemId": "item-1758681615257-97c68b69",
+                        "thirdColumn": "5ft - 20/60ft",
+                        "fourthColumn": "-1",
+                        "fifthColumn": "1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Sutil, Ligera, Arrojadiza, Monk",
+                        "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {}
                     }
                 }
             ],
@@ -1304,7 +1323,7 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "2 gp",
-                        "equipped": false
+                        "equipped": true
                     }
                 ],
                 "backpack": [
