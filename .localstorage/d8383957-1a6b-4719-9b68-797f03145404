@@ -1432,7 +1432,7 @@
                         {
                             "traitName": "Lista de conjuros expandida por nivel",
                             "cheveron": false,
-                            "traitDescription": "1- Fuego feérico, dormir\n2- Calmar emociones, Fuerza fantasmal\n3- Intermitencia, Crecimiento vegetal\n4- Dominar bestia, Invisibilidad mayor\n5- Dominar persona, Similitud",
+                            "traitDescription": "Los siguientes conjuros se añaden a la tu lista de conjuros que puedes aprender.\n\n1- Fuego feérico / Dormir\n2- Calmar emociones / Fuerza fantasmal\n3- Intermitencia / Crecimiento vegetal\n4- Dominar bestia / Invisibilidad mayor\n5- Dominar persona / Similitud",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
