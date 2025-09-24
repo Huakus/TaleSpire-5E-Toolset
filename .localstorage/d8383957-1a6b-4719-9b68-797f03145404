@@ -1298,6 +1298,13 @@
                         "weight": 5,
                         "cost": "25 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1758674080623-734d1c5b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
                     }
                 ],
                 "backpack": [],
