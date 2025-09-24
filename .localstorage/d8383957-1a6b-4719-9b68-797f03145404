@@ -523,7 +523,7 @@
             "groupTraitData": [
                 {
                     "group-title": "Elfo",
-                    "group-chevron": true,
+                    "group-chevron": false,
                     "traits": [
                         {
                             "traitName": "Ascendencia Feerica",
