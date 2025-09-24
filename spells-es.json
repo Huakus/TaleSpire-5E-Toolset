@@ -1,6 +1,6 @@
 [
     {
-	"name": "Absorber Elementos",
+        "name": "Absorber Elementos",
         "desc": "El hechizo captura parte de la energía entrante, lo que reduce su efecto sobre ti y la almacena para tu próximo ataque cuerpo a cuerpo. Tienes resistencia al tipo de daño desencadenante hasta el comienzo de tu siguiente turno. Además, la primera vez que impactas con un ataque cuerpo a cuerpo en tu próximo turno, el objetivo recibe 1d6 puntos de daño adicionales del tipo desencadenante y el hechizo termina..",
         "higher_level": "Cuando lanzas este hechizo usando un espacio de hechizo de nivel 2 o superior, el daño adicional aumenta en 1d6 por cada nivel de espacio por encima de 1.",
         "page": "phb 211",
@@ -19,7 +19,6 @@
         "spell_save_dc_type": "",
         "ability_modifier": "no",
         "damage_type_01": "Elección"
-        
     },
     {
         "name": "Flecha ácida",
@@ -62,7 +61,6 @@
         "spell_save_dc_type": "des",
         "ability_modifier": "no",
         "damage_type_01": "Ácido"
-        
     },
     {
         "name": "Abrasador de Aganazzar",
@@ -84,7 +82,6 @@
         "spell_save_dc_type": "des",
         "ability_modifier": "no",
         "damage_type_01": "Fuego"
-        
     },
     {
         "name": "Ayuda",
@@ -1654,7 +1651,7 @@
         "class": "Hechicero, Mago",
         "toHitOrDC": "DC",
         "damage_dice": "10d6",
-        "additonal_damage":"40",
+        "additonal_damage": "40",
         "damage_dice_upcast": "3d6",
         "spell_save_dc_type": "dex",
         "ability_modifier": "no",
@@ -3720,7 +3717,7 @@
         "school": "Evocación",
         "class": "Hechicero, Mago",
         "damage_dice": "1d4",
-        "additonal_damage":"1",
+        "additonal_damage": "1",
         "damage_dice_upcast": "",
         "spell_save_dc_type": "",
         "ability_modifier": "no",
@@ -6306,6 +6303,25 @@
         "ability_modifier": "no"
     },
     {
+        "name": "Rayo de enfermedad",
+        "desc": "Un rayo de enfermiza energía verdosa arremete contra una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Con un impacto, el objetivo sufre 2d8 de daño por veneno y debe hacer una tirada de salvación de Constitución; con una salvación fallida, también queda envenenado hasta el final de tu siguiente turno.",
+        "page": "phb 271",
+        "range": "60 pies",
+        "components": "V, S",
+        "ritual": "",
+        "duration": "Instantánea",
+        "concentration": "no",
+        "casting_time": "1A",
+        "level": "1st-level",
+        "school": "Nigromancia",
+        "class": "Mago, Hechicero",
+        "oaths": "",
+        "higher_level": "Cuando lanzas este conjuro usando un espacio de nivel 2 o superior, el daño aumenta en 1d8 por cada nivel por encima de 1.",
+        "toHitOrDC": "toHit",
+        "spell_save_dc_type": "con",
+        "ability_modifier": "no"
+    },
+    {
         "name": "Acid Splash",
         "desc": "You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.",
         "higher_level": "The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).",
@@ -6326,7 +6342,6 @@
         "ability_modifier": "no",
         "damage_type_01": "Acid",
         "year": "2024"
-        
     },
     {
         "name": "Aid",
@@ -6345,7 +6360,6 @@
         "class": "Cleric, Paladin",
         "ability_modifier": "no",
         "year": "2024"
-        
     },
     {
         "name": "Alarm",
@@ -7896,7 +7910,7 @@
         "duration": "Up to 8 hours",
         "concentration": "yes",
         "casting_time": "10m",
-        "level": "8th-level",  
+        "level": "8th-level",
         "school": "Transmutation",
         "class": "Cleric, Druid, Wizard",
         "toHitOrDC": "DC",
@@ -7919,7 +7933,7 @@
         "duration": "Instantaneous",
         "concentration": "no",
         "casting_time": "1R",
-        "level": "3rd-level",  
+        "level": "3rd-level",
         "school": "Abjuration",
         "class": "Sorcerer, Warlock, Wizard",
         "toHitOrDC": "DC",
@@ -7942,7 +7956,7 @@
         "duration": "Instantaneous",
         "concentration": "no",
         "casting_time": "1A",
-        "level": "3rd-level",  
+        "level": "3rd-level",
         "school": "Conjuration",
         "class": "Artificer, Cleric, Paladin",
         "toHitOrDC": "",
@@ -7965,7 +7979,7 @@
         "duration": "Instantaneous",
         "concentration": "no",
         "casting_time": "1A",
-        "level": "1st-level",  
+        "level": "1st-level",
         "school": "Transmutation",
         "class": "Cleric, Druid",
         "toHitOrDC": "",
@@ -7988,7 +8002,7 @@
         "duration": "Instantaneous",
         "concentration": "no",
         "casting_time": "1m",
-        "level": "6th-level",  
+        "level": "6th-level",
         "school": "Necromancy",
         "class": "Cleric, Warlock, Wizard",
         "toHitOrDC": "",
@@ -8011,7 +8025,7 @@
         "duration": "Instantaneous",
         "concentration": "no",
         "casting_time": "1m",
-        "level": "5th-level",  
+        "level": "5th-level",
         "school": "Illusion",
         "class": "Artificer, Wizard, Sorcerer",
         "toHitOrDC": "",
@@ -8034,7 +8048,7 @@
         "duration": "Instantaneous",
         "concentration": "no",
         "casting_time": "1A",
-        "level": "1st-level",  
+        "level": "1st-level",
         "school": "Abjuration",
         "class": "Artificer, Bard, Cleric, Druid, Paladin, Ranger",
         "toHitOrDC": "",
@@ -8057,7 +8071,7 @@
         "duration": "Instantaneous",
         "concentration": "no",
         "casting_time": "1A",
-        "level": "1st-level",  
+        "level": "1st-level",
         "school": "Abjuration",
         "class": "Artificer, Bard, Cleric, Druid, Paladin, Ranger",
         "toHitOrDC": "",
@@ -8080,7 +8094,7 @@
         "duration": "Up to 1 minute",
         "concentration": "yes",
         "casting_time": "1A",
-        "level": "Cantrip",  
+        "level": "Cantrip",
         "school": "Illusion",
         "class": "Artificer, Bard, Sorcerer, Wizard",
         "toHitOrDC": "",
@@ -8103,7 +8117,7 @@
         "duration": "Up to 10 minutes",
         "concentration": "yes",
         "casting_time": "1A",
-        "level": "2nd-level",  
+        "level": "2nd-level",
         "school": "Evocation",
         "class": "Sorcerer, Warlock, Wizard",
         "toHitOrDC": "",
@@ -8384,7 +8398,7 @@
         "class": "Sorcerer, Wizard",
         "toHitOrDC": "DC",
         "damage_dice": "10d6",
-        "additonal_damage":"40",
+        "additonal_damage": "40",
         "damage_dice_upcast": "3d6",
         "spell_save_dc_type": "dex",
         "ability_modifier": "",
@@ -8408,7 +8422,7 @@
         "class": "Sorcerer, Wizard",
         "toHitOrDC": "DC",
         "damage_dice": "10d6",
-        "additonal_damage":"40",
+        "additonal_damage": "40",
         "damage_dice_upcast": "3d6",
         "spell_save_dc_type": "dex",
         "ability_modifier": "",
@@ -8432,7 +8446,7 @@
         "class": "Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard",
         "toHitOrDC": "",
         "damage_dice": "",
-        "additonal_damage":"",
+        "additonal_damage": "",
         "damage_dice_upcast": "",
         "spell_save_dc_type": "",
         "ability_modifier": "",
@@ -14583,6 +14597,4 @@
         "damage_type_01": "",
         "year": "2024"
     }
-    
-
 ]
