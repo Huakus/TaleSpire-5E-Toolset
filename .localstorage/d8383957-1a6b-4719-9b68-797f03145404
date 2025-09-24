@@ -1401,7 +1401,7 @@
             "groupTraitData": [
                 {
                     "group-title": "Rasgos del Patron",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "traits": [
                         {
                             "traitName": "Escape brumoso",
@@ -1445,7 +1445,7 @@
                 },
                 {
                     "group-title": "Semielfa",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "traits": [
                         {
                             "traitName": "Visión en la oscuridad",
@@ -1472,6 +1472,11 @@
                             "resetType": "none"
                         }
                     ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "traits": []
                 }
             ],
             "groupNotesData": [
