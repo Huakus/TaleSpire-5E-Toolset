@@ -26,7 +26,7 @@
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+2",
-            "AC": "15",
+            "AC": "18",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "18000",
@@ -138,6 +138,93 @@
             },
             "inventoryData": {
                 "equipment": [
+                    {
+                        "name": "Capa con runas",
+                        "uniqueId": "item-1756659266075-4b0928c6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1756660760382-82ed676b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
+                    },
+                    {
+                        "name": "Bastón de Acelerar",
+                        "uniqueId": "item-1756663384324-9b6c8ddb",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "20 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Bastón",
+                        "uniqueId": "item-1756664779683-e5b7da08",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "2 sp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1756664889350-23e1b9b0",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1756664913705-2bbed02c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1756664928386-7f4e70ee",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Martillo ligero",
+                        "uniqueId": "item-1756665157600-a30d6b29",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Poción de curación",
+                        "uniqueId": "item-1756666284136-db46bf3d",
+                        "quantity": 4,
+                        "weight": 2,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Varita de Armadura de Mago",
+                        "uniqueId": "item-1756670608780-0e699639",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Túnica de Agati",
+                        "uniqueId": "item-1756671255752-9730fb1f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "15000 gp",
+                        "equipped": true
+                    },
                     {
                         "name": "Capa con runas",
                         "uniqueId": "item-1756659266075-4b0928c6",
