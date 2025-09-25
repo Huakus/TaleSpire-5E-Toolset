@@ -1912,16 +1912,7 @@
                 }
             },
             "inventoryData": {
-                "equipment": [
-                    {
-                        "name": "Daga Viciosa",
-                        "uniqueId": "item-1758767214197-00041dee",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": false
-                    }
-                ],
+                "equipment": [],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
