@@ -90,10 +90,10 @@
             "conditions": [],
             "coins": {
                 "cp": 0,
-                "sp": 5,
+                "sp": 0,
                 "ep": 0,
-                "gp": 181,
-                "pp": 100
+                "gp": 0,
+                "pp": 0
             },
             "alignment": "TN",
             "actionTable": [
