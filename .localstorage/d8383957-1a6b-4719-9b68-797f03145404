@@ -284,6 +284,10 @@
                         {
                             "name": "Clarividencia",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Transferencia de vida",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
