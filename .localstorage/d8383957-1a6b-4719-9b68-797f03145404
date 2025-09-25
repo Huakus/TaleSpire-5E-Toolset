@@ -129,14 +129,6 @@
                 "Cantrip": {
                     "spells": [
                         {
-                            "name": "Impacto verdadero",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Mano de mago",
-                            "prepared": "false"
-                        },
-                        {
                             "name": "Rayo de escarcha",
                             "prepared": "false"
                         },
@@ -146,6 +138,14 @@
                         },
                         {
                             "name": "Rayo de fuego",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Mano de mago",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Impacto verdadero",
                             "prepared": "false"
                         }
                     ],
