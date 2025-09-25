@@ -878,6 +878,14 @@
                         "weight": 6,
                         "cost": "10 gp",
                         "equipped": false
+                    },
+                    {
+                        "name": "Martillo ligero",
+                        "uniqueId": "item-1758764455014-955d64a6",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": false
                     }
                 ],
                 "other-possessions": [],
