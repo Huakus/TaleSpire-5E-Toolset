@@ -1685,7 +1685,15 @@
                 }
             },
             "inventoryData": {
-                "equipment": [],
+                "equipment": [
+                    {
+                        "name": "Ábaco",
+                        "uniqueId": "item-1758765382900-b8291306",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp"
+                    }
+                ],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
