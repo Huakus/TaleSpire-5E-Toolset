@@ -878,6 +878,14 @@
                         "weight": 4,
                         "cost": "2 sp",
                         "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758764390754-b1bae244",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
                     }
                 ],
                 "other-possessions": [],
