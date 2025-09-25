@@ -342,14 +342,6 @@
                         "equipped": true
                     },
                     {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1756664889350-23e1b9b0",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": false
-                    },
-                    {
                         "name": "Daga",
                         "uniqueId": "item-1756664913705-2bbed02c",
                         "quantity": 1,
