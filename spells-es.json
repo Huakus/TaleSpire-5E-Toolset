@@ -6303,28 +6303,6 @@
         "ability_modifier": "no"
     },
     {
-        "name": "Rayo de enfermedad",
-        "desc": "Un rayo de enfermiza energía verdosa arremete contra una criatura dentro del alcance. Haz un ataque de conjuro a distancia contra el objetivo. Con un impacto, el objetivo sufre 2d8 de daño por veneno y debe hacer una tirada de salvación de Constitución; con una salvación fallida, también queda envenenado hasta el final de tu siguiente turno.",
-        "higher_level": "Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d8 por cada nivel por encima de 1.",
-        "page": "phb 271",
-        "range": "60 pies",
-        "components": "V, S",
-        "material": "",
-        "ritual": "",
-        "duration": "Instantánea",
-        "concentration": "no",
-        "casting_time": "1A",
-        "level": "1st-level",
-        "school": "Nigromancia",
-        "class": "Hechicero, Mago",
-        "archetype": "",
-        "patrons": "",
-        "damage_dice": "2d8",
-        "damage_dice_upcast": "1d8",
-        "spell_save_dc_type": "con",
-        "ability_modifier": "no"
-    },
-    {
         "name": "Acid Splash",
         "desc": "You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.",
         "higher_level": "The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).",
