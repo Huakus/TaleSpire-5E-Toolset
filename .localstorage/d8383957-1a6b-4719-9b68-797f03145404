@@ -1129,16 +1129,11 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [],
-            "playerArmorProficiency": [
-                "Light",
-                "Medium"
-            ],
+            "playerArmorProficiency": [],
             "playerLanguageProficiency": [],
-            "playerToolsProficiency": [
-                "Mason's Tools"
-            ],
+            "playerToolsProficiency": [],
             "initiativeButton": "+3",
-            "AC": "18",
+            "AC": "13",
             "speed": "35ft.",
             "characterLevel": "6",
             "playerXP": "14000",
@@ -1151,24 +1146,24 @@
             "intelligenceScore": "13",
             "wisdomScore": "16",
             "charismaScore": "14",
-            "acrobaticsMod": "DEX",
-            "animalHandlingMod": "WIS",
+            "acrobaticsMod": "DES",
+            "animalHandlingMod": "SAB",
             "arcanaMod": "INT",
-            "athleticsMod": "STR",
-            "deceptionMod": "CHA",
+            "athleticsMod": "FUE",
+            "deceptionMod": "CAR",
             "historyMod": "INT",
-            "insightMod": "WIS",
-            "intimidationMod": "CHA",
+            "insightMod": "SAB",
+            "intimidationMod": "CAR",
             "investigationMod": "INT",
-            "medicineMod": "WIS",
+            "medicineMod": "SAB",
             "natureMod": "INT",
-            "perceptionMod": "WIS",
-            "performanceMod": "CHA",
-            "persuasionMod": "CHA",
+            "perceptionMod": "SAB",
+            "performanceMod": "CAR",
+            "persuasionMod": "CAR",
             "religionMod": "INT",
-            "sleightofHandMod": "DEX",
-            "stealthMod": "DEX",
-            "survivalMod": "WIS",
+            "sleightofHandMod": "DES",
+            "stealthMod": "DES",
+            "survivalMod": "SAB",
             "": 0,
             "hitDiceButton": "1d8",
             "pb-1": 0,
@@ -1213,8 +1208,8 @@
                         "fourthColumn": "+3",
                         "fifthColumn": "1d8/1d6",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "STR",
-                        "weaponType": "Melee",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "1",
                         "damageBonus": "1",
                         "tenthColumn": "Heavy, Two-Handed",
@@ -1238,8 +1233,8 @@
                         "fourthColumn": "+5",
                         "fifthColumn": "1d6/2d6",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "STR",
-                        "weaponType": "Melee",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
                         "tenthColumn": "Monk, Requires Attunement",
@@ -1260,11 +1255,11 @@
                         "secondColumn": "Crossbow, hand",
                         "itemId": "item-1747868775579-b4765c6f",
                         "thirdColumn": "30ft/120ft",
-                        "fourthColumn": "+3",
+                        "fourthColumn": "+2",
                         "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "DEX",
-                        "weaponType": "Ranged",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
                         "tenthColumn": "Ammunition, Light, Loading",
@@ -1287,8 +1282,8 @@
                         "fourthColumn": "+2",
                         "fifthColumn": "2d6/1d4",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "STR",
-                        "weaponType": "Melee",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
                         "tenthColumn": "Heavy, Two-Handed",
@@ -1418,95 +1413,9 @@
                 }
             },
             "inventoryData": {
-                "equipment": [
-                    {
-                        "name": "Scale Mail",
-                        "uniqueId": "item-1745981109172-e76edd2f",
-                        "quantity": 1,
-                        "weight": 45,
-                        "cost": "50 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Rapier +1",
-                        "uniqueId": "item-1745981187335-3892430e",
-                        "quantity": 1,
-                        "weight": 2,
-                        "cost": "25 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Crossbow, hand",
-                        "uniqueId": "item-1745981227544-5c4d7507",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "75 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Shield",
-                        "uniqueId": "item-1746052315412-bf721bee",
-                        "quantity": 1,
-                        "weight": 6,
-                        "cost": "10 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Mace of Disruption",
-                        "uniqueId": "item-1746080097005-1ea53dc2",
-                        "quantity": 1,
-                        "weight": 4,
-                        "cost": "5 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Crossbow, hand",
-                        "uniqueId": "item-1747868775579-b4765c6f",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "75 gp",
-                        "equipped": true
-                    }
-                ],
-                "backpack": [
-                    {
-                        "name": "Priest's Pack",
-                        "uniqueId": "item-1746053822171-9465cfba",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "19 gp"
-                    }
-                ],
-                "other-possessions": [
-                    {
-                        "name": "Book",
-                        "uniqueId": "item-1751768289430-0aba2fdb",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp"
-                    },
-                    {
-                        "name": "Book",
-                        "uniqueId": "item-1751768289430-0aba2fdb",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp"
-                    },
-                    {
-                        "name": "Book",
-                        "uniqueId": "item-1751768289430-0aba2fdb",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp"
-                    },
-                    {
-                        "name": "Book",
-                        "uniqueId": "item-1751768289430-0aba2fdb",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp"
-                    }
-                ],
+                "equipment": [],
+                "backpack": [],
+                "other-possessions": [],
                 "attunement": []
             },
             "groupTraitData": [
@@ -1519,11 +1428,11 @@
                             "cheveron": false,
                             "traitDescription": "Comenzando en el nivel 2 puedes usar tu Canalizar Divinidad para hurgar en un pozo divino de conocimiento. Como una acción, eliges una habilidad o herramienta. Durante 10 minu-tos tienes competencia con la habilidad o herramienta ele-gida.",
                             "checkboxStates": [],
+                            "numberOfUses": "0",
                             "adjustmentCategory": "None",
                             "adjustmentSubCategory": "",
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
-                            "numberOfUses": "0",
                             "resetType": "none"
                         },
                         {
@@ -1531,11 +1440,11 @@
                             "cheveron": false,
                             "traitDescription": "A partir del nivel 6 puedes usar tu Canalizar Divinidad para leer los pensamientos de una criatura. Luego puedes usar tu acceso a la mente de la criatura para comandarla.\nComo una acción, elige una criatura que puedas ver en un rango de 60 pies (18 metros) de ti. Esa criatura debe 14441seefrrre    eeeete efecto y lanzar el hechizo sugestión sobre la criatura sin gastar un espacio de conjuro. La criatura falla automática-mente su tirada de salvación contra el conjuro.",
                             "checkboxStates": [],
+                            "numberOfUses": "0",
                             "adjustmentCategory": "None",
                             "adjustmentSubCategory": "",
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
-                            "numberOfUses": "0",
                             "resetType": "none"
                         }
                     ]
