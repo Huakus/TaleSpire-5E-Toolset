@@ -378,6 +378,13 @@
                         "quantity": 1,
                         "weight": 6,
                         "cost": "15 gp"
+                    },
+                    {
+                        "name": "Cristal",
+                        "uniqueId": "item-1758769730184-a4c5cef2",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "10 gp"
                     }
                 ],
                 "other-possessions": [],
