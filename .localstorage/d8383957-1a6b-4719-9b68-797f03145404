@@ -382,8 +382,8 @@
                     {
                         "name": "Cristal",
                         "uniqueId": "item-1758769730184-a4c5cef2",
-                        "quantity": 1,
-                        "weight": 1,
+                        "quantity": 15,
+                        "weight": 15,
                         "cost": "10 gp"
                     }
                 ],
