@@ -369,6 +369,14 @@
                         "weight": 1,
                         "cost": "15000 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Espada Gigante de Lengua de Fuego",
+                        "uniqueId": "item-1758770389910-6047eb2c",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
