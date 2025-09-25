@@ -878,6 +878,14 @@
                         "quantity": 3,
                         "weight": 0,
                         "cost": "1 gp"
+                    },
+                    {
+                        "name": "Bastón",
+                        "uniqueId": "item-1758764371148-c253af0e",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "2 sp",
+                        "equipped": false
                     }
                 ],
                 "other-possessions": [],
