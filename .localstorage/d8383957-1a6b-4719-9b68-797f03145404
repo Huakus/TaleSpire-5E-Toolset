@@ -410,9 +410,224 @@
                 "other-possessions": [],
                 "attunement": []
             },
-            "groupTraitData": [],
-            "groupNotesData": [],
-            "extrasData": []
+            "groupTraitData": [
+                {
+                    "group-title": "Elfo",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Ascendencia Feerica",
+                            "cheveron": false,
+                            "traitDescription": "- Tienes ventaja en las tiradas de salvación contra Encantamiento\n- No puedes ser dormido mediante la magia.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "combatStats",
+                            "adjustmentSubCategory": "AC",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Visión en la oscuridad",
+                            "cheveron": false,
+                            "traitDescription": "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Trance",
+                            "cheveron": false,
+                            "traitDescription": "- El descanso largo dura 4 horas.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Ermitaño",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Revelación",
+                            "cheveron": false,
+                            "traitDescription": "La reclusión pacífica de tu extendido aislamiento te dio acceso a un único y poderoso descubrimiento. La exacta naturaleza de esta revelación depende de la naturaleza de tu reclusión. Podría ser una gran verdad acerca del cosmos, las deidades, los seres poderosos de otros planos o las fuerzas de la naturaleza. Podría ser un sitio que nadie más vio nunca. Podrías haber descubierto un hecho que fue olvidado hace mucho, o desenterrado alguna reliquia del pasado que podría reescribir la historia. Podría ser información potencialmente dañina para la gente que te consignó al exilio, y he ahí la razón por la cual regresas a la sociedad.\n\nCuando estaba en el campamento de los mercenarios se le reveló que el libro estaba escrito en el lenguaje de las hadas.\nDelerion puede leer texto escrito en lenguaje de las hadas, pero lo olvida inmediatamente.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "CHA",
+                            "adjustmentValue": "0",
+                            "resetType": "long rest"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "Conjuros en libros y pergaminos encontrados",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Nivel 1",
+                            "noteContent": "- Sirviente invisible\n- Manos ardientes\n- Caída de pluma\n- Orbe cromatico\n- Rayo de enfermedad\n- Telaraña (pergamino)"
+                        },
+                        {
+                            "noteTitle": "Nivel 2",
+                            "noteContent": "- Descanso apacible\n- Flecha ácida de Melf\n- Esfera flamífera\n- Rayo debilitador"
+                        },
+                        {
+                            "noteTitle": "Nivel 3",
+                            "noteContent": "- Transferencia de vida\n- Imponer maldición"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Palabras",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Sylor",
+                            "noteContent": "Activa la sala del tesoro."
+                        },
+                        {
+                            "noteTitle": "Aelun",
+                            "noteContent": ""
+                        },
+                        {
+                            "noteTitle": "Carmis",
+                            "noteContent": ""
+                        },
+                        {
+                            "noteTitle": "Vesmark",
+                            "noteContent": ""
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Revelaciones",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Epifanía al aparecer en la última sala",
+                            "noteContent": "En el sur hay cadáveres de mejor calidad para interrogar."
+                        }
+                    ]
+                }
+            ],
+            "extrasData": [
+                {
+                    "name": "Búho (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Araña (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Caballito de Mar (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Comadreja (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Cuervo (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Gato (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Murciélago (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Halcón (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Pulpo (A)",
+                    "currentHp": "3",
+                    "maxHp": "3",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Rana (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Rata (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Serpiente Venenosa (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Zombi (A)",
+                    "currentHp": "22",
+                    "maxHp": "22",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Esqueleto (A)",
+                    "currentHp": "13",
+                    "maxHp": "13",
+                    "tempHp": "0"
+                }
+            ]
         },
         "Skitrixx \"Stix Ernesto\" Koboldtanz": {
             "characterTempHp": "0",
