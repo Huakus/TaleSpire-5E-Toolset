@@ -532,6 +532,10 @@
                         {
                             "noteTitle": "Carta del capitán Aitor Menta al \"Lord\"",
                             "noteContent": "- El capitan dice que Elisa Belmonte ya aceptó el pedido de matrimonio.\n- Planeaba volver a Puente Alto y exigir explicaciones."
+                        },
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
                         }
                     ]
                 }
