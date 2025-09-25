@@ -154,6 +154,10 @@
                 "1st-level": {
                     "spells": [
                         {
+                            "name": "Proyectil mágico",
+                            "prepared": "0"
+                        },
+                        {
                             "name": "Rociada de color",
                             "prepared": "0"
                         },
@@ -167,10 +171,6 @@
                         },
                         {
                             "name": "Hechizar persona",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Proyectil mágico",
                             "prepared": "0"
                         },
                         {
