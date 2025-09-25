@@ -839,7 +839,15 @@
                         "cost": "1 sp"
                     }
                 ],
-                "backpack": [],
+                "backpack": [
+                    {
+                        "name": "Túnicas",
+                        "uniqueId": "item-1758766476988-29245863",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "1 gp"
+                    }
+                ],
                 "other-possessions": [],
                 "attunement": []
             },
