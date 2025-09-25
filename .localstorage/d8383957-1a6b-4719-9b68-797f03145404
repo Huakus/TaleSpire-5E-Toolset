@@ -371,7 +371,15 @@
                         "equipped": true
                     }
                 ],
-                "backpack": [],
+                "backpack": [
+                    {
+                        "name": "Ropa, fina",
+                        "uniqueId": "item-1758769639656-52807316",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "15 gp"
+                    }
+                ],
                 "other-possessions": [],
                 "attunement": []
             },
