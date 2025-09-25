@@ -663,7 +663,7 @@
                 "cp": 50,
                 "sp": 0,
                 "ep": 0,
-                "gp": 16,
+                "gp": 56,
                 "pp": 0
             },
             "alignment": "TN",
@@ -846,30 +846,6 @@
                         "quantity": 3,
                         "weight": 0,
                         "cost": "1 gp"
-                    },
-                    {
-                        "name": "Bastón",
-                        "uniqueId": "item-1758764371148-c253af0e",
-                        "quantity": 1,
-                        "weight": 4,
-                        "cost": "2 sp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758764390754-b1bae244",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Daga",
-                        "uniqueId": "item-1758764410945-4bbdf070",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": false
                     },
                     {
                         "name": "Escudo",
