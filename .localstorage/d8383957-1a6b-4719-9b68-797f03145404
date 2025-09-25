@@ -26,7 +26,7 @@
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+2",
-            "AC": "18",
+            "AC": "21",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "18000",
@@ -138,6 +138,93 @@
             },
             "inventoryData": {
                 "equipment": [
+                    {
+                        "name": "Capa con runas",
+                        "uniqueId": "item-1756659266075-4b0928c6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1756660760382-82ed676b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
+                    },
+                    {
+                        "name": "Bastón de Acelerar",
+                        "uniqueId": "item-1756663384324-9b6c8ddb",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "20 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Bastón",
+                        "uniqueId": "item-1756664779683-e5b7da08",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "2 sp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1756664889350-23e1b9b0",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1756664913705-2bbed02c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1756664928386-7f4e70ee",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Martillo ligero",
+                        "uniqueId": "item-1756665157600-a30d6b29",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Poción de curación",
+                        "uniqueId": "item-1756666284136-db46bf3d",
+                        "quantity": 4,
+                        "weight": 2,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Varita de Armadura de Mago",
+                        "uniqueId": "item-1756670608780-0e699639",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Túnica de Agati",
+                        "uniqueId": "item-1756671255752-9730fb1f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "15000 gp",
+                        "equipped": true
+                    },
                     {
                         "name": "Capa con runas",
                         "uniqueId": "item-1756659266075-4b0928c6",
@@ -666,8 +753,16 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
-                "Arma Simple",
-                "Ballesta Ligera"
+                "Daga",
+                "Bastón",
+                "Ballesta Ligera",
+                "Dardo",
+                "Arco corto",
+                "Honda",
+                "Espada Larga",
+                "Espada Corta",
+                "Arco largo",
+                "Arma Simple"
             ],
             "playerArmorProficiency": [
                 "Liviano"
@@ -675,11 +770,13 @@
             "playerLanguageProficiency": [
                 "Comun",
                 "Elfo",
+                "Dracónico",
+                "Aeloriano",
                 "Sylvano"
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
-            "AC": "14",
+            "AC": "23",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "14000",
@@ -710,7 +807,6 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 1,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -745,109 +841,24 @@
                 "pp": 0
             },
             "alignment": "TN",
-            "actionTable": [
-                {
-                    "1": {
-                        "proficiencyButton": "1",
-                        "secondColumn": "Ballesta ligera",
-                        "itemId": "item-1758681798905-3cdf7d65",
-                        "thirdColumn": "80ft/320ft",
-                        "fourthColumn": "+2",
-                        "fifthColumn": "1d8",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Munición, De carga, Dos manos",
-                        "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
-                        "twelvethColumn": "Perforante",
-                        "ninthColumn": {
-                            "attacks": false,
-                            "actions": false,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                }
-            ],
+            "actionTable": [],
             "spellData": {
                 "spellcastingModifier": "CHA",
                 "spelllevelselected": "3",
                 "Cantrip": {
-                    "spells": [
-                        {
-                            "name": "Ilusión menor",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Mano de mago",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Estallido Arcano",
-                            "prepared": "false"
-                        }
-                    ],
+                    "spells": [],
                     "slots": []
                 },
                 "1st-level": {
-                    "spells": [
-                        {
-                            "name": "Armadura de Agathys",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Brazos de Hadar",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Entender idiomas",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Detectar el bien y el mal",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Detectar venenos y enfermedades",
-                            "prepared": "0"
-                        }
-                    ],
-                    "slots": [
-                        false,
-                        false
-                    ]
+                    "spells": [],
+                    "slots": []
                 },
                 "2nd-level": {
-                    "spells": [
-                        {
-                            "name": "Levitar",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Nube de dagas",
-                            "prepared": "0"
-                        }
-                    ],
+                    "spells": [],
                     "slots": []
                 },
                 "3rd-level": {
-                    "spells": [
-                        {
-                            "name": "Disipar magia",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Volar",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Terror",
-                            "prepared": "0"
-                        }
-                    ],
+                    "spells": [],
                     "slots": []
                 },
                 "4th-level": {
@@ -877,6 +888,267 @@
             },
             "inventoryData": {
                 "equipment": [
+                    {
+                        "name": "Capa con runas",
+                        "uniqueId": "item-1756659266075-4b0928c6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1756660760382-82ed676b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
+                    },
+                    {
+                        "name": "Bastón de Acelerar",
+                        "uniqueId": "item-1756663384324-9b6c8ddb",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "20 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Bastón",
+                        "uniqueId": "item-1756664779683-e5b7da08",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "2 sp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1756664889350-23e1b9b0",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1756664913705-2bbed02c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1756664928386-7f4e70ee",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Martillo ligero",
+                        "uniqueId": "item-1756665157600-a30d6b29",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Poción de curación",
+                        "uniqueId": "item-1756666284136-db46bf3d",
+                        "quantity": 4,
+                        "weight": 2,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Varita de Armadura de Mago",
+                        "uniqueId": "item-1756670608780-0e699639",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Túnica de Agati",
+                        "uniqueId": "item-1756671255752-9730fb1f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "15000 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Capa con runas",
+                        "uniqueId": "item-1756659266075-4b0928c6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1756660760382-82ed676b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
+                    },
+                    {
+                        "name": "Bastón de Acelerar",
+                        "uniqueId": "item-1756663384324-9b6c8ddb",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "20 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Bastón",
+                        "uniqueId": "item-1756664779683-e5b7da08",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "2 sp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1756664889350-23e1b9b0",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1756664913705-2bbed02c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1756664928386-7f4e70ee",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Martillo ligero",
+                        "uniqueId": "item-1756665157600-a30d6b29",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Poción de curación",
+                        "uniqueId": "item-1756666284136-db46bf3d",
+                        "quantity": 4,
+                        "weight": 2,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Varita de Armadura de Mago",
+                        "uniqueId": "item-1756670608780-0e699639",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Túnica de Agati",
+                        "uniqueId": "item-1756671255752-9730fb1f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "15000 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Capa con runas",
+                        "uniqueId": "item-1756659266075-4b0928c6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1756660760382-82ed676b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
+                    },
+                    {
+                        "name": "Bastón de Acelerar",
+                        "uniqueId": "item-1756663384324-9b6c8ddb",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "20 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Bastón",
+                        "uniqueId": "item-1756664779683-e5b7da08",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "2 sp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1756664889350-23e1b9b0",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1756664913705-2bbed02c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1756664928386-7f4e70ee",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Martillo ligero",
+                        "uniqueId": "item-1756665157600-a30d6b29",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Poción de curación",
+                        "uniqueId": "item-1756666284136-db46bf3d",
+                        "quantity": 4,
+                        "weight": 2,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Varita de Armadura de Mago",
+                        "uniqueId": "item-1756670608780-0e699639",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Túnica de Agati",
+                        "uniqueId": "item-1756671255752-9730fb1f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "15000 gp",
+                        "equipped": true
+                    },
                     {
                         "name": "Armadura de Cuero",
                         "uniqueId": "item-1758676564790-f2f0a39a",
@@ -990,138 +1262,9 @@
                 "other-possessions": [],
                 "attunement": []
             },
-            "groupTraitData": [
-                {
-                    "group-title": "Patrón: Archihada",
-                    "group-chevron": false,
-                    "traits": [
-                        {
-                            "traitName": "Escape brumoso",
-                            "cheveron": true,
-                            "traitDescription": "cuando recibo dagno , me vuelvo invisible y me teletransporto hasta 18 metros (1/descanso)",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Lista de conjuros expandida por nivel",
-                            "cheveron": true,
-                            "traitDescription": "Los siguientes conjuros se añaden a la tu lista de conjuros que puedes aprender.\n\n1- Fuego feérico / Dormir\n2- Calmar emociones / Fuerza fantasmal\n3- Intermitencia / Crecimiento vegetal\n4- Dominar bestia / Invisibilidad mayor\n5- Dominar persona / Similitud",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Presencia Feérica",
-                            "cheveron": true,
-                            "traitDescription": "Comenzando en el nivel 1 tu patrón te otorga la habilidad de proyectar la presencia seductora y aterrorizante de los feéricos.\nComo una acción, puedes forzar a cada criatura en un cubo de 10 pies (3 metros) centrado en ti, a que realice una tirada de salvación de Sabiduría contra la CD de tus conjuros de brujo.\nLas criaturas que fallen su tirada de salvación quedan hechizadas o asustadas por ti (a tu elección) hasta el final de tu siguiente turno.\nUna vez que usas este rasgo, no puedes usarlo nuevamente hasta que finalices un descanso corto o prolongado. ",
-                            "checkboxStates": [
-                                false
-                            ],
-                            "numberOfUses": "1",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "short rest"
-                        }
-                    ]
-                },
-                {
-                    "group-title": "Semielfa",
-                    "group-chevron": false,
-                    "traits": [
-                        {
-                            "traitName": "Visión en la oscuridad",
-                            "cheveron": true,
-                            "traitDescription": "Gracias a tu sangre élfica, tienes una visión superior en la oscuridad y la luz tenue.\nPuedes ver en luz tenue hasta los 60 (18 m) pies como si fuera a plena luz, y en la oscuridad como si fuera en luz tenue.\nNo puedes distinguir colores en la oscuridad, sólo tonos de gris.",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Ascendencia Feérica",
-                            "cheveron": true,
-                            "traitDescription": "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia.",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        }
-                    ]
-                },
-                {
-                    "group-title": "Ermitaña",
-                    "group-chevron": false,
-                    "traits": [
-                        {
-                            "traitName": "Descubrimiento",
-                            "cheveron": true,
-                            "traitDescription": "La reclusión pacífica de tu extendido aislamiento te dio acceso a un único y poderoso descubrimiento.\nLa exacta naturaleza de esta revelación depende de la naturaleza de tu reclusión.\nPodría ser una gran verdad acerca del cosmos, las deidades, los seres poderosos de otros planos o las fuerzas de la naturaleza.\nPodría ser un sitio que nadie más vio nunca.\nPodrías haber descubierto un hecho que fue olvidado hace mucho, o desenterrado alguna reliquia del pasado que podría reescribir la historia.\nPodría ser información potencialmente dañina para la gente que te consignó al exilio, y he ahí la razón por la cual regresas a la sociedad.",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        }
-                    ]
-                }
-            ],
-            "groupNotesData": [
-                {
-                    "group-title": "Inventario auxiliar",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Notas",
-                            "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob"
-                        }
-                    ]
-                }
-            ],
-            "extrasData": [
-                {
-                    "name": "Diablillo (A)",
-                    "currentHp": "10",
-                    "maxHp": "10",
-                    "tempHp": "0"
-                },
-                {
-                    "name": "Pseudodragón (A)",
-                    "currentHp": "7",
-                    "maxHp": "7",
-                    "tempHp": "0"
-                },
-                {
-                    "name": "Quasit (A)",
-                    "currentHp": "7",
-                    "maxHp": "7",
-                    "tempHp": "0"
-                },
-                {
-                    "name": "Duende (A)",
-                    "currentHp": "2",
-                    "maxHp": "2",
-                    "tempHp": "0"
-                }
-            ]
+            "groupTraitData": [],
+            "groupNotesData": [],
+            "extrasData": []
         },
         "Adler": {
             "characterTempHp": "",
