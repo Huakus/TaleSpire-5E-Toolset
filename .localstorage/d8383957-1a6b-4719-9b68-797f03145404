@@ -870,6 +870,14 @@
                         "weight": 1,
                         "cost": "2 gp",
                         "equipped": false
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1758764437524-8da580ef",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
                     }
                 ],
                 "other-possessions": [],
