@@ -123,23 +123,173 @@
                 }
             ],
             "spellData": {
-                "spellcastingModifier": "STR",
-                "spelllevelselected": "0",
+                "spellcastingModifier": "INT",
+                "spelllevelselected": "3",
                 "Cantrip": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Impacto verdadero",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Mano de mago",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Rayo de escarcha",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Rociada venenosa",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Rayo de fuego",
+                            "prepared": "false"
+                        }
+                    ],
                     "slots": []
                 },
                 "1st-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Rociada de color",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo de enfermedad",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Grasa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hechizar persona",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Proyectil mágico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Armadura de mago",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Encontrar familiar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Imagen silenciosa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Entender idiomas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Dormir",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Retirada expeditiva",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Escudo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Falsa vida",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false,
+                        false,
+                        false,
+                        false
+                    ]
                 },
                 "2nd-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Alterar el propio aspecto",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Paso brumoso",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo abrasador",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar pensamientos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Levitar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ceguera/sordera",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera de llamas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invisibilidad",
+                            "prepared": "1"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false,
+                        false
+                    ]
                 },
                 "3rd-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Animar a los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hablar con los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Volar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Bola de fuego",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Relámpago",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Toque vampírico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Clarividencia",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false,
+                        false
+                    ]
                 },
                 "4th-level": {
                     "spells": [],
