@@ -204,10 +204,6 @@
                         {
                             "name": "Falsa vida",
                             "prepared": "0"
-                        },
-                        {
-                            "name": "Rayo de enfermedad",
-                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -251,6 +247,10 @@
                         {
                             "name": "Invisibilidad",
                             "prepared": "1"
+                        },
+                        {
+                            "name": "Apacible descanso",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
