@@ -505,6 +505,11 @@
                             "noteContent": "En el sur hay cadáveres de mejor calidad para interrogar."
                         }
                     ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "notes": []
                 }
             ],
             "extrasData": [
