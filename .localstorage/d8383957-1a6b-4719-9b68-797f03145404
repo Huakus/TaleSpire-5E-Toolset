@@ -100,7 +100,32 @@
                 {
                     "1": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Maul of Fire",
+                        "secondColumn": "Bastón de Acelerar",
+                        "itemId": "item-1756663384324-9b6c8ddb",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+2",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Versátil, Monk",
+                        "elventhColumn": "Un bastón largo de madera que permite conjurar Acelerar una vez por descanso largo y que se utiliza a menudo como arma cuerpo a cuerpo versátil. Se puede manejar con una o dos manos para golpear o bloquear.",
+                        "twelvethColumn": "Contundente",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "",
                         "thirdColumn": "5ft",
                         "fourthColumn": "+2",
                         "fifthColumn": "2d6/1d4",
