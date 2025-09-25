@@ -507,9 +507,14 @@
                     ]
                 },
                 {
-                    "group-title": "",
+                    "group-title": "Notas",
                     "group-chevron": false,
-                    "notes": []
+                    "notes": [
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
+                        }
+                    ]
                 }
             ],
             "extrasData": [
