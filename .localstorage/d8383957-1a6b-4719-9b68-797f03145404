@@ -1685,23 +1685,7 @@
                 }
             },
             "inventoryData": {
-                "equipment": [
-                    {
-                        "name": "Ábaco",
-                        "uniqueId": "item-1758765382900-b8291306",
-                        "quantity": 1,
-                        "weight": 2,
-                        "cost": "2 gp"
-                    },
-                    {
-                        "name": "Espada Corta de Herida",
-                        "uniqueId": "item-1758765402561-542b31d1",
-                        "quantity": 1,
-                        "weight": 2,
-                        "cost": "10 gp",
-                        "equipped": false
-                    }
-                ],
+                "equipment": [],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
