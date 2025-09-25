@@ -1932,7 +1932,13 @@
                 "attunement": []
             },
             "groupTraitData": [],
-            "groupNotesData": [],
+            "groupNotesData": [
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "notes": []
+                }
+            ],
             "extrasData": []
         }
     },
