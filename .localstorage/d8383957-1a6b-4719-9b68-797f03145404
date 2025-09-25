@@ -255,7 +255,7 @@
                     ],
                     "slots": [
                         true,
-                        false,
+                        true,
                         false
                     ]
                 },
@@ -291,7 +291,7 @@
                         }
                     ],
                     "slots": [
-                        false,
+                        true,
                         false,
                         false
                     ]
