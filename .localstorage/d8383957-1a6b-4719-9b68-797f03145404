@@ -476,7 +476,7 @@
                 },
                 {
                     "group-title": "Palabras",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "notes": [
                         {
                             "noteTitle": "Sylor",
@@ -516,7 +516,7 @@
                         },
                         {
                             "noteTitle": "Carta del capitán Aitor Menta al \"Lord\"",
-                            "noteContent": "- En una ca"
+                            "noteContent": "- El capitan dice que Elisa Belmonte ya aceptó el pedido de matrimonio.\n- Planeaba volver a Puente Alto y exigir explicaciones."
                         }
                     ]
                 }
