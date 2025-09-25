@@ -1685,7 +1685,16 @@
                 }
             },
             "inventoryData": {
-                "equipment": [],
+                "equipment": [
+                    {
+                        "name": "Aceite de Agudeza",
+                        "uniqueId": "item-1758765449007-b82db8a8",
+                        "quantity": 1,
+                        "weight": 0.5,
+                        "cost": "500 gp",
+                        "useable": true
+                    }
+                ],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
