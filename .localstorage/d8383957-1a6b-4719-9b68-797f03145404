@@ -229,6 +229,10 @@
                             "prepared": "0"
                         },
                         {
+                            "name": "Ceguera/sordera",
+                            "prepared": "0"
+                        },
+                        {
                             "name": "Alterar el propio aspecto",
                             "prepared": "0"
                         },
@@ -238,10 +242,6 @@
                         },
                         {
                             "name": "Levitar",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Ceguera/sordera",
                             "prepared": "0"
                         },
                         {
@@ -258,18 +258,6 @@
                 "3rd-level": {
                     "spells": [
                         {
-                            "name": "Animar a los muertos",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Hablar con los muertos",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Volar",
-                            "prepared": "0"
-                        },
-                        {
                             "name": "Bola de fuego",
                             "prepared": "0"
                         },
@@ -279,6 +267,18 @@
                         },
                         {
                             "name": "Toque vampírico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Animar a los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hablar con los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Volar",
                             "prepared": "0"
                         },
                         {
