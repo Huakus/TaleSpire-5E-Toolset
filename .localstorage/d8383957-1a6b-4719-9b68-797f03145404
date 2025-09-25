@@ -839,31 +839,7 @@
                         "cost": "1 sp"
                     }
                 ],
-                "backpack": [
-                    {
-                        "name": "Vial",
-                        "uniqueId": "item-1758509641490-091a5a62",
-                        "quantity": 3,
-                        "weight": 0,
-                        "cost": "1 gp"
-                    },
-                    {
-                        "name": "Escudo",
-                        "uniqueId": "item-1758764437524-8da580ef",
-                        "quantity": 1,
-                        "weight": 6,
-                        "cost": "10 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Martillo ligero",
-                        "uniqueId": "item-1758764455014-955d64a6",
-                        "quantity": 1,
-                        "weight": 2,
-                        "cost": "2 gp",
-                        "equipped": false
-                    }
-                ],
+                "backpack": [],
                 "other-possessions": [],
                 "attunement": []
             },
