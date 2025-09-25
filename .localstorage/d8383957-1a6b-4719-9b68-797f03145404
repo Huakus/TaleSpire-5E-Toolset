@@ -1072,18 +1072,19 @@
                 {
                     "1": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Maul of Fire",
-                        "thirdColumn": "5ft",
+                        "secondColumn": "Ballesta ligera",
+                        "itemId": "item-1758681798905-3cdf7d65",
+                        "thirdColumn": "80ft/320ft",
                         "fourthColumn": "+2",
-                        "fifthColumn": "2d6/1d4",
+                        "fifthColumn": "1d8",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
                         "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
-                        "tenthColumn": "Heavy, Two-Handed",
-                        "elventhColumn": "A brightly Colored Maul",
-                        "twelvethColumn": "",
+                        "tenthColumn": "Munición, De carga, Dos manos",
+                        "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
+                        "twelvethColumn": "Perforante",
                         "ninthColumn": {
                             "attacks": false,
                             "actions": false,
@@ -1098,19 +1099,78 @@
                 "spellcastingModifier": "CHA",
                 "spelllevelselected": "3",
                 "Cantrip": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Ilusión menor",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Mano de mago",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Estallido Arcano",
+                            "prepared": "false"
+                        }
+                    ],
                     "slots": []
                 },
                 "1st-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Armadura de Agathys",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Brazos de Hadar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Entender idiomas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar el bien y el mal",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar venenos y enfermedades",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false
+                    ]
                 },
                 "2nd-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Levitar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Nube de dagas",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": []
                 },
                 "3rd-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Disipar magia",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Volar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Terror",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": []
                 },
                 "4th-level": {
@@ -1514,9 +1574,138 @@
                 "other-possessions": [],
                 "attunement": []
             },
-            "groupTraitData": [],
-            "groupNotesData": [],
-            "extrasData": []
+            "groupTraitData": [
+                {
+                    "group-title": "Patrón: Archihada",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Escape brumoso",
+                            "cheveron": true,
+                            "traitDescription": "cuando recibo dagno , me vuelvo invisible y me teletransporto hasta 18 metros (1/descanso)",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Lista de conjuros expandida por nivel",
+                            "cheveron": true,
+                            "traitDescription": "Los siguientes conjuros se añaden a la tu lista de conjuros que puedes aprender.\n\n1- Fuego feérico / Dormir\n2- Calmar emociones / Fuerza fantasmal\n3- Intermitencia / Crecimiento vegetal\n4- Dominar bestia / Invisibilidad mayor\n5- Dominar persona / Similitud",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Presencia Feérica",
+                            "cheveron": true,
+                            "traitDescription": "Comenzando en el nivel 1 tu patrón te otorga la habilidad de proyectar la presencia seductora y aterrorizante de los feéricos.\nComo una acción, puedes forzar a cada criatura en un cubo de 10 pies (3 metros) centrado en ti, a que realice una tirada de salvación de Sabiduría contra la CD de tus conjuros de brujo.\nLas criaturas que fallen su tirada de salvación quedan hechizadas o asustadas por ti (a tu elección) hasta el final de tu siguiente turno.\nUna vez que usas este rasgo, no puedes usarlo nuevamente hasta que finalices un descanso corto o prolongado. ",
+                            "checkboxStates": [
+                                false
+                            ],
+                            "numberOfUses": "1",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "short rest"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Semielfa",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Visión en la oscuridad",
+                            "cheveron": true,
+                            "traitDescription": "Gracias a tu sangre élfica, tienes una visión superior en la oscuridad y la luz tenue.\nPuedes ver en luz tenue hasta los 60 (18 m) pies como si fuera a plena luz, y en la oscuridad como si fuera en luz tenue.\nNo puedes distinguir colores en la oscuridad, sólo tonos de gris.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Ascendencia Feérica",
+                            "cheveron": true,
+                            "traitDescription": "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Ermitaña",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Descubrimiento",
+                            "cheveron": true,
+                            "traitDescription": "La reclusión pacífica de tu extendido aislamiento te dio acceso a un único y poderoso descubrimiento.\nLa exacta naturaleza de esta revelación depende de la naturaleza de tu reclusión.\nPodría ser una gran verdad acerca del cosmos, las deidades, los seres poderosos de otros planos o las fuerzas de la naturaleza.\nPodría ser un sitio que nadie más vio nunca.\nPodrías haber descubierto un hecho que fue olvidado hace mucho, o desenterrado alguna reliquia del pasado que podría reescribir la historia.\nPodría ser información potencialmente dañina para la gente que te consignó al exilio, y he ahí la razón por la cual regresas a la sociedad.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "Inventario auxiliar",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Notas",
+                            "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob"
+                        }
+                    ]
+                }
+            ],
+            "extrasData": [
+                {
+                    "name": "Diablillo (A)",
+                    "currentHp": "10",
+                    "maxHp": "10",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Pseudodragón (A)",
+                    "currentHp": "7",
+                    "maxHp": "7",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Quasit (A)",
+                    "currentHp": "7",
+                    "maxHp": "7",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Duende (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                }
+            ]
         },
         "Adler": {
             "characterTempHp": "",
