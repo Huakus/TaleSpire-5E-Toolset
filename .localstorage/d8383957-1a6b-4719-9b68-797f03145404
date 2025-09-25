@@ -342,14 +342,6 @@
                         "equipped": true
                     },
                     {
-                        "name": "Martillo ligero",
-                        "uniqueId": "item-1756665157600-a30d6b29",
-                        "quantity": 1,
-                        "weight": 2,
-                        "cost": "2 gp",
-                        "equipped": false
-                    },
-                    {
                         "name": "Poción de curación",
                         "uniqueId": "item-1756666284136-db46bf3d",
                         "quantity": 4,
