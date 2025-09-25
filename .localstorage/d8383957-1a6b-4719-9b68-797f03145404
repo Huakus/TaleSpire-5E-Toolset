@@ -342,14 +342,6 @@
                         "equipped": true
                     },
                     {
-                        "name": "Bastón",
-                        "uniqueId": "item-1756664779683-e5b7da08",
-                        "quantity": 1,
-                        "weight": 4,
-                        "cost": "2 sp",
-                        "equipped": false
-                    },
-                    {
                         "name": "Ballesta ligera",
                         "uniqueId": "item-1756664889350-23e1b9b0",
                         "quantity": 1,
