@@ -210,10 +210,6 @@
                             "prepared": "0"
                         },
                         {
-                            "name": "Rociada de color",
-                            "prepared": "0"
-                        },
-                        {
                             "name": "Escudo",
                             "prepared": "0"
                         },
@@ -222,7 +218,11 @@
                             "prepared": "0"
                         },
                         {
-                            "name": "Caída de pluma",
+                            "name": "Rociada de color",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo de enfermedad",
                             "prepared": "0"
                         }
                     ],
