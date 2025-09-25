@@ -129,15 +129,15 @@
                 "Cantrip": {
                     "spells": [
                         {
+                            "name": "Rayo de fuego",
+                            "prepared": "false"
+                        },
+                        {
                             "name": "Rayo de escarcha",
                             "prepared": "false"
                         },
                         {
                             "name": "Rociada venenosa",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Rayo de fuego",
                             "prepared": "false"
                         },
                         {
