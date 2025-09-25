@@ -342,22 +342,6 @@
                         "equipped": true
                     },
                     {
-                        "name": "Daga",
-                        "uniqueId": "item-1756664913705-2bbed02c",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Escudo",
-                        "uniqueId": "item-1756664928386-7f4e70ee",
-                        "quantity": 1,
-                        "weight": 6,
-                        "cost": "10 gp",
-                        "equipped": false
-                    },
-                    {
                         "name": "Martillo ligero",
                         "uniqueId": "item-1756665157600-a30d6b29",
                         "quantity": 1,
