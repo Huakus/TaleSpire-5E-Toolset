@@ -898,6 +898,14 @@
                         "quantity": 1,
                         "weight": 5,
                         "cost": "1 sp"
+                    },
+                    {
+                        "name": "Espada Corta Viciosa",
+                        "uniqueId": "item-1758855277512-d92f8eb9",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "10 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
