@@ -643,7 +643,9 @@
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [],
             "playerArmorProficiency": [],
-            "playerLanguageProficiency": [],
+            "playerLanguageProficiency": [
+                "Comun"
+            ],
             "playerToolsProficiency": [
                 "Juego de Cartas para Jugar",
                 "Herramientas de Ladrón"
