@@ -645,7 +645,9 @@
                 "Arma Marcial",
                 "Arma Simple"
             ],
-            "playerArmorProficiency": [],
+            "playerArmorProficiency": [
+                "Liviano"
+            ],
             "playerLanguageProficiency": [
                 "Comun",
                 "Dracónico",
