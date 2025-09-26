@@ -644,7 +644,9 @@
             "playerWeaponProficiency": [],
             "playerArmorProficiency": [],
             "playerLanguageProficiency": [],
-            "playerToolsProficiency": [],
+            "playerToolsProficiency": [
+                "Juego de Cartas para Jugar"
+            ],
             "initiativeButton": "+4",
             "AC": "14",
             "speed": "30ft.",
