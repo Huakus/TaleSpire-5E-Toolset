@@ -689,7 +689,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 0,
+            "": 1,
             "hitDiceButton": "0d8",
             "pb-1": 1,
             "pb-2": 0,
@@ -800,11 +800,11 @@
                 },
                 {
                     "4": {
-                        "proficiencyButton": "0",
+                        "proficiencyButton": "1",
                         "secondColumn": "Espada Corta Viciosa",
                         "itemId": "item-1758855277512-d92f8eb9",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "-1",
+                        "fourthColumn": "+2",
                         "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
