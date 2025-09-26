@@ -645,7 +645,8 @@
             "playerArmorProficiency": [],
             "playerLanguageProficiency": [],
             "playerToolsProficiency": [
-                "Juego de Cartas para Jugar"
+                "Juego de Cartas para Jugar",
+                "Herramientas de Ladrón"
             ],
             "initiativeButton": "+4",
             "AC": "14",
