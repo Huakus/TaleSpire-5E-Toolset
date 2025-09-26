@@ -728,7 +728,7 @@
                 {
                     "1": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Sneak Attack (Bow)",
+                        "secondColumn": "Sneak Attack (Ranged)",
                         "thirdColumn": "5ft",
                         "fourthColumn": "+7",
                         "fifthColumn": "1d6",
