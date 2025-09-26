@@ -689,7 +689,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 1,
+            "": 0,
             "hitDiceButton": "0d8",
             "pb-1": 1,
             "pb-2": 0,
@@ -792,6 +792,31 @@
                         "ninthColumn": {
                             "attacks": false,
                             "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "4": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Espada Corta Viciosa",
+                        "itemId": "item-1758855277512-d92f8eb9",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "-1",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Sutil, Ligero, Monje",
+                        "elventhColumn": "Cuando sacas un 20 en tu tirada de ataque con esta arma mágica, el objetivo sufre 7 puntos de daño extra del tipo del arma.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
                             "bonus-actions": false,
                             "reactions": false,
                             "other": false
@@ -905,7 +930,7 @@
                         "quantity": 1,
                         "weight": 2,
                         "cost": "10 gp",
-                        "equipped": false
+                        "equipped": true
                     }
                 ],
                 "backpack": [
