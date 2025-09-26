@@ -826,7 +826,11 @@
                             "prepared": "0"
                         }
                     ],
-                    "slots": []
+                    "slots": [
+                        false,
+                        false,
+                        false
+                    ]
                 },
                 "2nd-level": {
                     "spells": [
