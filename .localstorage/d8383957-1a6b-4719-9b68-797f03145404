@@ -589,7 +589,7 @@
                 },
                 {
                     "group-title": "Notas",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "notes": [
                         {
                             "noteTitle": "Carta del capitán Aitor Menta para su esposa",
