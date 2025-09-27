@@ -332,6 +332,57 @@
                 "name": "common"
             },
             "gearCategory": "Equipo estándar"
+        },
+        "Cristal Carmesí": {
+            "index": "cristal-carmesí",
+            "name": "Cristal Carmesí",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "wondrous-item"
+            },
+            "description": [],
+            "properties": [],
+            "cost": {
+                "quantity": 0,
+                "unit": "cp"
+            },
+            "weight": 1,
+            "rarity": {
+                "index": "very-rare",
+                "name": "very-rare"
+            },
+            "hasCharges": false,
+            "chargesOptions": null,
+            "bonus": []
+        },
+        "Amuleto de mago": {
+            "index": "amuleto-de-mago",
+            "name": "Amuleto de mago",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "wondrous-item"
+            },
+            "description": [],
+            "properties": [],
+            "cost": {
+                "quantity": 0,
+                "unit": "cp"
+            },
+            "weight": 1,
+            "rarity": {
+                "index": "rare",
+                "name": "rare"
+            },
+            "hasCharges": false,
+            "chargesOptions": null,
+            "bonus": [
+                {
+                    "category": "skills",
+                    "key": "Arcana",
+                    "value": 2,
+                    "description": ""
+                }
+            ]
         }
     },
     "npcList": {
@@ -441,6 +492,132 @@
             "spell_save_dc_type": "str",
             "ability_modifier": "no",
             "damage_type_01": "necrotic"
+        },
+        "Amigos": {
+            "name": "Amigos",
+            "desc": "Durante la duración de este conjuro, posees ventaja en todas las pruebas de Carisma dirigidas a una criatura de tu elección que no sea hostil hacia ti. Cuando el conjuro finaliza, la criatura se percata que se ha usado magia para influenciar su humor y se vuelve hostil hacia ti. Una criatura propensa a la violencia podría atacarte. Otra criatura podría buscar alguna otra amnera de retribución (a la discreción del DM), dependiendo de la naturaleza de tu interacción con él.",
+            "higher_level": "",
+            "material": "(un poco de maquillaje aplicado a la cara cuando este conjuro es lanzado",
+            "range": "Personal",
+            "components": "S, M",
+            "ritual": "",
+            "duration": "1 Minute",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "Cantrip",
+            "school": "Enchantment",
+            "class": "Bard, Sorcerer, Warlock, Wizard",
+            "toHitOrDC": "",
+            "damage_dice": "",
+            "damage_dice_upcast": "",
+            "spell_save_dc_type": "",
+            "ability_modifier": "no",
+            "damage_type_01": "na"
+        },
+        "Cuchilla protectora": {
+            "name": "Cuchilla protectora",
+            "desc": "Extiendes tu mano y trazas con él una runa de protección en el aire.\nHasta el final del siguiente turno tendrás resistencia contra daño contundente, perforante y cortante infligido por ataques de armas.",
+            "higher_level": "",
+            "material": "",
+            "range": "Personal",
+            "components": "V, S",
+            "ritual": "",
+            "duration": "1 Round",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "Cantrip",
+            "school": "Abjuration",
+            "class": "Bard, Sorcerer, Warlock, Wizard",
+            "toHitOrDC": "",
+            "damage_dice": "",
+            "damage_dice_upcast": "",
+            "spell_save_dc_type": "",
+            "ability_modifier": "no",
+            "damage_type_01": "na"
+        },
+        "Mal de ojo": {
+            "name": "Mal de ojo",
+            "desc": "Concentración, hasta 1 hora Colocas una maldición en una criatura que puedes ver dentro del alcance.\nHasta que el conjuro finalice, infliges 1d6 puntos de daño necrótico extra al objetivo siempre que aciertes un impacto con un ataque.\nAdemás, elige una característica cuando lanzas el conjuro.\nEl objetivo tiene desventaja en las tiradas de característica realizadas con la característica elegida.\nSi el objetivo cae a 0 Puntos de Golpe antes de que el conjuro finalice, puedes utilizar una acción adicional en un turno tuyo subsiguiente para maldecir a una nueva criatura.\nUn lanzamiento de quitar maldición [remove curse] en el objetivo finaliza este conjuro prematuramente.",
+            "higher_level": "Cuando lanzas este hechizo usando un espacio de conjuros de nivel 3 ó 4, puedes mantener la concentración en el conjuro hasta 8 horas.\nCuando usas un espacio de conjuros de nivel 5 o superior, puedes mantener la concentración en el conjuro hasta 24 horas.",
+            "material": "el ojo petrificado de un tritón",
+            "range": "90 pies",
+            "components": "V, S, M",
+            "ritual": "",
+            "duration": "1 Hour",
+            "concentration": "yes",
+            "casting_time": "1BA",
+            "level": "1st-level",
+            "school": "Enchantment",
+            "class": "Warlock",
+            "toHitOrDC": "",
+            "damage_dice": "1d6",
+            "damage_dice_upcast": "",
+            "spell_save_dc_type": "",
+            "ability_modifier": "no",
+            "damage_type_01": "necrotic"
+        },
+        "Virote encantado": {
+            "name": "Virote encantado",
+            "desc": "Un haz de chisporroteante energía azul es lanzado hacia una criatura dentro del alcance, formando un constante arco de relámpago entre el objetivo y tú.\nHaz un ataque de conjuro a distancia contra esa criatura.\nEn un impacto, el objetivo sufre 1d12 puntos de daño por electricidad, y en cada uno de tus turnos mientras dure, puedes usar tu acción para realizar 1d12 puntos de daño por electrcidad al objetivo automáticamente.\nEste conjuro finaliza si usas tu acción para hacer otra cosa.\nEste conjuro también finaliza si el objetivo está alguna vez fuera del alcance del conjuro o si tiene cobertura total de ti.",
+            "higher_level": "Cuando lanzas este hechizo usando un espacio de conjuros de nivel 2 o superior, el daño inicial se incrementa en 1d12 por cada nivel de espacio de conjuros por encima de nivel 1.",
+            "material": "una ramita de un árbol que ha sido alcanzada por un rayo",
+            "range": "30 pies",
+            "components": "V, S, M",
+            "ritual": "",
+            "duration": "1 Minute",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "1st-level",
+            "school": "Evocation",
+            "class": "Sorcerer, Warlock, Wizard",
+            "toHitOrDC": "toHit",
+            "damage_dice": "1d12",
+            "damage_dice_upcast": "1d12",
+            "spell_save_dc_type": "",
+            "ability_modifier": "no",
+            "damage_type_01": "lightning"
+        },
+        "Corona de locura": {
+            "name": "Corona de locura",
+            "desc": "Un humanoide de tu elección que puedas ver dentro del alcance del conjuro debe tener éxito en una tirada de salvación de Sabiduría o ser encantado por ti hasta que el conjuro finalice.\nMientras el objetivo esté encantado aparece sobre su cabeza una retorcida corona de púas de hierro y un brillo de locura en sus ojos.\nLa criatura encantada debe utilizar su acción antes de mover en cada uno de sus turnos para realizar un ataque cuerpo a cuerpo contra una criatura que no sea ella misma que tú eliges mentalmente.\nEl objetivo puede actuar de forma normal en su turno si no eliges ninguna criatura o si no hay ninguna criatura a su alcance.\nEn los siguientes turnos, debes usar tu acción para mantener el control sobre el objetivo o el conjuro finaliza.\nEl objetivo también puede realizar una tirada de salvación basada en la Sabiduría al finalizar cada uno de sus turnos.\nSi supera la tirada el conjuro acaba.",
+            "higher_level": "",
+            "material": "",
+            "range": "120 pies",
+            "components": "V, S",
+            "ritual": "",
+            "duration": "1 Minute",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "2nd-level",
+            "school": "Enchantment",
+            "class": "Sorcerer, Warlock, Wizard",
+            "toHitOrDC": "DC",
+            "damage_dice": "",
+            "damage_dice_upcast": "",
+            "spell_save_dc_type": "wis",
+            "ability_modifier": "no",
+            "damage_type_01": "na"
+        },
+        "Hambre de Hadar": {
+            "name": "Hambre de Hadar",
+            "desc": "Abres una entrada a la oscuridad entre las estrellas, una región infestada de horrores desconocidos.\nUna esfera de 20 pies (4 casillas, 6 m) de radio de oscuridad y frio intenso aparece, centrado en un punto dentro del alcance y manteniéndose durante la duración del conjuro\nEste vacío está lleno con una cacofonía de suaves susurros y barboteantes sonidos que pueden ser escuchados hasta 30 pies (6 casillas, 9 m) de distancia.\nNo hay luz, mágica o de otra tipo, que pueda iluminar el área, y las criaturas completamente dentro del área son cegadas.\nEl vacío crea un portal en el tejido del espacio, y el área se vuelve terreno difícil.\nCualquier criatura que comience su turno en el área sufre 2d6 puntos de daño por frio.\nCualquier criatura que finalice su turno en el área debe superar una tirada de salvación de Destreza o sufrir 2d6 puntos de daño por ácido cuando unos lechosos tentáculos de otro mundo que se frotan contra ella.",
+            "higher_level": "",
+            "material": "un tentáculo de pulpo encurtido",
+            "range": "150 pies",
+            "components": "V, S, M",
+            "ritual": "",
+            "duration": "1 Minute",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "3rd-level",
+            "school": "Conjuration",
+            "class": "Warlock",
+            "toHitOrDC": "DC",
+            "damage_dice": "2d6",
+            "damage_dice_upcast": "",
+            "spell_save_dc_type": "dex",
+            "ability_modifier": "no",
+            "damage_type_01": "cold"
         }
     }
 }
