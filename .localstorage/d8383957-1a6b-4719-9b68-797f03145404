@@ -1581,18 +1581,6 @@
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
                             "resetType": "short rest"
-                        },
-                        {
-                            "traitName": "",
-                            "cheveron": false,
-                            "traitDescription": "",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
                         }
                     ]
                 },
@@ -1614,7 +1602,7 @@
                         },
                         {
                             "traitName": "Ascendencia Feérica",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
