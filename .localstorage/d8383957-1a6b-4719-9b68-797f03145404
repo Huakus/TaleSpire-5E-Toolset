@@ -214,6 +214,10 @@
                         {
                             "name": "Orbe cromatico",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo de enfermedad",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
