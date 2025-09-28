@@ -429,7 +429,7 @@
                     "traits": [
                         {
                             "traitName": "Ascendencia Feerica",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "- Tienes ventaja en las tiradas de salvación contra Encantamiento\n- No puedes ser dormido mediante la magia.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -441,7 +441,7 @@
                         },
                         {
                             "traitName": "Visión en la oscuridad",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
