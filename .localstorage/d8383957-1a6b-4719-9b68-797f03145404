@@ -1665,7 +1665,7 @@
                         {
                             "traitName": "Thirsting blade (hoja del ansia)",
                             "cheveron": false,
-                            "traitDescription": "Req",
+                            "traitDescription": "Requisitos: nivel 5 warlock. Podes atacar dos veces en lugar de una, siempre que use la opcion atack en tu turno con el arma del pacto",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
