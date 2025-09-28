@@ -1647,7 +1647,12 @@
                 {
                     "group-title": "",
                     "group-chevron": false,
-                    "notes": []
+                    "notes": [
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
+                        }
+                    ]
                 }
             ],
             "extrasData": [
