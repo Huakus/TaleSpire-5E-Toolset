@@ -1546,7 +1546,7 @@
                     "traits": [
                         {
                             "traitName": "Escape brumoso",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "cuando recibo dagno , me vuelvo invisible y me teletransporto hasta 18 metros (1/descanso)",
                             "checkboxStates": [],
                             "numberOfUses": "0",
