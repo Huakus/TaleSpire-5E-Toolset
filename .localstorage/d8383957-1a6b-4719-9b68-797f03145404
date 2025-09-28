@@ -1781,6 +1781,11 @@
                             "noteContent": ""
                         }
                     ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "notes": []
                 }
             ],
             "extrasData": [
