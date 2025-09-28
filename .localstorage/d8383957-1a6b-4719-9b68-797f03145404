@@ -28,7 +28,9 @@
                 "Sylvano",
                 "Aeloriano"
             ],
-            "playerToolsProficiency": [],
+            "playerToolsProficiency": [
+                "Kit de Herbalismo"
+            ],
             "initiativeButton": "+2",
             "AC": "15",
             "speed": "30ft.",
