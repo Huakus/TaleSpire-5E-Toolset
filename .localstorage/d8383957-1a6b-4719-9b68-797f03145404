@@ -426,6 +426,55 @@
                         "quantity": 1,
                         "weight": 3,
                         "cost": "5 gp"
+                    },
+                    {
+                        "name": "Mochila",
+                        "uniqueId": "item-1759097690308-9e24d1c4",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Libro",
+                        "uniqueId": "item-1759097690309-5a31ef3a",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp"
+                    },
+                    {
+                        "name": "Tinta (botella de 1 onza)",
+                        "uniqueId": "item-1759097690310-e86bf658",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "10 gp"
+                    },
+                    {
+                        "name": "Bolígrafo de tinta",
+                        "uniqueId": "item-1759097690311-6bdffdb3",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Pergamino (una hoja)",
+                        "uniqueId": "item-1759097690312-97bde828",
+                        "quantity": 10,
+                        "weight": 0,
+                        "cost": "1 sp"
+                    },
+                    {
+                        "name": "Pequeña bolsa de arena",
+                        "uniqueId": "item-1759097690314-a3a32abf",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Cuchillo pequeño",
+                        "uniqueId": "item-1759097690315-5cfd32d1",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "0 cp"
                     }
                 ],
                 "other-possessions": [],
