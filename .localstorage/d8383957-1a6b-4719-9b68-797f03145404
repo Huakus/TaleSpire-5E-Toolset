@@ -1643,6 +1643,11 @@
                             "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob"
                         }
                     ]
+                },
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "notes": []
                 }
             ],
             "extrasData": [
