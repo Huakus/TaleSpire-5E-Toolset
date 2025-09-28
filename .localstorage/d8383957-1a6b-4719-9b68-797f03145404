@@ -1546,7 +1546,7 @@
                     "traits": [
                         {
                             "traitName": "Escape brumoso",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "",
                             "checkboxStates": [],
                             "numberOfUses": "0",
