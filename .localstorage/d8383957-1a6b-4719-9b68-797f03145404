@@ -1581,6 +1581,18 @@
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
                             "resetType": "short rest"
+                        },
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
                         }
                     ]
                 },
