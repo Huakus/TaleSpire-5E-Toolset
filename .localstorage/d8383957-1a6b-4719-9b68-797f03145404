@@ -421,46 +421,11 @@
                         "equipped": false
                     },
                     {
-                        "name": "Libro",
-                        "uniqueId": "item-1759097665416-6f020d21",
+                        "name": "Kit de herbolario",
+                        "uniqueId": "item-1759097682216-5919a987",
                         "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp"
-                    },
-                    {
-                        "name": "Tinta (botella de 1 onza)",
-                        "uniqueId": "item-1759097665418-2ddaa470",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "10 gp"
-                    },
-                    {
-                        "name": "Bolígrafo de tinta",
-                        "uniqueId": "item-1759097665419-f150e967",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Pergamino (una hoja)",
-                        "uniqueId": "item-1759097665421-30c33fd8",
-                        "quantity": 10,
-                        "weight": 0,
-                        "cost": "1 sp"
-                    },
-                    {
-                        "name": "Pequeña bolsa de arena",
-                        "uniqueId": "item-1759097665422-bfd972fc",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "0 cp"
-                    },
-                    {
-                        "name": "Cuchillo pequeño",
-                        "uniqueId": "item-1759097665423-25075d54",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "0 cp"
+                        "weight": 3,
+                        "cost": "5 gp"
                     }
                 ],
                 "other-possessions": [],
