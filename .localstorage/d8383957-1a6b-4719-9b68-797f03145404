@@ -206,6 +206,10 @@
                         {
                             "name": "Falsa vida",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Sirviente invisible",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
