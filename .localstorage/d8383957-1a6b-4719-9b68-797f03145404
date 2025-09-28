@@ -1661,9 +1661,9 @@
                             "resetType": "none"
                         },
                         {
-                            "traitName": "Thirsting blade",
+                            "traitName": "Thirsting blade (hoja del ansia)",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "Req",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
@@ -1685,7 +1685,7 @@
                             "resetType": "none"
                         },
                         {
-                            "traitName": "",
+                            "traitName": "Improved pact weapon",
                             "cheveron": false,
                             "traitDescription": "",
                             "checkboxStates": [],
