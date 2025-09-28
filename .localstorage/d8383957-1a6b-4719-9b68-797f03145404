@@ -786,6 +786,12 @@
                     "currentHp": "13",
                     "maxHp": "13",
                     "tempHp": "0"
+                },
+                {
+                    "name": "Gólem De Hierro (A)",
+                    "currentHp": "210",
+                    "maxHp": "210",
+                    "tempHp": "0"
                 }
             ]
         },
