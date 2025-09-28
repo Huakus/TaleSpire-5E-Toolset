@@ -1643,6 +1643,24 @@
                             "resetType": "none"
                         }
                     ]
+                },
+                {
+                    "group-title": "Invocaciones",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
                 }
             ],
             "groupNotesData": [
