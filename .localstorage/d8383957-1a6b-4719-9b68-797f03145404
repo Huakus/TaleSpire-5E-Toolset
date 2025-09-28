@@ -1783,9 +1783,14 @@
                     ]
                 },
                 {
-                    "group-title": "",
+                    "group-title": "hugo en el mercado, voy de parte de arnaldo",
                     "group-chevron": false,
-                    "notes": []
+                    "notes": [
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
+                        }
+                    ]
                 }
             ],
             "extrasData": [
