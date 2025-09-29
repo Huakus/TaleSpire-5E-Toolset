@@ -1103,6 +1103,14 @@
                         "weight": 0.1,
                         "cost": "1500 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Armadura de Cuero Tachonado",
+                        "uniqueId": "item-1759105503905-3e818c89",
+                        "quantity": 1,
+                        "weight": 13,
+                        "cost": "45 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
