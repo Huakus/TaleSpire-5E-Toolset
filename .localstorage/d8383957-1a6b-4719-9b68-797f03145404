@@ -1614,6 +1614,14 @@
                         "quantity": 1,
                         "weight": 3,
                         "cost": "5 sp"
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1759104875248-7b14367d",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": false
                     }
                 ],
                 "other-possessions": [],
