@@ -1095,6 +1095,14 @@
                         "weight": 2,
                         "cost": "10 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Botas Élficas",
+                        "uniqueId": "item-1759104804159-7545ab37",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "1500 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
