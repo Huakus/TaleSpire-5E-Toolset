@@ -399,6 +399,14 @@
                         "weight": 1,
                         "cost": "0 cp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Cinturón de Fuerza de Gigante",
+                        "uniqueId": "item-1759108617328-dd723c78",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "1500 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
