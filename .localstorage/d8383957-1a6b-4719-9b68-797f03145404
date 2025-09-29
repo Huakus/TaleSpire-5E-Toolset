@@ -1140,7 +1140,7 @@
                             "numberOfUses": "0",
                             "adjustmentCategory": "skills",
                             "adjustmentSubCategory": "Stealth",
-                            "adjustmentAbility": "Proficiency",
+                            "adjustmentAbility": "NONE",
                             "adjustmentValue": "3",
                             "resetType": "long rest",
                             "advantage": false,
