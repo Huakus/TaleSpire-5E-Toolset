@@ -1142,7 +1142,7 @@
                             "adjustmentSubCategory": "Stealth",
                             "adjustmentAbility": "Proficiency",
                             "adjustmentValue": "3",
-                            "resetType": "none",
+                            "resetType": "long rest",
                             "advantage": false,
                             "disadvantage": false
                         }
