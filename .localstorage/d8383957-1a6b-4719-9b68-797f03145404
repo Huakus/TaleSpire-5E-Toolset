@@ -822,7 +822,7 @@
                 "Herramientas de Ladrón"
             ],
             "initiativeButton": "+4",
-            "AC": "15",
+            "AC": "14",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "17560",
@@ -1102,14 +1102,6 @@
                         "quantity": 1,
                         "weight": 0.1,
                         "cost": "1500 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Armadura de Cuero",
-                        "uniqueId": "item-1759105444714-0f260a85",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "10 gp",
                         "equipped": true
                     }
                 ],
