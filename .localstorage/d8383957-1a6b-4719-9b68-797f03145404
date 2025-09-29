@@ -1102,7 +1102,7 @@
                         "quantity": 1,
                         "weight": 0.1,
                         "cost": "1500 gp",
-                        "equipped": false
+                        "equipped": true
                     }
                 ],
                 "backpack": [
