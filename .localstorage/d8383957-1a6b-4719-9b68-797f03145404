@@ -1103,6 +1103,14 @@
                         "weight": 0.1,
                         "cost": "1500 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Armadura de Cuero",
+                        "uniqueId": "item-1759105444714-0f260a85",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "10 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
