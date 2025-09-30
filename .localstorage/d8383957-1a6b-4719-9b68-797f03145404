@@ -662,16 +662,12 @@
                     "group-chevron": false,
                     "notes": [
                         {
-                            "noteTitle": "Secta del espejo",
-                            "noteContent": ""
-                        },
-                        {
                             "noteTitle": "Notas del orfebre",
                             "noteContent": "Muestran como podemos armar un nuevo constructo con: \n- 1 Corazón de constructo\n- 50 Cristales carmesí "
                         },
                         {
                             "noteTitle": "Aelorianos",
-                            "noteContent": "Los aelorianos marcaban bebés para que eventualmente vuelvan a ayudar a liberar una entidad.\nEl templo del circulo eterno es el centro de culto del imperio aeloriano.\nLa orden caresí se separó de Bocco y descubrieron la forma de almacenar almas en los cristales y esto es lo que corrompió a la orden."
+                            "noteContent": "Los aelorianos marcaban bebés para que eventualmente vuelvan a ayudar a liberar una entidad.\nEl templo del circulo eterno es el centro de culto del imperio aeloriano.\nLa orden caresí se separó de Bocco y descubrieron la forma de almacenar almas en los cristales y esto es lo que corrompió a la orden.\nAún no sabemos qué es la secta del espejo."
                         },
                         {
                             "noteTitle": "Cristal Carmesí",
