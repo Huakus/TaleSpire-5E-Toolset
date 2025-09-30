@@ -188,14 +188,6 @@
                             "prepared": "0"
                         },
                         {
-                            "name": "Encontrar familiar",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Entender idiomas",
-                            "prepared": "0"
-                        },
-                        {
                             "name": "Retirada expeditiva",
                             "prepared": "0"
                         },
@@ -221,6 +213,14 @@
                         },
                         {
                             "name": "Rayo de enfermedad",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Entender idiomas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Encontrar familiar",
                             "prepared": "0"
                         }
                     ],
@@ -266,10 +266,6 @@
                             "prepared": "0"
                         },
                         {
-                            "name": "Apacible descanso",
-                            "prepared": "0"
-                        },
-                        {
                             "name": "Flecha ácida",
                             "prepared": "0"
                         },
@@ -279,6 +275,10 @@
                         },
                         {
                             "name": "Telaraña",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Apacible descanso",
                             "prepared": "0"
                         }
                     ],
