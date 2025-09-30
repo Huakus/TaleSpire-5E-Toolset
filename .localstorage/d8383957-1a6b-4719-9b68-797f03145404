@@ -94,7 +94,7 @@
                 "cp": 0,
                 "sp": 5,
                 "ep": 0,
-                "gp": 350,
+                "gp": 325,
                 "pp": 500
             },
             "alignment": "TN",
@@ -622,10 +622,6 @@
                         {
                             "noteTitle": "Nivel 1",
                             "noteContent": "- Manos ardientes\n- Caída de pluma\n- Orbe cromatico\n- Rayo de enfermedad\n- Telaraña (pergamino)"
-                        },
-                        {
-                            "noteTitle": "Nivel 2",
-                            "noteContent": "- Flecha ácida de Melf\n- Rayo debilitador"
                         }
                     ]
                 },
