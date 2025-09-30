@@ -638,6 +638,10 @@
                         {
                             "noteTitle": "Palabras de poder",
                             "noteContent": "- Sylor: Activa la sala del tesoro.\n- Aelun\n- Carmis\n- Vesmark"
+                        },
+                        {
+                            "noteTitle": "Epifanía al aparecer en la última sala",
+                            "noteContent": ""
                         }
                     ]
                 },
