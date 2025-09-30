@@ -222,10 +222,6 @@
                         {
                             "name": "Rayo de enfermedad",
                             "prepared": "0"
-                        },
-                        {
-                            "name": "Enmarañar",
-                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -279,6 +275,10 @@
                         },
                         {
                             "name": "Rayo debilitador",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Telaraña",
                             "prepared": "0"
                         }
                     ],
