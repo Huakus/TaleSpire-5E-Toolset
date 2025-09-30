@@ -94,7 +94,7 @@
                 "cp": 0,
                 "sp": 5,
                 "ep": 0,
-                "gp": 300,
+                "gp": 250,
                 "pp": 500
             },
             "alignment": "TN",
@@ -631,16 +631,6 @@
                 }
             ],
             "groupNotesData": [
-                {
-                    "group-title": "Conjuros en libros y pergaminos encontrados",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Nivel 1",
-                            "noteContent": "- Manos ardientes\n- Caída de pluma\n- Orbe cromatico\n- Rayo de enfermedad\n- Telaraña (pergamino)"
-                        }
-                    ]
-                },
                 {
                     "group-title": "Palabras",
                     "group-chevron": false,
