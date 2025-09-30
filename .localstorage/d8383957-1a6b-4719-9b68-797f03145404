@@ -632,20 +632,6 @@
             ],
             "groupNotesData": [
                 {
-                    "group-title": "Templo del círculo eterno",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Palabras de poder",
-                            "noteContent": "- Sylor: Activa la sala del tesoro.\n- Aelun\n- Carmis\n- Vesmark"
-                        },
-                        {
-                            "noteTitle": "Epifanía al aparecer en la última sala",
-                            "noteContent": "En el sur hay cadáveres de mejor calidad para interrogar."
-                        }
-                    ]
-                },
-                {
                     "group-title": "Notas",
                     "group-chevron": false,
                     "notes": [
@@ -694,6 +680,10 @@
                         {
                             "noteTitle": "Palabras de poder del templo",
                             "noteContent": "- Sylor: Activa la sala del tesoro.\n- Aelun\n- Carmis\n- Vesmark"
+                        },
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
                         }
                     ]
                 }
