@@ -637,19 +637,7 @@
                     "notes": [
                         {
                             "noteTitle": "Palabras de poder",
-                            "noteContent": "Activa la sala del tesoro."
-                        },
-                        {
-                            "noteTitle": "Aelun",
-                            "noteContent": ""
-                        },
-                        {
-                            "noteTitle": "Carmis",
-                            "noteContent": ""
-                        },
-                        {
-                            "noteTitle": "Vesmark",
-                            "noteContent": ""
+                            "noteContent": "- Sylor: Activa la sala del tesoro.\n- Aelun\n- Carmis\n- Vesmark"
                         }
                     ]
                 },
