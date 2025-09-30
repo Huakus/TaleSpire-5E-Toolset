@@ -210,6 +210,10 @@
                         {
                             "name": "Sirviente invisible",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Manos ardientes",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
