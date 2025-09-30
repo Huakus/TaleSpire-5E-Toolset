@@ -222,6 +222,10 @@
                         {
                             "name": "Rayo de enfermedad",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Enmarañar",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
