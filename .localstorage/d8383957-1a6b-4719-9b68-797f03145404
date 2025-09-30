@@ -200,10 +200,6 @@
                             "prepared": "0"
                         },
                         {
-                            "name": "Sirviente invisible",
-                            "prepared": "0"
-                        },
-                        {
                             "name": "Manos ardientes",
                             "prepared": "0"
                         },
@@ -221,6 +217,10 @@
                         },
                         {
                             "name": "Encontrar familiar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Sirviente invisible",
                             "prepared": "0"
                         }
                     ],
