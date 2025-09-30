@@ -218,6 +218,10 @@
                         {
                             "name": "Caída de pluma",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo de enfermedad",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
