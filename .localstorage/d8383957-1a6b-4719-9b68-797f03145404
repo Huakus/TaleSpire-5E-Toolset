@@ -256,6 +256,10 @@
                         {
                             "name": "Apacible descanso",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Flecha ácida",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
