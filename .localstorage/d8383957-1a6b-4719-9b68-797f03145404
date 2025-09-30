@@ -260,6 +260,10 @@
                         {
                             "name": "Flecha ácida",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo debilitador",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
