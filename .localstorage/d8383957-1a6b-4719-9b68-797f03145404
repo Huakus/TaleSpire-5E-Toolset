@@ -690,6 +690,10 @@
                         {
                             "noteTitle": "Cristal Carmesí",
                             "noteContent": "Está cargado con una instrucción oculta para que se ejecute por alguna razón."
+                        },
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
                         }
                     ]
                 }
