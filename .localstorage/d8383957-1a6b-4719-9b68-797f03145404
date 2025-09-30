@@ -692,8 +692,8 @@
                             "noteContent": "Está cargado con una instrucción oculta para que se ejecute por alguna razón."
                         },
                         {
-                            "noteTitle": "",
-                            "noteContent": ""
+                            "noteTitle": "Palabras de poder del templo",
+                            "noteContent": "- Sylor: Activa la sala del tesoro.\n- Aelun\n- Carmis\n- Vesmark"
                         }
                     ]
                 }
