@@ -3921,7 +3921,10 @@ function createSpellRow(spell,spellLevel) {
     const damageType = document.createElement('td');
     damageType.classList.add('spell-damage-type');
     damageType.textContent = spell.damage_type_01 
-        ? spell.damage_type_01.trim().slice(0, 4) 
+        ? spell.damage_type_01
+            .split("/")                 // separa por "/"
+            .map(t => t.trim().slice(0, 4)) // acorta cada parte a 4 letras
+            .join("/")     
         : "";
 
     const concentration = document.createElement('td');
@@ -4142,7 +4145,10 @@ function loadSpell(spell,row) {
     const damageType = row.querySelector('.spell-damage-type');
     if (damageType) {
         damageType.textContent = spellDetails.damage_type_01 
-            ? spellDetails.damage_type_01.trim().slice(0, 4) 
+            ? spellDetails.damage_type_01
+                .split("/")                 // separa por "/"
+                .map(t => t.trim().slice(0, 4)) // acorta cada parte a 4 letras
+                .join("/")                  // vuelve a unir con "/"
             : "";
     }
 
