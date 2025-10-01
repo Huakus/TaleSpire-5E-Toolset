@@ -1668,11 +1668,13 @@ const translations = {
         level8Label: "Nivel 8",
         level9Label: "Nivel 9",
         CantripSpellNameHeader: "Nombre",
-        CantripTimeHeader: "Tiempo",
-        CantripHitDCHeader: "Ataq/CD",
-        CantripDiceHeader: "Dados",
-        CantripConcentrationHeader: "Conc",
+        CantripTimeHeader: "T",
+        CantripHitDCHeader: "Ataq",
+        CantripDiceHeader: "Daño",
+        CantripDamageTypeHeader: "Tipo",
+        CantripConcentrationHeader: "Con",
         CantripNotesHeader: "Comp",
+        CantripSchoolHeader: "Esc",
         CantripDeleteHeader: "Elim",
         inspiration: "Inspiración",
         shortRestButton: "Descanso Corto",
@@ -2274,36 +2276,44 @@ const translations = {
 
 
         '1st-levelSpellNameHeader': "Nombre",
-        '1st-levelTimeHeader': "Tiempo",
-        '1st-levelHitDCHeader': "Ataq/CD",
-        '1st-levelDiceHeader': "Dados",
-        '1st-levelConcentrationHeader': "Conc",
+        '1st-levelTimeHeader': "T",
+        '1st-levelHitDCHeader': "Ataq",
+        '1st-levelDiceHeader': "Daño",
+        '1st-levelDamageTypeHeader': "Tipo",
+        '1st-levelConcentrationHeader': "Con",
         '1st-levelNotesHeader': "Comp",
+        '1st-levelSchoolHeader': "Esc",
         '1st-levelDeleteHeader': "Elim",
 
         '2nd-levelSpellNameHeader': "Nombre",
-        '2nd-levelTimeHeader': "Tiempo",
-        '2nd-levelHitDCHeader': "Ataq/CD",
-        '2nd-levelDiceHeader': "Dados",
-        '2nd-levelConcentrationHeader': "Conc",
+        '2nd-levelTimeHeader': "T",
+        '2nd-levelHitDCHeader': "Ataq",
+        '2nd-levelDiceHeader': "Daño",
+        '2nd-levelDamageTypeHeader': "Tipo",
+        '2nd-levelConcentrationHeader': "Con",
         '2nd-levelNotesHeader': "Comp",
+        '2nd-levelSchoolHeader': "Esc",
         '2nd-levelDeleteHeader': "Elim",
 
         '3rd-levelSpellNameHeader': "Nombre",
-        '3rd-levelTimeHeader': "Tiempo",
-        '3rd-levelHitDCHeader': "Ataq/CD",
-        '3rd-levelDiceHeader': "Dados",
-        '3rd-levelConcentrationHeader': "Conc",
+        '3rd-levelTimeHeader': "T",
+        '3rd-levelHitDCHeader': "Ataq",
+        '3rd-levelDiceHeader': "Daño",
+        '3rd-levelDamageTypeHeader': "Tipo",
+        '3rd-levelConcentrationHeader': "Con",
         '3rd-levelNotesHeader': "Comp",
+        '3rd-levelSchoolHeader': "Esc",
         '3rd-levelDeleteHeader': "Elim",
 
         ...Array.from({ length: 6 }, (_, i) => i + 4).reduce((acc, level) => {
             acc[`${level}th-levelSpellNameHeader`] = "Nombre";
-            acc[`${level}th-levelTimeHeader`] = "Tiempo";
-            acc[`${level}th-levelHitDCHeader`] = "Ataq/CD";
-            acc[`${level}th-levelDiceHeader`] = "Dados";
-            acc[`${level}th-levelConcentrationHeader`] = "Conc";
+            acc[`${level}th-levelTimeHeader`] = "T";
+            acc[`${level}th-levelHitDCHeader`] = "Ataq";
+            acc[`${level}th-levelDiceHeader`] = "Daño";
+            acc[`${level}th-levelDamageTypeHeader`] = "Tipo";
+            acc[`${level}th-levelConcentrationHeader`] = "Con";
             acc[`${level}th-levelNotesHeader`] = "Comp";
+            acc[`${level}th-levelSchoolHeader`] = "Esc";
             acc[`${level}th-levelDeleteHeader`] = "Elim";
             return acc;
         }, {}),

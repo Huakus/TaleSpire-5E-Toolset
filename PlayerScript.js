@@ -3710,8 +3710,10 @@ function createSpellTable(spellLevel) {
         { text: 'Time', id: `${spellLevel}TimeHeader` },
         { text: 'Hit/DC', id: `${spellLevel}HitDCHeader` },
         { text: 'Dice', id: `${spellLevel}DiceHeader` },
+        { text: 'Type', id: `${spellLevel}DamageTypeHeader` },
         { text: 'Con', id: `${spellLevel}ConcentrationHeader` },
         { text: 'Notes', id: `${spellLevel}NotesHeader` },
+        { text: 'School', id: `${spellLevel}SchoolHeader` },
         { text: 'Del', id: `${spellLevel}DeleteHeader` }
     ];
 
@@ -3916,6 +3918,12 @@ function createSpellRow(spell,spellLevel) {
     spellDice.classList.add('spell-dice');
     spellDice.textContent = spell.spellDice
 
+    const damageType = document.createElement('td');
+    damageType.classList.add('spell-damage-type');
+    damageType.textContent = spell.damage_type_01 
+        ? spell.damage_type_01.trim().slice(0, 4) 
+        : "";
+
     const concentration = document.createElement('td');
     concentration.classList.add('spell-concentration');
     concentration.textContent = spell.concentration ? 'Yes' : 'No';
@@ -3923,6 +3931,12 @@ function createSpellRow(spell,spellLevel) {
     const components = document.createElement('td');
     components.classList.add('spell-components');
     components.textContent = spell.components;
+
+    const school = document.createElement('td');
+    school.classList.add('spell-school');
+    school.textContent = spell.school 
+        ? spell.school.trim().slice(0, 4) 
+        : "";
 
     // Create the remove button
     const removeCell = document.createElement('td');
@@ -3940,8 +3954,10 @@ function createSpellRow(spell,spellLevel) {
     row.appendChild(castTime);
     row.appendChild(toHitOrDC);
     row.appendChild(spellDice);
+    row.appendChild(damageType);
     row.appendChild(concentration);
     row.appendChild(components);
+    row.appendChild(school);
     row.appendChild(removeCell);
 
     // Drag and Drop Event Listeners
@@ -4123,6 +4139,13 @@ function loadSpell(spell,row) {
         
     }
 
+    const damageType = row.querySelector('.spell-damage-type');
+    if (damageType) {
+        damageType.textContent = spellDetails.damage_type_01 
+            ? spellDetails.damage_type_01.trim().slice(0, 4) 
+            : "";
+    }
+
     const concentration = row.querySelector('.spell-concentration');
     if (concentration) {
         concentration.textContent = spellDetails.concentration;
@@ -4131,6 +4154,13 @@ function loadSpell(spell,row) {
     const components = row.querySelector('.spell-components');
     if (components) {
         components.textContent = spellDetails.components + spellDetails.ritual;
+    }
+
+    const school = row.querySelector('.spell-school');
+    if (school) {
+        school.textContent = spellDetails.school 
+            ? spellDetails.school.trim().slice(0, 4) 
+            : "";
     }
 
     if(spellDetails.higher_level === "" || spellLevel === "Cantrip"){
