@@ -2796,7 +2796,7 @@
                     "max": 40
                 },
                 "ac": 14,
-                "initiative": 0,
+                "initiative": 8,
                 "passivePerception": 0,
                 "spellSave": 12
             }
