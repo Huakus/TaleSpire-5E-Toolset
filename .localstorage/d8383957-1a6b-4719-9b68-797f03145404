@@ -1610,7 +1610,15 @@
                         "equipped": false
                     }
                 ],
-                "other-possessions": [],
+                "other-possessions": [
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710410922-8840fb99",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    }
+                ],
                 "attunement": []
             },
             "groupTraitData": [
