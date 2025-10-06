@@ -2684,7 +2684,7 @@
                     "max": 40
                 },
                 "ac": 14,
-                "initiative": 0,
+                "initiative": 17,
                 "passivePerception": 0,
                 "spellSave": 12
             },
@@ -2698,7 +2698,7 @@
                     "max": 40
                 },
                 "ac": 14,
-                "initiative": 0,
+                "initiative": 16,
                 "passivePerception": 0,
                 "spellSave": 12
             },
@@ -2712,7 +2712,7 @@
                     "max": 40
                 },
                 "ac": 14,
-                "initiative": 0,
+                "initiative": 15,
                 "passivePerception": 0,
                 "spellSave": 12
             },
