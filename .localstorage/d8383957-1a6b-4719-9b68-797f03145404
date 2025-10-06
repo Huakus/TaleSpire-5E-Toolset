@@ -1617,6 +1617,13 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710431084-a90c8e78",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
                     }
                 ],
                 "attunement": []
