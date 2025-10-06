@@ -2732,17 +2732,17 @@
             },
             {
                 "isMonster": 0,
-                "isCustom": true,
-                "name": "Custom",
-                "talespireId": null,
+                "isCustom": false,
+                "name": "Joaquin Senn",
+                "talespireId": "9c46e975-5507-443b-b729-757404e8c172",
                 "hp": {
-                    "current": 40,
-                    "max": 40
+                    "current": 0,
+                    "max": 0
                 },
-                "ac": 14,
+                "ac": 0,
                 "initiative": 0,
                 "passivePerception": 0,
-                "spellSave": 12
+                "spellSave": 0
             }
         ]
     }
