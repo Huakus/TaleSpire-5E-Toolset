@@ -2789,7 +2789,7 @@
             {
                 "isMonster": 0,
                 "isCustom": true,
-                "name": "Custom",
+                "name": "Mercion",
                 "talespireId": null,
                 "hp": {
                     "current": 40,
@@ -2799,6 +2799,20 @@
                 "initiative": 0,
                 "passivePerception": 0,
                 "spellSave": 12
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Iamtheblackwizards",
+                "talespireId": "77868f4d-5229-47aa-9dbe-fa72cddd12a9",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 0,
+                "passivePerception": 0,
+                "spellSave": 0
             }
         ]
     }
