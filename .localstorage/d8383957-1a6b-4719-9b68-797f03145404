@@ -2642,7 +2642,7 @@
                     "max": 0
                 },
                 "ac": 0,
-                "initiative": 0,
+                "initiative": 22,
                 "passivePerception": 0,
                 "spellSave": 0
             },
