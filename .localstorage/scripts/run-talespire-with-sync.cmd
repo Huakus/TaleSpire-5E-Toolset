@@ -33,7 +33,7 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo ^        ^$head = ^& ^$Git ls-remote --symref ^$Remote HEAD 2^>^&1
 >>"%PSFILE%" echo ^        if(^$head -match 'refs/heads/([^ ]+)'^) { return ^$matches[1] }
 >>"%PSFILE%" echo ^        ^$heads = ^& ^$Git ls-remote --heads ^$Remote 2^>^&1
->>"%PSFILE%" echo ^        if(^$heads -match 'refs/heads/master'^) { ^$b='master' }
+>>"%PSFILE%" echo ^        if(^$heads -match 'refs/heads/main'^) { ^$b='main' }
 >>"%PSFILE%" echo ^    } catch {}
 >>"%PSFILE%" echo ^    return ^$b
 >>"%PSFILE%" echo }
