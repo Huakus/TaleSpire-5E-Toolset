@@ -2072,7 +2072,12 @@
                     "slots": []
                 },
                 "1st-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Infligir heridas",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         true,
                         true,
