@@ -1881,7 +1881,6 @@
             "insp": 1,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
-<<<<<<< Updated upstream
             "playerWeaponProficiency": [
                 "Arco corto",
                 "Espada Larga",
@@ -1897,11 +1896,6 @@
                 "Comun",
                 "Elfo"
             ],
-=======
-            "playerWeaponProficiency": [],
-            "playerArmorProficiency": [],
-            "playerLanguageProficiency": [],
->>>>>>> Stashed changes
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
             "AC": "13",
