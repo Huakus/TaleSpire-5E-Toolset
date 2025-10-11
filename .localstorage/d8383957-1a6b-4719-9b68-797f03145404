@@ -1881,6 +1881,7 @@
             "insp": 1,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
+<<<<<<< Updated upstream
             "playerWeaponProficiency": [
                 "Arco corto",
                 "Espada Larga",
@@ -1896,6 +1897,11 @@
                 "Comun",
                 "Elfo"
             ],
+=======
+            "playerWeaponProficiency": [],
+            "playerArmorProficiency": [],
+            "playerLanguageProficiency": [],
+>>>>>>> Stashed changes
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
             "AC": "13",
@@ -2210,6 +2216,7 @@
                             "adjustmentSubCategory": "",
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
+<<<<<<< Updated upstream
                             "resetType": "none"
                         }
                     ]
@@ -2258,6 +2265,8 @@
                             "adjustmentSubCategory": "",
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
+=======
+>>>>>>> Stashed changes
                             "resetType": "none"
                         }
                     ]
@@ -2295,7 +2304,14 @@
                     ]
                 }
             ],
-            "extrasData": []
+            "extrasData": [
+                {
+                    "name": "Búho (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                }
+            ]
         },
         "JuanPi": {
             "characterTempHp": "",
