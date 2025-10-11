@@ -89,7 +89,12 @@
             "pb-22": 1,
             "pb-23": 1,
             "pb-24": 0,
-            "conditions": [],
+            "conditions": [
+                {
+                    "text": "Invisible",
+                    "value": "invisible"
+                }
+            ],
             "coins": {
                 "cp": 0,
                 "sp": 5,
