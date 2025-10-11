@@ -2068,45 +2068,11 @@
                 "spellcastingModifier": "WIS",
                 "spelllevelselected": "3",
                 "Cantrip": {
-                    "spells": [
-                        {
-                            "name": "Light",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Resistance",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Thaumaturgy",
-                            "prepared": "false"
-                        }
-                    ],
+                    "spells": [],
                     "slots": []
                 },
                 "1st-level": {
-                    "spells": [
-                        {
-                            "name": "Bless",
-                            "prepared": "1"
-                        },
-                        {
-                            "name": "Cure Wounds",
-                            "prepared": "1"
-                        },
-                        {
-                            "name": "Inflict Wounds",
-                            "prepared": "1"
-                        },
-                        {
-                            "name": "Identify",
-                            "prepared": "1"
-                        },
-                        {
-                            "name": "Command",
-                            "prepared": "1"
-                        }
-                    ],
+                    "spells": [],
                     "slots": [
                         true,
                         true,
@@ -2115,16 +2081,7 @@
                     ]
                 },
                 "2nd-level": {
-                    "spells": [
-                        {
-                            "name": "Enhance Ability",
-                            "prepared": "1"
-                        },
-                        {
-                            "name": "Silence",
-                            "prepared": "1"
-                        }
-                    ],
+                    "spells": [],
                     "slots": [
                         true,
                         true,
