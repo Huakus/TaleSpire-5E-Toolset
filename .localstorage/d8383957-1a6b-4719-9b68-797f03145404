@@ -2089,20 +2089,7 @@
                     ]
                 },
                 "3rd-level": {
-                    "spells": [
-                        {
-                            "name": "Beacon of Hope",
-                            "prepared": "1"
-                        },
-                        {
-                            "name": "Glyph of Warding",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Spirit Guardians",
-                            "prepared": "0"
-                        }
-                    ],
+                    "spells": [],
                     "slots": [
                         true,
                         true,
