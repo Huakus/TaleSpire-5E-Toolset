@@ -1439,7 +1439,7 @@
                         },
                         {
                             "name": "Disipar magia",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Don de lenguas",
@@ -1471,7 +1471,7 @@
                         },
                         {
                             "name": "Toque vampírico",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Volar",
