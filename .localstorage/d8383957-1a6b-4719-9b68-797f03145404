@@ -632,114 +632,114 @@
             ],
             "groupNotesData": [
                 {
-                "group-title": "Objetivos",
-                "group-chevron": false,
-                "notes": [
-                    {
-                    "noteTitle": "Alianza con mercenarios del Sur",
-                    "noteContent": "Conseguir que los mercenarios del Reino del Sur se unan al Norte para defender Valverde del Río. Para ello, ubicar a Petro (actualmente preso) y obtener de él la localización y protocolo de contacto con las compañías. [Distrito de Artesanos]"
-                    },
-                    {
-                    "noteTitle": "Custodia del Libro Guardián",
-                    "noteContent": "Mantener el Libro Guardián lejos de Eldan Brightshield y su séquito; continuar descifrando/asegurando su conjuro protector. [Cap.4]"
-                    },
-                    {
-                    "noteTitle": "Exponer al traidor en la cadena real",
-                    "noteContent": "Reunir pruebas contra Lord Aitor Menta (señalado por Borgar como topo) sin quemar la investigación antes de tiempo. [Cap.4]"
-                    },
-                    {
-                    "noteTitle": "Acceso a la Ciudad Alta",
-                    "noteContent": "Coordinar con Zafir (tiefling; Ernesto lo llama «Zephyr») la falsificación del pase para ingresar a la ciudad alta y continuar la misión. [Distrito de Artesanos]"
-                    }
-                ]
+                    "group-title": "Objetivos",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Alianza con mercenarios del Sur",
+                            "noteContent": "Conseguir que los mercenarios del Reino del Sur se unan al Norte para defender Valverde del Río. Para ello, ubicar a Petro (actualmente preso) y obtener de él la localización y protocolo de contacto con las compañías. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Custodia del Libro Guardián",
+                            "noteContent": "Mantener el Libro Guardián lejos de Eldan Brightshield y su séquito; continuar descifrando/asegurando su conjuro protector. [Cap.4]"
+                        },
+                        {
+                            "noteTitle": "Exponer al traidor en la cadena real",
+                            "noteContent": "Reunir pruebas contra Lord Aitor Menta (señalado por Borgar como topo) sin quemar la investigación antes de tiempo. [Cap.4]"
+                        },
+                        {
+                            "noteTitle": "Acceso a la Ciudad Alta",
+                            "noteContent": "Coordinar con Zafir (tiefling; Ernesto lo llama «Zephyr») la falsificación del pase para ingresar a la ciudad alta y continuar la misión. [Distrito de Artesanos]"
+                        }
+                    ]
                 },
                 {
-                "group-title": "Tareas pendientes",
-                "group-chevron": false,
-                "notes": [
-                    {
-                    "noteTitle": "Liberar a Petro",
-                    "noteContent": "Gestionar su salida de prisión (condicionada) a cambio de su ayuda para contactar mercenarios. [Distrito de Artesanos]"
-                    },
-                    {
-                    "noteTitle": "Eladio y Gregorio — rescate",
-                    "noteContent": "Rastrear a Eladio y su cómplice Gregorio; rescatar al sobrino del dueño de la forja (fueron vistos huyendo tras el asesinato en la taberna). [Distrito de Artesanos]"
-                    },
-                    {
-                    "noteTitle": "Pase falsificado",
-                    "noteContent": "Concretar con Zafir y su ‘ayudante grandote’ la falsificación del documento de pase para la ciudad alta. [Distrito de Artesanos]"
-                    },
-                    {
-                    "noteTitle": "Forja y pertrechos",
-                    "noteContent": "Retirar/terminar las mejoras de armas y armaduras entregadas en el taller. [Distrito de Artesanos]"
-                    },
-                    {
-                    "noteTitle": "Explorar el distrito",
-                    "noteContent": "Completar el reconocimiento: Plaza Seca, casa del gremio al oeste (comedor/planta alta del gremio), posibles pasadizos de contrabandistas. [Distrito de Artesanos]"
-                    },
-                    {
-                    "noteTitle": "Hermandad de la Forja",
-                    "noteContent": "Investigar la relación Petro–Eladio–Gregorio–Zafir con la Hermandad; determinar objetivos reales y lealtades. [Distrito de Artesanos]"
-                    },
-                    {
-                    "noteTitle": "Pruebas contra Aitor Menta",
-                    "noteContent": "Reunir evidencias (cartas, testigos, movimientos de pertrechos) que vinculen a Aitor con la red de Salazar y/o el Sur. [Cap.4]"
-                    }
-                ]
+                    "group-title": "Tareas pendientes",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Liberar a Petro",
+                            "noteContent": "Gestionar su salida de prisión (condicionada) a cambio de su ayuda para contactar mercenarios. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Eladio y Gregorio — rescate",
+                            "noteContent": "Rastrear a Eladio y su cómplice Gregorio; rescatar al sobrino del dueño de la forja (fueron vistos huyendo tras el asesinato en la taberna). [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Pase falsificado",
+                            "noteContent": "Concretar con Zafir y su ‘ayudante grandote’ la falsificación del documento de pase para la ciudad alta. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Forja y pertrechos",
+                            "noteContent": "Retirar/terminar las mejoras de armas y armaduras entregadas en el taller. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Explorar el distrito",
+                            "noteContent": "Completar el reconocimiento: Plaza Seca, casa del gremio al oeste (comedor/planta alta del gremio), posibles pasadizos de contrabandistas. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Hermandad de la Forja",
+                            "noteContent": "Investigar la relación Petro–Eladio–Gregorio–Zafir con la Hermandad; determinar objetivos reales y lealtades. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Pruebas contra Aitor Menta",
+                            "noteContent": "Reunir evidencias (cartas, testigos, movimientos de pertrechos) que vinculen a Aitor con la red de Salazar y/o el Sur. [Cap.4]"
+                        }
+                    ]
                 },
                 {
-                "group-title": "Conspiraciones y política local",
-                "group-chevron": false,
-                "notes": [
-                    {
-                    "noteTitle": "Carta del capitán Aitor Menta",
-                    "noteContent": "Confirma ambición/pugna interna; posible conexión con la logística de Salazar. Rumor: intención de volver a Puente Alto y maniobrar políticamente. Verificar."
-                    },
-                    {
-                    "noteTitle": "Eliza Belmonte — rumores",
-                    "noteContent": "Existen cartas/rumores sobre su casamiento y vínculos políticos; tratar como ‘no verificado’. (Eliza = sobrina de don Alarico; mantener el Libro lejos del Duque)."
-                    },
-                    {
-                    "noteTitle": "Charla con Borgar Tempestus",
-                    "noteContent": "Borgar apuesta a cambiar de bando; aporta la pista de Aitor Menta como infiltrado. Útil pero poco fiable: manejar bajo custodia y obtener pruebas objetivas."
-                    }
-                ]
+                    "group-title": "Conspiraciones y política local",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Carta del capitán Aitor Menta",
+                            "noteContent": "Confirma ambición/pugna interna; posible conexión con la logística de Salazar. Rumor: intención de volver a Puente Alto y maniobrar políticamente. Verificar."
+                        },
+                        {
+                            "noteTitle": "Eliza Belmonte — rumores",
+                            "noteContent": "Existen cartas/rumores sobre su casamiento y vínculos políticos; tratar como ‘no verificado’. (Eliza = sobrina de don Alarico; mantener el Libro lejos del Duque)."
+                        },
+                        {
+                            "noteTitle": "Charla con Borgar Tempestus",
+                            "noteContent": "Borgar apuesta a cambiar de bando; aporta la pista de Aitor Menta como infiltrado. Útil pero poco fiable: manejar bajo custodia y obtener pruebas objetivas."
+                        }
+                    ]
                 },
                 {
-                "group-title": "Magia y reliquias",
-                "group-chevron": false,
-                "notes": [
-                    {
-                    "noteTitle": "Libro Guardián",
-                    "noteContent": "Artefacto aelorio con conjuro protector incompleto; palabras de poder conocidas: Sylor (activa sala del tesoro), Aelun, Carmis, Vesmark. Mantenerlo lejos del Duque."
-                    },
-                    {
-                    "noteTitle": "Cristales lucientes / Corazón Carmesí",
-                    "noteContent": "Tecnología arcana peligrosa (resonancia + sangre). Prioridad: evitar usos corruptores y vigilar hallazgos de gemas ‘azules’ en el distrito."
-                    },
-                    {
-                    "noteTitle": "Notas del orfebre",
-                    "noteContent": "Indicios de cómo armar/servirse de constructos (p.ej., 1 Corazón de constructo + ~50 cristales carmesí). Usar con extrema cautela; riesgo de corrupción."
-                    }
-                ]
+                    "group-title": "Magia y reliquias",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Libro Guardián",
+                            "noteContent": "Artefacto aelorio con conjuro protector incompleto; palabras de poder conocidas: Sylor (activa sala del tesoro), Aelun, Carmis, Vesmark. Mantenerlo lejos del Duque."
+                        },
+                        {
+                            "noteTitle": "Cristales lucientes / Corazón Carmesí",
+                            "noteContent": "Tecnología arcana peligrosa (resonancia + sangre). Prioridad: evitar usos corruptores y vigilar hallazgos de gemas ‘azules’ en el distrito."
+                        },
+                        {
+                            "noteTitle": "Notas del orfebre",
+                            "noteContent": "Indicios de cómo armar/servirse de constructos (p.ej., 1 Corazón de constructo + ~50 cristales carmesí). Usar con extrema cautela; riesgo de corrupción."
+                        }
+                    ]
                 },
                 {
-                "group-title": "Reino del Sur — frente urbano",
-                "group-chevron": false,
-                "notes": [
-                    {
-                    "noteTitle": "Panorama del distrito",
-                    "noteContent": "Posada de los Herreros (Arnaldo), taller (Hugo), Plaza Seca (mercenarios sin gremio), Cuenco de Carbón (taberna incendiada durante el operativo)."
-                    },
-                    {
-                    "noteTitle": "Evento en la taberna",
-                    "noteContent": "Petro asesinó al dueño de la forja; Eladio y Gregorio secuestraron al sobrino y escaparon. Petro quedó preso; ofrece cooperación a cambio de libertad."
-                    },
-                    {
-                    "noteTitle": "Zafir (tiefling)",
-                    "noteContent": "Intermediario capaz de falsificar pase a la ciudad alta. Mantener relación funcional (Ernesto lo registra como «Zephyr»)."
-                    }
-                ]
+                    "group-title": "Reino del Sur — frente urbano",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Panorama del distrito",
+                            "noteContent": "Posada de los Herreros (Arnaldo), taller (Hugo), Plaza Seca (mercenarios sin gremio), Cuenco de Carbón (taberna incendiada durante el operativo)."
+                        },
+                        {
+                            "noteTitle": "Evento en la taberna",
+                            "noteContent": "Petro asesinó al dueño de la forja; Eladio y Gregorio secuestraron al sobrino y escaparon. Petro quedó preso; ofrece cooperación a cambio de libertad."
+                        },
+                        {
+                            "noteTitle": "Zafir (tiefling)",
+                            "noteContent": "Intermediario capaz de falsificar pase a la ciudad alta. Mantener relación funcional (Ernesto lo registra como «Zephyr»)."
+                        }
+                    ]
                 }
             ],
             "extrasData": [
