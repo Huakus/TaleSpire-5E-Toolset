@@ -362,7 +362,9 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [],
+            "description": [
+                "Pequeño pedazo de cristal similar al hielo claro que pulsa con una luz interna tenue. Son restos del banco del Corazón, un artefacto energético aeloriano que alimentaba el templo. \n Mecánica: \n Usar (acción): consume el fragmento. \n Efecto (elige uno): \n Recarga menor: restaura una ranura de conjuro de 1.er nivel (no rituales). \n Pulso vital: otorga 2d6 PV temporales a una criatura y cura 1d4 adicionales si se usa dentro del templo. \n Corruptibilidad: +1 al marcador de corrupción (MC) si se activa tras derramar sangre o se consumen varios fragmentos en una misma escena. \n Identificación: DC 12 Arcana (o Identify). \n Destrucción: aplastarlo (Fuerza DC 10) libera un pulso de 1d6 de daño radiante en un cono de 3 m, sin dañar objetos mágicos. \n Uso en puzzles/artefactos: 3 fragmentos insertados en receptáculos del Corazón activan mecanismos menores como puertas, puentes o plataformas antiguas."
+            ],
             "properties": [],
             "cost": {
                 "quantity": 0,
