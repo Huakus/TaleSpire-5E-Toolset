@@ -1157,6 +1157,14 @@
                         "quantity": 1,
                         "weight": 4,
                         "cost": "1 gp"
+                    },
+                    {
+                        "name": "Cristal de Reserva",
+                        "uniqueId": "item-1761536028164-8c2c2137",
+                        "quantity": 7,
+                        "weight": 7,
+                        "cost": "0 cp",
+                        "equipped": false
                     }
                 ],
                 "other-possessions": [],
