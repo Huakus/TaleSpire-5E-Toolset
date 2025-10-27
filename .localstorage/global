@@ -333,9 +333,53 @@
             },
             "gearCategory": "Equipo estándar"
         },
+        "Cristal de Reserva": {
+            "index": "cristal-de-reserva",
+            "name": "Cristal de Reserva",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "wondrous-item"
+            },
+            "description": [],
+            "properties": [],
+            "cost": {
+                "quantity": 0,
+                "unit": "cp"
+            },
+            "weight": 1,
+            "rarity": {
+                "index": "very-rare",
+                "name": "very-rare"
+            },
+            "hasCharges": false,
+            "chargesOptions": null,
+            "bonus": []
+        },
+        "Cristal Luciente": {
+            "index": "cristal-luciente",
+            "name": "Cristal Luciente",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "wondrous-item"
+            },
+            "description": [],
+            "properties": [],
+            "cost": {
+                "quantity": 0,
+                "unit": "cp"
+            },
+            "weight": 1,
+            "rarity": {
+                "index": "very-rare",
+                "name": "very-rare"
+            },
+            "hasCharges": false,
+            "chargesOptions": null,
+            "bonus": []
+        },
         "Cristal Carmesí": {
-            "index": "cristal-carmesí",
-            "name": "Cristal Carmesí",
+            "index": "cristal-carmesi",
+            "name": "Cristal Carmsí",
             "equipment_category": {
                 "index": "wondrous-item",
                 "name": "wondrous-item"

@@ -434,10 +434,17 @@
                         "cost": "15 gp"
                     },
                     {
-                        "name": "Cristal",
+                        "name": "Cristal Luciente",
                         "uniqueId": "item-1758769730184-a4c5cef2",
                         "quantity": 15,
                         "weight": 15,
+                        "cost": "10 gp"
+                    },
+                    {
+                        "name": "Cristal de Reserva",
+                        "uniqueId": "item-1758769730184-a4c5cef2",
+                        "quantity": 7,
+                        "weight": 7,
                         "cost": "10 gp"
                     },
                     {
@@ -719,7 +726,7 @@
                         },
                         {
                             "noteTitle": "Notas del orfebre",
-                            "noteContent": "Indicios de cómo armar/servirse de constructos (p.ej., 1 Corazón de constructo + ~50 cristales carmesí). Usar con extrema cautela; riesgo de corrupción."
+                            "noteContent": "Indicios de cómo armar/servirse de constructos (p.ej., 1 Corazón de constructo + 25 Cristales de reserva + 25 Cristales lucientes). Usar con extrema cautela; riesgo de corrupción."
                         }
                     ]
                 },
