@@ -1327,10 +1327,10 @@
             "pb-24": 1,
             "conditions": [],
             "coins": {
-                "cp": 0,
+                "cp": 10,
                 "sp": 0,
                 "ep": 0,
-                "gp": 0,
+                "gp": 1,
                 "pp": 0
             },
             "alignment": "TN",
