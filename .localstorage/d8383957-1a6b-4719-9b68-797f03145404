@@ -1165,6 +1165,14 @@
                         "weight": 7,
                         "cost": "0 cp",
                         "equipped": false
+                    },
+                    {
+                        "name": "Cristal Luciente",
+                        "uniqueId": "item-1761536047543-126b06b9",
+                        "quantity": 5,
+                        "weight": 5,
+                        "cost": "0 cp",
+                        "equipped": false
                     }
                 ],
                 "other-possessions": [],
