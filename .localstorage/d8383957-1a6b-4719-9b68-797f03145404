@@ -1224,7 +1224,7 @@
             "characterLevel": "6",
             "playerXP": "14000",
             "playerClass": "Semielfa Bruja\n(Archihada - Ermitaña - [pacto])",
-            "currentCharacterHP": "45",
+            "currentCharacterHP": "51",
             "maxCharacterHP": "51",
             "strengthScore": "8",
             "dexterityScore": "16",
@@ -1276,12 +1276,7 @@
             "pb-22": 0,
             "pb-23": 1,
             "pb-24": 1,
-            "conditions": [
-                {
-                    "text": "Bendecir",
-                    "value": "bless"
-                }
-            ],
+            "conditions": [],
             "coins": {
                 "cp": 0,
                 "sp": 0,
