@@ -286,7 +286,7 @@
                         true,
                         true,
                         true,
-                        false
+                        true
                     ]
                 },
                 "3rd-level": {
