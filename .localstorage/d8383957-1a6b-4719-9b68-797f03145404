@@ -1299,7 +1299,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 1,
+            "": 0,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -1354,6 +1354,31 @@
                         "ninthColumn": {
                             "attacks": false,
                             "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Daga +3",
+                        "itemId": "item-1761528715784-712e3eb2",
+                        "thirdColumn": "5ft - 20/60ft",
+                        "fourthColumn": "+2",
+                        "fifthColumn": "1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "3",
+                        "damageBonus": "3",
+                        "tenthColumn": "Sutil, Ligero, Arrojadiza, Monje",
+                        "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
                             "bonus-actions": false,
                             "reactions": false,
                             "other": false
@@ -1564,6 +1589,14 @@
                         "quantity": 1,
                         "weight": 5,
                         "cost": "25 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Daga +3",
+                        "uniqueId": "item-1761528715784-712e3eb2",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
                         "equipped": true
                     }
                 ],
