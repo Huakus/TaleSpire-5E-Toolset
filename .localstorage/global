@@ -348,8 +348,8 @@
             },
             "weight": 1,
             "rarity": {
-                "index": "very-rare",
-                "name": "very-rare"
+                "index": "uncommon",
+                "name": "Poco Común"
             },
             "hasCharges": false,
             "chargesOptions": null,
@@ -372,8 +372,8 @@
             },
             "weight": 1,
             "rarity": {
-                "index": "very-rare",
-                "name": "very-rare"
+                "index": "common",
+                "name": "common"
             },
             "hasCharges": false,
             "chargesOptions": null,
