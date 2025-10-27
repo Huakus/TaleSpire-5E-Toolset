@@ -632,60 +632,114 @@
             ],
             "groupNotesData": [
                 {
-                    "group-title": "Notas",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Carta del capitán Aitor Menta para su esposa",
-                            "noteContent": "- El capitán si bien era un traidor, sólo cumplía órdenes.\n- El \"Lord\" le ordenaba que cumpliera las órdenes de Salazar.\n- No sabemos quien es el \"Lord\"."
-                        },
-                        {
-                            "noteTitle": "Casamiento de Eliza Belmonte",
-                            "noteContent": "- El capitan escribió una carta muy enojada a un \"Lord\" en la que dice que Elisa Belmonte ya aceptó el pedido de matrimonio.\n- Planeaba volver a Puente Alto y exigir explicaciones."
-                        },
-                        {
-                            "noteTitle": "Conexión con el tempolo del circulo eterno",
-                            "noteContent": "En la cueva siento como el libro pulsa como si alguien intentara comunicarse pero no logro establecer la conexión\n- Es Calvus Trenor que está intentando salir del templo a través del sello en la torre."
-                        },
-                        {
-                            "noteTitle": "Charla con Borgar Tempestus",
-                            "noteContent": "- El duque es muy fuerte.\n- Aparentemente el duque usa magia (tentáculos).\n- No es de fiar, quiere eliminar todos los cabos sueltos.\n- Los mercenarios de Salazar seguramente se encuentren en el sur.\n- La orden carmesí está detras de los movimientos que está haciendo el Rey Braichil del sur.\n- Hay que investigar quien está controlando a los del norte."
-                        },
-                        {
-                            "noteTitle": "Reino del sur",
-                            "noteContent": "- Tenemos que hablar con Petro, que está en el distrito de los herreros.\n- Una vez que nos diga donde están los mercenarios vamos a poder hablar con ellos y comprarlos.\n- Tenemos que conseguir un permiso original para pasar a la ciudad alta para falsificarlo.\n- Urien Van Durien. Su tío es Retgath Van Durien.\n- Mago Eladio errante atras de la posadaparee que esta reclutando.\n- Petro debe estar escondido en una casa del distrito.\n- Eladio dijo que querían reemplazar a salazar por calvus.\n- Eladio y GGregorio son de la misma secta que Calvus.\n- Parece que quieren ir al templo de la lágrima.\n- Tenemos que ir con los libros al templo que esta en el sur.\n- Petro planea matar a todos en la taberna."
-                        },
-                        {
-                            "noteTitle": "Hermandad de la forja",
-                            "noteContent": "- Petro, Eladio y Gregorio son de la hermandad de la forja.\n- Mataron al dueño de la forja y secuestraron a su sobrino.\n- Nos aliamos con Zhafir para falsificar un documento para poder pasar a la ciudad alta.\n"
-                        }
-                    ]
+                "group-title": "Objetivos",
+                "group-chevron": false,
+                "notes": [
+                    {
+                    "noteTitle": "Alianza con mercenarios del Sur",
+                    "noteContent": "Conseguir que los mercenarios del Reino del Sur se unan al Norte para defender Valverde del Río. Para ello, ubicar a Petro (actualmente preso) y obtener de él la localización y protocolo de contacto con las compañías. [Distrito de Artesanos]"
+                    },
+                    {
+                    "noteTitle": "Custodia del Libro Guardián",
+                    "noteContent": "Mantener el Libro Guardián lejos de Eldan Brightshield y su séquito; continuar descifrando/asegurando su conjuro protector. [Cap.4]"
+                    },
+                    {
+                    "noteTitle": "Exponer al traidor en la cadena real",
+                    "noteContent": "Reunir pruebas contra Lord Aitor Menta (señalado por Borgar como topo) sin quemar la investigación antes de tiempo. [Cap.4]"
+                    },
+                    {
+                    "noteTitle": "Acceso a la Ciudad Alta",
+                    "noteContent": "Coordinar con Zafir (tiefling; Ernesto lo llama «Zephyr») la falsificación del pase para ingresar a la ciudad alta y continuar la misión. [Distrito de Artesanos]"
+                    }
+                ]
                 },
                 {
-                    "group-title": "Circulo Eterno",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Notas del orfebre",
-                            "noteContent": "Muestran como podemos armar un nuevo constructo con: \n- 1 Corazón de constructo\n- 50 Cristales carmesí "
-                        },
-                        {
-                            "noteTitle": "Aelorianos",
-                            "noteContent": "Los aelorianos marcaban bebés para que eventualmente vuelvan a ayudar a liberar una entidad.\nEl templo del circulo eterno es el centro de culto del imperio aeloriano.\nLa orden caresí se separó de Bocco y descubrieron la forma de almacenar almas en los cristales y esto es lo que corrompió a la orden.\nAún no sabemos qué es la secta del espejo."
-                        },
-                        {
-                            "noteTitle": "Cristal Carmesí",
-                            "noteContent": "Está cargado con una instrucción oculta para que se ejecute por alguna razón."
-                        },
-                        {
-                            "noteTitle": "Palabras de poder del templo",
-                            "noteContent": "- Sylor: Activa la sala del tesoro.\n- Aelun\n- Carmis\n- Vesmark"
-                        },
-                        {
-                            "noteTitle": "Epifanía en la última sala del templo",
-                            "noteContent": "En el sur hay cadáveres de mejor calidad para interrogar."
-                        }
-                    ]
+                "group-title": "Tareas pendientes",
+                "group-chevron": false,
+                "notes": [
+                    {
+                    "noteTitle": "Liberar a Petro",
+                    "noteContent": "Gestionar su salida de prisión (condicionada) a cambio de su ayuda para contactar mercenarios. [Distrito de Artesanos]"
+                    },
+                    {
+                    "noteTitle": "Eladio y Gregorio — rescate",
+                    "noteContent": "Rastrear a Eladio y su cómplice Gregorio; rescatar al sobrino del dueño de la forja (fueron vistos huyendo tras el asesinato en la taberna). [Distrito de Artesanos]"
+                    },
+                    {
+                    "noteTitle": "Pase falsificado",
+                    "noteContent": "Concretar con Zafir y su ‘ayudante grandote’ la falsificación del documento de pase para la ciudad alta. [Distrito de Artesanos]"
+                    },
+                    {
+                    "noteTitle": "Forja y pertrechos",
+                    "noteContent": "Retirar/terminar las mejoras de armas y armaduras entregadas en el taller. [Distrito de Artesanos]"
+                    },
+                    {
+                    "noteTitle": "Explorar el distrito",
+                    "noteContent": "Completar el reconocimiento: Plaza Seca, casa del gremio al oeste (comedor/planta alta del gremio), posibles pasadizos de contrabandistas. [Distrito de Artesanos]"
+                    },
+                    {
+                    "noteTitle": "Hermandad de la Forja",
+                    "noteContent": "Investigar la relación Petro–Eladio–Gregorio–Zafir con la Hermandad; determinar objetivos reales y lealtades. [Distrito de Artesanos]"
+                    },
+                    {
+                    "noteTitle": "Pruebas contra Aitor Menta",
+                    "noteContent": "Reunir evidencias (cartas, testigos, movimientos de pertrechos) que vinculen a Aitor con la red de Salazar y/o el Sur. [Cap.4]"
+                    }
+                ]
+                },
+                {
+                "group-title": "Conspiraciones y política local",
+                "group-chevron": false,
+                "notes": [
+                    {
+                    "noteTitle": "Carta del capitán Aitor Menta",
+                    "noteContent": "Confirma ambición/pugna interna; posible conexión con la logística de Salazar. Rumor: intención de volver a Puente Alto y maniobrar políticamente. Verificar."
+                    },
+                    {
+                    "noteTitle": "Eliza Belmonte — rumores",
+                    "noteContent": "Existen cartas/rumores sobre su casamiento y vínculos políticos; tratar como ‘no verificado’. (Eliza = sobrina de don Alarico; mantener el Libro lejos del Duque)."
+                    },
+                    {
+                    "noteTitle": "Charla con Borgar Tempestus",
+                    "noteContent": "Borgar apuesta a cambiar de bando; aporta la pista de Aitor Menta como infiltrado. Útil pero poco fiable: manejar bajo custodia y obtener pruebas objetivas."
+                    }
+                ]
+                },
+                {
+                "group-title": "Magia y reliquias",
+                "group-chevron": false,
+                "notes": [
+                    {
+                    "noteTitle": "Libro Guardián",
+                    "noteContent": "Artefacto aelorio con conjuro protector incompleto; palabras de poder conocidas: Sylor (activa sala del tesoro), Aelun, Carmis, Vesmark. Mantenerlo lejos del Duque."
+                    },
+                    {
+                    "noteTitle": "Cristales lucientes / Corazón Carmesí",
+                    "noteContent": "Tecnología arcana peligrosa (resonancia + sangre). Prioridad: evitar usos corruptores y vigilar hallazgos de gemas ‘azules’ en el distrito."
+                    },
+                    {
+                    "noteTitle": "Notas del orfebre",
+                    "noteContent": "Indicios de cómo armar/servirse de constructos (p.ej., 1 Corazón de constructo + ~50 cristales carmesí). Usar con extrema cautela; riesgo de corrupción."
+                    }
+                ]
+                },
+                {
+                "group-title": "Reino del Sur — frente urbano",
+                "group-chevron": false,
+                "notes": [
+                    {
+                    "noteTitle": "Panorama del distrito",
+                    "noteContent": "Posada de los Herreros (Arnaldo), taller (Hugo), Plaza Seca (mercenarios sin gremio), Cuenco de Carbón (taberna incendiada durante el operativo)."
+                    },
+                    {
+                    "noteTitle": "Evento en la taberna",
+                    "noteContent": "Petro asesinó al dueño de la forja; Eladio y Gregorio secuestraron al sobrino y escaparon. Petro quedó preso; ofrece cooperación a cambio de libertad."
+                    },
+                    {
+                    "noteTitle": "Zafir (tiefling)",
+                    "noteContent": "Intermediario capaz de falsificar pase a la ciudad alta. Mantener relación funcional (Ernesto lo registra como «Zephyr»)."
+                    }
+                ]
                 }
             ],
             "extrasData": [
