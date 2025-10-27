@@ -340,7 +340,9 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [],
+            "description": [
+                "Lente de cristal con vetas rojas que chisporrotean con energía arcana. Era un acumulador de poder usado por los antiguos dispositivos del Corazón. \n Mecánica: \n Cargas: 3, recupera 1d3 al amanecer. \n Usos: \n 1 carga → lanzar un conjuro de 1.er nivel sin gastar ranura. \n 2 cargas → conjuro de 2.º nivel. \n 3 cargas → descarga equivalente a Scorching Ray (3 rayos de 2d6 fuego). \n Corruptibilidad: +1 MC por cada uso ofensivo o de manipulación mental. Si se vacían todas las cargas en menos de 10 min, +2 MC. \n Identificación: DC 16 Arcana. \n Destrucción: romperlo con más de 30 puntos de daño contundente lo neutraliza, liberando 4d6 de energía elemental (CON DC 15 mitad). \n Uso en mecanismos: al insertarlo en un receptáculo, aumenta la potencia del artefacto: p. ej., un puente que se abría 3 m se abre 9 m y activa guardianes"
+            ],
             "properties": [],
             "cost": {
                 "quantity": 0,
@@ -373,7 +375,7 @@
             "weight": 1,
             "rarity": {
                 "index": "common",
-                "name": "common"
+                "name": "Común"
             },
             "hasCharges": false,
             "chargesOptions": null,
