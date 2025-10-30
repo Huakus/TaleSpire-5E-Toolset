@@ -451,6 +451,12 @@
             "column1": "Dwarf",
             "column2": "A boisterous dwarf with a hearty laugh and a love for ale.",
             "column3": "Claims to have wrestled a giant in his youth."
+        },
+        "25": {
+            "column0": "Laelith Nightshade",
+            "column1": "Half-Elf",
+            "column2": "A mysterious half-elf rogue with a shadowy past.",
+            "column3": "Can disappear into the shadows at will."
         }
     },
     "checklists": {
