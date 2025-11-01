@@ -739,6 +739,10 @@
                         {
                             "noteTitle": "Zafir (tiefling)",
                             "noteContent": "Intermediario capaz de falsificar pase a la ciudad alta. Mantener relación funcional (Ernesto lo registra como «Zephyr»)."
+                        },
+                        {
+                            "noteTitle": "El tomy",
+                            "noteContent": ""
                         }
                     ]
                 }
