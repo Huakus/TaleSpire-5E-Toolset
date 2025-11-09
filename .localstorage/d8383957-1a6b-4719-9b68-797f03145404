@@ -889,7 +889,7 @@
             "insightMod": "SAB",
             "intimidationMod": "CAR",
             "investigationMod": "INT",
-            "medicineMod": "swSAB",
+            "medicineMod": "SAB",
             "natureMod": "INT",
             "perceptionMod": "SAB",
             "performanceMod": "CAR",
