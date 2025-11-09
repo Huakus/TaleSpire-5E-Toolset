@@ -7,6 +7,7 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
+                "Arma Marcial",
                 "Arma Simple",
                 "Daga",
                 "Bastón",
@@ -23,12 +24,15 @@
             ],
             "playerLanguageProficiency": [
                 "Comun",
-                "Elfo",
                 "Dracónico",
+                "Canto de Ladron",
+                "Elfo",
                 "Sylvano",
                 "Aeloriano"
             ],
             "playerToolsProficiency": [
+                "Juego de Cartas para Jugar",
+                "Herramientas de Ladrón",
                 "Kit de Herbalismo"
             ],
             "initiativeButton": "+2",
@@ -1266,6 +1270,7 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
+                "Arma Marcial",
                 "Arma Simple",
                 "Daga",
                 "Bastón",
@@ -1282,12 +1287,16 @@
             ],
             "playerLanguageProficiency": [
                 "Comun",
-                "Elfo",
                 "Dracónico",
+                "Canto de Ladron",
+                "Elfo",
                 "Sylvano",
                 "Aeloriano"
             ],
-            "playerToolsProficiency": [],
+            "playerToolsProficiency": [
+                "Juego de Cartas para Jugar",
+                "Herramientas de Ladrón"
+            ],
             "initiativeButton": "+3",
             "AC": "14",
             "speed": "30ft.",
