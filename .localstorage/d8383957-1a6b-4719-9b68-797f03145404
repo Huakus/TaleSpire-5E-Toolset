@@ -24,16 +24,16 @@
             ],
             "playerLanguageProficiency": [
                 "Comun",
-                "Dracónico",
-                "Canto de Ladron",
                 "Elfo",
+                "Dracónico",
                 "Sylvano",
+                "Canto de Ladron",
                 "Aeloriano"
             ],
             "playerToolsProficiency": [
                 "Juego de Cartas para Jugar",
-                "Herramientas de Ladrón",
-                "Kit de Herbalismo"
+                "Kit de Herbalismo",
+                "Herramientas de Ladrón"
             ],
             "initiativeButton": "+2",
             "AC": "15",
