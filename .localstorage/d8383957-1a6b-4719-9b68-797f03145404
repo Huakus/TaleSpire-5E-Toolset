@@ -2366,10 +2366,22 @@
             "insp": 0,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
-            "playerWeaponProficiency": [],
-            "playerArmorProficiency": [],
-            "playerLanguageProficiency": [],
-            "playerToolsProficiency": [],
+            "playerWeaponProficiency": [
+                "Arma Marcial",
+                "Arma Simple"
+            ],
+            "playerArmorProficiency": [
+                "Liviano"
+            ],
+            "playerLanguageProficiency": [
+                "Comun",
+                "Dracónico",
+                "Canto de Ladron"
+            ],
+            "playerToolsProficiency": [
+                "Juego de Cartas para Jugar",
+                "Herramientas de Ladrón"
+            ],
             "initiativeButton": "+5",
             "AC": "15",
             "speed": "30ft.",
