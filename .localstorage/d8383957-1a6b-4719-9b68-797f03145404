@@ -1270,7 +1270,6 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
-                "Arma Marcial",
                 "Arma Simple",
                 "Daga",
                 "Bastón",
@@ -1287,16 +1286,12 @@
             ],
             "playerLanguageProficiency": [
                 "Comun",
-                "Dracónico",
-                "Canto de Ladron",
                 "Elfo",
+                "Dracónico",
                 "Sylvano",
                 "Aeloriano"
             ],
-            "playerToolsProficiency": [
-                "Juego de Cartas para Jugar",
-                "Herramientas de Ladrón"
-            ],
+            "playerToolsProficiency": [],
             "initiativeButton": "+3",
             "AC": "14",
             "speed": "30ft.",
