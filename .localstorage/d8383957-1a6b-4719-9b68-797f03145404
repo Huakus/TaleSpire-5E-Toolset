@@ -283,6 +283,10 @@
                         {
                             "name": "Apacible descanso",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Aura mágica del arcano",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
