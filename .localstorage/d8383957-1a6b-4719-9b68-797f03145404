@@ -1906,9 +1906,9 @@
                             "resetType": "none"
                         },
                         {
-                            "traitName": "Improved pact weapon",
+                            "traitName": "Vision de Diablo",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "Pe",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
