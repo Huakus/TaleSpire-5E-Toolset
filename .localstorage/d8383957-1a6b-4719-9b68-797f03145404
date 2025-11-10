@@ -1398,14 +1398,14 @@
                 },
                 {
                     "2": {
-                        "proficiencyButton": "1",
+                        "proficiencyButton": "0",
                         "secondColumn": "Daga +3",
                         "itemId": "item-1761528715784-712e3eb2",
                         "thirdColumn": "5ft - 20/60ft",
-                        "fourthColumn": "+9",
+                        "fourthColumn": "+2",
                         "fifthColumn": "1d4",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "DES",
+                        "seventhColumn": "FUE",
                         "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "3",
                         "damageBonus": "3",
