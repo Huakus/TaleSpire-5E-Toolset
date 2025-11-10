@@ -1884,7 +1884,7 @@
                         {
                             "traitName": "Estallido Repulsor",
                             "cheveron": false,
-                            "traitDescription": "Requisitos: nivel 5 warlock. Podes atacar dos veces en lugar de una, siempre que use la opcion atack en tu turno con el arma del pacto",
+                            "traitDescription": "Requisito: truco Estallido Arcano\nEmpuja 10 pies (3m) al objetivo con cada impacto",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
