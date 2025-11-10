@@ -1872,7 +1872,7 @@
                         {
                             "traitName": "Agonizing blast",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "Requisitos: truco Estallido Arcano\nSuma modificador de CARISMA al daño de cada rayo de Estallido Arcano",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
