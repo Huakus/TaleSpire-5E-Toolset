@@ -1037,7 +1037,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "INT",
-                "spelllevelselected": "1",
+                "spelllevelselected": "2",
                 "Cantrip": {
                     "spells": [
                         {
