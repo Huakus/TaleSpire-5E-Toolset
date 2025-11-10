@@ -1335,7 +1335,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 1,
+            "": 0,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -1398,11 +1398,11 @@
                 },
                 {
                     "2": {
-                        "proficiencyButton": "0",
+                        "proficiencyButton": "1",
                         "secondColumn": "Daga +3",
                         "itemId": "item-1761528715784-712e3eb2",
                         "thirdColumn": "5ft - 20/60ft",
-                        "fourthColumn": "+2",
+                        "fourthColumn": "+5",
                         "fifthColumn": "1d4",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
@@ -1423,11 +1423,11 @@
                 },
                 {
                     "3": {
-                        "proficiencyButton": "1",
+                        "proficiencyButton": "0",
                         "secondColumn": "Daga",
                         "itemId": "item-1759104875248-7b14367d",
                         "thirdColumn": "5ft - 20/60ft",
-                        "fourthColumn": "+2",
+                        "fourthColumn": "-1",
                         "fifthColumn": "1d4",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
