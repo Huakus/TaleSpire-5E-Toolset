@@ -339,7 +339,12 @@
                     ]
                 },
                 "4th-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Invisibilidad mayor",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         false
                     ]
