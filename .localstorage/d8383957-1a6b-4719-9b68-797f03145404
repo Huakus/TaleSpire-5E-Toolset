@@ -1882,7 +1882,7 @@
                             "resetType": "none"
                         },
                         {
-                            "traitName": "Thirsting blade (hoja del ansia)",
+                            "traitName": "Estallido Repulsor",
                             "cheveron": false,
                             "traitDescription": "Requisitos: nivel 5 warlock. Podes atacar dos veces en lugar de una, siempre que use la opcion atack en tu turno con el arma del pacto",
                             "checkboxStates": [],
