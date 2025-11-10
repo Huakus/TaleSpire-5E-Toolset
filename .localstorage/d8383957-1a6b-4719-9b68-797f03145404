@@ -1413,7 +1413,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "CHA",
-                "spelllevelselected": "3",
+                "spelllevelselected": "4",
                 "Cantrip": {
                     "spells": [
                         {
