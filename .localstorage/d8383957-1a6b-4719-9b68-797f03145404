@@ -2015,7 +2015,7 @@
         "Adler": {
             "characterTempHp": "",
             "currentHitDice": "1",
-            "insp": 0,
+            "insp": 1,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
