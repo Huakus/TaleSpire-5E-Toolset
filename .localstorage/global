@@ -672,6 +672,27 @@
             "spell_save_dc_type": "dex",
             "ability_modifier": "no",
             "damage_type_01": "cold"
+        },
+        "Tamaturgia": {
+            "name": "Tamaturgia",
+            "desc": "Manifestas un pequeño prodigio, una señal de poder sobrenatural, dentro del alcance. Creas uno de los siguientes efectos mágicos dentro del alcance: - Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 metro. - Haces que las llamas parpadeen, brillen más, se atenúen o cambien de color durante 1 metro. - Provocas temblores inofensivos en el suelo durante 1 metro. - Creas un sonido instantáneo que se origina en un punto de tu elección dentro del alcance, como un trueno, el graznido de un cuervo o susurros ominosos. - Haces que una puerta o ventana sin seguro se abra o se cierre de golpe instantáneamente. - Alteras la apariencia de tus ojos durante 1 metro. Si lanzas este hechizo varias veces, puedes tener hasta tres de sus efectos de 1 minuto activos a la vez, y puedes disipar dicho efecto como una acción.",
+            "higher_level": "",
+            "material": "",
+            "range": "",
+            "components": "",
+            "ritual": "",
+            "duration": "Instantaneous",
+            "concentration": "yes",
+            "casting_time": "1A",
+            "level": "Cantrip",
+            "school": "Abjuration",
+            "class": "",
+            "toHitOrDC": "toHit",
+            "damage_dice": "",
+            "damage_dice_upcast": "",
+            "spell_save_dc_type": "",
+            "ability_modifier": "no",
+            "damage_type_01": "na"
         }
     },
     "effectsSection": {
