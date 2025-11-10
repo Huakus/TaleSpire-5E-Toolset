@@ -1552,7 +1552,7 @@
                         },
                         {
                             "name": "Terror",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Patrón hipnótico",
@@ -1568,7 +1568,7 @@
                         },
                         {
                             "name": "Volar",
-                            "prepared": "1"
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
