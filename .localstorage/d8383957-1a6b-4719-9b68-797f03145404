@@ -1918,7 +1918,7 @@
                         {
                             "traitName": "Vision de Diablo",
                             "cheveron": false,
-                            "traitDescription": "Pe",
+                            "traitDescription": "Permite ver en la oscuridad magica hasta 120 pies",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
