@@ -286,8 +286,8 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
+                        false,
+                        false,
                         false,
                         false
                     ]
@@ -338,12 +338,7 @@
                     ]
                 },
                 "4th-level": {
-                    "spells": [
-                        {
-                            "name": "Invisibilidad mayor",
-                            "prepared": "0"
-                        }
-                    ],
+                    "spells": [],
                     "slots": [
                         false
                     ]
