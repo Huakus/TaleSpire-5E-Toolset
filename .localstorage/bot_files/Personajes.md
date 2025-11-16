@@ -13,6 +13,8 @@ Su fe fue puesta a prueba en el Templo del Círculo Eterno, donde murió y fue r
 **Alineamiento:** *Legal Bueno.*
 Adler representa la justicia y la devoción ordenada. Rescata al hijo del leñador sin dudar, ejecuta criminales por sentido del deber y busca siempre el equilibrio entre la ley y la compasión. Su conducta está guiada por un código moral firme y un propósito altruista.
 
+**Actor argentino (90s):** *Luis Brandoni*
+
 ---
 
 ### Delerion
@@ -25,6 +27,8 @@ En el Templo del Círculo Eterno descubrió su conexión con los antiguos conjur
 
 **Alineamiento:** *Neutral con tendencia a Caótico Neutral.*
 Su moral se rige por la curiosidad y la lógica más que por la ley o la compasión. Engaña a una anciana para robar documentos arcanos, manipula mentes sin remordimiento y pone su intelecto al servicio del conocimiento, incluso a costa del orden. Aunque no busca el mal, sus decisiones suelen desafiar las normas éticas tradicionales.
+
+**Actor argentino (90s):** *Gabriel “El Puma” Goity*
 
 ---
 
@@ -39,6 +43,8 @@ Varka representa la conexión viva entre lo humano y lo feérico. Su presencia e
 **Alineamiento:** *Neutral Bueno (con inclinaciones Caóticas).*
 Varka busca el bien y la armonía por encima de las reglas. Manipula y seduce solo cuando la diplomacia lo exige, evitando la violencia y defendiendo siempre la vida. Su moral se basa en la empatía y la libertad, no en las leyes humanas ni los dogmas religiosos.
 
+**Actor argentino (90s):** *Paula Siero*
+
 ---
 
 ### Skitrix “Stix Ernesto” Koboldtanz
@@ -51,3 +57,112 @@ El kobold carga ahora con la culpa, el remordimiento y un artefacto arcano desco
 
 **Alineamiento:** *Caótico Neutral (con tintes de Caótico Bueno en sus orígenes).*
 Ernesto actúa por instinto, movido por la supervivencia y la adrenalina. Es capaz de actos heroicos —como infiltrarse en las filas enemigas— y de crímenes atroces cuando el agotamiento o el miedo lo dominan. Su moral depende de su estado emocional, pero incluso en su caos, mantiene un núcleo de lealtad hacia sus compañeros.
+
+**Actor argentino (90s):** *Guillermo Francella*
+
+---
+
+# Personajes Secundarios
+
+### Gobernador Alarico Belmonte
+
+Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. Ha confiado en Adler y Delerion desde que descubrieron la red de contrabandistas bajo su castillo, y su rol se vuelve crítico cuando es secuestrado por Borgar Tempestus. Su desaparición desencadena una serie de eventos que empujan a los protagonistas hacia el corazón del conflicto con los mercenarios del Reino del Sur.
+**Actor argentino (90s):** *Santiago Ríos*
+
+---
+
+### Zafir
+
+Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur asentados en el Distrito de los Artesanos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, juega con las apariencias de los aventureros y manipula a Arturo como pieza útil dentro de sus planes.
+**Actor argentino (90s):** *Fabián Vena*
+
+---
+
+### Arturo
+
+Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción casi irracional. Aunque trabaja para Zafir, su lealtad se ve cada vez más comprometida por su fascinación hacia la semielfa. Esto lo vuelve impredecible y potencialmente muy útil… o muy peligroso.
+**Actor argentino (90s):** *Sebastián Estevanez*
+
+---
+
+### Borgar Tempestus
+
+Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
+**Actor argentino (90s):** *Claudio Rissi*
+
+---
+
+### Ignacio Robledo
+
+Sargento de la guardia local, asesinado por Ernesto durante una misión en el Distrito de los Artesanos. Su muerte marca el punto más oscuro del kobold, consecuencia del agotamiento extremo y del caos emocional que arrastraba.
+**Actor argentino (90s):** *Coco Sily*
+
+---
+
+### Diego Cortés
+
+Guardia del castillo, entusiasta, crédulo y siempre dispuesto a ayudar. Su energía impulsa a los protagonistas en momentos críticos, especialmente durante interrogatorios o situaciones donde la autoridad local es necesaria. Es uno de los pocos humanos del pueblo que confía plenamente en ellos.
+**Actor argentino (90s):** *Diego Torres (joven)*
+
+---
+
+### Isadora
+
+Joven aventurera que formaba parte del grupo de contrabandistas infiltrados. Aunque comenzó del lado equivocado, su relación con Adler la llevó a actuar con valentía y a oponerse a sus antiguos compañeros. Su huida marcó un giro emocional fuerte en los primeros capítulos.
+**Actor argentino (90s):** *Carla Peterson*
+
+---
+
+### Emilio el Herbolario
+
+Figura amable, culta y misteriosa de Valverde del Río. Su casa y su conocimiento fueron fundamentales para descifrar el *Libro Guardián*. Es uno de los pocos habitantes del pueblo que entiende la magnitud del conflicto arcano que rodea al Círculo Eterno.
+**Actor argentino (90s):** *Jean Pierre Noher*
+
+---
+
+### Haroldo el Montaraz
+
+Un cazador excéntrico, solitario, huraño y sorprendentemente competente. Fue clave para emboscar a los contrabandistas en los campos y para guiar a Adler y Delerion al campamento enemigo. Su enemistad con Emilio dificulta al grupo, pero su lealtad —cuando la ofrece— es absoluta.
+**Actor argentino (90s):** *Rolly Serrano*
+
+---
+
+### Eliza Belmonte
+
+Sobrina del gobernador y encargada temporal de Valverde del Río durante su secuestro. Joven responsable, decidida y balance entre la nobleza y la vulnerabilidad de su rol. Representa la fibra moral del linaje Belmonte.
+**Actor argentino (90s):** *Natalia Oreiro*
+
+---
+
+### Fausto del Río
+
+Capataz de los leñadores y padre del joven asesinado por los contrabandistas en las cuevas. Su tragedia personal fue uno de los primeros motores morales de Adler.
+**Actor argentino (90s):** *Lito Cruz*
+
+---
+
+### Tomi Tres Dientes
+
+Criminal del Distrito de los Artesanos cuya influencia y encargos empujaron a Ernesto a sus actos más cuestionables. Una figura peligrosa, siempre en las sombras y moviendo piezas desde lo oculto.
+**Actor argentino (90s):** *Pablo Cedrón*
+
+---
+
+### Eladio
+
+Mago presente en la fiesta del distrito. Su magia, comportamiento errático e intenciones confusas lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
+**Actor argentino (90s):** *Alejandro Dolina*
+
+---
+
+### Gregorio
+
+Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
+**Actor argentino (90s):** *Damián Dreizik*
+
+---
+
+### Petro
+
+Personaje clave del Distrito de los Artesanos, conocedor de la ubicación y movimiento de los mercenarios del norte. Su rol diplomático e información lo convierten en un aliado vital para la misión principal.
+**Actor argentino (90s):** *Luis Luque*
