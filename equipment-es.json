@@ -11555,6 +11555,44 @@
     }
   },
   {
+    "index": "wand-of-annoyance",
+    "name": "Varita del fastidio",
+    "equipment_category": {
+      "index": "wondrous-item",
+      "name": "Objeto Maravilloso",
+      "url": "/api/equipment-categories/wondrous-item"
+    },
+    "gear_category": {
+      "index": "magical-accessory",
+      "name": "Accesorio Mágico",
+      "url": "/api/equipment-categories/magical-accessory"
+    },
+    "description": [
+      "Esta varita no tiene otro propósito real que irritar a quienes la rodean.",
+      "Al sostenerla, la varita emite un leve zumbido, como un insecto atrapado en una linterna.",
+      "Como acción, puedes agitar la varita hacia una criatura a 30 pies. La criatura debe superar una tirada de salvación de Sabiduría CD 10 o sentirse levemente fastidiada hasta el comienzo de su siguiente turno. Mientras está fastidiada, la criatura suspira audiblemente, pone los ojos en blanco o se queja de la existencia de la varita.",
+      "La varita no puede destruirse por medios ordinarios, asegurando que su molestia continúe indefinidamente."
+    ],
+    "properties": [
+      {
+        "index": "attunement",
+        "name": "Requiere Sintonización (para cualquiera con sentido del humor)"
+      }
+    ],
+    "cost": {
+      "quantity": 1,
+      "unit": "gp"
+    },
+    "weight": 0.2,
+    "rarity": {
+      "index": "common",
+      "name": "Común"
+    },
+    "bonus": [
+    ],
+    "hasCharges": false
+  },
+  {
     "index": "wand-of-fear",
     "name": "Varita del miedo",
     "equipment_category": {
