@@ -152,10 +152,6 @@
                         {
                             "name": "Impacto verdadero",
                             "prepared": "false"
-                        },
-                        {
-                            "name": "Prestidigitación",
-                            "prepared": "false"
                         }
                     ],
                     "slots": []
