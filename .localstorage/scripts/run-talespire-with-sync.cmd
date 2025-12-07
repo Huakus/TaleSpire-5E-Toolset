@@ -37,10 +37,10 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo }
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo function Get-DiffColor([string]^$Message){
->>"%PSFILE%" echo ^    if(^$Message -match 'insertion^|\\+\\)') { return 'Green' }
->>"%PSFILE%" echo ^    if(^$Message -match 'deletion^|-\\)') { return 'Red' }
+>>"%PSFILE%" echo ^    if(^$Message -match 'insertion') { return 'Green' }
+>>"%PSFILE%" echo ^    if(^$Message -match 'deletion') { return 'Red' }
 >>"%PSFILE%" echo ^    if(^$Message -match '\\+') { return 'Green' }
->>"%PSFILE%" echo ^    if(^$Message -match '-') { return 'Red' }
+>>"%PSFILE%" echo ^    if(^$Message -match '\\-') { return 'Red' }
 >>"%PSFILE%" echo ^    return 'Gray'
 >>"%PSFILE%" echo }
 >>"%PSFILE%" echo(
