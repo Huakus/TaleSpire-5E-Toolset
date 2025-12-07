@@ -71,15 +71,19 @@ rem === PowerShell ===
 >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo fetch origin ^> ^$null 2^>^&1 } catch {}
 >>"%PSFILE%" echo ^    ^$remoteAhead = 0
 >>"%PSFILE%" echo ^    ^$remoteLog = @()
+>>"%PSFILE%" echo ^    ^$remoteDiff = @()
 >>"%PSFILE%" echo ^    try {
 >>"%PSFILE%" echo ^        ^$remoteAhead = [int](^& ^$Git -C ^$Repo rev-list --count HEAD..origin/^$Branch)
 >>"%PSFILE%" echo ^        if(^$remoteAhead -gt 0){ ^$remoteLog = ^& ^$Git -C ^$Repo log --oneline --max-count ^$remoteAhead HEAD..origin/^$Branch }
+>>"%PSFILE%" echo ^        if(^$remoteAhead -gt 0){ ^$remoteDiff = (^& ^$Git -C ^$Repo diff --stat HEAD..origin/^$Branch) -split "`n" }
 >>"%PSFILE%" echo ^    } catch {}
 >>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo add -A ^> ^$null 2^>^&1
 >>"%PSFILE%" echo ^    ^$dirty = ^& ^$Git -C ^$Repo status --porcelain
 >>"%PSFILE%" echo ^    ^$dirtyLog = @()
+>>"%PSFILE%" echo ^    ^$dirtyDiff = @()
 >>"%PSFILE%" echo ^    if (^$dirty) {
 >>"%PSFILE%" echo ^        ^$dirtyLog = ^$dirty -split "`n"
+>>"%PSFILE%" echo ^        ^$dirtyDiff = (^& ^$Git -C ^$Repo diff --cached --stat) -split "`n"
 >>"%PSFILE%" echo ^        ^& ^$Git -C ^$Repo commit --quiet -m ('auto: ' + (Get-Date -Format o^))
 >>"%PSFILE%" echo ^    }
 >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo pull --rebase --autostash origin ^$Branch ^> ^$null 2^>^&1 } catch {}
@@ -87,16 +91,19 @@ rem === PowerShell ===
 >>"%PSFILE%" echo ^    ^$headAfter = ^& ^$Git -C ^$Repo rev-parse HEAD
 >>"%PSFILE%" echo ^    ^$received = ^$remoteAhead -gt 0
 >>"%PSFILE%" echo ^    if (^$dirty -or ^$received -or (^$headAfter -ne ^$headBefore)) {
->>"%PSFILE%" echo ^        ^$parts = @()
->>"%PSFILE%" echo ^        if (^$dirty) { ^$parts += 'enviados cambios locales' }
->>"%PSFILE%" echo ^        if (^$received) { ^$parts += ('recibidos {0} commit(s) remotos' -f ^$remoteAhead) }
->>"%PSFILE%" echo ^        if (^$parts.Count -eq 0) { ^$parts += 'cambios aplicados' }
->>"%PSFILE%" echo ^        Write-Log ('Sincronizado {0} (rama {1}) - {2}' -f ^$Repo,^$Branch,(^$parts -join '; '))
->>"%PSFILE%" echo ^        if(^$dirtyLog.Count -gt 0){
->>"%PSFILE%" echo ^            foreach(^$line in ^$dirtyLog){ Write-Detail ('local: {0}' -f ^$line) }
+>>"%PSFILE%" echo ^        if(^$dirty){
+>>"%PSFILE%" echo ^            Write-Log 'ENVIANDO'
+>>"%PSFILE%" echo ^            if(^$dirtyLog.Count -gt 0){ foreach(^$line in ^$dirtyLog){ Write-Detail ('local: {0}' -f ^$line) } }
+>>"%PSFILE%" echo ^            if(^$dirtyDiff.Count -gt 0){ foreach(^$line in ^$dirtyDiff){ Write-Detail ('diff: {0}' -f ^$line) } }
 >>"%PSFILE%" echo ^        }
->>"%PSFILE%" echo ^        if(^$remoteLog.Count -gt 0){
->>"%PSFILE%" echo ^            foreach(^$line in ^$remoteLog){ Write-Detail ('remoto: {0}' -f ^$line) }
+>>"%PSFILE%" echo ^        if(^$received){
+>>"%PSFILE%" echo ^            Write-Log 'RECIBIENDO'
+>>"%PSFILE%" echo ^            if(^$remoteLog.Count -gt 0){ foreach(^$line in ^$remoteLog){ Write-Detail ('remoto: {0}' -f ^$line) } }
+>>"%PSFILE%" echo ^            if(^$remoteDiff.Count -gt 0){ foreach(^$line in ^$remoteDiff){ Write-Detail ('diff: {0}' -f ^$line) } }
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo ^        if((-not ^$dirty) -and (-not ^$received)){
+>>"%PSFILE%" echo ^            Write-Log 'ENVIANDO/RECIBIENDO'
+>>"%PSFILE%" echo ^            Write-Detail 'cambios aplicados'
 >>"%PSFILE%" echo ^        }
 >>"%PSFILE%" echo ^    } else {
 >>"%PSFILE%" echo ^        Write-Log '.' -Inline
