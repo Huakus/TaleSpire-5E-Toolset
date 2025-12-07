@@ -36,9 +36,17 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo ^    }
 >>"%PSFILE%" echo }
 >>"%PSFILE%" echo(
->>"%PSFILE%" echo function Write-Detail([string]^$Message){
+>>"%PSFILE%" echo function Get-DiffColor([string]^$Message){
+>>"%PSFILE%" echo ^    if(^$Message -match 'insertion^|\\+\\)') { return 'Green' }
+>>"%PSFILE%" echo ^    if(^$Message -match 'deletion^|-\\)') { return 'Red' }
+>>"%PSFILE%" echo ^    if(^$Message -match '\\+') { return 'Green' }
+>>"%PSFILE%" echo ^    if(^$Message -match '-') { return 'Red' }
+>>"%PSFILE%" echo ^    return 'Gray'
+>>"%PSFILE%" echo }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo function Write-Detail([string]^$Message,[string]^$Color='White'){
 >>"%PSFILE%" echo ^    if(^$script:lastInline){ Write-Host '' ; ^$script:lastInline = ^$false }
->>"%PSFILE%" echo ^    Write-Host ('  {0}' -f ^$Message)
+>>"%PSFILE%" echo ^    Write-Host ('  {0}' -f ^$Message) -ForegroundColor ^$Color
 >>"%PSFILE%" echo }
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo Write-Log ('Sincronizando {0} (rama {1})' -f ^$Repo1,^$Branch)
@@ -93,13 +101,13 @@ rem === PowerShell ===
 >>"%PSFILE%" echo ^    if (^$dirty -or ^$received -or (^$headAfter -ne ^$headBefore)) {
 >>"%PSFILE%" echo ^        if(^$dirty){
 >>"%PSFILE%" echo ^            Write-Log 'ENVIANDO'
->>"%PSFILE%" echo ^            if(^$dirtyLog.Count -gt 0){ foreach(^$line in ^$dirtyLog){ Write-Detail ('local: {0}' -f ^$line) } }
->>"%PSFILE%" echo ^            if(^$dirtyDiff.Count -gt 0){ foreach(^$line in ^$dirtyDiff){ Write-Detail ('diff: {0}' -f ^$line) } }
+>>"%PSFILE%" echo ^            if(^$dirtyLog.Count -gt 0){ foreach(^$line in ^$dirtyLog){ Write-Detail -Message ('local: {0}' -f ^$line) -Color 'Yellow' } }
+>>"%PSFILE%" echo ^            if(^$dirtyDiff.Count -gt 0){ foreach(^$line in ^$dirtyDiff){ Write-Detail -Message ('diff: {0}' -f ^$line) -Color (Get-DiffColor ^$line) } }
 >>"%PSFILE%" echo ^        }
 >>"%PSFILE%" echo ^        if(^$received){
 >>"%PSFILE%" echo ^            Write-Log 'RECIBIENDO'
->>"%PSFILE%" echo ^            if(^$remoteLog.Count -gt 0){ foreach(^$line in ^$remoteLog){ Write-Detail ('remoto: {0}' -f ^$line) } }
->>"%PSFILE%" echo ^            if(^$remoteDiff.Count -gt 0){ foreach(^$line in ^$remoteDiff){ Write-Detail ('diff: {0}' -f ^$line) } }
+>>"%PSFILE%" echo ^            if(^$remoteLog.Count -gt 0){ foreach(^$line in ^$remoteLog){ Write-Detail -Message ('remoto: {0}' -f ^$line) -Color 'Cyan' } }
+>>"%PSFILE%" echo ^            if(^$remoteDiff.Count -gt 0){ foreach(^$line in ^$remoteDiff){ Write-Detail -Message ('diff: {0}' -f ^$line) -Color (Get-DiffColor ^$line) } }
 >>"%PSFILE%" echo ^        }
 >>"%PSFILE%" echo ^        if((-not ^$dirty) -and (-not ^$received)){
 >>"%PSFILE%" echo ^            Write-Log 'ENVIANDO/RECIBIENDO'
