@@ -3,9 +3,7 @@ setlocal EnableExtensions DisableDelayedExpansion
 
 rem === Config ===
 set "REPO1=%USERPROFILE%\AppData\LocalLow\BouncyRock Entertainment\TaleSpire\Symbiotes\Toolset"
-set "REPO2=%USERPROFILE%\AppData\LocalLow\BouncyRock Entertainment\TaleSpire\LocalContentPacks"
 set "REMOTE1=https://github.com/Huakus/TaleSpire-5E-Toolset"
-set "REMOTE2=https://github.com/Huakus/TaleSpire_LocalContentPacks"
 set "INTERVAL=10"
 set "BRANCH=main"
 set "GIT=%ProgramFiles%\Git\cmd\git.exe"
@@ -20,9 +18,7 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo $ErrorActionPreference = 'Continue'
 >>"%PSFILE%" echo $Git = "%GIT%"
 >>"%PSFILE%" echo $Repo1 = "%REPO1%"
->>"%PSFILE%" echo $Repo2 = "%REPO2%"
 >>"%PSFILE%" echo $Remote1 = "%REMOTE1%"
->>"%PSFILE%" echo $Remote2 = "%REMOTE2%"
 >>"%PSFILE%" echo $Interval = %INTERVAL%
 >>"%PSFILE%" echo $Branch = 'main'
 >>"%PSFILE%" echo $Proc = 'TaleSpire'
@@ -63,10 +59,9 @@ rem === PowerShell ===
 
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo1 -Remote ^$Remote1 -Branch ^$Branch
->>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo2 -Remote ^$Remote2 -Branch ^$Branch
 
 >>"%PSFILE%" echo(
->>"%PSFILE%" echo foreach(^$r in @(^$Repo1,^$Repo2^)){ Sync -Repo ^$r -Branch ^$Branch }
+ >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
 
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo Start-Process 'steam://rungameid/720620'
@@ -75,10 +70,10 @@ rem === PowerShell ===
 >>"%PSFILE%" echo if(^$appeared^){
 >>"%PSFILE%" echo ^  while (Get-Process -Name ^$Proc -ErrorAction SilentlyContinue^) {
 >>"%PSFILE%" echo ^    Start-Sleep -Seconds ^$Interval
->>"%PSFILE%" echo ^    foreach(^$r in @(^$Repo1,^$Repo2^)){ Sync -Repo ^$r -Branch ^$Branch }
+ >>"%PSFILE%" echo ^    Sync -Repo ^$Repo1 -Branch ^$Branch
 >>"%PSFILE%" echo ^  }
 >>"%PSFILE%" echo }
->>"%PSFILE%" echo foreach(^$r in @(^$Repo1,^$Repo2^)){ Sync -Repo ^$r -Branch ^$Branch }
+ >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
 
 rem === Ejecutar PowerShell ===
 call powershell -NoProfile -ExecutionPolicy Bypass -File "%PSFILE%"
