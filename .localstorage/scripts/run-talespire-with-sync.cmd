@@ -35,8 +35,13 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo ^        ^$script:lastInline = ^$false
 >>"%PSFILE%" echo ^    }
 >>"%PSFILE%" echo }
->>"%PSFILE%" echo
->>"%PSFILE%" echo Write-Host ('Sincronizando {0} (rama {1})' -f ^$Repo1,^$Branch)
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo function Write-Detail([string]^$Message){
+>>"%PSFILE%" echo ^    if(^$script:lastInline){ Write-Host '' ; ^$script:lastInline = ^$false }
+>>"%PSFILE%" echo ^    Write-Host ('  {0}' -f ^$Message)
+>>"%PSFILE%" echo }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo Write-Log ('Sincronizando {0} (rama {1})' -f ^$Repo1,^$Branch)
 
 rem === PowerShell ===
 >>"%PSFILE%" echo function Ensure-Repo([string]^$Repo, [string]^$Remote, [string]^$Branch) {
@@ -65,10 +70,18 @@ rem === PowerShell ===
 >>"%PSFILE%" echo ^    ^$headBefore = ^& ^$Git -C ^$Repo rev-parse HEAD
 >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo fetch origin ^> ^$null 2^>^&1 } catch {}
 >>"%PSFILE%" echo ^    ^$remoteAhead = 0
->>"%PSFILE%" echo ^    try { ^$remoteAhead = [int](^& ^$Git -C ^$Repo rev-list --count HEAD..origin/^$Branch) } catch {}
+>>"%PSFILE%" echo ^    ^$remoteLog = @()
+>>"%PSFILE%" echo ^    try {
+>>"%PSFILE%" echo ^        ^$remoteAhead = [int](^& ^$Git -C ^$Repo rev-list --count HEAD..origin/^$Branch)
+>>"%PSFILE%" echo ^        if(^$remoteAhead -gt 0){ ^$remoteLog = ^& ^$Git -C ^$Repo log --oneline --max-count ^$remoteAhead HEAD..origin/^$Branch }
+>>"%PSFILE%" echo ^    } catch {}
 >>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo add -A ^> ^$null 2^>^&1
 >>"%PSFILE%" echo ^    ^$dirty = ^& ^$Git -C ^$Repo status --porcelain
->>"%PSFILE%" echo ^    if (^$dirty) { ^& ^$Git -C ^$Repo commit --quiet -m ('auto: ' + (Get-Date -Format o^)) }
+>>"%PSFILE%" echo ^    ^$dirtyLog = @()
+>>"%PSFILE%" echo ^    if (^$dirty) {
+>>"%PSFILE%" echo ^        ^$dirtyLog = ^$dirty -split "`n"
+>>"%PSFILE%" echo ^        ^& ^$Git -C ^$Repo commit --quiet -m ('auto: ' + (Get-Date -Format o^))
+>>"%PSFILE%" echo ^    }
 >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo pull --rebase --autostash origin ^$Branch ^> ^$null 2^>^&1 } catch {}
 >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo push -u origin ^$Branch ^> ^$null 2^>^&1 } catch {}
 >>"%PSFILE%" echo ^    ^$headAfter = ^& ^$Git -C ^$Repo rev-parse HEAD
@@ -79,6 +92,12 @@ rem === PowerShell ===
 >>"%PSFILE%" echo ^        if (^$received) { ^$parts += ('recibidos {0} commit(s) remotos' -f ^$remoteAhead) }
 >>"%PSFILE%" echo ^        if (^$parts.Count -eq 0) { ^$parts += 'cambios aplicados' }
 >>"%PSFILE%" echo ^        Write-Log ('Sincronizado {0} (rama {1}) - {2}' -f ^$Repo,^$Branch,(^$parts -join '; '))
+>>"%PSFILE%" echo ^        if(^$dirtyLog.Count -gt 0){
+>>"%PSFILE%" echo ^            foreach(^$line in ^$dirtyLog){ Write-Detail ('local: {0}' -f ^$line) }
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo ^        if(^$remoteLog.Count -gt 0){
+>>"%PSFILE%" echo ^            foreach(^$line in ^$remoteLog){ Write-Detail ('remoto: {0}' -f ^$line) }
+>>"%PSFILE%" echo ^        }
 >>"%PSFILE%" echo ^    } else {
 >>"%PSFILE%" echo ^        Write-Log '.' -Inline
 >>"%PSFILE%" echo ^    }
