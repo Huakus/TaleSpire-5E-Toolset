@@ -48,13 +48,17 @@ rem === PowerShell ===
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo function Sync([string]^$Repo,[string]^$Branch){
 >>"%PSFILE%" echo ^    if (-not (Test-Path (Join-Path ^$Repo '.git'^))) { Write-Host ('No es repo git: {0}' -f ^$Repo); return }
->>"%PSFILE%" echo ^    Write-Host ('Sincronizando {0} (rama {1})' -f ^$Repo,^$Branch)
->>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo add -A
->>"%PSFILE%" echo ^    ^$dirty = ^& ^$Git -C ^$Repo status --porcelain
->>"%PSFILE%" echo ^    if (^$dirty) { ^& ^$Git -C ^$Repo commit -m ('auto: ' + (Get-Date -Format o^)) }
->>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo fetch origin } catch {}
->>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo pull --rebase --autostash origin ^$Branch } catch {}
->>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo push -u origin ^$Branch } catch {}
+ >>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo add -A ^> ^$null 2^>^&1
+ >>"%PSFILE%" echo ^    ^$dirty = ^& ^$Git -C ^$Repo status --porcelain
+ >>"%PSFILE%" echo ^    if (^$dirty) { ^& ^$Git -C ^$Repo commit --quiet -m ('auto: ' + (Get-Date -Format o^)) }
+ >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo fetch origin ^> ^$null 2^>^&1 } catch {}
+ >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo pull --rebase --autostash origin ^$Branch ^> ^$null 2^>^&1 } catch {}
+ >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo push -u origin ^$Branch ^> ^$null 2^>^&1 } catch {}
+ >>"%PSFILE%" echo ^    if (^$dirty) {
+ >>"%PSFILE%" echo ^        Write-Host ('Sincronizado {0} (rama {1}) - cambios enviados' -f ^$Repo,^$Branch)
+ >>"%PSFILE%" echo ^    } else {
+ >>"%PSFILE%" echo ^        Write-Host ('Sincronizado {0} (rama {1}) - sin cambios' -f ^$Repo,^$Branch)
+ >>"%PSFILE%" echo ^    }
 >>"%PSFILE%" echo }
 
 >>"%PSFILE%" echo(
