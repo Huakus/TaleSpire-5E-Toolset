@@ -166,4 +166,3 @@ Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta hu
 
 Personaje clave del Distrito de los Artesanos, conocedor de la ubicación y movimiento de los mercenarios del norte. Su rol diplomático e información lo convierten en un aliado vital para la misión principal.
 **Actor argentino (90s):** *Luis Luque*
-
