@@ -22,7 +22,21 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo $Interval = %INTERVAL%
 >>"%PSFILE%" echo $Branch = 'main'
 >>"%PSFILE%" echo $Proc = 'TaleSpire'
+>>"%PSFILE%" echo $script:lastInline = $false
 >>"%PSFILE%" echo(
+
+>>"%PSFILE%" echo function Write-Log([string]^$Message,[switch]^$Inline){
+>>"%PSFILE%" echo ^    if(^$Inline){
+>>"%PSFILE%" echo ^        Write-Host -NoNewline ^$Message
+>>"%PSFILE%" echo ^        ^$script:lastInline = ^$true
+>>"%PSFILE%" echo ^    } else {
+>>"%PSFILE%" echo ^        if(^$script:lastInline){ Write-Host '' }
+>>"%PSFILE%" echo ^        Write-Host ^$Message
+>>"%PSFILE%" echo ^        ^$script:lastInline = ^$false
+>>"%PSFILE%" echo ^    }
+>>"%PSFILE%" echo }
+>>"%PSFILE%" echo
+>>"%PSFILE%" echo Write-Host ('Sincronizando {0} (rama {1})' -f ^$Repo1,^$Branch)
 
 rem === PowerShell ===
 >>"%PSFILE%" echo function Ensure-Repo([string]^$Repo, [string]^$Remote, [string]^$Branch) {
@@ -48,17 +62,26 @@ rem === PowerShell ===
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo function Sync([string]^$Repo,[string]^$Branch){
 >>"%PSFILE%" echo ^    if (-not (Test-Path (Join-Path ^$Repo '.git'^))) { Write-Host ('No es repo git: {0}' -f ^$Repo); return }
- >>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo add -A ^> ^$null 2^>^&1
- >>"%PSFILE%" echo ^    ^$dirty = ^& ^$Git -C ^$Repo status --porcelain
- >>"%PSFILE%" echo ^    if (^$dirty) { ^& ^$Git -C ^$Repo commit --quiet -m ('auto: ' + (Get-Date -Format o^)) }
- >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo fetch origin ^> ^$null 2^>^&1 } catch {}
- >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo pull --rebase --autostash origin ^$Branch ^> ^$null 2^>^&1 } catch {}
- >>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo push -u origin ^$Branch ^> ^$null 2^>^&1 } catch {}
- >>"%PSFILE%" echo ^    if (^$dirty) {
- >>"%PSFILE%" echo ^        Write-Host ('Sincronizado {0} (rama {1}) - cambios enviados' -f ^$Repo,^$Branch)
- >>"%PSFILE%" echo ^    } else {
- >>"%PSFILE%" echo ^        Write-Host ('Sincronizado {0} (rama {1}) - sin cambios' -f ^$Repo,^$Branch)
- >>"%PSFILE%" echo ^    }
+>>"%PSFILE%" echo ^    ^$headBefore = ^& ^$Git -C ^$Repo rev-parse HEAD
+>>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo fetch origin ^> ^$null 2^>^&1 } catch {}
+>>"%PSFILE%" echo ^    ^$remoteAhead = 0
+>>"%PSFILE%" echo ^    try { ^$remoteAhead = [int](^& ^$Git -C ^$Repo rev-list --count HEAD..origin/^$Branch) } catch {}
+>>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo add -A ^> ^$null 2^>^&1
+>>"%PSFILE%" echo ^    ^$dirty = ^& ^$Git -C ^$Repo status --porcelain
+>>"%PSFILE%" echo ^    if (^$dirty) { ^& ^$Git -C ^$Repo commit --quiet -m ('auto: ' + (Get-Date -Format o^)) }
+>>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo pull --rebase --autostash origin ^$Branch ^> ^$null 2^>^&1 } catch {}
+>>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo push -u origin ^$Branch ^> ^$null 2^>^&1 } catch {}
+>>"%PSFILE%" echo ^    ^$headAfter = ^& ^$Git -C ^$Repo rev-parse HEAD
+>>"%PSFILE%" echo ^    ^$received = ^$remoteAhead -gt 0
+>>"%PSFILE%" echo ^    if (^$dirty -or ^$received -or (^$headAfter -ne ^$headBefore)) {
+>>"%PSFILE%" echo ^        ^$parts = @()
+>>"%PSFILE%" echo ^        if (^$dirty) { ^$parts += 'enviados cambios locales' }
+>>"%PSFILE%" echo ^        if (^$received) { ^$parts += ('recibidos {0} commit(s) remotos' -f ^$remoteAhead) }
+>>"%PSFILE%" echo ^        if (^$parts.Count -eq 0) { ^$parts += 'cambios aplicados' }
+>>"%PSFILE%" echo ^        Write-Log ('Sincronizado {0} (rama {1}) - {2}' -f ^$Repo,^$Branch,(^$parts -join '; '))
+>>"%PSFILE%" echo ^    } else {
+>>"%PSFILE%" echo ^        Write-Log '.' -Inline
+>>"%PSFILE%" echo ^    }
 >>"%PSFILE%" echo }
 
 >>"%PSFILE%" echo(
