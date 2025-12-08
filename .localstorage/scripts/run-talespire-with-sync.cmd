@@ -131,10 +131,10 @@ rem === PowerShell ===
 >>"%PSFILE%" echo if(^$appeared^){
 >>"%PSFILE%" echo ^  while (Get-Process -Name ^$Proc -ErrorAction SilentlyContinue^) {
 >>"%PSFILE%" echo ^    Start-Sleep -Seconds ^$Interval
- >>"%PSFILE%" echo ^    Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo ^    Sync -Repo ^$Repo1 -Branch ^$Branch
 >>"%PSFILE%" echo ^  }
 >>"%PSFILE%" echo }
- >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
 
 rem === Ejecutar PowerShell ===
 call powershell -NoProfile -ExecutionPolicy Bypass -File "%PSFILE%"
