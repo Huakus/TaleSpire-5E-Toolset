@@ -2203,7 +2203,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "WIS",
-                "spelllevelselected": "3",
+                "spelllevelselected": "4",
                 "Cantrip": {
                     "spells": [],
                     "slots": []
