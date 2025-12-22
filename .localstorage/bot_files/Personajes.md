@@ -1,14 +1,14 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 9)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 12)
 
 ## Protagonistas
 
 ### Adler
 
-Adler es un clérigo del templo de Deneir, dios del conocimiento. Su historia comienza cuando llega a Valverde del Río con la intención de fundar un nuevo templo en honor a su deidad, siguiendo las órdenes de su maestro, el Gran Escriba Adario. Es un hombre de fe sólida y espíritu práctico, cuya devoción por el saber lo lleva a involucrarse en los asuntos del pueblo más allá de lo que pretendía inicialmente. En su paso por Valverde, se convierte en figura clave para descubrir la red de contrabandistas que operaba bajo las narices del gobernador.
+Adler es un clérigo del templo de Deneir, dios del conocimiento.... de contrabandistas que operaba bajo las narices del gobernador.
 
-Adler demuestra tanto determinación como compasión, y en múltiples ocasiones pone su vida en riesgo para proteger a inocentes o detener la corrupción. Su liderazgo moral y su capacidad para inspirar a otros se hacen evidentes en momentos de crisis, como durante la defensa del puesto de avanzada o la batalla contra Viktor Salazar, el nigromante carmesí. Es, además, un hombre de acción: no duda en usar su fuerza física o su fe para imponerse incluso en combate cuerpo a cuerpo, como cuando enfrentó personalmente al nigromante en el barro.
+Adler demuestra tanto determinación como compasión, y en múltipl...rpo, como cuando enfrentó personalmente al nigromante en el barr
 
-Su fe fue puesta a prueba en el Templo del Círculo Eterno, donde murió y fue resucitado por sus compañeros mediante un ritual feérico. Desde entonces, su visión del mundo combina la devoción a Deneir con una conciencia más amplia sobre las fuerzas feéricas y arcanas que mueven el mundo. La experiencia de la muerte lo ha vuelto más reflexivo, casi melancólico, y más abierto a los misterios que antes habría considerado heréticos. Actualmente, actúa como mediador espiritual del grupo, guardián del *Libro Guardián* y nexo entre la religión humana y los antiguos pactos del Círculo Eterno.
+Su fe fue puesta a prueba en el Templo del Círculo Eterno, donde...en los antiguos pactos del Círculo Eterno.
 
 **Alineamiento:** *Legal Bueno.*
 Adler representa la justicia y la devoción ordenada. Rescata al hijo del leñador sin dudar, ejecuta criminales por sentido del deber y busca siempre el equilibrio entre la ley y la compasión. Su conducta está guiada por un código moral firme y un propósito altruista.
@@ -67,6 +67,7 @@ Ernesto actúa por instinto, movido por la supervivencia y la adrenalina. Es cap
 ### Gobernador Alarico Belmonte
 
 Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. Ha confiado en Adler y Delerion desde que descubrieron la red de contrabandistas bajo su castillo, y su rol se vuelve crítico cuando es secuestrado por Borgar Tempestus. Su desaparición desencadena una serie de eventos que empujan a los protagonistas hacia el corazón del conflicto con los mercenarios del Reino del Sur.
+
 **Actor argentino (90s):** *Santiago Ríos*
 
 ---
@@ -74,6 +75,7 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 ### Zafir
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur asentados en el Distrito de los Artesanos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, juega con las apariencias de los aventureros y manipula a Arturo como pieza útil dentro de sus planes.
+
 **Actor argentino (90s):** *Fabián Vena*
 
 ---
@@ -81,6 +83,7 @@ Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur
 ### Arturo
 
 Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción casi irracional. Aunque trabaja para Zafir, su lealtad se ve cada vez más comprometida por su fascinación hacia la semielfa. Esto lo vuelve impredecible y potencialmente muy útil… o muy peligroso.
+
 **Actor argentino (90s):** *Sebastián Estevanez*
 
 ---
@@ -88,6 +91,7 @@ Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción 
 ### Borgar Tempestus
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
+
 **Actor argentino (90s):** *Claudio Rissi*
 
 ---
@@ -95,6 +99,7 @@ Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosa
 ### Ignacio Robledo
 
 Sargento de la guardia local, asesinado por Ernesto durante una misión en el Distrito de los Artesanos. Su muerte marca el punto más oscuro del kobold, consecuencia del agotamiento extremo y del caos emocional que arrastraba.
+
 **Actor argentino (90s):** *Coco Sily*
 
 ---
@@ -102,6 +107,7 @@ Sargento de la guardia local, asesinado por Ernesto durante una misión en el Di
 ### Diego Cortés
 
 Guardia del castillo, entusiasta, crédulo y siempre dispuesto a ayudar. Su energía impulsa a los protagonistas en momentos críticos, especialmente durante interrogatorios o situaciones donde la autoridad local es necesaria. Es uno de los pocos humanos del pueblo que confía plenamente en ellos.
+
 **Actor argentino (90s):** *Diego Torres (joven)*
 
 ---
@@ -109,6 +115,7 @@ Guardia del castillo, entusiasta, crédulo y siempre dispuesto a ayudar. Su ener
 ### Isadora
 
 Joven aventurera que formaba parte del grupo de contrabandistas infiltrados. Aunque comenzó del lado equivocado, su relación con Adler la llevó a actuar con valentía y a oponerse a sus antiguos compañeros. Su huida marcó un giro emocional fuerte en los primeros capítulos.
+
 **Actor argentino (90s):** *Carla Peterson*
 
 ---
@@ -116,6 +123,7 @@ Joven aventurera que formaba parte del grupo de contrabandistas infiltrados. Aun
 ### Emilio el Herbolario
 
 Figura amable, culta y misteriosa de Valverde del Río. Su casa y su conocimiento fueron fundamentales para descifrar el *Libro Guardián*. Es uno de los pocos habitantes del pueblo que entiende la magnitud del conflicto arcano que rodea al Círculo Eterno.
+
 **Actor argentino (90s):** *Jean Pierre Noher*
 
 ---
@@ -123,6 +131,7 @@ Figura amable, culta y misteriosa de Valverde del Río. Su casa y su conocimient
 ### Haroldo el Montaraz
 
 Un cazador excéntrico, solitario, huraño y sorprendentemente competente. Fue clave para emboscar a los contrabandistas en los campos y para guiar a Adler y Delerion al campamento enemigo. Su enemistad con Emilio dificulta al grupo, pero su lealtad —cuando la ofrece— es absoluta.
+
 **Actor argentino (90s):** *Rolly Serrano*
 
 ---
@@ -130,6 +139,7 @@ Un cazador excéntrico, solitario, huraño y sorprendentemente competente. Fue c
 ### Eliza Belmonte
 
 Sobrina del gobernador y encargada temporal de Valverde del Río durante su secuestro. Joven responsable, decidida y balance entre la nobleza y la vulnerabilidad de su rol. Representa la fibra moral del linaje Belmonte.
+
 **Actor argentino (90s):** *Natalia Oreiro*
 
 ---
@@ -137,6 +147,7 @@ Sobrina del gobernador y encargada temporal de Valverde del Río durante su secu
 ### Fausto del Río
 
 Capataz de los leñadores y padre del joven asesinado por los contrabandistas en las cuevas. Su tragedia personal fue uno de los primeros motores morales de Adler.
+
 **Actor argentino (90s):** *Lito Cruz*
 
 ---
@@ -144,13 +155,15 @@ Capataz de los leñadores y padre del joven asesinado por los contrabandistas en
 ### Tomi Tres Dientes
 
 Criminal del Distrito de los Artesanos cuya influencia y encargos empujaron a Ernesto a sus actos más cuestionables. Una figura peligrosa, siempre en las sombras y moviendo piezas desde lo oculto.
+
 **Actor argentino (90s):** *Pablo Cedrón*
 
 ---
 
 ### Eladio
 
-Mago presente en la fiesta del distrito. Su magia, comportamiento errático e intenciones confusas lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
+Mago presente en la fiesta del distrito. Su magia, comportamient...ersonaje envolvente cuya importancia aún no está del todo clara.
+
 **Actor argentino (90s):** *Alejandro Dolina*
 
 ---
@@ -158,11 +171,141 @@ Mago presente en la fiesta del distrito. Su magia, comportamiento errático e in
 ### Gregorio
 
 Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
+
 **Actor argentino (90s):** *Damián Dreizik*
 
 ---
 
 ### Petro
 
-Personaje clave del Distrito de los Artesanos, conocedor de la ubicación y movimiento de los mercenarios del norte. Su rol diplomático e información lo convierten en un aliado vital para la misión principal.
+Personaje clave del Distrito de los Artesanos, conocedor de la u...ación lo convierten en un aliado vital para la misión principal.
+
 **Actor argentino (90s):** *Luis Luque*
+
+---
+
+### Arnaldo
+
+Posadero y regente de **la Posada de los Herreros** en el Distrito de los Artesanos. Fue quien les alquiló al grupo un piso completo tras un regateo duro, convirtiéndose en el primer contacto “civil” que les dio techo en la ciudad baja.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Hugo
+
+Capataz de la forja principal del distrito. Negoció con Delerion mejoras de equipo y, encantado por el carisma de Varka, accedió a proveer materiales para falsificar un permiso de paso hacia la Ciudad Alta.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Armando Cortés
+
+Comerciante y hermano de Diego Cortés. Prestó su embarcación al grupo para que pudieran viajar por el Río Verde rumbo al sur, a cambio de un favor político relacionado con Eliza Belmonte (que los aventureros evitaron prometer de manera directa, pero dejaron como deuda).
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Marion
+
+Antigua mano derecha del **Capitán Menta**. Apareció en el Distrito de los Artesanos y reconoció a Adler y Delerion, advirtiéndoles que **Petro** planeaba irrumpir en una fiesta para matar a los presentes.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Capitán Aitor Menta
+
+Capitán cuya figura quedó ligada a intrigas mayores del reino. Su muerte y la posterior huida de Marion se mencionan como piezas dentro de una conspiración que involucra a un Duque y fuerzas carmesíes.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Ragnar
+
+Guardaespaldas del sargento Ignacio Robledo. Se lo menciona como parte del círculo de poder y miedo que rodeaba al sargento durante los días posteriores al incendio y la redada en el Distrito de los Artesanos.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### El Pipo
+
+Mendigo del Distrito de los Artesanos con “ojos y oídos por todo el distrito”, gracias a una red de mendigos. Fue una fuente de información para Delerion y el grupo durante una reunión nocturna vinculada a Tomi Tres Dientes.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Rodrigo Ayward
+
+Erudito de aspecto excéntrico que se cruzó con Ernesto en el Distrito de los Artesanos. Se lo asocia con conocimientos extraños (incluyendo menciones a túneles antiguos excavados por kobolds) y con la idea de que “el canto del metal” es un legado de los titanes.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Zephir
+
+Figura que aparece junto a Borgar y Arturo, moviéndose por el Distrito de los Artesanos en el marco de un acuerdo secreto con sectores de la guardia y un plan para recuperar un objeto en poder de un sargento. Su rol exacto y lealtades aún no están del todo claras.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Borgar (en el Distrito de los Artesanos)
+
+Semiorco mencionado en los rumores del distrito y visto junto a Zephir y Arturo, moviéndose hacia el este. En el entorno de los talleres se lo vincula, además, con una costurera que habría sido su pareja.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### La jefa del taller de costura
+
+Dirige un taller de costura del Distrito de los Artesanos que aparece entre los focos de rumores e intrigas. Varka fue invitada a su casa tras una jornada de manipulación social en el distrito.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### El dueño de la forja
+
+Maestro herrero del distrito (dueño de la forja principal) que asistió a una reunión en la taberna **El Cuenco de Carbón**. Fue asesinado por la espalda durante el caos provocado por Petro.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### El sobrino del dueño de la forja
+
+Joven noble y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo (junto con Ernesto) como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### La mujer marcada
+
+Mujer del Barrio Exterior (fuera del Distrito de los Artesanos) cuya presencia se vinculó a desapariciones y a un **símbolo feérico** que llamó la atención de Varka. Fue interrogada por Varka acompañada por Ernesto, revelándose un vínculo con el origen de Varka y con un pacto antiguo.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Ninthra
+
+Entidad feérica superior a la que la mujer marcada decía estar ligada como su “verdadera jefa”, en el marco de un pacto cuyos detalles completos ni siquiera la propia mujer comprendía.
+
+**Actor argentino (90s):** *Por definir*
+
+---
+
+### Heladio
+
+Nombre que aparece asociado a una “red subterránea” en el Barrio Exterior. (Puede tratarse de una variante o error de transcripción respecto de **Eladio**, pero la historia lo registra como entidad separada por ahora.)
+
+**Actor argentino (90s):** *Por definir*
