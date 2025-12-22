@@ -494,3 +494,41 @@ Desde su posición invisible, Ernesto verificó el estado final de la puerta: la
 Era momento de retirarse.
 Delerion volvió a atravesar la muralla usando el mismo método sutil con el que había entrado; Varka terminó su actuación con un último sollozo y se marchó tambaleante, como una madre desesperada sin rumbo; Ernesto, aún invisible, serpenteó entre los guardias sin ser detectado.
 Reunidos nuevamente, regresaron a la casa donde Borgar aguardaba, listos para entregar las noticias de su hallazgo y preparar el siguiente movimiento.
+
+## Capítulo 12: El Barrio Exterior, el Día del Ganso y las Marcas del Pacto
+
+### Cruce de la puerta occidental
+Tras abandonar el Distrito de los Artesanos, el grupo cruzó la puerta occidental de Valverde del Río rumbo a la **Ciudad Exterior**. Fue **Zaphir**, con su habitual mezcla de presencia, papeles oportunos y seguridad ensayada, quien manejó el intercambio con la guardia. Su intervención evitó preguntas innecesarias y les permitió salir con la advertencia implícita de que el regreso no sería sencillo.
+
+Del otro lado, la ciudad cambiaba de piel. El orden de las murallas se diluía en calles de tierra, casas bajas, corrales improvisados y una vida que transcurría al margen de la vigilancia formal. La autoridad allí era difusa, y la ley, flexible.
+
+### El Día del Ganso
+En una de esas calles, el grupo se encontró con una escena tan absurda como reveladora: **un niño huía desesperado mientras un ganso viejo, grande y agresivo lo perseguía** con una furia desmedida. A primera vista parecía un altercado menor, pero Delerion y Stix Ernesto percibieron de inmediato que el ave no era normal.
+Delerion extendió su magia para leer la mente del animal. Bajo los impulsos básicos apareció algo inquietante: **ofensa consciente**, memoria y una inteligencia impropia de una bestia. Entre esos pensamientos surgieron también **imágenes persistentes**: una **figura femenina de gran sensualidad, con cuernos**, que bailaba y atendía personas en una **taberna cercana**. La visión no parecía un recuerdo del ganso en sí, sino un eco de una influencia mayor, feérica y antigua.
+La energía que emanaba del animal coincidía con la magia salvaje vinculada al **Círculo Eterno**, la misma que el grupo ya había sentido en otros lugares y objetos.
+
+### El collar y la restitución del orden
+El origen inmediato del conflicto resultó ser más concreto. El niño había **quitado un collar** que el ganso llevaba consigo. Ernesto, fiel a su estilo directo, **negoció con el chico**, comprándole el collar sin recurrir a amenazas.
+Cuando **Ernesto volvió a colocarle el collar al ganso**, el cambio fue inmediato. La agresividad se disipó por completo y el animal pasó a comportarse como lo que siempre había sido: un ganso común. El incidente quedó resuelto, pero la imagen de la mujer cornuda y la naturaleza del collar dejaron claro que no se trataba de un hecho aislado.
+
+### El Gremio y el plan de infiltración
+Ya en la Ciudad Exterior, **Borgar** expuso con claridad el panorama estratégico. El llamado **Gremio de Comerciantes** funcionaba como fachada de una red de contrabando con acceso directo a túneles antiguos que llevaban hacia la **Ciudad Alta**. En su subsuelo existía una **trampilla sellada**, custodiada con celo.
+El grupo decidió avanzar con cautela, privilegiando la infiltración y la información por sobre la violencia abierta.
+
+### Exploración encubierta
+Para no levantar sospechas, se dividieron tareas. Mientras algunos recorrían el barrio, **Delerion envió a su familiar, una araña**, al interior del gremio. La criatura confirmó lo esperado: mercancías robadas, oro acumulado y cajas trasladadas con prisa.
+Bajo una caja especialmente pesada, la araña detectó una **trampilla oculta**. Su cerradura era compleja y costosa, pero **enteramente mecánica**, sin rastro de magia, lo que la volvía ideal para las habilidades de Ernesto.
+
+### La mujer marcada
+Durante las averiguaciones en el barrio, surgió una presencia más perturbadora. Una mujer cocinaba para los niños del caserío con una dedicación casi maternal… pero **no comía**. Su comportamiento era metódico, antinatural. En su hombro llevaba un **símbolo feérico** que llamó de inmediato la atención de Varka.
+**Varka**, acompañada por **Ernesto**, fue quien llevó adelante el interrogatorio. Allí se reveló un vínculo inquietante: **la marca que la mujer portaba era idéntica a la que Varka lleva desde su origen**. Ambas compartían el sello de un mismo pacto antiguo.
+La mujer confesó estar ligada a una entidad feérica superior: **Ninthra**, su verdadera jefa. Ella no actuaba por cuenta propia. Alimentar a los niños era solo una parte del ritual: debilitarlos, marcarlos y prepararlos para cumplir con una **cuota periódica** exigida por su patrona. No se trataba únicamente de devorarlos, sino de **sostener un plan mayor**, cuyos detalles completos ni siquiera ella comprendía del todo.
+La mujer creía que, cumpliendo su rol, sería recordada como **quien liberó a Ninthra**, ganándose así un lugar de poder cuando el pacto se consumara.
+
+### Heladio y la red subterránea
+La exploración mágica permitió confirmar además que **Heladio** y sus asociados planeaban huir. Temían tanto a la guardia como a fuerzas más antiguas que comenzaban a moverse. En los pisos superiores del gremio, un mago preparaba conjuros, mientras **El Pichón (Luz en Redgar)** permanecía prisionero, golpeado y debilitado.
+Todo apuntaba a una red compleja donde **contrabando, corrupción y pactos feéricos** coexistían bajo el mismo techo.
+
+### Estado de la situación
+Al cerrar esas jornadas, el grupo había obtenido certezas inquietantes: habían localizado a Heladio y al Pichón, identificado una vía secreta hacia la Ciudad Alta y confirmado que antiguos pactos feéricos seguían activos… y reclamando su precio.
+El Día del Ganso había dejado una lección clara: incluso los hechos más absurdos podían ser la antesala de algo mucho más grande. En la Ciudad Exterior de Valverde del Río, las marcas del pasado empezaban a brillar otra vez.
