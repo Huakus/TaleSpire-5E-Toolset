@@ -290,9 +290,9 @@
                         }
                     ],
                     "slots": [
-                        false,
-                        false,
-                        false,
+                        true,
+                        true,
+                        true,
                         false
                     ]
                 },
