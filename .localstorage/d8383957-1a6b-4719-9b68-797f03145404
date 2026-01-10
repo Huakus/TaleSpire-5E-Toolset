@@ -660,6 +660,10 @@
                         {
                             "noteTitle": "Acceso a la Ciudad Alta",
                             "noteContent": "Coordinar con Zafir (tiefling; Ernesto lo llama «Zephyr») la falsificación del pase para ingresar a la ciudad alta y continuar la misión. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "",
+                            "noteContent": ""
                         }
                     ]
                 },
