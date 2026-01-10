@@ -665,7 +665,7 @@
                 },
                 {
                     "group-title": "Tareas pendientes",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "notes": [
                         {
                             "noteTitle": "Liberar a Petro",
@@ -699,7 +699,7 @@
                 },
                 {
                     "group-title": "Conspiraciones y política local",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "notes": [
                         {
                             "noteTitle": "Carta del capitán Aitor Menta",
@@ -717,7 +717,7 @@
                 },
                 {
                     "group-title": "Magia y reliquias",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "notes": [
                         {
                             "noteTitle": "Libro Guardián",
@@ -735,7 +735,7 @@
                 },
                 {
                     "group-title": "Reino del Sur — frente urbano",
-                    "group-chevron": false,
+                    "group-chevron": true,
                     "notes": [
                         {
                             "noteTitle": "Panorama del distrito",
