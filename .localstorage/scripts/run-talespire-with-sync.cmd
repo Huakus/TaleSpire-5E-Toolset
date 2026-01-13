@@ -4,8 +4,13 @@ setlocal EnableExtensions DisableDelayedExpansion
 rem === Config ===
 set "REPO1=%USERPROFILE%\AppData\LocalLow\BouncyRock Entertainment\TaleSpire\Symbiotes\Toolset"
 set "REMOTE1=https://github.com/Huakus/TaleSpire-5E-Toolset"
+
+set "REPO2=%USERPROFILE%\AppData\LocalLow\BouncyRock Entertainment\TaleSpire\Symbiotes\Audio Sync"
+set "REMOTE2=https://github.com/Huakus/TaleSpireAudioSync"
+
 set "INTERVAL=10"
 set "BRANCH=main"
+
 set "GIT=%ProgramFiles%\Git\cmd\git.exe"
 if not exist "%GIT%" set "GIT=%ProgramFiles(x86)%\Git\cmd\git.exe"
 if not exist "%GIT%" set "GIT=%LOCALAPPDATA%\Programs\Git\cmd\git.exe"
@@ -19,6 +24,8 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo $Git = "%GIT%"
 >>"%PSFILE%" echo $Repo1 = "%REPO1%"
 >>"%PSFILE%" echo $Remote1 = "%REMOTE1%"
+>>"%PSFILE%" echo $Repo2 = "%REPO2%"
+>>"%PSFILE%" echo $Remote2 = "%REMOTE2%"
 >>"%PSFILE%" echo $Interval = %INTERVAL%
 >>"%PSFILE%" echo $Branch = 'main'
 >>"%PSFILE%" echo $Proc = 'TaleSpire'
@@ -48,10 +55,8 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo ^    if(^$script:lastInline){ Write-Host '' ; ^$script:lastInline = ^$false }
 >>"%PSFILE%" echo ^    Write-Host ('  {0}' -f ^$Message) -ForegroundColor ^$Color
 >>"%PSFILE%" echo }
->>"%PSFILE%" echo(
->>"%PSFILE%" echo Write-Log ('Sincronizando {0} (rama {1})' -f ^$Repo1,^$Branch)
 
-rem === PowerShell ===
+>>"%PSFILE%" echo(
 >>"%PSFILE%" echo function Ensure-Repo([string]^$Repo, [string]^$Remote, [string]^$Branch) {
 >>"%PSFILE%" echo ^    if (Test-Path (Join-Path ^$Repo '.git'^)) {
 >>"%PSFILE%" echo ^        Write-Host ('Verificando rama {0} en {1}' -f ^$Branch,^$Repo)
@@ -100,17 +105,17 @@ rem === PowerShell ===
 >>"%PSFILE%" echo ^    ^$received = ^$remoteAhead -gt 0
 >>"%PSFILE%" echo ^    if (^$dirty -or ^$received -or (^$headAfter -ne ^$headBefore)) {
 >>"%PSFILE%" echo ^        if(^$dirty){
->>"%PSFILE%" echo ^            Write-Log 'ENVIANDO'
+>>"%PSFILE%" echo ^            Write-Log ('ENVIANDO {0}' -f ^$Repo)
 >>"%PSFILE%" echo ^            if(^$dirtyLog.Count -gt 0){ foreach(^$line in ^$dirtyLog){ Write-Detail -Message ('local: {0}' -f ^$line) -Color 'Yellow' } }
 >>"%PSFILE%" echo ^            if(^$dirtyDiff.Count -gt 0){ foreach(^$line in ^$dirtyDiff){ Write-Detail -Message ('diff: {0}' -f ^$line) -Color (Get-DiffColor ^$line) } }
 >>"%PSFILE%" echo ^        }
 >>"%PSFILE%" echo ^        if(^$received){
->>"%PSFILE%" echo ^            Write-Log 'RECIBIENDO'
+>>"%PSFILE%" echo ^            Write-Log ('RECIBIENDO {0}' -f ^$Repo)
 >>"%PSFILE%" echo ^            if(^$remoteLog.Count -gt 0){ foreach(^$line in ^$remoteLog){ Write-Detail -Message ('remoto: {0}' -f ^$line) -Color 'Cyan' } }
 >>"%PSFILE%" echo ^            if(^$remoteDiff.Count -gt 0){ foreach(^$line in ^$remoteDiff){ Write-Detail -Message ('diff: {0}' -f ^$line) -Color (Get-DiffColor ^$line) } }
 >>"%PSFILE%" echo ^        }
 >>"%PSFILE%" echo ^        if((-not ^$dirty) -and (-not ^$received)){
->>"%PSFILE%" echo ^            Write-Log 'ENVIANDO/RECIBIENDO'
+>>"%PSFILE%" echo ^            Write-Log ('ENVIANDO/RECIBIENDO {0}' -f ^$Repo)
 >>"%PSFILE%" echo ^            Write-Detail 'cambios aplicados'
 >>"%PSFILE%" echo ^        }
 >>"%PSFILE%" echo ^    } else {
@@ -119,10 +124,11 @@ rem === PowerShell ===
 >>"%PSFILE%" echo }
 
 >>"%PSFILE%" echo(
+>>"%PSFILE%" echo Write-Log ('Sincronizando repos...')
 >>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo1 -Remote ^$Remote1 -Branch ^$Branch
-
->>"%PSFILE%" echo(
- >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo2 -Remote ^$Remote2 -Branch ^$Branch
+>>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo Sync -Repo ^$Repo2 -Branch ^$Branch
 
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo Start-Process 'steam://rungameid/720620'
@@ -132,9 +138,11 @@ rem === PowerShell ===
 >>"%PSFILE%" echo ^  while (Get-Process -Name ^$Proc -ErrorAction SilentlyContinue^) {
 >>"%PSFILE%" echo ^    Start-Sleep -Seconds ^$Interval
 >>"%PSFILE%" echo ^    Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo ^    Sync -Repo ^$Repo2 -Branch ^$Branch
 >>"%PSFILE%" echo ^  }
 >>"%PSFILE%" echo }
 >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo Sync -Repo ^$Repo2 -Branch ^$Branch
 
 rem === Ejecutar PowerShell ===
 call powershell -NoProfile -ExecutionPolicy Bypass -File "%PSFILE%"
