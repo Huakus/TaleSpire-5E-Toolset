@@ -57,9 +57,8 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo }
 
 rem =========================================================
-rem  NEW: Generate catalog.json for Audio Sync (Repo2)
-rem  - Reads content\music\*.mp3 and content\sfx\*.mp3
-rem  - Writes data\catalog.json
+rem  Generate catalog.json for Audio Sync (Repo2) - ONLY ON START
+rem  (No generatedAt to avoid dirty changes every run)
 rem =========================================================
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo function Generate-Catalog([string]^$Repo){
@@ -109,7 +108,6 @@ rem =========================================================
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo ^        ^$obj = [pscustomobject]@{
 >>"%PSFILE%" echo ^            version = 1
->>"%PSFILE%" echo ^            generatedAt = (Get-Date -Format o)
 >>"%PSFILE%" echo ^            music = ^$music
 >>"%PSFILE%" echo ^            sfx = ^$sfx
 >>"%PSFILE%" echo ^        }
@@ -121,7 +119,6 @@ rem =========================================================
 >>"%PSFILE%" echo ^        Write-Detail -Message ('catalog error: {0}' -f ^$_.Exception.Message) -Color 'Red'
 >>"%PSFILE%" echo ^    }
 >>"%PSFILE%" echo }
-rem =========================================================
 
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo function Ensure-Repo([string]^$Repo, [string]^$Remote, [string]^$Branch) {
@@ -195,7 +192,7 @@ rem =========================================================
 >>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo1 -Remote ^$Remote1 -Branch ^$Branch
 >>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo2 -Remote ^$Remote2 -Branch ^$Branch
 
-rem === NEW: generar catalog antes de sync de Repo2 ===
+rem === Generate catalog ONLY ON START ===
 >>"%PSFILE%" echo Generate-Catalog -Repo ^$Repo2
 
 >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
@@ -208,14 +205,11 @@ rem === NEW: generar catalog antes de sync de Repo2 ===
 >>"%PSFILE%" echo if(^$appeared^){
 >>"%PSFILE%" echo ^  while (Get-Process -Name ^$Proc -ErrorAction SilentlyContinue^) {
 >>"%PSFILE%" echo ^    Start-Sleep -Seconds ^$Interval
-rem === NEW: regenerar catalog en cada ciclo ===
->>"%PSFILE%" echo ^    Generate-Catalog -Repo ^$Repo2
 >>"%PSFILE%" echo ^    Sync -Repo ^$Repo1 -Branch ^$Branch
 >>"%PSFILE%" echo ^    Sync -Repo ^$Repo2 -Branch ^$Branch
 >>"%PSFILE%" echo ^  }
 >>"%PSFILE%" echo }
 >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
->>"%PSFILE%" echo Generate-Catalog -Repo ^$Repo2
 >>"%PSFILE%" echo Sync -Repo ^$Repo2 -Branch ^$Branch
 
 rem === Ejecutar PowerShell ===
