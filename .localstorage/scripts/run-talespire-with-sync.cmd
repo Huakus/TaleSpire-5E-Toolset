@@ -56,6 +56,73 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo ^    Write-Host ('  {0}' -f ^$Message) -ForegroundColor ^$Color
 >>"%PSFILE%" echo }
 
+rem =========================================================
+rem  NEW: Generate catalog.json for Audio Sync (Repo2)
+rem  - Reads content\music\*.mp3 and content\sfx\*.mp3
+rem  - Writes data\catalog.json
+rem =========================================================
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo function Generate-Catalog([string]^$Repo){
+>>"%PSFILE%" echo ^    try {
+>>"%PSFILE%" echo ^        ^$content = Join-Path ^$Repo 'content'
+>>"%PSFILE%" echo ^        ^$musicDir = Join-Path ^$content 'music'
+>>"%PSFILE%" echo ^        ^$sfxDir   = Join-Path ^$content 'sfx'
+>>"%PSFILE%" echo ^        ^$dataDir  = Join-Path ^$Repo 'data'
+>>"%PSFILE%" echo ^        ^$outFile  = Join-Path ^$dataDir 'catalog.json'
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        if(-not (Test-Path ^$dataDir)){ [void](New-Item -ItemType Directory -Force -Path ^$dataDir) }
+>>"%PSFILE%" echo ^        if(-not (Test-Path ^$musicDir)){ [void](New-Item -ItemType Directory -Force -Path ^$musicDir) }
+>>"%PSFILE%" echo ^        if(-not (Test-Path ^$sfxDir)){ [void](New-Item -ItemType Directory -Force -Path ^$sfxDir) }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        function MakeId([string]^$prefix,[string]^$fileName){
+>>"%PSFILE%" echo ^            ^$base = [IO.Path]::GetFileNameWithoutExtension(^$fileName)
+>>"%PSFILE%" echo ^            ^$raw = ('{0}_{1}' -f ^$prefix,^$base).ToLowerInvariant()
+>>"%PSFILE%" echo ^            ^$chars = ^$raw.ToCharArray()
+>>"%PSFILE%" echo ^            for(^$i=0; ^$i -lt ^$chars.Length; ^$i++){
+>>"%PSFILE%" echo ^                ^$c = ^$chars[^$i]
+>>"%PSFILE%" echo ^                ^$ok = ((^$c -ge 'a' -and ^$c -le 'z') -or (^$c -ge '0' -and ^$c -le '9') -or (^$c -eq '_'))
+>>"%PSFILE%" echo ^                if(-not ^$ok){ ^$chars[^$i] = '_' }
+>>"%PSFILE%" echo ^            }
+>>"%PSFILE%" echo ^            return -join ^$chars
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        function Build([string]^$dir,[string]^$prefix,[string]^$subPath){
+>>"%PSFILE%" echo ^            ^$files = [System.IO.Directory]::EnumerateFiles(^$dir,'*.mp3')
+>>"%PSFILE%" echo ^            ^$arr = @(^$files)
+>>"%PSFILE%" echo ^            [Array]::Sort(^$arr)
+>>"%PSFILE%" echo ^            ^$out = @()
+>>"%PSFILE%" echo ^            foreach(^$full in ^$arr){
+>>"%PSFILE%" echo ^                ^$name = [IO.Path]::GetFileName(^$full)
+>>"%PSFILE%" echo ^                ^$base = [IO.Path]::GetFileNameWithoutExtension(^$full)
+>>"%PSFILE%" echo ^                ^$out += [pscustomobject]@{
+>>"%PSFILE%" echo ^                    id = (MakeId ^$prefix ^$name)
+>>"%PSFILE%" echo ^                    name = ^$base
+>>"%PSFILE%" echo ^                    path = ('{0}/{1}' -f ^$subPath,^$name)
+>>"%PSFILE%" echo ^                    gainDb = 0
+>>"%PSFILE%" echo ^                }
+>>"%PSFILE%" echo ^            }
+>>"%PSFILE%" echo ^            return ^$out
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        ^$music = Build ^$musicDir 'mus' 'music'
+>>"%PSFILE%" echo ^        ^$sfx   = Build ^$sfxDir   'sfx' 'sfx'
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        ^$obj = [pscustomobject]@{
+>>"%PSFILE%" echo ^            version = 1
+>>"%PSFILE%" echo ^            generatedAt = (Get-Date -Format o)
+>>"%PSFILE%" echo ^            music = ^$music
+>>"%PSFILE%" echo ^            sfx = ^$sfx
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        ^$json = ConvertTo-Json -InputObject ^$obj -Depth 6
+>>"%PSFILE%" echo ^        Set-Content -Path ^$outFile -Value ^$json -Encoding UTF8
+>>"%PSFILE%" echo ^        Write-Detail -Message ('catalog actualizado: music={0} sfx={1}' -f ^$music.Count,^$sfx.Count) -Color 'Magenta'
+>>"%PSFILE%" echo ^    } catch {
+>>"%PSFILE%" echo ^        Write-Detail -Message ('catalog error: {0}' -f ^$_.Exception.Message) -Color 'Red'
+>>"%PSFILE%" echo ^    }
+>>"%PSFILE%" echo }
+rem =========================================================
+
 >>"%PSFILE%" echo(
 >>"%PSFILE%" echo function Ensure-Repo([string]^$Repo, [string]^$Remote, [string]^$Branch) {
 >>"%PSFILE%" echo ^    if (Test-Path (Join-Path ^$Repo '.git'^)) {
@@ -127,6 +194,10 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo Write-Log ('Sincronizando repos...')
 >>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo1 -Remote ^$Remote1 -Branch ^$Branch
 >>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo2 -Remote ^$Remote2 -Branch ^$Branch
+
+rem === NEW: generar catalog antes de sync de Repo2 ===
+>>"%PSFILE%" echo Generate-Catalog -Repo ^$Repo2
+
 >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
 >>"%PSFILE%" echo Sync -Repo ^$Repo2 -Branch ^$Branch
 
@@ -137,11 +208,14 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo if(^$appeared^){
 >>"%PSFILE%" echo ^  while (Get-Process -Name ^$Proc -ErrorAction SilentlyContinue^) {
 >>"%PSFILE%" echo ^    Start-Sleep -Seconds ^$Interval
+rem === NEW: regenerar catalog en cada ciclo ===
+>>"%PSFILE%" echo ^    Generate-Catalog -Repo ^$Repo2
 >>"%PSFILE%" echo ^    Sync -Repo ^$Repo1 -Branch ^$Branch
 >>"%PSFILE%" echo ^    Sync -Repo ^$Repo2 -Branch ^$Branch
 >>"%PSFILE%" echo ^  }
 >>"%PSFILE%" echo }
 >>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo Generate-Catalog -Repo ^$Repo2
 >>"%PSFILE%" echo Sync -Repo ^$Repo2 -Branch ^$Branch
 
 rem === Ejecutar PowerShell ===
