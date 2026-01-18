@@ -848,7 +848,7 @@
             ]
         },
         "Skitrixx \"Stix Ernesto\" Koboldtanz": {
-            "characterTempHp": "10",
+            "characterTempHp": "15",
             "currentHitDice": "0",
             "insp": 1,
             "upcastToggle": 1,
