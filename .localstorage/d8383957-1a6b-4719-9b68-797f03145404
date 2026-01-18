@@ -336,7 +336,7 @@
                         }
                     ],
                     "slots": [
-                        true,
+                        false,
                         false,
                         false
                     ]
@@ -2222,7 +2222,7 @@
                         }
                     ],
                     "slots": [
-                        false,
+                        true,
                         false,
                         false,
                         false
@@ -2239,7 +2239,7 @@
                 "3rd-level": {
                     "spells": [],
                     "slots": [
-                        false,
+                        true,
                         false,
                         false
                     ]
