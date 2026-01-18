@@ -869,7 +869,7 @@
                 "Juego de Cartas para Jugar",
                 "Herramientas de Ladrón"
             ],
-            "initiativeButton": "+s5",
+            "initiativeButton": "+5",
             "AC": "17",
             "speed": "30ft.",
             "characterLevel": "8",
