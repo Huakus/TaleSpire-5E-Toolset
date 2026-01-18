@@ -2232,26 +2232,26 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
                         false,
-                        true
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "2nd-level": {
                     "spells": [],
                     "slots": [
-                        true,
-                        true,
-                        true
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "3rd-level": {
                     "spells": [],
                     "slots": [
-                        true,
-                        true,
-                        true
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "4th-level": {
