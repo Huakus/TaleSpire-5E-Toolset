@@ -2219,6 +2219,10 @@
                         {
                             "name": "Tamaturgia",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Curar heridas",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
