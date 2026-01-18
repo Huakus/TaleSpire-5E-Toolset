@@ -344,7 +344,7 @@
                 "4th-level": {
                     "spells": [],
                     "slots": [
-                        false
+                        true
                     ]
                 },
                 "5th-level": {
