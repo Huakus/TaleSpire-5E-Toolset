@@ -1,7 +1,7 @@
 {
     "characters": {
         "Delerion": {
-            "characterTempHp": "15",
+            "characterTempHp": "6",
             "currentHitDice": "0",
             "insp": 1,
             "upcastToggle": 1,
