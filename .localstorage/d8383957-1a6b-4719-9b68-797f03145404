@@ -838,6 +838,12 @@
                     "currentHp": "210",
                     "maxHp": "210",
                     "tempHp": "0"
+                },
+                {
+                    "name": "Araña (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
                 }
             ]
         },
