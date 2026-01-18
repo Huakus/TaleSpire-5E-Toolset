@@ -2234,7 +2234,7 @@
                     "slots": [
                         true,
                         true,
-                        true,
+                        false,
                         true
                     ]
                 },
