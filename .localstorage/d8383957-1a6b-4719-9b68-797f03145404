@@ -762,18 +762,6 @@
             ],
             "extrasData": [
                 {
-                    "name": "Búho (A)",
-                    "currentHp": "1",
-                    "maxHp": "1",
-                    "tempHp": "0"
-                },
-                {
-                    "name": "Araña (A)",
-                    "currentHp": "1",
-                    "maxHp": "1",
-                    "tempHp": "0"
-                },
-                {
                     "name": "Caballito de Mar (A)",
                     "currentHp": "1",
                     "maxHp": "1",
