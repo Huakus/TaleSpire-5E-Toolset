@@ -338,7 +338,7 @@
                     "slots": [
                         true,
                         true,
-                        false
+                        true
                     ]
                 },
                 "4th-level": {
