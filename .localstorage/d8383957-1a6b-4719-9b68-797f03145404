@@ -1277,7 +1277,7 @@
             "extrasData": []
         },
         "Varka": {
-            "characterTempHp": "0",
+            "characterTempHp": "6",
             "currentHitDice": "0",
             "insp": 1,
             "upcastToggle": 1,
@@ -1363,7 +1363,12 @@
             "pb-22": 0,
             "pb-23": 1,
             "pb-24": 1,
-            "conditions": [],
+            "conditions": [
+                {
+                    "text": "Bendecir",
+                    "value": "bless"
+                }
+            ],
             "coins": {
                 "cp": 45,
                 "sp": 0,
