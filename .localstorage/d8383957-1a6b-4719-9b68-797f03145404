@@ -1276,7 +1276,7 @@
             "extrasData": []
         },
         "Varka": {
-            "characterTempHp": "6",
+            "characterTempHp": "",
             "currentHitDice": "0",
             "insp": 0,
             "upcastToggle": 1,
