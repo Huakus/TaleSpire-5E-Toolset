@@ -346,7 +346,12 @@
                     ]
                 },
                 "4th-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Marchitar",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         true
                     ]
