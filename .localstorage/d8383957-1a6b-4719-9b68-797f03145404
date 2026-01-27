@@ -1021,7 +1021,7 @@
                         "itemId": "item-1758855277512-d92f8eb9",
                         "thirdColumn": "5ft",
                         "fourthColumn": "+10",
-                        "fifthColumn": "1d6+1d8",
+                        "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "DES",
                         "weaponType": "Cuerpo a cuerpo",
