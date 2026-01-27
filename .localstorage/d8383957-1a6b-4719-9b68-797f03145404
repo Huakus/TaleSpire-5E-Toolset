@@ -34,7 +34,7 @@
                 "Kit de Herbalismo",
                 "Herramientas de Ladrón"
             ],
-            "initiativeButton": "+2",
+            "initiativeButton": "s+2",
             "AC": "15",
             "speed": "30ft.",
             "characterLevel": "7",
