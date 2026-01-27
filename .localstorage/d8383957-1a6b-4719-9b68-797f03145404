@@ -342,7 +342,12 @@
                     ]
                 },
                 "4th-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Guardián de la fe",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         true
                     ]
