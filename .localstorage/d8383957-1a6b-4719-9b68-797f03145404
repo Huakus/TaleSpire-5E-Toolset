@@ -333,6 +333,10 @@
                         {
                             "name": "Imponer maldición",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Acelerar",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
