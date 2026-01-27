@@ -290,8 +290,8 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
+                        false,
+                        false,
                         false,
                         false
                     ]
@@ -336,15 +336,15 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
-                        true
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "4th-level": {
                     "spells": [],
                     "slots": [
-                        true
+                        false
                     ]
                 },
                 "5th-level": {
