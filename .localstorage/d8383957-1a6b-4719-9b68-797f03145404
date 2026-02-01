@@ -1649,6 +1649,10 @@
                         {
                             "name": "Piedra mágica",
                             "prepared": "false"
+                        },
+                        {
+                            "name": "Llamar a los muertos",
+                            "prepared": "false"
                         }
                     ],
                     "slots": []
@@ -1697,6 +1701,10 @@
                         },
                         {
                             "name": "Virote encantado",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Causar miedo",
                             "prepared": "0"
                         }
                     ],
