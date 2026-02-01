@@ -311,6 +311,10 @@
                         {
                             "name": "Escritura celeste",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Diablo de polvo",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
