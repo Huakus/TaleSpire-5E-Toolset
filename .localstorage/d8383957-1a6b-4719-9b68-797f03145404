@@ -1455,8 +1455,8 @@
             "characterLevel": "8",
             "playerXP": "36690",
             "playerClass": "Semielfa Bruja\n(Archihada - Ermitaña - [pacto])",
-            "currentCharacterHP": "53",
-            "maxCharacterHP": "59",
+            "currentCharacterHP": "59",
+            "maxCharacterHP": " ",
             "strengthScore": "8",
             "dexterityScore": "16",
             "constitutionScore": "16",
@@ -1633,26 +1633,6 @@
                         {
                             "name": "Toque helado",
                             "prepared": "false"
-                        },
-                        {
-                            "name": "Congelación",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Crear hoguera",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Infestación",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Piedra mágica",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Llamar a los muertos",
-                            "prepared": "false"
                         }
                     ],
                     "slots": []
@@ -1702,10 +1682,6 @@
                         {
                             "name": "Virote encantado",
                             "prepared": "0"
-                        },
-                        {
-                            "name": "Causar miedo",
-                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -1721,18 +1697,6 @@
                         },
                         {
                             "name": "Corona de locura",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Atar a la tierra",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Espina mental",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Hoja de sombra",
                             "prepared": "0"
                         }
                     ],
@@ -1787,33 +1751,12 @@
                         {
                             "name": "Volar",
                             "prepared": "1"
-                        },
-                        {
-                            "name": "Enemigos abundantes",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Invocar demonios menores",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Paso atronador",
-                            "prepared": "0"
                         }
                     ],
                     "slots": []
                 },
                 "4th-level": {
-                    "spells": [
-                        {
-                            "name": "Destierro",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Marchitar",
-                            "prepared": "0"
-                        }
-                    ],
+                    "spells": [],
                     "slots": []
                 },
                 "5th-level": {
