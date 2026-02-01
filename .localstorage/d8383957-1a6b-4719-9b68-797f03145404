@@ -345,6 +345,10 @@
                         {
                             "name": "Siestecita",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Servidor minúsculo",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
