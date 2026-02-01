@@ -1787,6 +1787,18 @@
                         {
                             "name": "Volar",
                             "prepared": "1"
+                        },
+                        {
+                            "name": "Enemigos abundantes",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invocar demonios menores",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Paso atronador",
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
