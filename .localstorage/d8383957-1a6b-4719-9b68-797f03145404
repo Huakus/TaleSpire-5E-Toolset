@@ -1722,6 +1722,14 @@
                         {
                             "name": "Corona de locura",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Atar a la tierra",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Espina mental",
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
