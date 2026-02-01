@@ -15788,11 +15788,11 @@
         "domains": "",
         "circles": "",
         "oaths": "",
-        "toHitOrDC": "DC",
-        "damage_dice": "1d10/2d6",
-        "damage_dice_upcast": "1d6",
+        "toHitOrDC": "toHit",
+        "damage_dice": "1d10",
+        "damage_dice_upcast": "",
         "damage_type_01": "Perforante/Frío",
-        "spell_save_dc_type": "dex",
+        "spell_save_dc_type": "",
         "ability_modifier": "no"
     },
     {
