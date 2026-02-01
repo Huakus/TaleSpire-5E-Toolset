@@ -2559,7 +2559,19 @@
                         {
                             "traitName": "Empujon repelente",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "Cuando impacta a una criatura con Eldricht Blast puede empujarla hasta 3 metros (10 pies) en linea recta lejos de tu posicion. No hay tirada de salvacion. ",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Vision del Diablo",
+                            "cheveron": false,
+                            "traitDescription": "S",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
