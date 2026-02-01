@@ -323,6 +323,10 @@
                         {
                             "name": "Aliento del dragón",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Abrir",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
