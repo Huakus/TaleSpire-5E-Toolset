@@ -1455,7 +1455,7 @@
             "characterLevel": "8",
             "playerXP": "36690",
             "playerClass": "Semielfa Bruja\n(Archihada - Ermitaña - [pacto])",
-            "currentCharacterHP": "59",
+            "currentCharacterHP": "53",
             "maxCharacterHP": "59",
             "strengthScore": "8",
             "dexterityScore": "16",
@@ -1632,6 +1632,10 @@
                         },
                         {
                             "name": "Toque helado",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Congelación",
                             "prepared": "false"
                         }
                     ],
