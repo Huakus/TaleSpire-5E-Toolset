@@ -303,6 +303,10 @@
                         {
                             "name": "Hoja de sombra",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Espina mental",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
