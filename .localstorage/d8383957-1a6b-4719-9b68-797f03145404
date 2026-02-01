@@ -2571,7 +2571,19 @@
                         {
                             "traitName": "Vision del Diablo",
                             "cheveron": false,
-                            "traitDescription": "S",
+                            "traitDescription": "Se puede ver en la oscuridad, tanto mágica como no mágica, hasta 36 metros (120 pies)",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
