@@ -233,6 +233,10 @@
                         {
                             "name": "Temblor de Tierra",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Cuchillo de hielo",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
