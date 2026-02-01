@@ -2581,7 +2581,7 @@
                             "resetType": "none"
                         },
                         {
-                            "traitName": "",
+                            "traitName": "Forma de las Sombras",
                             "cheveron": false,
                             "traitDescription": "",
                             "checkboxStates": [],
