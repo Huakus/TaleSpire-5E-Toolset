@@ -1554,6 +1554,25 @@
         "ability_modifier": "no"
     },
     {
+        "name": "Puerta dimensional",
+        "desc": "Te teleportas desde tu localización actual a cualquier otro lugar que desees dentro del alcance. Puede ser un lugar que puedas ver, visualizar o describir indicando la distancia y la dirección, como «200 pies todo recto hacia abajo» o «subiendo 300 pies hacia el noroeste en un ángulo de 45 grados». Puedes llevar objetos siempre y cuando su peso no exceda el que puedes transportar. También puedes llevar una criatura voluntaria de tu tamaño o más pequeña que lleve equipo hasta su capacidad de carga. La criatura debe estar a 5 pies de ti o menos cuando lances este conjuro. Si llegas a un lugar que ya está ocupado por un objeto o una criatura, la criatura que viaja contigo y tú recibís cada uno 4d6 puntos de daño por fuerza y el conjuro no consigue teleportaros.",
+        "page": "phb 233",
+        "range": "500 pies",
+        "components": "V",
+        "ritual": "",
+        "duration": "Instantáneos",
+        "concentration": "no",
+        "casting_time": "1A",
+        "level": "4th-level",
+        "school": "Conjuración",
+        "class": "Bardo, Clérigo, Paladín, Hechicero, Brujo, Mago",
+        "archetype": "Clérigo: Engaño<br/> Paladín: Venganza",
+        "domains": "Engaño",
+        "oaths": "Venganza",
+        "higher_level": "",
+        "ability_modifier": "no"
+    },
+    {
         "name": "Disfrazarse",
         "desc": "Haces que tu apariencia (así como la de tu ropa, armadura, armas y otras pertenencias que lleves) sea diferente hasta que termine el conjuro o hasta que uses tu acción para disiparlo. Puedes parecer 1 pie más alto o más bajo y delgado, gordo o normal. No puedes cambiar tu tipo de cuerpo, así que debes adoptar una forma que tenga la misma disposición básica de miembros. Si no, el alcance de la ilusión depende de ti. Los cambios que provoca este conjuro no aguantan una inspección física. Por ejemplo, si usas este conjuro para añadir un sombrero a tu atuendo, los objetos traspasan el sombrero y cualquiera que lo toque no sentirá nada o sentirá tu cabeza y tu pelo. Si usas este conjuro para parecer más delgado de lo que eres, la mano de alguien que estirara el brazo para tocarte se chocará contra ti aunque aparentemente todavía esté en el aire. Para distinguir si estás disfrazado, una criatura puede usar su acción para inspeccionar tu apariencia y hacer una prueba de Inteligencia (Investigar) enfrentada a la CD de la salvación de tu conjuro.",
         "page": "phb 233",
