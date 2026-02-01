@@ -349,6 +349,14 @@
                         {
                             "name": "Servidor minúsculo",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Paso atronador",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ola de marea",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
