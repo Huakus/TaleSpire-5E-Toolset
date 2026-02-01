@@ -225,6 +225,10 @@
                         {
                             "name": "Sirviente invisible",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Trampa de lazo",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
