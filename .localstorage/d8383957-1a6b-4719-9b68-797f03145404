@@ -241,6 +241,10 @@
                         {
                             "name": "Causar miedo",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Catapulta",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
