@@ -2727,25 +2727,106 @@
                 "spellcastingModifier": "WIS",
                 "spelllevelselected": "4",
                 "Cantrip": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Llama sagrada",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Luz",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Remendar",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Resistencia",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Orientación divina",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Perdonar la vida",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Taumaturgia",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Palabra de resplandor",
+                            "prepared": "false"
+                        },
+                        {
+                            "name": "Llamar a los muertos",
+                            "prepared": "false"
+                        }
+                    ],
                     "slots": []
                 },
                 "1st-level": {
                     "spells": [
                         {
-                            "name": "Infligir heridas",
-                            "prepared": "0"
-                        },
-                        {
                             "name": "Bendición",
                             "prepared": "0"
                         },
                         {
-                            "name": "Tamaturgia",
+                            "name": "Crear o destruir agua",
                             "prepared": "0"
                         },
                         {
-                            "name": "Curar heridas",
+                            "name": "Detectar el bien y el mal",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar magia",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar venenos y enfermedades",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Escudo de fe",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Infligir heridas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Orden imperiosa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Palabra de curación",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Perdición",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Protección contra el bien y el mal",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Purificar comida y bebida",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Saeta guiada",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Santuario",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ceremonia",
                             "prepared": "0"
                         }
                     ],
@@ -2757,7 +2838,76 @@
                     ]
                 },
                 "2nd-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Arma espiritual",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Augurio",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Aumentar característica",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ayuda",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Calmar emociones",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ceguera/sordera",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Apacible descanso",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar trampas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Inmovilizar persona",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Llama continua",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Localizar objeto",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Plegaria de curación",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Protección contra veneno",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Restablecimiento menor",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Silencio",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Vínculo protector",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Zona de verdad",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         false,
                         false,
@@ -2765,7 +2915,92 @@
                     ]
                 },
                 "3rd-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Caminar sobre el agua",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Círculo mágico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Clarividencia",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Crear comida y agua",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Disipar magia",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Don de lenguas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Espíritus guardianes",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Faro de esperanza",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Fingir muerte",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Fundirse con la piedra",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Glifo custodio",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hablar con los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Imponer maldición",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Luz del día",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Palabra de curación en masa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Protección contra energía",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Quitar maldición",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Animar a los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Recado",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Revivir",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Transferencia de vida",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         true,
                         false,
@@ -2773,7 +3008,40 @@
                     ]
                 },
                 "4th-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Adivinación",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Controlar agua",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Custodia contra la muerte",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Destierro",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Guardián de la fe",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Libertad de movimiento",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Localizar criatura",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Transformar piedra",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         true
                     ]
