@@ -1808,28 +1808,6 @@
         "ability_modifier": "no"
     },
     {
-        "name": "Aliento de dragón*",
-        "desc": "Tocas a una criatura dispuesta y le otorgas el poder de exhalar energía mágica por la boca, siempre que tenga una. Elige entre ácido, frío, fuego, relámpago o veneno. Hasta que el conjuro termine, la criatura puede usar una acción para exhalar energía del tipo elegido en un cono de 15 pies. Cada criatura en esa área debe realizar una tirada de salvación de Destreza, recibiendo 3d6 puntos de daño del tipo elegido si falla la tirada, o la mitad de daño si tiene éxito.",
-        "page": "phb 236",
-        "range": "15ft. Cono",
-        "components": "V, S, M",
-        "material": "Un pimiento picante",
-        "ritual": "",
-        "duration": "Hasta un minuto",
-        "concentration": "no",
-        "casting_time": "1BA",
-        "level": "2nd-level",
-        "school": "Evocación",
-        "class": "Hechicero, Mago",
-        "higher_level": "Cuando lanzas este hechizo usando un espacio de hechizo de nivel 3 o superior, el daño aumenta en 1d6 por cada nivel de espacio por encima del 2.",
-        "toHitOrDC": "DC",
-        "damage_dice": "3d6",
-        "damage_dice_upcast": "1d6",
-        "spell_save_dc_type": "dex",
-        "ability_modifier": "no",
-        "damage_type_01": "Eleccion"
-    },
-    {
         "name": "Dream",
         "desc": "Este conjuro da forma a los sueños de una criatura. Elige como objetivo a una criatura que conozcas y que esté en tu mismo plano de existencia. Mediante este conjuro no se puede contactar con criaturas que no duerman, como los elfos. Tú o una criatura voluntaria que tocas entráis en un estado de trance y actuáis como mensajeros. Mientras está en trance, el mensajero percibe lo que le rodea, pero no puede realizar acciones ni moverse. Si el objetivo está durmiendo, el mensajero aparece en sus sueños y puede hablar con él mientras permanezca dormido y dure el conjuro. El mensajero también puede darle forma al entorno del sueño, crear paisajes, objetos y otras imágenes. El mensajero puede salir del trance y terminar con el efecto del conjuro en cualquier momento. El objetivo recuerda el sueño perfectamente cuando se despierta. Si el objetivo está despierto cuando lanzas el conjuro, el mensajero lo sabe y puede terminar el trance (y el conjuro) o esperar a que el objetivo se duerma, momento en el que aparece en el sueño del objetivo. Puedes hacer que el mensajero parezca monstruoso y aterrador ante el objetivo. Si lo haces, el mensajero no puede entregar un mensaje de más de diez palabras y luego el objetivo debe hacer una tirada de salvación de Sabiduría. Si falla, los ecos de la monstruosidad fantasmal crean una pesadilla que dura mientras lo haga el sueño del objetivo y evita que este obtenga beneficios por descansar. Además, cuando el objetivo se despierta, recibe 3d6 puntos de daño psicótico. Si tienes una parte del cuerpo del objetivo —un mechón de pelo, una uña o algo similar—, este tiene desventaja en la tirada de salvación.",
         "page": "phb 236",
