@@ -291,6 +291,10 @@
                         {
                             "name": "Viento protector",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Tormenta de bolas de nieve de Snilloc",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
