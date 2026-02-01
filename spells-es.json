@@ -16128,7 +16128,7 @@
         "oaths": "",
         "toHitOrDC": "DC",
         "damage_dice": "2d6",
-        "damage_dice_upcast": "2",
+        "damage_dice_upcast": "",
         "damage_type_01": "Fuego",
         "spell_save_dc_type": "dex",
         "ability_modifier": "no"
