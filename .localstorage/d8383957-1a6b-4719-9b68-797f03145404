@@ -2290,15 +2290,15 @@
                         "name": "Mochila",
                         "uniqueId": "item-1758680577843-049a99e3",
                         "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
+                        "weight": 5,
+                        "cost": "2 gp"
                     },
                     {
                         "name": "Palanca",
                         "uniqueId": "item-1758680577844-92bc8267",
                         "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
+                        "weight": 5,
+                        "cost": "2 gp"
                     },
                     {
                         "name": "Martillo",
