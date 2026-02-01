@@ -14713,7 +14713,7 @@
         "damage_type_01": "Trueno"
     },
     {
-        "name": "Viento protector*",
+        "name": "Viento protector",
         "desc": "Un viento fuerte (20 millas por hora) sopla a tu alrededor en un radio de 10 pies y se mueve contigo, centrado en ti. El viento dura mientras el hechizo continúa y tiene los siguientes efectos:<br>• Te ensordece a ti y a las criaturas dentro del área.<br>• Extingue las llamas desprotegidas en el área del tamaño de una antorcha o menores.<br>• Disipa vapores, gases y niebla que puedan dispersarse con viento fuerte.<br>• El área es terreno difícil para las criaturas que no seas tú.<br>• Las tiradas de ataque de armas a distancia tienen desventaja si atraviesan el viento hacia dentro o fuera de él.",
         "higher_level": "",
         "page": "phb 287",
