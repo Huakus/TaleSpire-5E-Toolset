@@ -307,6 +307,10 @@
                         {
                             "name": "Espina mental",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Escritura celeste",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
