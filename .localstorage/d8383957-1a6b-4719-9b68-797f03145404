@@ -245,6 +245,10 @@
                         {
                             "name": "Catapulta",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Absorber Elementos",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
