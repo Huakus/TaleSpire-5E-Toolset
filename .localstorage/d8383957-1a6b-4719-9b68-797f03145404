@@ -2583,6 +2583,18 @@
                         {
                             "traitName": "Forma de las Sombras",
                             "cheveron": false,
+                            "traitDescription": "Requisito: ninguno. Se puede lanzar \"Invisibilidad\" a voluntad, sin gastar espacios de conjuro, siempre que estes en penumbra u oscuridad. Requiere condiciones de luz adecuadas",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Mil caras",
+                            "cheveron": false,
                             "traitDescription": "",
                             "checkboxStates": [],
                             "numberOfUses": "0",
