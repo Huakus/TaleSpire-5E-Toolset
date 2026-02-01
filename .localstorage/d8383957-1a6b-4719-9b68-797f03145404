@@ -249,6 +249,10 @@
                         {
                             "name": "Absorber elementos",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Cuchillo de hielo",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -351,12 +355,16 @@
                         {
                             "name": "Abrasador de Aganazzar",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Hoja de sombra",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
-                        true,
+                        false,
+                        false,
+                        false,
                         false
                     ]
                 },
@@ -448,9 +456,9 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
-                        true
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "4th-level": {
@@ -489,7 +497,8 @@
                         }
                     ],
                     "slots": [
-                        true
+                        false,
+                        false
                     ]
                 },
                 "5th-level": {
