@@ -287,6 +287,10 @@
                         {
                             "name": "Aura mágica del arcano",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Viento protector*",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
