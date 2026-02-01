@@ -1645,6 +1645,10 @@
                         {
                             "name": "Infestación",
                             "prepared": "false"
+                        },
+                        {
+                            "name": "Piedra mágica",
+                            "prepared": "false"
                         }
                     ],
                     "slots": []
