@@ -4126,6 +4126,7 @@ function loadSpell(spell,row) {
             toHitOrDC.appendChild(toHitOrDCContent);
             updateSpelltoHitDice(spellmodifier);
             updateSpellSaveDC(spellmodifier)
+            console.log("Spell: ", spellDetails)
             updateSpellsDC(spellmodifier, spellDetails.spell_save_dc_type, row)
             updateContent()
         }
