@@ -1,26 +1,5 @@
 [
     {
-        "name": "Absorber Elementos",
-        "desc": "El hechizo captura parte de la energía entrante, lo que reduce su efecto sobre ti y la almacena para tu próximo ataque cuerpo a cuerpo. Tienes resistencia al tipo de daño desencadenante hasta el comienzo de tu siguiente turno. Además, la primera vez que impactas con un ataque cuerpo a cuerpo en tu próximo turno, el objetivo recibe 1d6 puntos de daño adicionales del tipo desencadenante y el hechizo termina..",
-        "higher_level": "Cuando lanzas este hechizo usando un espacio de hechizo de nivel 2 o superior, el daño adicional aumenta en 1d6 por cada nivel de espacio por encima de 1.",
-        "page": "phb 211",
-        "range": "Propio",
-        "components": "S",
-        "ritual": "",
-        "duration": "Instantáneo",
-        "concentration": "no",
-        "casting_time": "1R",
-        "level": "1st-level",
-        "school": "Abjuración",
-        "class": "Druida, Explorador, Artífice, Hechicero, Mago",
-        "toHitOrDC": "",
-        "damage_dice": "1d6",
-        "damage_dice_upcast": "1d6",
-        "spell_save_dc_type": "",
-        "ability_modifier": "no",
-        "damage_type_01": "Elección"
-    },
-    {
         "name": "Flecha ácida",
         "desc": "Una flecha verde reluciente se dirige a un objetivo que esté dentro del alcance y lo rocía con ácido. Haz un ataque de conjuro a distancia contra el objetivo. Si impactas, el objetivo recibe 4d4 puntos de daño por ácido inmediatamente y 2d4 al final de su siguiente turno. Si fallas, la flecha salpica de ácido al objetivo y le hace la mitad de daño inicial y nada de daño al final de su siguiente turno.",
         "higher_level": "Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, el daño (tanto el inicial como el posterior) incrementa en 1d4 por cada nivel por encima de 2.",
