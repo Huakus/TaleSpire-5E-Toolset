@@ -35,7 +35,7 @@
                 "Herramientas de Ladrón"
             ],
             "initiativeButton": "+2",
-            "AC": "16",
+            "AC": "15",
             "speed": "30ft.",
             "characterLevel": "8",
             "playerXP": "34000",
@@ -66,6 +66,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
+            "": 1,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -100,38 +101,44 @@
                 "pp": 450
             },
             "alignment": "TN",
-            "actionTable": [],
+            "actionTable": [
+                {
+                    "1": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Bastón de Acelerar",
+                        "itemId": "item-1756663384324-9b6c8ddb",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+2",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Versátil, Monk",
+                        "elventhColumn": "Un bastón largo de madera que permite conjurar Acelerar una vez por descanso largo y que se utiliza a menudo como arma cuerpo a cuerpo versátil. Se puede manejar con una o dos manos para golpear o bloquear.",
+                        "twelvethColumn": "Contundente",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                }
+            ],
             "spellData": {
-                "spellcastingModifier": "CHA",
+                "spellcastingModifier": "INT",
                 "spelllevelselected": "4",
                 "Cantrip": {
                     "spells": [
                         {
-                            "name": "Amigos",
+                            "name": "Rayo de fuego",
                             "prepared": "false"
                         },
                         {
-                            "name": "Cuchilla protectora",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Estallido Arcano",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Ilusión menor",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Impacto verdadero",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Mano de mago",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Prestidigitación",
+                            "name": "Rayo de escarcha",
                             "prepared": "false"
                         },
                         {
@@ -139,31 +146,351 @@
                             "prepared": "false"
                         },
                         {
-                            "name": "Toque helado",
+                            "name": "Mano de mago",
                             "prepared": "false"
                         },
                         {
-                            "name": "Congelación",
+                            "name": "Impacto verdadero",
                             "prepared": "false"
                         }
                     ],
                     "slots": []
                 },
                 "1st-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Proyectil mágico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rociada de color",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Orbe cromatico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Manos ardientes",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo de enfermedad",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Dormir",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Grasa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hechizar persona",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Imagen silenciosa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Armadura de mago",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Retirada expeditiva",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Escudo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Falsa vida",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Caída de pluma",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Entender idiomas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Encontrar familiar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Sirviente invisible",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Trampa de lazo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Temblor de Tierra",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Cuchillo de hielo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Causar miedo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Catapulta",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Absorber elementos",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        false,
+                        false,
+                        false,
+                        false
+                    ]
                 },
                 "2nd-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Rayo abrasador",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera de llamas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Detectar pensamientos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ceguera/sordera",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Alterar el propio aspecto",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Paso brumoso",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Levitar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invisibilidad",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Flecha ácida",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Rayo debilitador",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Telaraña",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Apacible descanso",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Aura mágica del arcano",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Viento protector",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Tormenta de bolas de nieve de Snilloc",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Pirotécnica",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hoja de sombra",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Espina mental",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Escritura celeste",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Diablo de polvo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Atar a la tierra",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Aliento del dragón",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Abrasador de Aganazzar",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        true,
+                        true,
+                        true,
+                        false
+                    ]
                 },
                 "3rd-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Bola de fuego",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Relámpago",
+                            "prepared": "1"
+                        },
+                        {
+                            "name": "Toque vampírico",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Animar a los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hablar con los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Volar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Clarividencia",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Transferencia de vida",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Imponer maldición",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Acelerar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Tierra en erupción",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Siestecita",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Servidor minúsculo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Paso atronador",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Ola de marea",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Meteoros diminutos de Melf",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Muro de agua",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Muro de arena",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invocar demonios menores",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Flechas flamígeras",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Enemigos abundantes",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        true,
+                        true,
+                        true
+                    ]
                 },
                 "4th-level": {
-                    "spells": [],
-                    "slots": []
+                    "spells": [
+                        {
+                            "name": "Marchitar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Resplandor enfermizo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Perdición elemental",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invocar demonio mayor",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hechizar Monstruo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera vitriólica",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera de tormenta",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera acuosa",
+                            "prepared": "0"
+                        }
+                    ],
+                    "slots": [
+                        true
+                    ]
                 },
                 "5th-level": {
                     "spells": [],
@@ -188,54 +515,6 @@
             },
             "inventoryData": {
                 "equipment": [
-                    {
-                        "name": "Armadura de Cuero",
-                        "uniqueId": "item-1758676564790-f2f0a39a",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "10 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758681798905-3cdf7d65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Daga +3",
-                        "uniqueId": "item-1761528715784-712e3eb2",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Armadura de Cuero",
-                        "uniqueId": "item-1758676564790-f2f0a39a",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "10 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758681798905-3cdf7d65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Daga +3",
-                        "uniqueId": "item-1761528715784-712e3eb2",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": true
-                    },
                     {
                         "name": "Capa con runas",
                         "uniqueId": "item-1756659266075-4b0928c6",
@@ -282,271 +561,440 @@
                         "weight": 1,
                         "cost": "15000 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Espada Gigante de Lengua de Fuego",
+                        "uniqueId": "item-1758770389910-6047eb2c",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Amuleto de mago",
+                        "uniqueId": "item-1758938994762-d86087e1",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "0 cp",
+                        "equipped": true
                     }
                 ],
                 "backpack": [
                     {
-                        "name": "Mochila",
-                        "uniqueId": "item-1758680577843-049a99e3",
+                        "name": "Ropa, fina",
+                        "uniqueId": "item-1758769639656-52807316",
                         "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 gp"
+                        "weight": 6,
+                        "cost": "15 gp"
                     },
                     {
-                        "name": "Palanca",
-                        "uniqueId": "item-1758680577844-92bc8267",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 gp"
+                        "name": "Cristal Luciente",
+                        "uniqueId": "item-1758769730184-a4c5cef2",
+                        "quantity": 15,
+                        "weight": 15,
+                        "cost": "0 cp",
+                        "equipped": false
                     },
                     {
-                        "name": "Martillo",
-                        "uniqueId": "item-1758680577845-814eec2e",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "1 gp"
-                    },
-                    {
-                        "name": "Pitón",
-                        "uniqueId": "item-1758680577846-a696eb6a",
-                        "quantity": 10,
-                        "weight": 2.5,
-                        "cost": "5 cp"
-                    },
-                    {
-                        "name": "Antorcha",
-                        "uniqueId": "item-1758680577847-d4e859e6",
-                        "quantity": 10,
-                        "weight": 10,
-                        "cost": "1 cp"
-                    },
-                    {
-                        "name": "Yesquero",
-                        "uniqueId": "item-1758680577848-3b152092",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Raciones (1 día)",
-                        "uniqueId": "item-1758680577849-03f96dd8",
-                        "quantity": 10,
-                        "weight": 20,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Odre de agua",
-                        "uniqueId": "item-1758680577850-de3cfbcd",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 sp"
-                    },
-                    {
-                        "name": "Cuerda de cáñamo (50 pies)",
-                        "uniqueId": "item-1758680577851-cc819e22",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "1 gp"
+                        "name": "Cristal de Reserva",
+                        "uniqueId": "item-1758769730184-a4c5cef2",
+                        "quantity": 7,
+                        "weight": 7,
+                        "cost": "0 cp",
+                        "equipped": false
                     },
                     {
                         "name": "Kit de herbolario",
-                        "uniqueId": "item-1758682778985-854d98ca",
+                        "uniqueId": "item-1759097682216-5919a987",
                         "quantity": 1,
                         "weight": 3,
                         "cost": "5 gp"
                     },
                     {
-                        "name": "Pergamino de Erudito",
-                        "uniqueId": "item-1758683136234-c59978cd",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "1 sp"
-                    },
-                    {
-                        "name": "Frazada",
-                        "uniqueId": "item-1758683164246-86198ecb",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Ropa, común",
-                        "uniqueId": "item-1758683177619-9d9829bc",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Daga",
-                        "uniqueId": "item-1759104875248-7b14367d",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": true
-                    },
-                    {
                         "name": "Mochila",
-                        "uniqueId": "item-1758680577843-049a99e3",
+                        "uniqueId": "item-1759097690308-9e24d1c4",
                         "quantity": 1,
                         "weight": 5,
                         "cost": "2 gp"
                     },
                     {
-                        "name": "Palanca",
-                        "uniqueId": "item-1758680577844-92bc8267",
+                        "name": "Libro",
+                        "uniqueId": "item-1759097690309-5a31ef3a",
                         "quantity": 1,
                         "weight": 5,
-                        "cost": "2 gp"
+                        "cost": "25 gp"
                     },
                     {
-                        "name": "Martillo",
-                        "uniqueId": "item-1758680577845-814eec2e",
+                        "name": "Tinta (botella de 1 onza)",
+                        "uniqueId": "item-1759097690310-e86bf658",
                         "quantity": 1,
-                        "weight": 3,
-                        "cost": "1 gp"
+                        "weight": 0,
+                        "cost": "10 gp"
                     },
                     {
-                        "name": "Pitón",
-                        "uniqueId": "item-1758680577846-a696eb6a",
+                        "name": "Bolígrafo de tinta",
+                        "uniqueId": "item-1759097690311-6bdffdb3",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Pergamino (una hoja)",
+                        "uniqueId": "item-1759097690312-97bde828",
                         "quantity": 10,
-                        "weight": 2.5,
-                        "cost": "5 cp"
-                    },
-                    {
-                        "name": "Antorcha",
-                        "uniqueId": "item-1758680577847-d4e859e6",
-                        "quantity": 10,
-                        "weight": 10,
-                        "cost": "1 cp"
-                    },
-                    {
-                        "name": "Yesquero",
-                        "uniqueId": "item-1758680577848-3b152092",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Raciones (1 día)",
-                        "uniqueId": "item-1758680577849-03f96dd8",
-                        "quantity": 10,
-                        "weight": 20,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Odre de agua",
-                        "uniqueId": "item-1758680577850-de3cfbcd",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 sp"
-                    },
-                    {
-                        "name": "Cuerda de cáñamo (50 pies)",
-                        "uniqueId": "item-1758680577851-cc819e22",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "1 gp"
-                    },
-                    {
-                        "name": "Kit de herbolario",
-                        "uniqueId": "item-1758682778985-854d98ca",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 gp"
-                    },
-                    {
-                        "name": "Pergamino de Erudito",
-                        "uniqueId": "item-1758683136234-c59978cd",
-                        "quantity": 1,
                         "weight": 0,
                         "cost": "1 sp"
                     },
                     {
-                        "name": "Frazada",
-                        "uniqueId": "item-1758683164246-86198ecb",
+                        "name": "Pequeña bolsa de arena",
+                        "uniqueId": "item-1759097690314-a3a32abf",
                         "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 sp"
+                        "weight": 0,
+                        "cost": "0 cp"
                     },
                     {
-                        "name": "Ropa, común",
-                        "uniqueId": "item-1758683177619-9d9829bc",
+                        "name": "Cuchillo pequeño",
+                        "uniqueId": "item-1759097690315-5cfd32d1",
                         "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Daga",
-                        "uniqueId": "item-1759104875248-7b14367d",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": true
+                        "weight": 0,
+                        "cost": "0 cp"
                     }
                 ],
-                "other-possessions": [
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710410922-8840fb99",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710431084-a90c8e78",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710460939-26be1e0f",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710539589-89abc40c",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710410922-8840fb99",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710431084-a90c8e78",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710460939-26be1e0f",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710539589-89abc40c",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    }
-                ],
+                "other-possessions": [],
                 "attunement": []
             },
-            "groupTraitData": [],
-            "groupNotesData": [],
-            "extrasData": []
+            "groupTraitData": [
+                {
+                    "group-title": "Elfo",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Ascendencia Feerica",
+                            "cheveron": true,
+                            "traitDescription": "- Tienes ventaja en las tiradas de salvación contra Encantamiento\n- No puedes ser dormido mediante la magia.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "combatStats",
+                            "adjustmentSubCategory": "AC",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Visión en la oscuridad",
+                            "cheveron": true,
+                            "traitDescription": "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Trance",
+                            "cheveron": true,
+                            "traitDescription": "- El descanso largo dura 4 horas.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Ermitaño",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Revelación",
+                            "cheveron": true,
+                            "traitDescription": "Cuando estaba en el campamento de los mercenarios se le reveló que el libro estaba escrito en el lenguaje de las hadas.\nDelerion puede leer texto escrito en lenguaje de las hadas, pero lo olvida inmediatamente.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Mago",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Recuperación arcana",
+                            "cheveron": true,
+                            "traitDescription": "Has aprendido a recuperar parte de tus energías mágicas gracias al estudio de tu libro de conjuros.\nUna vez por día, cuando finalizas un descanso corto, puedes elegir qué espacios de conjuros quieres recuperar.\nLos espacios de conjuros pueden tener un nivel combinado igual a la mitad de tu nivel de mago (redondeando hacia arriba), aunque ninguno de los espacios de conjuros puede ser de nivel 6 o superior.\nPor ejemplo, si eres un mago de nivel 4, puedes recuperar hasta dos niveles en espacios de conjuros.\nPuedes recuperar tanto dos espacios de conjuros de nivel 1 o un espacio de conjuros de nivel 2.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "CHA",
+                            "adjustmentValue": "0",
+                            "resetType": "long rest"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Nigromante",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Erudito de la Nigromancia",
+                            "cheveron": true,
+                            "traitDescription": "El oro y el tiempo que debes invertir para copiar un conjuro de nigromancia en tu libro de conjuros se divide a la mitad.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Cosecha sombría",
+                            "cheveron": true,
+                            "traitDescription": "En el nivel 2 ganas la habilidad de recoger la energía vital de las criaturas que matas con tus conjuros. Una vez por turno, cuando matas a una o más criaturas con un conjuro de nivel 1 o superior, recuperas un número de Puntos de Golpe equivalentes al doble de nivel del conjuro, o el triple de su nivel si pertenece a la Escuela de Nigromancia. No ganas este beneficio al destruir constructos o muertos vivientes.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Esclavos muertos vivientes",
+                            "cheveron": true,
+                            "traitDescription": "En el nivel 6, añades el conjuro animar muerto a tu libro de conjuros si aún no lo tenías.\nCuando lanzas animar muerto, puedes designar un cuerpo o una pila de huesos adicional, creando otro zombi o esqueleto, según corresponda.\nSiempre que crees un no-muerto usando un conjuro de nigromancia, tiene estos beneficios adicionales:\n• Los Puntos de Golpe de la criatura se incrementan en un número igual a tu nivel de mago.\n• La criatura agrega tu bonificador de competencia a sus tiradas de daño con armas. ",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "Objetivos",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Alianza con mercenarios del Sur",
+                            "noteContent": "Conseguir que los mercenarios del Reino del Sur se unan al Norte para defender Valverde del Río. Para ello, ubicar a Petro (actualmente preso) y obtener de él la localización y protocolo de contacto con las compañías. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Custodia del Libro Guardián",
+                            "noteContent": "Mantener el Libro Guardián lejos de Eldan Brightshield y su séquito; continuar descifrando/asegurando su conjuro protector. [Cap.4]"
+                        },
+                        {
+                            "noteTitle": "Exponer al traidor en la cadena real",
+                            "noteContent": "Reunir pruebas contra Lord Aitor Menta (señalado por Borgar como topo) sin quemar la investigación antes de tiempo. [Cap.4]"
+                        },
+                        {
+                            "noteTitle": "Acceso a la Ciudad Alta",
+                            "noteContent": "Coordinar con Zafir (tiefling; Ernesto lo llama «Zephyr») la falsificación del pase para ingresar a la ciudad alta y continuar la misión. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Cueva del troll",
+                            "noteContent": "- Capa de musgo\n- Anillo de gema blanca y brillante\n- Libro llamativo en buen estado\n- Tiara de metal dorado (no es oro)\n- Báculo de femur de gigante tallado con runas aelorianas\n- Fajo de hojas pequeño"
+                        },
+                        {
+                            "noteTitle": "Libro de conjuros",
+                            "noteContent": "- Blight\n- Negative Energy Flood\n- Danse Macabre"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Tareas pendientes",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Liberar a Petro",
+                            "noteContent": "Gestionar su salida de prisión (condicionada) a cambio de su ayuda para contactar mercenarios. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Eladio y Gregorio — rescate",
+                            "noteContent": "Rastrear a Eladio y su cómplice Gregorio; rescatar al sobrino del dueño de la forja (fueron vistos huyendo tras el asesinato en la taberna). [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Pase falsificado",
+                            "noteContent": "Concretar con Zafir y su ‘ayudante grandote’ la falsificación del documento de pase para la ciudad alta. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Forja y pertrechos",
+                            "noteContent": "Retirar/terminar las mejoras de armas y armaduras entregadas en el taller. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Explorar el distrito",
+                            "noteContent": "Completar el reconocimiento: Plaza Seca, casa del gremio al oeste (comedor/planta alta del gremio), posibles pasadizos de contrabandistas. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Hermandad de la Forja",
+                            "noteContent": "Investigar la relación Petro–Eladio–Gregorio–Zafir con la Hermandad; determinar objetivos reales y lealtades. [Distrito de Artesanos]"
+                        },
+                        {
+                            "noteTitle": "Pruebas contra Aitor Menta",
+                            "noteContent": "Reunir evidencias (cartas, testigos, movimientos de pertrechos) que vinculen a Aitor con la red de Salazar y/o el Sur. [Cap.4]"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Conspiraciones y política local",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Carta del capitán Aitor Menta",
+                            "noteContent": "Confirma ambición/pugna interna; posible conexión con la logística de Salazar. Rumor: intención de volver a Puente Alto y maniobrar políticamente. Verificar."
+                        },
+                        {
+                            "noteTitle": "Eliza Belmonte — rumores",
+                            "noteContent": "Existen cartas/rumores sobre su casamiento y vínculos políticos; tratar como ‘no verificado’. (Eliza = sobrina de don Alarico; mantener el Libro lejos del Duque)."
+                        },
+                        {
+                            "noteTitle": "Charla con Borgar Tempestus",
+                            "noteContent": "Borgar apuesta a cambiar de bando; aporta la pista de Aitor Menta como infiltrado. Útil pero poco fiable: manejar bajo custodia y obtener pruebas objetivas."
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Magia y reliquias",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Libro Guardián",
+                            "noteContent": "Artefacto aelorio con conjuro protector incompleto; palabras de poder conocidas: Sylor (activa sala del tesoro), Aelun, Carmis, Vesmark. Mantenerlo lejos del Duque."
+                        },
+                        {
+                            "noteTitle": "Cristales lucientes / Corazón Carmesí",
+                            "noteContent": "Tecnología arcana peligrosa (resonancia + sangre). Prioridad: evitar usos corruptores y vigilar hallazgos de gemas ‘azules’ en el distrito."
+                        },
+                        {
+                            "noteTitle": "Notas del orfebre",
+                            "noteContent": "Indicios de cómo armar/servirse de constructos (p.ej., 1 Corazón de constructo + 25 Cristales de reserva + 25 Cristales lucientes). Usar con extrema cautela; riesgo de corrupción."
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Reino del Sur — frente urbano",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Panorama del distrito",
+                            "noteContent": "Posada de los Herreros (Arnaldo), taller (Hugo), Plaza Seca (mercenarios sin gremio), Cuenco de Carbón (taberna incendiada durante el operativo)."
+                        },
+                        {
+                            "noteTitle": "Evento en la taberna",
+                            "noteContent": "Petro asesinó al dueño de la forja; Eladio y Gregorio secuestraron al sobrino y escaparon. Petro quedó preso; ofrece cooperación a cambio de libertad."
+                        },
+                        {
+                            "noteTitle": "Zafir (tiefling)",
+                            "noteContent": "Intermediario capaz de falsificar pase a la ciudad alta. Mantener relación funcional (Ernesto lo registra como «Zephyr»)."
+                        },
+                        {
+                            "noteTitle": "El tomy",
+                            "noteContent": "- Era un aventurero famoso y mató a un noble en el reino del este.\n- Tiene mucho dinero escondido en el reino del este por que no se lo pudo traer."
+                        }
+                    ]
+                }
+            ],
+            "extrasData": [
+                {
+                    "name": "Caballito de Mar (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Comadreja (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Cuervo (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Gato (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Murciélago (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Halcón (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Pulpo (A)",
+                    "currentHp": "3",
+                    "maxHp": "3",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Rana (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Rata (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Serpiente Venenosa (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Zombi (A)",
+                    "currentHp": "22",
+                    "maxHp": "22",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Esqueleto (A)",
+                    "currentHp": "13",
+                    "maxHp": "13",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Gólem De Hierro (A)",
+                    "currentHp": "210",
+                    "maxHp": "210",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Araña (A)",
+                    "currentHp": "1",
+                    "maxHp": "1",
+                    "tempHp": "0"
+                }
+            ]
         },
         "Skitrixx \"Stix Ernesto\" Koboldtanz": {
             "characterTempHp": "0",
@@ -1033,6 +1481,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
+            "": 0,
             "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
@@ -1067,7 +1516,83 @@
                 "pp": 0
             },
             "alignment": "TN",
-            "actionTable": [],
+            "actionTable": [
+                {
+                    "1": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Ballesta ligera",
+                        "itemId": "item-1758681798905-3cdf7d65",
+                        "thirdColumn": "80ft/320ft",
+                        "fourthColumn": "+2",
+                        "fifthColumn": "1d8",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Munición, De carga, Dos manos",
+                        "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Daga +3",
+                        "itemId": "item-1761528715784-712e3eb2",
+                        "thirdColumn": "5ft - 20/60ft",
+                        "fourthColumn": "+9",
+                        "fifthColumn": "1d4+1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "DES",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "3",
+                        "damageBonus": "3",
+                        "tenthColumn": "Sutil, Ligero, Arrojadiza, Monje",
+                        "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "3": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Daga",
+                        "itemId": "item-1759104875248-7b14367d",
+                        "thirdColumn": "5ft - 20/60ft",
+                        "fourthColumn": "-1",
+                        "fifthColumn": "1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Sutil, Ligera, Arrojadiza, Monk",
+                        "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                }
+            ],
             "spellData": {
                 "spellcastingModifier": "CHA",
                 "spelllevelselected": "4",
@@ -1108,59 +1633,11 @@
                         {
                             "name": "Toque helado",
                             "prepared": "false"
-<<<<<<< HEAD
-=======
-                        },
-                        {
-                            "name": "Congelación",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Amigos",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Cuchilla protectora",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Estallido Arcano",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Ilusión menor",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Impacto verdadero",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Mano de mago",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Prestidigitación",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Rociada venenosa",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Toque helado",
-                            "prepared": "false"
-                        },
-                        {
-                            "name": "Congelación",
-                            "prepared": "false"
->>>>>>> 4fca86d (auto: 2026-02-01T15:37:54.0991711-03:00)
                         }
                     ],
                     "slots": []
                 },
                 "1st-level": {
-<<<<<<< HEAD
                     "spells": [
                         {
                             "name": "Armadura de Agathys",
@@ -1276,17 +1753,6 @@
                             "prepared": "1"
                         }
                     ],
-=======
-                    "spells": [],
-                    "slots": []
-                },
-                "2nd-level": {
-                    "spells": [],
-                    "slots": []
-                },
-                "3rd-level": {
-                    "spells": [],
->>>>>>> 4fca86d (auto: 2026-02-01T15:37:54.0991711-03:00)
                     "slots": []
                 },
                 "4th-level": {
@@ -1322,30 +1788,6 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "10 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758681798905-3cdf7d65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Daga +3",
-                        "uniqueId": "item-1761528715784-712e3eb2",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Armadura de Cuero",
-                        "uniqueId": "item-1758676564790-f2f0a39a",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "10 gp",
                         "equipped": true
                     },
                     {
@@ -1366,105 +1808,6 @@
                     }
                 ],
                 "backpack": [
-                    {
-                        "name": "Mochila",
-                        "uniqueId": "item-1758680577843-049a99e3",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 gp"
-                    },
-                    {
-                        "name": "Palanca",
-                        "uniqueId": "item-1758680577844-92bc8267",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 gp"
-                    },
-                    {
-                        "name": "Martillo",
-                        "uniqueId": "item-1758680577845-814eec2e",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "1 gp"
-                    },
-                    {
-                        "name": "Pitón",
-                        "uniqueId": "item-1758680577846-a696eb6a",
-                        "quantity": 10,
-                        "weight": 2.5,
-                        "cost": "5 cp"
-                    },
-                    {
-                        "name": "Antorcha",
-                        "uniqueId": "item-1758680577847-d4e859e6",
-                        "quantity": 10,
-                        "weight": 10,
-                        "cost": "1 cp"
-                    },
-                    {
-                        "name": "Yesquero",
-                        "uniqueId": "item-1758680577848-3b152092",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Raciones (1 día)",
-                        "uniqueId": "item-1758680577849-03f96dd8",
-                        "quantity": 10,
-                        "weight": 20,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Odre de agua",
-                        "uniqueId": "item-1758680577850-de3cfbcd",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "2 sp"
-                    },
-                    {
-                        "name": "Cuerda de cáñamo (50 pies)",
-                        "uniqueId": "item-1758680577851-cc819e22",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "1 gp"
-                    },
-                    {
-                        "name": "Kit de herbolario",
-                        "uniqueId": "item-1758682778985-854d98ca",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 gp"
-                    },
-                    {
-                        "name": "Pergamino de Erudito",
-                        "uniqueId": "item-1758683136234-c59978cd",
-                        "quantity": 1,
-                        "weight": 0,
-                        "cost": "1 sp"
-                    },
-                    {
-                        "name": "Frazada",
-                        "uniqueId": "item-1758683164246-86198ecb",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Ropa, común",
-                        "uniqueId": "item-1758683177619-9d9829bc",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "5 sp"
-                    },
-                    {
-                        "name": "Daga",
-                        "uniqueId": "item-1759104875248-7b14367d",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
-                        "equipped": true
-                    },
                     {
                         "name": "Mochila",
                         "uniqueId": "item-1758680577843-049a99e3",
@@ -1593,41 +1936,228 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710410922-8840fb99",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710431084-a90c8e78",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710460939-26be1e0f",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
-                    },
-                    {
-                        "name": "Frasco o jarra",
-                        "uniqueId": "item-1759710539589-89abc40c",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 cp"
                     }
                 ],
                 "attunement": []
             },
-            "groupTraitData": [],
-            "groupNotesData": [],
-            "extrasData": []
+            "groupTraitData": [
+                {
+                    "group-title": "Patrón: Archihada",
+                    "group-chevron": true,
+                    "traits": [
+                        {
+                            "traitName": "Escape brumoso",
+                            "cheveron": true,
+                            "traitDescription": "",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "",
+                            "cheveron": true,
+                            "traitDescription": "Los siguientes conjuros se añaden a la tu lista de conjuros que puedes aprender.\n\n1- Fuego feérico / Dormir\n2- Calmar emociones / Fuerza fantasmal\n3- Intermitencia / Crecimiento vegetal\n4- Dominar bestia / Invisibilidad mayor\n5- Dominar persona / Similitud",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Presencia Feérica",
+                            "cheveron": true,
+                            "traitDescription": "Comenzando en el nivel 1 tu patrón te otorga la habilidad de proyectar la presencia seductora y aterrorizante de los feéricos.\nComo una acción, puedes forzar a cada criatura en un cubo de 10 pies (3 metros) centrado en ti, a que realice una tirada de salvación de Sabiduría contra la CD de tus conjuros de brujo.\nLas criaturas que fallen su tirada de salvación quedan hechizadas o asustadas por ti (a tu elección) hasta el final de tu siguiente turno.\nUna vez que usas este rasgo, no puedes usarlo nuevamente hasta que finalices un descanso corto o prolongado. ",
+                            "checkboxStates": [
+                                true
+                            ],
+                            "numberOfUses": "1",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "short rest"
+                        },
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Semielfa",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Visión en la oscuridad",
+                            "cheveron": true,
+                            "traitDescription": "Gracias a tu sangre élfica, tienes una visión superior en la oscuridad y la luz tenue.\nPuedes ver en luz tenue hasta los 60 (18 m) pies como si fuera a plena luz, y en la oscuridad como si fuera en luz tenue.\nNo puedes distinguir colores en la oscuridad, sólo tonos de gris.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Ascendencia Feérica",
+                            "cheveron": true,
+                            "traitDescription": "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Ermitaña",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Descubrimiento",
+                            "cheveron": true,
+                            "traitDescription": "La reclusión pacífica de tu extendido aislamiento te dio acceso a un único y poderoso descubrimiento.\nLa exacta naturaleza de esta revelación depende de la naturaleza de tu reclusión.\nPodría ser una gran verdad acerca del cosmos, las deidades, los seres poderosos de otros planos o las fuerzas de la naturaleza.\nPodría ser un sitio que nadie más vio nunca.\nPodrías haber descubierto un hecho que fue olvidado hace mucho, o desenterrado alguna reliquia del pasado que podría reescribir la historia.\nPodría ser información potencialmente dañina para la gente que te consignó al exilio, y he ahí la razón por la cual regresas a la sociedad.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Invocaciones",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Agonizing blast",
+                            "cheveron": false,
+                            "traitDescription": "Requisitos: truco Estallido Arcano\nSuma modificador de CARISMA al daño de cada rayo de Estallido Arcano",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Estallido Repulsor",
+                            "cheveron": false,
+                            "traitDescription": "Requisito: truco Estallido Arcano\nEmpuja 10 pies (3m) al objetivo con cada impacto",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Influencia Seductora",
+                            "cheveron": false,
+                            "traitDescription": "Competencia en Engañar y Persuación ",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Vision de Diablo",
+                            "cheveron": false,
+                            "traitDescription": "Permite ver en la oscuridad magica hasta 120 pies",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "Inventario auxiliar",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Notas",
+                            "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob\n2 frascos sin identificar"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Invocaciones",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Agonizing",
+                            "noteContent": ""
+                        }
+                    ]
+                },
+                {
+                    "group-title": "hugo en el mercado, voy de parte de arnaldo",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Hugo vende buen acero",
+                            "noteContent": ""
+                        }
+                    ]
+                }
+            ],
+            "extrasData": [
+                {
+                    "name": "Diablillo (A)",
+                    "currentHp": "10",
+                    "maxHp": "10",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Pseudodragón (A)",
+                    "currentHp": "7",
+                    "maxHp": "7",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Quasit (A)",
+                    "currentHp": "7",
+                    "maxHp": "7",
+                    "tempHp": "0"
+                },
+                {
+                    "name": "Duende (A)",
+                    "currentHp": "2",
+                    "maxHp": "2",
+                    "tempHp": "0"
+                }
+            ]
         },
         "Adler": {
             "characterTempHp": "",
