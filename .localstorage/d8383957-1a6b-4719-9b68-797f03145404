@@ -1730,6 +1730,10 @@
                         {
                             "name": "Espina mental",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Hoja de sombra",
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
