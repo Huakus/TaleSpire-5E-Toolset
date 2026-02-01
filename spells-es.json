@@ -16499,5 +16499,31 @@
         "damage_type_01": "Frio",
         "spell_save_dc_type": "dex",
         "ability_modifier": "no"
+    },
+    {
+        "name": "Trampa de lazo",
+        "desc": "Cuando lanzas este conjuro, usas la cuerda para crear un círculo con un radio de 5 pies en la tierra o en el suelo. Cuando terminas de lanzar, la cuerda desaparece y el círculo se convierte en una trampa mágica. Esta trampa es casi invisible y requiere una prueba de Inteligencia (Investigación) exitosa contra tu CD de salvación de conjuros para poder discernirla. La trampa se dispara cuando una criatura Pequeña, Mediana o Grande se desplaza a la tierra o al suelo en el radio del conjuro. Esa criatura debe tener éxito en una tirada de salvación de Destreza o ser izada mágicamente en el aire, dejándola colgando de cabeza 3 pies sobre el suelo. La criatura está apresada allí hasta que el conjuro termina. Una criatura apresada puede hacer una tirada de salvación de Destreza al final de cada uno de sus turnos, terminando el efecto sobre sí misma en un éxito. Alternativamente, la criatura u otra persona que pueda alcanzarla puede usar una acción para hacer una prueba de Inteligencia (Arcanos) contra tu CD de salvación de conjuros. En un éxito, el efecto apresado termina. Después de que se dispara la trampa, el conjuro termina cuando ninguna criatura es apresada por ella.",
+        "higher_level": "",
+        "page": "",
+        "range": "Toque",
+        "components": "S, M",
+        "material": "25 pies de cuerda, que son consumidos por el conjuro",
+        "ritual": "",
+        "duration": "8 horas",
+        "concentration": "no",
+        "casting_time": "1m",
+        "level": "1st-level",
+        "school": "Abjuración",
+        "class": "",
+        "archetype": "",
+        "domains": "",
+        "circles": "",
+        "oaths": "",
+        "toHitOrDC": "DC",
+        "damage_dice": "",
+        "damage_dice_upcast": "",
+        "damage_type_01": "",
+        "spell_save_dc_type": "dex",
+        "ability_modifier": "no"
     }
 ]
