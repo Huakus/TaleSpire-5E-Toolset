@@ -225,34 +225,6 @@
                         {
                             "name": "Sirviente invisible",
                             "prepared": "0"
-                        },
-                        {
-                            "name": "Trampa de lazo",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Temblor de Tierra",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Cuchillo de hielo",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Causar miedo",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Catapulta",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Absorber elementos",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Cuchillo de hielo",
-                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -315,50 +287,6 @@
                         {
                             "name": "Aura mágica del arcano",
                             "prepared": "0"
-                        },
-                        {
-                            "name": "Viento protector",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Tormenta de bolas de nieve de Snilloc",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Pirotécnica",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Hoja de sombra",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Espina mental",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Escritura celeste",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Diablo de polvo",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Atar a la tierra",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Aliento del dragón",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Abrasador de Aganazzar",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Hoja de sombra",
-                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -411,43 +339,7 @@
                             "prepared": "0"
                         },
                         {
-                            "name": "Tierra en erupción",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Siestecita",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Servidor minúsculo",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Paso atronador",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Ola de marea",
-                            "prepared": "0"
-                        },
-                        {
                             "name": "Meteoros diminutos de Melf",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Muro de agua",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Muro de arena",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Invocar demonios menores",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Flechas flamígeras",
                             "prepared": "0"
                         },
                         {
@@ -465,34 +357,6 @@
                     "spells": [
                         {
                             "name": "Marchitar",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Resplandor enfermizo",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Perdición elemental",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Invocar demonio mayor",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Hechizar Monstruo",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Esfera vitriólica",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Esfera de tormenta",
-                            "prepared": "0"
-                        },
-                        {
-                            "name": "Esfera acuosa",
                             "prepared": "0"
                         }
                     ],
