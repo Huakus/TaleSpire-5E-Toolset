@@ -2541,11 +2541,11 @@
             },
             "groupTraitData": [
                 {
-                    "group-title": "Explosion agonizante",
+                    "group-title": "Invocaciones",
                     "group-chevron": false,
                     "traits": [
                         {
-                            "traitName": "",
+                            "traitName": "Explosion agonizante",
                             "cheveron": false,
                             "traitDescription": "",
                             "checkboxStates": [],
