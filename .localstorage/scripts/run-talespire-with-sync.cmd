@@ -5,6 +5,9 @@ rem === Config ===
 set "REPO1=%USERPROFILE%\AppData\LocalLow\BouncyRock Entertainment\TaleSpire\Symbiotes\Toolset"
 set "REMOTE1=https://github.com/Huakus/TaleSpire-5E-Toolset"
 
+set "REPO2=%USERPROFILE%\AppData\LocalLow\BouncyRock Entertainment\TaleSpire\Symbiotes\Audio Sync"
+set "REMOTE2=https://github.com/Huakus/TaleSpireAudioSync"
+
 set "INTERVAL=10"
 set "BRANCH=main"
 
@@ -21,6 +24,8 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo $Git = "%GIT%"
 >>"%PSFILE%" echo $Repo1 = "%REPO1%"
 >>"%PSFILE%" echo $Remote1 = "%REMOTE1%"
+>>"%PSFILE%" echo $Repo2 = "%REPO2%"
+>>"%PSFILE%" echo $Remote2 = "%REMOTE2%"
 >>"%PSFILE%" echo $Interval = %INTERVAL%
 >>"%PSFILE%" echo $Branch = 'main'
 >>"%PSFILE%" echo $Proc = 'TaleSpire'
@@ -41,4 +46,188 @@ break > "%PSFILE%"
 >>"%PSFILE%" echo function Get-DiffColor([string]^$Message){
 >>"%PSFILE%" echo ^    if(^$Message -match 'insertion') { return 'Green' }
 >>"%PSFILE%" echo ^    if(^$Message -match 'deletion') { return 'Red' }
->>"
+>>"%PSFILE%" echo ^    if(^$Message -match '\\+') { return 'Green' }
+>>"%PSFILE%" echo ^    if(^$Message -match '\\-') { return 'Red' }
+>>"%PSFILE%" echo ^    return 'Gray'
+>>"%PSFILE%" echo }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo function Write-Detail([string]^$Message,[string]^$Color='White'){
+>>"%PSFILE%" echo ^    if(^$script:lastInline){ Write-Host '' ; ^$script:lastInline = ^$false }
+>>"%PSFILE%" echo ^    Write-Host ('  {0}' -f ^$Message) -ForegroundColor ^$Color
+>>"%PSFILE%" echo }
+
+rem =========================================================
+rem  Generate catalog.json for Audio Sync (Repo2) - ONLY ON START
+rem  (No generatedAt to avoid dirty changes every run)
+rem =========================================================
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo function Generate-Catalog([string]^$Repo){
+>>"%PSFILE%" echo ^    try {
+>>"%PSFILE%" echo ^        ^$content = Join-Path ^$Repo 'content'
+>>"%PSFILE%" echo ^        ^$musicDir = Join-Path ^$content 'music'
+>>"%PSFILE%" echo ^        ^$sfxDir   = Join-Path ^$content 'sfx'
+>>"%PSFILE%" echo ^        ^$dataDir  = Join-Path ^$Repo 'data'
+>>"%PSFILE%" echo ^        ^$outFile  = Join-Path ^$dataDir 'catalog.json'
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        if(-not (Test-Path ^$dataDir)){ [void](New-Item -ItemType Directory -Force -Path ^$dataDir) }
+>>"%PSFILE%" echo ^        if(-not (Test-Path ^$musicDir)){ [void](New-Item -ItemType Directory -Force -Path ^$musicDir) }
+>>"%PSFILE%" echo ^        if(-not (Test-Path ^$sfxDir)){ [void](New-Item -ItemType Directory -Force -Path ^$sfxDir) }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        function MakeId([string]^$prefix,[string]^$fileName){
+>>"%PSFILE%" echo ^            ^$base = [IO.Path]::GetFileNameWithoutExtension(^$fileName)
+>>"%PSFILE%" echo ^            ^$raw = ('{0}_{1}' -f ^$prefix,^$base).ToLowerInvariant()
+>>"%PSFILE%" echo ^            ^$chars = ^$raw.ToCharArray()
+>>"%PSFILE%" echo ^            for(^$i=0; ^$i -lt ^$chars.Length; ^$i++){
+>>"%PSFILE%" echo ^                ^$c = ^$chars[^$i]
+>>"%PSFILE%" echo ^                ^$ok = ((^$c -ge 'a' -and ^$c -le 'z') -or (^$c -ge '0' -and ^$c -le '9') -or (^$c -eq '_'))
+>>"%PSFILE%" echo ^                if(-not ^$ok){ ^$chars[^$i] = '_' }
+>>"%PSFILE%" echo ^            }
+>>"%PSFILE%" echo ^            return -join ^$chars
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        function Build([string]^$dir,[string]^$prefix,[string]^$subPath){
+>>"%PSFILE%" echo ^            ^$files = [System.IO.Directory]::EnumerateFiles(^$dir,'*.mp3')
+>>"%PSFILE%" echo ^            ^$arr = @(^$files)
+>>"%PSFILE%" echo ^            [Array]::Sort(^$arr)
+>>"%PSFILE%" echo ^            ^$out = @()
+>>"%PSFILE%" echo ^            foreach(^$full in ^$arr){
+>>"%PSFILE%" echo ^                ^$name = [IO.Path]::GetFileName(^$full)
+>>"%PSFILE%" echo ^                ^$base = [IO.Path]::GetFileNameWithoutExtension(^$full)
+>>"%PSFILE%" echo ^                ^$out += [pscustomobject]@{
+>>"%PSFILE%" echo ^                    id = (MakeId ^$prefix ^$name)
+>>"%PSFILE%" echo ^                    name = ^$base
+>>"%PSFILE%" echo ^                    path = ('{0}/{1}' -f ^$subPath,^$name)
+>>"%PSFILE%" echo ^                    gainDb = 0
+>>"%PSFILE%" echo ^                }
+>>"%PSFILE%" echo ^            }
+>>"%PSFILE%" echo ^            return ^$out
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        ^$music = Build ^$musicDir 'mus' 'music'
+>>"%PSFILE%" echo ^        ^$sfx   = Build ^$sfxDir   'sfx' 'sfx'
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        ^$obj = [pscustomobject]@{
+>>"%PSFILE%" echo ^            version = 1
+>>"%PSFILE%" echo ^            music = ^$music
+>>"%PSFILE%" echo ^            sfx = ^$sfx
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo ^        ^$json = ConvertTo-Json -InputObject ^$obj -Depth 6
+>>"%PSFILE%" echo ^        Set-Content -Path ^$outFile -Value ^$json -Encoding UTF8
+>>"%PSFILE%" echo ^        Write-Detail -Message ('catalog actualizado: music={0} sfx={1}' -f ^$music.Count,^$sfx.Count) -Color 'Magenta'
+>>"%PSFILE%" echo ^    } catch {
+>>"%PSFILE%" echo ^        Write-Detail -Message ('catalog error: {0}' -f ^$_.Exception.Message) -Color 'Red'
+>>"%PSFILE%" echo ^    }
+>>"%PSFILE%" echo }
+
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo function Ensure-Repo([string]^$Repo, [string]^$Remote, [string]^$Branch) {
+>>"%PSFILE%" echo ^    if (Test-Path (Join-Path ^$Repo '.git'^)) {
+>>"%PSFILE%" echo ^        Write-Host ('Verificando rama {0} en {1}' -f ^$Branch,^$Repo)
+>>"%PSFILE%" echo ^        try {
+>>"%PSFILE%" echo ^            ^& ^$Git -C ^$Repo checkout ^$Branch 2^>^&1 ^> ^$null
+>>"%PSFILE%" echo ^        } catch {
+>>"%PSFILE%" echo ^            Write-Host ('Creando rama local {0}' -f ^$Branch)
+>>"%PSFILE%" echo ^            ^& ^$Git -C ^$Repo checkout -b ^$Branch
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo ^        return
+>>"%PSFILE%" echo ^    }
+>>"%PSFILE%" echo ^    Write-Host ('Inicializando nuevo repo en {0}' -f ^$Repo)
+>>"%PSFILE%" echo ^    if (-not (Test-Path ^$Repo^)) { New-Item -ItemType Directory -Force -Path ^$Repo ^| Out-Null }
+>>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo init
+>>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo remote remove origin } catch {}
+>>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo remote add origin ^$Remote
+>>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo checkout -b ^$Branch
+>>"%PSFILE%" echo ^    Write-Host ('Repo {0} listo en rama {1}' -f ^$Repo,^$Branch)
+>>"%PSFILE%" echo }
+
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo function Sync([string]^$Repo,[string]^$Branch){
+>>"%PSFILE%" echo ^    if (-not (Test-Path (Join-Path ^$Repo '.git'^))) { Write-Host ('No es repo git: {0}' -f ^$Repo); return }
+>>"%PSFILE%" echo ^    ^$headBefore = ^& ^$Git -C ^$Repo rev-parse HEAD
+>>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo fetch origin ^> ^$null 2^>^&1 } catch {}
+>>"%PSFILE%" echo ^    ^$remoteAhead = 0
+>>"%PSFILE%" echo ^    ^$remoteLog = @()
+>>"%PSFILE%" echo ^    ^$remoteDiff = @()
+>>"%PSFILE%" echo ^    try {
+>>"%PSFILE%" echo ^        ^$remoteAhead = [int](^& ^$Git -C ^$Repo rev-list --count HEAD..origin/^$Branch)
+>>"%PSFILE%" echo ^        if(^$remoteAhead -gt 0){ ^$remoteLog = ^& ^$Git -C ^$Repo log --oneline --max-count ^$remoteAhead HEAD..origin/^$Branch }
+>>"%PSFILE%" echo ^        if(^$remoteAhead -gt 0){ ^$remoteDiff = (^& ^$Git -C ^$Repo diff --stat HEAD..origin/^$Branch) -split "`n" }
+>>"%PSFILE%" echo ^    } catch {}
+>>"%PSFILE%" echo ^    ^& ^$Git -C ^$Repo add -A ^> ^$null 2^>^&1
+>>"%PSFILE%" echo ^    ^$dirty = ^& ^$Git -C ^$Repo status --porcelain
+>>"%PSFILE%" echo ^    ^$dirtyLog = @()
+>>"%PSFILE%" echo ^    ^$dirtyDiff = @()
+>>"%PSFILE%" echo ^    if (^$dirty) {
+>>"%PSFILE%" echo ^        ^$dirtyLog = ^$dirty -split "`n"
+>>"%PSFILE%" echo ^        ^$dirtyDiff = (^& ^$Git -C ^$Repo diff --cached --stat) -split "`n"
+>>"%PSFILE%" echo ^        ^& ^$Git -C ^$Repo commit --quiet -m ('auto: ' + (Get-Date -Format o^))
+>>"%PSFILE%" echo ^    }
+>>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo pull --rebase --autostash origin ^$Branch ^> ^$null 2^>^&1 } catch {}
+>>"%PSFILE%" echo ^    try { ^& ^$Git -C ^$Repo push -u origin ^$Branch ^> ^$null 2^>^&1 } catch {}
+>>"%PSFILE%" echo ^    ^$headAfter = ^& ^$Git -C ^$Repo rev-parse HEAD
+>>"%PSFILE%" echo ^    ^$received = ^$remoteAhead -gt 0
+>>"%PSFILE%" echo ^    if (^$dirty -or ^$received -or (^$headAfter -ne ^$headBefore)) {
+>>"%PSFILE%" echo ^        if(^$dirty){
+>>"%PSFILE%" echo ^            Write-Log ('ENVIANDO {0}' -f ^$Repo)
+>>"%PSFILE%" echo ^            if(^$dirtyLog.Count -gt 0){ foreach(^$line in ^$dirtyLog){ Write-Detail -Message ('local: {0}' -f ^$line) -Color 'Yellow' } }
+>>"%PSFILE%" echo ^            if(^$dirtyDiff.Count -gt 0){ foreach(^$line in ^$dirtyDiff){ Write-Detail -Message ('diff: {0}' -f ^$line) -Color (Get-DiffColor ^$line) } }
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo ^        if(^$received){
+>>"%PSFILE%" echo ^            Write-Log ('RECIBIENDO {0}' -f ^$Repo)
+>>"%PSFILE%" echo ^            if(^$remoteLog.Count -gt 0){ foreach(^$line in ^$remoteLog){ Write-Detail -Message ('remoto: {0}' -f ^$line) -Color 'Cyan' } }
+>>"%PSFILE%" echo ^            if(^$remoteDiff.Count -gt 0){ foreach(^$line in ^$remoteDiff){ Write-Detail -Message ('diff: {0}' -f ^$line) -Color (Get-DiffColor ^$line) } }
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo ^        if((-not ^$dirty) -and (-not ^$received)){
+>>"%PSFILE%" echo ^            Write-Log ('ENVIANDO/RECIBIENDO {0}' -f ^$Repo)
+>>"%PSFILE%" echo ^            Write-Detail 'cambios aplicados'
+>>"%PSFILE%" echo ^        }
+>>"%PSFILE%" echo ^    } else {
+>>"%PSFILE%" echo ^        Write-Log '.' -Inline
+>>"%PSFILE%" echo ^    }
+>>"%PSFILE%" echo }
+
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo Write-Log ('Sincronizando repos...')
+>>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo1 -Remote ^$Remote1 -Branch ^$Branch
+>>"%PSFILE%" echo Ensure-Repo -Repo ^$Repo2 -Remote ^$Remote2 -Branch ^$Branch
+
+rem === Generate catalog ONLY ON START ===
+>>"%PSFILE%" echo Generate-Catalog -Repo ^$Repo2
+
+>>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo Sync -Repo ^$Repo2 -Branch ^$Branch
+
+>>"%PSFILE%" echo(
+>>"%PSFILE%" echo Start-Process 'steam://rungameid/720620'
+>>"%PSFILE%" echo ^$appeared=^$false
+>>"%PSFILE%" echo for(^$i=0;^$i -lt 30;^$i++^){ if(Get-Process -Name ^$Proc -ErrorAction SilentlyContinue^){ ^$appeared=^$true; break } Start-Sleep -Seconds 1 }
+>>"%PSFILE%" echo if(^$appeared^){
+>>"%PSFILE%" echo ^  while (Get-Process -Name ^$Proc -ErrorAction SilentlyContinue^) {
+>>"%PSFILE%" echo ^    Start-Sleep -Seconds ^$Interval
+>>"%PSFILE%" echo ^    Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo ^    Sync -Repo ^$Repo2 -Branch ^$Branch
+>>"%PSFILE%" echo ^  }
+>>"%PSFILE%" echo }
+>>"%PSFILE%" echo Sync -Repo ^$Repo1 -Branch ^$Branch
+>>"%PSFILE%" echo Sync -Repo ^$Repo2 -Branch ^$Branch
+
+rem === Ejecutar PowerShell ===
+call powershell -NoProfile -ExecutionPolicy Bypass -File "%PSFILE%"
+set "EXITCODE=%ERRORLEVEL%"
+
+rem === Mantener consola mientras TaleSpire esté abierto ===
+:wait_for_talespire_exit
+tasklist /FI "IMAGENAME eq TaleSpire.exe" | find /I "TaleSpire.exe" >nul
+if not errorlevel 1 (
+  timeout /t 5 >nul
+  goto wait_for_talespire_exit
+)
+
+if not "%EXITCODE%"=="0" (
+  echo ❌ Hubo un error (exit code %EXITCODE%).
+) else (
+  echo ✅ TaleSpire cerrado. Sincronización finalizada correctamente en rama MAIN.
+)
+timeout /t 2 >nul
+exit
