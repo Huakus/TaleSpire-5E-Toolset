@@ -337,6 +337,14 @@
                         {
                             "name": "Acelerar",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Tierra en erupción",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Siestecita",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
@@ -349,6 +357,34 @@
                     "spells": [
                         {
                             "name": "Marchitar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Resplandor enfermizo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Perdición elemental",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invocar demonio mayor",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hechizar Monstruo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera vitriólica",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera de tormenta",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Esfera acuosa",
                             "prepared": "0"
                         }
                     ],
