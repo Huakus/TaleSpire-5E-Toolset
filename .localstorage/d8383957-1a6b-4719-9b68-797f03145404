@@ -295,6 +295,10 @@
                         {
                             "name": "Tormenta de bolas de nieve de Snilloc",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Pirotécnica",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
