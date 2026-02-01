@@ -1446,11 +1446,16 @@
                 "Elfo",
                 "Dracónico",
                 "Sylvano",
+                "Canto de Ladron",
                 "Aeloriano"
             ],
-            "playerToolsProficiency": [],
+            "playerToolsProficiency": [
+                "Juego de Cartas para Jugar",
+                "Kit de Herbalismo",
+                "Herramientas de Ladrón"
+            ],
             "initiativeButton": "+3",
-            "AC": "14",
+            "AC": "17",
             "speed": "30ft.",
             "characterLevel": "8",
             "playerXP": "36690",
@@ -1845,6 +1850,125 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758681798905-3cdf7d65",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Daga +3",
+                        "uniqueId": "item-1761528715784-712e3eb2",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Armadura de Cuero",
+                        "uniqueId": "item-1758676564790-f2f0a39a",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "10 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758681798905-3cdf7d65",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Daga +3",
+                        "uniqueId": "item-1761528715784-712e3eb2",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Capa con runas",
+                        "uniqueId": "item-1756659266075-4b0928c6",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "0 cp"
+                    },
+                    {
+                        "name": "Orbe",
+                        "uniqueId": "item-1756660760382-82ed676b",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "20 gp"
+                    },
+                    {
+                        "name": "Bastón de Acelerar",
+                        "uniqueId": "item-1756663384324-9b6c8ddb",
+                        "quantity": 1,
+                        "weight": 4,
+                        "cost": "20 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Poción de curación",
+                        "uniqueId": "item-1756666284136-db46bf3d",
+                        "quantity": 4,
+                        "weight": 2,
+                        "cost": "50 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Varita de Armadura de Mago",
+                        "uniqueId": "item-1756670608780-0e699639",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Túnica de Agati",
+                        "uniqueId": "item-1756671255752-9730fb1f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "15000 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Armadura de Cuero",
+                        "uniqueId": "item-1758676564790-f2f0a39a",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "10 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758681798905-3cdf7d65",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Daga +3",
+                        "uniqueId": "item-1761528715784-712e3eb2",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Armadura de Cuero",
+                        "uniqueId": "item-1758676564790-f2f0a39a",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "10 gp",
                         "equipped": true
                     },
                     {
@@ -1963,9 +2087,390 @@
                         "weight": 1,
                         "cost": "2 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Mochila",
+                        "uniqueId": "item-1758680577843-049a99e3",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Palanca",
+                        "uniqueId": "item-1758680577844-92bc8267",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Martillo",
+                        "uniqueId": "item-1758680577845-814eec2e",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Pitón",
+                        "uniqueId": "item-1758680577846-a696eb6a",
+                        "quantity": 10,
+                        "weight": 2.5,
+                        "cost": "5 cp"
+                    },
+                    {
+                        "name": "Antorcha",
+                        "uniqueId": "item-1758680577847-d4e859e6",
+                        "quantity": 10,
+                        "weight": 10,
+                        "cost": "1 cp"
+                    },
+                    {
+                        "name": "Yesquero",
+                        "uniqueId": "item-1758680577848-3b152092",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Raciones (1 día)",
+                        "uniqueId": "item-1758680577849-03f96dd8",
+                        "quantity": 10,
+                        "weight": 20,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Odre de agua",
+                        "uniqueId": "item-1758680577850-de3cfbcd",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 sp"
+                    },
+                    {
+                        "name": "Cuerda de cáñamo (50 pies)",
+                        "uniqueId": "item-1758680577851-cc819e22",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Kit de herbolario",
+                        "uniqueId": "item-1758682778985-854d98ca",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 gp"
+                    },
+                    {
+                        "name": "Pergamino de Erudito",
+                        "uniqueId": "item-1758683136234-c59978cd",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "1 sp"
+                    },
+                    {
+                        "name": "Frazada",
+                        "uniqueId": "item-1758683164246-86198ecb",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Ropa, común",
+                        "uniqueId": "item-1758683177619-9d9829bc",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1759104875248-7b14367d",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Mochila",
+                        "uniqueId": "item-1758680577843-049a99e3",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Palanca",
+                        "uniqueId": "item-1758680577844-92bc8267",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Martillo",
+                        "uniqueId": "item-1758680577845-814eec2e",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Pitón",
+                        "uniqueId": "item-1758680577846-a696eb6a",
+                        "quantity": 10,
+                        "weight": 2.5,
+                        "cost": "5 cp"
+                    },
+                    {
+                        "name": "Antorcha",
+                        "uniqueId": "item-1758680577847-d4e859e6",
+                        "quantity": 10,
+                        "weight": 10,
+                        "cost": "1 cp"
+                    },
+                    {
+                        "name": "Yesquero",
+                        "uniqueId": "item-1758680577848-3b152092",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Raciones (1 día)",
+                        "uniqueId": "item-1758680577849-03f96dd8",
+                        "quantity": 10,
+                        "weight": 20,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Odre de agua",
+                        "uniqueId": "item-1758680577850-de3cfbcd",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 sp"
+                    },
+                    {
+                        "name": "Cuerda de cáñamo (50 pies)",
+                        "uniqueId": "item-1758680577851-cc819e22",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Kit de herbolario",
+                        "uniqueId": "item-1758682778985-854d98ca",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 gp"
+                    },
+                    {
+                        "name": "Pergamino de Erudito",
+                        "uniqueId": "item-1758683136234-c59978cd",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "1 sp"
+                    },
+                    {
+                        "name": "Frazada",
+                        "uniqueId": "item-1758683164246-86198ecb",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Ropa, común",
+                        "uniqueId": "item-1758683177619-9d9829bc",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1759104875248-7b14367d",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Mochila",
+                        "uniqueId": "item-1758680577843-049a99e3",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Palanca",
+                        "uniqueId": "item-1758680577844-92bc8267",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Martillo",
+                        "uniqueId": "item-1758680577845-814eec2e",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Pitón",
+                        "uniqueId": "item-1758680577846-a696eb6a",
+                        "quantity": 10,
+                        "weight": 2.5,
+                        "cost": "5 cp"
+                    },
+                    {
+                        "name": "Antorcha",
+                        "uniqueId": "item-1758680577847-d4e859e6",
+                        "quantity": 10,
+                        "weight": 10,
+                        "cost": "1 cp"
+                    },
+                    {
+                        "name": "Yesquero",
+                        "uniqueId": "item-1758680577848-3b152092",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Raciones (1 día)",
+                        "uniqueId": "item-1758680577849-03f96dd8",
+                        "quantity": 10,
+                        "weight": 20,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Odre de agua",
+                        "uniqueId": "item-1758680577850-de3cfbcd",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 sp"
+                    },
+                    {
+                        "name": "Cuerda de cáñamo (50 pies)",
+                        "uniqueId": "item-1758680577851-cc819e22",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Kit de herbolario",
+                        "uniqueId": "item-1758682778985-854d98ca",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 gp"
+                    },
+                    {
+                        "name": "Pergamino de Erudito",
+                        "uniqueId": "item-1758683136234-c59978cd",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "1 sp"
+                    },
+                    {
+                        "name": "Frazada",
+                        "uniqueId": "item-1758683164246-86198ecb",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Ropa, común",
+                        "uniqueId": "item-1758683177619-9d9829bc",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1759104875248-7b14367d",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
+                        "equipped": true
                     }
                 ],
                 "other-possessions": [
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710410922-8840fb99",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710431084-a90c8e78",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710460939-26be1e0f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710539589-89abc40c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710410922-8840fb99",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710431084-a90c8e78",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710460939-26be1e0f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710539589-89abc40c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710410922-8840fb99",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710431084-a90c8e78",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710460939-26be1e0f",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
+                    {
+                        "name": "Frasco o jarra",
+                        "uniqueId": "item-1759710539589-89abc40c",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 cp"
+                    },
                     {
                         "name": "Frasco o jarra",
                         "uniqueId": "item-1759710410922-8840fb99",
@@ -1997,224 +2502,9 @@
                 ],
                 "attunement": []
             },
-            "groupTraitData": [
-                {
-                    "group-title": "Patrón: Archihada",
-                    "group-chevron": true,
-                    "traits": [
-                        {
-                            "traitName": "Escape brumoso",
-                            "cheveron": true,
-                            "traitDescription": "",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "",
-                            "cheveron": true,
-                            "traitDescription": "Los siguientes conjuros se añaden a la tu lista de conjuros que puedes aprender.\n\n1- Fuego feérico / Dormir\n2- Calmar emociones / Fuerza fantasmal\n3- Intermitencia / Crecimiento vegetal\n4- Dominar bestia / Invisibilidad mayor\n5- Dominar persona / Similitud",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Presencia Feérica",
-                            "cheveron": true,
-                            "traitDescription": "Comenzando en el nivel 1 tu patrón te otorga la habilidad de proyectar la presencia seductora y aterrorizante de los feéricos.\nComo una acción, puedes forzar a cada criatura en un cubo de 10 pies (3 metros) centrado en ti, a que realice una tirada de salvación de Sabiduría contra la CD de tus conjuros de brujo.\nLas criaturas que fallen su tirada de salvación quedan hechizadas o asustadas por ti (a tu elección) hasta el final de tu siguiente turno.\nUna vez que usas este rasgo, no puedes usarlo nuevamente hasta que finalices un descanso corto o prolongado. ",
-                            "checkboxStates": [
-                                true
-                            ],
-                            "numberOfUses": "1",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "short rest"
-                        },
-                        {
-                            "traitName": "",
-                            "cheveron": false,
-                            "traitDescription": "",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        }
-                    ]
-                },
-                {
-                    "group-title": "Semielfa",
-                    "group-chevron": false,
-                    "traits": [
-                        {
-                            "traitName": "Visión en la oscuridad",
-                            "cheveron": true,
-                            "traitDescription": "Gracias a tu sangre élfica, tienes una visión superior en la oscuridad y la luz tenue.\nPuedes ver en luz tenue hasta los 60 (18 m) pies como si fuera a plena luz, y en la oscuridad como si fuera en luz tenue.\nNo puedes distinguir colores en la oscuridad, sólo tonos de gris.",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Ascendencia Feérica",
-                            "cheveron": true,
-                            "traitDescription": "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia.",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        }
-                    ]
-                },
-                {
-                    "group-title": "Ermitaña",
-                    "group-chevron": false,
-                    "traits": [
-                        {
-                            "traitName": "Descubrimiento",
-                            "cheveron": true,
-                            "traitDescription": "La reclusión pacífica de tu extendido aislamiento te dio acceso a un único y poderoso descubrimiento.\nLa exacta naturaleza de esta revelación depende de la naturaleza de tu reclusión.\nPodría ser una gran verdad acerca del cosmos, las deidades, los seres poderosos de otros planos o las fuerzas de la naturaleza.\nPodría ser un sitio que nadie más vio nunca.\nPodrías haber descubierto un hecho que fue olvidado hace mucho, o desenterrado alguna reliquia del pasado que podría reescribir la historia.\nPodría ser información potencialmente dañina para la gente que te consignó al exilio, y he ahí la razón por la cual regresas a la sociedad.",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        }
-                    ]
-                },
-                {
-                    "group-title": "Invocaciones",
-                    "group-chevron": false,
-                    "traits": [
-                        {
-                            "traitName": "Agonizing blast",
-                            "cheveron": false,
-                            "traitDescription": "Requisitos: truco Estallido Arcano\nSuma modificador de CARISMA al daño de cada rayo de Estallido Arcano",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Estallido Repulsor",
-                            "cheveron": false,
-                            "traitDescription": "Requisito: truco Estallido Arcano\nEmpuja 10 pies (3m) al objetivo con cada impacto",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Influencia Seductora",
-                            "cheveron": false,
-                            "traitDescription": "Competencia en Engañar y Persuación ",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        },
-                        {
-                            "traitName": "Vision de Diablo",
-                            "cheveron": false,
-                            "traitDescription": "Permite ver en la oscuridad magica hasta 120 pies",
-                            "checkboxStates": [],
-                            "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
-                            "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
-                            "resetType": "none"
-                        }
-                    ]
-                }
-            ],
-            "groupNotesData": [
-                {
-                    "group-title": "Inventario auxiliar",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Notas",
-                            "noteContent": "Tapiz dorado magico que representa alguna batalla Boccob\n2 frascos sin identificar"
-                        }
-                    ]
-                },
-                {
-                    "group-title": "Invocaciones",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Agonizing",
-                            "noteContent": ""
-                        }
-                    ]
-                },
-                {
-                    "group-title": "hugo en el mercado, voy de parte de arnaldo",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Hugo vende buen acero",
-                            "noteContent": ""
-                        }
-                    ]
-                }
-            ],
-            "extrasData": [
-                {
-                    "name": "Diablillo (A)",
-                    "currentHp": "10",
-                    "maxHp": "10",
-                    "tempHp": "0"
-                },
-                {
-                    "name": "Pseudodragón (A)",
-                    "currentHp": "7",
-                    "maxHp": "7",
-                    "tempHp": "0"
-                },
-                {
-                    "name": "Quasit (A)",
-                    "currentHp": "7",
-                    "maxHp": "7",
-                    "tempHp": "0"
-                },
-                {
-                    "name": "Duende (A)",
-                    "currentHp": "2",
-                    "maxHp": "2",
-                    "tempHp": "0"
-                }
-            ]
+            "groupTraitData": [],
+            "groupNotesData": [],
+            "extrasData": []
         },
         "Adler": {
             "characterTempHp": "",
