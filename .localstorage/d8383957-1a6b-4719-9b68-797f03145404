@@ -1804,7 +1804,12 @@
                     "slots": []
                 },
                 "4th-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Destierro",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": []
                 },
                 "5th-level": {
