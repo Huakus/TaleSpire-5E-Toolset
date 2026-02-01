@@ -14533,28 +14533,6 @@
         "year": "2024"
     },
     {
-        "name": "Catapulta*",
-        "desc": "Elige un objeto que pese entre 1 y 5 libras dentro del alcance y que nadie lleve puesto ni cargue. El objeto vuela en línea recta hasta 90 pies en la dirección que elijas antes de caer al suelo, deteniéndose antes si impacta contra una superficie sólida. Si el objeto fuese a golpear a una criatura, esta debe hacer una tirada de salvación de Destreza. Si falla, el objeto impacta y deja de moverse. Cuando el objeto golpea algo, tanto el objeto como lo que golpea reciben 3d8 de daño contundente.",
-        "higher_level": "Cuando lanzas este hechizo usando un espacio de conjuro de nivel 2 o superior, el peso máximo de los objetos que puedes elegir aumenta en 5 libras y el daño aumenta en 1d8 por cada nivel de espacio por encima de 1.",
-        "page": "phb 221",
-        "range": "60 pies",
-        "components": "S",
-        "material": "",
-        "ritual": "",
-        "duration": "Instantáneo",
-        "concentration": "no",
-        "casting_time": "1A",
-        "level": "1st-level",
-        "school": "Transmutación",
-        "class": "Hechicero, Mago",
-        "toHitOrDC": "DC",
-        "damage_dice": "3d8",
-        "damage_dice_upcast": "1d8",
-        "spell_save_dc_type": "dex",
-        "ability_modifier": "no",
-        "damage_type_01": "Contundente"
-    },
-    {
         "name": "Mezcla cáustica de Tasha*",
         "desc": "Un chorro de ácido emana de ti en una línea de 30 pies de largo y 5 de ancho en la dirección que elijas. Cada criatura en la línea debe superar una tirada de salvación de Destreza o quedar cubierta de ácido mientras dure el hechizo o hasta que una criatura use su acción para rasparlo o lavarlo. Una criatura cubierta de ácido recibe 2d4 de daño de ácido al comienzo de cada uno de sus turnos.",
         "higher_level": "Cuando lanzas este hechizo usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 2d4 por cada nivel de espacio por encima de 1.",
