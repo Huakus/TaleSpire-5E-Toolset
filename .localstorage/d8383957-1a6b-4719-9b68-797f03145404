@@ -373,6 +373,14 @@
                         {
                             "name": "Invocar demonios menores",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Flechas flamígeras",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Enemigos abundantes",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
