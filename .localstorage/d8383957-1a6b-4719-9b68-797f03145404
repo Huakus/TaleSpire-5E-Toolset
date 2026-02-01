@@ -1808,6 +1808,10 @@
                         {
                             "name": "Destierro",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Marchitar",
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
