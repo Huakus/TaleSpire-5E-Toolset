@@ -2547,6 +2547,18 @@
                         {
                             "traitName": "Explosion agonizante",
                             "cheveron": false,
+                            "traitDescription": "AL lanzar Eldricht Blast, se añade el modificaro de carisma al daño de cada rayo que impacte. El bono se aplica por rayo, no una vez. ",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "",
+                            "cheveron": false,
                             "traitDescription": "",
                             "checkboxStates": [],
                             "numberOfUses": "0",
