@@ -2539,7 +2539,13 @@
                 ],
                 "attunement": []
             },
-            "groupTraitData": [],
+            "groupTraitData": [
+                {
+                    "group-title": "",
+                    "group-chevron": false,
+                    "traits": []
+                }
+            ],
             "groupNotesData": [],
             "extrasData": []
         },
