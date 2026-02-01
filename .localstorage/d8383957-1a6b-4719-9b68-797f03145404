@@ -1817,6 +1817,34 @@
                         {
                             "name": "Marchitar",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Puerta dimensional",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Terreno alucinatorio",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Hechizar Monstruo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Invocar demonio mayor",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Perdición elemental",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Resplandor enfermizo",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Sombra de moil",
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
