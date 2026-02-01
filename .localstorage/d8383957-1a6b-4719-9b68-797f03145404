@@ -237,6 +237,10 @@
                         {
                             "name": "Cuchillo de hielo",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Causar miedo",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
