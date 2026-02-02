@@ -3008,7 +3008,16 @@
                 }
             },
             "inventoryData": {
-                "equipment": [],
+                "equipment": [
+                    {
+                        "name": "Armadura de cuero +2",
+                        "uniqueId": "item-1769993396764-5e8cb7f4",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "1050 gp",
+                        "equipped": false
+                    }
+                ],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
