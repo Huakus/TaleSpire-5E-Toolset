@@ -354,6 +354,10 @@
                         {
                             "name": "Marchitar",
                             "prepared": "1"
+                        },
+                        {
+                            "name": "Invisibilidad mayor",
+                            "prepared": "1"
                         }
                     ],
                     "slots": [
