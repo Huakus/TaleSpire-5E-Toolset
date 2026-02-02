@@ -2710,7 +2710,7 @@
                     "spells": [
                         {
                             "name": "Bendición",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Crear o destruir agua",
@@ -2734,7 +2734,7 @@
                         },
                         {
                             "name": "Infligir heridas",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Orden imperiosa",
@@ -2758,7 +2758,7 @@
                         },
                         {
                             "name": "Saeta guiada",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Santuario",
