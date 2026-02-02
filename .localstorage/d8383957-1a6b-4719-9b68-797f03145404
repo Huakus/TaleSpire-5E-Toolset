@@ -184,7 +184,7 @@
                         },
                         {
                             "name": "Grasa",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Hechizar persona",
@@ -204,7 +204,7 @@
                         },
                         {
                             "name": "Escudo",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Falsa vida",
