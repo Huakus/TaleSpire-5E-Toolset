@@ -304,7 +304,7 @@
                         },
                         {
                             "name": "Relámpago",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Toque vampírico",
@@ -340,11 +340,11 @@
                         },
                         {
                             "name": "Meteoros diminutos de Melf",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Enemigos abundantes",
-                            "prepared": "0"
+                            "prepared": "1"
                         }
                     ],
                     "slots": [
