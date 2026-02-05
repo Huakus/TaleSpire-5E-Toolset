@@ -3125,7 +3125,7 @@
                         {
                             "traitName": "",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "Comenzando al nivel 8 añades tu modificador de Sabiduría al\ndaño que haces con cualquier truco de clérigo.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
