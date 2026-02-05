@@ -2475,7 +2475,7 @@
         },
         "Adler": {
             "characterTempHp": "",
-            "currentHitDice": "1",
+            "currentHitDice": "0",
             "insp": 1,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
@@ -2528,7 +2528,7 @@
             "stealthMod": "DES",
             "survivalMod": "SAB",
             "": 0,
-            "hitDiceButton": "1d8",
+            "hitDiceButton": "0d8",
             "pb-1": 0,
             "pb-2": 0,
             "pb-3": 0,
