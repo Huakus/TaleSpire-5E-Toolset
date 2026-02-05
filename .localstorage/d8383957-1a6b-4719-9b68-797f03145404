@@ -3107,7 +3107,7 @@
                         {
                             "traitName": "",
                             "cheveron": false,
-                            "traitDescription": "",
+                            "traitDescription": "•\nTienes ventaja en las tiradas de salvación de Constitución\nhechas para mantener la concentración en un conjuro\ncuando recibes daño.\n•\nPuedes interpretar los componentes somáticos de conju-\nros incluso cuando tienes armas o escudo en una o dos\nmanos.\n•\nCuando el movimiento de una criatura hostil provoca un\nataque de oportunidad para ti, puedes usar tu reacción\npara lanzar un conjuro a la criatura en vez de hacer un\nataque de oportunidad. El conjuro debe tener un tiempo\nde lanzamiento de una acción y sólo puede afectar a esa\ncriatura",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
