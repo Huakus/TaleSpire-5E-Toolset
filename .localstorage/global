@@ -10,10 +10,7 @@
                 "index": "adventuring-gear",
                 "name": "adventuring-gear"
             },
-            "description": [
-                "Capa con runas",
-                "+1 slots conjuros nivel 1"
-            ],
+            "description": "Esta capa está tejida con hilos oscuros y resistentes, en cuyo forro interior se inscriben antiguas runas arcanas apenas visibles cuando la tela descansa. <br> Al portarla, el usuario siente un leve pulso mágico, como si la prenda almacenara fragmentos de energía latente. <br> Mientras se viste esta capa, el portador obtiene una ranura adicional de conjuro de nivel 1.",
             "properties": [],
             "cost": {
                 "quantity": 0,
@@ -35,7 +32,7 @@
                 "url": "/api/equipment-categories/weapon"
             },
             "weapon_category": "Simple",
-            "description": "Un bastón largo de madera que permite conjurar Acelerar una vez por descanso largo y que se utiliza a menudo como arma cuerpo a cuerpo versátil. Se puede manejar con una o dos manos para golpear o bloquear.",
+            "description": "Este bastón de madera clara está gastado por el uso y marcado por antiguas muescas, recuerdo de caminos recorridos con prisa y combates improvisados. <br> Perteneció a Isadora, una exploradora que murió intentando advertir a los protagonistas sobre la conspiración de los contrabandistas en Valverde del Río. <br> El bastón conserva un encantamiento residual ligado al movimiento y la urgencia: <br> una vez por descanso largo, su portador puede conjurar *Acelerar*, como si el arma respondiera al impulso desesperado de huir, alcanzar o llegar a tiempo.",
             "weapon_range": "Melee",
             "category_range": "Simple Melee",
             "cost": {
