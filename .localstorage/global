@@ -91,8 +91,8 @@
                 "unit": "gp"
             },
             "weight": 0,
-            "desc": [
-                "Una gema de poco valor, con imperfecciones o fragmentada. Ejemplos: ágata, ojo de gato, lapislázuli, turquesa."
+            "description": [
+                "Una gema de poco valor, con imperfecciones o fragmentada. <br> Ejemplos: ágata, ojo de gato, lapislázuli, turquesa."
             ],
             "url": "/api/equipment/gem-broken"
         },
@@ -114,7 +114,7 @@
                 "unit": "gp"
             },
             "weight": 0,
-            "desc": [
+            "description": [
                 "Una gema de buena calidad, pero frecuente en el comercio. Ejemplos: amatista, granate, jade, perla, turmalina."
             ],
             "url": "/api/equipment/gem-common"
@@ -137,7 +137,7 @@
                 "unit": "gp"
             },
             "weight": 0,
-            "desc": [
+            "description": [
                 "Una gema llamativa, con brillo tenue o particular. Ejemplos: ópalo, ópalo de fuego, peridoto, topacio."
             ],
             "url": "/api/equipment/gem-dull"
@@ -160,7 +160,7 @@
                 "unit": "gp"
             },
             "weight": 0,
-            "desc": [
+            "description": [
                 "Una gema preciosa, muy apreciada por su pureza y brillo. Ejemplos: esmeralda, zafiro, rubí."
             ],
             "url": "/api/equipment/gem-bright"
@@ -183,7 +183,7 @@
                 "unit": "gp"
             },
             "weight": 0,
-            "desc": [
+            "description": [
                 "Una gema excepcional, de rareza considerable. Ejemplos: diamante, zafiro azul fino, rubí de sangre."
             ],
             "url": "/api/equipment/gem-radiant"
@@ -206,7 +206,7 @@
                 "unit": "gp"
             },
             "weight": 0,
-            "desc": [
+            "description": [
                 "Una gema de belleza única, prácticamente mítica. Ejemplos: diamante excepcional, zafiro estelar, rubí estrella."
             ],
             "url": "/api/equipment/gem-legendary"
@@ -224,12 +224,7 @@
                 "name": "Accesorio mágico",
                 "url": "/api/equipment-categories/magical-accessory"
             },
-            "description": [
-                "Esta varita tiene 3 cargas. Mientras la sostienes, puedes usar una acción para gastar 1 carga y lanzar el conjuro Armadura de mago.",
-                "El conjuro no requiere componentes materiales cuando se lanza desde la varita.",
-                "La varita recupera 1d6+1 cargas gastadas cada día al amanecer.",
-                "Si gastas la última carga, tira 1d20. Con un 1, la varita se desintegra en polvo inerte."
-            ],
+            "description": "Esta varita delgada está tallada en madera pulida y reforzada con finas incrustaciones arcanas que recorren su superficie como un entramado geométrico. <br> Fue diseñada para proyectar una defensa estable y eficiente, encapsulando un conjuro defensivo en una forma controlada y repetible. <br><br> La varita posee 3 cargas, y mientras la sostienes puedes usar una acción para gastar 1 carga y lanzar el conjuro <u>Armadura de mago</u> sin necesidad de componentes materiales. <br> Cada amanecer, la varita recupera <u>1d6+1</u> cargas gastadas, como si reordenara lentamente su estructura mágica interna. <br><br> Sin embargo, forzarla hasta consumir su última carga puede quebrar ese equilibrio: si al gastar la última carga obtienes <u>un 1 en un d20</u>, la varita colapsa y se desintegra en polvo inerte.",
             "properties": [],
             "cost": {
                 "quantity": 2000,
@@ -255,11 +250,7 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [
-                "\"Esta túnica ligera está imbuida con antiguas runas protectoras atribuidas al sabio Agati.\",",
-                "\"Mientras lleves puesta la túnica, tu Clase de Armadura aumenta en +3.\",",
-                "\"La túnica no se considera armadura y puede usarse sin interferir con el lanzamiento de conjuros.\""
-            ],
+            "description": "Esta túnica ligera está confeccionada con telas finas y flexibles, atravesadas por delicadas runas protectoras bordadas con hilo arcano casi imperceptible. Su diseño se atribuye al sabio Agati, quien sostenía que la defensa más perfecta no debía entorpecer ni el cuerpo ni la mente. <br><br> Mientras lleves puesta la túnica, tu <u>Clase de Armadura aumenta en +3</u>, envolviéndote en un campo protector sutil que desvía golpes y atenúa impactos sin recurrir a peso ni rigidez. <br><br> La túnica <u>no se considera armadura</u> y puede usarse sin interferir con el lanzamiento de conjuros, permitiendo que la energía mágica fluya con total libertad a través del portador.",
             "properties": [],
             "cost": {
                 "quantity": 15000,
@@ -288,9 +279,7 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [
-                "La varita molesta a los enemigos con DC=14"
-            ],
+            "description": "Esta varita corta y ligeramente torcida está grabada con símbolos irregulares que parecen cambiar de lugar cuando no se los observa directamente. Fue creada para perturbar la concentración y la templanza del enemigo más que para infligir daño directo. <br><br> Al activarla, la varita proyecta una interferencia arcana insistente —susurros, cosquilleos mentales o impulsos irritantes— que obliga a las criaturas afectadas a realizar una <strong>tirada de salvación con CD 14</strong> para resistir el efecto. <br><br> La varita posee <strong>3 cargas</strong> y recupera sus usos al amanecer, como si su magia se alimentara del desgaste mental acumulado durante el día.",
             "properties": [],
             "cost": {
                 "quantity": 1,
@@ -337,9 +326,7 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [
-                "Lente de cristal con vetas rojas que chisporrotean con energía arcana. Era un acumulador de poder usado por los antiguos dispositivos del Corazón. \n Mecánica: \n Cargas: 3, recupera 1d3 al amanecer. \n Usos: \n 1 carga → lanzar un conjuro de 1.er nivel sin gastar ranura. \n 2 cargas → conjuro de 2.º nivel. \n 3 cargas → descarga equivalente a Scorching Ray (3 rayos de 2d6 fuego). \n Corruptibilidad: +1 MC por cada uso ofensivo o de manipulación mental. Si se vacían todas las cargas en menos de 10 min, +2 MC. \n Identificación: DC 16 Arcana. \n Destrucción: romperlo con más de 30 puntos de daño contundente lo neutraliza, liberando 4d6 de energía elemental (CON DC 15 mitad). \n Uso en mecanismos: al insertarlo en un receptáculo, aumenta la potencia del artefacto: p. ej., un puente que se abría 3 m se abre 9 m y activa guardianes"
-            ],
+            "description": "Lente de cristal pesado, atravesado por vetas rojas que chisporrotean con energía arcana inestable. Estos cristales eran utilizados como acumuladores de poder en los antiguos dispositivos del Corazón, diseñados para almacenar, liberar y amplificar energía mágica. <br><br><strong>Mecánica</strong><br><strong>Cargas:</strong> 3. Recupera <u>1d3</u> cargas al amanecer. <br><br><strong>Usos</strong><br>• <strong>1 carga:</strong> lanzar un conjuro de <u>1.er nivel</u> sin gastar ranura.<br>• <strong>2 cargas:</strong> lanzar un conjuro de <u>2.º nivel</u> sin gastar ranura.<br>• <strong>3 cargas:</strong> descarga equivalente a <em>Scorching Ray</em> (3 rayos de <u>2d6</u> de daño de fuego). <br><br><strong>Corruptibilidad</strong><br>• <u>+1 MC</u> por cada uso ofensivo o de manipulación mental.<br>• Si se vacían todas las cargas en menos de 10 minutos: <u>+2 MC</u>. <br><br><strong>Identificación</strong><br><em>Arcana CD 16</em>. <br><br><strong>Destrucción</strong><br>Romperlo con más de <u>30 puntos de daño contundente</u> lo neutraliza, liberando <u>4d6</u> de energía elemental (<em>CON CD 15, mitad con éxito</em>). <br><br><strong>Uso en mecanismos</strong><br>Al insertarlo en un receptáculo, aumenta drásticamente la potencia del artefacto: por ejemplo, un puente que se abría 3 m puede abrirse 9 m y activar guardianes antiguos.",
             "properties": [],
             "cost": {
                 "quantity": 0,
@@ -361,9 +348,7 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [
-                "Pequeño pedazo de cristal similar al hielo claro que pulsa con una luz interna tenue. Son restos del banco del Corazón, un artefacto energético aeloriano que alimentaba el templo. \n Mecánica: \n Usar (acción): consume el fragmento. \n Efecto (elige uno): \n Recarga menor: restaura una ranura de conjuro de 1.er nivel (no rituales). \n Pulso vital: otorga 2d6 PV temporales a una criatura y cura 1d4 adicionales si se usa dentro del templo. \n Corruptibilidad: +1 al marcador de corrupción (MC) si se activa tras derramar sangre o se consumen varios fragmentos en una misma escena. \n Identificación: DC 12 Arcana (o Identify). \n Destrucción: aplastarlo (Fuerza DC 10) libera un pulso de 1d6 de daño radiante en un cono de 3 m, sin dañar objetos mágicos. \n Uso en puzzles/artefactos: 3 fragmentos insertados en receptáculos del Corazón activan mecanismos menores como puertas, puentes o plataformas antiguas."
-            ],
+            "description": "Pequeño fragmento de cristal translúcido, similar al hielo claro, que pulsa con una luz interna tenue y constante. Son restos del banco energético del Corazón, un artefacto aeloriano que alimentaba el templo y sus mecanismos internos. <br><br><strong>Mecánica</strong><br><strong>Usar:</strong> acción. El fragmento se consume. <br><br><strong>Efecto (elige uno)</strong><br>• <strong>Recarga menor:</strong> restaura una ranura de conjuro de <u>1.er nivel</u> (no rituales).<br>• <strong>Pulso vital:</strong> otorga <u>2d6</u> puntos de golpe temporales a una criatura y cura <u>1d4</u> adicionales si se usa dentro del templo. <br><br><strong>Corruptibilidad</strong><br>• <u>+1 MC</u> si se activa tras derramar sangre o si se consumen varios fragmentos en una misma escena. <br><br><strong>Identificación</strong><br><em>Arcana CD 12</em> o <em>Identificar</em>. <br><br><strong>Destrucción</strong><br>Aplastarlo (<em>Fuerza CD 10</em>) libera un pulso de <u>1d6</u> de daño radiante en un cono de 3 m, sin dañar objetos mágicos. <br><br><strong>Uso en puzzles o artefactos</strong><br>Tres fragmentos insertados en receptáculos del Corazón activan mecanismos menores como puertas, puentes o plataformas antiguas.",
             "properties": [],
             "cost": {
                 "quantity": 0,
@@ -385,7 +370,7 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [],
+            "description": "Este cristal de color carmesí profundo parece absorber la luz en lugar de reflejarla. Su superficie late lentamente, como si contuviera algo vivo en su interior, y al sostenerlo se percibe un calor inquietante acompañado de una presión sutil en la mente. <br><br> Los Cristales Carmesí no formaban parte del diseño original del Corazón: son el resultado de experimentos prohibidos que canalizaban energía vital, dolor y memoria hacia una forma sólida. Su sola presencia altera el entorno arcano, y los estudiosos coinciden en que no se trata solo de un acumulador de poder, sino de un <em>ancla</em> para fuerzas que no deberían ser fijadas. <br><br> Quienes los manipulan durante demasiado tiempo suelen describir sueños repetitivos, ecos de pensamientos ajenos y una sensación persistente de urgencia o hambre mágica. Incluso inactivos, estos cristales son considerados reliquias extremadamente peligrosas.",
             "properties": [],
             "cost": {
                 "quantity": 0,
@@ -407,7 +392,7 @@
                 "index": "wondrous-item",
                 "name": "wondrous-item"
             },
-            "description": [],
+            "description": "Este amuleto de diseño sobrio porta un símbolo arcano grabado con precisión geométrica, pensado no para amplificar el poder bruto, sino para ordenar y clarificar el pensamiento mágico. Es un instrumento común entre magos eruditos, investigadores arcanos y aprendices avanzados. <br><br> Mientras lo llevas puesto, obtienes un <u>bonificador de +2 a las pruebas de Arcana</u>, como si el amuleto ayudara a estabilizar conceptos, recordar fórmulas y reconocer patrones mágicos complejos. <br><br> El amuleto no emite energía perceptible ni interfiere con otros efectos mágicos, funcionando como una ayuda constante y silenciosa para la mente entrenada.",
             "properties": [],
             "cost": {
                 "quantity": 0,
