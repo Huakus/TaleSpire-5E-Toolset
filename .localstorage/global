@@ -410,43 +410,19 @@
         "Forja del Constructo Vinculado": {
             "name": "Forja del Constructo Vinculado",
             "desc": "Mediante un ritual prolongado, ensamblas y animas un constructo inerte, vinculando su núcleo arcano a tu voluntad. Durante el lanzamiento, debes disponer físicamente de todos los componentes del constructo y trabajar sobre ellos, trazando runas de enlace y estabilización. \n\nAl completar el ritual, el constructo queda animado y obedece tus órdenes simples, siempre que permanezca dentro de los límites impuestos por su diseño y el vínculo creado. El conjuro no crea inteligencia verdadera: el constructo ejecuta instrucciones literales y carece de voluntad propia.\n\nLa creación de un constructo es un acto intrusivo sobre las fuerzas fundamentales del Corazón. Cada uso de este ritual conlleva un riesgo de corrupción, especialmente si se emplean cristales de reserva o lucientes como fuente energética.",
-            "higher_level": "Cuando se lanza usando un espacio de conjuro de nivel superior, el ritual permite reforzar el cuerpo del constructo o prolongar la estabilidad de su núcleo, a discreción del DM. Estos beneficios nunca eliminan el riesgo de corrupción.",
-            "material": "Un Corazón de constructo, 25 Cristales de reserva y 25 Cristales lucientes, además de herramientas de orfebrería o artesano apropiadas. Todos los componentes se consumen durante el ritual.",
             "range": "Toque",
             "components": "V, S, M",
+            "material": "Un Corazón de constructo, 25 Cristales de reserva y 25 Cristales lucientes, además de herramientas de orfebrería o artesano apropiadas. Todos los componentes se consumen durante el ritual.",
             "ritual": ", R",
-            "duration": "Instantánea (animación permanente mientras el constructo exista)",
+            "duration": "Permanente",
             "concentration": "no",
             "casting_time": "8 horas",
             "level": "2nd-level",
             "school": "Transmutation",
-            "class": "Mago, Clérigo",
-            "toHitOrDC": "DC",
-            "damage_dice": "",
-            "damage_dice_upcast": "",
+            "class": "Clerigo, Lanzador de rituales, Mago",
+            "higher_level": "",
             "spell_save_dc_type": "",
-            "ability_modifier": "no",
-            "damage_type_01": ""
-        },
-        {
-            "Forja del Constructo Vinculado2": {
-                "name": "Apacible descanso",
-                "desc": "Tocas un cadáver u otros restos. Mientras dure el conjuro, el objetivo está protegido de la descomposición y no puede convertirse en no muerto. El conjuro también prolonga el tiempo límite en que el objetivo podrá ser devuelto a la vida, dado que los días que pasa bajo la influencia de este conjuro no se tienen en cuenta para el límite de tiempo posible para usar sobre él conjuros como Revivir a los muertos.",
-                "page": "phb 245",
-                "range": "Toque",
-                "components": "V, S, M",
-                "material": "Una pizca de sal y dos monedas de cobre que colocar en sendos ojos del cadáver, las cuales deben permanecer ahí mientras dure el conjuro",
-                "ritual": ", R",
-                "duration": "10 dias",
-                "concentration": "no",
-                "casting_time": "1A",
-                "level": "2nd-level",
-                "school": "Necromancia",
-                "class": "Clerigo, Lanzador de rituales, Mago",
-                "higher_level": "",
-                "spell_save_dc_type": "",
-                "ability_modifier": "no"
-            }
+            "ability_modifier": "no"
         }
     },
     "effectsSection": {
