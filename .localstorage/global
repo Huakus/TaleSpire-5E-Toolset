@@ -426,7 +426,7 @@
             "damage_dice_upcast": "",
             "spell_save_dc_type": "",
             "ability_modifier": "no",
-            "damage_type_01": "na"
+            "damage_type_01": ""
         }
     },
     "effectsSection": {

@@ -616,22 +616,6 @@
                         "weight": 0.1,
                         "cost": "1500 gp",
                         "equipped": false
-                    },
-                    {
-                        "name": "Pergamino Mágico: Marchitar",
-                        "uniqueId": "item-1770657164877-640f3c0e",
-                        "quantity": 1,
-                        "weight": 0.1,
-                        "cost": "0 gp",
-                        "useable": true
-                    },
-                    {
-                        "name": "Pergamino Mágico: Hablar con los muertos",
-                        "uniqueId": "item-1770657176585-9d62b19e",
-                        "quantity": 1,
-                        "weight": 0.1,
-                        "cost": "0 gp",
-                        "useable": true
                     }
                 ],
                 "other-possessions": [],
