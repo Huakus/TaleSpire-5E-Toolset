@@ -414,7 +414,7 @@
             "material": "Un Corazón de constructo, 25 Cristales de reserva y 25 Cristales lucientes, además de herramientas de orfebrería o artesano apropiadas. Todos los componentes se consumen durante el ritual.",
             "range": "Toque",
             "components": "V, S, M",
-            "ritual": "yes",
+            "ritual": ", R",
             "duration": "Instantánea (animación permanente mientras el constructo exista)",
             "concentration": "no",
             "casting_time": "8 horas",
