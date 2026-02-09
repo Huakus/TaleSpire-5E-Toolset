@@ -297,6 +297,42 @@
                     "description": ""
                 }
             ]
+        },
+        "Capa de Carisma +1": {
+            "index": "capa-de-carisma-1",
+            "name": "Capa de Carisma +1",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "Objeto maravilloso",
+                "url": "/api/equipment-categories/wondrous-item"
+            },
+            "gear_category": {
+                "index": "magical-accessory",
+                "name": "Accesorio mágico",
+                "url": "/api/equipment-categories/magical-accessory"
+            },
+            "description": "Una capa elegante y sorprendentemente liviana, tejida con hilos que parecen captar la luz y devolverla como un brillo sutil en el borde de la tela. Cuando se la lleva puesta, su caída y su presencia amplifican la intención del portador: cada palabra suena un poco más convincente, cada gesto un poco más seguro. <br><br><strong>Efecto</strong><br>Mientras estés vinculado a esta capa, tu puntuación de <strong>Carisma</strong> aumenta en <strong>+1</strong>, hasta un máximo de <strong>20</strong>. <br><br><strong>Impacto en conjuros</strong><br>Este aumento de Carisma también mejora tu <em>CD de salvación de conjuros</em> y tus <em>tiradas de ataque de conjuro</em> si tu clase lanza conjuros usando Carisma. <br><br><em>Encaja especialmente con:</em> pactos feéricos, seducción, dominio social y manipulación sutil.",
+            "properties": [],
+            "cost": {
+                "quantity": 0,
+                "unit": "cp"
+            },
+            "weight": 1,
+            "rarity": {
+                "index": "rare",
+                "name": "Raro"
+            },
+            "bonus": [
+                {
+                    "category": "abilityScores",
+                    "key": "CHA",
+                    "value": 1,
+                    "description": "Carisma +1 (máx. 20)."
+                }
+            ],
+            "requires_attunement": true,
+            "hasCharges": false,
+            "chargesOptions": null
         }
     },
     "npcList": {

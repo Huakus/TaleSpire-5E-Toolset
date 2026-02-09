@@ -10238,42 +10238,6 @@
     }
   },
   {
-    "index": "ring-of-mind-shielding",
-    "name": "Anillo de Protección Mental",
-    "equipment_category": {
-      "index": "wondrous-item",
-      "name": "Objeto Maravilloso",
-      "url": "/api/equipment-categories/wondrous-item"
-    },
-    "gear_category": {
-      "index": "magical-accessory",
-      "name": "Accesorio Mágico",
-      "url": "/api/equipment-categories/magical-accessory"
-    },
-    "description": [
-      "Mientras uses este anillo, eres inmune a la magia que permite que otras criaturas lean tus pensamientos, determinen si estás mintiendo, conozcan tu alineamiento o conozcan tu tipo de criatura. Las criaturas pueden comunicarse telepáticamente contigo solo si se lo permites.",
-      "<br><br>Puedes usar una acción para hacer que el anillo se vuelva invisible hasta que uses otra acción para hacerlo visible, hasta que quites el anillo o hasta que mueras.",
-      "<br><br>Si mueres mientras llevas el anillo, tu alma entrará en él, a menos que ya contenga un alma. Puedes permanecer en el anillo o partir hacia el más allá. Mientras tu alma esté en el anillo, puedes comunicarte telepáticamente con cualquier criatura que lo lleve. El portador no puede impedir esta comunicación telepática.<br>"
-    ],
-    "properties": [
-      {
-        "index": "attunement",
-        "name": "Requiere Sintonización",
-        "url": "/api/item-properties/attunement"
-      }
-    ],
-    "cost": {
-      "quantity": 2000,
-      "unit": "gp"
-    },
-    "weight": 0.2,
-    "rarity": {
-      "index": "uncommon",
-      "name": "Poco Común",
-      "url": "/api/item-rarity/uncommon"
-    }
-  },
-  {
     "index": "ring-of-protection",
     "name": "Anillo de Protección",
     "equipment_category": {

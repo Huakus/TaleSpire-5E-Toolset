@@ -538,6 +538,96 @@
                         "quantity": 750,
                         "weight": 0,
                         "cost": "1 gp"
+                    },
+                    {
+                        "name": "Capa de Carisma +1",
+                        "uniqueId": "item-1770655850098-0f2b4464",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "0 cp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Anillo de Protección Mental",
+                        "uniqueId": "item-1770655938119-24784581",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Tomo De Entendimiento",
+                        "uniqueId": "item-1770656318996-fe71d20d",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "1200 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Diadema De Intelecto",
+                        "uniqueId": "item-1770656329934-405f952c",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "1500 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Bastón del marchitamiento",
+                        "uniqueId": "item-1770656392205-62b58bb9",
+                        "quantity": 1,
+                        "weight": 0.2,
+                        "cost": "2000 gp",
+                        "equipped": false,
+                        "currentCharges": 3
+                    },
+                    {
+                        "name": "Amuleto de Salud",
+                        "uniqueId": "item-1770656498526-fd26c9bf",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "1500 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Perla De Poder",
+                        "uniqueId": "item-1770656586227-1c3b7d07",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "1200 gp",
+                        "equipped": false,
+                        "currentCharges": 1
+                    },
+                    {
+                        "name": "Poción de mayor curación",
+                        "uniqueId": "item-1770656703279-5513d168",
+                        "quantity": 2,
+                        "weight": 1,
+                        "cost": "100 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Polvo De Desaparición",
+                        "uniqueId": "item-1770656747258-36022cfe",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "1500 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Pergamino Mágico: Marchitar",
+                        "uniqueId": "item-1770657164877-640f3c0e",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "0 gp",
+                        "useable": true
+                    },
+                    {
+                        "name": "Pergamino Mágico: Hablar con los muertos",
+                        "uniqueId": "item-1770657176585-9d62b19e",
+                        "quantity": 1,
+                        "weight": 0.1,
+                        "cost": "0 gp",
+                        "useable": true
                     }
                 ],
                 "other-possessions": [],
