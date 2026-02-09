@@ -2982,7 +2982,7 @@
                         }
                     ],
                     "slots": [
-                        true
+                        false
                     ]
                 },
                 "5th-level": {
