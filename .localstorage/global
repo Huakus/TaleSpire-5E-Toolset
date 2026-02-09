@@ -73,9 +73,9 @@
             },
             "url": "/api/equipment/quarterstaff"
         },
-        "Gema Rota": {
-            "index": "gem-broken",
-            "name": "Gema Rota",
+        "Joyas": {
+            "index": "jewlery",
+            "name": "Joyas",
             "equipment_category": {
                 "index": "adventuring-gear",
                 "name": "Equipo de aventuras",
@@ -87,129 +87,13 @@
                 "url": "/api/equipment-categories/treasure"
             },
             "cost": {
-                "quantity": 10,
+                "quantity": 1,
                 "unit": "gp"
             },
             "weight": 0,
             "description": [
-                "Una gema de poco valor, con imperfecciones o fragmentada. <br> Ejemplos: ágata, ojo de gato, lapislázuli, turquesa."
-            ],
-            "url": "/api/equipment/gem-broken"
-        },
-        "Gema Común": {
-            "index": "gem-common",
-            "name": "Gema Común",
-            "equipment_category": {
-                "index": "adventuring-gear",
-                "name": "Equipo de aventuras",
-                "url": "/api/equipment-categories/adventuring-gear"
-            },
-            "gear_category": {
-                "index": "treasure",
-                "name": "Tesoro",
-                "url": "/api/equipment-categories/treasure"
-            },
-            "cost": {
-                "quantity": 50,
-                "unit": "gp"
-            },
-            "weight": 0,
-            "description": [
-                "Una gema de buena calidad, pero frecuente en el comercio. Ejemplos: amatista, granate, jade, perla, turmalina."
-            ],
-            "url": "/api/equipment/gem-common"
-        },
-        "Gema Opaca": {
-            "index": "gem-dull",
-            "name": "Gema Opaca",
-            "equipment_category": {
-                "index": "adventuring-gear",
-                "name": "Equipo de aventuras",
-                "url": "/api/equipment-categories/adventuring-gear"
-            },
-            "gear_category": {
-                "index": "treasure",
-                "name": "Tesoro",
-                "url": "/api/equipment-categories/treasure"
-            },
-            "cost": {
-                "quantity": 100,
-                "unit": "gp"
-            },
-            "weight": 0,
-            "description": [
-                "Una gema llamativa, con brillo tenue o particular. Ejemplos: ópalo, ópalo de fuego, peridoto, topacio."
-            ],
-            "url": "/api/equipment/gem-dull"
-        },
-        "Gema Brillante": {
-            "index": "gem-bright",
-            "name": "Gema Brillante",
-            "equipment_category": {
-                "index": "adventuring-gear",
-                "name": "Equipo de aventuras",
-                "url": "/api/equipment-categories/adventuring-gear"
-            },
-            "gear_category": {
-                "index": "treasure",
-                "name": "Tesoro",
-                "url": "/api/equipment-categories/treasure"
-            },
-            "cost": {
-                "quantity": 500,
-                "unit": "gp"
-            },
-            "weight": 0,
-            "description": [
-                "Una gema preciosa, muy apreciada por su pureza y brillo. Ejemplos: esmeralda, zafiro, rubí."
-            ],
-            "url": "/api/equipment/gem-bright"
-        },
-        "Gema Radiante": {
-            "index": "gem-radiant",
-            "name": "Gema Radiante",
-            "equipment_category": {
-                "index": "adventuring-gear",
-                "name": "Equipo de aventuras",
-                "url": "/api/equipment-categories/adventuring-gear"
-            },
-            "gear_category": {
-                "index": "treasure",
-                "name": "Tesoro",
-                "url": "/api/equipment-categories/treasure"
-            },
-            "cost": {
-                "quantity": 1000,
-                "unit": "gp"
-            },
-            "weight": 0,
-            "description": [
-                "Una gema excepcional, de rareza considerable. Ejemplos: diamante, zafiro azul fino, rubí de sangre."
-            ],
-            "url": "/api/equipment/gem-radiant"
-        },
-        "Gema Legendaria": {
-            "index": "gem-legendary",
-            "name": "Gema Legendaria",
-            "equipment_category": {
-                "index": "adventuring-gear",
-                "name": "Equipo de aventuras",
-                "url": "/api/equipment-categories/adventuring-gear"
-            },
-            "gear_category": {
-                "index": "treasure",
-                "name": "Tesoro",
-                "url": "/api/equipment-categories/treasure"
-            },
-            "cost": {
-                "quantity": 5000,
-                "unit": "gp"
-            },
-            "weight": 0,
-            "description": [
-                "Una gema de belleza única, prácticamente mítica. Ejemplos: diamante excepcional, zafiro estelar, rubí estrella."
-            ],
-            "url": "/api/equipment/gem-legendary"
+                "Joyas."
+            ]
         },
         "Varita de Armadura de Mago": {
             "index": "wand-of-mage-armor",
