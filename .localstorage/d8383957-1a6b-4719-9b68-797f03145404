@@ -130,7 +130,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "INT",
-                "spelllevelselected": "5",
+                "spelllevelselected": "4",
                 "Cantrip": {
                     "spells": [
                         {
