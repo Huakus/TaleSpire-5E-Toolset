@@ -531,6 +531,13 @@
                         "quantity": 1,
                         "weight": 0,
                         "cost": "0 cp"
+                    },
+                    {
+                        "name": "Joyas",
+                        "uniqueId": "item-1770654499487-a346de3e",
+                        "quantity": 750,
+                        "weight": 0,
+                        "cost": "1 gp"
                     }
                 ],
                 "other-possessions": [],
