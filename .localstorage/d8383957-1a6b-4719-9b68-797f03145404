@@ -807,28 +807,6 @@
                             "noteContent": "Indicios de cómo armar/servirse de constructos (p.ej., 1 Corazón de constructo + 25 Cristales de reserva + 25 Cristales lucientes). Usar con extrema cautela; riesgo de corrupción."
                         }
                     ]
-                },
-                {
-                    "group-title": "Reino del Sur — frente urbano",
-                    "group-chevron": false,
-                    "notes": [
-                        {
-                            "noteTitle": "Panorama del distrito",
-                            "noteContent": "Posada de los Herreros (Arnaldo), taller (Hugo), Plaza Seca (mercenarios sin gremio), Cuenco de Carbón (taberna incendiada durante el operativo)."
-                        },
-                        {
-                            "noteTitle": "Evento en la taberna",
-                            "noteContent": "Petro asesinó al dueño de la forja; Eladio y Gregorio secuestraron al sobrino y escaparon. Petro quedó preso; ofrece cooperación a cambio de libertad."
-                        },
-                        {
-                            "noteTitle": "Zafir (tiefling)",
-                            "noteContent": "Intermediario capaz de falsificar pase a la ciudad alta. Mantener relación funcional (Ernesto lo registra como «Zephyr»)."
-                        },
-                        {
-                            "noteTitle": "El tomy",
-                            "noteContent": "- Era un aventurero famoso y mató a un noble en el reino del este.\n- Tiene mucho dinero escondido en el reino del este por que no se lo pudo traer."
-                        }
-                    ]
                 }
             ],
             "extrasData": [
