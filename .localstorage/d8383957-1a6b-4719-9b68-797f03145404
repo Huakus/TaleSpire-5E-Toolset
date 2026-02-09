@@ -287,6 +287,10 @@
                         {
                             "name": "Aura mágica del arcano",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Forja del Constructo Vinculado",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
