@@ -420,13 +420,33 @@
             "casting_time": "8 horas",
             "level": "2nd-level",
             "school": "Transmutation",
-            "class": "Mago, Artífice (si existe en la campaña)",
+            "class": "Mago, Clérigo",
             "toHitOrDC": "DC",
             "damage_dice": "",
             "damage_dice_upcast": "",
             "spell_save_dc_type": "",
             "ability_modifier": "no",
             "damage_type_01": ""
+        },
+        {
+            "Forja del Constructo Vinculado2": {
+                "name": "Apacible descanso",
+                "desc": "Tocas un cadáver u otros restos. Mientras dure el conjuro, el objetivo está protegido de la descomposición y no puede convertirse en no muerto. El conjuro también prolonga el tiempo límite en que el objetivo podrá ser devuelto a la vida, dado que los días que pasa bajo la influencia de este conjuro no se tienen en cuenta para el límite de tiempo posible para usar sobre él conjuros como Revivir a los muertos.",
+                "page": "phb 245",
+                "range": "Toque",
+                "components": "V, S, M",
+                "material": "Una pizca de sal y dos monedas de cobre que colocar en sendos ojos del cadáver, las cuales deben permanecer ahí mientras dure el conjuro",
+                "ritual": ", R",
+                "duration": "10 dias",
+                "concentration": "no",
+                "casting_time": "1A",
+                "level": "2nd-level",
+                "school": "Necromancia",
+                "class": "Clerigo, Lanzador de rituales, Mago",
+                "higher_level": "",
+                "spell_save_dc_type": "",
+                "ability_modifier": "no"
+            }
         }
     },
     "effectsSection": {
