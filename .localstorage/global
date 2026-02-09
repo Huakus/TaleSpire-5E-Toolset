@@ -407,22 +407,39 @@
         }
     },
     "Custom Spells": {
-        "Forja del Constructo Vinculado": {
-            "name": "Forja del Constructo Vinculado",
-            "desc": "Mediante un ritual prolongado, ensamblas y animas un constructo inerte, vinculando su núcleo arcano a tu voluntad. Durante el lanzamiento, debes disponer físicamente de todos los componentes del constructo y trabajar sobre ellos, trazando runas de enlace y estabilización. \n\nAl completar el ritual, el constructo queda animado y obedece tus órdenes simples, siempre que permanezca dentro de los límites impuestos por su diseño y el vínculo creado. El conjuro no crea inteligencia verdadera: el constructo ejecuta instrucciones literales y carece de voluntad propia.\n\nLa creación de un constructo es un acto intrusivo sobre las fuerzas fundamentales del Corazón. Cada uso de este ritual conlleva un riesgo de corrupción, especialmente si se emplean cristales de reserva o lucientes como fuente energética.",
+        "Forjar Constructo": {
+            "name": "Forjar Constructo",
+            "desc": "Mediante un ritual especializado, ensamblas y animas un constructo inerte, vinculando su núcleo arcano a tu voluntad. Durante el lanzamiento debes disponer físicamente de todos los componentes del constructo y trabajar activamente sobre ellos, trazando runas de enlace, canales de energía y sellos de estabilización.<br><br>Al completar el ritual, el constructo queda animado y obedece órdenes simples del lanzador, siempre que estas se encuentren dentro de las capacidades de su diseño. El constructo carece de inteligencia verdadera: interpreta las órdenes de forma literal y no posee voluntad propia.<br><br>El ritual solo puede animar un constructo cuyo Nivel de Desafío sea igual o inferior al nivel del lanzador. El constructo creado utiliza el bloque de estadísticas oficial correspondiente a su tipo (piedra, arcilla, hierro o carne), sin modificaciones a sus características base.<br><br>La animación de un constructo es una intrusión directa sobre los mecanismos fundamentales del Corazón. Cada uso de este ritual implica riesgo de corrupción, el cual aumenta si se fuerza el núcleo energético o se emplea el constructo con fines violentos o de control mental.",
             "range": "Toque",
             "components": "V, S, M",
-            "material": "Un Corazón de constructo, 25 Cristales de reserva y 25 Cristales lucientes, además de herramientas de orfebrería o artesano apropiadas. Todos los componentes se consumen durante el ritual.",
+            "material": "Un Corazón de constructo, 25 Cristales de reserva y 25 Cristales lucientes, además de los materiales en los que se basa el constructo. Todos los componentes se consumen durante el ritual.",
+            "ritual": ", R",
+            "duration": "Permanente (mientras el constructo exista)",
+            "concentration": "no",
+            "casting_time": "1 hora",
+            "level": "3rd-level",
+            "school": "Transmutation",
+            "class": "Clérigo, Mago, Lanzador de rituales",
+            "spell_save_dc_type": "",
+            "ability_modifier": "no",
+            "higher_level": ""
+        },
+        "Transferir Eco": {
+            "name": "Transferir Eco",
+            "desc": "Mediante un ritual arcano nigromante, extraes el Eco residual de un cadáver y lo inoculas en otro ser, vivo o muerto. <br> El Eco no es el alma ni la identidad del difunto, sino una impronta funcional compuesta por intención, hábitos y direcciones mentales persistentes.<br><br>Durante el ritual, el cadáver original es dispuesto en una cámara de extracción y atravesado por cristales lucientes y de reserva colocados en puntos específicos del cuerpo. Al completarse el proceso, el cadáver queda completamente reseco e inutilizable.<br><br>El receptor del Eco incorpora fragmentos de capacidades acordes a la función vital del difunto —habilidades entrenadas, reflejos, rutinas, vicios— junto con recuerdos significativos alojados en una capa profunda e involuntaria del subconsciente. Estos recuerdos pueden evocarse mediante estimulación externa y suelen manifestarse como impulsos, frases recurrentes, imágenes rígidas o respuestas automáticas.<br><br>El receptor no adquiere la personalidad ni la identidad del difunto, sino una serie de patrones mentales y conductuales que pueden influir en su comportamiento.",
+            "range": "Toque",
+            "components": "V, S, M",
+            "material": "Un cadáver, cristales lucientes y cristales de reserva dispuestos como focos de anclaje, y un círculo ritual grabado o trazado con precisión. Todos los cristales utilizados se consumen durante el ritual.",
             "ritual": ", R",
             "duration": "Permanente",
             "concentration": "no",
-            "casting_time": "8 horas",
-            "level": "2nd-level",
-            "school": "Transmutation",
-            "class": "Clerigo, Lanzador de rituales, Mago",
-            "higher_level": "",
+            "casting_time": "1 hora",
+            "level": "4th-level",
+            "school": "Necromancy",
+            "class": "Mago, Lanzador de rituales",
             "spell_save_dc_type": "",
-            "ability_modifier": "no"
+            "ability_modifier": "no",
+            "higher_level": ""
         }
     },
     "effectsSection": {
