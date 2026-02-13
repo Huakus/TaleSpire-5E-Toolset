@@ -3087,6 +3087,14 @@
                         {
                             "name": "Consagrar",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Amanecer",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Arma sagrada",
+                            "prepared": "0"
                         }
                     ],
                     "slots": []
