@@ -1157,7 +1157,7 @@
         "class": "Clérigo, Druida",
         "higher_level": "",
         "toHitOrDC": "toHit",
-        "spell_save_dc_type": "con",
+        "spell_save_dc_type": "",
         "ability_modifier": "no"
     },
     {

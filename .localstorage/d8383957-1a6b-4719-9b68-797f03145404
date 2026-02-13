@@ -2709,7 +2709,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "WIS",
-                "spelllevelselected": "4",
+                "spelllevelselected": "5",
                 "Cantrip": {
                     "spells": [
                         {
@@ -3035,7 +3035,60 @@
                     ]
                 },
                 "5th-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Comunión",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Conocer las leyendas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Contagio",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Curar heridas en masa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Golpe flamígero",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Disipar el bien y el mal",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Escudriñamiento",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Geas",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Atadura planar",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Plaga de insectos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Restablecimiento mayor",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Revivir a los muertos",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Consagrar",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": []
                 },
                 "6th-level": {
