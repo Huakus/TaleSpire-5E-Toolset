@@ -1444,6 +1444,10 @@
                 {
                     "text": "Bendecir",
                     "value": "bless"
+                },
+                {
+                    "text": "Envenenado",
+                    "value": "poisoned"
                 }
             ],
             "coins": {
