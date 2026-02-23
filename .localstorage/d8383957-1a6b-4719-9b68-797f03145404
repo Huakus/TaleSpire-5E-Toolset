@@ -939,7 +939,7 @@
                 "Herramientas de Ladrón"
             ],
             "initiativeButton": "+5",
-            "AC": "17",
+            "AC": "19",
             "speed": "30ft.",
             "characterLevel": "8",
             "playerXP": "34000",
@@ -1000,6 +1000,10 @@
                 {
                     "text": "Bendecir",
                     "value": "bless"
+                },
+                {
+                    "text": "Prisa",
+                    "value": "haste"
                 }
             ],
             "coins": {
