@@ -353,7 +353,7 @@
                     ],
                     "slots": [
                         true,
-                        false,
+                        true,
                         false
                     ]
                 },
