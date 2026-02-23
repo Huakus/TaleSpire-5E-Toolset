@@ -1388,7 +1388,7 @@
             "characterLevel": "8",
             "playerXP": "36690",
             "playerClass": "Semielfa Bruja\n(Archihada - Ermitaña - [pacto])",
-            "currentCharacterHP": "25",
+            "currentCharacterHP": "34",
             "maxCharacterHP": "61",
             "strengthScore": "8",
             "dexterityScore": "16",
@@ -1873,8 +1873,8 @@
                     {
                         "name": "Poción de curación",
                         "uniqueId": "item-1756666284136-db46bf3d",
-                        "quantity": 4,
-                        "weight": 2,
+                        "quantity": 2,
+                        "weight": 1,
                         "cost": "50 gp",
                         "useable": true
                     },
