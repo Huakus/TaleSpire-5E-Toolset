@@ -907,6 +907,12 @@
                     "currentHp": "178",
                     "maxHp": "178",
                     "tempHp": "0"
+                },
+                {
+                    "name": "Ettercap (A)",
+                    "currentHp": "44",
+                    "maxHp": "44",
+                    "tempHp": "0"
                 }
             ]
         },
