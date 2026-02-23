@@ -369,7 +369,7 @@
                         }
                     ],
                     "slots": [
-                        true,
+                        false,
                         false
                     ]
                 },
