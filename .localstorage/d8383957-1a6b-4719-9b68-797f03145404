@@ -1440,16 +1440,7 @@
             "pb-22": 0,
             "pb-23": 1,
             "pb-24": 1,
-            "conditions": [
-                {
-                    "text": "Bendecir",
-                    "value": "bless"
-                },
-                {
-                    "text": "Envenenado",
-                    "value": "poisoned"
-                }
-            ],
+            "conditions": [],
             "coins": {
                 "cp": 45,
                 "sp": 0,
