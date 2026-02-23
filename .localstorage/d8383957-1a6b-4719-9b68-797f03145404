@@ -2815,10 +2815,10 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
-                        true,
-                        true
+                        false,
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "2nd-level": {
@@ -2893,8 +2893,8 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
+                        false,
+                        false,
                         false
                     ]
                 },
