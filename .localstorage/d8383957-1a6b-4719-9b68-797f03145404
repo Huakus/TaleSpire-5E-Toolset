@@ -2717,6 +2717,31 @@
                             "other": false
                         }
                     }
+                },
+                {
+                    "5": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Daga",
+                        "itemId": "item-1771812772549-10d24aa0",
+                        "thirdColumn": "5ft - 20/60ft",
+                        "fourthColumn": "+2",
+                        "fifthColumn": "1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Sutil, Ligera, Arrojadiza, Monk",
+                        "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
                 }
             ],
             "spellData": {
@@ -3136,6 +3161,14 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "1050 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-1771812772549-10d24aa0",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "2 gp",
                         "equipped": true
                     }
                 ],
