@@ -1142,10 +1142,6 @@
                         {
                             "name": "Hechizar persona",
                             "prepared": "0"
-                        },
-                        {
-                            "name": "Falsa vida",
-                            "prepared": "0"
                         }
                     ],
                     "slots": [
