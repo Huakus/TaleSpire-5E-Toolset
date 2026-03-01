@@ -1142,6 +1142,10 @@
                         {
                             "name": "Hechizar persona",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Causar miedo",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
