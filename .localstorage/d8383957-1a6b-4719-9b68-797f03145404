@@ -1061,7 +1061,7 @@
                         "secondColumn": "Sneak Attack (Melee)",
                         "thirdColumn": "5ft",
                         "fourthColumn": "+11",
-                        "fifthColumn": "4d6",
+                        "fifthColumn": "5d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "DES",
                         "weaponType": "Cuerpo a cuerpo",
