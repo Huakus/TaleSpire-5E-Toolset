@@ -939,10 +939,10 @@
                 "Herramientas de Ladrón"
             ],
             "initiativeButton": "+5",
-            "AC": "19",
+            "AC": "17",
             "speed": "30ft.",
-            "characterLevel": "8",
-            "playerXP": "47555",
+            "characterLevel": "9",
+            "playerXP": "49873",
             "playerClass": "Kobold Rogue",
             "currentCharacterHP": "59",
             "maxCharacterHP": "59",
@@ -998,10 +998,6 @@
             "pb-24": 0,
             "conditions": [
                 {
-                    "text": "Prisa",
-                    "value": "haste"
-                },
-                {
                     "text": "Bendecir",
                     "value": "bless"
                 }
@@ -1020,7 +1016,7 @@
                         "proficiencyButton": "1",
                         "secondColumn": "Sneak Attack (Ranged)",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "+8",
+                        "fourthColumn": "+9",
                         "fifthColumn": "4d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "DES",
@@ -1045,7 +1041,7 @@
                         "secondColumn": "Shortbow",
                         "itemId": "item-1746239860521-0b3033f4",
                         "thirdColumn": "80ft/320ft",
-                        "fourthColumn": "+8",
+                        "fourthColumn": "+9",
                         "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "DES",
@@ -1069,7 +1065,7 @@
                         "proficiencyButton": "1",
                         "secondColumn": "Sneak Attack (Melee)",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "+10",
+                        "fourthColumn": "+11",
                         "fifthColumn": "4d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "DES",
@@ -1094,7 +1090,7 @@
                         "secondColumn": "Espada Corta Viciosa",
                         "itemId": "item-1758855277512-d92f8eb9",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "+10",
+                        "fourthColumn": "+11",
                         "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "DES",
