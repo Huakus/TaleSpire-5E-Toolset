@@ -1164,6 +1164,10 @@
                         {
                             "name": "Sugestión",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Piel de corteza",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
