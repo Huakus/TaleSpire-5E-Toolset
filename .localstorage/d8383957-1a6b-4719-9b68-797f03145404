@@ -352,9 +352,9 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
-                        true
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "4th-level": {
@@ -369,8 +369,8 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true
+                        false,
+                        false
                     ]
                 },
                 "5th-level": {
