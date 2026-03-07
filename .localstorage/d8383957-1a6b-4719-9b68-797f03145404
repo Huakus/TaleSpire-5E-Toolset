@@ -3057,7 +3057,7 @@
                         }
                     ],
                     "slots": [
-                        false
+                        true
                     ]
                 },
                 "5th-level": {
