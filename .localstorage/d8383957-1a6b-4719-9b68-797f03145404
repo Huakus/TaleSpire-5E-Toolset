@@ -2846,7 +2846,7 @@
                     ],
                     "slots": [
                         true,
-                        false,
+                        true,
                         false,
                         false
                     ]
@@ -3018,7 +3018,7 @@
                     "slots": [
                         true,
                         true,
-                        false
+                        true
                     ]
                 },
                 "4th-level": {
