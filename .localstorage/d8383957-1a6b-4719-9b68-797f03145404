@@ -2924,8 +2924,8 @@
                     ],
                     "slots": [
                         true,
-                        false,
-                        false
+                        true,
+                        true
                     ]
                 },
                 "3rd-level": {
