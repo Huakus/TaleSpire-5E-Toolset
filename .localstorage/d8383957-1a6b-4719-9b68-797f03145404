@@ -1121,6 +1121,10 @@
                         {
                             "name": "Mano de mago",
                             "prepared": "false"
+                        },
+                        {
+                            "name": "Prestidigitación",
+                            "prepared": "false"
                         }
                     ],
                     "slots": []
