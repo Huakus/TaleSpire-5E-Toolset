@@ -939,7 +939,7 @@
                 "Herramientas de Ladrón"
             ],
             "initiativeButton": "+5",
-            "AC": "17",
+            "AC": "19",
             "speed": "30ft.",
             "characterLevel": "9",
             "playerXP": "48000",
@@ -996,7 +996,12 @@
             "pb-22": 1,
             "pb-23": 0,
             "pb-24": 0,
-            "conditions": [],
+            "conditions": [
+                {
+                    "text": "Prisa",
+                    "value": "haste"
+                }
+            ],
             "coins": {
                 "cp": 50,
                 "sp": 0,
