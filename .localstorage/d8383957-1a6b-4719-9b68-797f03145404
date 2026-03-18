@@ -1555,7 +1555,7 @@
                         "seventhColumn": "FUE",
                         "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
-                        "damageBonus": "",
+                        "damageBonus": "8",
                         "tenthColumn": "Heavy, Two-Handed",
                         "elventhColumn": "A brightly Colored Maul",
                         "twelvethColumn": "",
