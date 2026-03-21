@@ -3197,7 +3197,7 @@
             "groupTraitData": [
                 {
                     "group-title": "Canalizar divinidad ",
-                    "group-chevron": true,
+                    "group-chevron": false,
                     "traits": [
                         {
                             "traitName": "Conocimiento de las Edades",
