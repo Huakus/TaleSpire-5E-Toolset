@@ -939,12 +939,12 @@
                 "Herramientas de Ladrón"
             ],
             "initiativeButton": "+5",
-            "AC": "19",
+            "AC": "17",
             "speed": "30ft.",
             "characterLevel": "9",
             "playerXP": "48000",
             "playerClass": "Kobold Rogue",
-            "currentCharacterHP": "43",
+            "currentCharacterHP": "52",
             "maxCharacterHP": "59",
             "strengthScore": "8",
             "dexterityScore": "20",
@@ -996,12 +996,7 @@
             "pb-22": 1,
             "pb-23": 0,
             "pb-24": 0,
-            "conditions": [
-                {
-                    "text": "Prisa",
-                    "value": "haste"
-                }
-            ],
+            "conditions": [],
             "coins": {
                 "cp": 50,
                 "sp": 0,
