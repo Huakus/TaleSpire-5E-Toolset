@@ -1491,7 +1491,7 @@
                     "3": {
                         "proficiencyButton": "1",
                         "secondColumn": "Eldricht blast 1",
-                        "thirdColumn": "5ft",
+                        "thirdColumn": "120ft",
                         "fourthColumn": "+9",
                         "fifthColumn": "1d10",
                         "sixthColumn": "ActionSettings",
@@ -1499,8 +1499,8 @@
                         "weaponType": "Mágico",
                         "eighthColumn": "0",
                         "damageBonus": "0",
-                        "tenthColumn": "Heavy, Two-Handed",
-                        "elventhColumn": "A brightly Colored Maul",
+                        "tenthColumn": "Eldricht blast",
+                        "elventhColumn": "Eldricht blast + Explosion agonizante + empujon repelente",
                         "twelvethColumn": "Magico",
                         "ninthColumn": {
                             "attacks": true,
@@ -1509,6 +1509,24 @@
                             "reactions": false,
                             "other": false
                         }
+                    }
+                },
+                {
+                    "4": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Maul of Fire",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+3",
+                        "fifthColumn": "2d6/1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Heavy, Two-Handed",
+                        "elventhColumn": "A brightly Colored Maul",
+                        "twelvethColumn": "",
+                        "ninthColumn": {}
                     }
                 }
             ],
