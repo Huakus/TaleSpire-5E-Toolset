@@ -1510,30 +1510,6 @@
                             "other": false
                         }
                     }
-                },
-                {
-                    "4": {
-                        "proficiencyButton": "1",
-                        "secondColumn": "Eldricht blast 2",
-                        "thirdColumn": "120ft",
-                        "fourthColumn": "+9",
-                        "fifthColumn": "2d10",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "CAR",
-                        "weaponType": "Mágico",
-                        "eighthColumn": "0",
-                        "damageBonus": "5",
-                        "tenthColumn": "Eldricht blast 2",
-                        "elventhColumn": "Eldricht blast + explosion agonizante + empujon repelente",
-                        "twelvethColumn": "Magico",
-                        "ninthColumn": {
-                            "attacks": false,
-                            "actions": false,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
                 }
             ],
             "spellData": {
