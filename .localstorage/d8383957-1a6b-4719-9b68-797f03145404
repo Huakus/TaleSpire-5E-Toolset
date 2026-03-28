@@ -1503,8 +1503,8 @@
                         "elventhColumn": "A brightly Colored Maul",
                         "twelvethColumn": "",
                         "ninthColumn": {
-                            "attacks": false,
-                            "actions": true,
+                            "attacks": true,
+                            "actions": false,
                             "bonus-actions": false,
                             "reactions": false,
                             "other": false
