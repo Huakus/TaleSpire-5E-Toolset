@@ -1525,7 +1525,7 @@
                         "damageBonus": "5",
                         "tenthColumn": "Eldricht blast 2",
                         "elventhColumn": "Eldricht blast + explosion agonizante + empujon repelente",
-                        "twelvethColumn": "",
+                        "twelvethColumn": "Magico",
                         "ninthColumn": {
                             "attacks": false,
                             "actions": false,
