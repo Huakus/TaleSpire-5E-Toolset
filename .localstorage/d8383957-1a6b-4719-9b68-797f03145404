@@ -1493,7 +1493,7 @@
                         "secondColumn": "Eldricht blast 1",
                         "thirdColumn": "5ft",
                         "fourthColumn": "+9",
-                        "fifthColumn": "2d6/1d4",
+                        "fifthColumn": "1d10",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "CAR",
                         "weaponType": "Mágico",
