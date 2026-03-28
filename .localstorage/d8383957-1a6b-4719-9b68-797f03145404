@@ -1504,7 +1504,7 @@
                         "twelvethColumn": "",
                         "ninthColumn": {
                             "attacks": true,
-                            "actions": false,
+                            "actions": true,
                             "bonus-actions": false,
                             "reactions": false,
                             "other": false
