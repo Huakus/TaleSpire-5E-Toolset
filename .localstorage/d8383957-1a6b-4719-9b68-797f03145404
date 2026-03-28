@@ -1501,7 +1501,7 @@
                         "damageBonus": "5",
                         "tenthColumn": "Heavy, Two-Handed",
                         "elventhColumn": "A brightly Colored Maul",
-                        "twelvethColumn": "",
+                        "twelvethColumn": "Magico",
                         "ninthColumn": {
                             "attacks": true,
                             "actions": true,
