@@ -1497,7 +1497,7 @@
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "CAR",
                         "weaponType": "Mágico",
-                        "eighthColumn": "",
+                        "eighthColumn": "0",
                         "damageBonus": "",
                         "tenthColumn": "Heavy, Two-Handed",
                         "elventhColumn": "A brightly Colored Maul",
