@@ -3,7 +3,7 @@
         "Delerion": {
             "characterTempHp": "0",
             "currentHitDice": "0",
-            "insp": 1,
+            "insp": 0,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
