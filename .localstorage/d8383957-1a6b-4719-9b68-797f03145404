@@ -130,7 +130,7 @@
             ],
             "spellData": {
                 "spellcastingModifier": "INT",
-                "spelllevelselected": "4",
+                "spelllevelselected": "5",
                 "Cantrip": {
                     "spells": [
                         {
@@ -290,7 +290,7 @@
                         }
                     ],
                     "slots": [
-                        true,
+                        false,
                         false,
                         false,
                         false
@@ -352,9 +352,9 @@
                         }
                     ],
                     "slots": [
-                        true,
-                        true,
-                        true
+                        false,
+                        false,
+                        false
                     ]
                 },
                 "4th-level": {
