@@ -375,7 +375,9 @@
                 },
                 "5th-level": {
                     "spells": [],
-                    "slots": []
+                    "slots": [
+                        false
+                    ]
                 },
                 "6th-level": {
                     "spells": [],
