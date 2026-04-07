@@ -4,7 +4,7 @@
             "characterTempHp": "0",
             "currentHitDice": "0",
             "insp": 0,
-            "upcastToggle": 1,
+            "upcastToggle": 0,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
                 "Arma Simple",
@@ -37,11 +37,11 @@
             "initiativeButton": "+2",
             "AC": "15",
             "speed": "30ft.",
-            "characterLevel": "8",
-            "playerXP": "46240",
-            "playerClass": "Mago",
+            "characterLevel": "9",
+            "playerXP": "48840",
+            "playerClass": "Mago Nigromante Ermitaño",
             "currentCharacterHP": "32",
-            "maxCharacterHP": "50",
+            "maxCharacterHP": "56",
             "strengthScore": "9",
             "dexterityScore": "14",
             "constitutionScore": "14",
@@ -108,7 +108,7 @@
                         "secondColumn": "Bastón de Acelerar",
                         "itemId": "item-1756663384324-9b6c8ddb",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "+2",
+                        "fourthColumn": "+3",
                         "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
@@ -242,7 +242,7 @@
                         },
                         {
                             "name": "Esfera de llamas",
-                            "prepared": "1"
+                            "prepared": "0"
                         },
                         {
                             "name": "Detectar pensamientos",
@@ -266,7 +266,7 @@
                         },
                         {
                             "name": "Invisibilidad",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Flecha ácida",
@@ -320,7 +320,7 @@
                         },
                         {
                             "name": "Volar",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Clarividencia",
@@ -349,6 +349,10 @@
                         {
                             "name": "Forjar Constructo",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Contrahechizo",
+                            "prepared": "1"
                         }
                     ],
                     "slots": [
@@ -370,11 +374,25 @@
                     ],
                     "slots": [
                         false,
+                        false,
                         false
                     ]
                 },
                 "5th-level": {
-                    "spells": [],
+                    "spells": [
+                        {
+                            "name": "Danza macabra",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Inundación de energía negativa",
+                            "prepared": "0"
+                        },
+                        {
+                            "name": "Círculo de teletransportación",
+                            "prepared": "0"
+                        }
+                    ],
                     "slots": [
                         false
                     ]
@@ -757,10 +775,6 @@
                         {
                             "noteTitle": "Alianza con mercenarios del Sur",
                             "noteContent": "Conseguir que los mercenarios del Reino del Sur se unan al Norte para defender Valverde del Río. Para ello, ubicar a Petro (actualmente preso) y obtener de él la localización y protocolo de contacto con las compañías. [Distrito de Artesanos]"
-                        },
-                        {
-                            "noteTitle": "Libro de conjuros",
-                            "noteContent": "- Blight\n- Negative Energy Flood\n- Danse Macabre"
                         }
                     ]
                 },
