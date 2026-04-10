@@ -1359,7 +1359,7 @@
             "characterTempHp": "",
             "currentHitDice": "0",
             "insp": 0,
-            "upcastToggle": 0,
+            "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
                 "Arma Simple",
