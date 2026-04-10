@@ -2605,7 +2605,7 @@
                         },
                         {
                             "name": "Golpe flamígero",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Disipar el bien y el mal",
@@ -2633,7 +2633,7 @@
                         },
                         {
                             "name": "Revivir a los muertos",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Consagrar",
