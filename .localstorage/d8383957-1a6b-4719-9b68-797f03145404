@@ -2648,7 +2648,9 @@
                             "prepared": "0"
                         }
                     ],
-                    "slots": []
+                    "slots": [
+                        false
+                    ]
                 },
                 "6th-level": {
                     "spells": [],
