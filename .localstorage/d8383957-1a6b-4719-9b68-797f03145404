@@ -2597,11 +2597,11 @@
                         },
                         {
                             "name": "Contagio",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Curar heridas en masa",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Golpe flamígero",
