@@ -1386,7 +1386,7 @@
                 "Kit de Herbalismo"
             ],
             "initiativeButton": "+3",
-            "AC": "16",
+            "AC": "17",
             "speed": "30ft.",
             "characterLevel": "9",
             "playerXP": "48840",
@@ -1758,22 +1758,6 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "10 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758681798905-3cdf7d65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Daga +3",
-                        "uniqueId": "item-1761528715784-712e3eb2",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
                         "equipped": true
                     },
                     {
@@ -1790,6 +1774,14 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "2 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-1758681798905-3cdf7d65",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
                         "equipped": true
                     },
                     {
@@ -1837,14 +1829,6 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "15000 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Armadura de Cuero",
-                        "uniqueId": "item-1758676564790-f2f0a39a",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "10 gp",
                         "equipped": true
                     }
                 ],
