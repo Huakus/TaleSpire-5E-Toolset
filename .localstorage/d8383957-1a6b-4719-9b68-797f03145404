@@ -1777,14 +1777,6 @@
                         "equipped": true
                     },
                     {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758681798905-3cdf7d65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
-                    {
                         "name": "Capa con runas",
                         "uniqueId": "item-1756659266075-4b0928c6",
                         "quantity": 1,
