@@ -1456,31 +1456,6 @@
                 {
                     "1": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Ballesta ligera",
-                        "itemId": "item-1758681798905-3cdf7d65",
-                        "thirdColumn": "80ft/320ft",
-                        "fourthColumn": "+3",
-                        "fifthColumn": "1d8",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Munición, De carga, Dos manos",
-                        "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
-                        "twelvethColumn": "Perforante",
-                        "ninthColumn": {
-                            "attacks": false,
-                            "actions": false,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                },
-                {
-                    "2": {
-                        "proficiencyButton": "1",
                         "secondColumn": "Daga +3",
                         "itemId": "item-1761528715784-712e3eb2",
                         "thirdColumn": "5ft - 20/60ft",
@@ -1504,7 +1479,7 @@
                     }
                 },
                 {
-                    "3": {
+                    "2": {
                         "proficiencyButton": "1",
                         "secondColumn": "Eldricht blast 1",
                         "thirdColumn": "120ft",
@@ -1927,14 +1902,6 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "10 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758681798905-3cdf7d65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
                         "equipped": true
                     },
                     {
