@@ -1386,7 +1386,7 @@
                 "Kit de Herbalismo"
             ],
             "initiativeButton": "+3",
-            "AC": "17",
+            "AC": "16",
             "speed": "30ft.",
             "characterLevel": "9",
             "playerXP": "48840",
@@ -1455,31 +1455,6 @@
             "actionTable": [
                 {
                     "1": {
-                        "proficiencyButton": "1",
-                        "secondColumn": "Daga +3",
-                        "itemId": "item-1761528715784-712e3eb2",
-                        "thirdColumn": "5ft - 20/60ft",
-                        "fourthColumn": "+10",
-                        "fifthColumn": "1d4+1d6",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "DES",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "3",
-                        "damageBonus": "3",
-                        "tenthColumn": "Sutil, Ligero, Arrojadiza, Monje",
-                        "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
-                        "twelvethColumn": "Perforante",
-                        "ninthColumn": {
-                            "attacks": true,
-                            "actions": true,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                },
-                {
-                    "2": {
                         "proficiencyButton": "1",
                         "secondColumn": "Eldricht blast 1",
                         "thirdColumn": "120ft",
@@ -1870,30 +1845,6 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "15000 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Armadura de Cuero",
-                        "uniqueId": "item-1758676564790-f2f0a39a",
-                        "quantity": 1,
-                        "weight": 10,
-                        "cost": "10 gp",
-                        "equipped": false
-                    },
-                    {
-                        "name": "Ballesta ligera",
-                        "uniqueId": "item-1758681798905-3cdf7d65",
-                        "quantity": 1,
-                        "weight": 5,
-                        "cost": "25 gp",
-                        "equipped": true
-                    },
-                    {
-                        "name": "Daga +3",
-                        "uniqueId": "item-1761528715784-712e3eb2",
-                        "quantity": 1,
-                        "weight": 1,
-                        "cost": "2 gp",
                         "equipped": true
                     },
                     {
