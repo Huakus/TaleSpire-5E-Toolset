@@ -1,0 +1,288 @@
+{
+    "characterTempHp": "",
+    "currentHitDice": "1",
+    "insp": 0,
+    "upcastToggle": 1,
+    "exhaustionToggle": 0,
+    "playerWeaponProficiency": [
+        "Daga",
+        "Ballesta Ligera",
+        "Espada Larga"
+    ],
+    "playerArmorProficiency": [
+        "Escudo"
+    ],
+    "playerLanguageProficiency": [],
+    "playerToolsProficiency": [],
+    "initiativeButton": "+3",
+    "AC": "19",
+    "speed": "30ft.",
+    "characterLevel": "6",
+    "playerXP": "14000",
+    "playerClass": "Guerrero (Battle Master)\nSoldado (oficial)",
+    "currentCharacterHP": "47",
+    "maxCharacterHP": "58",
+    "strengthScore": "14",
+    "dexterityScore": "16",
+    "constitutionScore": "14",
+    "intelligenceScore": "12",
+    "wisdomScore": "13",
+    "charismaScore": "11",
+    "acrobaticsMod": "DES",
+    "animalHandlingMod": "SAB",
+    "arcanaMod": "INT",
+    "athleticsMod": "FUE",
+    "deceptionMod": "CAR",
+    "historyMod": "INT",
+    "insightMod": "SAB",
+    "intimidationMod": "CAR",
+    "investigationMod": "INT",
+    "medicineMod": "SAB",
+    "natureMod": "INT",
+    "perceptionMod": "SAB",
+    "performanceMod": "CAR",
+    "persuasionMod": "CAR",
+    "religionMod": "INT",
+    "sleightofHandMod": "DES",
+    "stealthMod": "DES",
+    "survivalMod": "SAB",
+    "": 1,
+    "hitDiceButton": "1d8",
+    "pb-1": 0,
+    "pb-2": 0,
+    "pb-3": 0,
+    "pb-4": 1,
+    "pb-5": 0,
+    "pb-6": 0,
+    "pb-7": 1,
+    "pb-8": 1,
+    "pb-9": 0,
+    "pb-10": 0,
+    "pb-11": 0,
+    "pb-12": 1,
+    "pb-13": 0,
+    "pb-14": 0,
+    "pb-15": 0,
+    "pb-16": 0,
+    "pb-17": 1,
+    "pb-18": 0,
+    "pb-19": 1,
+    "pb-20": 0,
+    "pb-21": 1,
+    "pb-22": 0,
+    "pb-23": 0,
+    "pb-24": 0,
+    "conditions": [],
+    "coins": {
+        "cp": 0,
+        "sp": 0,
+        "ep": 0,
+        "gp": 0,
+        "pp": 0
+    },
+    "alignment": "LG",
+    "actionTable": [
+        {
+            "1": {
+                "proficiencyButton": "1",
+                "secondColumn": "Daga",
+                "itemId": "item-1776127613674-81286711",
+                "thirdColumn": "5ft - 20/60ft",
+                "fourthColumn": "+5",
+                "fifthColumn": "1d4",
+                "sixthColumn": "ActionSettings",
+                "seventhColumn": "FUE",
+                "weaponType": "Cuerpo a cuerpo",
+                "eighthColumn": "",
+                "damageBonus": "",
+                "tenthColumn": "Sutil, Ligera, Arrojadiza, Monk",
+                "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                "twelvethColumn": "Perforante",
+                "ninthColumn": {
+                    "attacks": true,
+                    "actions": true,
+                    "bonus-actions": false,
+                    "reactions": false,
+                    "other": false
+                }
+            }
+        },
+        {
+            "2": {
+                "proficiencyButton": "1",
+                "secondColumn": "Daga",
+                "itemId": "item-1776127646064-75c955a0",
+                "thirdColumn": "5ft - 20/60ft",
+                "fourthColumn": "+5",
+                "fifthColumn": "1d4",
+                "sixthColumn": "ActionSettings",
+                "seventhColumn": "FUE",
+                "weaponType": "Cuerpo a cuerpo",
+                "eighthColumn": "",
+                "damageBonus": "",
+                "tenthColumn": "Sutil, Ligera, Arrojadiza, Monk",
+                "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                "twelvethColumn": "Perforante",
+                "ninthColumn": {
+                    "attacks": false,
+                    "actions": false,
+                    "bonus-actions": false,
+                    "reactions": false,
+                    "other": false
+                }
+            }
+        },
+        {
+            "3": {
+                "proficiencyButton": "1",
+                "secondColumn": "Espada larga",
+                "itemId": "item-1776127535509-9b360756",
+                "thirdColumn": "5ft",
+                "fourthColumn": "+5",
+                "fifthColumn": "1d8",
+                "sixthColumn": "ActionSettings",
+                "seventhColumn": "FUE",
+                "weaponType": "Cuerpo a cuerpo",
+                "eighthColumn": "",
+                "damageBonus": "",
+                "tenthColumn": "Versátil",
+                "elventhColumn": "Un arma versátil de una o dos manos, con una hoja recta de doble filo, ideal para cortar y dar estocadas.",
+                "twelvethColumn": "Cortante",
+                "ninthColumn": {
+                    "attacks": true,
+                    "actions": true,
+                    "bonus-actions": false,
+                    "reactions": false,
+                    "other": false
+                }
+            }
+        },
+        {
+            "4": {
+                "proficiencyButton": "1",
+                "secondColumn": "Ballesta ligera",
+                "itemId": "item-1776127685625-87fda8e6",
+                "thirdColumn": "80ft/320ft",
+                "fourthColumn": "+5",
+                "fifthColumn": "1d8",
+                "sixthColumn": "ActionSettings",
+                "seventhColumn": "FUE",
+                "weaponType": "Cuerpo a cuerpo",
+                "eighthColumn": "",
+                "damageBonus": "",
+                "tenthColumn": "Munición, De carga, Dos manos",
+                "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
+                "twelvethColumn": "Perforante",
+                "ninthColumn": {
+                    "attacks": true,
+                    "actions": true,
+                    "bonus-actions": false,
+                    "reactions": false,
+                    "other": false
+                }
+            }
+        }
+    ],
+    "spellData": {
+        "spellcastingModifier": "STR",
+        "spelllevelselected": "0",
+        "Cantrip": {
+            "spells": [],
+            "slots": []
+        },
+        "1st-level": {
+            "spells": [],
+            "slots": []
+        },
+        "2nd-level": {
+            "spells": [],
+            "slots": []
+        },
+        "3rd-level": {
+            "spells": [],
+            "slots": []
+        },
+        "4th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "5th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "6th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "7th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "8th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "9th-level": {
+            "spells": [],
+            "slots": []
+        }
+    },
+    "inventoryData": {
+        "equipment": [
+            {
+                "name": "Armadura de Semiplanas",
+                "uniqueId": "item-1776127331606-9864a951",
+                "quantity": 1,
+                "weight": 40,
+                "cost": "750 gp",
+                "equipped": true
+            },
+            {
+                "name": "Espada larga",
+                "uniqueId": "item-1776127535509-9b360756",
+                "quantity": 1,
+                "weight": 3,
+                "cost": "15 gp",
+                "equipped": true
+            },
+            {
+                "name": "Daga",
+                "uniqueId": "item-1776127613674-81286711",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "2 gp",
+                "equipped": true
+            },
+            {
+                "name": "Daga",
+                "uniqueId": "item-1776127646064-75c955a0",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "2 gp",
+                "equipped": true
+            },
+            {
+                "name": "Ballesta ligera",
+                "uniqueId": "item-1776127685625-87fda8e6",
+                "quantity": 1,
+                "weight": 5,
+                "cost": "25 gp",
+                "equipped": true
+            },
+            {
+                "name": "Escudo",
+                "uniqueId": "item-1776129700300-06ac71f3",
+                "quantity": 1,
+                "weight": 6,
+                "cost": "10 gp",
+                "equipped": true
+            }
+        ],
+        "backpack": [],
+        "other-possessions": [],
+        "attunement": []
+    },
+    "groupTraitData": [],
+    "groupNotesData": [],
+    "extrasData": []
+}
