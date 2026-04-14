@@ -2905,7 +2905,7 @@
             "playerLanguageProficiency": [],
             "playerToolsProficiency": [],
             "initiativeButton": "+3",
-            "AC": "17",
+            "AC": "19",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "14000",
@@ -3157,6 +3157,14 @@
                         "quantity": 1,
                         "weight": 5,
                         "cost": "25 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Escudo",
+                        "uniqueId": "item-1776129700300-06ac71f3",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "10 gp",
                         "equipped": true
                     }
                 ],
