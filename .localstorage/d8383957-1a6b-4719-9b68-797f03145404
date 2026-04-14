@@ -3013,7 +3013,13 @@
                         "tenthColumn": "Sutil, Ligera, Arrojadiza, Monk",
                         "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
                         "twelvethColumn": "Perforante",
-                        "ninthColumn": {}
+                        "ninthColumn": {
+                            "attacks": false,
+                            "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
                     }
                 },
                 {
