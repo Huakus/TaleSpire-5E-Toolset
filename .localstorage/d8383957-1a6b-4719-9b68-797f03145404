@@ -2900,7 +2900,10 @@
             "insp": 0,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
-            "playerWeaponProficiency": [],
+            "playerWeaponProficiency": [
+                "Espada Larga",
+                "Daga"
+            ],
             "playerArmorProficiency": [
                 "Escudo"
             ],
