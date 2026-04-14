@@ -2975,30 +2975,6 @@
                 {
                     "1": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Maul of Fire",
-                        "thirdColumn": "5ft",
-                        "fourthColumn": "+5",
-                        "fifthColumn": "2d6/1d4",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Heavy, Two-Handed",
-                        "elventhColumn": "A brightly Colored Maul",
-                        "twelvethColumn": "",
-                        "ninthColumn": {
-                            "attacks": false,
-                            "actions": false,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                },
-                {
-                    "2": {
-                        "proficiencyButton": "1",
                         "secondColumn": "Daga",
                         "itemId": "item-1776127613674-81286711",
                         "thirdColumn": "5ft - 20/60ft",
@@ -3022,7 +2998,7 @@
                     }
                 },
                 {
-                    "3": {
+                    "2": {
                         "proficiencyButton": "1",
                         "secondColumn": "Daga",
                         "itemId": "item-1776127646064-75c955a0",
@@ -3041,7 +3017,7 @@
                     }
                 },
                 {
-                    "4": {
+                    "3": {
                         "proficiencyButton": "1",
                         "secondColumn": "Espada larga",
                         "itemId": "item-1776127535509-9b360756",
@@ -3066,7 +3042,7 @@
                     }
                 },
                 {
-                    "5": {
+                    "4": {
                         "proficiencyButton": "1",
                         "secondColumn": "Ballesta ligera",
                         "itemId": "item-1776127685625-87fda8e6",
