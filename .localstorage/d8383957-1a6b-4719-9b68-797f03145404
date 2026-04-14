@@ -2893,6 +2893,342 @@
                 }
             ],
             "extrasData": []
+        },
+        "Marcion": {
+            "characterTempHp": "0",
+            "currentHitDice": "0",
+            "insp": 0,
+            "upcastToggle": 1,
+            "exhaustionToggle": 0,
+            "playerWeaponProficiency": [
+                "Arma Simple",
+                "Arma Marcial"
+            ],
+            "playerArmorProficiency": [
+                "Liviano",
+                "Media",
+                "Pesada",
+                "Escudo"
+            ],
+            "playerLanguageProficiency": [
+                "Comun"
+            ],
+            "playerToolsProficiency": [],
+            "initiativeButton": "+3",
+            "AC": "17",
+            "speed": "30ft.",
+            "characterLevel": "6",
+            "playerXP": "14000",
+            "playerClass": "Guerrero (Battle Master)",
+            "currentCharacterHP": "58",
+            "maxCharacterHP": "58",
+            "strengthScore": "14",
+            "dexterityScore": "16",
+            "constitutionScore": "14",
+            "intelligenceScore": "12",
+            "wisdomScore": "13",
+            "charismaScore": "11",
+            "acrobaticsMod": "DES",
+            "animalHandlingMod": "SAB",
+            "arcanaMod": "INT",
+            "athleticsMod": "FUE",
+            "deceptionMod": "CAR",
+            "historyMod": "INT",
+            "insightMod": "SAB",
+            "intimidationMod": "CAR",
+            "investigationMod": "INT",
+            "medicineMod": "SAB",
+            "natureMod": "INT",
+            "perceptionMod": "SAB",
+            "performanceMod": "CAR",
+            "persuasionMod": "CAR",
+            "religionMod": "INT",
+            "sleightofHandMod": "DES",
+            "stealthMod": "DES",
+            "survivalMod": "SAB",
+            "": 0,
+            "hitDiceButton": "0d10",
+            "pb-1": 1,
+            "pb-2": 0,
+            "pb-3": 1,
+            "pb-4": 0,
+            "pb-5": 0,
+            "pb-6": 0,
+            "pb-7": 0,
+            "pb-8": 0,
+            "pb-9": 0,
+            "pb-10": 1,
+            "pb-11": 0,
+            "pb-12": 0,
+            "pb-13": 1,
+            "pb-14": 1,
+            "pb-15": 0,
+            "pb-16": 0,
+            "pb-17": 0,
+            "pb-18": 1,
+            "pb-19": 0,
+            "pb-20": 0,
+            "pb-21": 0,
+            "pb-22": 1,
+            "pb-23": 0,
+            "pb-24": 0,
+            "conditions": [],
+            "coins": {
+                "cp": 0,
+                "sp": 0,
+                "ep": 0,
+                "gp": 0,
+                "pp": 0
+            },
+            "alignment": "NB",
+            "actionTable": [
+                {
+                    "1": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Espada larga",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+6",
+                        "fifthColumn": "1d8",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "3",
+                        "damageBonus": "3",
+                        "tenthColumn": "Versátil",
+                        "elventhColumn": "Espada larga marcial versátil. Daño versátil: 1d10 + 3.",
+                        "twelvethColumn": "Cortante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Daga",
+                        "thirdColumn": "5ft - 20/60ft",
+                        "fourthColumn": "+6",
+                        "fifthColumn": "1d4",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "DES",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "3",
+                        "damageBonus": "3",
+                        "tenthColumn": "Sutil, Ligera, Arrojadiza",
+                        "elventhColumn": "Daga de apoyo. Mercion lleva 2.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "3": {
+                        "proficiencyButton": "1",
+                        "secondColumn": "Ballesta ligera",
+                        "thirdColumn": "80ft/320ft",
+                        "fourthColumn": "+6",
+                        "fifthColumn": "1d8",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "DES",
+                        "weaponType": "A distancia",
+                        "eighthColumn": "3",
+                        "damageBonus": "3",
+                        "tenthColumn": "Munición, Carga, Dos manos",
+                        "elventhColumn": "Ballesta ligera para apoyo a distancia.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                }
+            ],
+            "spellData": {
+                "spellcastingModifier": "NONE",
+                "spelllevelselected": "1",
+                "Cantrip": {
+                    "spells": [],
+                    "slots": []
+                },
+                "1st-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "2nd-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "3rd-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "4th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "5th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "6th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "7th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "8th-level": {
+                    "spells": [],
+                    "slots": []
+                },
+                "9th-level": {
+                    "spells": [],
+                    "slots": []
+                }
+            },
+            "inventoryData": {
+                "equipment": [
+                    {
+                        "name": "Espada larga",
+                        "uniqueId": "item-mercion-longsword",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "15 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Daga",
+                        "uniqueId": "item-mercion-dagger-1",
+                        "quantity": 2,
+                        "weight": 2,
+                        "cost": "2 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Ballesta ligera",
+                        "uniqueId": "item-mercion-light-crossbow",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "25 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Armadura media",
+                        "uniqueId": "item-mercion-medium-armor",
+                        "quantity": 1,
+                        "weight": 40,
+                        "cost": "0 gp",
+                        "equipped": true
+                    }
+                ],
+                "backpack": [],
+                "other-possessions": [],
+                "attunement": []
+            },
+            "groupTraitData": [
+                {
+                    "group-title": "Battle Master",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Dados de superioridad",
+                            "cheveron": false,
+                            "traitDescription": "4d8. Se recuperan con descanso corto o largo.",
+                            "checkboxStates": [],
+                            "numberOfUses": "4",
+                            "adjustmentCategory": "none",
+                            "adjustmentSubCategory": "NONE",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "short rest"
+                        },
+                        {
+                            "traitName": "Ataque de precisión",
+                            "cheveron": false,
+                            "traitDescription": "Añade 1d8 a la tirada de ataque.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "none",
+                            "adjustmentSubCategory": "NONE",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Derribo",
+                            "cheveron": false,
+                            "traitDescription": "Añade daño y fuerza una salvación de Fuerza o el objetivo cae prone.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "none",
+                            "adjustmentSubCategory": "NONE",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Ataque de maniobra",
+                            "cheveron": false,
+                            "traitDescription": "Permite mover a un aliado sin provocar ataques de oportunidad.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "none",
+                            "adjustmentSubCategory": "NONE",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Riposte",
+                            "cheveron": false,
+                            "traitDescription": "Contraataque cuando un enemigo falla un ataque cuerpo a cuerpo contra ti.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "none",
+                            "adjustmentSubCategory": "NONE",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                }
+            ],
+            "groupNotesData": [
+                {
+                    "group-title": "Concepto",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Perfil",
+                            "noteContent": "Mercion. Humano. Guerrero Battle Master nivel 6. Alineamiento Neutral Bueno. Trasfondo: Soldado (oficial)."
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Competencias y enfoque",
+                    "group-chevron": false,
+                    "notes": [
+                        {
+                            "noteTitle": "Habilidades destacadas",
+                            "noteContent": "Atletismo +5, Percepción +3, Perspicacia +3, Intimidación +2, Sigilo +5. Formación militar y experiencia en operaciones encubiertas."
+                        }
+                    ]
+                }
+            ],
+            "extrasData": []
         }
     },
     "DmNotes": {
