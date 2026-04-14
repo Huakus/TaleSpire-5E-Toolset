@@ -2902,7 +2902,8 @@
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
                 "Espada Larga",
-                "Daga"
+                "Daga",
+                "Ballesta Ligera"
             ],
             "playerArmorProficiency": [
                 "Escudo"
