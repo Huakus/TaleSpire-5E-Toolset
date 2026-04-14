@@ -394,7 +394,7 @@
                         }
                     ],
                     "slots": [
-                        false
+                        true
                     ]
                 },
                 "6th-level": {
