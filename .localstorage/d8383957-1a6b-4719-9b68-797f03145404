@@ -2906,8 +2906,8 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [
-                "Ballesta Ligera",
-                "Espada Larga"
+                "Arma Marcial",
+                "Arma Simple"
             ],
             "playerArmorProficiency": [
                 "Escudo"
