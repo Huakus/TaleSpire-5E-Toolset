@@ -2911,7 +2911,9 @@
             ],
             "playerArmorProficiency": [
                 "Liviano",
-                "Media"
+                "Media",
+                "Pesada",
+                "Escudo"
             ],
             "playerLanguageProficiency": [],
             "playerToolsProficiency": [],
