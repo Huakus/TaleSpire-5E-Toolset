@@ -2910,7 +2910,8 @@
                 "Arma Simple"
             ],
             "playerArmorProficiency": [
-                "Escudo"
+                "Liviano",
+                "Media"
             ],
             "playerLanguageProficiency": [],
             "playerToolsProficiency": [],
