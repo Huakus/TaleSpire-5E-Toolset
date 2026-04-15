@@ -2916,9 +2916,11 @@
                 "Escudo"
             ],
             "playerLanguageProficiency": [],
-            "playerToolsProficiency": [],
+            "playerToolsProficiency": [
+                "Herramientas del Cartógrafo"
+            ],
             "initiativeButton": "+3",
-            "AC": "19",
+            "AC": "20",
             "speed": "30ft.",
             "characterLevel": "6",
             "playerXP": "14000",
@@ -2991,10 +2993,10 @@
                         "secondColumn": "Daga",
                         "itemId": "item-1776127613674-81286711",
                         "thirdColumn": "5ft - 20/60ft",
-                        "fourthColumn": "+5",
+                        "fourthColumn": "+6",
                         "fifthColumn": "1d4",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
+                        "seventhColumn": "DES",
                         "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
@@ -3016,10 +3018,10 @@
                         "secondColumn": "Daga",
                         "itemId": "item-1776127646064-75c955a0",
                         "thirdColumn": "5ft - 20/60ft",
-                        "fourthColumn": "+5",
+                        "fourthColumn": "+6",
                         "fifthColumn": "1d4",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
+                        "seventhColumn": "DES",
                         "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
@@ -3041,10 +3043,10 @@
                         "secondColumn": "Espada larga",
                         "itemId": "item-1776127535509-9b360756",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "+5",
+                        "fourthColumn": "+6",
                         "fifthColumn": "1d8",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
+                        "seventhColumn": "DES",
                         "weaponType": "Cuerpo a cuerpo",
                         "eighthColumn": "",
                         "damageBonus": "",
@@ -3066,11 +3068,11 @@
                         "secondColumn": "Ballesta ligera",
                         "itemId": "item-1776127685625-87fda8e6",
                         "thirdColumn": "80ft/320ft",
-                        "fourthColumn": "+5",
+                        "fourthColumn": "+6",
                         "fifthColumn": "1d8",
                         "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
+                        "seventhColumn": "DES",
+                        "weaponType": "A distancia",
                         "eighthColumn": "",
                         "damageBonus": "",
                         "tenthColumn": "Munición, De carga, Dos manos",
@@ -3084,34 +3086,10 @@
                             "other": false
                         }
                     }
-                },
-                {
-                    "5": {
-                        "proficiencyButton": "1",
-                        "secondColumn": "Second Wind",
-                        "thirdColumn": "5ft",
-                        "fourthColumn": "+5",
-                        "fifthColumn": "2d6/1d4",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Heavy, Two-Handed",
-                        "elventhColumn": "A brightly Colored Maul",
-                        "twelvethColumn": "",
-                        "ninthColumn": {
-                            "attacks": false,
-                            "actions": true,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
                 }
             ],
             "spellData": {
-                "spellcastingModifier": "STR",
+                "spellcastingModifier": "DEX",
                 "spelllevelselected": "0",
                 "Cantrip": {
                     "spells": [],
@@ -3205,11 +3183,218 @@
                         "equipped": true
                     }
                 ],
-                "backpack": [],
+                "backpack": [
+                    {
+                        "name": "Mochila",
+                        "uniqueId": "item-1776275748172-b7fc3bb5",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Palanca",
+                        "uniqueId": "item-1776275748174-108aa21e",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 gp"
+                    },
+                    {
+                        "name": "Martillo",
+                        "uniqueId": "item-1776275748175-9c19ba76",
+                        "quantity": 1,
+                        "weight": 3,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Pitón",
+                        "uniqueId": "item-1776275748176-6d86b1c2",
+                        "quantity": 10,
+                        "weight": 2.5,
+                        "cost": "5 cp"
+                    },
+                    {
+                        "name": "Antorcha",
+                        "uniqueId": "item-1776275748176-8b7e22f5",
+                        "quantity": 10,
+                        "weight": 10,
+                        "cost": "1 cp"
+                    },
+                    {
+                        "name": "Yesquero",
+                        "uniqueId": "item-1776275748177-fd000037",
+                        "quantity": 1,
+                        "weight": 1,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Raciones (1 día)",
+                        "uniqueId": "item-1776275748178-3e62d890",
+                        "quantity": 10,
+                        "weight": 20,
+                        "cost": "5 sp"
+                    },
+                    {
+                        "name": "Odre de agua",
+                        "uniqueId": "item-1776275748179-61108544",
+                        "quantity": 1,
+                        "weight": 5,
+                        "cost": "2 sp"
+                    },
+                    {
+                        "name": "Cuerda de cáñamo (50 pies)",
+                        "uniqueId": "item-1776275748179-022742ba",
+                        "quantity": 1,
+                        "weight": 10,
+                        "cost": "1 gp"
+                    },
+                    {
+                        "name": "Herramientas del cartógrafo",
+                        "uniqueId": "item-1776278944317-8301a56c",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "15 gp"
+                    }
+                ],
                 "other-possessions": [],
                 "attunement": []
             },
-            "groupTraitData": [],
+            "groupTraitData": [
+                {
+                    "group-title": "Pasivas",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Estilo de lucha: Defensivo",
+                            "cheveron": true,
+                            "traitDescription": "Mientras lleves puesta una armadura ganas un +1 la CA.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "combatStats",
+                            "adjustmentSubCategory": "AC",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "1",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Ataque Extra",
+                            "cheveron": true,
+                            "traitDescription": "Empezando en el nivel 5 puedes atacar dos veces, en lugar de una, siempre que uses la acción de Atacar en tu turno.\nEl número de ataques aumenta a tres cuando alcanzas el nivel 11 en esta clase y a cuatro cuando alcanzas el nivel 20.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Activas",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Nuevas Energías",
+                            "cheveron": true,
+                            "traitDescription": "Tienes una limitada capacidad de aguante que puedes usar para protegerte del peligro.\nEn tu turno, puedes usar una acción adicional para ganar una cantidad de Puntos de Golpe igual a 1d10 + tu nivel de guerrero.\nUna vez que hayas usado este rasgo, debes hacer un descanso corto o prolongado antes de poder volver a usarlo.",
+                            "checkboxStates": [
+                                false
+                            ],
+                            "numberOfUses": "1",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "short rest"
+                        },
+                        {
+                            "traitName": "Oleada de Acción",
+                            "cheveron": true,
+                            "traitDescription": "Empezando en el nivel 2 puedes presionarte más allá de los límites normales durante un corto periodo de tiempo.\nEn tu turno, puedes usar una acción añadida además de tu acción normal y tu posible acción adicional.\nUna vez que hayas usado esta habilidad, debes hacer un descanso corto o prolongado antes de poder volver a usarla.\nA partir del nivel 17 puedes usarla dos veces antes de descansar pero solo una vez en el mismo turno.",
+                            "checkboxStates": [
+                                false
+                            ],
+                            "numberOfUses": "1",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "short rest"
+                        }
+                    ]
+                },
+                {
+                    "group-title": "Maniobras",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Usos",
+                            "cheveron": true,
+                            "traitDescription": "Aprendes tres maniobras de tu elección, las cuales están detalladas más abajo, en el apartado “Maniobras”.\nMuchas maniobras mejoran un ataque de alguna manera.\nSolo puedes usar una maniobra por ataque.\nAprendes dos maniobras adicionales de tu elección en los niveles 7, 10 y 15.\nCada vez que aprendes una nueva maniobra, puedes reemplazar otra maniobra ya conocida por otra.\n\nDado de Superioridad\nTienes cuatro dados de superioridad, que son d8.\nUn dado de superioridad se gasta cuando lo usas.\nRecuperas todos tus dados de superioridad gastados cuando finalizas un descanso corto o prolongado.\nGanas un dado de superioridad en el nivel 7 y otro más en el nivel 15.\n\nTiradas de Salvación\nAlgunas de tus maniobras requieren que tu objetivo realice una tirada de salvación para resistir los efectos de la maniobra.\nLa CD de la tirada de salvación se calcula de la siguiente manera:\nCD de la Salvación de la Maniobra = 8 + bonificador de competencia + modificador",
+                            "checkboxStates": [
+                                false,
+                                false,
+                                false,
+                                false
+                            ],
+                            "numberOfUses": "4",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Ataque de presición",
+                            "cheveron": true,
+                            "traitDescription": "Cuando realizas una tirada de ataque con arma contra una criatura, puedes gastar un dado de superioridad para añadirlo a la tirada.\nPuedes usar esta maniobra antes o después de la tirada de ataque, pero debe ser antes de que ningún efecto del ataque sea aplicado.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "short rest"
+                        },
+                        {
+                            "traitName": "Ataque de Derribo",
+                            "cheveron": true,
+                            "traitDescription": "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para intentar derribar al objetivo.\nAñade el dado de superioridad a la tirada de daño del ataque, y si el objetivo es de tamaño Grande o más pequeño, debe realizar una tirada de salvación de Fuerza.\nSi falla, el objetivo es derribado",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Ataque Táctico (deberían ser 3 en nvl 6, podríamos borrar este)",
+                            "cheveron": true,
+                            "traitDescription": "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para que uno de tus aliados pueda maniobrar hasta una posición más ventajosa.\nAñade el dado de superioridad a la tirada de daño del ataque, y escoge una criatura amistosa que pueda verte o escucharte.\nEsa criatura puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad de la criatura a la que has atacado.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        },
+                        {
+                            "traitName": "Contraataque",
+                            "cheveron": true,
+                            "traitDescription": "Cuando una criatura falla un ataque cuerpo a cuerpo contra ti, puedes usar tu reacción y gastar un dado de superioridad para realizar un ataque cuerpo a cuerpo de arma contra la criatura.\nSi golpeas, añade el dado de superioridad a la tirada de daño del ataque.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
+                }
+            ],
             "groupNotesData": [],
             "extrasData": []
         }
