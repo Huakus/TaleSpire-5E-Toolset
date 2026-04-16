@@ -2955,7 +2955,7 @@
             "stealthMod": "DES",
             "survivalMod": "SAB",
             "": 1,
-            "hitDiceButton": "1d8",
+            "hitDiceButton": "1d10",
             "pb-1": 0,
             "pb-2": 0,
             "pb-3": 0,
