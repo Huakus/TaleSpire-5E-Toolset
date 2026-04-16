@@ -2915,7 +2915,9 @@
                 "Pesada",
                 "Escudo"
             ],
-            "playerLanguageProficiency": [],
+            "playerLanguageProficiency": [
+                "Comun"
+            ],
             "playerToolsProficiency": [
                 "Herramientas del Cartógrafo"
             ],
