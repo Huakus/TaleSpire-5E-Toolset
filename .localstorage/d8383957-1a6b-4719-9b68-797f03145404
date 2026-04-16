@@ -3018,31 +3018,6 @@
                 {
                     "2": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Daga",
-                        "itemId": "item-1776127646064-75c955a0",
-                        "thirdColumn": "5ft - 20/60ft",
-                        "fourthColumn": "+7",
-                        "fifthColumn": "1d4",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "DES",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Sutil, Ligera, Arrojadiza, Monk",
-                        "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
-                        "twelvethColumn": "Perforante",
-                        "ninthColumn": {
-                            "attacks": false,
-                            "actions": false,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                },
-                {
-                    "3": {
-                        "proficiencyButton": "1",
                         "secondColumn": "Espada larga",
                         "itemId": "item-1776127535509-9b360756",
                         "thirdColumn": "5ft",
@@ -3066,7 +3041,7 @@
                     }
                 },
                 {
-                    "4": {
+                    "3": {
                         "proficiencyButton": "1",
                         "secondColumn": "Ballesta ligera",
                         "itemId": "item-1776127685625-87fda8e6",
@@ -3091,10 +3066,10 @@
                     }
                 },
                 {
-                    "5": {
+                    "4": {
                         "proficiencyButton": "1",
                         "secondColumn": "Empujar",
-                        "thirdColumn": "Personal",
+                        "thirdColumn": "5ft",
                         "fourthColumn": "+7",
                         "fifthColumn": "2d6/1d4",
                         "sixthColumn": "ActionSettings",
@@ -3115,7 +3090,7 @@
                     }
                 },
                 {
-                    "6": {
+                    "5": {
                         "proficiencyButton": "1",
                         "secondColumn": "Bloquear daño",
                         "thirdColumn": "",
@@ -3215,7 +3190,7 @@
                         "quantity": 1,
                         "weight": 1,
                         "cost": "2 gp",
-                        "equipped": true
+                        "equipped": false
                     },
                     {
                         "name": "Ballesta ligera",
