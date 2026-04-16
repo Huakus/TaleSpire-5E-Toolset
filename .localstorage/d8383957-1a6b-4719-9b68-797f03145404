@@ -3429,7 +3429,7 @@
             "playerClass": "Orco\nBárbaro\nSoldado\n\n",
             "currentCharacterHP": "0",
             "maxCharacterHP": "50",
-            "strengthScore": "20",
+            "strengthScore": " 20",
             "dexterityScore": "14",
             "constitutionScore": "16",
             "intelligenceScore": "10",
@@ -3454,7 +3454,7 @@
             "stealthMod": "DEX",
             "survivalMod": "WIS",
             "": 1,
-            "hitDiceButton": "1d8",
+            "hitDiceButton": "1d12",
             "pb-1": 0,
             "pb-2": 0,
             "pb-3": 0,
@@ -3559,7 +3559,16 @@
                 }
             },
             "inventoryData": {
-                "equipment": [],
+                "equipment": [
+                    {
+                        "name": "Armadura Acolchada",
+                        "uniqueId": "item-1776379391278-9a77f8c9",
+                        "quantity": 1,
+                        "weight": 8,
+                        "cost": "5 gp",
+                        "equipped": false
+                    }
+                ],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
