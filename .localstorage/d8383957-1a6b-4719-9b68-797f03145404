@@ -3018,31 +3018,6 @@
                 {
                     "2": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Espada larga",
-                        "itemId": "item-1776127535509-9b360756",
-                        "thirdColumn": "5ft",
-                        "fourthColumn": "+5",
-                        "fifthColumn": "1d8",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Versátil",
-                        "elventhColumn": "Un arma versátil de una o dos manos, con una hoja recta de doble filo, ideal para cortar y dar estocadas.",
-                        "twelvethColumn": "Cortante",
-                        "ninthColumn": {
-                            "attacks": true,
-                            "actions": true,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                },
-                {
-                    "3": {
-                        "proficiencyButton": "1",
                         "secondColumn": "Ballesta ligera",
                         "itemId": "item-1776127685625-87fda8e6",
                         "thirdColumn": "80ft/320ft",
@@ -3066,7 +3041,7 @@
                     }
                 },
                 {
-                    "4": {
+                    "3": {
                         "proficiencyButton": "1",
                         "secondColumn": "Empujar",
                         "thirdColumn": "5ft",
@@ -3090,7 +3065,7 @@
                     }
                 },
                 {
-                    "5": {
+                    "4": {
                         "proficiencyButton": "1",
                         "secondColumn": "Bloquear daño",
                         "thirdColumn": "",
@@ -3174,7 +3149,7 @@
                         "quantity": 1,
                         "weight": 3,
                         "cost": "15 gp",
-                        "equipped": true
+                        "equipped": false
                     },
                     {
                         "name": "Daga",
