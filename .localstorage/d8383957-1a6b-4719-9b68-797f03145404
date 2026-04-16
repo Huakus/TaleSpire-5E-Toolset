@@ -3289,14 +3289,14 @@
                         },
                         {
                             "traitName": "Experto en Escudos",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Usas los escudos no solamente para protección sino que también para atacar.\n\nGanas estos beneficios cuando sostienes un escudo:\n\n• Si llevas a cabo una acción de ataque en tu turno, puedes usar una acción adicional para tratar de empujar a una criatura a 5 pies de ti con tu escudo.\n\n• Si no estás incapacitado, puedes añadir la CA de tu escudo a cualquier tirada de salvación basada en destreza contra un conjuro u otro efecto dañino dirigido sólo a ti.\n\n• Si estás sujeto a un efecto que te permite recibir sólo la mitad del daño, puedes usar tu reacción para no llevarte daño si aciertas la tirada de salvación, poniendo el escudo entre ti y el origen del efecto.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "saves",
                             "adjustmentSubCategory": "DEX",
                             "adjustmentAbility": "NONE",
-                            "adjustmentValue": "0",
+                            "adjustmentValue": "2",
                             "resetType": "none",
                             "advantage": false,
                             "disadvantage": false
