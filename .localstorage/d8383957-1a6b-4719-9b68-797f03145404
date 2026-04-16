@@ -3559,16 +3559,7 @@
                 }
             },
             "inventoryData": {
-                "equipment": [
-                    {
-                        "name": "Armadura Acolchada",
-                        "uniqueId": "item-1776379391278-9a77f8c9",
-                        "quantity": 1,
-                        "weight": 8,
-                        "cost": "5 gp",
-                        "equipped": false
-                    }
-                ],
+                "equipment": [],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
