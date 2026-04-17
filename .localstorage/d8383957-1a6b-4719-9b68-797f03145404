@@ -3616,6 +3616,18 @@
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
                             "resetType": "none"
+                        },
+                        {
+                            "traitName": "",
+                            "cheveron": false,
+                            "traitDescription": "Mientras no lleves ninguna armadura, tu Clase de Armadura será de 10 + Modificador de Destreza + Modificador de Constitución.\nPuedes usar un escudo y aun así beneficiarte de este rasgo.",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
                         }
                     ]
                 },
@@ -3626,7 +3638,7 @@
                         {
                             "traitName": "Furia",
                             "cheveron": false,
-                            "traitDescription": "En combate, luchas con una ferocidad primitiva. En tu turno, puedes entrar en furia como acción adicional. Mientras estás en furia ganas los siguientes beneficios si no llevas armadura pesada: ● Tienes ventaja en las pruebas y tiradas de salvación de Fuerza. ● Cuando realizas un ataque de cuerpo a cuerpo usando tu Fuerza, ganas un bonificador al daño que aumenta a medida que subes tu nivel de bárbaro, tal como muestra la columna de Daño de Furia en la tabla Bárbaro. ",
+                            "traitDescription": "En combate, luchas con una ferocidad primitiva.\nEn tu turno, puedes entrar en furia como acción adicional.\nMientras estás en furia ganas los siguientes beneficios si no llevas armadura pesada:\n\n● Tienes ventaja en las pruebas y tiradas de salvación de Fuerza.\n● Cuando realizas un ataque de cuerpo a cuerpo usando tu Fuerza, ganas un bonificador al daño que aumenta a medida que subes tu nivel de bárbaro, tal como muestra la columna de Daño de Furia en la tabla Bárbaro.\n● Tienes resistencia al daño contundente, perforante y cortante. Si tienes la capacidad de lanzar hechizos, no puedes lanzarlos o concentrarte en ellos mientras estés en estado de furia.\n\nTu furia tiene una duración de 1 minuto.\nTermina antes si caes inconsciente o si acaba tu turno y no has atacado a ninguna criatura hostil desde tu último turno, o no has recibido daño desde entonces.\nTambién puedes cancelar tu furia en tu turno como acción adicional.\nUna vez has entrado en furia un número de veces igual al número que aparece en la columna Furia de la tabla Bárbaro, debes realizar un descanso prolongado antes de poder entrar en furia de nuevo. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
