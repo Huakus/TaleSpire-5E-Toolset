@@ -3618,6 +3618,24 @@
                             "resetType": "none"
                         }
                     ]
+                },
+                {
+                    "group-title": "Activas",
+                    "group-chevron": false,
+                    "traits": [
+                        {
+                            "traitName": "Furia",
+                            "cheveron": false,
+                            "traitDescription": "En combate, luchas con una ferocidad primitiva. En tu turno, puedes entrar en furia como acción adicional. Mientras estás en furia ganas los siguientes beneficios si no llevas armadura pesada: ● Tienes ventaja en las pruebas y tiradas de salvación de Fuerza. ● Cuando realizas un ataque de cuerpo a cuerpo usando tu Fuerza, ganas un bonificador al daño que aumenta a medida que subes tu nivel de bárbaro, tal como muestra la columna de Daño de Furia en la tabla Bárbaro. ",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
+                        }
+                    ]
                 }
             ],
             "groupNotesData": [],
