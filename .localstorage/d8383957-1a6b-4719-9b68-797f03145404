@@ -3596,9 +3596,9 @@
                             "resetType": "long rest"
                         },
                         {
-                            "traitName": "",
-                            "cheveron": false,
-                            "traitDescription": "",
+                            "traitName": "Ataques Salvajes",
+                            "cheveron": true,
+                            "traitDescription": "Cuando saques un impacto crítico con un ataque con arma cuerpo a cuerpo, puedes tirar otra vez uno de los dados de daño del arma y añadirlo al daño extra por el impacto crítico.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
                             "adjustmentCategory": "None",
