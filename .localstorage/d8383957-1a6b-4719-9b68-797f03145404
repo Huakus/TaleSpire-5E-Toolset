@@ -3467,7 +3467,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 0,
+            "": 1,
             "hitDiceButton": "1d12",
             "pb-1": 0,
             "pb-2": 1,
@@ -3529,11 +3529,11 @@
                 },
                 {
                     "2": {
-                        "proficiencyButton": "0",
+                        "proficiencyButton": "1",
                         "secondColumn": "Espada Corta +1",
                         "itemId": "item-1776392239702-5cd8d3f6",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "+7",
+                        "fourthColumn": "+9",
                         "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
@@ -3554,11 +3554,11 @@
                 },
                 {
                     "3": {
-                        "proficiencyButton": "0",
+                        "proficiencyButton": "1",
                         "secondColumn": "Espada larga +1",
                         "itemId": "item-1776392297471-ff339a17",
                         "thirdColumn": "5ft",
-                        "fourthColumn": "+7",
+                        "fourthColumn": "+9",
                         "fifthColumn": "1d8",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
@@ -3579,11 +3579,11 @@
                 },
                 {
                     "4": {
-                        "proficiencyButton": "0",
+                        "proficiencyButton": "1",
                         "secondColumn": "Jabalina",
                         "itemId": "item-1776392633287-9a6af873",
                         "thirdColumn": "5ft - 30/120ft",
-                        "fourthColumn": "+6",
+                        "fourthColumn": "+8",
                         "fifthColumn": "1d6",
                         "sixthColumn": "ActionSettings",
                         "seventhColumn": "FUE",
