@@ -3577,6 +3577,14 @@
                         "weight": 45,
                         "cost": "50 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Espada Corta +1",
+                        "uniqueId": "item-1776392239702-5cd8d3f6",
+                        "quantity": 1,
+                        "weight": 2,
+                        "cost": "10 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [],
