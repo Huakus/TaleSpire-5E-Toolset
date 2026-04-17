@@ -3420,7 +3420,8 @@
             "playerWeaponProficiency": [],
             "playerArmorProficiency": [],
             "playerLanguageProficiency": [
-                "Comun"
+                "Comun",
+                "Orco"
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+2",
