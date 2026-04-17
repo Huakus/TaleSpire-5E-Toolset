@@ -3569,7 +3569,16 @@
                 }
             },
             "inventoryData": {
-                "equipment": [],
+                "equipment": [
+                    {
+                        "name": "Cota de Escamas",
+                        "uniqueId": "item-1776392134841-a814134f",
+                        "quantity": 1,
+                        "weight": 45,
+                        "cost": "50 gp",
+                        "equipped": false
+                    }
+                ],
                 "backpack": [],
                 "other-possessions": [],
                 "attunement": []
