@@ -3432,7 +3432,8 @@
             ],
             "playerToolsProficiency": [
                 "Vehículos (Tierra)",
-                "Vehículos (Agua)"
+                "Vehículos (Agua)",
+                "Juego de dados"
             ],
             "initiativeButton": "+2",
             "AC": "16",
