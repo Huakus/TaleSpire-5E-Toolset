@@ -3439,7 +3439,7 @@
             "speed": "30ft.",
             "characterLevel": "1",
             "playerXP": "0",
-            "playerClass": "Orco\nBárbaro\nSoldado\n\n",
+            "playerClass": "Semiorco\nBárbaro\nSoldado\n",
             "currentCharacterHP": "0",
             "maxCharacterHP": "50",
             "strengthScore": "22",
