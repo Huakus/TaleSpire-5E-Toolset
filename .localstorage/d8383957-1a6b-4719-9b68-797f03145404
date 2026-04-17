@@ -3506,30 +3506,6 @@
                 {
                     "1": {
                         "proficiencyButton": "1",
-                        "secondColumn": "Maul of Fire",
-                        "thirdColumn": "5ft",
-                        "fourthColumn": "+8",
-                        "fifthColumn": "2d6/1d4",
-                        "sixthColumn": "ActionSettings",
-                        "seventhColumn": "FUE",
-                        "weaponType": "Cuerpo a cuerpo",
-                        "eighthColumn": "",
-                        "damageBonus": "",
-                        "tenthColumn": "Heavy, Two-Handed",
-                        "elventhColumn": "A brightly Colored Maul",
-                        "twelvethColumn": "",
-                        "ninthColumn": {
-                            "attacks": false,
-                            "actions": false,
-                            "bonus-actions": false,
-                            "reactions": false,
-                            "other": false
-                        }
-                    }
-                },
-                {
-                    "2": {
-                        "proficiencyButton": "1",
                         "secondColumn": "Espada Corta +1",
                         "itemId": "item-1776392239702-5cd8d3f6",
                         "thirdColumn": "5ft",
@@ -3553,7 +3529,7 @@
                     }
                 },
                 {
-                    "3": {
+                    "2": {
                         "proficiencyButton": "1",
                         "secondColumn": "Espada larga +1",
                         "itemId": "item-1776392297471-ff339a17",
@@ -3578,7 +3554,7 @@
                     }
                 },
                 {
-                    "4": {
+                    "3": {
                         "proficiencyButton": "1",
                         "secondColumn": "Jabalina",
                         "itemId": "item-1776392633287-9a6af873",
