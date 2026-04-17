@@ -3819,11 +3819,13 @@
                             "traitDescription": "A partir del nivel 2, obtienes un asombroso sentido para percibir los elementos de tu entorno que presentan una amenaza, dándote ventaja cuando trates de apartarte del peligro.\nTienes ventaja en las tiradas de salvación de Destreza contra los efectos que puedas ver, como trampas y hechizos.\nPara beneficiarte de este rasgo no puedes estar ciego, sordo o incapacitado. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
+                            "adjustmentCategory": "saves",
+                            "adjustmentSubCategory": "DEX",
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
-                            "resetType": "none"
+                            "resetType": "none",
+                            "advantage": false,
+                            "disadvantage": false
                         }
                     ]
                 }
