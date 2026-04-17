@@ -3430,7 +3430,10 @@
                 "Comun",
                 "Orco"
             ],
-            "playerToolsProficiency": [],
+            "playerToolsProficiency": [
+                "Vehículos (Tierra)",
+                "Vehículos (Agua)"
+            ],
             "initiativeButton": "+2",
             "AC": "16",
             "speed": "30ft.",
