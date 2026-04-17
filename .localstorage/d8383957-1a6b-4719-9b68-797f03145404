@@ -3432,7 +3432,7 @@
             ],
             "playerToolsProficiency": [],
             "initiativeButton": "+2",
-            "AC": "12",
+            "AC": "16",
             "speed": "30ft.",
             "characterLevel": "1",
             "playerXP": "0",
@@ -3576,7 +3576,7 @@
                         "quantity": 1,
                         "weight": 45,
                         "cost": "50 gp",
-                        "equipped": false
+                        "equipped": true
                     }
                 ],
                 "backpack": [],
