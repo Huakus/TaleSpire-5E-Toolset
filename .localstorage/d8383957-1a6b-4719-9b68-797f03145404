@@ -3419,7 +3419,9 @@
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [],
             "playerArmorProficiency": [],
-            "playerLanguageProficiency": [],
+            "playerLanguageProficiency": [
+                "Comun"
+            ],
             "playerToolsProficiency": [],
             "initiativeButton": "+2",
             "AC": "12",
