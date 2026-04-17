@@ -3463,7 +3463,7 @@
             "sleightofHandMod": "DES",
             "stealthMod": "DES",
             "survivalMod": "SAB",
-            "": 1,
+            "": 0,
             "hitDiceButton": "1d12",
             "pb-1": 0,
             "pb-2": 0,
@@ -3517,6 +3517,31 @@
                         "ninthColumn": {
                             "attacks": false,
                             "actions": false,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
+                },
+                {
+                    "2": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Espada Corta +1",
+                        "itemId": "item-1776392239702-5cd8d3f6",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+7",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "1",
+                        "damageBonus": "1",
+                        "tenthColumn": "Sutil, Ligero, Monje",
+                        "elventhColumn": "Una espada pequeña y versátil, ideal para el combate rápido y cuerpo a cuerpo, a menudo utilizada para dar estocadas y cortes.",
+                        "twelvethColumn": "Perforante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
                             "bonus-actions": false,
                             "reactions": false,
                             "other": false
@@ -3584,7 +3609,7 @@
                         "quantity": 1,
                         "weight": 2,
                         "cost": "10 gp",
-                        "equipped": false
+                        "equipped": true
                     }
                 ],
                 "backpack": [],
