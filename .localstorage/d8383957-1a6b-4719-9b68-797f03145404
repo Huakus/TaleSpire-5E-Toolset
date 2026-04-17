@@ -3566,16 +3566,9 @@
             },
             "groupTraitData": [
                 {
-                    "traitName": "Visión en la oscuridad",
-                    "cheveron": true,
-                    "traitDescription": "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
-                    "checkboxStates": [],
-                    "numberOfUses": "0",
-                    "adjustmentCategory": "None",
-                    "adjustmentSubCategory": "",
-                    "adjustmentAbility": "NONE",
-                    "adjustmentValue": "0",
-                    "resetType": "none"
+                    "group-title": "",
+                    "group-chevron": false,
+                    "traits": []
                 }
             ],
             "groupNotesData": [],
