@@ -3572,6 +3572,31 @@
                             "other": false
                         }
                     }
+                },
+                {
+                    "4": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Jabalina",
+                        "itemId": "item-1776392633287-9a6af873",
+                        "thirdColumn": "5ft - 30/120ft",
+                        "fourthColumn": "+6",
+                        "fifthColumn": "1d6",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "",
+                        "damageBonus": "",
+                        "tenthColumn": "Arrojadiza, Monk",
+                        "elventhColumn": "Una lanza arrojadiza liviana, diseñada para ataques a distancia, con un diseño simple para un fácil manejo y golpes penetrantes efectivos.",
+                        "twelvethColumn": "Perfornate",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
                 }
             ],
             "spellData": {
@@ -3642,6 +3667,14 @@
                         "quantity": 1,
                         "weight": 6,
                         "cost": "1500 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Jabalina",
+                        "uniqueId": "item-1776392633287-9a6af873",
+                        "quantity": 4,
+                        "weight": 8,
+                        "cost": "5 sp",
                         "equipped": true
                     }
                 ],
