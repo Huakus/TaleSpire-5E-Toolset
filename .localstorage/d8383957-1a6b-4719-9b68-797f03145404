@@ -3826,6 +3826,18 @@
                             "resetType": "none",
                             "advantage": true,
                             "disadvantage": false
+                        },
+                        {
+                            "traitName": "Frenesí",
+                            "cheveron": false,
+                            "traitDescription": "A partir del momento en el que eliges esta senda al nivel 3, puedes entrar en frenesí cuando estás en furia. Si lo haces, mientras dure tu furia, puedes hacer un único ataque cuerpo a cuerpo como acción adicional en cada uno de tus turnos después de entrar en frenesí. Cuando tu furia termina, sufres un nivel de fatiga (como se describe en el Apéndice A).",
+                            "checkboxStates": [],
+                            "numberOfUses": "0",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
+                            "adjustmentAbility": "NONE",
+                            "adjustmentValue": "0",
+                            "resetType": "none"
                         }
                     ]
                 }
