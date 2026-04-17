@@ -3547,6 +3547,31 @@
                             "other": false
                         }
                     }
+                },
+                {
+                    "3": {
+                        "proficiencyButton": "0",
+                        "secondColumn": "Espada larga +1",
+                        "itemId": "item-1776392297471-ff339a17",
+                        "thirdColumn": "5ft",
+                        "fourthColumn": "+7",
+                        "fifthColumn": "1d8",
+                        "sixthColumn": "ActionSettings",
+                        "seventhColumn": "FUE",
+                        "weaponType": "Cuerpo a cuerpo",
+                        "eighthColumn": "1",
+                        "damageBonus": "1",
+                        "tenthColumn": "Versátil",
+                        "elventhColumn": "",
+                        "twelvethColumn": "Cortante",
+                        "ninthColumn": {
+                            "attacks": true,
+                            "actions": true,
+                            "bonus-actions": false,
+                            "reactions": false,
+                            "other": false
+                        }
+                    }
                 }
             ],
             "spellData": {
@@ -3609,6 +3634,14 @@
                         "quantity": 1,
                         "weight": 2,
                         "cost": "10 gp",
+                        "equipped": true
+                    },
+                    {
+                        "name": "Espada larga +1",
+                        "uniqueId": "item-1776392297471-ff339a17",
+                        "quantity": 1,
+                        "weight": 6,
+                        "cost": "1500 gp",
                         "equipped": true
                     }
                 ],
