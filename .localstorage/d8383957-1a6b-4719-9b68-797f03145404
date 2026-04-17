@@ -3417,7 +3417,10 @@
             "insp": 0,
             "upcastToggle": 1,
             "exhaustionToggle": 0,
-            "playerWeaponProficiency": [],
+            "playerWeaponProficiency": [
+                "Arma Marcial",
+                "Arma Simple"
+            ],
             "playerArmorProficiency": [
                 "Liviano",
                 "Media",
