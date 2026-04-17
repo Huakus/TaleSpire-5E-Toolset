@@ -3738,6 +3738,13 @@
                         "quantity": 1,
                         "weight": 10,
                         "cost": "1 gp"
+                    },
+                    {
+                        "name": "Juego de dados",
+                        "uniqueId": "item-1776392908432-b165da73",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "1 sp"
                     }
                 ],
                 "other-possessions": [],
