@@ -3418,7 +3418,11 @@
             "upcastToggle": 1,
             "exhaustionToggle": 0,
             "playerWeaponProficiency": [],
-            "playerArmorProficiency": [],
+            "playerArmorProficiency": [
+                "Liviano",
+                "Media",
+                "Escudo"
+            ],
             "playerLanguageProficiency": [
                 "Comun",
                 "Orco"
