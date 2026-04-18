@@ -3732,7 +3732,7 @@
                     "traits": [
                         {
                             "traitName": "Visión en la oscuridad",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3744,7 +3744,7 @@
                         },
                         {
                             "traitName": "Resistencia Incansable",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Cuando te ves reducido a 0 Puntos de Golpe pero no estás totalmente muerto, puedes volver a tener 1 punto de golpe en su lugar.\nNo puedes volver usar este rasgo hasta que no hayas completado un descanso prolongado.",
                             "checkboxStates": [
                                 false
@@ -3758,7 +3758,7 @@
                         },
                         {
                             "traitName": "Ataques Salvajes",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Cuando saques un impacto crítico con un ataque con arma cuerpo a cuerpo, puedes tirar otra vez uno de los dados de daño del arma y añadirlo al daño extra por el impacto crítico.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3770,7 +3770,7 @@
                         },
                         {
                             "traitName": "Defensa sin Armadura",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Mientras no lleves ninguna armadura, tu Clase de Armadura será de 10 + Modificador de Destreza + Modificador de Constitución.\nPuedes usar un escudo y aun así beneficiarte de este rasgo.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3832,7 +3832,7 @@
                         },
                         {
                             "traitName": "Instinto Salvaje",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "A partir del nivel 7, tus instintos son tan precisos que tienes ventaja en las tiradas de iniciativa.\nDe forma adicional, si eres sorprendido al principio del combate y no estás incapacitado, puedes actuar normalmente en tu primer turno, pero sólo si entras en furia antes de hacer otra cosa en ese turno. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
