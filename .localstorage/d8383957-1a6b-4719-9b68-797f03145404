@@ -3750,8 +3750,8 @@
                                 false
                             ],
                             "numberOfUses": "1",
-                            "adjustmentCategory": "combatStats",
-                            "adjustmentSubCategory": "AC",
+                            "adjustmentCategory": "None",
+                            "adjustmentSubCategory": "",
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
                             "resetType": "long rest"
