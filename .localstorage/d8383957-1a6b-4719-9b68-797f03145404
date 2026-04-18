@@ -3808,7 +3808,7 @@
                         },
                         {
                             "traitName": "Movimiento Rapido",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "A partir del nivel 5, tu velocidad se incrementa en 10 pies (3 metros) mientras no estés usando armadura pesada.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
