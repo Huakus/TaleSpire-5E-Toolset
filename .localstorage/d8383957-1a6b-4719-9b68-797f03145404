@@ -3732,7 +3732,7 @@
                     "traits": [
                         {
                             "traitName": "Visión en la oscuridad",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3744,7 +3744,7 @@
                         },
                         {
                             "traitName": "Resistencia Incansable",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Cuando te ves reducido a 0 Puntos de Golpe pero no estás totalmente muerto, puedes volver a tener 1 punto de golpe en su lugar.\nNo puedes volver usar este rasgo hasta que no hayas completado un descanso prolongado.",
                             "checkboxStates": [
                                 false
@@ -3758,7 +3758,7 @@
                         },
                         {
                             "traitName": "Ataques Salvajes",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Cuando saques un impacto crítico con un ataque con arma cuerpo a cuerpo, puedes tirar otra vez uno de los dados de daño del arma y añadirlo al daño extra por el impacto crítico.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3770,7 +3770,7 @@
                         },
                         {
                             "traitName": "Defensa sin Armadura",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Mientras no lleves ninguna armadura, tu Clase de Armadura será de 10 + Modificador de Destreza + Modificador de Constitución.\nPuedes usar un escudo y aun así beneficiarte de este rasgo.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3782,7 +3782,7 @@
                         },
                         {
                             "traitName": "Gran Experto en Armas",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Como siempre estás vigilando el peligro, ganas los siguientes beneficios:\n• Ganas un +5 a la iniciativa.\n• No puedes ser sorprendido mientras estés consciente.\n• Otras criaturas no pueden tomar ventaja en tiradas de ataque contra ti como resultado de estar ocultos de ti.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
