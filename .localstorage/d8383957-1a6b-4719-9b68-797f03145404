@@ -3782,7 +3782,7 @@
                         },
                         {
                             "traitName": "Gran Experto en Armas",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Como siempre estás vigilando el peligro, ganas los siguientes beneficios:\n• Ganas un +5 a la iniciativa.\n• No puedes ser sorprendido mientras estés consciente.\n• Otras criaturas no pueden tomar ventaja en tiradas de ataque contra ti como resultado de estar ocultos de ti.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
