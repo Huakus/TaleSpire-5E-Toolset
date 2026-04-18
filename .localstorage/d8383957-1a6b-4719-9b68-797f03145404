@@ -3808,7 +3808,7 @@
                         },
                         {
                             "traitName": "Movimiento Rapido",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "A partir del nivel 5, tu velocidad se incrementa en 10 pies (3 metros) mientras no estés usando armadura pesada.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3820,7 +3820,7 @@
                         },
                         {
                             "traitName": "Furia Inconsciente",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Empezando en el nivel 6, no puedes ser encantado o asustado mientras estés en furia.\nSi estás encantado o asustado cuando entras en furia, el efecto es suspendido durante la duración de esta. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
