@@ -3865,7 +3865,7 @@
                         },
                         {
                             "traitName": "Ataque Temerario",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Empezando en el nivel 2, puedes dejar a un lado tu defensa para atacar con feroz desesperación.\nCuando hagas tu primer ataque en tu turno, puedes decidir atacar de forma temeraria.\nHacerlo te da ventaja en un ataque de armas cuerpo a cuerpo que use Fuerza durante este turno, pero los ataques contra ti tienen ventaja hasta el siguiente turno.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
