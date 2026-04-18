@@ -3750,8 +3750,8 @@
                                 false
                             ],
                             "numberOfUses": "1",
-                            "adjustmentCategory": "None",
-                            "adjustmentSubCategory": "",
+                            "adjustmentCategory": "attributes",
+                            "adjustmentSubCategory": "STR",
                             "adjustmentAbility": "NONE",
                             "adjustmentValue": "0",
                             "resetType": "long rest"
