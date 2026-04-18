@@ -3865,7 +3865,7 @@
                         },
                         {
                             "traitName": "Ataque Temerario",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Empezando en el nivel 2, puedes dejar a un lado tu defensa para atacar con feroz desesperación.\nCuando hagas tu primer ataque en tu turno, puedes decidir atacar de forma temeraria.\nHacerlo te da ventaja en un ataque de armas cuerpo a cuerpo que use Fuerza durante este turno, pero los ataques contra ti tienen ventaja hasta el siguiente turno.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3877,7 +3877,7 @@
                         },
                         {
                             "traitName": "Sentido del Peligro",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "A partir del nivel 2, obtienes un asombroso sentido para percibir los elementos de tu entorno que presentan una amenaza, dándote ventaja cuando trates de apartarte del peligro.\nTienes ventaja en las tiradas de salvación de Destreza contra los efectos que puedas ver, como trampas y hechizos.\nPara beneficiarte de este rasgo no puedes estar ciego, sordo o incapacitado. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
