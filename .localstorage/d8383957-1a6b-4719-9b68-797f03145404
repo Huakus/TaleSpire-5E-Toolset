@@ -3877,7 +3877,7 @@
                         },
                         {
                             "traitName": "Sentido del Peligro",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "A partir del nivel 2, obtienes un asombroso sentido para percibir los elementos de tu entorno que presentan una amenaza, dándote ventaja cuando trates de apartarte del peligro.\nTienes ventaja en las tiradas de salvación de Destreza contra los efectos que puedas ver, como trampas y hechizos.\nPara beneficiarte de este rasgo no puedes estar ciego, sordo o incapacitado. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3891,7 +3891,7 @@
                         },
                         {
                             "traitName": "Frenesí",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "A partir del momento en el que eliges esta senda al nivel 3, puedes entrar en frenesí cuando estás en furia.\nSi lo haces, mientras dure tu furia, puedes hacer un único ataque cuerpo a cuerpo como acción adicional en cada uno de tus turnos después de entrar en frenesí.\nCuando tu furia termina, sufres un nivel de fatiga (como se describe en el Apéndice A).",
                             "checkboxStates": [],
                             "numberOfUses": "0",
