@@ -3820,7 +3820,7 @@
                         },
                         {
                             "traitName": "Furia Inconsciente",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Empezando en el nivel 6, no puedes ser encantado o asustado mientras estés en furia.\nSi estás encantado o asustado cuando entras en furia, el efecto es suspendido durante la duración de esta. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3832,7 +3832,7 @@
                         },
                         {
                             "traitName": "Instinto Salvaje",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "A partir del nivel 7, tus instintos son tan precisos que tienes ventaja en las tiradas de iniciativa.\nDe forma adicional, si eres sorprendido al principio del combate y no estás incapacitado, puedes actuar normalmente en tu primer turno, pero sólo si entras en furia antes de hacer otra cosa en ese turno. ",
                             "checkboxStates": [],
                             "numberOfUses": "0",
