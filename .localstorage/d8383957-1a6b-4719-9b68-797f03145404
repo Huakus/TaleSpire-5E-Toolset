@@ -3770,7 +3770,7 @@
                         },
                         {
                             "traitName": "Defensa sin Armadura",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Mientras no lleves ninguna armadura, tu Clase de Armadura será de 10 + Modificador de Destreza + Modificador de Constitución.\nPuedes usar un escudo y aun así beneficiarte de este rasgo.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
