@@ -2246,9 +2246,9 @@
                     ],
                     "slots": [
                         false,
-                        false,
-                        false,
-                        false
+                        true,
+                        true,
+                        true
                     ]
                 },
                 "2nd-level": {
@@ -2323,9 +2323,9 @@
                         }
                     ],
                     "slots": [
-                        false,
-                        false,
-                        false
+                        true,
+                        true,
+                        true
                     ]
                 },
                 "3rd-level": {
@@ -2416,9 +2416,9 @@
                         }
                     ],
                     "slots": [
-                        false,
-                        false,
-                        false
+                        true,
+                        true,
+                        true
                     ]
                 },
                 "4th-level": {
@@ -2524,7 +2524,7 @@
                         }
                     ],
                     "slots": [
-                        false
+                        true
                     ]
                 },
                 "6th-level": {
