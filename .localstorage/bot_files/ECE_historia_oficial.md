@@ -532,3 +532,29 @@ Todo apuntaba a una red compleja donde **contrabando, corrupción y pactos feér
 ### Estado de la situación
 Al cerrar esas jornadas, el grupo había obtenido certezas inquietantes: habían localizado a Heladio y al Pichón, identificado una vía secreta hacia la Ciudad Alta y confirmado que antiguos pactos feéricos seguían activos… y reclamando su precio.
 El Día del Ganso había dejado una lección clara: incluso los hechos más absurdos podían ser la antesala de algo mucho más grande. En la Ciudad Exterior de Valverde del Río, las marcas del pasado empezaban a brillar otra vez.
+
+### Primer contacto con el Gremio
+En el Barrio Exterior, Varka se dirige al punto de contacto del gremio de contrabandistas tras obtener referencias indirectas sobre su ubicación. La reunión se produce en una estructura improvisada entre las barracas, utilizada como espacio de intercambio y verificación de identidades.
+Varka ingresa sola al punto de contacto visible, mientras Skitrix “Stix Ernesto” Koboldtanz permanece oculto en las inmediaciones, fuera de la línea directa de visión, observando accesos, movimientos y posibles salidas.
+En el interior, Varka es recibida por un intermediario del gremio. El individuo evita dar su nombre y mantiene una actitud defensiva desde el inicio del intercambio. La conversación se desarrolla con cautela, con pausas frecuentes y evasivas ante preguntas directas.
+Durante el diálogo, Varka intenta establecer credenciales suficientes para justificar su presencia y acceder a niveles superiores del gremio. El intermediario responde con preguntas indirectas, buscando validar si Varka representa una amenaza, una oportunidad o una trampa.
+El comportamiento del contacto evidencia tensión operativa: evita comprometer información, no confirma rutas ni nombres clave, y mantiene distancia física constante durante toda la interacción. En múltiples momentos observa el entorno externo, como si esperara interrupciones o vigilancia.
+Skitrix, desde su posición oculta, registra movimientos periféricos: presencia de vigías, rotación de guardias y señales no verbales entre miembros del gremio. No interviene en ningún momento, limitándose a observar.
+Hacia el cierre del encuentro, el intermediario corta la conversación sin ofrecer acuerdos ni rechazos explícitos. Indica que cualquier avance requerirá validación adicional por parte de niveles superiores del gremio.
+Varka abandona el punto de contacto sin haber obtenido compromisos formales ni acceso directo al liderazgo contrabandista. Skitrix se retira en sincronía, manteniendo la distancia y evitando ser detectado.
+El encuentro finaliza sin confrontación ni resolución, dejando establecido que el gremio opera bajo presión y con protocolos de seguridad activos.
+
+### Sospechas en la taberna
+El grupo se reúne en una taberna del Barrio Exterior, frecuentada por mercenarios. En ese entorno, el comportamiento de Zephyr —un mercenario de naturaleza semi infernal— resulta discordante: se muestra confiado y relajado en un contexto dominado por la paranoia.
+Varka y Skitrix “Stix Ernesto” Koboldtanz detectan esta incongruencia y deciden seguirlo discretamente cuando se aparta. La vigilancia confirma que Zephyr mantiene contacto con un actor externo no identificado, evidenciando una traición activa y filtraciones dentro del propio entorno del grupo.
+En paralelo, Varka contacta a una adivina en un espacio privado de la taberna. La mujer identifica que su magia de pacto se manifiesta a través de visiones fragmentadas y le indica regresar durante la noche.
+En la sesión nocturna, Varka experimenta una secuencia de visiones: un paisaje árido, estructuras antiguas semienterradas y una dirección marcada hacia el sur. La experiencia no presenta información explícita, pero establece con claridad un destino fuera de la ciudad, vinculado a su pacto.
+De forma contextual, se confirma que el conflicto del barrio gira en torno al tráfico de cristales luminiscentes de origen arcano-alquímico, asociados a visiones y sueños lúcidos. El cargamento identificado contiene un sello de la Orden Carmesí, vinculando la actividad criminal con una estructura mayor.
+El conjunto de eventos establece tres elementos: una traición interna confirmada, una red criminal con respaldo externo y un nuevo eje de búsqueda personal para Varka fuera del Barrio Exterior.
+
+### El paquete y las rutas ocultas
+La party investiga una casa en el Barrio Bajo donde Silas Viera, alquimista y distribuidor menor, realiza la entrega de un paquete. Durante el intercambio, Silas declara desconocer el alcance real de la operación, confirmando su rol como intermediario.
+Delerion detecta en el paquete una energía arcana antigua, asociada a templos, mientras Borgar inspecciona el contenido y reconoce el sello de la Orden Carmesí, estableciendo la relevancia del cargamento.
+Se define que el paquete debe ser trasladado hacia la Ciudad Alta a través de túneles de contrabando operados bajo la supervisión de Raviel. La party asume la necesidad de participar directamente en este traslado.
+En paralelo, el grupo establece contacto con el Teniente Tres Dientes, quien prioriza la situación de Lucen, un prisionero bajo control del gremio criminal vinculado a Hélade y Gregorio.
+Adler interviene para curar físicamente a Lucen. Tras esto, el grupo evalúa posibles cursos de acción sobre él, considerando su estado y su potencial uso dentro del conflicto.
