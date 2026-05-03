@@ -4120,38 +4120,8 @@
         "AutoSaveTemporary": [
             {
                 "isMonster": 1,
-                "init": "15",
-                "name": "🟥 ⚔️Caballero Resonante (A)",
-                "currentHp": "85",
-                "maxHp": "85",
-                "tempHp": "0",
-                "conditions": [],
-                "isClosed": 0
-            },
-            {
-                "isMonster": 1,
-                "init": "10",
-                "name": "🟥 Espectro del Eco (A)",
-                "currentHp": "67",
-                "maxHp": "67",
-                "tempHp": "0",
-                "conditions": [],
-                "isClosed": 0
-            },
-            {
-                "isMonster": 1,
-                "init": "7",
+                "init": "0",
                 "name": "🟥 Caballero del Eco Roto (A)",
-                "currentHp": "168",
-                "maxHp": "168",
-                "tempHp": "0",
-                "conditions": [],
-                "isClosed": 0
-            },
-            {
-                "isMonster": 1,
-                "init": "5",
-                "name": "🟥 Caballero del Eco Roto (B)",
                 "currentHp": "168",
                 "maxHp": "168",
                 "tempHp": "0",
