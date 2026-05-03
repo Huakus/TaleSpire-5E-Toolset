@@ -3182,6 +3182,22 @@
                         "weight": 6,
                         "cost": "10 gp",
                         "equipped": true
+                    },
+                    {
+                        "name": "Sombra del Segador",
+                        "uniqueId": "item-1777349260696-6b56c32d",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "2500 gp",
+                        "equipped": false
+                    },
+                    {
+                        "name": "Sombra del Segador",
+                        "uniqueId": "item-1777352824338-c84ecbae",
+                        "quantity": 1,
+                        "weight": 0,
+                        "cost": "2500 gp",
+                        "equipped": false
                     }
                 ],
                 "backpack": [
@@ -4094,172 +4110,44 @@
         ],
         "AutoSaveTemporary": [
             {
-                "isMonster": 0,
-                "isCustom": false,
-                "name": "Iamtheblackwizards",
-                "talespireId": "77868f4d-5229-47aa-9dbe-fa72cddd12a9",
-                "hp": {
-                    "current": 0,
-                    "max": 0
-                },
-                "ac": 0,
-                "initiative": 22,
-                "passivePerception": 0,
-                "spellSave": 0
+                "isMonster": 1,
+                "init": "15",
+                "name": "🟥 ⚔️Caballero Resonante (A)",
+                "currentHp": "85",
+                "maxHp": "85",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
             },
             {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Petro",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 20,
-                "passivePerception": 0,
-                "spellSave": 12
+                "isMonster": 1,
+                "init": "10",
+                "name": "🟥 Espectro del Eco (A)",
+                "currentHp": "67",
+                "maxHp": "67",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
             },
             {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "El Sobrino",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 18,
-                "passivePerception": 0,
-                "spellSave": 12
+                "isMonster": 1,
+                "init": "7",
+                "name": "🟥 Caballero del Eco Roto (A)",
+                "currentHp": "168",
+                "maxHp": "168",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
             },
             {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Ebrio 1",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 17,
-                "passivePerception": 0,
-                "spellSave": 12
-            },
-            {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Mercenario 1",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 16,
-                "passivePerception": 0,
-                "spellSave": 12
-            },
-            {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Bardo Mercenario",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 15,
-                "passivePerception": 0,
-                "spellSave": 12
-            },
-            {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Arturo",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 15,
-                "passivePerception": 0,
-                "spellSave": 12
-            },
-            {
-                "isMonster": 0,
-                "isCustom": false,
-                "name": "Joaquin Senn",
-                "talespireId": "9c46e975-5507-443b-b729-757404e8c172",
-                "hp": {
-                    "current": 0,
-                    "max": 0
-                },
-                "ac": 0,
-                "initiative": 14,
-                "passivePerception": 0,
-                "spellSave": 0
-            },
-            {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Ebrio 2",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 12,
-                "passivePerception": 0,
-                "spellSave": 12
-            },
-            {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Zhafir",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 10,
-                "passivePerception": 0,
-                "spellSave": 12
-            },
-            {
-                "isMonster": 0,
-                "isCustom": false,
-                "name": "Bosskiller",
-                "talespireId": "403b99d9-3d1e-461c-b35a-1f2fcf10bcd3",
-                "hp": {
-                    "current": 0,
-                    "max": 0
-                },
-                "ac": 0,
-                "initiative": 9,
-                "passivePerception": 0,
-                "spellSave": 0
-            },
-            {
-                "isMonster": 0,
-                "isCustom": true,
-                "name": "Mercion",
-                "talespireId": null,
-                "hp": {
-                    "current": 40,
-                    "max": 40
-                },
-                "ac": 14,
-                "initiative": 8,
-                "passivePerception": 0,
-                "spellSave": 12
+                "isMonster": 1,
+                "init": "5",
+                "name": "🟥 Caballero del Eco Roto (B)",
+                "currentHp": "168",
+                "maxHp": "168",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
             }
         ],
         "Encuentro 02 Taberna del Yunque": [

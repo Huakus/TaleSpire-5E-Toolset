@@ -333,6 +333,69 @@
             "requires_attunement": true,
             "hasCharges": false,
             "chargesOptions": null
+        },
+        "Sombra del Segador": {
+            "index": "sombra-del-segador",
+            "name": "Sombra del Segador",
+            "equipment_category": {
+                "index": "wondrous-item",
+                "name": "wondrous-item"
+            },
+            "description": [
+                "Un fragmento de tela o un trozo de vidrio (no es clara su naturaleza) que parece devorar la luz. Su superficie no refleja; es un objeto negro sin profundidad, como un vacío donde la iluminación falla. Al sostenerlo, las sombras cercanas se estiran levemente hacia él, como atraídas.",
+                "Existen especulaciones en ámbitos académicos (de un rigor bastante cuestionable) que lo asocian con el paso del 'Grim Reaper'—no la entidad en sí, sino el residuo de su presencia.",
+                "[b]Propiedades[/b]",
+                "Velo de Penumbra",
+                "Mientras estés vinculado al objeto, la luz en un radio de 3 metros (10 pies) se atenúa ligeramente. La luz brillante pasa a ser luz tenue, y la luz tenue pasa a ser oscuridad no mágica (las criaturas con visión en la oscuridad ven esta área como luz tenue). Las criaturas que dependen de la vista tienen desventaja en las tiradas de Percepción para detectar al portador si permanece inmóvil.",
+                "**Marca de la Cercanía (1/día)**",
+                "Como acción adicional, puedes marcar a una criatura que veas a 9 metros (30 pies). Durante 1 minuto:",
+                "* La primera vez que el objetivo caiga por debajo de la mitad de sus puntos de golpe, recibe 2d6 de daño necrótico adicional.",
+                "* El objetivo no puede beneficiarse de puntos de golpe temporales durante este efecto.",
+                "Este efecto termina antes si pierdes la concentración (como si concentraras un conjuro, CD 10 o la mitad del daño recibido, lo que sea mayor).",
+                "**Presencia Persistente**",
+                "Cuando una criatura muere a menos de 4,5 metros (15 pies) de ti, obtienes ventaja en tu siguiente tirada de ataque o tirada de salvación antes del final de tu siguiente turno. Si no usas este beneficio, en su lugar tienes desventaja en tu siguiente tirada de salvación de Sabiduría (el “peso” persiste).",
+                "**Susurro de Finalidad (desventaja)**",
+                "Cada vez que uses *Marca de la Cercanía*, realiza una tirada de salvación de Sabiduría CD 12. Si fallas, quedas afectado por un fatalismo latente hasta tu próximo descanso largo:",
+                "* Tienes desventaja en las tiradas de salvación contra la muerte.",
+                "* No puedes acercarte voluntariamente a una criatura con todos sus puntos de golpe a menos que superes una prueba de Sabiduría CD 10.",
+                "### **Notas de Ambientación**",
+                "* El objeto es *más oscuro que la oscuridad*: incluso bajo luz mágica, parece una ausencia en lugar de una superficie.",
+                "* Los sonidos cercanos se perciben levemente amortiguados, como absorbidos.",
+                "* Algunos portadores reportan ver fugazmente una silueta alta en la visión periférica que desaparece al mirarla directamente.",
+                "### **Forma y Uso**",
+                "El objeto adopta distintas presentaciones físicas al vincularse con el portador (es un objeto activo que 'elije' la forma):",
+                "* Capa de tela negra 'mate', conocida como la 'capa de medianoche' (cloak of midnight)",
+                "* Brazalete de tela negra o metal opaco",
+                "* Fragmento incrustado en un cinturón",
+                "* Amuleto o colgante sin brillo",
+                "* Parche o venda que se enrolla en la muñeca o antebrazo",
+                "Mientras esté **en contacto con tu cuerpo** (llevado o vestido de forma visible u oculta), sus propiedades funcionan. No requiere empuñarlo ni ocupar las manos."
+            ],
+            "properties": [
+                {
+                    "index": "attunement",
+                    "name": "Requires Attunement"
+                }
+            ],
+            "cost": {
+                "quantity": 2500,
+                "unit": "gp"
+            },
+            "weight": 0,
+            "rarity": {
+                "index": "legendary",
+                "name": "legendary"
+            },
+            "hasCharges": false,
+            "chargesOptions": null,
+            "bonus": [
+                {
+                    "category": "attributes",
+                    "key": "INT",
+                    "value": 1,
+                    "description": ""
+                }
+            ]
         }
     },
     "npcList": {
@@ -468,5 +531,380 @@
             "column0": "",
             "column1": ""
         }
-    }
+    },
+    "Custom Monsters": {
+        "🟥 ⚔️Caballero Resonante": {
+            "Id": "🟥 ⚔️Caballero Resonante",
+            "Name": "🟥 ⚔️Caballero Resonante",
+            "Path": "",
+            "Source": "Ecos del Círculo Eterno",
+            "Type": "No muerto Mediano",
+            "CR": "5",
+            "InitiativeModifier": "1",
+            "HP": {
+                "Value": 85,
+                "Notes": "10d8+40"
+            },
+            "AC": {
+                "Value": 17,
+                "Notes": "Armadura antigua, escudo"
+            },
+            "Speed": [
+                "30 ft."
+            ],
+            "Senses": [
+                "Visión en la oscuridad 60 ft."
+            ],
+            "Languages": [
+                "Comprende Aeloriano"
+            ],
+            "Abilities": {
+                "Str": 18,
+                "Dex": 12,
+                "Con": 18,
+                "Int": 6,
+                "Wis": 10,
+                "Cha": 5
+            },
+            "Saves": [],
+            "Skills": [],
+            "DamageVulnerabilities": [],
+            "DamageResistances": [
+                "necrotic",
+                "bludgeoning_non_magical",
+                "slashing_non_magical",
+                "piercing_non_magical"
+            ],
+            "DamageImmunities": [
+                "poison"
+            ],
+            "ConditionImmunities": [
+                "frightened",
+                "poisoned"
+            ],
+            "QuickAction": [
+                {
+                    "Name": "Espada corroída",
+                    "ToHit": "+7",
+                    "Damage": "1d10+4",
+                    "DamageType": "Cortante"
+                }
+            ],
+            "Traits": [
+                {
+                    "Name": "Disciplina Residual",
+                    "Content": "Si hay otro caballero a 5 pies: ventaja en ataques.\n"
+                },
+                {
+                    "Name": "Formación Forzada",
+                    "Content": "Si hay 2 o más juntos: +2 CA\n"
+                },
+                {
+                    "Name": "Corrección del Eco",
+                    "Content": "1 vez por turno:\nSi fallan un ataque: repiten la tirada.\n"
+                }
+            ],
+            "Actions": [
+                {
+                    "Name": "Golpe coordinado",
+                    "Content": "Si el objetivo está rodeado: +2d6 daño adicional.\n"
+                }
+            ],
+            "Reactions": [
+                {
+                    "Name": "",
+                    "Content": ""
+                }
+            ],
+            "LegendaryActions": [
+                {
+                    "Name": "Colapso Resonante",
+                    "Content": "Al morir: explota en Eco produciendo 2d8 necrótico en 10 pies CON DC 14 → mitad.\n"
+                }
+            ]
+        },
+        "🟥 Caballero del Eco Roto": {
+            "Id": "🟥 Caballero del Eco Roto",
+            "Name": "🟥 Caballero del Eco Roto",
+            "Path": "",
+            "Source": "Ecos del Círculo Eterno",
+            "Type": "Mediano no muerto, legal maligno (fragmentado)",
+            "CR": "9",
+            "InitiativeModifier": "0",
+            "HP": {
+                "Value": 168,
+                "Notes": "21d80+64"
+            },
+            "AC": {
+                "Value": 18,
+                "Notes": "Ecos del Círculo Eterno"
+            },
+            "Speed": [
+                "30 ft."
+            ],
+            "Senses": [
+                "Visión en la oscuridad 60 ft",
+                " Percepción pasiva 15."
+            ],
+            "Languages": [
+                "Comprende Aeloriano",
+                " comprende común",
+                " enano."
+            ],
+            "Abilities": {
+                "Str": 18,
+                "Dex": 10,
+                "Con": 18,
+                "Int": 11,
+                "Wis": 14,
+                "Cha": 16
+            },
+            "Saves": [
+                {
+                    "Name": "Str",
+                    "Modifier": 7
+                },
+                {
+                    "Name": "Con",
+                    "Modifier": 7
+                },
+                {
+                    "Name": "Wis",
+                    "Modifier": 5
+                }
+            ],
+            "Skills": [
+                {
+                    "Name": "Intimidation",
+                    "Modifier": 6
+                },
+                {
+                    "Name": "Perception",
+                    "Modifier": 5
+                }
+            ],
+            "DamageVulnerabilities": [],
+            "DamageResistances": [
+                "necrotic",
+                "bludgeoning_non_magical",
+                "slashing_non_magical",
+                "piercing_non_magical"
+            ],
+            "DamageImmunities": [
+                "poison"
+            ],
+            "ConditionImmunities": [
+                "poisoned",
+                "exhaustion"
+            ],
+            "QuickAction": [
+                {
+                    "Name": "🗡️ Espada del Eco",
+                    "ToHit": "+7",
+                    "Damage": "1d8+4+2d6 (Necrótico)",
+                    "DamageType": "Cortante"
+                }
+            ],
+            "Traits": [
+                {
+                    "Name": "Eco Fragmentado",
+                    "Content": "Ventaja contra encantado, asustado, aturdido. No puede ser sorprendido.\n"
+                },
+                {
+                    "Name": "Aura de Resonancia",
+                    "Content": "Radio 20 ft.:\nNo muertos: +2 daño.\n\nVivos: desventaja contra miedo\n"
+                },
+                {
+                    "Name": "Vínculo con el Eco",
+                    "Content": "Mientras haya un no muerto aliado a 20 ft.: Regenera 10 PG al inicio de turno."
+                },
+                {
+                    "Name": "Propósito Inquebrantable",
+                    "Content": "Al caer a 0 PG:\nCD 15 Constitución. Si tiene éxito → queda a 1 PG.\n"
+                },
+                {
+                    "Name": "Resistencia Legendaria (1/día)",
+                    "Content": "Si falla una tirada de salvación, puede elegir tener éxito."
+                }
+            ],
+            "Actions": [
+                {
+                    "Name": " Golpe de Memoria (recarga 5–6)",
+                    "Content": "CD 14 Sabiduría: pierde reacción, desventaja en siguiente ataque.\n"
+                },
+                {
+                    "Name": "Mandato del Guardián (Recarga 5–6)",
+                    "Content": "Hasta 3 no muertos a 30 ft.: se mueven, realizan ataque como reacción."
+                },
+                {
+                    "Name": "Invocar Restos (1/día)",
+                    "Content": "2 esqueletos o 1 espectro debilitado."
+                }
+            ],
+            "Reactions": [
+                {
+                    "Name": "🛡️ Parada Rúnica",
+                    "Content": "Reduce daño en:\n1d10 + 4.\nSi reduce a 0: CD 14 Sabiduría o queda asustado (1 turno)."
+                }
+            ],
+            "LegendaryActions": [
+                {
+                    "Name": "🔻 Golpe Rápido",
+                    "Content": "Realiza 1 ataque con Espada del Eco (Costo: 1 acción)."
+                },
+                {
+                    "Name": "🔻 Paso del Eco",
+                    "Content": "Se teletransporta hasta 20 ft. a un espacio que pueda ver. No provoca ataques de oportunidad (Costo: 1 acción)."
+                },
+                {
+                    "Name": "🔻 Susurro Fragmentado",
+                    "Content": "Un no muerto aliado: gana ventaja en su siguiente ataque o recupera 8 PG (Costo: 2 acciones)."
+                },
+                {
+                    "Name": "🔻 Ruptura del Recuerdo (clave)",
+                    "Content": "Radio 20 ft.: CD 15 Sabiduría o hace 2d6 psíquico. No puede usar reacciones hasta su siguiente turno (Costo: 2 acciones)."
+                },
+                {
+                    "Name": "🩸 Colapso del Eco (1 vez)",
+                    "Content": "Al bajar de 50% HP:\n6 m\n\n\nCD 15 Sabiduría\n\n\nEfecto:\n3d6 psíquico. Desventaja en salvaciones hasta próximo turno. Aliados no muertos: ventaja en ataques (1 ronda)."
+                }
+            ]
+        },
+        "🟥 Espectro del Eco": {
+            "Id": "🟥 Espectro del Eco",
+            "Name": "🟥 Espectro del Eco",
+            "Path": "",
+            "Source": "Ecos del Crículo Eterno",
+            "Type": "Mediano no muerto, caótico maligno (fragmentado)",
+            "CR": "4",
+            "InitiativeModifier": "3",
+            "HP": {
+                "Value": 67,
+                "Notes": "9d8+27"
+            },
+            "AC": {
+                "Value": 13,
+                "Notes": ""
+            },
+            "Speed": [
+                "Vuelo 60 ft. (flotar)"
+            ],
+            "Senses": [
+                "Visión en la oscuridad 60 ft.",
+                " percepción pasiva 14"
+            ],
+            "Languages": [
+                "Comprende común y aeloriano",
+                " no puede hablar."
+            ],
+            "Abilities": {
+                "Str": 6,
+                "Dex": 16,
+                "Con": 16,
+                "Int": 10,
+                "Wis": 12,
+                "Cha": 14
+            },
+            "Saves": [
+                {
+                    "Name": "Dex",
+                    "Modifier": 6
+                },
+                {
+                    "Name": "Con",
+                    "Modifier": 6
+                }
+            ],
+            "Skills": [
+                {
+                    "Name": "Perception",
+                    "Modifier": 4
+                },
+                {
+                    "Name": "Stealth",
+                    "Modifier": 6
+                }
+            ],
+            "DamageVulnerabilities": [],
+            "DamageResistances": [
+                "fire",
+                "cold",
+                "lightning",
+                "thunder",
+                "acid",
+                "bludgeoning_non_magical",
+                "slashing_non_magical",
+                "piercing_non_magical"
+            ],
+            "DamageImmunities": [
+                "poison",
+                "necrotic"
+            ],
+            "ConditionImmunities": [
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "exhaustion"
+            ],
+            "QuickAction": [
+                {
+                    "Name": "Toque Desgarrador",
+                    "ToHit": "+6",
+                    "Damage": "3d6",
+                    "DamageType": "Necrótico"
+                }
+            ],
+            "Traits": [
+                {
+                    "Name": "Forma Incorpórea",
+                    "Content": "Puede atravesar criaturas y objetos como terreno difícil. Si termina turno dentro de objeto: recibe 5 (1d10) de daño de fuerza."
+                },
+                {
+                    "Name": "Eco Inestable",
+                    "Content": "El espectro no tiene identidad completa. Ventaja en tiradas de ataque si el objetivo ya ha sido dañado este turno. Desventaja en tiradas de salvación contra daño radiante."
+                },
+                {
+                    "Name": "Resonancia con el Caballero",
+                    "Content": "Mientras el Caballero del Eco Roto esté a 9 m:\nel espectro tiene ventaja en ataques. Añade +1d6 daño necrótico."
+                },
+                {
+                    "Name": "Susurros del Eco (pasivo)",
+                    "Content": "Criaturas a 3 m: desventaja en concentración."
+                }
+            ],
+            "Actions": [
+                {
+                    "Name": "Toque Desgarrador",
+                    "Content": "Ataque cuerpo a cuerpo: +6 al impacto, alcance 1.5 m. Daño: 3d6 necrótico."
+                },
+                {
+                    "Name": "Drenaje de Identidad",
+                    "Content": "Si impacta: CD 14 Sabiduría.\n\nSi falla: −1 a tiradas de ataque y salvaciones. Acumulable hasta −3. Dura 1 minuto. Se puede repetir salvación al final del turno."
+                },
+                {
+                    "Name": "Desfase del Eco (Recarga 4–6)",
+                    "Content": "El espectro se vuelve parcialmente intangible: tiene ventaja en ataques. Ataques contra él tienen desventaja. Hasta inicio de su siguiente turno."
+                },
+                {
+                    "Name": "Eco Replicado (1/día)",
+                    "Content": "Crea una imagen residual: ocupa un espacio cercano. Ataques contra el espectro tienen 50% de fallar. Dura 1 turno o hasta recibir daño."
+                }
+            ],
+            "Reactions": [
+                {
+                    "Name": "Desvanecerse",
+                    "Content": "Cuando recibe daño: reduce el daño en 1d8 + 3. Se mueve hasta 10 ft sin provocar OA."
+                }
+            ],
+            "LegendaryActions": [
+                {
+                    "Name": "",
+                    "Content": ""
+                }
+            ]
+        }
+    },
+    "Shop Data": {}
 }
