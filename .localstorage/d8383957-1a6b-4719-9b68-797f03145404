@@ -3338,7 +3338,7 @@
                     "traits": [
                         {
                             "traitName": "Nuevas Energías",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Tienes una limitada capacidad de aguante que puedes usar para protegerte del peligro.\nEn tu turno, puedes usar una acción adicional para ganar una cantidad de Puntos de Golpe igual a 1d10 + tu nivel de guerrero.\nUna vez que hayas usado este rasgo, debes hacer un descanso corto o prolongado antes de poder volver a usarlo.",
                             "checkboxStates": [
                                 false
@@ -3352,7 +3352,7 @@
                         },
                         {
                             "traitName": "Oleada de Acción",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Empezando en el nivel 2 puedes presionarte más allá de los límites normales durante un corto periodo de tiempo.\nEn tu turno, puedes usar una acción añadida además de tu acción normal y tu posible acción adicional.\nUna vez que hayas usado esta habilidad, debes hacer un descanso corto o prolongado antes de poder volver a usarla.\nA partir del nivel 17 puedes usarla dos veces antes de descansar pero solo una vez en el mismo turno.",
                             "checkboxStates": [
                                 false
