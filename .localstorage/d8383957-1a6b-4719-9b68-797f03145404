@@ -4208,7 +4208,7 @@
                 "talespireId": null,
                 "hp": {
                     "current": 31,
-                    "max": 40
+                    "max": 58
                 },
                 "ac": 14,
                 "initiative": 9,
@@ -4232,7 +4232,7 @@
             {
                 "isMonster": 0,
                 "isCustom": false,
-                "name": "undefined",
+                "name": "Adler",
                 "talespireId": "34c58d3f-270d-492e-93c0-3f0e4b12fcc8",
                 "hp": {
                     "current": 0,
