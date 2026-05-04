@@ -3308,7 +3308,7 @@
                         },
                         {
                             "traitName": "Ataque Extra",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Empezando en el nivel 5 puedes atacar dos veces, en lugar de una, siempre que uses la acción de Atacar en tu turno.\nEl número de ataques aumenta a tres cuando alcanzas el nivel 11 en esta clase y a cuatro cuando alcanzas el nivel 20.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
