@@ -694,7 +694,7 @@
                     "traits": [
                         {
                             "traitName": "Revelación",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Cuando estaba en el campamento de los mercenarios se le reveló que el libro estaba escrito en el lenguaje de las hadas.\nDelerion puede leer texto escrito en lenguaje de las hadas, pero lo olvida inmediatamente.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
