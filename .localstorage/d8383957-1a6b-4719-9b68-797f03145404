@@ -3425,7 +3425,7 @@
                         },
                         {
                             "traitName": "Contraataque",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Cuando una criatura falla un ataque cuerpo a cuerpo contra ti, puedes usar tu reacción y gastar un dado de superioridad para realizar un ataque cuerpo a cuerpo de arma contra la criatura.\nSi golpeas, añade el dado de superioridad a la tirada de daño del ataque.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
