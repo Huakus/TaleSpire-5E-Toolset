@@ -4147,7 +4147,7 @@
                 "isMonster": 1,
                 "init": "12",
                 "name": "🟥 ⚔️Caballero Resonante (D)",
-                "currentHp": "85",
+                "currentHp": "65",
                 "maxHp": "85",
                 "tempHp": "0",
                 "conditions": [],
@@ -4161,7 +4161,7 @@
                 "maxHp": "85",
                 "tempHp": "0",
                 "conditions": [],
-                "isClosed": 0
+                "isClosed": 1
             },
             {
                 "isMonster": 1,
@@ -4171,7 +4171,7 @@
                 "maxHp": "85",
                 "tempHp": "0",
                 "conditions": [],
-                "isClosed": 0
+                "isClosed": 1
             },
             {
                 "isMonster": 0,
