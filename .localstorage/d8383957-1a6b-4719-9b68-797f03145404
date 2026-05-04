@@ -1800,21 +1800,6 @@
                         "cost": "0 cp"
                     },
                     {
-                        "name": "Orbe",
-                        "uniqueId": "item-1756660760382-82ed676b",
-                        "quantity": 1,
-                        "weight": 3,
-                        "cost": "20 gp"
-                    },
-                    {
-                        "name": "Bastón de Acelerar",
-                        "uniqueId": "item-1756663384324-9b6c8ddb",
-                        "quantity": 1,
-                        "weight": 4,
-                        "cost": "20 gp",
-                        "equipped": true
-                    },
-                    {
                         "name": "Poción de curación",
                         "uniqueId": "item-1756666284136-db46bf3d",
                         "quantity": 2,
