@@ -1741,7 +1741,9 @@
                             "prepared": "0"
                         }
                     ],
-                    "slots": []
+                    "slots": [
+                        false
+                    ]
                 },
                 "5th-level": {
                     "spells": [],
