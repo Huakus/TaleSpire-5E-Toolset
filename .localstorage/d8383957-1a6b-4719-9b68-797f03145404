@@ -1016,6 +1016,10 @@
                 {
                     "text": "Prisa",
                     "value": "haste"
+                },
+                {
+                    "text": "Bendecir",
+                    "value": "bless"
                 }
             ],
             "coins": {
