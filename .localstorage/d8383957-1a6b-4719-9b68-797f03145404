@@ -2945,12 +2945,7 @@
             "pb-22": 0,
             "pb-23": 0,
             "pb-24": 0,
-            "conditions": [
-                {
-                    "text": "Bendecir",
-                    "value": "bless"
-                }
-            ],
+            "conditions": [],
             "coins": {
                 "cp": 0,
                 "sp": 0,
