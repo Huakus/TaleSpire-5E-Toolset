@@ -686,7 +686,7 @@
                     "traits": [
                         {
                             "traitName": "Revelación",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Cuando estaba en el campamento de los mercenarios se le reveló que el libro estaba escrito en el lenguaje de las hadas.\nDelerion puede leer texto escrito en lenguaje de las hadas, pero lo olvida inmediatamente.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -704,7 +704,7 @@
                     "traits": [
                         {
                             "traitName": "Recuperación arcana",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Has aprendido a recuperar parte de tus energías mágicas gracias al estudio de tu libro de conjuros.\nUna vez por día, cuando finalizas un descanso corto, puedes elegir qué espacios de conjuros quieres recuperar.\nLos espacios de conjuros pueden tener un nivel combinado igual a la mitad de tu nivel de mago (redondeando hacia arriba), aunque ninguno de los espacios de conjuros puede ser de nivel 6 o superior.\nPor ejemplo, si eres un mago de nivel 4, puedes recuperar hasta dos niveles en espacios de conjuros.\nPuedes recuperar tanto dos espacios de conjuros de nivel 1 o un espacio de conjuros de nivel 2.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
