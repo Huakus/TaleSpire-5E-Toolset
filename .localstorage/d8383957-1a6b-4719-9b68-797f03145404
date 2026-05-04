@@ -4163,12 +4163,22 @@
                 "maxHp": "85",
                 "tempHp": "0",
                 "conditions": [],
-                "isClosed": 1
+                "isClosed": 0
             },
             {
                 "isMonster": 1,
                 "init": "4",
                 "name": "🟥 ⚔️Caballero Resonante (C)",
+                "currentHp": "85",
+                "maxHp": "85",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
+            },
+            {
+                "isMonster": 1,
+                "init": "0",
+                "name": "🟥 ⚔️Caballero Resonante (F)",
                 "currentHp": "85",
                 "maxHp": "85",
                 "tempHp": "0",
@@ -4192,7 +4202,7 @@
             {
                 "isMonster": 0,
                 "isCustom": false,
-                "name": "Delerion",
+                "name": "Mercion",
                 "talespireId": "9c46e975-5507-443b-b729-757404e8c172",
                 "hp": {
                     "current": 0,
