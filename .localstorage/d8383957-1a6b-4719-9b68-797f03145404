@@ -626,14 +626,6 @@
                         "currentCharges": 1
                     },
                     {
-                        "name": "Poción de mayor curación",
-                        "uniqueId": "item-1770656703279-5513d168",
-                        "quantity": 1,
-                        "weight": 0.5,
-                        "cost": "100 gp",
-                        "useable": true
-                    },
-                    {
                         "name": "Polvo De Desaparición",
                         "uniqueId": "item-1770656747258-36022cfe",
                         "quantity": 1,
