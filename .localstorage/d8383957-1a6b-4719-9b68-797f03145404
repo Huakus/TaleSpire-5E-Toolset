@@ -4120,17 +4120,7 @@
         "AutoSaveTemporary": [
             {
                 "isMonster": 1,
-                "init": "0",
-                "name": "🟥 Caballero del Eco Roto (A)",
-                "currentHp": "168",
-                "maxHp": "168",
-                "tempHp": "0",
-                "conditions": [],
-                "isClosed": 0
-            },
-            {
-                "isMonster": 1,
-                "init": "0",
+                "init": "16",
                 "name": "🟥 ⚔️Caballero Resonante (A)",
                 "currentHp": "85",
                 "maxHp": "85",
@@ -4140,7 +4130,27 @@
             },
             {
                 "isMonster": 1,
-                "init": "0",
+                "init": "12",
+                "name": "🟥 Caballero del Eco Roto (A)",
+                "currentHp": "168",
+                "maxHp": "168",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
+            },
+            {
+                "isMonster": 1,
+                "init": "12",
+                "name": "🟥 ⚔️Caballero Resonante (D)",
+                "currentHp": "85",
+                "maxHp": "85",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
+            },
+            {
+                "isMonster": 1,
+                "init": "7",
                 "name": "🟥 ⚔️Caballero Resonante (B)",
                 "currentHp": "85",
                 "maxHp": "85",
@@ -4150,18 +4160,8 @@
             },
             {
                 "isMonster": 1,
-                "init": "0",
+                "init": "2",
                 "name": "🟥 ⚔️Caballero Resonante (C)",
-                "currentHp": "85",
-                "maxHp": "85",
-                "tempHp": "0",
-                "conditions": [],
-                "isClosed": 0
-            },
-            {
-                "isMonster": 1,
-                "init": "0",
-                "name": "🟥 ⚔️Caballero Resonante (D)",
                 "currentHp": "85",
                 "maxHp": "85",
                 "tempHp": "0",
@@ -4171,7 +4171,7 @@
             {
                 "isMonster": 0,
                 "isCustom": false,
-                "name": "Bosskiller",
+                "name": "Skitrixx \"Stix Ernesto\" Koboldtanz",
                 "talespireId": "403b99d9-3d1e-461c-b35a-1f2fcf10bcd3",
                 "hp": {
                     "current": 0,
@@ -4185,8 +4185,36 @@
             {
                 "isMonster": 0,
                 "isCustom": false,
-                "name": "Iamtheblackwizards",
+                "name": "Varka",
                 "talespireId": "77868f4d-5229-47aa-9dbe-fa72cddd12a9",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 0,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "Delerion",
+                "talespireId": "9c46e975-5507-443b-b729-757404e8c172",
+                "hp": {
+                    "current": 0,
+                    "max": 0
+                },
+                "ac": 0,
+                "initiative": 0,
+                "passivePerception": 0,
+                "spellSave": 0
+            },
+            {
+                "isMonster": 0,
+                "isCustom": false,
+                "name": "PowerStrings",
+                "talespireId": "34c58d3f-270d-492e-93c0-3f0e4b12fcc8",
                 "hp": {
                     "current": 0,
                     "max": 0
