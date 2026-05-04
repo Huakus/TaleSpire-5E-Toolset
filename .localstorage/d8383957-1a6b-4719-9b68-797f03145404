@@ -3375,7 +3375,7 @@
                             "cheveron": true,
                             "traitDescription": "Aprendes tres maniobras de tu elección, las cuales están detalladas más abajo, en el apartado “Maniobras”.\nMuchas maniobras mejoran un ataque de alguna manera.\nSolo puedes usar una maniobra por ataque.\nAprendes dos maniobras adicionales de tu elección en los niveles 7, 10 y 15.\nCada vez que aprendes una nueva maniobra, puedes reemplazar otra maniobra ya conocida por otra.\n\nDado de Superioridad\nTienes cuatro dados de superioridad, que son d8.\nUn dado de superioridad se gasta cuando lo usas.\nRecuperas todos tus dados de superioridad gastados cuando finalizas un descanso corto o prolongado.\nGanas un dado de superioridad en el nivel 7 y otro más en el nivel 15.\n\nTiradas de Salvación\nAlgunas de tus maniobras requieren que tu objetivo realice una tirada de salvación para resistir los efectos de la maniobra.\nLa CD de la tirada de salvación se calcula de la siguiente manera:\nCD de la Salvación de la Maniobra = 8 + bonificador de competencia + modificador",
                             "checkboxStates": [
-                                false,
+                                true,
                                 false,
                                 false,
                                 false
