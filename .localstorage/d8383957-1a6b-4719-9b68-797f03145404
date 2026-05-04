@@ -3389,7 +3389,7 @@
                         },
                         {
                             "traitName": "Ataque de presición",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Cuando realizas una tirada de ataque con arma contra una criatura, puedes gastar un dado de superioridad para añadirlo a la tirada.\nPuedes usar esta maniobra antes o después de la tirada de ataque, pero debe ser antes de que ningún efecto del ataque sea aplicado.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
