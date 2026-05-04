@@ -40,7 +40,7 @@
             "characterLevel": "9",
             "playerXP": "48840",
             "playerClass": "Mago Nigromante Ermitaño",
-            "currentCharacterHP": "49",
+            "currentCharacterHP": "56",
             "maxCharacterHP": "56",
             "strengthScore": "9",
             "dexterityScore": "14",
@@ -441,8 +441,8 @@
                     {
                         "name": "Poción de curación",
                         "uniqueId": "item-1756666284136-db46bf3d",
-                        "quantity": 4,
-                        "weight": 2,
+                        "quantity": 3,
+                        "weight": 1.5,
                         "cost": "50 gp",
                         "useable": true
                     },
