@@ -4130,7 +4130,7 @@
                 "init": "16",
                 "name": "🟥 ⚔️Caballero Resonante (A)",
                 "currentHp": "85",
-                "maxHp": "85",
+                "maxHp": "s85",
                 "tempHp": "0",
                 "conditions": [],
                 "isClosed": 0
@@ -4179,7 +4179,7 @@
                 "isMonster": 1,
                 "init": "4",
                 "name": "🟥 ⚔️Caballero Resonante (C)",
-                "currentHp": "65",
+                "currentHp": "33",
                 "maxHp": "85",
                 "tempHp": "0",
                 "conditions": [],
