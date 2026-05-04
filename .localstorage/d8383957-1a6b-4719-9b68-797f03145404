@@ -3413,7 +3413,7 @@
                         },
                         {
                             "traitName": "Ataque Táctico (deberían ser 3 en nvl 6, podríamos borrar este)",
-                            "cheveron": false,
+                            "cheveron": true,
                             "traitDescription": "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para que uno de tus aliados pueda maniobrar hasta una posición más ventajosa.\nAñade el dado de superioridad a la tirada de daño del ataque, y escoge una criatura amistosa que pueda verte o escucharte.\nEsa criatura puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad de la criatura a la que has atacado.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
@@ -3425,7 +3425,7 @@
                         },
                         {
                             "traitName": "Contraataque",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Cuando una criatura falla un ataque cuerpo a cuerpo contra ti, puedes usar tu reacción y gastar un dado de superioridad para realizar un ataque cuerpo a cuerpo de arma contra la criatura.\nSi golpeas, añade el dado de superioridad a la tirada de daño del ataque.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
