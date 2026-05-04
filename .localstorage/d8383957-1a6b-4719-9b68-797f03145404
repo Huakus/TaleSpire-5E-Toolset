@@ -4157,6 +4157,16 @@
             },
             {
                 "isMonster": 1,
+                "init": "9",
+                "name": "🟥 ⚔️Caballero Resonante (F)",
+                "currentHp": "85",
+                "maxHp": "85",
+                "tempHp": "0",
+                "conditions": [],
+                "isClosed": 0
+            },
+            {
+                "isMonster": 1,
                 "init": "7",
                 "name": "🟥 ⚔️Caballero Resonante (B)",
                 "currentHp": "85",
@@ -4169,16 +4179,6 @@
                 "isMonster": 1,
                 "init": "4",
                 "name": "🟥 ⚔️Caballero Resonante (C)",
-                "currentHp": "85",
-                "maxHp": "85",
-                "tempHp": "0",
-                "conditions": [],
-                "isClosed": 0
-            },
-            {
-                "isMonster": 1,
-                "init": "0",
-                "name": "🟥 ⚔️Caballero Resonante (F)",
                 "currentHp": "85",
                 "maxHp": "85",
                 "tempHp": "0",
