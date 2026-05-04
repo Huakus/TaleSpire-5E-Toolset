@@ -1808,15 +1808,6 @@
                         "useable": true
                     },
                     {
-                        "name": "Varita de Armadura de Mago",
-                        "uniqueId": "item-1756670608780-0e699639",
-                        "quantity": 1,
-                        "weight": 0.2,
-                        "cost": "2000 gp",
-                        "equipped": false,
-                        "currentCharges": 3
-                    },
-                    {
                         "name": "Túnica de Agati",
                         "uniqueId": "item-1756671255752-9730fb1f",
                         "quantity": 1,
