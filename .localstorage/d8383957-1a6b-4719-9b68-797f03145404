@@ -3407,7 +3407,7 @@
                         },
                         {
                             "traitName": "Ataque de Derribo",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para intentar derribar al objetivo.\nAñade el dado de superioridad a la tirada de daño del ataque, y si el objetivo es de tamaño Grande o más pequeño, debe realizar una tirada de salvación de Fuerza.\nSi falla, el objetivo es derribado",
                             "checkboxStates": [],
                             "numberOfUses": "0",
