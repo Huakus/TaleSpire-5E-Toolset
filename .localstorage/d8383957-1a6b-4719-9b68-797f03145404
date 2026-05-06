@@ -644,7 +644,7 @@
                     "traits": [
                         {
                             "traitName": "Ascendencia Feerica",
-                            "cheveron": true,
+                            "cheveron": false,
                             "traitDescription": "- Tienes ventaja en las tiradas de salvación contra Encantamiento\n- No puedes ser dormido mediante la magia.",
                             "checkboxStates": [],
                             "numberOfUses": "0",
