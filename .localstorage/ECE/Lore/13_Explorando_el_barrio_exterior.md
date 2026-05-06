@@ -1,4 +1,4 @@
-## La exploración del Barrio Exterior
+## Explorando Barrio Exterior
 
 ### Llegada a la Ciudad Exterior
 
