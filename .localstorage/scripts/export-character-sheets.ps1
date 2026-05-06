@@ -6,16 +6,13 @@
   Lee el JSON principal del symbiote, detecta el nodo top-level "characters"
   y genera/actualiza un archivo por personaje en ECE\Hojas.
 
-  El nombre del archivo se genera dinamicamente desde el nombre/key del personaje:
-    Adler    -> hoja_adler.json
-    Delerion -> hoja_delerion.json
+  Importante: no usa ConvertFrom-Json para parsear el JSON principal, porque
+  las hojas pueden traer propiedades con nombre vacio (""), y Windows PowerShell
+  falla al convertir eso a PSCustomObject.
 
-  Si un personaje cambia de nombre, se genera el nuevo archivo y se elimina
-  el archivo viejo hoja_*.json que ya no corresponde a ningun personaje actual.
-
-  El JSON principal puede no tener extension .json. Por eso se buscan tambien
-  archivos sin extension. La busqueda es recursiva dentro de .localstorage,
-  pero se ignoran carpetas de salida y runtime.
+  En su lugar, extrae los objetos de characters leyendo el JSON como texto y
+  respetando llaves, corchetes y strings. Asi preserva el contenido del personaje
+  tal como viene en el archivo principal.
 #>
 
 param(
@@ -84,9 +81,274 @@ function Read-JsonText([string]$Path) {
     return Get-Content -LiteralPath $Path -Raw -Encoding UTF8
 }
 
-function Read-JsonFile([string]$Path) {
-    $raw = Read-JsonText $Path
-    return $raw | ConvertFrom-Json
+function Skip-JsonWhitespace {
+    param(
+        [string]$Text,
+        [ref]$Index
+    )
+
+    while ($Index.Value -lt $Text.Length) {
+        $c = $Text[$Index.Value]
+        if ($c -ne ' ' -and $c -ne "`t" -and $c -ne "`r" -and $c -ne "`n") {
+            break
+        }
+        $Index.Value++
+    }
+}
+
+function ConvertFrom-JsonStringLiteralContent {
+    param([string]$Value)
+
+    $result = New-Object System.Text.StringBuilder
+    $i = 0
+
+    while ($i -lt $Value.Length) {
+        $c = $Value[$i]
+
+        if ($c -ne '\') {
+            [void]$result.Append($c)
+            $i++
+            continue
+        }
+
+        $i++
+        if ($i -ge $Value.Length) {
+            [void]$result.Append('\')
+            break
+        }
+
+        $esc = $Value[$i]
+        switch ($esc) {
+            '"' { [void]$result.Append('"') }
+            '\' { [void]$result.Append('\') }
+            '/'  { [void]$result.Append('/') }
+            'b'  { [void]$result.Append([char]8) }
+            'f'  { [void]$result.Append([char]12) }
+            'n'  { [void]$result.Append("`n") }
+            'r'  { [void]$result.Append("`r") }
+            't'  { [void]$result.Append("`t") }
+            'u'  {
+                if ($i + 4 -lt $Value.Length) {
+                    $hex = $Value.Substring($i + 1, 4)
+                    try {
+                        $code = [Convert]::ToInt32($hex, 16)
+                        [void]$result.Append([char]$code)
+                        $i += 4
+                    }
+                    catch {
+                        [void]$result.Append('\u')
+                    }
+                }
+                else {
+                    [void]$result.Append('\u')
+                }
+            }
+            default { [void]$result.Append($esc) }
+        }
+
+        $i++
+    }
+
+    return $result.ToString()
+}
+
+function Read-JsonStringLiteral {
+    param(
+        [string]$Text,
+        [ref]$Index
+    )
+
+    if ($Index.Value -ge $Text.Length -or $Text[$Index.Value] -ne '"') {
+        throw "Se esperaba string JSON en posicion $($Index.Value)."
+    }
+
+    $Index.Value++
+    $start = $Index.Value
+    $escaped = $false
+
+    while ($Index.Value -lt $Text.Length) {
+        $c = $Text[$Index.Value]
+
+        if ($escaped) {
+            $escaped = $false
+            $Index.Value++
+            continue
+        }
+
+        if ($c -eq '\') {
+            $escaped = $true
+            $Index.Value++
+            continue
+        }
+
+        if ($c -eq '"') {
+            $rawContent = $Text.Substring($start, $Index.Value - $start)
+            $Index.Value++
+            return ConvertFrom-JsonStringLiteralContent $rawContent
+        }
+
+        $Index.Value++
+    }
+
+    throw 'String JSON sin cierre.'
+}
+
+function Get-JsonValueEndIndex {
+    param(
+        [string]$Text,
+        [int]$StartIndex
+    )
+
+    $i = $StartIndex
+    if ($i -ge $Text.Length) {
+        throw 'Valor JSON vacio.'
+    }
+
+    $first = $Text[$i]
+
+    if ($first -eq '"') {
+        $refIndex = [ref]$i
+        [void](Read-JsonStringLiteral -Text $Text -Index $refIndex)
+        return $refIndex.Value
+    }
+
+    if ($first -eq '{' -or $first -eq '[') {
+        $stack = New-Object System.Collections.Generic.Stack[char]
+        [void]$stack.Push($first)
+        $i++
+        $inString = $false
+        $escaped = $false
+
+        while ($i -lt $Text.Length) {
+            $c = $Text[$i]
+
+            if ($inString) {
+                if ($escaped) {
+                    $escaped = $false
+                }
+                elseif ($c -eq '\') {
+                    $escaped = $true
+                }
+                elseif ($c -eq '"') {
+                    $inString = $false
+                }
+
+                $i++
+                continue
+            }
+
+            if ($c -eq '"') {
+                $inString = $true
+                $i++
+                continue
+            }
+
+            if ($c -eq '{' -or $c -eq '[') {
+                [void]$stack.Push($c)
+                $i++
+                continue
+            }
+
+            if ($c -eq '}' -or $c -eq ']') {
+                if ($stack.Count -eq 0) {
+                    throw "Cierre JSON inesperado en posicion $i."
+                }
+
+                $open = $stack.Pop()
+                if (($open -eq '{' -and $c -ne '}') -or ($open -eq '[' -and $c -ne ']')) {
+                    throw "Cierre JSON invalido en posicion $i."
+                }
+
+                $i++
+                if ($stack.Count -eq 0) {
+                    return $i
+                }
+
+                continue
+            }
+
+            $i++
+        }
+
+        throw 'Objeto/array JSON sin cierre.'
+    }
+
+    # Primitivos: true, false, null, numeros.
+    while ($i -lt $Text.Length) {
+        $c = $Text[$i]
+        if ($c -eq ',' -or $c -eq '}' -or $c -eq ']' -or $c -eq ' ' -or $c -eq "`t" -or $c -eq "`r" -or $c -eq "`n") {
+            break
+        }
+        $i++
+    }
+
+    return $i
+}
+
+function Get-CharactersFromMainJsonText {
+    param([string]$Raw)
+
+    $match = [regex]::Match($Raw, '"characters"\s*:')
+    if (-not $match.Success) {
+        return @()
+    }
+
+    $i = $match.Index + $match.Length
+    $refIndex = [ref]$i
+    Skip-JsonWhitespace -Text $Raw -Index $refIndex
+    $i = $refIndex.Value
+
+    if ($i -ge $Raw.Length -or $Raw[$i] -ne '{') {
+        throw "El nodo characters existe, pero no parece ser un objeto JSON."
+    }
+
+    $i++
+    $characters = New-Object System.Collections.Generic.List[object]
+
+    while ($i -lt $Raw.Length) {
+        $refIndex = [ref]$i
+        Skip-JsonWhitespace -Text $Raw -Index $refIndex
+        $i = $refIndex.Value
+
+        if ($i -lt $Raw.Length -and $Raw[$i] -eq '}') {
+            break
+        }
+
+        if ($i -lt $Raw.Length -and $Raw[$i] -eq ',') {
+            $i++
+            continue
+        }
+
+        $refIndex = [ref]$i
+        $name = Read-JsonStringLiteral -Text $Raw -Index $refIndex
+        $i = $refIndex.Value
+
+        $refIndex = [ref]$i
+        Skip-JsonWhitespace -Text $Raw -Index $refIndex
+        $i = $refIndex.Value
+
+        if ($i -ge $Raw.Length -or $Raw[$i] -ne ':') {
+            throw "Se esperaba ':' despues del nombre de personaje '$name'."
+        }
+
+        $i++
+        $refIndex = [ref]$i
+        Skip-JsonWhitespace -Text $Raw -Index $refIndex
+        $i = $refIndex.Value
+
+        $valueStart = $i
+        $valueEnd = Get-JsonValueEndIndex -Text $Raw -StartIndex $valueStart
+        $valueRaw = $Raw.Substring($valueStart, $valueEnd - $valueStart).Trim()
+
+        $characters.Add([pscustomobject]@{
+            Name = $name
+            RawJson = $valueRaw
+        }) | Out-Null
+
+        $i = $valueEnd
+    }
+
+    return @($characters)
 }
 
 function Test-ShouldIgnoreCandidateFile([System.IO.FileInfo]$File) {
@@ -97,7 +359,6 @@ function Test-ShouldIgnoreCandidateFile([System.IO.FileInfo]$File) {
     if ($File.Name -like '_*.json') { return $true }
     if ($File.Extension -notin @('', '.json')) { return $true }
 
-    # Evitamos leer las hojas exportadas, carpetas temporales y config de VSCode.
     if ($fullName -like "*$([System.IO.Path]::DirectorySeparatorChar)ECE$([System.IO.Path]::DirectorySeparatorChar)Hojas$([System.IO.Path]::DirectorySeparatorChar)*") { return $true }
     if ($fullName -like "*$([System.IO.Path]::DirectorySeparatorChar).runtime$([System.IO.Path]::DirectorySeparatorChar)*") { return $true }
     if ($fullName -like "*$([System.IO.Path]::DirectorySeparatorChar).tmp.driveupload$([System.IO.Path]::DirectorySeparatorChar)*") { return $true }
@@ -111,8 +372,6 @@ function Get-CandidateMainJsonFiles {
         return @()
     }
 
-    # Busqueda recursiva porque el archivo principal puede estar en .localstorage
-    # o en alguna subcarpeta. Se filtra por extension y despues por contenido.
     $files = Get-ChildItem -LiteralPath $LocalStorageDir -File -Recurse -ErrorAction SilentlyContinue |
         Where-Object { -not (Test-ShouldIgnoreCandidateFile $_) } |
         Sort-Object @{ Expression = { if ($_.DirectoryName -eq $LocalStorageDir) { 0 } elseif ($_.DirectoryName -eq $ScriptDir) { 1 } else { 2 } } }, Length
@@ -139,17 +398,15 @@ function Find-MainJsonFile {
         try {
             $raw = Read-JsonText $file.FullName
 
-            # Filtro barato para no intentar parsear cualquier archivo.
             if ($raw -notmatch '"characters"\s*:') {
                 if ($VerboseSearch) { Write-Log ("DEBUG: sin nodo characters: {0}" -f $file.FullName) }
                 continue
             }
 
             $jsonLikeCount++
-            $json = $raw | ConvertFrom-Json
+            $characters = Get-CharactersFromMainJsonText -Raw $raw
 
-            $charactersProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'characters' } | Select-Object -First 1
-            if ($null -ne $charactersProperty -and $null -ne $charactersProperty.Value) {
+            if ($characters.Count -gt 0) {
                 return $file.FullName
             }
         }
@@ -158,8 +415,7 @@ function Find-MainJsonFile {
         }
     }
 
-    $searched = $LocalStorageDir
-    $message = "No se encontro ningun JSON principal con nodo 'characters'. Carpeta revisada recursivamente: $searched. Archivos candidatos revisados=$checkedCount, con texto characters=$jsonLikeCount."
+    $message = "No se encontro ningun JSON principal con nodo 'characters'. Carpeta revisada recursivamente: $LocalStorageDir. Archivos candidatos revisados=$checkedCount, con texto characters=$jsonLikeCount."
 
     if ($errors.Count -gt 0) {
         $message += " Errores de parseo: " + (($errors | Select-Object -First 5) -join ' | ')
@@ -168,13 +424,13 @@ function Find-MainJsonFile {
     throw $message
 }
 
-function Write-JsonIfChanged {
+function Write-TextIfChanged {
     param(
         [string]$Path,
-        [object]$Data
+        [string]$Content
     )
 
-    $newContent = ($Data | ConvertTo-Json -Depth 100) + [Environment]::NewLine
+    $newContent = $Content.Trim() + [Environment]::NewLine
 
     if (Test-Path -LiteralPath $Path) {
         $currentContent = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
@@ -199,11 +455,11 @@ function Write-JsonIfChanged {
 
 function Export-CharacterSheetsOnce {
     $mainJsonFile = Find-MainJsonFile
-    $mainJson = Read-JsonFile $mainJsonFile
+    $raw = Read-JsonText $mainJsonFile
+    $characters = Get-CharactersFromMainJsonText -Raw $raw
 
-    $charactersProperty = $mainJson.PSObject.Properties | Where-Object { $_.Name -eq 'characters' } | Select-Object -First 1
-    if ($null -eq $charactersProperty -or $null -eq $charactersProperty.Value) {
-        throw "El JSON principal no tiene nodo 'characters': $mainJsonFile"
+    if ($characters.Count -eq 0) {
+        throw "El JSON principal tiene nodo characters, pero no se detectaron personajes: $mainJsonFile"
     }
 
     if (-not (Test-Path -LiteralPath $OutputDir)) {
@@ -214,19 +470,14 @@ function Export-CharacterSheetsOnce {
     $createdOrUpdated = 0
     $unchanged = 0
 
-    $characterProperties = $charactersProperty.Value.PSObject.Properties
-
-    foreach ($property in $characterProperties) {
-        $characterName = $property.Name
-        $characterData = $property.Value
-
-        $safeName = ConvertTo-SafeFileName $characterName
+    foreach ($character in $characters) {
+        $safeName = ConvertTo-SafeFileName $character.Name
         $fileName = "hoja_$safeName.json"
         $outputPath = Join-Path $OutputDir $fileName
 
         [void]$expectedFiles.Add($fileName.ToLowerInvariant())
 
-        $changed = Write-JsonIfChanged -Path $outputPath -Data $characterData
+        $changed = Write-TextIfChanged -Path $outputPath -Content $character.RawJson
         if ($changed) {
             $createdOrUpdated++
             Write-Log ("HOJA actualizada: {0}" -f $fileName)
@@ -249,7 +500,7 @@ function Export-CharacterSheetsOnce {
     }
 
     Write-Log ("OK: Hojas exportadas. Origen={0}, Personajes={1}, actualizadas={2}, sin_cambios={3}, eliminadas={4}" -f `
-        (Split-Path -Leaf $mainJsonFile), $characterProperties.Count, $createdOrUpdated, $unchanged, $deleted)
+        (Split-Path -Leaf $mainJsonFile), $characters.Count, $createdOrUpdated, $unchanged, $deleted)
 }
 
 try {
@@ -289,7 +540,14 @@ try {
     }
 
     Write-Log 'Senal de stop recibida. Ejecutando export final de hojas...'
-    Export-CharacterSheetsOnce
+
+    try {
+        Export-CharacterSheetsOnce
+    }
+    catch {
+        Write-Warn ("No se pudo ejecutar el export final: {0}" -f $_.Exception.Message)
+    }
+
     exit 0
 }
 catch {
