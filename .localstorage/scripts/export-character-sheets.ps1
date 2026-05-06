@@ -13,6 +13,11 @@
   Si un personaje cambia de nombre, se genera el nuevo archivo y se elimina
   el archivo viejo hoja_*.json que ya no corresponde a ningun personaje actual.
 
+  IMPORTANTE:
+  El JSON principal del Toolset puede no tener extension .json. Por eso este
+  script busca archivos JSON validos tambien sin extension, primero en
+  .localstorage y luego en .localstorage\scripts.
+
   Si se pasa -StopSignalFile, el script corre en loop hasta que exista esa senal.
   Si no se pasa -StopSignalFile, hace una exportacion una sola vez y termina.
 #>
@@ -37,6 +42,10 @@ if ([string]::IsNullOrWhiteSpace($OutputDir)) {
 
 function Write-Log([string]$Message) {
     Write-Host $Message
+}
+
+function Write-Warn([string]$Message) {
+    Write-Host ("WARNING: {0}" -f $Message)
 }
 
 function Wait-BeforeExitOnError {
@@ -79,6 +88,28 @@ function Read-JsonFile([string]$Path) {
     return $raw | ConvertFrom-Json
 }
 
+function Get-CandidateMainJsonFiles {
+    $candidateDirs = @(
+        $LocalStorageDir,
+        $ScriptDir
+    ) | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -Unique
+
+    $files = New-Object System.Collections.Generic.List[object]
+
+    foreach ($dir in $candidateDirs) {
+        Get-ChildItem -LiteralPath $dir -File -ErrorAction SilentlyContinue |
+            Where-Object {
+                $_.Extension -in @('', '.json') -and
+                $_.Name -notlike 'hoja_*.json' -and
+                $_.Name -notlike '_*.json' -and
+                $_.Name -notlike 'desktop.ini'
+            } |
+            ForEach-Object { [void]$files.Add($_) }
+    }
+
+    return $files
+}
+
 function Find-MainJsonFile {
     if (-not [string]::IsNullOrWhiteSpace($SourceJsonFile)) {
         if (-not (Test-Path -LiteralPath $SourceJsonFile)) {
@@ -87,12 +118,7 @@ function Find-MainJsonFile {
         return (Resolve-Path -LiteralPath $SourceJsonFile).Path
     }
 
-    $candidateFiles = Get-ChildItem -LiteralPath $ScriptDir -File |
-        Where-Object {
-            $_.Extension -in @('', '.json') -and
-            $_.Name -notlike 'hoja_*.json' -and
-            $_.Name -notlike '_*.json'
-        }
+    $candidateFiles = Get-CandidateMainJsonFiles
 
     foreach ($file in $candidateFiles) {
         try {
@@ -106,7 +132,8 @@ function Find-MainJsonFile {
         }
     }
 
-    throw "No se encontro ningun JSON principal con nodo 'characters' en: $ScriptDir"
+    $searched = @($LocalStorageDir, $ScriptDir) -join '; '
+    throw "No se encontro ningun JSON principal con nodo 'characters'. Carpetas revisadas: $searched"
 }
 
 function Write-JsonIfChanged {
@@ -188,8 +215,8 @@ function Export-CharacterSheetsOnce {
         }
     }
 
-    Write-Log ("OK: Hojas exportadas. Personajes={0}, actualizadas={1}, sin_cambios={2}, eliminadas={3}" -f `
-        $characterProperties.Count, $createdOrUpdated, $unchanged, $deleted)
+    Write-Log ("OK: Hojas exportadas. Origen={0}, Personajes={1}, actualizadas={2}, sin_cambios={3}, eliminadas={4}" -f `
+        (Split-Path -Leaf $mainJsonFile), $characterProperties.Count, $createdOrUpdated, $unchanged, $deleted)
 }
 
 try {
@@ -205,8 +232,20 @@ try {
         exit 0
     }
 
+    $missingSourceWarningShown = $false
+
     while (-not (Test-Path -LiteralPath $StopSignalFile)) {
-        Export-CharacterSheetsOnce
+        try {
+            Export-CharacterSheetsOnce
+            $missingSourceWarningShown = $false
+        }
+        catch {
+            if (-not $missingSourceWarningShown) {
+                Write-Warn $_.Exception.Message
+                Write-Warn 'El exportador seguira corriendo y volvera a intentar en el proximo ciclo.'
+                $missingSourceWarningShown = $true
+            }
+        }
 
         for ($i = 0; $i -lt $IntervalSeconds; $i++) {
             if (Test-Path -LiteralPath $StopSignalFile) {
