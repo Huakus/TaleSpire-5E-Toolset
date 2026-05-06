@@ -1,53 +1,47 @@
 @echo off
-setlocal EnableExtensions EnableDelayedExpansion
+setlocal EnableExtensions DisableDelayedExpansion
 
 rem ============================================================
 rem  launch-talespire-toolset.cmd
 rem  ------------------------------------------------------------
-rem  Entry point principal desde Windows.
+rem  Launcher principal para TaleSpire + Toolset.
 rem
-rem  Responsabilidad:
-rem    - Buscar el orquestador PowerShell en esta misma carpeta.
-rem    - Ejecutarlo.
-rem    - Si algo falla, dejar la ventana abierta para leer el error.
+rem  Este archivo queda liviano a proposito:
+rem    - Ubica run-talespire-toolset.ps1 dentro de esta misma carpeta.
+rem    - Ejecuta PowerShell con ExecutionPolicy Bypass solo para este run.
+rem    - Mantiene la ventana abierta si algo falla.
 rem
 rem  Estructura esperada:
 rem    scripts\launch-talespire-toolset.cmd
 rem    scripts\run-talespire-toolset.ps1
-rem    scripts\start-talespire.ps1
 rem    scripts\sync-toolset-git.ps1
+rem    scripts\export-character-sheets.ps1
+rem    scripts\start-talespire.ps1
 rem    scripts\wait-talespire-close.ps1
 rem ============================================================
 
-rem Carpeta donde esta este .cmd.
 set "SCRIPT_DIR=%~dp0"
+set "MAIN_SCRIPT=%SCRIPT_DIR%run-talespire-toolset.ps1"
 
-rem Orquestador principal. No es un worker: solo coordina los scripts separados.
-set "ORCHESTRATOR_SCRIPT_FILE=run-talespire-toolset.ps1"
-set "ORCHESTRATOR_SCRIPT_PATH=%SCRIPT_DIR%%ORCHESTRATOR_SCRIPT_FILE%"
-
-if not exist "%ORCHESTRATOR_SCRIPT_PATH%" (
-  echo ERROR: No se encontro el orquestador PowerShell:
-  echo "%ORCHESTRATOR_SCRIPT_PATH%"
+if not exist "%MAIN_SCRIPT%" (
+  echo ERROR: No se encontro el script PowerShell principal:
+  echo "%MAIN_SCRIPT%"
   echo.
-  echo Verifica que el archivo exista dentro de la misma carpeta que este .cmd.
-  echo.
+  echo Verifica que launch-talespire-toolset.cmd y run-talespire-toolset.ps1 esten en la misma carpeta.
   echo Presiona una tecla para cerrar esta ventana...
   pause >nul
   exit /b 1
 )
 
-echo Ejecutando %ORCHESTRATOR_SCRIPT_FILE%...
-
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%ORCHESTRATOR_SCRIPT_PATH%" -NoPauseOnError
+echo Ejecutando run-talespire-toolset.ps1...
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%MAIN_SCRIPT%" -NoPauseOnError
 set "EXITCODE=%ERRORLEVEL%"
 
 if not "%EXITCODE%"=="0" (
   echo.
-  echo ERROR: %ORCHESTRATOR_SCRIPT_FILE% termino con codigo %EXITCODE%.
+  echo ERROR: run-talespire-toolset.ps1 termino con codigo %EXITCODE%.
   echo Presiona una tecla para cerrar esta ventana...
   pause >nul
-  exit /b %EXITCODE%
 )
 
-exit /b 0
+exit /b %EXITCODE%
