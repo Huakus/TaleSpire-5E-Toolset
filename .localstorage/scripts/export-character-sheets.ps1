@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-  Exporta una hoja JSON por cada personaje del JSON principal del Toolset.
+  Exporta una hoja TXT por cada personaje del JSON principal del Toolset.
 
 .DESCRIPTION
   - Busca dentro de .localstorage un archivo que contenga el nodo "characters".
   - Parsea el JSON principal con ConvertFrom-Json.
   - Antes de parsear, reemplaza en memoria las keys vacias "": por "toolsetEmptyKey":.
-  - Genera un archivo por personaje en ECE\Hojas.
+  - Genera un archivo .txt por personaje en ECE\Hojas.
   - El nombre del archivo sale dinamicamente del nombre/key del personaje.
   - Borra hojas viejas que ya no correspondan a personajes actuales.
   - Corre en loop hasta recibir la senal de stop.
@@ -223,12 +223,12 @@ function Export-CharacterSheetsOnce {
         $characterData = $characterProperty.Value
 
         $safeName = ConvertTo-SafeFilePart $characterName
-        $fileName = 'hoja_{0}.json' -f $safeName
+        $fileName = 'hoja_{0}.txt' -f $safeName
         $filePath = Join-Path $OutputDir $fileName
 
         $expectedFiles[$fileName.ToLowerInvariant()] = $true
 
-        # Opcion A: la key vacia queda exportada como toolsetEmptyKey.
+        # Opcion A: la key vacia queda exportada como toolsetEmptyKey. El contenido sigue siendo JSON, pero el archivo es .txt.
         $characterJson = $characterData | ConvertTo-Json -Depth 100
         $characterJson = $characterJson.TrimEnd() + [Environment]::NewLine
 
@@ -240,7 +240,7 @@ function Export-CharacterSheetsOnce {
 
     # Borra hojas anteriores que ya no correspondan a ningun personaje actual.
     $deletedCount = 0
-    $oldFiles = Get-ChildItem -LiteralPath $OutputDir -File -Filter 'hoja_*.json' -ErrorAction SilentlyContinue
+    $oldFiles = Get-ChildItem -LiteralPath $OutputDir -File -Filter 'hoja_*.*' -ErrorAction SilentlyContinue
 
     foreach ($oldFile in $oldFiles) {
         if (-not $expectedFiles.ContainsKey($oldFile.Name.ToLowerInvariant())) {
