@@ -29,6 +29,11 @@ param(
 # Los comandos Git se validan con logs/exit codes cuando realmente importa.
 $ErrorActionPreference = 'Continue'
 
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
+. $CommonLoggingScript
+Initialize-Logging -ScriptPath $PSCommandPath
+
 # ============================================================
 # Configuracion principal
 # ============================================================
@@ -44,9 +49,6 @@ $Branch = 'main'
 
 # Intervalo entre sincronizaciones mientras TaleSpire esta abierto.
 $Interval = 10
-
-# Se usa para imprimir puntos de espera en una misma linea cuando no hay cambios.
-$script:lastInline = $false
 
 # ============================================================
 # Deteccion de Git
@@ -79,38 +81,13 @@ $Git = Resolve-GitPath
 # Helpers de log
 # ============================================================
 
-function Write-Log([string]$Message, [switch]$Inline) {
-    <#
-      Log principal.
-      - Normal: imprime una linea completa.
-      - Inline: imprime sin salto, usado para mostrar actividad sin llenar la consola.
-    #>
-
-    if ($Inline) {
-        Write-Host -NoNewline $Message
-        $script:lastInline = $true
-    }
-    else {
-        if ($script:lastInline) {
-            Write-Host ''
-            $script:lastInline = $false
-        }
-        Write-Host $Message
-    }
-}
-
 function Write-Detail([string]$Message, [string]$Color = 'White') {
     <#
       Log indentado para detalles:
       archivos locales modificados, commits remotos y resumen de diff.
     #>
 
-    if ($script:lastInline) {
-        Write-Host ''
-        $script:lastInline = $false
-    }
-
-    Write-Host ('  {0}' -f $Message) -ForegroundColor $Color
+    Write-Log ('  {0}' -f $Message) -Color $Color
 }
 
 function Get-DiffColor([string]$Message) {
@@ -137,7 +114,7 @@ function Wait-BeforeExitOnError {
 
     if (-not $NoPauseOnError) {
         Write-Host ''
-        Write-Host 'Presiona una tecla para cerrar esta ventana...'
+        Write-Log 'Presiona una tecla para cerrar esta ventana...'
         [void][System.Console]::ReadKey($true)
     }
 }

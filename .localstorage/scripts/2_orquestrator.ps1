@@ -24,6 +24,9 @@ $ErrorActionPreference = 'Stop'
 # ============================================================
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
+. $CommonLoggingScript
+Initialize-Logging -ScriptPath $PSCommandPath
 
 # Runtime fuera del repo. No debe vivir dentro de .localstorage porque Git sincroniza esa carpeta.
 $RuntimeDir = Join-Path $env:TEMP 'talespire-toolset-runtime'
@@ -38,14 +41,10 @@ $WaitTaleSpireCloseScript = Join-Path $ScriptDir '6_wait-talespire-close.ps1'
 # Helpers
 # ============================================================
 
-function Write-Log([string]$Message) {
-    Write-Host $Message
-}
-
 function Wait-BeforeExitOnError {
     if (-not $NoPauseOnError) {
         Write-Host ''
-        Write-Host 'Presiona una tecla para cerrar esta ventana...'
+        Write-Log 'Presiona una tecla para cerrar esta ventana...'
         [void][System.Console]::ReadKey($true)
     }
 }

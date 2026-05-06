@@ -22,10 +22,15 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
+. $CommonLoggingScript
+Initialize-Logging -ScriptPath $PSCommandPath
+
 function Wait-BeforeExitOnError {
     if (-not $NoPauseOnError) {
         Write-Host ''
-        Write-Host 'Presiona una tecla para cerrar esta ventana...'
+        Write-Log 'Presiona una tecla para cerrar esta ventana...'
         [void][System.Console]::ReadKey($true)
     }
 }
@@ -41,7 +46,7 @@ function Set-StopSignal {
 }
 
 try {
-    Write-Host 'Esperando proceso TaleSpire...'
+    Write-Log 'Esperando proceso TaleSpire...'
 
     $appeared = $false
 
@@ -55,23 +60,23 @@ try {
     }
 
     if (-not $appeared) {
-        Write-Host 'TaleSpire no aparecio dentro del tiempo esperado. Enviando senal de stop.'
+        Write-Log 'TaleSpire no aparecio dentro del tiempo esperado. Enviando senal de stop.'
         Set-StopSignal
         exit 2
     }
 
-    Write-Host 'TaleSpire detectado. Esperando cierre...'
+    Write-Log 'TaleSpire detectado. Esperando cierre...'
 
     while (Get-Process -Name $ProcessName -ErrorAction SilentlyContinue) {
         Start-Sleep -Seconds 2
     }
 
-    Write-Host 'TaleSpire cerrado. Enviando senal de stop.'
+    Write-Log 'TaleSpire cerrado. Enviando senal de stop.'
     Set-StopSignal
     exit 0
 }
 catch {
-    Write-Host ("ERROR esperando cierre de TaleSpire: {0}" -f $_.Exception.Message)
+    Write-Log ("ERROR esperando cierre de TaleSpire: {0}" -f $_.Exception.Message)
     try { Set-StopSignal } catch {}
     Wait-BeforeExitOnError
     exit 1
