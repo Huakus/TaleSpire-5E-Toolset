@@ -850,7 +850,7 @@
                                              },
                                              {
                                                  "noteTitle":  "Miscelaneo",
-                                                 "noteContent":  ""
+                                                 "noteContent":  "Debido a su exposición a cadáveres, cuando se trata de productos lacteos en general, prefiere sabores ácidos."
                                              }
                                          ]
                            }
