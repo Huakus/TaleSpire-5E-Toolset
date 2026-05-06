@@ -13,13 +13,9 @@
   Si un personaje cambia de nombre, se genera el nuevo archivo y se elimina
   el archivo viejo hoja_*.json que ya no corresponde a ningun personaje actual.
 
-  IMPORTANTE:
-  El JSON principal del Toolset puede no tener extension .json. Por eso este
-  script busca archivos JSON validos tambien sin extension, primero en
-  .localstorage y luego en .localstorage\scripts.
-
-  Si se pasa -StopSignalFile, el script corre en loop hasta que exista esa senal.
-  Si no se pasa -StopSignalFile, hace una exportacion una sola vez y termina.
+  El JSON principal puede no tener extension .json. Por eso se buscan tambien
+  archivos sin extension. La busqueda es recursiva dentro de .localstorage,
+  pero se ignoran carpetas de salida y runtime.
 #>
 
 param(
@@ -28,7 +24,8 @@ param(
     [string]$StopSignalFile = '',
     [int]$IntervalSeconds = 10,
     [switch]$NoDeleteOldFiles,
-    [switch]$NoPauseOnError
+    [switch]$NoPauseOnError,
+    [switch]$VerboseSearch
 )
 
 $ErrorActionPreference = 'Stop'
@@ -83,31 +80,44 @@ function ConvertTo-SafeFileName([string]$Value) {
     return $safe
 }
 
+function Read-JsonText([string]$Path) {
+    return Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+}
+
 function Read-JsonFile([string]$Path) {
-    $raw = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+    $raw = Read-JsonText $Path
     return $raw | ConvertFrom-Json
 }
 
+function Test-ShouldIgnoreCandidateFile([System.IO.FileInfo]$File) {
+    $fullName = $File.FullName
+
+    if ($File.Name -ieq 'desktop.ini') { return $true }
+    if ($File.Name -like 'hoja_*.json') { return $true }
+    if ($File.Name -like '_*.json') { return $true }
+    if ($File.Extension -notin @('', '.json')) { return $true }
+
+    # Evitamos leer las hojas exportadas, carpetas temporales y config de VSCode.
+    if ($fullName -like "*$([System.IO.Path]::DirectorySeparatorChar)ECE$([System.IO.Path]::DirectorySeparatorChar)Hojas$([System.IO.Path]::DirectorySeparatorChar)*") { return $true }
+    if ($fullName -like "*$([System.IO.Path]::DirectorySeparatorChar).runtime$([System.IO.Path]::DirectorySeparatorChar)*") { return $true }
+    if ($fullName -like "*$([System.IO.Path]::DirectorySeparatorChar).tmp.driveupload$([System.IO.Path]::DirectorySeparatorChar)*") { return $true }
+    if ($fullName -like "*$([System.IO.Path]::DirectorySeparatorChar).vscode$([System.IO.Path]::DirectorySeparatorChar)*") { return $true }
+
+    return $false
+}
+
 function Get-CandidateMainJsonFiles {
-    $candidateDirs = @(
-        $LocalStorageDir,
-        $ScriptDir
-    ) | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -Unique
-
-    $files = New-Object System.Collections.Generic.List[object]
-
-    foreach ($dir in $candidateDirs) {
-        Get-ChildItem -LiteralPath $dir -File -ErrorAction SilentlyContinue |
-            Where-Object {
-                $_.Extension -in @('', '.json') -and
-                $_.Name -notlike 'hoja_*.json' -and
-                $_.Name -notlike '_*.json' -and
-                $_.Name -notlike 'desktop.ini'
-            } |
-            ForEach-Object { [void]$files.Add($_) }
+    if (-not (Test-Path -LiteralPath $LocalStorageDir)) {
+        return @()
     }
 
-    return $files
+    # Busqueda recursiva porque el archivo principal puede estar en .localstorage
+    # o en alguna subcarpeta. Se filtra por extension y despues por contenido.
+    $files = Get-ChildItem -LiteralPath $LocalStorageDir -File -Recurse -ErrorAction SilentlyContinue |
+        Where-Object { -not (Test-ShouldIgnoreCandidateFile $_) } |
+        Sort-Object @{ Expression = { if ($_.DirectoryName -eq $LocalStorageDir) { 0 } elseif ($_.DirectoryName -eq $ScriptDir) { 1 } else { 2 } } }, Length
+
+    return @($files)
 }
 
 function Find-MainJsonFile {
@@ -119,21 +129,43 @@ function Find-MainJsonFile {
     }
 
     $candidateFiles = Get-CandidateMainJsonFiles
+    $checkedCount = 0
+    $jsonLikeCount = 0
+    $errors = New-Object System.Collections.Generic.List[string]
 
     foreach ($file in $candidateFiles) {
+        $checkedCount++
+
         try {
-            $json = Read-JsonFile $file.FullName
-            if ($null -ne $json.characters) {
+            $raw = Read-JsonText $file.FullName
+
+            # Filtro barato para no intentar parsear cualquier archivo.
+            if ($raw -notmatch '"characters"\s*:') {
+                if ($VerboseSearch) { Write-Log ("DEBUG: sin nodo characters: {0}" -f $file.FullName) }
+                continue
+            }
+
+            $jsonLikeCount++
+            $json = $raw | ConvertFrom-Json
+
+            $charactersProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'characters' } | Select-Object -First 1
+            if ($null -ne $charactersProperty -and $null -ne $charactersProperty.Value) {
                 return $file.FullName
             }
         }
         catch {
-            # No era JSON valido o no era el archivo principal. Lo ignoramos.
+            [void]$errors.Add(("{0}: {1}" -f $file.FullName, $_.Exception.Message))
         }
     }
 
-    $searched = @($LocalStorageDir, $ScriptDir) -join '; '
-    throw "No se encontro ningun JSON principal con nodo 'characters'. Carpetas revisadas: $searched"
+    $searched = $LocalStorageDir
+    $message = "No se encontro ningun JSON principal con nodo 'characters'. Carpeta revisada recursivamente: $searched. Archivos candidatos revisados=$checkedCount, con texto characters=$jsonLikeCount."
+
+    if ($errors.Count -gt 0) {
+        $message += " Errores de parseo: " + (($errors | Select-Object -First 5) -join ' | ')
+    }
+
+    throw $message
 }
 
 function Write-JsonIfChanged {
@@ -169,7 +201,8 @@ function Export-CharacterSheetsOnce {
     $mainJsonFile = Find-MainJsonFile
     $mainJson = Read-JsonFile $mainJsonFile
 
-    if ($null -eq $mainJson.characters) {
+    $charactersProperty = $mainJson.PSObject.Properties | Where-Object { $_.Name -eq 'characters' } | Select-Object -First 1
+    if ($null -eq $charactersProperty -or $null -eq $charactersProperty.Value) {
         throw "El JSON principal no tiene nodo 'characters': $mainJsonFile"
     }
 
@@ -181,7 +214,7 @@ function Export-CharacterSheetsOnce {
     $createdOrUpdated = 0
     $unchanged = 0
 
-    $characterProperties = $mainJson.characters.PSObject.Properties
+    $characterProperties = $charactersProperty.Value.PSObject.Properties
 
     foreach ($property in $characterProperties) {
         $characterName = $property.Name
@@ -206,7 +239,7 @@ function Export-CharacterSheetsOnce {
     $deleted = 0
 
     if (-not $NoDeleteOldFiles) {
-        Get-ChildItem -LiteralPath $OutputDir -File -Filter 'hoja_*.json' | ForEach-Object {
+        Get-ChildItem -LiteralPath $OutputDir -File -Filter 'hoja_*.json' -ErrorAction SilentlyContinue | ForEach-Object {
             if (-not $expectedFiles.Contains($_.Name.ToLowerInvariant())) {
                 Remove-Item -LiteralPath $_.FullName -Force
                 $deleted++
