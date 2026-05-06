@@ -28,9 +28,11 @@ Durante las averiguaciones en el barrio, surgió una presencia más perturbadora
 La mujer confesó estar ligada a una entidad feérica superior: **Ninthra**, su verdadera jefa. Ella no actuaba por cuenta propia. Alimentar a los niños era solo una parte del ritual: debilitarlos, marcarlos y prepararlos para cumplir con una **cuota periódica** exigida por su patrona. No se trataba únicamente de devorarlos, sino de **sostener un plan mayor**, cuyos detalles completos ni siquiera ella comprendía del todo.
 La mujer creía que, cumpliendo su rol, sería recordada como **quien liberó a Ninthra**, ganándose así un lugar de poder cuando el pacto se consumara.
 
-### Heladio y la red subterránea
-La exploración mágica permitió confirmar además que **Heladio** y sus asociados planeaban huir. Temían tanto a la guardia como a fuerzas más antiguas que comenzaban a moverse. En los pisos superiores del gremio, un mago preparaba conjuros, mientras **El Pichón (Luz en Redgar)** permanecía prisionero, golpeado y debilitado.
-Todo apuntaba a una red compleja donde **contrabando, corrupción y pactos feéricos** coexistían bajo el mismo techo.
+### Heladio y el aguantadero
+
+La investigación permitió confirmar además que **Heladio** y sus asociados mantenían a **El Pichón (Luz en Redgar)** prisionero en una casa utilizada como aguantadero. El Pichón se encontraba golpeado, debilitado y bajo control directo de sus captores.
+Heladio y quienes lo rodeaban planeaban huir, presionados tanto por la guardia como por fuerzas más antiguas que comenzaban a moverse en el Barrio Exterior.
+Este hallazgo no pertenecía directamente al funcionamiento interno del Gremio de Comerciantes, sino a otra pieza del mismo entramado criminal que atravesaba el barrio: casas seguras, prisioneros, contrabando y vínculos con poderes mayores.
 
 ### Estado de la situación
 Al cerrar esas jornadas, el grupo había obtenido certezas inquietantes: habían localizado a Heladio y al Pichón, identificado una vía secreta hacia la Ciudad Alta y confirmado que antiguos pactos feéricos seguían activos… y reclamando su precio.
