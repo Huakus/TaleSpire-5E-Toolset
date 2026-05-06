@@ -1,23 +1,27 @@
 <#
 .SYNOPSIS
-  Sincroniza el Symbiote Toolset por Git y abre TaleSpire.
+  Mantiene sincronizado el repo Toolset por Git.
 
 .DESCRIPTION
-  Este script mantiene sincronizado solamente el repo Toolset:
-    1. Prepara/verifica el repositorio local.
-    2. Sincroniza antes de abrir TaleSpire.
-    3. Abre TaleSpire desde Steam.
-    4. Mientras TaleSpire este abierto, sincroniza periodicamente.
-    5. Hace una sincronizacion final al cerrar TaleSpire.
+  Responsabilidad unica:
+    - Preparar/verificar el repo local del Toolset.
+    - Hacer una sincronizacion inicial.
+    - Sincronizar periodicamente mientras no exista la senal de stop.
+    - Hacer una sincronizacion final antes de salir.
 
-  No maneja AudioSync, catalogos, ni ningun segundo repo.
+  Este script NO abre TaleSpire y NO espera el cierre del juego.
+
+.PARAMETER StopSignalFile
+  Archivo usado como senal para finalizar el loop.
 
 .PARAMETER NoPauseOnError
   Si esta activo, el script NO espera una tecla antes de salir cuando ocurre un error fatal.
-  El .cmd lo llama con -NoPauseOnError porque el .cmd ya maneja esa pausa.
 #>
 
 param(
+    [Parameter(Mandatory = $true)]
+    [string]$StopSignalFile,
+
     [switch]$NoPauseOnError
 )
 
@@ -40,9 +44,6 @@ $Branch = 'main'
 
 # Intervalo entre sincronizaciones mientras TaleSpire esta abierto.
 $Interval = 10
-
-# Nombre del proceso de TaleSpire sin extension .exe.
-$Proc = 'TaleSpire'
 
 # Se usa para imprimir puntos de espera en una misma linea cuando no hay cambios.
 $script:lastInline = $false
@@ -296,39 +297,26 @@ function Sync-Toolset([string]$Repo, [string]$Branch) {
 # ============================================================
 
 try {
-    # 1. Primera sincronizacion antes de abrir TaleSpire.
     Write-Log 'Sincronizando Toolset...'
+
     Ensure-Repo -Repo $Repo -Remote $Remote -Branch $Branch
+
+    # Sync inicial. Arranca antes o en paralelo al lanzamiento de TaleSpire.
     Sync-Toolset -Repo $Repo -Branch $Branch
 
-    # 2. Abrir TaleSpire desde Steam.
-    Start-Process 'steam://rungameid/720620'
+    Write-Log 'Worker de sync activo. Esperando senal de stop...'
 
-    # 3. Esperar hasta 30 segundos a que aparezca el proceso TaleSpire.
-    $appeared = $false
-
-    for ($i = 0; $i -lt 30; $i++) {
-        if (Get-Process -Name $Proc -ErrorAction SilentlyContinue) {
-            $appeared = $true
-            break
-        }
-
-        Start-Sleep -Seconds 1
+    # Loop de sync independiente. Termina cuando otro script crea StopSignalFile.
+    while (-not (Test-Path $StopSignalFile)) {
+        Start-Sleep -Seconds $Interval
+        Sync-Toolset -Repo $Repo -Branch $Branch
     }
 
-    # 4. Mientras TaleSpire este abierto, sincronizar cada Interval segundos.
-    if ($appeared) {
-        while (Get-Process -Name $Proc -ErrorAction SilentlyContinue) {
-            Start-Sleep -Seconds $Interval
-            Sync-Toolset -Repo $Repo -Branch $Branch
-        }
-    }
-
-    # 5. Sincronizacion final al salir de TaleSpire.
+    # Sync final antes de salir.
+    Write-Log 'Senal de stop recibida. Ejecutando sync final...'
     Sync-Toolset -Repo $Repo -Branch $Branch
 
-    Write-Log ('OK: TaleSpire cerrado. Sincronizacion finalizada correctamente en rama {0}.' -f $Branch)
-    Start-Sleep -Seconds 2
+    Write-Log ('OK: Sync Toolset finalizado correctamente en rama {0}.' -f $Branch)
     exit 0
 }
 catch {
