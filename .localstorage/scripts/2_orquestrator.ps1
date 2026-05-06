@@ -5,10 +5,10 @@
 .DESCRIPTION
   Este script no hace sync, no exporta hojas y no abre TaleSpire directamente.
   Solo coordina scripts separados:
-    - sync-toolset-git.ps1: mantiene sincronizado el repo Toolset.
-    - export-character-sheets.ps1: exporta una hoja JSON por personaje.
-    - start-talespire.ps1: abre el juego.
-    - wait-talespire-close.ps1: espera a que TaleSpire cierre y crea una senal de stop.
+    - 5_sync-toolset-git.ps1: mantiene sincronizado el repo Toolset.
+    - 4_export-character-sheets.ps1: exporta una hoja TXT por personaje.
+    - 3_start-talespire.ps1: abre el juego.
+    - 6_wait-talespire-close.ps1: espera a que TaleSpire cierre y crea una senal de stop.
 
   Los workers corren como procesos separados, compartiendo la misma consola.
 #>
@@ -29,10 +29,10 @@ $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $RuntimeDir = Join-Path $env:TEMP 'talespire-toolset-runtime'
 $StopSignalFile = Join-Path $RuntimeDir 'stop-all.signal'
 
-$StartTaleSpireScript = Join-Path $ScriptDir 'start-talespire.ps1'
-$SyncToolsetScript = Join-Path $ScriptDir 'sync-toolset-git.ps1'
-$ExportCharacterSheetsScript = Join-Path $ScriptDir 'export-character-sheets.ps1'
-$WaitTaleSpireCloseScript = Join-Path $ScriptDir 'wait-talespire-close.ps1'
+$StartTaleSpireScript = Join-Path $ScriptDir '3_start-talespire.ps1'
+$SyncToolsetScript = Join-Path $ScriptDir '5_sync-toolset-git.ps1'
+$ExportCharacterSheetsScript = Join-Path $ScriptDir '4_export-character-sheets.ps1'
+$WaitTaleSpireCloseScript = Join-Path $ScriptDir '6_wait-talespire-close.ps1'
 
 # ============================================================
 # Helpers
@@ -159,7 +159,7 @@ try {
         -ExtraArgs @('-NoPauseOnError')
 
     $startProcess.WaitForExit()
-    Assert-ProcessExitCodeOk -Process $startProcess -ScriptName 'start-talespire.ps1'
+    Assert-ProcessExitCodeOk -Process $startProcess -ScriptName '3_start-talespire.ps1'
 
     # 4. Espera a que TaleSpire cierre.
     #    Al cerrar, este worker crea la senal de stop.
@@ -169,7 +169,7 @@ try {
         -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
 
     $watchProcess.WaitForExit()
-    Assert-ProcessExitCodeOk -Process $watchProcess -ScriptName 'wait-talespire-close.ps1'
+    Assert-ProcessExitCodeOk -Process $watchProcess -ScriptName '6_wait-talespire-close.ps1'
 
     # 5. Espera a que los workers detecten la senal, hagan su cierre final y salgan.
     if ($exportProcess -and -not $exportProcess.HasExited) {
@@ -182,8 +182,8 @@ try {
         $syncProcess.WaitForExit()
     }
 
-    Assert-ProcessExitCodeOk -Process $exportProcess -ScriptName 'export-character-sheets.ps1'
-    Assert-ProcessExitCodeOk -Process $syncProcess -ScriptName 'sync-toolset-git.ps1'
+    Assert-ProcessExitCodeOk -Process $exportProcess -ScriptName '4_export-character-sheets.ps1'
+    Assert-ProcessExitCodeOk -Process $syncProcess -ScriptName '5_sync-toolset-git.ps1'
 
     Write-Log 'OK: TaleSpire cerrado. Workers finalizados correctamente.'
     Start-Sleep -Seconds 2
