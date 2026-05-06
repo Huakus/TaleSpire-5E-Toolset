@@ -110,7 +110,6 @@ function Assert-ProcessExitCodeOk {
     $Process.Refresh()
 
     if ($null -eq $Process.ExitCode) {
-        Write-Log ("WARNING: {0} termino, pero Windows no devolvio codigo de salida. Se asume OK." -f $ScriptName)
         return
     }
 
