@@ -32,10 +32,18 @@ En un momento crucial, la espada es colocada en un pedestal, reduciendo notablem
 
 La batalla continúa con explosiones de energía necrótica, sombras, esqueletos y zonas de oscuridad mágica. El grupo utiliza recursos como **Silencio**, **Levitación** y **Hambre de Hadar** para controlar a las entidades y limitar la influencia de la presencia superior que parece comandarlas.
 
-### La decisión sobre la espada
+### La entidad comandante
 
-Tras contener la amenaza inmediata, el grupo decide extraer la espada para continuar la investigación en la ciudad. La decisión no es menor: el arma parece ser un sello, un artefacto antiguo y una pieza conectada con la Orden Carmesí.
+La presencia que controla a los espectros queda limitada por la combinación de conjuros y por la presión del grupo. Aunque no se manifiesta como un enemigo completamente físico, su influencia se percibe en la coordinación de los no muertos, en la resonancia del mausoleo y en la reacción de los espectros ante la espada.
 
-Llevarla consigo implica ganar una herramienta de conocimiento, pero también cargar con las consecuencias de haber alterado una estructura funeraria y arcana que llevaba mucho tiempo enterrada.
+**Delerion** utiliza conjuros de control y defensa para dominar el área, mientras el grupo concentra sus ataques sobre las entidades flotantes. La batalla combina ataques directos, magia de área y el uso táctico de los esqueletos levantados como barrera o distracción.
 
-La Ciudad Alta deja de ser solo el escenario de trámites, permisos y vigilancia. Bajo sus instituciones, templos, mercados y cementerios, se esconden capas antiguas de poder que siguen activas.
+Uno de los espectros principales recibe un golpe crítico que lo deja gravemente herido. La presión conjunta de **Delerion**, **Adler**, **Varka** y los demás termina quebrando la defensa espectral. Finalmente, el espectro cae y la presencia que comandaba a los no muertos pierde su control inmediato sobre el campo de batalla.
+
+### La extracción de la espada
+
+Con la amenaza principal neutralizada, el grupo vuelve a concentrarse en la espada. La decisión de llevarla consigo queda tomada pese a las señales de peligro que rodean al objeto.
+
+La espada es retirada del mausoleo como una pieza clave para continuar investigando la **Orden Carmesí**, los artefactos orianos y los rituales antiguos encontrados en la Ciudad Alta.
+
+El grupo abandona la tumba con nuevos objetos, información ritual y una certeza práctica: la Orden Carmesí no solo opera en el presente mediante tráfico, política y manipulación, sino también sobre estructuras antiguas que todavía conservan poder.
