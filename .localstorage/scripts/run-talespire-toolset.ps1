@@ -24,7 +24,10 @@ $ErrorActionPreference = 'Stop'
 # ============================================================
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$RuntimeDir = Join-Path $ScriptDir '.runtime'
+# Runtime fuera del repo/scripts para no commitear archivos temporales como stop-all.signal.
+# Usamos una carpeta temporal por ejecucion del launcher.
+$RuntimeRoot = Join-Path $env:TEMP 'talespire-toolset-launcher'
+$RuntimeDir = Join-Path $RuntimeRoot ([Guid]::NewGuid().ToString('N'))
 $StopSignalFile = Join-Path $RuntimeDir 'stop-all.signal'
 
 $StartTaleSpireScript = Join-Path $ScriptDir 'start-talespire.ps1'
@@ -139,13 +142,29 @@ function Get-WorkerExitCode {
         throw "No se pudo obtener el proceso del worker: $Name"
     }
 
-    $Process.Refresh()
-
-    if ($null -eq $Process.ExitCode) {
-        throw "$Name termino, pero Windows no devolvio codigo de salida."
+    # A veces Windows/Start-Process tarda un instante en hidratar ExitCode
+    # aunque el proceso ya haya terminado. Esperamos/refrescamos antes de leerlo.
+    if (-not $Process.HasExited) {
+        $Process.WaitForExit()
     }
 
-    return [int]$Process.ExitCode
+    Start-Sleep -Milliseconds 250
+    $Process.Refresh()
+
+    try {
+        $exitCode = $Process.ExitCode
+    }
+    catch {
+        Write-Log ("WARN: No se pudo leer el codigo de salida de {0}. Se asume 0 porque el proceso ya termino." -f $Name)
+        return 0
+    }
+
+    if ($null -eq $exitCode -or ($exitCode -is [string] -and [string]::IsNullOrWhiteSpace($exitCode))) {
+        Write-Log ("WARN: {0} termino pero Windows no devolvio codigo de salida. Se asume 0." -f $Name)
+        return 0
+    }
+
+    return [int]$exitCode
 }
 
 # ============================================================
@@ -213,6 +232,15 @@ try {
     }
 
     Write-Log 'OK: TaleSpire cerrado. Workers finalizados correctamente.'
+
+    # Limpieza best-effort de archivos temporales del launcher.
+    try {
+        if (Test-Path $RuntimeDir) {
+            Remove-Item $RuntimeDir -Recurse -Force
+        }
+    }
+    catch {}
+
     Start-Sleep -Seconds 2
     exit 0
 }
@@ -224,6 +252,15 @@ catch {
     }
 
     Stop-WorkerIfAlive -Process $syncProcess -Name 'Toolset Git Sync'
+
+    # En error no borramos RuntimeDir antes de la pausa si hace falta diagnosticar,
+    # pero intentamos removerlo despues de setear la senal y cerrar workers.
+    try {
+        if (Test-Path $RuntimeDir) {
+            Remove-Item $RuntimeDir -Recurse -Force
+        }
+    }
+    catch {}
 
     Wait-BeforeExitOnError
     exit 1
