@@ -32,7 +32,7 @@ El grupo comprende que la Orden Carmesí, los alquimistas y los contrabandistas 
 
 ### El ritual sobre Kako
 
-Con el laboratorio parcialmente funcional, **Delerion** ejecuta el Ritual del Eco sobre un cadáver antiguo conocido como **Kako**.
+Con el laboratorio parcialmente funcional, **Delerion** ejecuta el Ritual del Eco sobre uno de sus zombies, específicamente **Kako**.
 
 El ritual se completa con éxito. Delerion no solo logra realizarlo, sino que también aprende formalmente su estructura, registrándolo en su libro para futuras ocasiones.
 
