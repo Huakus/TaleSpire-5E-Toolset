@@ -1,4 +1,4 @@
-## Capítulo 15: Los túneles
+## Capítulo 15: Criaturas de los túneles
 
 ### El descenso al subsuelo
 
