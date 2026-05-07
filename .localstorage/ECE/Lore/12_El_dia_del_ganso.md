@@ -2,11 +2,11 @@
 
 ### Cruce de la puerta occidental
 
-Tras abandonar el Distrito de los Artesanos, el grupo cruza la puerta occidental de Valverde del Río rumbo a la **Ciudad Exterior**. **Zaphir**, con su habitual mezcla de presencia, papeles oportunos y seguridad ensayada, maneja el intercambio con la guardia.
+Tras abandonar el Distrito de los Artesanos, el grupo cruza la puerta occidental del barrio de los artesanos rumbo a la **Ciudad Exterior**. **Zaphir**, con su habitual mezcla de presencia, papeles oportunos y seguridad ensayada, maneja el intercambio con la guardia.
 
 Su intervención evita preguntas innecesarias y permite que el grupo salga de la ciudad amurallada, aunque queda instalada una advertencia implícita: regresar no será igual de sencillo.
 
-Del otro lado de la muralla, Valverde cambia de forma. El orden de las calles vigiladas se diluye en caminos de tierra, casas bajas, corrales improvisados y estructuras humildes levantadas al margen de la autoridad formal. La guardia todavía existe, pero su presencia se siente más débil; en su lugar aparecen miradas vecinales, contactos informales, matones, comerciantes y reglas no escritas.
+Del otro lado de la muralla, el orden de las calles vigiladas se diluye en caminos de tierra, casas bajas, corrales improvisados y estructuras humildes levantadas al margen de la autoridad formal. La guardia todavía existe, pero su presencia se siente más débil; en su lugar aparecen miradas vecinales, contactos informales, matones, comerciantes y reglas no escritas.
 
 ### El Día del Ganso
 
@@ -39,5 +39,3 @@ La información disponible indica que el Gremio podría tener acceso a rutas sub
 El grupo decide no actuar de forma abierta. La estructura del Gremio parece demasiado vigilada para una entrada directa, y cualquier movimiento brusco podría cerrar rutas, alertar contactos o poner en riesgo al Pichón.
 
 Se establece entonces una estrategia de observación e infiltración. Algunos integrantes recorren el barrio en busca de rumores y accesos, mientras otros se concentran en estudiar los movimientos alrededor del edificio del Gremio.
-
-El Día del Ganso deja así de ser una anécdota absurda y se convierte en la primera señal clara de lo que el grupo enfrentará en la Ciudad Exterior: un territorio donde lo criminal, lo feérico y lo político se entremezclan sin mostrar todavía sus límites.
