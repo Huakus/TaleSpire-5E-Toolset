@@ -1,4 +1,4 @@
-## Capítulo 24: Cassian Balté Castimiro y la Casa Gremial
+## Capítulo 24: Cassian Balté Castimiro
 
 ### Una nueva pista institucional
 
