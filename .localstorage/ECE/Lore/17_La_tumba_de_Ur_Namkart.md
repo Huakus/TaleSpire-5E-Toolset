@@ -28,7 +28,7 @@ La esfera emite fluctuaciones azuladas. Su poder arcano es evidente para todos l
 
 Los documentos recuperados del laboratorio indican que los responsables del complejo buscaban precisamente esta tumba y este artefacto. El objeto es mencionado como una guía hacia el **Santuario Olvidado de Hextor**.
 
-El grupo comprende que la Orden Carmesina, los alquimistas y los contrabandistas no estaban explorando las cuevas al azar. Buscaban una pieza concreta, oculta detrás de sellos que no lograron abrir antes de la invasión goblin.
+El grupo comprende que la Orden Carmesí, los alquimistas y los contrabandistas no estaban explorando las cuevas al azar. Buscaban una pieza concreta, oculta detrás de sellos que no lograron abrir antes de la invasión goblin.
 
 ### El ritual sobre Kako
 
