@@ -2,11 +2,11 @@
 
 ### El refugio de Nyxara
 
-Tras atravesar los túneles y sobrevivir a las amenazas del subsuelo, el grupo llega a un establecimiento oculto en la zona de **Dudoza**, siguiendo una pista confiable de **Lucent**. El lugar ofrece una pausa extraña dentro del caos reciente: durante aproximadamente una semana, los protagonistas descansan, recuperan fuerzas y disfrutan de una tranquilidad que contrasta con la tensión acumulada en el Barrio Exterior y las cuevas.
+Tras atravesar los túneles y sobrevivir a las amenazas del subsuelo, el grupo llega a un establecimiento oculto en la zona de **Dudoza**, siguiendo una pista confiable de **Lucen**. El lugar ofrece una pausa extraña dentro del caos reciente: durante aproximadamente una semana, los protagonistas descansan, recuperan fuerzas y disfrutan de una tranquilidad que contrasta con la tensión acumulada en el Barrio Exterior y las cuevas.
 
 Sin embargo, el descanso no borra la urgencia. La desaparición del sargento, el aumento de la vigilancia y los movimientos de las facciones locales dejan claro que la situación en la ciudad sigue empeorando. Al despertar, el grupo siente que el momento de actuar ha llegado.
 
-Impulsados por Lucent, los personajes buscan a **Nyxara**, también llamada **Nixara**, **Xiomara** o **Ciómara** según distintas voces de la ciudad. Ella es amiga del grupo y dueña del local donde se alojan, una figura conectada con los espacios seguros y las rutas menos visibles de la Ciudad Alta.
+Impulsados por Lucen, los personajes buscan a **Nyxara**, también llamada **Nixara**, **Xiomara** o **Ciómara** según distintas voces de la ciudad. Ella es amiga del grupo y dueña del local donde se alojan, una figura conectada con los espacios seguros y las rutas menos visibles de la Ciudad Alta.
 
 ### La plaza y los capas verdes
 
@@ -14,7 +14,7 @@ Al salir hacia la plaza, el grupo encuentra una multitud acumulada y un guardia 
 
 Para observar la situación sin exponerse, **Delerion** coloca discretamente a **Martita** en un balcón cercano, usando a su familiar como punto de vigilancia. La escena confirma que la ciudad se encuentra bajo tensión: hay más guardias, más ojos atentos y menos margen para moverse sin autorización.
 
-De regreso en la taberna, Lucent presenta formalmente a sus compañeros ante Nyxara. Ella explica que la presencia de los llamados **capas verdes**, nuevos guardias que generan temor entre los habitantes, ha aumentado de forma notable. También revela que el gobernador, **Nair Kules**, se muestra cada vez más paranoico, endureciendo los controles sobre quienes circulan por la Ciudad Alta.
+De regreso en la taberna, Lucen presenta formalmente a sus compañeros ante Nyxara. Ella explica que la presencia de los llamados **capas verdes**, nuevos guardias que generan temor entre los habitantes, ha aumentado de forma notable. También revela que el gobernador, **Nair Kules**, se muestra cada vez más paranoico, endureciendo los controles sobre quienes circulan por la Ciudad Alta.
 
 ### La crisis de la forja
 
