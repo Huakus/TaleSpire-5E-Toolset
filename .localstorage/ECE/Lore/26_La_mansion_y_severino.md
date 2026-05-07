@@ -1,4 +1,4 @@
-## La mansión y Severino
+## Capítulo 26: La mansión y Severino
 
 ### El combate en la estructura
 
