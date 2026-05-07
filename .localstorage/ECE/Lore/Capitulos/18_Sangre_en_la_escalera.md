@@ -58,7 +58,7 @@ Delerion intenta tomar control mental sobre un artífice enemigo mediante un con
 
 ### El artífice y el arma mecánica
 
-Uno de los enemigos, probablemente un artífice o alquimista, lanza una sustancia que ciega temporalmente al kenku.
+Uno de los enemigos, el artífice, lanza una sustancia que ciega temporalmente al kenku.
 
 El caos aumenta cuando el artífice activa un dispositivo mecánico que despliega un cañón. El arma dispara una explosión ígnea con metralla en cono, dañando a varios miembros del grupo.
 
@@ -130,13 +130,13 @@ Liberarlo parece demasiado peligroso. Mantenerlo prisionero implica cargar con u
 
 Finalmente, optan por ejecutarlo.
 
-Bánic suplica y cae de rodillas. La decisión se concreta mediante múltiples apuñalamientos, al estilo de una ejecución colectiva. Muere lentamente, dejando una huella emocional profunda incluso en quienes apoyaron la medida.
+Bánic suplica y cae de rodillas. La decisión se concreta mediante múltiples apuñalamientos, al estilo de una ejecución colectiva. Muere lentamente, dejando una huella emocional profunda en quienes apoyaron la medida, pero también en Adler, que se mostró en contra de la medida y decidió no formar parte de la ejecución. 
 
 ### Limpieza de la escena
 
 Para evitar que se descubra una masacre organizada, Delerion organiza al grupo para deshacerse de los cadáveres.
 
-Los cuerpos son llevados hacia el arroyo para que sean devorados por criaturas grandes del agua. **Kako**, el no-muerto del grupo, ayuda arrastrando los cuerpos.
+Los cuerpos son llevados hacia el arroyo para que sean devorados por criaturas grandes del agua. **Kako**, el no-muerto controlado por **Delerion**, ayuda arrastrando los cuerpos.
 
 La intención es que la escena parezca el resultado de un ataque de bestias, no de una ejecución sistemática tras un combate.
 
