@@ -1,4 +1,4 @@
-## Las cuevas bajo la ciudad
+## Capítulo 25: Las cuevas bajo la ciudad
 
 ### La ruta subterránea
 
