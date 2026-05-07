@@ -16,7 +16,7 @@ Los contrabandistas intentan imponer condiciones desde una posición de soberbia
 
 El combate se desata cuando **Delerion** lanza una **Bola de Fuego** contra los contrabandistas.
 
-El estallido impacta a varios enemigos y obliga a **Zephyr** o **Saphir** a soltar a Lucen. **Skitrix “Stix Ernesto” Koboldtanz** aprovecha la apertura y ejecuta un ataque furtivo exitoso.
+El estallido impacta a varios enemigos y obliga a **Zephyr** a soltar a Lucen. **Skitrix “Stix Ernesto” Koboldtanz** aprovecha la apertura y ejecuta un ataque furtivo exitoso.
 
 La explosión también prende fuego la escalera que conduce hacia la Ciudad Alta. El incendio transforma el combate en una carrera contra el tiempo: la estructura está dañada y podría colapsar si el fuego no se controla.
 
@@ -24,7 +24,7 @@ A pesar de que algunos miembros del grupo cuentan con medios para volar o escapa
 
 ### Los enemigos de la escalera
 
-Entre los contrabandistas destaca un tiefling agresivo, especialmente enfocado en capturar o eliminar a Stixx.
+Entre los contrabandistas destaca Zephir.
 
 También participa un humano corpulento con un tapado rojo, frío y calculador, que asume un rol táctico de liderazgo. Junto a ellos se mueve un kenku con un anillo de teletransporte, capaz de reposicionarse sin abandonar el combate.
 
