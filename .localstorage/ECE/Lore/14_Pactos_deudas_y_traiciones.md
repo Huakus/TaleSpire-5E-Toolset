@@ -82,10 +82,6 @@ La intervención de Nema confirma que el conflicto del Barrio Exterior no perten
 
 ### Hacia los túneles
 
-Al finalizar esta etapa, el grupo ya no ve el paso subterráneo como una simple ruta hacia la Ciudad Alta.
-
-El encargo de Raviel, el paquete de Silas, la traición de Zephyr, la situación del Pichón, la intervención de Tres Dientes, el estado de Lucen y las advertencias feéricas forman parte de una misma crisis.
-
 El grupo se prepara para adentrarse en los túneles sabiendo que el camino fue preparado como una trampa. Lo que los espera abajo no es solo una vía de contrabando, sino aquello que Raviel y los suyos no pudieron o no quisieron enfrentar.
 
 Con el traspaso del Pichón en marcha y la traición revelada, la investigación del Barrio Exterior llega a su punto de quiebre. El siguiente paso conduce bajo la ciudad, hacia la ruta oculta que conecta el crimen, la magia antigua y los peligros que acechan en la oscuridad.
