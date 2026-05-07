@@ -59,11 +59,3 @@ La situación se complica cuando el troll decapita a uno de los zombies de Deler
 En medio de la ceguera, el combate continúa guiado por sonidos, golpes y gritos. El troll, gravemente herido y desorientado, cae o se arroja al agua profunda del arroyo. Borgar, uno de los pocos que conserva la visión, toma una pistola lanzaconjuros y dispara contra la criatura sumergida, generando una explosión arcana que sacude la cámara.
 
 El enfrentamiento marca una victoria costosa pero decisiva, consolida la alianza con los kobolds y despeja una de las amenazas principales del subsuelo.
-
-### Cierre del tramo
-
-Al finalizar esta etapa, el grupo comprende que el Barrio Exterior y los túneles forman parte de un mismo entramado. La red criminal de Raviel, las maniobras de la guardia, la situación del Pichón, la secta ligada a Ninthra, los cristales luminiscentes, la Orden Carmesí y los antiguos pactos entre humanos y kobolds no son hilos separados, sino capas superpuestas de una misma crisis.
-
-Lo que comenzó como una operación de contrabando se revela como una interferencia arcana, política y feérica mucho más profunda.
-
-El grupo queda en una posición incómoda: ha ganado aliados, abierto rutas y descubierto verdades importantes, pero también ha despertado amenazas antiguas y confirmado que fuerzas mayores operan desde las sombras. Los túneles ya no son simples pasos secretos hacia la Ciudad Alta, sino lugares de poder donde la historia enterrada de Valverde del Río vuelve a moverse.
