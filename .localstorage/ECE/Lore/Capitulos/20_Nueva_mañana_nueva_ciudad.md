@@ -1,4 +1,4 @@
-## Capítulo 16: La llegada a la Ciudad Alta
+## Capítulo 16: Nueva mañana, nueva ciudad
 
 ### El refugio de Nyxara
 
