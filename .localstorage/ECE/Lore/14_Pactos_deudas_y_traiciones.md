@@ -60,8 +60,6 @@ En paralelo, el grupo lidia con la situación de **Lucen**, un prisionero tortur
 
 El grupo evalúa si liberarlo, mantenerlo bajo control o convertirlo en una figura protegida dentro de una especie de “jaula de oro”.
 
-La decisión sobre Lucen expone una tensión recurrente: el grupo no solo enfrenta enemigos visibles, sino también consecuencias humanas difíciles de resolver sin ensuciarse las manos.
-
 ### La visión de Varka
 
 En medio de estas tensiones, **Varka** tiene un encuentro con una adivina en la taberna.
