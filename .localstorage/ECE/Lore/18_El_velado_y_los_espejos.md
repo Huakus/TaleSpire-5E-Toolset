@@ -1,4 +1,4 @@
-## El Velado y los espejos
+## Capítulo 18: El Velado y los espejos
 
 ### El contacto con el mundo clandestino
 
