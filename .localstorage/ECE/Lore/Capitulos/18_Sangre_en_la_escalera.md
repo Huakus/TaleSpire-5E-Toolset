@@ -94,7 +94,7 @@ El hombre está físicamente entero y parece haber sido el sobreviviente más es
 
 Para capturarlo sin riesgo, Delerion lanza **Hechizar Persona**. El enano no logra resistirse y queda cooperativo. Con una palabra clave conocida, las piedras se deslizan y el contrabandista queda expuesto.
 
-Su nombre es **Bánic**. Es un guerrero entrenado, con experiencia como guardia o mercenario.
+Su nombre es **Bánic**. Es un guerrero entrenado, con experiencia como mercenario.
 
 ### El interrogatorio
 
