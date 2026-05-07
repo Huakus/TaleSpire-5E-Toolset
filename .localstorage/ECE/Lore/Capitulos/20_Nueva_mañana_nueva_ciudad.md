@@ -1,8 +1,8 @@
-## Capítulo 20: Nueva mañana, nueva ciudad
+## Capítulo 16: Nueva mañana, nueva ciudad
 
 ### El refugio de Nyxara
 
-Tras atravesar los túneles y sobrevivir a las amenazas del subsuelo, el grupo llega a una taberna, siguiendo el conocimiento confiable de **Lucen** sobre la ciudad y sus actores. El lugar ofrece una pausa extraña dentro del caos reciente: durante aproximadamente una semana, los protagonistas descansan, recuperan fuerzas y disfrutan de una tranquilidad que contrasta con la tensión acumulada en el Barrio Exterior y las cuevas.
+Tras atravesar los túneles y sobrevivir a las amenazas del subsuelo, el grupo llega a un establecimiento oculto en la zona de **Dudoza**, siguiendo una pista confiable de **Lucen**. El lugar ofrece una pausa extraña dentro del caos reciente: durante aproximadamente una semana, los protagonistas descansan, recuperan fuerzas y disfrutan de una tranquilidad que contrasta con la tensión acumulada en el Barrio Exterior y las cuevas.
 
 Sin embargo, el descanso no borra la urgencia. La desaparición del sargento, el aumento de la vigilancia y los movimientos de las facciones locales dejan claro que la situación en la ciudad sigue empeorando. Al despertar, el grupo siente que el momento de actuar ha llegado.
 
