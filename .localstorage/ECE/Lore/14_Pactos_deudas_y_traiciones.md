@@ -63,11 +63,3 @@ Su presencia no funciona como una alianza directa, sino como una advertencia. Lo
 El niño deja de ser un episodio aislado y empieza a perfilarse como una posible llave o ancla entre realidades.
 
 La intervención de Nema confirma que el conflicto del Barrio Exterior no pertenece únicamente al plano político o criminal. Algo feérico, antiguo y peligroso se mueve en paralelo a la operación de contrabando.
-
-### Cierre del tramo
-
-Al finalizar esta etapa, el grupo comprende que el Barrio Exterior no es un único problema, sino un cruce de fuerzas superpuestas.
-
-La red criminal de Raviel, la posición ambigua de la guardia, la situación del Pichón, el estado de Lucen, la secta ligada a Ninthra, los cristales luminiscentes, la traición de Zephyr, la Orden Carmesí y las advertencias feéricas forman parte de una misma crisis.
-
-Lo que comenzó como una investigación sobre contrabando y prisioneros se convierte en una trama más amplia, donde cada decisión abre una ruta hacia los túneles, hacia la Ciudad Alta o hacia pactos antiguos que todavía reclaman su precio.
