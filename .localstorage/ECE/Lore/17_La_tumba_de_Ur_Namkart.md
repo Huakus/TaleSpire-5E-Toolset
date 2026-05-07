@@ -66,9 +66,9 @@ También revela que el Corazón de Kurash no funciona como ancla de la tumba. Su
 
 Allí, en las bibliotecas del santuario, podría encontrarse más conocimiento sobre la amenaza y sobre la forma de sellarla.
 
-### Los documentos de Aurelia
+### Los documentos de Aurelio
 
-El grupo revisa documentos restantes escritos por **Aurelia**.
+El grupo revisa documentos restantes escritos por **Aurelio**.
 
 Las notas confirman que un grupo llegó a la zona aproximadamente tres meses atrás y se retiró hace poco más de una semana. Antes de abandonar el laboratorio, se desviaron por **Escudoferrio**, donde montaron una red alquímica y de contrabando.
 
