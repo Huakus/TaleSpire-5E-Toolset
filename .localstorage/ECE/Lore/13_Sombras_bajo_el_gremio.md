@@ -53,5 +53,3 @@ El Pichón se encuentra golpeado, debilitado y retenido por hombres relacionados
 Heladio y quienes lo rodean planean huir, presionados tanto por la guardia como por fuerzas más antiguas que empiezan a moverse en el Barrio Exterior.
 
 El grupo comprende que rescatar al Pichón por la fuerza podría desatar una respuesta inmediata del Gremio, mientras que dejarlo allí implica permitir que sea trasladado, ejecutado o usado como moneda de cambio.
-
-La investigación del Barrio Exterior deja de ser una simple búsqueda de accesos y se transforma en una cadena de decisiones urgentes.
