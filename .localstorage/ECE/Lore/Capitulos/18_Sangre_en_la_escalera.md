@@ -134,8 +134,6 @@ Finalmente, optan por ejecutarlo.
 
 Bánic suplica y cae de rodillas. La decisión se concreta mediante múltiples apuñalamientos, al estilo de una ejecución colectiva. Muere lentamente, dejando una huella emocional profunda incluso en quienes apoyaron la medida.
 
-La party sobrevive al combate, pero no sale intacta de sus decisiones.
-
 ### Limpieza de la escena
 
 Para evitar que se descubra una masacre organizada, el grupo decide deshacerse de los cadáveres.
