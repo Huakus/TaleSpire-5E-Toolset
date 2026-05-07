@@ -1,4 +1,4 @@
-## Capítulo 16: Nueva mañana, nueva ciudad
+## Capítulo 20: Nueva mañana, nueva ciudad
 
 ### El refugio de Nyxara
 
