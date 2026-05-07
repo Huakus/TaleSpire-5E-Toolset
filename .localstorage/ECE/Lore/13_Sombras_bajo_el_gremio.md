@@ -8,9 +8,9 @@ El edificio muestra demasiada seguridad para tratarse de una simple casa de come
 
 **Mercion**, conocida de encuentros anteriores en la taberna, aparece también en la zona intentando acercarse al mismo entramado. Su presencia confirma que el Gremio atrae a distintos actores interesados en rutas, favores, prisioneros y contactos dentro del Barrio Exterior.
 
-### La araña de Delerion
+### Martita
 
-Para evitar una entrada directa, **Delerion** envía a su familiar, una araña exploradora, al interior del edificio del Gremio.
+Para evitar una entrada directa, **Delerion** envía a su familiar, Martita, una araña exploradora, al interior del edificio del Gremio.
 
 La criatura se infiltra entre cajas, vigas y rincones ocultos, observando el funcionamiento interno del lugar. Dentro del edificio descubre mercancías acumuladas, oro y señales de movimientos apresurados. El Gremio no parece operar como un depósito estable, sino como un punto de tránsito donde ciertos bienes son reunidos, ocultados y trasladados con rapidez.
 
