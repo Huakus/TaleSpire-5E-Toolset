@@ -8,10 +8,6 @@ La salida hacia la **Ciudad Alta** se concreta en plena mañana.
 
 Después de la humedad, la oscuridad, el humo y la sangre de las Kobold Caves, el cambio de entorno resulta brusco. La party emerge a un espacio urbano más ordenado, con calles cuidadas, construcciones de mayor riqueza y una vigilancia social más sutil.
 
-No hay enemigos visibles ni combate inmediato. La amenaza no desaparece, pero cambia de forma.
-
-En la Ciudad Alta, el peligro parece menos salvaje y más político.
-
 ### Lucen en la ciudad
 
 **Lucen Redgar**, el Pichón, muestra un estado mental frágil y disociado.
