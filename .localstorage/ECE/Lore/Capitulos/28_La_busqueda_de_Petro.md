@@ -1,4 +1,4 @@
-## Capítulo 24: La búsqueda de Petro
+## Capítulo 28: La búsqueda de Petro
 
 ### La información sobre Petro
 

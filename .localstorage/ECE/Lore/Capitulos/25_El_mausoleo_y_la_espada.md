@@ -1,4 +1,4 @@
-## Capítulo 21: El mausoleo y la espada
+## Capítulo 25: El mausoleo y la espada
 
 ### La entrada a la tumba
 

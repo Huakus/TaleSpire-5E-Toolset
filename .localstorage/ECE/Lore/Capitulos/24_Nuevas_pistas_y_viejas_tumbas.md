@@ -1,4 +1,4 @@
-## Capítulo 20: Nuevas pistas y viejas tumbas
+## Capítulo 24: Nuevas pistas y viejas tumbas
 
 ### La búsqueda de Borgar
 

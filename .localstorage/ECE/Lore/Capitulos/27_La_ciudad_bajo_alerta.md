@@ -1,4 +1,4 @@
-## Capítulo 23: La ciudad bajo alerta
+## Capítulo 27: La ciudad bajo alerta
 
 ### El ayuntamiento
 

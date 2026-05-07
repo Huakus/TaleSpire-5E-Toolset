@@ -1,4 +1,4 @@
-## Capítulo 19: La Ciudad Alta en movimiento
+## Capítulo 23: La Ciudad Alta en movimiento
 
 ### El mercado público
 
