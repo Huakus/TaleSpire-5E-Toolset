@@ -46,7 +46,7 @@ El Barrio Exterior deja de presentarse como un territorio de favores criminales 
 
 Con esta información, el grupo decide buscar apoyo en el **Teniente Tres Dientes**.
 
-El objetivo no es denunciar toda la operación ni provocar una intervención abierta, sino conseguir ayuda para resolver el traspaso del **Pichón**, también conocido como **Luz en Redgar**, desde las manos de **Heladio** hacia el Gremio.
+El objetivo no es denunciar toda la operación ni provocar una intervención abierta, sino conseguir ayuda para resolver el traspaso del **Pichón**, también conocido como **Lucen Redgar**, desde las manos de **Heladio** hacia el Gremio.
 
 Tres Dientes se muestra pragmático. No actúa como un aliado limpio ni desinteresado, pero entiende el valor de intervenir sin romper por completo el equilibrio del Barrio Exterior. Su ayuda puede permitir que el movimiento del Pichón se concrete sin desatar una guerra inmediata entre Heladio, Raviel, el Gremio y la guardia.
 
