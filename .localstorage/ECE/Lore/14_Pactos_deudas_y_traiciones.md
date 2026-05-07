@@ -68,7 +68,7 @@ La mujer reconoce que la magia de pacto de Varka se manifiesta a través de visi
 
 En la sesión nocturna, Varka recibe imágenes de un paisaje árido, viento constante, tierra seca y estructuras antiguas medio enterradas. La visión marca una dirección clara hacia el sur.
 
-La revelación no resuelve su vínculo con la entidad que la acompaña, pero instala una certeza: parte de su destino personal no se encuentra dentro de Valverde del Río, sino más allá de la ciudad, en un lugar antiguo y silencioso que parece esperarla.
+La revelación no resuelve su vínculo con la entidad que la acompaña, pero instala una certeza: parte de su destino personal se encuentra más allá de la ciudad, en un lugar antiguo y silencioso que parece esperarla.
 
 ### Nema y la advertencia feérica
 
