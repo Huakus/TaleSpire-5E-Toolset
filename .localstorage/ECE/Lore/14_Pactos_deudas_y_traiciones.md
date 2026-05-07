@@ -2,21 +2,65 @@
 
 ### La posición de Raviel
 
-El grupo contacta con **Raviel**, bautizado por el grupo como **“el Emo”**, uno de los principales referentes criminales de la red de túneles.
+El grupo contacta con **Raviel**, conocido como **“el Emo”**, uno de los principales referentes criminales de la red de túneles del Barrio Exterior.
 
-Raviel confirma que su organización está bajo presión y que no está dispuesto a aceptar al Pichón sin garantías. La presencia del prisionero representa un riesgo demasiado grande. Si Raviel lo recibe, la guardia podría usarlo como excusa para caer sobre el Gremio y destruir su red. Si lo rechaza, pierde influencia frente a **Heladio**, **Gregorio** y otros actores vinculados a la forja.
+Raviel confirma que puede facilitar el paso hacia la **Ciudad Alta**, pero no lo ofrece como un favor gratuito. Para permitir que el grupo utilice los túneles, exige que transporten un paquete hasta el otro lado de la ciudad.
 
-Raviel deja en claro que necesita una salida negociada. El Pichón no puede desaparecer sin consecuencias, pero tampoco puede quedar en manos de una facción que comprometa toda la operación de contrabando.
+El paquete no está en su poder. Raviel indica que deben buscarlo con **Silas Viera**, un dealer y alquimista menor vinculado a la operación. El encargo queda planteado como una condición necesaria para acceder a la ruta subterránea.
+
+El acuerdo deja al grupo en una posición incómoda. Aceptar implica involucrarse directamente en una red de contrabando. Rechazarlo significa perder una de las pocas vías posibles para llegar a la Ciudad Alta sin exponerse de forma abierta ante la guardia o las facciones que controlan los accesos.
+
+### La sospecha sobre Zephyr
+
+Mientras el grupo procesa la propuesta de Raviel, **Varka** y **Skitrix “Stix Ernesto” Koboldtanz** observan una actitud extraña en **Zephyr**.
+
+En la taberna, Zephyr se muestra demasiado animado para la situación en la que se encuentra el grupo. Su entusiasmo contrasta con la tensión general, con el peligro del encargo y con la incertidumbre sobre los túneles.
+
+La conducta despierta sospechas. Varka y Ernesto deciden seguirlo discretamente cuando se aparta del resto.
+
+El rastro los conduce hasta la casa de **Silas Viera**, el mismo hombre señalado por Raviel como responsable de entregar el paquete.
+
+### Silas Viera y el paquete
+
+En la casa de Silas Viera, Varka y Ernesto descubren que Zephyr mantiene una conversación incriminadora con el alquimista.
+
+Lo que parecía un simple encargo de transporte revela una intención más peligrosa. El paso por los túneles no es solo una ruta de contrabando ni una prueba de confianza: es una trampa.
+
+La conversación deja en evidencia que **Zephyr traicionó al grupo**. Su papel no consiste únicamente en acompañarlos o facilitar contactos, sino en conducirlos hacia una situación preparada de antemano.
+
+El verdadero objetivo del paso por los túneles es que el grupo limpie aquello que acecha bajo la ciudad, o muera en el intento. Raviel y quienes participan de la operación necesitan despejar esa ruta, pero no están dispuestos a arriesgar a sus propios hombres.
+
+El paquete se convierte entonces en una excusa operativa. Transportarlo hacia la Ciudad Alta sirve para empujar al grupo a internarse en los túneles y enfrentar el peligro que bloquea o amenaza la red subterránea.
+
+### La traición confirmada
+
+Con lo escuchado en la casa de Silas, Varka y Ernesto comprenden que la situación del grupo cambió por completo.
+
+Zephyr ya no puede ser tratado como un contacto dudoso o un aliado incómodo. Su traición queda confirmada por su vínculo con Silas y por su participación en el engaño que busca enviar al grupo a los túneles bajo una premisa falsa.
+
+La información también redefine el acuerdo con Raviel. El favor exigido no es solo un pago por acceso, sino parte de una maniobra mayor para usar al grupo como herramienta descartable.
+
+El Barrio Exterior deja de presentarse como un territorio de favores criminales negociables y revela una lógica más brutal: las facciones locales empujan a otros a resolver los peligros que ellas mismas no pueden controlar.
 
 ### La intervención del Teniente Tres Dientes
 
-Ante la negativa de Raviel, el grupo busca una salida política mediante el **Teniente Tres Dientes**.
+Con esta información, el grupo decide buscar apoyo en el **Teniente Tres Dientes**.
 
-El teniente no se presenta como un aliado desinteresado, sino como una figura pragmática, interesada en mantener el orden sin provocar un conflicto abierto antes de tiempo. Acepta mirar hacia otro lado si el grupo le entrega una justificación útil para actuar más adelante contra Raviel o contra otros sectores del Gremio.
+El objetivo no es denunciar toda la operación ni provocar una intervención abierta, sino conseguir ayuda para resolver el traspaso del **Pichón**, también conocido como **Luz en Redgar**, desde las manos de **Heladio** hacia el Gremio.
 
-Su relación pasada con **Borgar** revela un trasfondo de acuerdos incómodos, favores viejos y violencia administrada. La guardia, el Gremio y la forja quedan conectados por una cadena de conveniencias donde nadie actúa desde una posición limpia.
+Tres Dientes se muestra pragmático. No actúa como un aliado limpio ni desinteresado, pero entiende el valor de intervenir sin romper por completo el equilibrio del Barrio Exterior. Su ayuda puede permitir que el movimiento del Pichón se concrete sin desatar una guerra inmediata entre Heladio, Raviel, el Gremio y la guardia.
 
-El grupo debe moverse entre esas tensiones para evitar que el Pichón sea ejecutado, trasladado o usado como moneda de cambio.
+Su relación previa con **Borgar** vuelve a pesar en la conversación. Entre ambos existe un trasfondo de acuerdos viejos, favores incómodos y violencia administrada, suficiente para abrir una puerta de negociación en medio de una situación cada vez más inestable.
+
+### El Pichón como pieza de intercambio
+
+El grupo comprende que la situación del Pichón no puede separarse del resto de los movimientos del Barrio Exterior.
+
+**Heladio** y sus asociados lo mantienen prisionero, golpeado y debilitado. Su captura forma parte de una disputa mayor entre la forja, los contrabandistas, la guardia y quienes buscan controlar los pasos ocultos hacia la Ciudad Alta.
+
+Entregar al Pichón al Gremio puede evitar una ejecución o un traslado definitivo, pero también implica dejarlo en manos de otra facción interesada. La decisión no resuelve el problema de fondo: apenas desplaza el riesgo hacia un espacio donde el grupo todavía puede operar.
+
+El traspaso queda ligado a la entrada en los túneles. Mientras el grupo se prepara para descender, necesita asegurarse de que el Pichón no quede abandonado en manos de Heladio ni sea usado como moneda de cambio por sus captores.
 
 ### La situación de Lucen
 
@@ -27,22 +71,6 @@ En paralelo, el grupo lidia con la situación de **Lucen**, un prisionero tortur
 El grupo evalúa si liberarlo, mantenerlo bajo control o convertirlo en una figura protegida dentro de una especie de “jaula de oro”.
 
 La decisión sobre Lucen expone una tensión recurrente: el grupo no solo enfrenta enemigos visibles, sino también consecuencias humanas difíciles de resolver sin ensuciarse las manos.
-
-### La droga arcano-alquímica
-
-La investigación conduce al grupo hacia **Silas Viera**, un dealer y alquimista menor vinculado al tráfico de una droga arcano-alquímica.
-
-Silas entrega un paquete sólido de tenue luz rosada y admite ser apenas un eslabón menor de la operación. No conoce el alcance real del plan ni parece comprender por completo quiénes se benefician de la red.
-
-**Delerion** detecta en el objeto una energía antigua, vinculada a templos y rituales. **Borgar** inspecciona el contenido y reconoce el sello de la **Orden Carmesí**, revelando que el tráfico no es solo una operación criminal, sino parte de algo más antiguo y peligroso.
-
-La droga debe ser transportada hacia la Ciudad Alta a través de túneles de contrabando, bajo supervisión de Raviel. El objetivo del grupo se redefine: ya no se trata únicamente de rescatar al Pichón o negociar con el Gremio, sino también de descubrir qué busca la Orden Carmesí al mover estos cristales por debajo de la ciudad.
-
-### La traición de Zephyr
-
-Durante los movimientos en el Barrio Exterior, **Varka** y **Skitrix “Stix Ernesto” Koboldtanz** descubren que **Zephyr**, un mercenario de naturaleza semi infernal, ha traicionado al grupo.
-
-Su actitud excesivamente confiada en la taberna, en contraste con la paranoia del resto del barrio, despierta sospechas. Varka y Ernesto lo siguen discretamente cuando se aparta y confirman que mantiene contacto con un actor externo cuya identidad exacta permanece incierta.
 
 ### La visión de Varka
 
@@ -63,3 +91,13 @@ Su presencia no funciona como una alianza directa, sino como una advertencia. Lo
 El niño deja de ser un episodio aislado y empieza a perfilarse como una posible llave o ancla entre realidades.
 
 La intervención de Nema confirma que el conflicto del Barrio Exterior no pertenece únicamente al plano político o criminal. Algo feérico, antiguo y peligroso se mueve en paralelo a la operación de contrabando.
+
+### Hacia los túneles
+
+Al finalizar esta etapa, el grupo ya no ve el paso subterráneo como una simple ruta hacia la Ciudad Alta.
+
+El encargo de Raviel, el paquete de Silas, la traición de Zephyr, la situación del Pichón, la intervención de Tres Dientes, el estado de Lucen y las advertencias feéricas forman parte de una misma crisis.
+
+El grupo se prepara para adentrarse en los túneles sabiendo que el camino fue preparado como una trampa. Lo que los espera abajo no es solo una vía de contrabando, sino aquello que Raviel y los suyos no pudieron o no quisieron enfrentar.
+
+Con el traspaso del Pichón en marcha y la traición revelada, la investigación del Barrio Exterior llega a su punto de quiebre. El siguiente paso conduce bajo la ciudad, hacia la ruta oculta que conecta el crimen, la magia antigua y los peligros que acechan en la oscuridad.
