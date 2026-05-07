@@ -22,11 +22,11 @@ El grupo confirma que el mausoleo no guarda solamente restos mortales. En su int
 
 ### La espada sellada
 
-Al acceder a la cámara funeraria, el grupo encuentra una espada imponente rodeada de cristales resplandecientes.
+Al acceder a la cámara funeraria, el grupo se encuentra con un joven vestido con unatúnica roja, realizando algún tipo de ritual. El joven se altera por la intromisión, y luego de decir "No debieron meterse con la Órden Carmesí", desaparece.
 
-El arma funciona como un **sello arcano**.
+Una vez dentro del mausoleo, a **Delerion** le llama la atención una espada colgada en la pared. La misma desprende una energía arcana peculiar, y mediante una minuciosa investigación determina que se trata de algún tipo de **sello arcano**.
 
-Cuando la espada es manipulada, una vibración masiva recorre el lugar y ecos antiguos llenan el ambiente. La resonancia confirma que el objeto está conectado con la tumba y que extraerlo altera el equilibrio del mausoleo.
+Sin poder resistir la curiosidad, **Delerion** quita la espada de la pared, lo que provoca una vibración masiva que recorre el lugar y ecos antiguos llenan el ambiente. La resonancia confirma que el objeto está conectado con la tumba y que extraerlo altera el equilibrio del mausoleo.
 
 **Stixx Ernesto** encuentra pergaminos que revelan conexiones entre los rituales, la **Orden Carmesí** y artefactos antiguos orianos.
 
