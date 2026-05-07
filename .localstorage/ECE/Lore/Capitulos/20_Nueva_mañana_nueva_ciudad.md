@@ -78,13 +78,7 @@ En la Ciudad Alta, el conflicto económico se mezcla con la política, la vigila
 
 Nyxara advierte que para circular sin exponerse a detenciones o interrogatorios, los forasteros necesitan una **licencia de mercenario**. Obtenerla implica entrar en la maquinaria burocrática de la ciudad: trámites, controles, esperas y posibles preguntas peligrosas.
 
-Nyxara no puede firmar directamente los documentos que el grupo necesita, pero se ofrece a enviar una carta de respaldo que podría facilitar el trámite.
-
-La carta no resuelve todos los problemas, pero le da al grupo una forma de empezar a moverse dentro del sistema legal sin quedar completamente expuesto.
-
-También menciona la posibilidad de comerciar en **El Velado** con ayuda de su tío, abriendo una vía hacia el verdadero centro clandestino de poder bajo la superficie urbana.
-
-La Ciudad Alta empieza a dividirse ante el grupo en dos caminos paralelos: la legalidad visible de licencias, sellos y guardias, y la red oculta de favores, pasajes y secretos.
+Nyxara no puede firmar directamente los documentos que el grupo necesita, pero menciona la posibilidad de comerciar en **El Velado** con ayuda de su tío, abriendo una vía hacia el verdadero centro clandestino de poder bajo la superficie urbana.
 
 ### El paso por las cloacas
 
