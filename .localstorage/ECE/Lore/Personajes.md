@@ -194,7 +194,7 @@ Erudito de aspecto excéntrico que se cruzó con Ernesto en el Distrito de los A
 
 ---
 
-### Zephir
+### Zephyr
 
 Figura que aparece junto a Borgar y Arturo, moviéndose por el Distrito de los Artesanos en el marco de un acuerdo secreto con sectores de la guardia y un plan para recuperar un objeto en poder de un sargento. Su rol exacto y lealtades aún no están del todo claras.
 
@@ -202,7 +202,7 @@ Figura que aparece junto a Borgar y Arturo, moviéndose por el Distrito de los A
 
 ### Borgar (en el Distrito de los Artesanos)
 
-Semiorco mencionado en los rumores del distrito y visto junto a Zephir y Arturo, moviéndose hacia el este. En el entorno de los talleres se lo vincula, además, con una costurera que habría sido su pareja.
+Semiorco mencionado en los rumores del distrito y visto junto a Zephyr y Arturo, moviéndose hacia el este. En el entorno de los talleres se lo vincula, además, con una costurera que habría sido su pareja.
 
 ---
 

@@ -6,7 +6,7 @@ Con la retirada kobold en marcha y el tesoro clasificado para su entrega, el gru
 
 La calma dura poco.
 
-Un grupo de contrabandistas llega a la zona de la escalera que conduce hacia la **Ciudad Alta**. Entre ellos aparece **Lucen Redgar**, conocido como **el Pichón**, vivo, curado y vestido como noble, pero bajo control enemigo.
+Un grupo de contrabandistas liderado por **Zephyr** llega a la zona de la escalera que conduce hacia la **Ciudad Alta**. Entre ellos aparece **Lucen Redgar**, conocido como **el Pichón**, vivo, curado y vestido como noble, pero bajo control enemigo.
 
 Su presencia tensiona de inmediato la escena. Lucen ya no aparece como un prisionero quebrado en una celda, sino como una pieza expuesta frente al grupo, utilizada para negociar, presionar o provocar.
 
