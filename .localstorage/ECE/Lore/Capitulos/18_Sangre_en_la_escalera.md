@@ -8,8 +8,6 @@ La calma dura poco.
 
 Un grupo de contrabandistas liderado por **Zephyr** llega a la zona de la escalera que conduce hacia la **Ciudad Alta**. Entre ellos aparece **Lucen Redgar**, conocido como **el Pichón**, vivo, curado y vestido como noble, pero bajo control enemigo.
 
-Su presencia tensiona de inmediato la escena. Lucen ya no aparece como un prisionero quebrado en una celda, sino como una pieza expuesta frente al grupo, utilizada para negociar, presionar o provocar.
-
 Los contrabandistas intentan imponer condiciones desde una posición de soberbia. La conversación busca evitar el conflicto, pero la extorsión implícita y el peligro sobre Lucen hacen que la tensión escale rápidamente.
 
 ### La primera bola de fuego
