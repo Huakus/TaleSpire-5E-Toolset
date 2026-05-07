@@ -38,8 +38,6 @@ El edificio tiene una arquitectura particular, semejante a una iglesia nórdica 
 
 Se les asigna “el piso de siempre”, un espacio familiar para Lucen. El lugar cuenta con varias habitaciones, baños y acceso a ropa guardada.
 
-La posada se convierte en un refugio temporal. Después de las cuevas, el laboratorio, la tumba, los contrabandistas y la escalera incendiada, el grupo obtiene por fin un espacio donde respirar.
-
 ### Reorganización
 
 La party acuerda permanecer en la ciudad el tiempo necesario para descansar antes de emprender movimientos mayores.
