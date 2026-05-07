@@ -1,4 +1,4 @@
-## La trampa del cementerio
+## Capítulo 22: La trampa del cementerio
 
 ### La búsqueda de evidencia
 
