@@ -44,24 +44,16 @@ El grupo toma medidas para proteger sus intereses y evitar ataques, infiltracion
 
 ### Tensiones en el puerto
 
-Mientras tanto, en el puerto, se desarrolla un conflicto que involucra a **Gregorio**, **Adio** y un grupo de navegantes.
+Mientras tanto, en el puerto, se desarrolla un conflicto que involucra a **Gregorio**, **Heladio** y un grupo de navegantes.
 
 Los navegantes intentan evadir la vigilancia utilizando documentos antiguos. Esos papeles ya no alcanzan para moverse sin riesgo, por lo que necesitan falsificarlos o conseguir un respaldo más sólido.
 
 La situación llega al grupo como una nueva muestra de los problemas que atraviesan a quienes intentan moverse dentro y fuera de la Ciudad Alta.
 
-### Adio y la licencia mercenaria
+### Heladio y la licencia mercenaria
 
-**Adio** busca obtener una licencia mercenaria con urgencia.
+**Heladio** busca obtener una licencia mercenaria con urgencia.
 
 El grupo evalúa la posibilidad de contratarlo, aunque con cautela. Su necesidad puede convertirlo en un recurso útil, pero también en una fuente de problemas.
 
-La discusión queda abierta mientras el grupo mantiene el foco en las pistas principales: la Orden Carmesí, los artefactos robados y los vínculos entre el gremio, el templo y los circuitos clandestinos.
-
-### Roberto y las viejas historias
-
-Antes de cerrar esta etapa, el grupo tiene un encuentro con **Roberto**.
-
-Roberto menciona historias vinculadas a **Borgar** y al teniente **Gorak**. Sus comentarios dejan abiertas nuevas preguntas sobre esos vínculos y secretos.
-
-El grupo termina esta etapa con nuevos contactos, más información sobre la Orden Carmesí y varias líneas de investigación activas dentro de la Ciudad Alta.
+Al final determinan contratarlos y enviarlos al norte, donde serán empleados como mercenarios a la orden del gobernador de Valverde del Río.
