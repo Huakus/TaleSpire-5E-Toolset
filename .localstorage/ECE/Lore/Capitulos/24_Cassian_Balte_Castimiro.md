@@ -10,9 +10,7 @@ Durante sus gestiones, aparece la referencia a **Cassian Balté Castimiro**, un 
 
 El grupo se dirige al **Templo del Moradi** para buscar a Cassian.
 
-El lugar presenta un ambiente distinto al de las tabernas, las cloacas y los espacios clandestinos. Allí el conflicto no se manifiesta mediante emboscadas o tratos secretos, sino a través de tensiones religiosas, discusiones internas y discursos cargados de gravedad.
-
-Al llegar, el grupo presencia una discusión entre figuras del templo y un peregrino. La escena deja ver que la ciudad no sólo está atravesada por intereses económicos y vigilancia militar, sino también por conflictos ideológicos y religiosos.
+El lugar presenta un ambiente distinto al de las tabernas, las cloacas y los espacios clandestinos. Al llegar, el grupo presencia una discusión entre figuras del templo y un peregrino. La escena deja ver que la ciudad no sólo está atravesada por intereses económicos y vigilancia militar, sino también por conflictos ideológicos y religiosos.
 
 ### La Orden Carmesí
 
