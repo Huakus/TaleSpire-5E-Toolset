@@ -52,16 +52,6 @@ Tres Dientes se muestra pragmático. No actúa como un aliado limpio ni desinter
 
 Su relación previa con **Borgar** vuelve a pesar en la conversación. Entre ambos existe un trasfondo de acuerdos viejos, favores incómodos y violencia administrada, suficiente para abrir una puerta de negociación en medio de una situación cada vez más inestable.
 
-### El Pichón como pieza de intercambio
-
-El grupo comprende que la situación del Pichón no puede separarse del resto de los movimientos del Barrio Exterior.
-
-**Heladio** y sus asociados lo mantienen prisionero, golpeado y debilitado. Su captura forma parte de una disputa mayor entre la forja, los contrabandistas, la guardia y quienes buscan controlar los pasos ocultos hacia la Ciudad Alta.
-
-Entregar al Pichón al Gremio puede evitar una ejecución o un traslado definitivo, pero también implica dejarlo en manos de otra facción interesada. La decisión no resuelve el problema de fondo: apenas desplaza el riesgo hacia un espacio donde el grupo todavía puede operar.
-
-El traspaso queda ligado a la entrada en los túneles. Mientras el grupo se prepara para descender, necesita asegurarse de que el Pichón no quede abandonado en manos de Heladio ni sea usado como moneda de cambio por sus captores.
-
 ### La situación de Lucen
 
 En paralelo, el grupo lidia con la situación de **Lucen**, un prisionero torturado y quebrado bajo control del gremio criminal.
