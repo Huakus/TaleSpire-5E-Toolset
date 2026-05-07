@@ -92,7 +92,7 @@ Tras el combate, el grupo descubre que uno de los enemigos aún permanece cerca.
 
 El hombre está físicamente entero y parece haber sido el sobreviviente más estable del enfrentamiento.
 
-Para capturarlo sin riesgo, Varka lanza **Hechizar Persona**. El enano no logra resistirse y queda cooperativo. Con una palabra clave conocida, las piedras se deslizan y el contrabandista queda expuesto.
+Para capturarlo sin riesgo, Delerion lanza **Hechizar Persona**. El enano no logra resistirse y queda cooperativo. Con una palabra clave conocida, las piedras se deslizan y el contrabandista queda expuesto.
 
 Su nombre es **Bánic**. Es un guerrero entrenado, con experiencia como guardia o mercenario.
 
