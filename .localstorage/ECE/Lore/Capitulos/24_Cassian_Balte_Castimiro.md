@@ -6,8 +6,6 @@ Luego de avanzar con la licencia de mercenario y reunir parte de la documentaci�
 
 Durante sus gestiones, aparece la referencia a **Cassian Balté Castimiro**, un contacto vinculado al **Templo del Moradi**. Su nombre surge como una posible vía para comprender mejor los movimientos políticos, religiosos y clandestinos que atraviesan la ciudad.
 
-La pista no parece menor. En una ciudad donde los permisos, los gremios y los secretos se cruzan constantemente, un contacto dentro de un templo puede representar una fuente de información más estable que los rumores de mercado o los favores de El Velado.
-
 ### El Templo del Moradi
 
 El grupo se dirige al **Templo del Moradi** para buscar a Cassian.
