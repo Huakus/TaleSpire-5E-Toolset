@@ -24,13 +24,13 @@ Con la información obtenida, **Varka** se dirige a un punto de contacto del Gre
 
 Varka ingresa sola al contacto visible, mientras **Skitrix “Stix Ernesto” Koboldtanz** permanece oculto en las inmediaciones, fuera de la línea directa de visión. Desde allí observa accesos, movimientos, posibles salidas y señales entre los miembros del Gremio.
 
-En el interior, Varka es recibida por un intermediario que evita dar su nombre. El individuo mantiene una actitud defensiva desde el inicio del intercambio. La conversación avanza con cautela, pausas frecuentes y evasivas ante preguntas directas.
+En el interior, Varka es recibida por un intermediario que evita dar su nombre, aunque más adelante se enterarán que se llama **Raviel**, y es el jefe del gremio de los comerciantes. Raviel mantiene una actitud defensiva desde el inicio del intercambio. La conversación avanza con cautela, pausas frecuentes y evasivas ante preguntas directas.
 
-Varka intenta establecer credenciales suficientes para justificar su presencia y acceder a niveles superiores del Gremio. El intermediario responde con preguntas indirectas, buscando determinar si ella representa una amenaza, una oportunidad o una trampa.
+Varka intenta establecer credenciales suficientes para justificar su presencia y acceder a niveles superiores del Gremio. Raviel responde con preguntas indirectas, buscando determinar si ella representa una amenaza, una oportunidad o una trampa.
 
-El contacto no confirma rutas, nombres clave ni acuerdos. En varios momentos observa el entorno externo, como si esperara interrupciones o vigilancia. Ernesto, desde su posición oculta, registra movimientos periféricos, presencia de vigías, rotación de guardias y señales no verbales entre miembros de la red.
+Raviel no confirma rutas, nombres clave ni acuerdos. En varios momentos observa el entorno externo, como si esperara interrupciones o vigilancia. Ernesto, desde su posición oculta, registra movimientos periféricos, presencia de vigías, rotación de guardias y señales no verbales entre miembros de la red.
 
-El encuentro termina sin confrontación ni resolución. El intermediario corta la conversación sin ofrecer compromisos formales e indica que cualquier avance requerirá validación adicional por parte de niveles superiores del Gremio.
+El encuentro termina sin confrontación ni resolución. Raviel corta la conversación sin ofrecer compromisos formales e indica que cualquier avance requerirá validación adicional por parte de niveles superiores del Gremio.
 
 ### La mujer marcada
 
