@@ -1,4 +1,4 @@
-## Capítulo 16: El Laboratorio del Eco
+## Capítulo 16: La Biblioteca del Eco
 
 ### El descanso en las profundidades
 
