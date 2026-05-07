@@ -2,7 +2,7 @@
 
 ### La posición de Raviel
 
-El grupo contacta con **Raviel**, conocido como **“el Emo”**, uno de los principales referentes criminales de la red de túneles del Barrio Exterior.
+El grupo contacta con **Raviel**, bautizado por el grupo como **“el Emo”**, uno de los principales referentes criminales de la red de túneles del Barrio Exterior.
 
 Raviel confirma que puede facilitar el paso hacia la **Ciudad Alta**, pero no lo ofrece como un favor gratuito. Para permitir que el grupo utilice los túneles, exige que transporten un paquete hasta el otro lado de la ciudad.
 
