@@ -1,4 +1,4 @@
-## La licencia de mercenario
+## Capítulo 17: La licencia de mercenario
 
 ### El trámite en la municipalidad
 
