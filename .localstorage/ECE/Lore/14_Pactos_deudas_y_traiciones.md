@@ -4,7 +4,7 @@
 
 El grupo contacta con **Raviel**, bautizado por el grupo como **“el Emo”**, uno de los principales referentes criminales de la red de túneles.
 
-Raviel confirma que su organización está bajo presión y que no está dispuesto a aceptar al Pichón sin garantías. La presencia del prisionero representa un riesgo demasiado grande. Si Raviel lo recibe, la guardia podría usarlo como excusa para caer sobre el Gremio y destruir su red. Si lo rechaza, pierde influencia frente a **Hélade**, **Gregorio** y otros actores vinculados a la forja.
+Raviel confirma que su organización está bajo presión y que no está dispuesto a aceptar al Pichón sin garantías. La presencia del prisionero representa un riesgo demasiado grande. Si Raviel lo recibe, la guardia podría usarlo como excusa para caer sobre el Gremio y destruir su red. Si lo rechaza, pierde influencia frente a **Heladio**, **Gregorio** y otros actores vinculados a la forja.
 
 Raviel deja en claro que necesita una salida negociada. El Pichón no puede desaparecer sin consecuencias, pero tampoco puede quedar en manos de una facción que comprometa toda la operación de contrabando.
 
