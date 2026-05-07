@@ -100,7 +100,7 @@ Su nombre es **Bánic**. Es un guerrero entrenado, con experiencia como mercenar
 
 Durante el interrogatorio, Bánic revela que su rol dentro de la banda era el de contrabandista. No formaba parte del liderazgo ni tenía acceso directo a todos los contactos.
 
-Sobre el llamado **pícaro barbudo**, afirma no conocer su nombre ni haberlo visto presentarse formalmente. Sabe, sin embargo, que coordinaba ciertos asuntos externos y que reservaba para sí mismo las tareas cruciales, enviando a otros, como **Raby** y **Saphir**, a ejecutar sus planes.
+Sobre el llamado **pícaro barbudo**, afirma no conocer su nombre ni haberlo visto presentarse formalmente. Sabe, sin embargo, que coordinaba ciertos asuntos externos y que reservaba para sí mismo las tareas cruciales, enviando a otros, como **Raby** y **Zaphir**, a ejecutar sus planes.
 
 El plan enemigo apuntaba hacia la **Ciudad Alta**.
 
