@@ -6,7 +6,7 @@ Tras limpiar la escena, reunir el botín y asegurarse de que la escalera aún pu
 
 La salida hacia la **Ciudad Alta** se concreta en plena mañana.
 
-Después de la humedad, la oscuridad, el humo y la sangre de las Kobold Caves, el cambio de entorno resulta brusco. La party emerge a un espacio urbano más ordenado, con calles cuidadas, construcciones de mayor riqueza y una vigilancia social más sutil.
+Después de la humedad, la oscuridad, el humo y la sangre de la cueva, el cambio de entorno resulta brusco. La party emerge a un espacio urbano más ordenado, con calles cuidadas, construcciones de mayor riqueza y una vigilancia social más sutil.
 
 ### Lucen en la ciudad
 
