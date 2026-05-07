@@ -92,6 +92,4 @@ El grupo avanza por túneles húmedos, oscuros y cargados de olores pesados, dej
 
 La salida de las cloacas deja al grupo cerca del refugio de Nyxara.
 
-A diferencia de la primera posada, este lugar no funciona como alojamiento casual, sino como un punto más seguro dentro de una red de confianza. La casa de Nyxara queda asociada a rutas secretas, protección relativa y acceso a información que no circula por los canales oficiales.
-
-El grupo ya no depende únicamente de Lucen ni de la primera posada. Ahora cuenta con una conexión más estable dentro de la Ciudad Alta, aunque esa conexión también lo acerca a El Velado y a los sectores clandestinos de la ciudad.
+A diferencia de la primera posada, este lugar no funciona como alojamiento casual, sino como un punto más seguro dentro de una red de confianza.
