@@ -136,7 +136,7 @@ Bánic suplica y cae de rodillas. La decisión se concreta mediante múltiples a
 
 ### Limpieza de la escena
 
-Para evitar que se descubra una masacre organizada, el grupo decide deshacerse de los cadáveres.
+Para evitar que se descubra una masacre organizada, Delerion organiza al grupo para deshacerse de los cadáveres.
 
 Los cuerpos son llevados hacia el arroyo para que sean devorados por criaturas grandes del agua. **Kako**, el no-muerto del grupo, ayuda arrastrando los cuerpos.
 
