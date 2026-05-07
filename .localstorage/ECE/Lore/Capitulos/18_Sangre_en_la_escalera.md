@@ -24,7 +24,7 @@ A pesar de que algunos miembros del grupo cuentan con medios para volar o escapa
 
 ### Los enemigos de la escalera
 
-Entre los contrabandistas destaca Zephir.
+Entre los contrabandistas destaca Zephyr.
 
 También participa un humano corpulento con un tapado rojo, frío y calculador, que asume un rol táctico de liderazgo. Junto a ellos se mueve un kenku con un anillo de teletransporte, capaz de reposicionarse sin abandonar el combate.
 
@@ -40,13 +40,13 @@ El enemigo entra en un estado de furia y desesperación.
 
 El kenku enemigo utiliza su anillo para reposicionarse tácticamente, manteniéndose activo en la lucha.
 
-**Adler** decide no curar de inmediato y lanza una **Saeta Guiada** contra Zephir. El impacto abre una oportunidad para el siguiente ataque.
+**Adler** decide no curar de inmediato y lanza una **Saeta Guiada** contra Zephyr. El impacto abre una oportunidad para el siguiente ataque.
 
 **Borgar** aprovecha la ventaja y arremete con múltiples golpes, incendiando la ropa del líder y causándole un daño considerable. Aun así, el enemigo continúa de pie.
 
 Mientras tanto, Lucen intenta escapar del centro del conflicto. Rodeado y aterrorizado, logra escabullirse hacia la party, frustrando el objetivo inmediato de los contrabandistas.
 
-### La caída de Zephir
+### La caída de Zephyr
 
 El combate alcanza un punto de quiebre cuando Arturo se enfrenta de nuevo al tiefling.
 
