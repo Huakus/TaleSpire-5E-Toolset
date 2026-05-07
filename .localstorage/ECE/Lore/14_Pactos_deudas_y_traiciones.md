@@ -44,8 +44,6 @@ Durante los movimientos en el Barrio Exterior, **Varka** y **Skitrix “Stix Ern
 
 Su actitud excesivamente confiada en la taberna, en contraste con la paranoia del resto del barrio, despierta sospechas. Varka y Ernesto lo siguen discretamente cuando se aparta y confirman que mantiene contacto con un actor externo cuya identidad exacta permanece incierta.
 
-La traición instala una amenaza interna dentro del círculo de aliados y obliga al grupo a desconfiar incluso de contactos que hasta entonces parecían útiles.
-
 ### La visión de Varka
 
 En medio de estas tensiones, **Varka** tiene un encuentro con una adivina en la taberna.
