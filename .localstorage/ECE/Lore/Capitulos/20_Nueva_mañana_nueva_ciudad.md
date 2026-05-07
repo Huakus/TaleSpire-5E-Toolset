@@ -88,8 +88,6 @@ El trayecto permite moverse bajo la Ciudad Alta sin cruzar directamente los cont
 
 El grupo avanza por túneles húmedos, oscuros y cargados de olores pesados, dejando atrás la taberna y la vigilancia abierta de las calles.
 
-El paso conduce finalmente a una salida cercana a la casa de Nyxara.
-
 ### El refugio de Nyxara
 
 La salida de las cloacas deja al grupo cerca del refugio de Nyxara.
