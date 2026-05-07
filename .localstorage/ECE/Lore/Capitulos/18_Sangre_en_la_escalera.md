@@ -145,13 +145,3 @@ La intención es que la escena parezca el resultado de un ataque de bestias, no 
 Luego, el grupo recolecta el botín pendiente, organiza los objetos para repartir después y se dirige hacia la escalera.
 
 Aunque dañada, todavía puede usarse.
-
-### Cierre del tramo
-
-Al concluir el arco de las cuevas, la party está viva, agotada y moralmente afectada.
-
-Lucen sobrevive, pero continúa profundamente traumatizado. La red local de contrabandistas queda destruida, aunque sus conexiones apuntan hacia algo mucho mayor.
-
-La información obtenida sobre la Biblioteca del Eco, Petro, Severino, Saphir, la familia noble y los contactos de la Ciudad Alta revela que el conflicto ha escalado.
-
-Lo que empezó como una ruta subterránea de contrabando desemboca ahora en una trama política, arcana y social. La salida hacia la Ciudad Alta ya no representa una escapatoria, sino el ingreso a una etapa más peligrosa.
