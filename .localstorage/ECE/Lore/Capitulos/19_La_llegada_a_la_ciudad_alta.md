@@ -37,13 +37,3 @@ Guiados por Lucen, llegan a una posada que él conoce bien.
 El edificio tiene una arquitectura particular, semejante a una iglesia nórdica o una stave church. A esa hora se encuentra casi vacío, lo que permite al grupo ingresar sin atraer demasiada atención.
 
 Se les asigna “el piso de siempre”, un espacio familiar para Lucen. El lugar cuenta con varias habitaciones, baños y acceso a ropa guardada.
-
-### Reorganización
-
-La party acuerda permanecer en la ciudad el tiempo necesario para descansar antes de emprender movimientos mayores.
-
-Los objetivos principales siguen abiertos: localizar a los mercenarios o contrabandistas restantes, seguir el rastro de Saphir, comprender la conexión noble revelada por la invitación, investigar la Biblioteca del Eco y avanzar hacia el **Santuario Olvidado de Hextor** mediante el **Corazón de Kurash**.
-
-**Kako**, el no-muerto surgido del Ritual del Eco, queda integrado a la logística del grupo. Su presencia exige discreción y cuidado, pero también representa una fuente potencial de información antigua.
-
-Lucen, por su parte, necesita protección y estabilidad. Ya no es solo una pieza de intercambio: es testigo, víctima y posible llave para entender parte de la conspiración que se mueve dentro de la Ciudad Alta.
