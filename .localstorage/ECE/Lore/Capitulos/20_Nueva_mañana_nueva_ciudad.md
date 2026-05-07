@@ -52,9 +52,7 @@ Lucen, por su parte, necesita protección y estabilidad. Ya no es solo una pieza
 
 Al día siguiente, el grupo abandona la primera posada con la intención de buscar un refugio más seguro y obtener información confiable sobre la Ciudad Alta.
 
-Lucen orienta al grupo hacia **Nyxara**, también llamada **Nixara**, **Xiomara** o **Ciómara** según distintas voces de la ciudad.
-
-El grupo llega a la taberna de Nyxara, un lugar conectado con rutas discretas, contactos seguros y espacios menos visibles de la Ciudad Alta.
+Lucen orienta al grupo hacia la taberna de **Nyxara**, un lugar conectado con rutas discretas, contactos seguros y espacios menos visibles de la Ciudad Alta.
 
 Nyxara recibe a Lucen y al grupo. Su presencia introduce una pausa distinta: no se trata de una aliada institucional ni de una autoridad formal, sino de alguien que conoce los pasajes, los temores y las reglas no escritas de la ciudad.
 
