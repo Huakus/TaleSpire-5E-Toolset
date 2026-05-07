@@ -48,7 +48,7 @@ La desaparición de niños en el Barrio Exterior deja de ser un rumor aislado y 
 
 La investigación permite confirmar que **Heladio** y sus asociados mantienen a **El Pichón**, también conocido como **Lucen Redgar**, prisionero en una casa utilizada como aguantadero o en una estructura vinculada a los movimientos del Gremio.
 
-El Pichón se encuentra golpeado, debilitado y retenido por hombres relacionados con **Hélade** y **Gregorio**. Su captura no es un hecho aislado: forma parte de una disputa mayor entre la forja, los contrabandistas, la guardia y quienes buscan controlar la producción desde las sombras.
+El Pichón se encuentra golpeado, debilitado y retenido por hombres relacionados con **Heladio** y **Gregorio**. Su captura no es un hecho aislado: forma parte de una disputa mayor entre la forja, los contrabandistas, la guardia y quienes buscan controlar la producción desde las sombras.
 
 Heladio y quienes lo rodean planean huir, presionados tanto por la guardia como por fuerzas más antiguas que empiezan a moverse en el Barrio Exterior.
 
