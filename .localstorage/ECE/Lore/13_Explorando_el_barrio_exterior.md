@@ -1,4 +1,4 @@
-## Explorando Barrio Exterior
+## Capítulo 13: Explorando Barrio Exterior
 
 ### Llegada a la Ciudad Exterior
 
