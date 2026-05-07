@@ -14,7 +14,7 @@ La llave orienta la investigación hacia una zona funeraria de la **Ciudad Alta*
 
 La investigación lleva al grupo hacia una tumba antigua.
 
-Antes de entrar, **Delerion** utiliza clarividencia y orbes luminosos para observar el interior sin exponerse de inmediato. Desde el interior percibe voces extrañas y una resonancia mágica similar a la del **Templo del Círculo Eterno**.
+Antes de entrar, **Delerion** utiliza clarividencia para observar el interior sin exponerse de inmediato. Desde el interior percibe voces extrañas y una resonancia mágica similar a la del **Templo del Círculo Eterno**.
 
 A través de la magia, los protagonistas observan a una figura que conversa con esas voces.
 
