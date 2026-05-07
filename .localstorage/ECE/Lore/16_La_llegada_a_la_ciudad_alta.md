@@ -20,7 +20,7 @@ De regreso en la taberna, Lucent presenta formalmente a sus compañeros ante Nyx
 
 Nyxara también habla de la crisis económica que afecta a la forja. La falta de ventas, los problemas con productos familiares y la inestabilidad del mercado han golpeado a sectores importantes de la ciudad.
 
-La situación de la forja no aparece aislada: se conecta con la desaparición del Pichón, las maniobras de Hélade y Gregorio, la presión sobre el Gremio de Comerciantes y la necesidad de controlar los permisos oficiales. En la Ciudad Alta, el conflicto económico se mezcla con la política, la vigilancia y los intereses clandestinos.
+La situación de la forja no aparece aislada: se conecta con la desaparición del Pichón, las maniobras de Heladio y Gregorio, la presión sobre el Gremio de Comerciantes y la necesidad de controlar los permisos oficiales. En la Ciudad Alta, el conflicto económico se mezcla con la política, la vigilancia y los intereses clandestinos.
 
 Nyxara advierte que para circular por la Ciudad Alta sin exponerse a detenciones o interrogatorios, los forasteros ahora necesitan una **licencia de mercenario**. Obtenerla no es simple: exige pasar por trámites, controles y posibles interrogatorios peligrosos.
 
