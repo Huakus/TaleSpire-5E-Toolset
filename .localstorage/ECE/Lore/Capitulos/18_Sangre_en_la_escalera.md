@@ -40,13 +40,13 @@ El enemigo entra en un estado de furia y desesperación.
 
 El kenku enemigo utiliza su anillo para reposicionarse tácticamente, manteniéndose activo en la lucha.
 
-**Adler** decide no curar de inmediato y lanza una **Saeta Guiada** contra el líder del tapado rojo. El impacto abre una oportunidad para el siguiente ataque.
+**Adler** decide no curar de inmediato y lanza una **Saeta Guiada** contra Zephir. El impacto abre una oportunidad para el siguiente ataque.
 
 **Borgar** aprovecha la ventaja y arremete con múltiples golpes, incendiando la ropa del líder y causándole un daño considerable. Aun así, el enemigo continúa de pie.
 
 Mientras tanto, Lucen intenta escapar del centro del conflicto. Rodeado y aterrorizado, logra escabullirse hacia la party, frustrando el objetivo inmediato de los contrabandistas.
 
-### La caída del tiefling
+### La caída de Zephir
 
 El combate alcanza un punto de quiebre cuando Arturo se enfrenta de nuevo al tiefling.
 
