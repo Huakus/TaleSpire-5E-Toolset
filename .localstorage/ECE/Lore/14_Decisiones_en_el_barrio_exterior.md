@@ -1,4 +1,4 @@
-## Decisiones en el Barrio Exterior
+## Capítulo 14: Decisiones en el Barrio Exterior
 
 ### La posición de Raviel
 
