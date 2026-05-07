@@ -4,7 +4,7 @@
 
 El grupo se dirige a la municipalidad para iniciar el proceso de obtención de la licencia. Allí se encuentra con una burocracia pesada, absurda y agotadora: filas de varias horas, sellos, papeles, funcionarios indiferentes y guardias que controlan cada movimiento.
 
-**Delerion**, junto al resto del grupo, intenta avanzar entre requisitos poco claros y demoras interminables. En medio del trámite, uno de los protagonistas necesita abandonar la fila momentáneamente, generando una negociación incómoda con un guardia y con un individuo cuya identidad resulta ambigua, posiblemente **Stixx Ernesto**.
+**Varka**, junto al resto del grupo, intenta avanzar entre requisitos poco claros y demoras interminables. En medio del trámite, uno de los protagonistas necesita abandonar la fila momentáneamente, generando una negociación incómoda con un guardia.
 
 La escena revela que la legalidad en la Ciudad Alta no funciona como protección, sino como filtro. Quien no conoce las reglas, los atajos o las personas correctas queda atrapado en un sistema diseñado para cansar, exponer y seleccionar.
 
