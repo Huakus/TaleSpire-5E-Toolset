@@ -46,8 +46,6 @@ Su actitud excesivamente confiada en la taberna, en contraste con la paranoia de
 
 La traición instala una amenaza interna dentro del círculo de aliados y obliga al grupo a desconfiar incluso de contactos que hasta entonces parecían útiles.
 
-El Barrio Exterior deja de ser solo un territorio enemigo. También se vuelve un espacio donde las lealtades se rompen, las alianzas se compran y cada información compartida puede convertirse en una herramienta contra el propio grupo.
-
 ### La visión de Varka
 
 En medio de estas tensiones, **Varka** tiene un encuentro con una adivina en la taberna.
