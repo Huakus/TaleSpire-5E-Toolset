@@ -22,7 +22,7 @@ El grupo confirma que el mausoleo no guarda solamente restos mortales. En su int
 
 ### La espada sellada
 
-Al acceder a la cámara funeraria, el grupo se encuentra con un joven vestido con unatúnica roja, realizando algún tipo de ritual. El joven se altera por la intromisión, y luego de decir "No debieron meterse con la Órden Carmesí", desaparece.
+Al acceder a la cámara funeraria, el grupo se encuentra con un joven vestido con una túnica roja, realizando algún tipo de ritual. El joven se altera por la intromisión, y luego de decir "¡No debieron meterse con la Órden Carmesí!", desaparece.
 
 Una vez dentro del mausoleo, a **Delerion** le llama la atención una espada colgada en la pared. La misma desprende una energía arcana peculiar, y mediante una minuciosa investigación determina que se trata de algún tipo de **sello arcano**.
 

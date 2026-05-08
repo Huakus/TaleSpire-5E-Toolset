@@ -44,16 +44,10 @@ El grupo toma medidas para proteger sus intereses y evitar ataques, infiltracion
 
 ### Tensiones en el puerto
 
-Mientras tanto, en el puerto, se desarrolla un conflicto que involucra a **Gregorio**, **Heladio** y un grupo de navegantes.
+Mientras tanto, en la plaza de la ciudad, se desarrolla un conflicto que involucra a **Gregorio**, **Heladio** y un grupo de navegantes.
 
-Los navegantes intentan evadir la vigilancia utilizando documentos antiguos. Esos papeles ya no alcanzan para moverse sin riesgo, por lo que necesitan falsificarlos o conseguir un respaldo más sólido.
+**Heladio** y **Gregorio** quieren huír de la ciudad, pero los navegantes se niegan a llevarlos al Reino del Este, de donde son oriundos.
 
-La situación llega al grupo como una nueva muestra de los problemas que atraviesan a quienes intentan moverse dentro y fuera de la Ciudad Alta.
-
-### Heladio y la licencia mercenaria
-
-**Heladio** busca obtener una licencia mercenaria con urgencia.
-
-El grupo evalúa la posibilidad de contratarlo, aunque con cautela. Su necesidad puede convertirlo en un recurso útil, pero también en una fuente de problemas.
+El grupo evalúa la posibilidad de contratarlos, aunque con cautela. Sus necesidades puede convertirlos en un recurso útil, pero también en una fuente de problemas.
 
 Al final determinan contratarlos y enviarlos al norte, donde serán empleados como mercenarios a la orden del gobernador de Valverde del Río.
