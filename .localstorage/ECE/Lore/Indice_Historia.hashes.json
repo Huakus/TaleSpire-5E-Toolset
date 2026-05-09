@@ -1,6 +1,6 @@
 {
     "version":  1,
-    "generated_at":  "2026-05-09T13:21:19.1119018-03:00",
+    "generated_at":  "2026-05-09T13:26:18.2431638-03:00",
     "source":  "Lore/Capitulos",
     "output":  "Lore/Indice_Historia.md",
     "files":  {
@@ -14,7 +14,7 @@
                   "Capitulos/08_Golpe_de_cristales.md":  "74bd0fa98f683160c41224baa91408754bbf51284c38791bdee1c31e0849c0fe",
                   "Capitulos/09_El_encargo_de_Tomi_Tres_Dientes.md":  "1d1af02a4920a9fddd72cdd6c6014f38f300fda806ab3dc6f48b4085c6194168",
                   "Capitulos/10_Rumores_en_el_Distrito_de_los_Artesanos.md":  "6197d71fb86a781509f6eabb3abcf111bd6c3c553541717aa3c1a32c16b45cbe",
-                  "Capitulos/11_La_puerta_oxidada.md":  "9a27d28649b18331f739c88b0dc35d8bdbaa8072f777e0b6fa65b4151621542c",
+                  "Capitulos/11_La_puerta_oxidada.md":  "c96e867ba76683d9cd2d7cfad2d176dace6787a9b66614368b9af73c62fe22f0",
                   "Capitulos/12_El_dia_del_ganso.md":  "9af86a644369bd4b6c93070d35924cee78331d5594e552c00b4ba3fe4071f656",
                   "Capitulos/13_Sombras_bajo_el_gremio.md":  "ae2f6d6fc0c78d060866d7ba6e3a58769608bf1920df2fb6f367b076ee2b2ea6",
                   "Capitulos/14_Pactos_deudas_y_traiciones.md":  "ec9ba7d1a4ba5084a301ac0438e9e1b1ccf295cf79af7df50625f5751a735d5d",

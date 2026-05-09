@@ -30,7 +30,7 @@ Delerion, por su parte, actuó con precisión quirúrgica: invocó a su búho y,
 
 ### Ernesto fuerza la cerradura y se vuelve invisible antes de ser descubierto
 
-Sus herramientas trabajaron en silencio, y justo cuando los guardias regresaban a sus puestos, el mecanismo cedió con un chasquido suave. Para evitar ser descubierto, el kobold activó su anillo de invisibilidad, fundiéndose con la noche. Desde su posición invisible, Ernesto verificó el estado final de la puerta: la cerradura abierta, las bisagras destrabadas y funcionales… aunque aún cubiertas por un manto de sedimento endurecido.
+Sus herramientas trabajaron en silencio y, justo cuando los guardias regresaban a sus puestos, el mecanismo cedió con un chasquido suave. Para evitar ser descubierto, el kobold activó su anillo de invisibilidad, fundiéndose con la noche. Desde su posición invisible, Ernesto verificó el estado final de la puerta: la cerradura abierta, las bisagras destrabadas y funcionales… aunque aún cubiertas por un manto de sedimento endurecido.
 
 ### El grupo confirma que Borgar podrá abrir la puerta y se retira sin ser detectado
 
