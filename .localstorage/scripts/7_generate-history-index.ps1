@@ -249,7 +249,6 @@ function Generate-HistoryIndexOnce {
     $mustRegenerate = Test-IndexRegenerationNeeded -CurrentHashState $currentHashState -PreviousHashState $previousHashState
 
     if (-not $mustRegenerate) {
-        Write-Log 'Indice_Historia.md actualizado. No hay cambios en capitulos.'
         return
     }
 
@@ -293,10 +292,6 @@ function Generate-HistoryIndexOnce {
 # ============================================================
 
 try {
-    Write-Log 'Iniciando generador de indice de historia...'
-    Write-Log ('Carpeta origen: {0}' -f $ChaptersDir)
-    Write-Log ('Archivo destino: {0}' -f $IndexPath)
-
     do {
         Generate-HistoryIndexOnce
 
@@ -310,11 +305,8 @@ try {
     } while (-not (Test-ShouldStop))
 
     if (-not $RunOnce) {
-        Write-Log 'Senal de stop recibida. Ejecutando generacion final del indice de historia...'
         Generate-HistoryIndexOnce
     }
-
-    Write-Log 'OK: Generador de indice de historia finalizado.'
     exit 0
 } catch {
     Write-Log ('ERROR: {0}' -f $_.Exception.Message) -Color 'Red'
