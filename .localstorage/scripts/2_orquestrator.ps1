@@ -1,18 +1,18 @@
 <#
 .SYNOPSIS
-  Orquesta el lanzamiento de TaleSpire y los workers del Toolset.
+Orquesta el lanzamiento de TaleSpire y los workers del Toolset.
 
 .DESCRIPTION
-  Este script no hace sync, no exporta hojas y no abre TaleSpire directamente.
-  Solo coordina scripts separados:
-    - 5_sync-toolset-git.ps1: mantiene sincronizado el repo Toolset.
-    - 4_export-character-sheets.ps1: exporta una hoja TXT por personaje.
-    - 3_start-talespire.ps1: abre el juego.
-    - 6_wait-talespire-close.ps1: espera a que TaleSpire cierre y crea una senal de stop.
+Este script no hace sync, no exporta hojas, no genera indices y no abre TaleSpire directamente.
+Solo coordina scripts separados:
+- 5_sync-toolset-git.ps1: mantiene sincronizado el repo Toolset.
+- 4_export-character-sheets.ps1: exporta una hoja TXT por personaje.
+- 7_generate-history-index.ps1: genera Lore\Indice_Historia.md desde Lore\Capitulos.
+- 3_start-talespire.ps1: abre el juego.
+- 6_wait-talespire-close.ps1: espera a que TaleSpire cierre y crea una senal de stop.
 
-  Los workers corren como procesos separados, compartiendo la misma consola.
+Los workers corren como procesos separados, compartiendo la misma consola.
 #>
-
 param(
     [switch]$NoPauseOnError
 )
@@ -28,13 +28,15 @@ $CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
 . $CommonLoggingScript
 Initialize-Logging -ScriptPath $PSCommandPath
 
-# Runtime fuera del repo. No debe vivir dentro de .localstorage porque Git sincroniza esa carpeta.
+# Runtime fuera del repo.
+# No debe vivir dentro de .localstorage porque Git sincroniza esa carpeta.
 $RuntimeDir = Join-Path $env:TEMP 'talespire-toolset-runtime'
 $StopSignalFile = Join-Path $RuntimeDir 'stop-all.signal'
 
 $StartTaleSpireScript = Join-Path $ScriptDir '3_start-talespire.ps1'
 $SyncToolsetScript = Join-Path $ScriptDir '5_sync-toolset-git.ps1'
 $ExportCharacterSheetsScript = Join-Path $ScriptDir '4_export-character-sheets.ps1'
+$GenerateHistoryIndexScript = Join-Path $ScriptDir '7_generate-history-index.ps1'
 $WaitTaleSpireCloseScript = Join-Path $ScriptDir '6_wait-talespire-close.ps1'
 
 # ============================================================
@@ -123,11 +125,13 @@ function Assert-ProcessExitCodeOk {
 
 $syncProcess = $null
 $exportProcess = $null
+$historyIndexProcess = $null
 
 try {
     Assert-ScriptExists $StartTaleSpireScript
     Assert-ScriptExists $SyncToolsetScript
     Assert-ScriptExists $ExportCharacterSheetsScript
+    Assert-ScriptExists $GenerateHistoryIndexScript
     Assert-ScriptExists $WaitTaleSpireCloseScript
 
     if (-not (Test-Path -LiteralPath $RuntimeDir)) {
@@ -150,7 +154,13 @@ try {
         -ScriptPath $ExportCharacterSheetsScript `
         -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
 
-    # 3. Abre TaleSpire como script separado.
+    # 3. Arranca el generador de indice de historia como worker independiente.
+    $historyIndexProcess = Start-PowerShellWorker `
+        -Title 'History Index Generator' `
+        -ScriptPath $GenerateHistoryIndexScript `
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+
+    # 4. Abre TaleSpire como script separado.
     $startProcess = Start-PowerShellWorker `
         -Title 'Start TaleSpire' `
         -ScriptPath $StartTaleSpireScript `
@@ -159,8 +169,8 @@ try {
     $startProcess.WaitForExit()
     Assert-ProcessExitCodeOk -Process $startProcess -ScriptName '3_start-talespire.ps1'
 
-    # 4. Espera a que TaleSpire cierre.
-    #    Al cerrar, este worker crea la senal de stop.
+    # 5. Espera a que TaleSpire cierre.
+    # Al cerrar, este worker crea la senal de stop.
     $watchProcess = Start-PowerShellWorker `
         -Title 'Wait TaleSpire Close' `
         -ScriptPath $WaitTaleSpireCloseScript `
@@ -169,7 +179,12 @@ try {
     $watchProcess.WaitForExit()
     Assert-ProcessExitCodeOk -Process $watchProcess -ScriptName '6_wait-talespire-close.ps1'
 
-    # 5. Espera a que los workers detecten la senal, hagan su cierre final y salgan.
+    # 6. Espera a que los workers detecten la senal, hagan su cierre final y salgan.
+    if ($historyIndexProcess -and -not $historyIndexProcess.HasExited) {
+        Write-Log 'Esperando cierre del worker de indice de historia...'
+        $historyIndexProcess.WaitForExit()
+    }
+
     if ($exportProcess -and -not $exportProcess.HasExited) {
         Write-Log 'Esperando cierre del worker de hojas...'
         $exportProcess.WaitForExit()
@@ -180,31 +195,30 @@ try {
         $syncProcess.WaitForExit()
     }
 
+    Assert-ProcessExitCodeOk -Process $historyIndexProcess -ScriptName '7_generate-history-index.ps1'
     Assert-ProcessExitCodeOk -Process $exportProcess -ScriptName '4_export-character-sheets.ps1'
     Assert-ProcessExitCodeOk -Process $syncProcess -ScriptName '5_sync-toolset-git.ps1'
 
     Write-Log 'OK: TaleSpire cerrado. Workers finalizados correctamente.'
     Start-Sleep -Seconds 2
     exit 0
-}
-catch {
-    Write-Log ("ERROR: {0}" -f $_.Exception.Message)
+} catch {
+    Write-Log ("ERROR: {0}" -f $_.Exception.Message) 'Red'
 
     if (-not (Test-Path -LiteralPath $StopSignalFile)) {
         try { [void](New-Item -ItemType File -Force -Path $StopSignalFile) } catch {}
     }
 
+    Stop-WorkerIfAlive -Process $historyIndexProcess -Name 'History Index Generator'
     Stop-WorkerIfAlive -Process $exportProcess -Name 'Character Sheets Export'
     Stop-WorkerIfAlive -Process $syncProcess -Name 'Toolset Git Sync'
 
     Wait-BeforeExitOnError
     exit 1
-}
-finally {
+} finally {
     try {
         if (Test-Path -LiteralPath $StopSignalFile) {
             Remove-Item -LiteralPath $StopSignalFile -Force -ErrorAction SilentlyContinue
         }
-    }
-    catch {}
+    } catch {}
 }
