@@ -182,6 +182,95 @@ function Test-HashesChanged {
     return $false
 }
 
+
+function Get-HashDiffs {
+    param(
+        [hashtable]$PreviousHashes,
+        [hashtable]$CurrentHashes
+    )
+
+    $diffs = New-Object System.Collections.Generic.List[object]
+
+    if ($null -eq $PreviousHashes) {
+        foreach ($key in ($CurrentHashes.Keys | Sort-Object)) {
+            $keyString = [string]$key
+            $diffs.Add([PSCustomObject]@{
+                Reason = 'NO_EXISTE_EN_JSON'
+                File = $keyString
+                CurrentHash = [string]$CurrentHashes[$keyString]
+                SavedHash = '<null>'
+            })
+        }
+        return $diffs
+    }
+
+    foreach ($key in ($CurrentHashes.Keys | Sort-Object)) {
+        $keyString = [string]$key
+
+        if (-not $PreviousHashes.ContainsKey($keyString)) {
+            $diffs.Add([PSCustomObject]@{
+                Reason = 'NO_EXISTE_EN_JSON'
+                File = $keyString
+                CurrentHash = [string]$CurrentHashes[$keyString]
+                SavedHash = '<null>'
+            })
+            continue
+        }
+
+        $currentHash = [string]$CurrentHashes[$keyString]
+        $savedHash = [string]$PreviousHashes[$keyString]
+
+        if ($savedHash -ne $currentHash) {
+            $diffs.Add([PSCustomObject]@{
+                Reason = 'HASH_DISTINTO'
+                File = $keyString
+                CurrentHash = $currentHash
+                SavedHash = $savedHash
+            })
+        }
+    }
+
+    foreach ($key in ($PreviousHashes.Keys | Sort-Object)) {
+        $keyString = [string]$key
+
+        if (-not $CurrentHashes.ContainsKey($keyString)) {
+            $diffs.Add([PSCustomObject]@{
+                Reason = 'YA_NO_EXISTE_EN_CAPITULOS'
+                File = $keyString
+                CurrentHash = '<null>'
+                SavedHash = [string]$PreviousHashes[$keyString]
+            })
+        }
+    }
+
+    return $diffs
+}
+
+function Write-HashDiagnostics {
+    param(
+        [Parameter(Mandatory = $true)] [string]$Reason,
+        [hashtable]$PreviousHashes,
+        [hashtable]$CurrentHashes,
+        [int]$PreviousVersion,
+        [int]$CurrentVersion,
+        [bool]$IndexExists,
+        [bool]$HasVolatileMetadata
+    )
+
+    Write-Log ("DIAG HistoryIndex: motivo={0}; index_exists={1}; version_json={2}; version_actual={3}; generated_at_en_json={4}" -f $Reason, $IndexExists, $PreviousVersion, $CurrentVersion, $HasVolatileMetadata) -Color 'Yellow'
+
+    $diffs = @(Get-HashDiffs -PreviousHashes $PreviousHashes -CurrentHashes $CurrentHashes)
+
+    if ($diffs.Count -eq 0) {
+        Write-Log 'DIAG HistoryIndex: no hay diferencias de hash entre capitulos y json.' -Color 'Yellow'
+        return
+    }
+
+    foreach ($diff in $diffs) {
+        Write-Log ("DIAG HistoryIndex: archivo={0}; motivo={1}; hash_actual={2}; hash_json={3}" -f $diff.File, $diff.Reason, $diff.CurrentHash, $diff.SavedHash) -Color 'Yellow'
+    }
+}
+
 function Remove-InlineHeadingBody {
     param(
         [Parameter(Mandatory = $true)] [string]$Text,
@@ -361,17 +450,29 @@ function Invoke-GenerateHistoryIndexOnce {
         $hasVolatileMetadata = [bool]$previousState.HasVolatileMetadata
     }
 
-    $mustRegenerate = -not (Test-Path -LiteralPath $IndexPath)
+    $indexExists = Test-Path -LiteralPath $IndexPath
+    $regenerateReason = $null
+    $mustRegenerate = -not $indexExists
+
+    if ($mustRegenerate) {
+        $regenerateReason = 'NO_EXISTE_INDICE'
+    }
 
     if (-not $mustRegenerate) {
-        $mustRegenerate = Test-HashesChanged `
+        $hashesChanged = Test-HashesChanged `
             -PreviousHashes $previousHashes `
             -CurrentHashes $currentHashes
+
+        if ($hashesChanged) {
+            $mustRegenerate = $true
+            $regenerateReason = 'HASHES_CAMBIARON'
+        }
     }
 
     if (-not $mustRegenerate -and $previousVersion -ne $IndexGeneratorVersion) {
         # Fuerza regeneracion una sola vez cuando cambia la logica que extrae titulos/subtitulos.
         $mustRegenerate = $true
+        $regenerateReason = 'VERSION_GENERADOR_CAMBIO'
     }
 
     if (-not $mustRegenerate) {
@@ -386,6 +487,15 @@ function Invoke-GenerateHistoryIndexOnce {
         }
         return
     }
+
+    Write-HashDiagnostics `
+        -Reason $regenerateReason `
+        -PreviousHashes $previousHashes `
+        -CurrentHashes $currentHashes `
+        -PreviousVersion $previousVersion `
+        -CurrentVersion $IndexGeneratorVersion `
+        -IndexExists $indexExists `
+        -HasVolatileMetadata $hasVolatileMetadata
 
     Write-IndexFile -ChapterFiles $chapterFiles
     Write-HashesFile -Hashes $currentHashes
