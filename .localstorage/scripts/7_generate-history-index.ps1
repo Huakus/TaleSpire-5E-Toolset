@@ -96,7 +96,7 @@ function Convert-HashtableToStableJson {
 
     $ordered = [ordered]@{}
     foreach ($key in ($Hashtable.Keys | Sort-Object)) {
-        $ordered[$key] = $Hashtable[$key]
+        $ordered[$key] = [string]$Hashtable[$key]
     }
 
     return ($ordered | ConvertTo-Json -Compress)
@@ -141,14 +141,11 @@ function Test-HashesChanged {
     )
 
     if (-not $PreviousHashes) { return $true }
-    if ($PreviousHashes.Count -ne $CurrentHashes.Count) { return $true }
 
-    foreach ($key in $CurrentHashes.Keys) {
-        if (-not $PreviousHashes.ContainsKey($key)) { return $true }
-        if ($PreviousHashes[$key] -ne $CurrentHashes[$key]) { return $true }
-    }
+    $previousJson = Convert-HashtableToStableJson -Hashtable $PreviousHashes
+    $currentJson = Convert-HashtableToStableJson -Hashtable $CurrentHashes
 
-    return $false
+    return ($previousJson -ne $currentJson)
 }
 
 function Get-MarkdownHeadings {
@@ -230,17 +227,26 @@ function Write-HashesFile {
 
     $orderedFiles = [ordered]@{}
     foreach ($key in ($Hashes.Keys | Sort-Object)) {
-        $orderedFiles[$key] = $Hashes[$key]
+        $orderedFiles[$key] = [string]$Hashes[$key]
     }
 
+    # Importante: no guardar timestamps ni metadata volatil.
+    # Este archivo debe cambiar solo cuando cambian los capitulos.
     $state = [ordered]@{
-        generated_at = (Get-Date -Format o)
         files = $orderedFiles
     }
 
     $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
     $json = $state | ConvertTo-Json -Depth 5
-    [System.IO.File]::WriteAllText($HashesPath, $json, $utf8NoBom)
+
+    $existingJson = $null
+    if (Test-Path -LiteralPath $HashesPath) {
+        $existingJson = Get-Content -LiteralPath $HashesPath -Raw
+    }
+
+    if ($existingJson -ne $json) {
+        [System.IO.File]::WriteAllText($HashesPath, $json, $utf8NoBom)
+    }
 }
 
 function Invoke-GenerateHistoryIndexOnce {
@@ -268,6 +274,26 @@ function Invoke-GenerateHistoryIndexOnce {
     }
 
     if (-not $mustRegenerate) {
+        # Migra el archivo de hashes viejo, si todavia tenia generated_at,
+        # sin regenerar el indice ni loguear ruido.
+        $currentHashesJson = Convert-HashtableToStableJson -Hashtable $currentHashes
+        $hashesFileMustBeNormalized = $false
+
+        if (Test-Path -LiteralPath $HashesPath) {
+            try {
+                $hashesJson = Get-Content -LiteralPath $HashesPath -Raw | ConvertFrom-Json
+                $hashesFileMustBeNormalized = [bool]($hashesJson.PSObject.Properties.Name -contains 'generated_at')
+            } catch {
+                $hashesFileMustBeNormalized = $true
+            }
+        } else {
+            $hashesFileMustBeNormalized = $true
+        }
+
+        if ($hashesFileMustBeNormalized) {
+            Write-HashesFile -Hashes $currentHashes
+        }
+
         if (-not $Quiet) {
             Write-Log 'Indice_Historia.md actualizado. No hay cambios en capitulos.'
         }
