@@ -203,7 +203,7 @@ try {
     Start-Sleep -Seconds 2
     exit 0
 } catch {
-    Write-Log ("ERROR: {0}" -f $_.Exception.Message) 'Red'
+    Write-Log ("ERROR: {0}" -f $_.Exception.Message) -Color 'Red'
 
     if (-not (Test-Path -LiteralPath $StopSignalFile)) {
         try { [void](New-Item -ItemType File -Force -Path $StopSignalFile) } catch {}
