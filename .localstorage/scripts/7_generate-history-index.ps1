@@ -96,10 +96,22 @@ function Convert-HashtableToStableJson {
 
     $ordered = [ordered]@{}
     foreach ($key in ($Hashtable.Keys | Sort-Object)) {
-        $ordered[$key] = [string]$Hashtable[$key]
+        $ordered[[string]$key] = [string]$Hashtable[$key]
     }
 
     return ($ordered | ConvertTo-Json -Compress)
+}
+
+function Convert-FilesObjectToStableJson {
+    param([Parameter(Mandatory = $true)] $FilesObject)
+
+    $hashes = @{}
+
+    foreach ($property in $FilesObject.PSObject.Properties) {
+        $hashes[[string]$property.Name] = [string]$property.Value
+    }
+
+    return [string](Convert-HashtableToStableJson -Hashtable $hashes)
 }
 
 function Get-CurrentChapterHashes {
@@ -109,43 +121,49 @@ function Get-CurrentChapterHashes {
 
     foreach ($file in $ChapterFiles) {
         $relativePath = Get-RelativePath -BasePath $LoreDir -FullPath $file.FullName
-        $hashes[$relativePath] = Get-FileHashSha256 -Path $file.FullName
+        $hashes[[string]$relativePath] = Get-FileHashSha256 -Path $file.FullName
     }
 
-    return $hashes
+    # Evita que PowerShell enumere el hashtable al retornarlo.
+    return ,$hashes
 }
 
-function Get-PreviousChapterHashes {
+function Get-PreviousChapterHashesStableJson {
     if (-not (Test-Path -LiteralPath $HashesPath)) { return $null }
 
     try {
         $json = Get-Content -LiteralPath $HashesPath -Raw | ConvertFrom-Json
-        if (-not $json.files) { return $null }
+        $filesProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'files' } | Select-Object -First 1
 
-        $hashes = @{}
-        foreach ($property in $json.files.PSObject.Properties) {
-            $hashes[$property.Name] = [string]$property.Value
-        }
+        if ($null -eq $filesProperty) { return $null }
+        if ($null -eq $filesProperty.Value) { return $null }
 
-        return $hashes
+        return [string](Convert-FilesObjectToStableJson -FilesObject $filesProperty.Value)
     } catch {
         Write-Log ("WARNING: No se pudo leer el archivo de hashes. Se regenerara el indice. Detalle: {0}" -f $_.Exception.Message) -Color 'Yellow'
         return $null
     }
 }
 
+function Test-HashesFileHasVolatileMetadata {
+    if (-not (Test-Path -LiteralPath $HashesPath)) { return $false }
+
+    try {
+        $json = Get-Content -LiteralPath $HashesPath -Raw | ConvertFrom-Json
+        return [bool]($json.PSObject.Properties.Name -contains 'generated_at')
+    } catch {
+        return $true
+    }
+}
+
 function Test-HashesChanged {
     param(
-        [hashtable]$PreviousHashes,
-        [hashtable]$CurrentHashes
+        [string]$PreviousHashesStableJson,
+        [string]$CurrentHashesStableJson
     )
 
-    if (-not $PreviousHashes) { return $true }
-
-    $previousJson = Convert-HashtableToStableJson -Hashtable $PreviousHashes
-    $currentJson = Convert-HashtableToStableJson -Hashtable $CurrentHashes
-
-    return ($previousJson -ne $currentJson)
+    if ([string]::IsNullOrWhiteSpace($PreviousHashesStableJson)) { return $true }
+    return ($PreviousHashesStableJson -ne $CurrentHashesStableJson)
 }
 
 function Get-MarkdownHeadings {
@@ -265,32 +283,21 @@ function Invoke-GenerateHistoryIndexOnce {
     }
 
     $currentHashes = Get-CurrentChapterHashes -ChapterFiles $chapterFiles
-    $previousHashes = Get-PreviousChapterHashes
+    $currentHashesStableJson = [string](Convert-HashtableToStableJson -Hashtable $currentHashes)
+    $previousHashesStableJson = [string](Get-PreviousChapterHashesStableJson)
 
     $mustRegenerate = -not (Test-Path -LiteralPath $IndexPath)
 
     if (-not $mustRegenerate) {
-        $mustRegenerate = Test-HashesChanged -PreviousHashes $previousHashes -CurrentHashes $currentHashes
+        $mustRegenerate = Test-HashesChanged `
+            -PreviousHashesStableJson $previousHashesStableJson `
+            -CurrentHashesStableJson $currentHashesStableJson
     }
 
     if (-not $mustRegenerate) {
-        # Migra el archivo de hashes viejo, si todavia tenia generated_at,
-        # sin regenerar el indice ni loguear ruido.
-        $currentHashesJson = Convert-HashtableToStableJson -Hashtable $currentHashes
-        $hashesFileMustBeNormalized = $false
-
-        if (Test-Path -LiteralPath $HashesPath) {
-            try {
-                $hashesJson = Get-Content -LiteralPath $HashesPath -Raw | ConvertFrom-Json
-                $hashesFileMustBeNormalized = [bool]($hashesJson.PSObject.Properties.Name -contains 'generated_at')
-            } catch {
-                $hashesFileMustBeNormalized = $true
-            }
-        } else {
-            $hashesFileMustBeNormalized = $true
-        }
-
-        if ($hashesFileMustBeNormalized) {
+        # Migra una sola vez el archivo viejo si todavia tenia generated_at.
+        # No toca Indice_Historia.md y no loguea ruido.
+        if (Test-HashesFileHasVolatileMetadata) {
             Write-HashesFile -Hashes $currentHashes
         }
 
