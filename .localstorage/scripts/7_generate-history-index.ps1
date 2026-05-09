@@ -40,7 +40,7 @@ $LoreDir = Join-Path $LocalStorageDir 'ECE\Lore'
 $ChaptersDir = Join-Path $LoreDir 'Capitulos'
 $IndexPath = Join-Path $LoreDir 'Indice_Historia.md'
 $HashesPath = Join-Path $LoreDir 'Indice_Historia.hashes.json'
-$IndexGeneratorVersion = 2
+$IndexGeneratorVersion = 3
 
 # ============================================================
 # Helpers
@@ -103,16 +103,23 @@ function Convert-HashtableToStableJson {
     return ($ordered | ConvertTo-Json -Compress)
 }
 
-function Convert-FilesObjectToStableJson {
+function Convert-FilesObjectToHashtable {
     param([Parameter(Mandatory = $true)] $FilesObject)
 
     $hashes = @{}
+
+    if ($FilesObject -is [hashtable]) {
+        foreach ($key in $FilesObject.Keys) {
+            $hashes[[string]$key] = [string]$FilesObject[$key]
+        }
+        return ,$hashes
+    }
 
     foreach ($property in $FilesObject.PSObject.Properties) {
         $hashes[[string]$property.Name] = [string]$property.Value
     }
 
-    return [string](Convert-HashtableToStableJson -Hashtable $hashes)
+    return ,$hashes
 }
 
 function Get-CurrentChapterHashes {
@@ -134,19 +141,20 @@ function Get-PreviousHashState {
 
     try {
         $json = Get-Content -LiteralPath $HashesPath -Raw | ConvertFrom-Json
+
         $filesProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'files' } | Select-Object -First 1
+        if ($null -eq $filesProperty -or $null -eq $filesProperty.Value) { return $null }
 
-        if ($null -eq $filesProperty) { return $null }
-        if ($null -eq $filesProperty.Value) { return $null }
-
-        $versionProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'index_generator_version' } | Select-Object -First 1
         $version = 0
+        $versionProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'index_generator_version' } | Select-Object -First 1
         if ($null -ne $versionProperty -and $null -ne $versionProperty.Value) {
             $version = [int]$versionProperty.Value
         }
 
+        $previousHashes = Convert-FilesObjectToHashtable -FilesObject $filesProperty.Value
+
         return [PSCustomObject]@{
-            FilesStableJson = [string](Convert-FilesObjectToStableJson -FilesObject $filesProperty.Value)
+            Hashes = $previousHashes
             Version = $version
             HasVolatileMetadata = [bool]($json.PSObject.Properties.Name -contains 'generated_at')
         }
@@ -158,12 +166,20 @@ function Get-PreviousHashState {
 
 function Test-HashesChanged {
     param(
-        [string]$PreviousHashesStableJson,
-        [string]$CurrentHashesStableJson
+        [hashtable]$PreviousHashes,
+        [hashtable]$CurrentHashes
     )
 
-    if ([string]::IsNullOrWhiteSpace($PreviousHashesStableJson)) { return $true }
-    return ($PreviousHashesStableJson -ne $CurrentHashesStableJson)
+    if ($null -eq $PreviousHashes) { return $true }
+    if ($PreviousHashes.Count -ne $CurrentHashes.Count) { return $true }
+
+    foreach ($key in $CurrentHashes.Keys) {
+        $keyString = [string]$key
+        if (-not $PreviousHashes.ContainsKey($keyString)) { return $true }
+        if ([string]$PreviousHashes[$keyString] -ne [string]$CurrentHashes[$keyString]) { return $true }
+    }
+
+    return $false
 }
 
 function Remove-InlineHeadingBody {
@@ -334,14 +350,13 @@ function Invoke-GenerateHistoryIndexOnce {
     }
 
     $currentHashes = Get-CurrentChapterHashes -ChapterFiles $chapterFiles
-    $currentHashesStableJson = [string](Convert-HashtableToStableJson -Hashtable $currentHashes)
     $previousState = Get-PreviousHashState
-    $previousHashesStableJson = $null
+    $previousHashes = $null
     $previousVersion = 0
     $hasVolatileMetadata = $false
 
     if ($null -ne $previousState) {
-        $previousHashesStableJson = [string]$previousState.FilesStableJson
+        $previousHashes = $previousState.Hashes
         $previousVersion = [int]$previousState.Version
         $hasVolatileMetadata = [bool]$previousState.HasVolatileMetadata
     }
@@ -350,12 +365,12 @@ function Invoke-GenerateHistoryIndexOnce {
 
     if (-not $mustRegenerate) {
         $mustRegenerate = Test-HashesChanged `
-            -PreviousHashesStableJson $previousHashesStableJson `
-            -CurrentHashesStableJson $currentHashesStableJson
+            -PreviousHashes $previousHashes `
+            -CurrentHashes $currentHashes
     }
 
     if (-not $mustRegenerate -and $previousVersion -ne $IndexGeneratorVersion) {
-        # Fuerza regeneracion cuando cambia la logica que extrae titulos/subtitulos.
+        # Fuerza regeneracion una sola vez cuando cambia la logica que extrae titulos/subtitulos.
         $mustRegenerate = $true
     }
 
