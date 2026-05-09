@@ -20,7 +20,7 @@ Archivo: `Lore/Capitulos/01_Valverde_del_Rio.md`
 - Descubrimiento de una cámara secreta llena de tesoros
 - Aparición de don Alarico Belmonte y revelación del tesoro bajo el castillo
 - Interrogatorio del trabajador sospechoso y confesión sobre el envío nocturno por barco
-- Emboscada nocturna en el muelle contra los contrabandistas
+- Emboscada nocturna en el muelle contra los contrabandistas y aparición de
 
 ## Capítulo 2: La Conspiración de los Contrabandistas
 Archivo: `Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md`
