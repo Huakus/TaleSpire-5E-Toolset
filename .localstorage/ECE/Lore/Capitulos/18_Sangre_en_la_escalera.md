@@ -1,6 +1,6 @@
 ## Capítulo 18: Sangre en la Escalera
 
-### La llegada de los contrabandistas
+### Zephyr llega con contrabandistas y Lucen Redgar hacia la escalera de la Ciudad Alta
 
 Con la retirada kobold en marcha y el tesoro clasificado para su entrega, el grupo se prepara para abandonar las cuevas.
 
@@ -10,7 +10,7 @@ Un grupo de contrabandistas liderado por **Zephyr** llega a la zona de la escale
 
 Los contrabandistas intentan imponer condiciones desde una posición de soberbia. La conversación busca evitar el conflicto, pero la extorsión implícita y el peligro sobre Lucen hacen que la tensión escale rápidamente.
 
-### La primera bola de fuego
+### Delerion lanza una Bola de Fuego y libera a Lucen del control de Zephyr
 
 El combate se desata cuando **Delerion** lanza una **Bola de Fuego** contra los contrabandistas.
 
@@ -20,7 +20,7 @@ La explosión también prende fuego la escalera que conduce hacia la Ciudad Alta
 
 A pesar de que algunos miembros del grupo cuentan con medios para volar o escapar, deciden mantenerse firmes y enfrentar la amenaza.
 
-### Los enemigos de la escalera
+### Zephyr, el humano del tapado rojo, el kenku y Arturo entran en combate
 
 Entre los contrabandistas destaca Zephyr.
 
@@ -32,7 +32,7 @@ La pelea se vuelve caótica. Delerion lanza una segunda Bola de Fuego, dañando 
 
 El enemigo entra en un estado de furia y desesperación.
 
-### La presión arcana
+### Varka, Adler y Borgar presionan a Zephyr mientras Lucen escapa hacia la party
 
 **Varka** lanza **Marchitar** sobre el tiefling, causándole daño necrótico y dejándolo visiblemente al borde del colapso, con el cuerpo ardiendo y un virote de Stixx clavado.
 
@@ -44,7 +44,7 @@ El kenku enemigo utiliza su anillo para reposicionarse tácticamente, mantenién
 
 Mientras tanto, Lucen intenta escapar del centro del conflicto. Rodeado y aterrorizado, logra escabullirse hacia la party, frustrando el objetivo inmediato de los contrabandistas.
 
-### La caída de Zephyr
+### Arturo derrota al tiefling y la moral enemiga empieza a quebrarse
 
 El combate alcanza un punto de quiebre cuando Arturo se enfrenta de nuevo al tiefling.
 
@@ -56,7 +56,7 @@ La moral enemiga empieza a resquebrajarse.
 
 Delerion intenta tomar control mental sobre un artífice enemigo mediante un conjuro de confusión hostil, aunque el efecto no resulta decisivo. La superioridad táctica del grupo se sostiene más por el daño directo, la coordinación y el control del terreno que por la manipulación mental.
 
-### El artífice y el arma mecánica
+### El artífice despliega un cañón mecánico y Adler salva a Lucen
 
 Uno de los enemigos, el artífice, lanza una sustancia que ciega temporalmente al kenku.
 
@@ -68,7 +68,7 @@ Lucen resulta gravemente herido, siendo una de las víctimas más vulnerables de
 
 Luego, Adler pasa a la ofensiva con **Infligir Heridas** contra el artífice, causándole un daño severo que lo deja conmocionado y atemorizado.
 
-### El enemigo invisible
+### Un enemigo invisible escapa mientras el grupo apaga parcialmente la escalera
 
 **Borgar** elimina a un subordinado debilitado, asegurando la muerte inmediata del bandido.
 
@@ -82,7 +82,7 @@ La escalera queda muy dañada, pero todavía funcional. El fuego es parcialmente
 
 La party permanece en pie, aunque herida y con recursos importantes consumidos. Lucen está vivo gracias a Adler.
 
-### La captura de Bánic
+### Varka y Martita localizan a Bánic oculto entre las piedras
 
 Tras el combate, el grupo descubre que uno de los enemigos aún permanece cerca.
 
@@ -94,7 +94,7 @@ Para capturarlo sin riesgo, Delerion lanza **Hechizar Persona**. El enano no log
 
 Su nombre es **Bánic**. Es un guerrero entrenado, con experiencia como mercenario.
 
-### El interrogatorio
+### Bánic revela el plan hacia la Ciudad Alta, Petro, Severino y la Biblioteca del Eco
 
 Durante el interrogatorio, Bánic revela que su rol dentro de la banda era el de contrabandista. No formaba parte del liderazgo ni tenía acceso directo a todos los contactos.
 
@@ -108,7 +108,7 @@ Bánic también menciona la **Biblioteca del Eco**, descrita por un contacto lla
 
 El plan original pretendía usarla sobre Lucen, el Pichón, pero la irrupción de la party y los eventos en las cuevas impidieron que se completara.
 
-### La invitación noble
+### Una invitación noble vincula a Saphir con una mansión cercana al castillo
 
 Bánic confirma la existencia de contactos en la Ciudad Alta.
 
@@ -122,7 +122,7 @@ La revelación confirma que Saphir había sido invitado formalmente a una mansi�
 
 El conflicto deja de ser solo una red de contrabando. Hay respaldo noble, intereses políticos y conexiones antiguas con linajes vinculados a los hallazgos del subsuelo.
 
-### La ejecución de Bánic
+### El grupo decide ejecutar a Bánic tras debatir sus opciones
 
 El grupo debate qué hacer con Bánic.
 
@@ -132,7 +132,7 @@ Finalmente, optan por ejecutarlo.
 
 Bánic suplica y cae de rodillas. La decisión se concreta mediante múltiples apuñalamientos, al estilo de una ejecución colectiva. Muere lentamente, dejando una huella emocional profunda en quienes apoyaron la medida, pero también en Adler, que se mostró en contra de la medida y decidió no formar parte de la ejecución. 
 
-### Limpieza de la escena
+### Delerion organiza la limpieza de cadáveres para simular un ataque de bestias
 
 Para evitar que se descubra una masacre organizada, Delerion organiza al grupo para deshacerse de los cadáveres.
 

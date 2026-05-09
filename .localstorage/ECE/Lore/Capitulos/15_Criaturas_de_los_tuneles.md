@@ -1,6 +1,6 @@
 ## Capítulo 15: Criaturas de los túneles
 
-### El descenso al subsuelo
+### El grupo desciende a túneles de contrabando construidos sobre un santuario antiguo
 
 Con los acuerdos precarios del Barrio Exterior aún frescos, el grupo se interna en los túneles de contrabando. Lo que al principio parecía una red clandestina de pasos ocultos revela rápidamente una antigüedad mucho mayor.
 
@@ -8,7 +8,7 @@ Las cuevas son húmedas, atravesadas por un arroyo poco profundo y cubiertas por
 
 Sin embargo, los murales más antiguos muestran una escena distinta: humanos y kobolds compartiendo un pacto. **Stixx Ernesto** interpreta la simbología kobold y concluye que no se trataba de una alianza igualitaria, sino de una relación de servidumbre kobold hacia los humanos. El lugar parece haber sido un santuario antiguo, reutilizado con el tiempo por distintas facciones.
 
-### El campamento abandonado
+### El campamento abandonado conecta al Barrio Exterior con la Orden Carmesí y la secta feérica
 
 Más adelante, el grupo encuentra un campamento abandonado, restos de fogata y documentos deteriorados. Entre las notas aparecen menciones al Barrio Exterior, líderes locales como Raviel, un teniente llamado **Borac** o **Gorak**, y una mujer asociada a la desaparición de niños.
 
@@ -16,7 +16,7 @@ Los indicios conectan directamente la superficie con el subsuelo. La red crimina
 
 Al llegar a una trifurcación, el grupo envía exploradores, incluyendo zombies y a **Martita**, la araña de Delerion. Pronto descubren trampas de ballesta de manufactura kobold, improvisadas y apresuradas. Las defensas no parecen parte de una fortaleza estable, sino de una retirada desesperada.
 
-### Las criaturas del arroyo
+### El arroyo subterráneo revela la presencia de criaturas acuáticas antiguas
 
 La exploración se vuelve más peligrosa cuando el grupo percibe grandes criaturas acuáticas en el arroyo. Se oyen chapoteos, ruidos pesados y movimientos de formas capaces de arrastrar o devorar a una persona.
 
@@ -24,7 +24,7 @@ La exploración se vuelve más peligrosa cuando el grupo percibe grandes criatur
 
 La amenaza del subsuelo no se limita a los kobolds. Algo más viejo, más grande y menos razonable habita en las profundidades.
 
-### El clan de la Sangre Azul
+### Adler cura al líder kobold del clan de la Sangre Azul y evita un combate
 
 En una curva de las cuevas, el grupo encuentra el cadáver de un guerrero humano con armadura oxidada y una espada caída, muerto desde hace semanas. Cerca del cuerpo, Borgar detecta una mancha de sangre no humana, posiblemente kobold.
 
@@ -36,7 +36,7 @@ El kobold curado, líder del **clan de la Sangre Azul**, explica que su pueblo h
 
 También advierte sobre una criatura mayor, regenerativa y extremadamente peligrosa. Según sus indicaciones, el objetivo del grupo se encuentra al este, mientras que las cámaras kobold están al oeste.
 
-### El combate contra los goblins
+### El grupo ayuda a los kobolds contra los goblins y encuentra frascos verde-azulados
 
 La alianza con los kobolds conduce al grupo hacia túneles artificiales donde se escucha una refriega activa. Al llegar, encuentran kobolds combatiendo contra goblins.
 
@@ -46,7 +46,7 @@ Tras el combate, un goblin sobreviviente se rinde y queda bajo la autoridad del 
 
 La presencia de estos objetos confirma que las cuevas no son solo una ruta de paso, sino un punto donde convergen contrabando, experimentación, rituales y tecnología antigua.
 
-### El troll regenerativo
+### Combate contra el troll regenerativo sensible al fuego y la luz
 
 Con la zona inmediata asegurada, el grupo avanza junto a los kobolds hacia la guarida de la criatura regenerativa: un troll mutado, sensible al fuego y a la luz.
 

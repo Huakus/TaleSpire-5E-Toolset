@@ -1,6 +1,6 @@
 ## Capítulo 21: La casa de Nyxara y los espejos
 
-### El refugio tras las cloacas
+### El grupo llega al refugio de Nyxara tras escapar de las cloacas
 
 Luego de abandonar las cloacas y dejar atrás el nido de arañas, el grupo llega a la casa de **Nyxara**, también llamada **Nixara**, **Xiomara** o **Ciómara** según distintas voces de la ciudad.
 
@@ -10,7 +10,7 @@ El grupo entra herido, sucio y agotado, pero con la sensación de haber llegado 
 
 Nyxara confirma que el paso por las cloacas era una vía discreta, aunque no necesariamente libre de peligro. La presencia de arañas y criaturas bajo la ciudad deja claro que incluso las rutas secretas tienen sus propios riesgos.
 
-### La necesidad de una licencia
+### Nyxara explica la necesidad de obtener una licencia de mercenario
 
 Ya dentro del refugio, el grupo vuelve a ordenar sus prioridades.
 
@@ -24,7 +24,7 @@ La carta no evita la burocracia, pero puede abrirles una puerta dentro del siste
 
 También menciona una posibilidad más oscura: comerciar en **El Velado** con ayuda de su tío. Esa vía no pertenece al mundo oficial de sellos, permisos y guardias, sino a la red clandestina donde circulan favores, secretos e información.
 
-### Los secretos de Borgar y Gorak
+### El grupo reflexiona sobre los secretos de Borgar y su vínculo con Gorak
 
 Durante la conversación, el grupo también reflexiona sobre **Borgar** y su vínculo con **Gorak**.
 
@@ -32,7 +32,7 @@ No llegan a una conclusión definitiva, pero deducen que Borgar mantiene ciertos
 
 La información es incompleta, pero suficiente para reforzar una idea: en la Ciudad Alta nadie se mueve solo por la superficie de los hechos. Las relaciones, los favores y los secretos importan tanto como los documentos oficiales.
 
-### El espejo mágico
+### El grupo examina un espejo mágico vinculado a la Corte de las Alas
 
 Más adelante, el grupo examina un espejo mágico dentro del refugio.
 
@@ -42,7 +42,7 @@ Entre los reflejos aparece una imagen de Nyxara, vigilante y atenta.
 
 El grupo comprende que el espejo no sólo muestra apariencias. También revela vínculos, advertencias y posibles secretos.
 
-### La advertencia de Nyxara
+### Nyxara advierte que “esa mujer viene sin un precio”
 
 A través del reflejo, el grupo logra comunicarse con Nyxara o con una manifestación vinculada a ella.
 
@@ -56,7 +56,7 @@ Entonces pronuncia una advertencia especialmente inquietante:
 
 La frase queda resonando en el grupo. No explica todo, pero señala una amenaza o una anomalía: alguien cuya ayuda, presencia o interés no encaja con las reglas habituales de intercambio.
 
-### El reflejo de Varka
+### Varka recibe una respuesta enigmática de su reflejo
 
 Antes de abandonar el refugio, **Varka** tiene un momento íntimo frente al espejo.
 

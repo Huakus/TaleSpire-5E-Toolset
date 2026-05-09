@@ -1,6 +1,6 @@
 ## Capítulo 24: Cassian Balté Castimiro
 
-### Una nueva pista institucional
+### El grupo recibe una pista sobre Cassian Balté Castimiro y el Templo del Moradi
 
 Luego de avanzar con la licencia de mercenario y reunir parte de la documentación necesaria para moverse por la **Ciudad Alta**, el grupo recibe una nueva orientación.
 
@@ -8,7 +8,7 @@ Durante sus gestiones, aparece la referencia a **Cassian Balté Castimiro**, un 
 
 El grupo decide buscarlo para obtener más información sobre los movimientos políticos, religiosos y clandestinos de la ciudad.
 
-### El Templo del Moradi
+### El grupo visita el Templo del Moradi y oye nuevas menciones a la Orden Carmesí
 
 El grupo se dirige al **Templo del Moradi**.
 
@@ -18,7 +18,7 @@ Durante la visita, surge información vinculada a la **Orden Carmesí**.
 
 El nombre de **Víctor Salazar** vuelve a aparecer asociado a esos hechos. Su asesinato queda relacionado con la Orden Carmesí, el Reino del Sur y sectores que intentan controlar la información dentro de la Ciudad Alta.
 
-### Cassian como contacto
+### Cassian queda establecido como posible aliado o intermediario
 
 La figura de **Cassian Balté Castimiro** queda instalada como un posible aliado o intermediario.
 
@@ -26,7 +26,7 @@ Su vínculo con el templo y su conocimiento de los conflictos recientes lo convi
 
 A partir de esa conexión, el grupo se dirige a la **Casa Gremial** para continuar la conversación y ordenar parte de la información reunida hasta el momento.
 
-### La reunión en la Casa Gremial
+### Cassian conecta la presión sobre los gremios, la Orden Carmesí y la ciudad legal
 
 En la **Casa Gremial**, Cassian ayuda a conectar varios elementos que el grupo viene siguiendo: la presión sobre los gremios, los movimientos de la **Orden Carmesí**, la necesidad de documentos oficiales y la tensión entre la ciudad legal y sus redes clandestinas.
 
@@ -34,7 +34,7 @@ La reunión permite revisar el lugar que ocupa el gremio dentro de la situación
 
 El edificio no funciona sólo como una sede administrativa. También es un punto de contacto, influencia y resguardo para quienes intentan moverse dentro del sistema sin quedar completamente expuestos.
 
-### El edificio del gremio
+### El grupo evalúa asegurar el edificio del gremio ante posibles ataques o infiltraciones
 
 Durante la reunión, el grupo evalúa la importancia de asegurar el edificio del gremio.
 
@@ -42,7 +42,7 @@ La desaparición de figuras clave, la vigilancia creciente y los movimientos de 
 
 El grupo toma medidas para proteger sus intereses y evitar ataques, infiltraciones o maniobras de terceros.
 
-### Tensiones en el puerto
+### Gregorio y Heladio intentan huir y el grupo los contrata para enviarlos al norte
 
 Mientras tanto, en la plaza de la ciudad, se desarrolla un conflicto que involucra a **Gregorio**, **Heladio** y un grupo de navegantes.
 

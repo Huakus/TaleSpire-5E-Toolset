@@ -1,6 +1,6 @@
 ## Capítulo 14: Pactos, Deudas y Traiciones
 
-### La posición de Raviel
+### Raviel exige transportar un paquete a cambio del paso hacia la Ciudad Alta
 
 El grupo contacta con **Raviel**, bautizado por el grupo como **“el Emo”**, uno de los principales referentes criminales de la red de túneles del Barrio Exterior.
 
@@ -10,7 +10,7 @@ El paquete no está en su poder. Raviel indica que deben buscarlo con **Silas Vi
 
 El acuerdo deja al grupo en una posición incómoda. Aceptar implica involucrarse directamente en una red de contrabando. Rechazarlo significa perder una de las pocas vías posibles para llegar a la Ciudad Alta sin exponerse de forma abierta ante la guardia o las facciones que controlan los accesos.
 
-### La sospecha sobre Zephyr
+### Varka y Ernesto sospechan de la actitud extrañamente animada de Zephyr
 
 Mientras el grupo procesa la propuesta de Raviel, **Varka** y **Skitrix “Stix Ernesto” Koboldtanz** observan una actitud extraña en **Zephyr**.
 
@@ -20,7 +20,7 @@ La conducta despierta sospechas. Varka y Ernesto deciden seguirlo discretamente 
 
 El rastro los conduce hasta la casa de **Silas Viera**, el mismo hombre señalado por Raviel como responsable de entregar el paquete.
 
-### Silas Viera y el paquete
+### Varka y Ernesto descubren que Zephyr preparó una trampa con Silas Viera
 
 En la casa de Silas Viera, Varka y Ernesto descubren que Zephyr mantiene una conversación incriminadora con el alquimista.
 
@@ -32,7 +32,7 @@ El verdadero objetivo del paso por los túneles es que el grupo limpie aquello q
 
 El paquete se convierte entonces en una excusa operativa. Transportarlo hacia la Ciudad Alta sirve para empujar al grupo a internarse en los túneles y enfrentar el peligro que bloquea o amenaza la red subterránea.
 
-### La traición confirmada
+### La traición de Zephyr redefine el acuerdo con Raviel
 
 Con lo escuchado en la casa de Silas, Varka y Ernesto comprenden que la situación del grupo cambió por completo.
 
@@ -42,7 +42,7 @@ La información también redefine el acuerdo con Raviel. El favor exigido no es 
 
 El Barrio Exterior deja de presentarse como un territorio de favores criminales negociables y revela una lógica más brutal: las facciones locales empujan a otros a resolver los peligros que ellas mismas no pueden controlar.
 
-### La intervención del Teniente Tres Dientes
+### El grupo busca apoyo del Teniente Tres Dientes para mover al Pichón
 
 Con esta información, el grupo decide buscar apoyo en el **Teniente Tres Dientes**.
 
@@ -52,7 +52,7 @@ Tres Dientes se muestra pragmático. No actúa como un aliado limpio ni desinter
 
 Su relación previa con **Borgar** vuelve a pesar en la conversación. Entre ambos existe un trasfondo de acuerdos viejos, favores incómodos y violencia administrada, suficiente para abrir una puerta de negociación en medio de una situación cada vez más inestable.
 
-### La situación de Lucen
+### Adler cura físicamente a Lucen mientras el grupo decide qué hacer con él
 
 En paralelo, el grupo lidia con la situación de **Lucen**, un prisionero torturado y quebrado bajo control del gremio criminal.
 
@@ -60,7 +60,7 @@ En paralelo, el grupo lidia con la situación de **Lucen**, un prisionero tortur
 
 El grupo evalúa si liberarlo, mantenerlo bajo control o convertirlo en una figura protegida dentro de una especie de “jaula de oro”.
 
-### La visión de Varka
+### Varka recibe una visión hacia el sur durante una sesión con una adivina
 
 En medio de estas tensiones, **Varka** tiene un encuentro con una adivina en la taberna.
 
@@ -70,7 +70,7 @@ En la sesión nocturna, Varka recibe imágenes de un paisaje árido, viento cons
 
 La revelación no resuelve su vínculo con la entidad que la acompaña, pero instala una certeza: parte de su destino personal se encuentra más allá de la ciudad, en un lugar antiguo y silencioso que parece esperarla.
 
-### Nema y la advertencia feérica
+### Nema advierte sobre el peligro feérico ligado a los cristales, el niño y los túneles
 
 Antes de que el grupo se interne por completo en los túneles, aparece **Nema**, una figura vinculada al mundo feérico y al otro lado del velo.
 
@@ -80,6 +80,6 @@ El niño deja de ser un episodio aislado y empieza a perfilarse como una posible
 
 La intervención de Nema confirma que el conflicto del Barrio Exterior no pertenece únicamente al plano político o criminal. Algo feérico, antiguo y peligroso se mueve en paralelo a la operación de contrabando.
 
-### Hacia los túneles
+### El grupo se prepara para entrar en los túneles sabiendo que es una trampa
 
 El grupo se prepara para adentrarse en los túneles sabiendo que el camino fue preparado como una trampa. Lo que los espera abajo no es solo una vía de contrabando, sino aquello que Raviel y los suyos no pudieron o no quisieron enfrentar. Con el traspaso del Pichón en marcha y la traición revelada, la investigación del Barrio Exterior llega a su punto de quiebre.

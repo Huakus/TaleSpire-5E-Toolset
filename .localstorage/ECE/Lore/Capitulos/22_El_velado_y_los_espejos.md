@@ -1,6 +1,6 @@
 ## Capítulo 22: El Velado y los espejos
 
-### La entrada al mundo oculto
+### El grupo se acerca al circuito clandestino de la Ciudad Alta
 
 Con la carta de respaldo de **Nyxara** y la advertencia todavía reciente, el grupo empieza a acercarse al circuito clandestino de la **Ciudad Alta**.
 
@@ -10,7 +10,7 @@ El grupo se orienta hacia **El Velado**, el verdadero centro de poder bajo la su
 
 Allí no basta con presentarse. Hay que demostrar que uno tiene algo valioso para ofrecer.
 
-### La prueba de los espejos
+### El Pichón explica la prueba de los tres espejos que detectan secretos
 
 A través de las pistas recibidas, el grupo llega a una casa vinculada con espejos y secretos.
 
@@ -22,7 +22,7 @@ Los espejos no buscan fuerza, rango ni riqueza. Buscan secretos.
 
 En ese lugar aparece un individuo asociado al circuito clandestino, identificado de forma ambigua como **Guazo**, **Lagarto Juancho** o alguien vinculado al mismo entorno. Su presencia funciona como una primera barrera entre el grupo y los contactos más profundos de El Velado.
 
-### El precio de la legitimidad
+### El Velado exige información, favores o secretos a cambio de legitimidad
 
 La negociación inicial deja clara la lógica del lugar.
 
@@ -32,7 +32,7 @@ La Ciudad Alta se revela como un sistema doble: por arriba, guardias, permisos y
 
 El grupo comprende que su paso por las cuevas, los túneles y las zonas subterráneas les dio algo que otros desean: conocimiento.
 
-### El encuentro con el Agarto
+### El grupo revela al Agarto secretos sobre las criaturas y actividad subterránea
 
 Luego de superar la primera instancia, el grupo llega hasta **el Agarto**, una figura de mayor peso dentro de El Velado.
 
@@ -44,7 +44,7 @@ El hallazgo tiene peso.
 
 Para El Velado, esa información no es sólo una anécdota de aventura. Es una pieza dentro de un mapa de poder, comercio y secretos enterrados bajo la Ciudad Alta.
 
-### El intercambio
+### El Agarto entrega información, respaldo y un ritual prohibido
 
 A cambio del secreto, el Agarto entrega información y respaldo.
 
@@ -54,7 +54,7 @@ El grupo obtiene una vía para avanzar, pero el intercambio deja una marca moral
 
 Conseguir legitimidad en la Ciudad Alta implica involucrarse con fuerzas que no son limpias ni transparentes. La licencia puede darles una fachada legal, pero el camino hacia ella ya los ha conectado con secretos, rituales y figuras ambiguas.
 
-### El taller del Lagarto
+### El taller del Lagarto revela comercio con tecnología antigua y alquimia
 
 Después del encuentro, el grupo se dirige al taller del Lagarto o a un espacio asociado con su red.
 
@@ -64,7 +64,7 @@ También aparecen rastros químicos y señales de manipulación alquímica.
 
 La investigación conecta el mundo bajo la ciudad con actividades ilícitas en la superficie. Lo que ocurre en cuevas, túneles y ruinas no queda aislado: termina circulando en talleres, mercados ocultos y manos interesadas.
 
-### La línea entre lo legal y lo clandestino
+### El grupo queda mejor posicionado pero más comprometido con El Velado
 
 El paso por El Velado deja al grupo mejor posicionado, pero también más comprometido.
 

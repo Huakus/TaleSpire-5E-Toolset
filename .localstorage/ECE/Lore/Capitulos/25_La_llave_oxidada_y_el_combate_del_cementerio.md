@@ -1,6 +1,6 @@
 ## Capítulo 25: La llave oxidada y el combate del cementerio
 
-### Nuevas pistas sobre los artefactos robados
+### El grupo retoma la investigación sobre los artefactos robados y la llave oxidada
 
 Después de la reunión en la Casa Gremial y de las tensiones vinculadas al puerto, el grupo retoma la investigación sobre los **artefactos robados**.
 
@@ -10,7 +10,7 @@ Entre las pistas aparece una **llave oxidada**.
 
 La llave orienta la investigación hacia una zona funeraria de la **Ciudad Alta**. El grupo identifica una posible relación entre la llave, los artefactos robados y un mausoleo del cementerio.
 
-### La búsqueda del orbe
+### El grupo busca el orbe de Stixx Ernesto en el cementerio
 
 Después de conseguir la **llave oxidada**, el grupo se dirige al cementerio para continuar la investigación.
 
@@ -20,7 +20,7 @@ Al llegar, el grupo detecta energía arcana emanando de uno de los mausoleos. La
 
 Del otro lado ve a un hombre joven realizando algún tipo de ritual.
 
-### El ritual de la Orden Carmesí
+### El ritualista de la Orden Carmesí desaparece tras levantar dos muertos vivientes
 
 El grupo decide abrir la puerta y sorprender al hombre.
 
@@ -30,7 +30,7 @@ Luego levanta dos muertos vivientes y se desvanece del lugar.
 
 El grupo enfrenta a las criaturas dentro del mausoleo.
 
-### Los primeros muertos vivientes
+### El grupo derrota a los primeros muertos vivientes y encuentra pruebas del ritual
 
 La party combate contra los dos muertos vivientes levantados por el ritualista.
 
@@ -40,7 +40,7 @@ Encuentran señales de un ritual asociado a la **Orden Carmesí**, un anillo com
 
 En el lugar también encuentran una espada de la que emana energía arcana.
 
-### La espada
+### Delerion retira la espada arcana y provoca el levantamiento del cementerio
 
 Movido por la curiosidad, **Delerion** toma la espada y la retira de la pared.
 
@@ -50,7 +50,7 @@ Comienzan a levantarse muertos alrededor del mausoleo. También aparecen espíri
 
 El grupo se prepara para un nuevo combate.
 
-### El levantamiento del cementerio
+### Adler, Delerion y el grupo enfrentan muertos vivientes y espíritus en el cementerio
 
 El cementerio comienza a llenarse de muertos vivientes y espíritus.
 
@@ -58,7 +58,7 @@ El cementerio comienza a llenarse de muertos vivientes y espíritus.
 
 Durante la batalla, el grupo identifica a un no muerto que parece comandar a los demás.
 
-### El comandante silenciado
+### El grupo levita y silencia al comandante no muerto
 
 Al reconocer al comandante, el grupo decide neutralizarlo sin destruirlo de inmediato.
 
@@ -68,7 +68,7 @@ Con el comandante suspendido y silenciado, el grupo elimina al resto de los muer
 
 Mientras tanto, varios transeúntes huyen del cementerio para buscar a la policía y a la guardia.
 
-### La llegada de la guardia
+### Severino llega con el sacerdote, el ritualista y la guardia
 
 El grupo entiende que tiene poco tiempo para seguir investigando.
 
@@ -82,7 +82,7 @@ Al ver al no muerto suspendido y silenciado, Severino chasquea los dedos y lo el
 
 Luego cierra la zona para investigar el mausoleo y los restos de los muertos vivientes.
 
-### La huida invisible
+### El grupo intenta huir invisible, pero Adler es detenido por la guardia
 
 Al ver la llegada de Severino, el ritualista, el sacerdote y la guardia, el grupo decide escapar.
 

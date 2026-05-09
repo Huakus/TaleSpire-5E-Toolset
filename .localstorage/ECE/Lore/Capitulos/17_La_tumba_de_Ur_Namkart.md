@@ -1,6 +1,6 @@
 ## Capítulo 17: La Tumba de Ur Namkart
 
-### La tumba oculta
+### El grupo usa la palabra Sarnakur para revelar la tumba oculta de Ur Namkart
 
 Con la palabra **Sarnakur** y las advertencias del kenku, el grupo continúa explorando el complejo funerario bajo las cuevas.
 
@@ -10,7 +10,7 @@ La intervención del kenku resulta decisiva. Su vínculo con las memorias extra�
 
 Capas antiguas de roca, sellos y mecanismos ocultos revelan una cámara secreta.
 
-### El sarcófago auténtico
+### Stix Ernesto desactiva las trampas del sarcófago auténtico
 
 Dentro de la cámara, el grupo encuentra el sarcófago auténtico de **Unamkar Azur Dagan**.
 
@@ -20,7 +20,7 @@ En el interior descansa un cadáver semi-orco, noble y guerrero, conservado en p
 
 El kenku no confirma verbalmente la identidad del cadáver, pero su reacción ante la cámara, el sarcófago y los objetos refuerza la certeza del grupo: han encontrado la tumba verdadera.
 
-### El Corazón de Kurash
+### El grupo encuentra el Corazón de Kurash y su vínculo con el Santuario Olvidado de Hextor
 
 El hallazgo más importante dentro de la tumba es un artefacto esférico de metal negro mate, con elementos de cobre bruñido y una textura extrañamente flexible.
 
@@ -30,7 +30,7 @@ Los documentos recuperados del laboratorio indican que los responsables del comp
 
 El grupo comprende que la Orden Carmesí, los alquimistas y los contrabandistas no estaban explorando las cuevas al azar. Buscaban una pieza concreta, oculta detrás de sellos que no lograron abrir antes de la invasión goblin.
 
-### El ritual sobre Kako
+### Delerion realiza el Ritual del Eco sobre Kako y despierta su inteligencia
 
 Con el laboratorio parcialmente funcional, **Delerion** ejecuta el Ritual del Eco sobre uno de sus zombies, específicamente **Kako**.
 
@@ -42,7 +42,7 @@ Kako afirma ser un noble de **Escudoferrio**, con linaje **NASA**, oriundo de **
 
 La visión obtenida a través del eco muestra una ciudad antigua, Escudoferrio, y a un noble preparándose para un conflicto político y militar. La memoria no es completa, pero sí suficiente para confirmar que el ritual puede devolver fragmentos de identidad, lenguaje y contexto histórico.
 
-### El vínculo entre Kako y el kenku
+### Kako y el kenku comparten recuerdos por los experimentos del laboratorio
 
 La interacción posterior revela que Kako y el kenku comparten recuerdos.
 
@@ -52,7 +52,7 @@ El kenku no es el espíritu del difunto ni una manifestación directa de Ur Namk
 
 Sin embargo, su existencia fue clave para activar la palabra correcta, abrir la cámara secreta y guiar al grupo hacia la tumba auténtica.
 
-### La profanación de la tumba
+### Adler retira la armadura, la espada ritual y el Corazón de Kurash de la tumba
 
 **Adler** decide retirar la armadura, la espada ritual y el artefacto conocido como el **Corazón de Kurash**.
 
@@ -66,7 +66,7 @@ También revela que el Corazón de Kurash no funciona como ancla de la tumba. Su
 
 Allí, en las bibliotecas del santuario, podría encontrarse más conocimiento sobre la amenaza y sobre la forma de sellarla.
 
-### Los documentos de Aurelio
+### Los documentos de Aurelio conectan el laboratorio con Escudoferrio, Ciudad Alta y Zephyr
 
 El grupo revisa documentos restantes escritos por **Aurelio**.
 
@@ -76,7 +76,7 @@ Luego saquearon documentos clave y dirigieron sus movimientos hacia la **Ciudad 
 
 La información conecta los hallazgos del laboratorio con los contrabandistas de la superficie. Entre las figuras vinculadas reaparece **Zephyr**, también mencionado como **Saphir**, cuya traición al grupo ya había sido revelada.
 
-### La retirada kobold
+### El clan de la Sangre Azul confirma su éxodo y revela rutas hacia la Ciudad Alta
 
 El encuentro con los kobolds se resuelve sin violencia.
 

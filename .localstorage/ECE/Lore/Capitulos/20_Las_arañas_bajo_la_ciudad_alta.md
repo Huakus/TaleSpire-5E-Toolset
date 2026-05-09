@@ -1,6 +1,6 @@
 ## Capítulo 20: Las arañas bajo la Ciudad Alta
 
-### La exploración de los túneles
+### El grupo desciende por las cloacas abiertas por Nyxara
 
 Luego de que **Nyxara** abre el paso oculto hacia las cloacas, el grupo desciende para avanzar bajo la **Ciudad Alta** sin exponerse a los controles de la superficie.
 
@@ -12,7 +12,7 @@ A medida que Martita se interna en las cloacas, el grupo descubre indicios cada 
 
 La ruta hacia la casa de Nyxara no es un simple pasaje secreto. Es un territorio ocupado.
 
-### La muerte de Martita
+### Una araña grande mata a Martita y revela la infestación
 
 El grupo decide seguir explorando con cautela, usando a Martita para atraer la atención de las criaturas y medir el peligro real.
 
@@ -26,7 +26,7 @@ El ruido y el movimiento atraen a otras criaturas cercanas.
 
 El primer combate comienza.
 
-### El primer combate contra las arañas
+### Primer combate contra arañas comunes y arañas de fase en las cloacas
 
 El grupo se prepara rápidamente para enfrentar a la araña que atacó a Martita.
 
@@ -40,7 +40,7 @@ El grupo usa magia, armas y posicionamiento para contener a las criaturas. **Adl
 
 Tras derrotar a las primeras arañas, el grupo revisa la zona y continúa avanzando.
 
-### El avance por las cloacas
+### El avance por las cloacas revela que la ruta es una guarida
 
 La party sigue adelante, ahora con mayor tensión.
 
@@ -52,7 +52,7 @@ Las cloacas dejan de sentirse como una ruta alternativa hacia la casa de Nyxara 
 
 Antes de llegar a la salida, la party encuentra el verdadero centro del nido.
 
-### La araña descomunal
+### Combate contra la araña descomunal, arañas comunes y arañas de fase
 
 Cerca del final del trayecto, el grupo descubre una cámara más amplia dentro de las cloacas.
 
@@ -74,7 +74,7 @@ El golpe resulta decisivo.
 
 La araña descomunal cae muerta.
 
-### Los colmillos de las arañas
+### Ernesto recolecta colmillos de arañas de fase tras la victoria
 
 Con la criatura principal abatida, el grupo termina de eliminar a las arañas restantes.
 
@@ -84,7 +84,7 @@ Tras la batalla, **Ernesto** se dedica a recolectar todos los colmillos de arañ
 
 El grupo recupera el aliento, atiende heridas y se prepara para abandonar finalmente las cloacas.
 
-### La salida hacia la casa de Nyxara
+### El grupo sale de las cloacas cerca de la casa de Nyxara
 
 Luego de limpiar la zona y confirmar que el camino está libre, la party encuentra la escalera que conduce de regreso a la superficie.
 

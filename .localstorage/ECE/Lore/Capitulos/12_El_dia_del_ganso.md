@@ -1,6 +1,6 @@
 ## Capítulo 12: El Día del Ganso
 
-### Cruce de la puerta occidental
+### Salida del Distrito de los Artesanos por la puerta occidental hacia la Ciudad Exterior
 
 Tras abandonar el Distrito de los Artesanos, el grupo cruza la puerta occidental del barrio de los artesanos rumbo a la **Ciudad Exterior**. **Zaphir**, con su habitual mezcla de presencia, papeles oportunos y seguridad ensayada, maneja el intercambio con la guardia.
 
@@ -8,7 +8,7 @@ Su intervención evita preguntas innecesarias y permite que el grupo salga de la
 
 Del otro lado de la muralla, el orden de las calles vigiladas se diluye en caminos de tierra, casas bajas, corrales improvisados y estructuras humildes levantadas al margen de la autoridad formal. La guardia todavía existe, pero su presencia se siente más débil; en su lugar aparecen miradas vecinales, contactos informales, matones, comerciantes y reglas no escritas.
 
-### El Día del Ganso
+### El grupo presencia la persecución de un niño por un ganso agresivo
 
 En una de las calles del Barrio Exterior, el grupo presencia una escena absurda y violenta: **un niño huye desesperado mientras un ganso viejo, grande y agresivo lo persigue** con una furia desmedida.
 
@@ -18,7 +18,7 @@ Entre esos pensamientos aparecen imágenes persistentes: una **figura femenina d
 
 La energía que rodea al animal coincide con la magia salvaje vinculada al **Círculo Eterno**, similar a la que el grupo ya ha sentido en otros lugares, artefactos y sucesos.
 
-### El collar y la restitución del orden
+### Ernesto recupera el collar del ganso y restaura su comportamiento normal
 
 El origen inmediato del conflicto resulta ser más concreto. El niño había quitado un collar que el ganso llevaba consigo.
 
@@ -26,7 +26,7 @@ Ernesto negocia con el chico y compra el collar sin recurrir a amenazas. Cuando 
 
 El incidente queda resuelto, pero no explicado del todo. La imagen de la mujer cornuda, la reacción del animal, la naturaleza del collar y la resonancia feérica dejan claro que el Barrio Exterior no está atravesado únicamente por problemas criminales o sociales. Algo antiguo opera bajo la superficie.
 
-### Primeras lecturas del Barrio Exterior
+### El Barrio Exterior revela pobreza, contrabando y señales de magia feérica
 
 A partir del incidente, el grupo comienza a observar el barrio con mayor cautela. Lo que parecía un territorio marginal empieza a revelar capas superpuestas: pobreza, contrabando, rutas ocultas, vigilancia informal y signos de magia feérica actuando sobre personas, animales y objetos cotidianos.
 
@@ -34,7 +34,7 @@ A partir del incidente, el grupo comienza a observar el barrio con mayor cautela
 
 La información disponible indica que el Gremio podría tener acceso a rutas subterráneas hacia la **Ciudad Alta**. Esa posibilidad lo convierte en una pieza clave para avanzar en la investigación sobre el **Pichón**, también conocido como **Lucen Redgar**, y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales del barrio.
 
-### El plan de infiltración
+### El grupo planea infiltrarse en el Gremio de Comerciantes
 
 El grupo decide no actuar de forma abierta. La estructura del Gremio parece demasiado vigilada para una entrada directa, y cualquier movimiento brusco podría cerrar rutas, alertar contactos o poner en riesgo al Pichón.
 

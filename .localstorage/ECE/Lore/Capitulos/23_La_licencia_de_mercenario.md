@@ -1,6 +1,6 @@
 ## Capítulo 23: La licencia de mercenario
 
-### El trámite en la municipalidad
+### El grupo inicia el trámite de licencia de mercenario en la municipalidad
 
 Con el respaldo obtenido y la necesidad de moverse con mayor libertad, el grupo se dirige a la municipalidad para iniciar el trámite de la **licencia de mercenario**.
 
@@ -12,7 +12,7 @@ El edificio está lleno de filas, escritorios, sellos, papeles y funcionarios in
 
 Las filas duran horas. Cada paso parece conducir a otro requisito.
 
-### La fila y los papeles
+### Un anciano custodia los papeles durante una interrupción en la fila
 
 Durante el trámite, uno de los protagonistas necesita abandonar la fila momentáneamente, lo que genera una negociación incómoda con un guardia y con otros presentes.
 
@@ -22,7 +22,7 @@ Un anciano aparece como ayuda inesperada. A cambio de una moneda de oro, acepta 
 
 El episodio resume el funcionamiento de la municipalidad: nada es simple, todo requiere paciencia, y hasta los actos más mínimos pueden depender de favores improvisados.
 
-### El problema del retrato certificado
+### El trámite exige retratos certificados por un artista autorizado
 
 Cuando el grupo cree estar más cerca de completar el trámite, aparece un nuevo requisito.
 
@@ -32,7 +32,7 @@ La exigencia obliga al grupo a salir de la municipalidad y buscar a alguien capa
 
 Un guardia los orienta hacia el **Maestro Valerian**, un artista reconocido que se encuentra en la posada de **Calis de Bruma**.
 
-### La búsqueda de Valerian
+### El grupo busca al Maestro Valerian en la posada de Calis de Bruma
 
 El grupo se dirige hacia la posada para encontrar al Maestro Valerian.
 
@@ -42,7 +42,7 @@ La crisis comercial mencionada por Nyxara se vuelve más visible. La Ciudad Alta
 
 Finalmente, el grupo encuentra a Valerian.
 
-### Los retratos
+### Valerian realiza los retratos oficiales tras negociar el precio
 
 Valerian acepta realizar los retratos, aunque no sin negociación.
 
@@ -54,7 +54,7 @@ Valerian trabaja con rapidez y habilidad.
 
 Los retratos quedan listos como parte del registro oficial.
 
-### Noticias y señales públicas
+### Surgen noticias públicas sobre Víctor Salazar y el diario local
 
 Durante la interacción con Valerian y el entorno de la posada, también aparecen menciones a noticias recientes y al diario local.
 
@@ -62,7 +62,7 @@ Entre los nombres que circulan surge **Víctor Salazar**, vinculado a hechos pú
 
 La información no resuelve la situación inmediata, pero recuerda que la Ciudad Alta está llena de relatos superpuestos: lo que ocurre en secreto bajo la superficie convive con lo que se publica, se comenta y se manipula en espacios visibles.
 
-### Continuación del trámite
+### El grupo queda listo para continuar el trámite con respaldo, documentación y retratos
 
 Con los retratos certificados en mano, el grupo queda en condiciones de regresar al circuito administrativo y continuar el trámite de la licencia.
 

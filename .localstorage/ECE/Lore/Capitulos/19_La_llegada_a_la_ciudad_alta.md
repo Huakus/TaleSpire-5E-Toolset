@@ -1,6 +1,6 @@
 ## Capítulo 19: La Llegada a la Ciudad Alta
 
-### Salida de las cuevas
+### El grupo abandona las cuevas y emerge en la Ciudad Alta
 
 Tras limpiar la escena, reunir el botín y asegurarse de que la escalera aún pueda sostener el ascenso, el grupo abandona finalmente las cuevas.
 
@@ -12,7 +12,7 @@ No hay enemigos visibles ni combate inmediato. La amenaza no desaparece, pero ca
 
 En la Ciudad Alta, el peligro parece menos salvaje y más político.
 
-### Lucen en la ciudad
+### Lucen Redgar reconoce la ciudad mientras intenta recomponer su mente
 
 **Lucen Redgar**, el Pichón, muestra un estado mental frágil y disociado.
 
@@ -22,7 +22,7 @@ Mediante detección de pensamientos, el grupo confirma que su mente intenta orde
 
 Poco a poco, logra recomponerse lo suficiente para entender que está vivo y que el grupo lo sacó de las cuevas. Su confianza se concentra casi exclusivamente en sus compañeros.
 
-### La primera posada
+### Lucen recomienda evitar su mansión familiar y refugiarse en una posada conocida
 
 Lucen recomienda no acudir a la mansión familiar.
 
@@ -38,7 +38,7 @@ Se les asigna “el piso de siempre”, un espacio familiar para Lucen. El lugar
 
 La posada funciona como un refugio inmediato, pero no definitivo. El grupo se hospeda allí durante una noche para limpiarse, cambiarse de ropa, descansar y recomponer fuerzas después de las cuevas, el laboratorio, la tumba, los contrabandistas y la escalera incendiada.
 
-### Reorganización
+### La party reorganiza sus objetivos tras llegar a la Ciudad Alta
 
 Durante esa primera noche en la Ciudad Alta, la party ordena sus prioridades.
 
@@ -48,7 +48,7 @@ Los objetivos principales siguen abiertos: localizar a los mercenarios o contrab
 
 Lucen, por su parte, necesita protección y estabilidad. Ya no es solo una pieza de intercambio: es testigo, víctima y posible llave para entender parte de la conspiración que se mueve dentro de la Ciudad Alta.
 
-### Nyxara
+### Lucen lleva al grupo a la taberna de Nyxara para buscar refugio e información
 
 Al día siguiente, el grupo abandona la primera posada con la intención de buscar un refugio más seguro y obtener información confiable sobre la Ciudad Alta.
 
@@ -58,7 +58,7 @@ Nyxara recibe a Lucen y al grupo. Su presencia introduce una pausa distinta: no 
 
 Lucen presenta formalmente a sus compañeros. La conversación permite ordenar parte de la situación: la Ciudad Alta está más vigilada que antes, la desaparición del sargento alteró el equilibrio local y el gobernador **Nair Kules** se muestra cada vez más paranoico.
 
-### Los capas verdes
+### Nyxara advierte sobre el aumento de los capas verdes y la vigilancia en la ciudad
 
 Nyxara explica que la presencia de los llamados **capas verdes** ha aumentado de forma notable.
 
@@ -68,7 +68,7 @@ Para observar sin exponerse, **Delerion** utiliza a **Martita** como punto de vi
 
 La Ciudad Alta se presenta como un territorio donde no basta con sobrevivir: también hay que parecer legítimo.
 
-### La licencia y El Velado
+### Nyxara explica la necesidad de una licencia de mercenario y menciona El Velado
 
 Nyxara también habla de la crisis económica que afecta a la forja.
 
@@ -80,7 +80,7 @@ Nyxara advierte que para circular sin exponerse a detenciones o interrogatorios,
 
 Nyxara no puede firmar directamente los documentos que el grupo necesita, pero menciona la posibilidad de comerciar en **El Velado** con ayuda de su tío, abriendo una vía hacia el verdadero centro clandestino de poder bajo la superficie urbana.
 
-### El paso por las cloacas
+### Nyxara abre un paso oculto por las cloacas para evitar controles en la superficie
 
 Para evitar que el grupo se exponga demasiado en la superficie, Nyxara les abre un paso oculto por las cloacas.
 
@@ -88,7 +88,7 @@ El trayecto permite moverse bajo la Ciudad Alta sin cruzar directamente los cont
 
 El grupo avanza por túneles húmedos, oscuros y cargados de olores pesados, dejando atrás la taberna y la vigilancia abierta de las calles.
 
-### El refugio de Nyxara
+### El grupo llega al refugio seguro de Nyxara
 
 La salida de las cloacas deja al grupo cerca del refugio de Nyxara.
 

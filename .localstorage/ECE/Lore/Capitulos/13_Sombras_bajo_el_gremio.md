@@ -1,6 +1,6 @@
 ## Capítulo 13: Sombras bajo el Gremio
 
-### El Gremio de Comerciantes
+### Investigación del Gremio de Comerciantes como fachada de contrabando
 
 El grupo concentra su investigación en el **Gremio de Comerciantes**, una organización que mantiene una fachada legal dentro del Barrio Exterior, pero cuya actividad real apunta a una red de contrabando.
 
@@ -8,7 +8,7 @@ El edificio muestra demasiada seguridad para tratarse de una simple casa de come
 
 **Mercion**, conocida de encuentros anteriores en la taberna, aparece también en la zona intentando acercarse al mismo entramado. Su presencia confirma que el Gremio atrae a distintos actores interesados en rutas, favores, prisioneros y contactos dentro del Barrio Exterior.
 
-### Martita
+### Martita descubre mercancías, oro y una trampilla oculta bajo una caja pesada
 
 Para evitar una entrada directa, **Delerion** envía a su familiar, Martita, una araña exploradora, al interior del edificio del Gremio.
 
@@ -18,7 +18,7 @@ Bajo una caja especialmente pesada, la araña encuentra una **trampilla oculta**
 
 La trampilla se convierte en una pieza central de la investigación. No solo confirma la existencia de niveles inferiores, sino que también sugiere una conexión directa con los túneles de contrabando y con posibles rutas hacia la Ciudad Alta.
 
-### Primer contacto con el Gremio
+### Varka y Ernesto realizan el primer contacto con Raviel y la red del Gremio
 
 Con la información obtenida, **Varka** se dirige a un punto de contacto del Gremio ubicado entre las barracas del Barrio Exterior. La estructura funciona como espacio de intercambio, verificación de identidades y filtro inicial para quienes buscan acercarse a la red.
 
@@ -32,7 +32,7 @@ Raviel no confirma rutas, nombres clave ni acuerdos. En varios momentos observa 
 
 El encuentro termina sin confrontación ni resolución. Raviel corta la conversación sin ofrecer compromisos formales e indica que cualquier avance requerirá validación adicional por parte de niveles superiores del Gremio.
 
-### La mujer marcada
+### Varka y Ernesto descubren a una mujer marcada por Ninthra que alimenta niños
 
 Durante las averiguaciones en el barrio, el grupo detecta una presencia más inquietante.
 
@@ -44,7 +44,7 @@ La mujer revela estar ligada a **Ninthra**, una entidad feérica superior. Su ta
 
 La desaparición de niños en el Barrio Exterior deja de ser un rumor aislado y se vuelve parte de un patrón ritual. La amenaza feérica queda integrada al conflicto del barrio: lo que al principio parecía una operación criminal vinculada al Gremio comienza a mostrar conexiones con pactos antiguos, entidades del otro lado del velo y fuerzas que operan sobre los sectores más vulnerables de Valverde del Río.
 
-### Heladio y el Pichón
+### Confirmación de que Heladio y Gregorio mantienen prisionero al Pichón
 
 La investigación permite confirmar que **Heladio** y sus asociados mantienen a **El Pichón**, también conocido como **Lucen Redgar**, prisionero en una casa utilizada como aguantadero o en una estructura vinculada a los movimientos del Gremio.
 
