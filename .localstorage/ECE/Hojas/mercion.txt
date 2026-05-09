@@ -1,4 +1,12 @@
-﻿{
+# Mercion
+
+> Archivo generado automaticamente desde el JSON principal del Toolset.
+> No editar manualmente.
+
+## Datos completos
+
+```json
+{
     "characterTempHp":  "",
     "currentHitDice":  "1",
     "insp":  0,
@@ -16,10 +24,10 @@
                                ],
     "playerLanguageProficiency":  [
                                       "Comun",
-                                      "Dracónico"
+                                      "DracÃ³nico"
                                   ],
     "playerToolsProficiency":  [
-                                   "Herramientas del Cartógrafo"
+                                   "Herramientas del CartÃ³grafo"
                                ],
     "initiativeButton":  "+4",
     "AC":  "20",
@@ -105,7 +113,7 @@
                                       "eighthColumn":  "",
                                       "damageBonus":  "",
                                       "tenthColumn":  "Sutil, Ligera, Arrojadiza, Monk",
-                                      "elventhColumn":  "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                                      "elventhColumn":  "Una daga es un arma cuerpo a cuerpo pequeÃ±a y versÃ¡til con una hoja puntiaguda, ideal para apuÃ±alar o lanzar.",
                                       "twelvethColumn":  "Perforante",
                                       "ninthColumn":  {
                                                           "attacks":  true,
@@ -129,8 +137,8 @@
                                       "weaponType":  "A distancia",
                                       "eighthColumn":  "",
                                       "damageBonus":  "",
-                                      "tenthColumn":  "Munición, De carga, Dos manos",
-                                      "elventhColumn":  "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
+                                      "tenthColumn":  "MuniciÃ³n, De carga, Dos manos",
+                                      "elventhColumn":  "Un arma pequeÃ±a, de alcance con una sola mano, que dispara rayos con gran precisiÃ³n, a menudo preferida por su facilidad de uso y portabilidad.",
                                       "twelvethColumn":  "Perforante",
                                       "ninthColumn":  {
                                                           "attacks":  true,
@@ -168,7 +176,7 @@
                         {
                             "4":  {
                                       "proficiencyButton":  "1",
-                                      "secondColumn":  "Bloquear daño",
+                                      "secondColumn":  "Bloquear daÃ±o",
                                       "thirdColumn":  "",
                                       "fourthColumn":  "+7",
                                       "fifthColumn":  "2d6/1d4",
@@ -178,7 +186,7 @@
                                       "eighthColumn":  "",
                                       "damageBonus":  "",
                                       "tenthColumn":  "",
-                                      "elventhColumn":  "Niega el daño completocuando una tirada de salvación superadaya lo redujo a la mitad.",
+                                      "elventhColumn":  "Niega el daÃ±o completocuando una tirada de salvaciÃ³n superadaya lo redujo a la mitad.",
                                       "twelvethColumn":  "",
                                       "ninthColumn":  {
                                                           "attacks":  false,
@@ -364,7 +372,7 @@
                                                "cost":  "1 gp"
                                            },
                                            {
-                                               "name":  "Pitón",
+                                               "name":  "PitÃ³n",
                                                "uniqueId":  "item-1776275748176-6d86b1c2",
                                                "quantity":  10,
                                                "weight":  2.5,
@@ -385,7 +393,7 @@
                                                "cost":  "5 sp"
                                            },
                                            {
-                                               "name":  "Raciones (1 día)",
+                                               "name":  "Raciones (1 dÃ­a)",
                                                "uniqueId":  "item-1776275748178-3e62d890",
                                                "quantity":  10,
                                                "weight":  20,
@@ -399,21 +407,21 @@
                                                "cost":  "2 sp"
                                            },
                                            {
-                                               "name":  "Cuerda de cáñamo (50 pies)",
+                                               "name":  "Cuerda de cÃ¡Ã±amo (50 pies)",
                                                "uniqueId":  "item-1776275748179-022742ba",
                                                "quantity":  1,
                                                "weight":  10,
                                                "cost":  "1 gp"
                                            },
                                            {
-                                               "name":  "Herramientas del cartógrafo",
+                                               "name":  "Herramientas del cartÃ³grafo",
                                                "uniqueId":  "item-1776278944317-8301a56c",
                                                "quantity":  1,
                                                "weight":  6,
                                                "cost":  "15 gp"
                                            },
                                            {
-                                               "name":  "Poción de mayor curación",
+                                               "name":  "PociÃ³n de mayor curaciÃ³n",
                                                "uniqueId":  "item-1777866315805-29c3f8bb",
                                                "quantity":  1,
                                                "weight":  0.5,
@@ -450,7 +458,7 @@
                                               {
                                                   "traitName":  "Ataque Extra",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Empezando en el nivel 5 puedes atacar dos veces, en lugar de una, siempre que uses la acción de Atacar en tu turno.\nEl número de ataques aumenta a tres cuando alcanzas el nivel 11 en esta clase y a cuatro cuando alcanzas el nivel 20.",
+                                                  "traitDescription":  "Empezando en el nivel 5 puedes atacar dos veces, en lugar de una, siempre que uses la acciÃ³n de Atacar en tu turno.\nEl nÃºmero de ataques aumenta a tres cuando alcanzas el nivel 11 en esta clase y a cuatro cuando alcanzas el nivel 20.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -464,7 +472,7 @@
                                               {
                                                   "traitName":  "Experto en Escudos",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Usas los escudos no solamente para protección sino que también para atacar.\n\nGanas estos beneficios cuando sostienes un escudo:\n\n• Si llevas a cabo una acción de ataque en tu turno, puedes usar una acción adicional para tratar de empujar a una criatura a 5 pies de ti con tu escudo.\n\n• Si no estás incapacitado, puedes añadir la CA de tu escudo a cualquier tirada de salvación basada en destreza contra un conjuro u otro efecto dañino dirigido sólo a ti.\n\n• Si estás sujeto a un efecto que te permite recibir sólo la mitad del daño, puedes usar tu reacción para no llevarte daño si aciertas la tirada de salvación, poniendo el escudo entre ti y el origen del efecto.",
+                                                  "traitDescription":  "Usas los escudos no solamente para protecciÃ³n sino que tambiÃ©n para atacar.\n\nGanas estos beneficios cuando sostienes un escudo:\n\nâ€¢ Si llevas a cabo una acciÃ³n de ataque en tu turno, puedes usar una acciÃ³n adicional para tratar de empujar a una criatura a 5 pies de ti con tu escudo.\n\nâ€¢ Si no estÃ¡s incapacitado, puedes aÃ±adir la CA de tu escudo a cualquier tirada de salvaciÃ³n basada en destreza contra un conjuro u otro efecto daÃ±ino dirigido sÃ³lo a ti.\n\nâ€¢ Si estÃ¡s sujeto a un efecto que te permite recibir sÃ³lo la mitad del daÃ±o, puedes usar tu reacciÃ³n para no llevarte daÃ±o si aciertas la tirada de salvaciÃ³n, poniendo el escudo entre ti y el origen del efecto.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -482,9 +490,9 @@
                                "group-chevron":  false,
                                "traits":  [
                                               {
-                                                  "traitName":  "Nuevas Energías",
+                                                  "traitName":  "Nuevas EnergÃ­as",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "Tienes una limitada capacidad de aguante que puedes usar para protegerte del peligro.\nEn tu turno, puedes usar una acción adicional para ganar una cantidad de Puntos de Golpe igual a 1d10 + tu nivel de guerrero.\nUna vez que hayas usado este rasgo, debes hacer un descanso corto o prolongado antes de poder volver a usarlo.",
+                                                  "traitDescription":  "Tienes una limitada capacidad de aguante que puedes usar para protegerte del peligro.\nEn tu turno, puedes usar una acciÃ³n adicional para ganar una cantidad de Puntos de Golpe igual a 1d10 + tu nivel de guerrero.\nUna vez que hayas usado este rasgo, debes hacer un descanso corto o prolongado antes de poder volver a usarlo.",
                                                   "checkboxStates":  [
                                                                          true
                                                                      ],
@@ -496,9 +504,9 @@
                                                   "resetType":  "short rest"
                                               },
                                               {
-                                                  "traitName":  "Oleada de Acción",
+                                                  "traitName":  "Oleada de AcciÃ³n",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Empezando en el nivel 2 puedes presionarte más allá de los límites normales durante un corto periodo de tiempo.\nEn tu turno, puedes usar una acción añadida además de tu acción normal y tu posible acción adicional.\nUna vez que hayas usado esta habilidad, debes hacer un descanso corto o prolongado antes de poder volver a usarla.\nA partir del nivel 17 puedes usarla dos veces antes de descansar pero solo una vez en el mismo turno.",
+                                                  "traitDescription":  "Empezando en el nivel 2 puedes presionarte mÃ¡s allÃ¡ de los lÃ­mites normales durante un corto periodo de tiempo.\nEn tu turno, puedes usar una acciÃ³n aÃ±adida ademÃ¡s de tu acciÃ³n normal y tu posible acciÃ³n adicional.\nUna vez que hayas usado esta habilidad, debes hacer un descanso corto o prolongado antes de poder volver a usarla.\nA partir del nivel 17 puedes usarla dos veces antes de descansar pero solo una vez en el mismo turno.",
                                                   "checkboxStates":  [
                                                                          false
                                                                      ],
@@ -518,7 +526,7 @@
                                               {
                                                   "traitName":  "Usos",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Aprendes tres maniobras de tu elección, las cuales están detalladas más abajo, en el apartado “Maniobras”.\nMuchas maniobras mejoran un ataque de alguna manera.\nSolo puedes usar una maniobra por ataque.\nAprendes dos maniobras adicionales de tu elección en los niveles 7, 10 y 15.\nCada vez que aprendes una nueva maniobra, puedes reemplazar otra maniobra ya conocida por otra.\n\nDado de Superioridad\nTienes cuatro dados de superioridad, que son d8.\nUn dado de superioridad se gasta cuando lo usas.\nRecuperas todos tus dados de superioridad gastados cuando finalizas un descanso corto o prolongado.\nGanas un dado de superioridad en el nivel 7 y otro más en el nivel 15.\n\nTiradas de Salvación\nAlgunas de tus maniobras requieren que tu objetivo realice una tirada de salvación para resistir los efectos de la maniobra.\nLa CD de la tirada de salvación se calcula de la siguiente manera:\nCD de la Salvación de la Maniobra = 8 + bonificador de competencia + modificador",
+                                                  "traitDescription":  "Aprendes tres maniobras de tu elecciÃ³n, las cuales estÃ¡n detalladas mÃ¡s abajo, en el apartado â€œManiobrasâ€.\nMuchas maniobras mejoran un ataque de alguna manera.\nSolo puedes usar una maniobra por ataque.\nAprendes dos maniobras adicionales de tu elecciÃ³n en los niveles 7, 10 y 15.\nCada vez que aprendes una nueva maniobra, puedes reemplazar otra maniobra ya conocida por otra.\n\nDado de Superioridad\nTienes cuatro dados de superioridad, que son d8.\nUn dado de superioridad se gasta cuando lo usas.\nRecuperas todos tus dados de superioridad gastados cuando finalizas un descanso corto o prolongado.\nGanas un dado de superioridad en el nivel 7 y otro mÃ¡s en el nivel 15.\n\nTiradas de SalvaciÃ³n\nAlgunas de tus maniobras requieren que tu objetivo realice una tirada de salvaciÃ³n para resistir los efectos de la maniobra.\nLa CD de la tirada de salvaciÃ³n se calcula de la siguiente manera:\nCD de la SalvaciÃ³n de la Maniobra = 8 + bonificador de competencia + modificador",
                                                   "checkboxStates":  [
                                                                          true,
                                                                          true,
@@ -533,9 +541,9 @@
                                                   "resetType":  "none"
                                               },
                                               {
-                                                  "traitName":  "Ataque de presición",
+                                                  "traitName":  "Ataque de presiciÃ³n",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Cuando realizas una tirada de ataque con arma contra una criatura, puedes gastar un dado de superioridad para añadirlo a la tirada.\nPuedes usar esta maniobra antes o después de la tirada de ataque, pero debe ser antes de que ningún efecto del ataque sea aplicado.",
+                                                  "traitDescription":  "Cuando realizas una tirada de ataque con arma contra una criatura, puedes gastar un dado de superioridad para aÃ±adirlo a la tirada.\nPuedes usar esta maniobra antes o despuÃ©s de la tirada de ataque, pero debe ser antes de que ningÃºn efecto del ataque sea aplicado.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -549,7 +557,7 @@
                                               {
                                                   "traitName":  "Ataque de Derribo",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para intentar derribar al objetivo.\nAñade el dado de superioridad a la tirada de daño del ataque, y si el objetivo es de tamaño Grande o más pequeño, debe realizar una tirada de salvación de Fuerza.\nSi falla, el objetivo es derribado",
+                                                  "traitDescription":  "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para intentar derribar al objetivo.\nAÃ±ade el dado de superioridad a la tirada de daÃ±o del ataque, y si el objetivo es de tamaÃ±o Grande o mÃ¡s pequeÃ±o, debe realizar una tirada de salvaciÃ³n de Fuerza.\nSi falla, el objetivo es derribado",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -561,9 +569,9 @@
                                                   "resetType":  "none"
                                               },
                                               {
-                                                  "traitName":  "Ataque Táctico (deberían ser 3 en nvl 6, podríamos borrar este)",
+                                                  "traitName":  "Ataque TÃ¡ctico (deberÃ­an ser 3 en nvl 6, podrÃ­amos borrar este)",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para que uno de tus aliados pueda maniobrar hasta una posición más ventajosa.\nAñade el dado de superioridad a la tirada de daño del ataque, y escoge una criatura amistosa que pueda verte o escucharte.\nEsa criatura puede usar su reacción para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad de la criatura a la que has atacado.",
+                                                  "traitDescription":  "Cuando impactas a una criatura con un ataque con arma, puedes gastar un dado de superioridad para que uno de tus aliados pueda maniobrar hasta una posiciÃ³n mÃ¡s ventajosa.\nAÃ±ade el dado de superioridad a la tirada de daÃ±o del ataque, y escoge una criatura amistosa que pueda verte o escucharte.\nEsa criatura puede usar su reacciÃ³n para moverse hasta la mitad de su velocidad sin provocar ataques de oportunidad de la criatura a la que has atacado.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -577,7 +585,7 @@
                                               {
                                                   "traitName":  "Contraataque",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Cuando una criatura falla un ataque cuerpo a cuerpo contra ti, puedes usar tu reacción y gastar un dado de superioridad para realizar un ataque cuerpo a cuerpo de arma contra la criatura.\nSi golpeas, añade el dado de superioridad a la tirada de daño del ataque.",
+                                                  "traitDescription":  "Cuando una criatura falla un ataque cuerpo a cuerpo contra ti, puedes usar tu reacciÃ³n y gastar un dado de superioridad para realizar un ataque cuerpo a cuerpo de arma contra la criatura.\nSi golpeas, aÃ±ade el dado de superioridad a la tirada de daÃ±o del ataque.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -598,4 +606,4 @@
 
                    ]
 }
-
+```

@@ -1,4 +1,12 @@
-﻿{
+# Skitrixx "Stix Ernesto" Koboldtanz
+
+> Archivo generado automaticamente desde el JSON principal del Toolset.
+> No editar manualmente.
+
+## Datos completos
+
+```json
+{
     "characterTempHp":  "0",
     "currentHitDice":  "0",
     "insp":  1,
@@ -13,12 +21,12 @@
                                ],
     "playerLanguageProficiency":  [
                                       "Comun",
-                                      "Dracónico",
+                                      "DracÃ³nico",
                                       "Canto de Ladron"
                                   ],
     "playerToolsProficiency":  [
                                    "Juego de Cartas para Jugar",
-                                   "Herramientas de Ladrón"
+                                   "Herramientas de LadrÃ³n"
                                ],
     "initiativeButton":  "+5",
     "AC":  "17",
@@ -177,7 +185,7 @@
                                       "eighthColumn":  "2",
                                       "damageBonus":  "2",
                                       "tenthColumn":  "Sutil, Ligero, Monje",
-                                      "elventhColumn":  "Cuando sacas un 20 en tu tirada de ataque con esta arma mágica, el objetivo sufre 7 puntos de daño extra del tipo del arma.",
+                                      "elventhColumn":  "Cuando sacas un 20 en tu tirada de ataque con esta arma mÃ¡gica, el objetivo sufre 7 puntos de daÃ±o extra del tipo del arma.",
                                       "twelvethColumn":  "Perforante",
                                       "ninthColumn":  {
                                                           "attacks":  true,
@@ -199,7 +207,7 @@
                                                          "prepared":  "false"
                                                      },
                                                      {
-                                                         "name":  "Ilusión menor",
+                                                         "name":  "IlusiÃ³n menor",
                                                          "prepared":  "false"
                                                      },
                                                      {
@@ -218,7 +226,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Púas plateadas",
+                                                           "name":  "PÃºas plateadas",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -244,7 +252,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Sugestión",
+                                                           "name":  "SugestiÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -332,7 +340,7 @@
                                                 "equipped":  true
                                             },
                                             {
-                                                "name":  "Botas Élficas",
+                                                "name":  "Botas Ã‰lficas",
                                                 "uniqueId":  "item-1759104804159-7545ab37",
                                                 "quantity":  1,
                                                 "weight":  0.1,
@@ -350,7 +358,7 @@
                                         ],
                           "backpack":  [
                                            {
-                                               "name":  "Túnicas",
+                                               "name":  "TÃºnicas",
                                                "uniqueId":  "item-1758766476988-29245863",
                                                "quantity":  1,
                                                "weight":  4,
@@ -451,7 +459,7 @@
                                "notes":  [
                                              {
                                                  "noteTitle":  "aux inventory",
-                                                 "noteContent":  "piedra\nalgodon\nticket de un bar\nflyer para la gran feria del queso\npalo con estopa\nMonedas de Cu x 50\nLibro de hechizos del goblin\ntrampa arcana del más alto nivel (desintegrar)\nanillo de oro\ncarta con la firma de la orden noble para recuperar el amuleto del oráculo\nReceta de poción de invisibilidad\nAnillo con el sello del gobernador\nSobre con promesa de pago\nKragor el buscador, puede mejorar el arma corta\nEstuche que ya he visto - cadaver charro de la taberna\nBolsa con GP\n7 reserva --\u003e mago\n5 lucientes --\u003e mago\nLibro para magia 101 del mercador arcano\nPergamino de kobolds del mercader arcano\nPapel doblado del jefe de la guardia para ponerle al emo\nAmuleto con dije del kobold tuerto\nPerla tornasolada aeloriana (Mago)\n4 phase spider fangs\nllaves delmausoleo de la ciudad alta\n\n---\n\nSir Edric de Amondear\nEpitafio: “Fue ley, fue luz, fue escudo. Cayó sin rendirse.”\n\nLady Calendra Lys de Norwyn\nEpitafio: “Sus manos sanaban, su juicio pesaba.”\n\nSir Baltras del Alba Eterna\nEpitafio: “En la luz juzgó. En la sombra, no dudó.”\n\nDame Ysmena de Corlanth\nEpitafio: “Donde otros dudaron, ella se adelantó.”\n\nSir Tavric el Implacable\nEpitafio: “Solo dobló la rodilla ante la ley.”\n\nDame Lucille Ferrant\nEpitafio: “Caminó por el filo del juicio.”\n\nSir Galvain Mornclad\nEpitafio: “Habló con su espada, respondió con su fe.”\n\nLady Mariel del Silencio\nCapa de las Juramentadas (permite lanzar silencio 1/día).\n\n---\n\nKobold tuerto: lider que hizo una alianza con humanos\nAntes del paso de montaña de valverde está la otra tibu.\n\n\n"
+                                                 "noteContent":  "piedra\nalgodon\nticket de un bar\nflyer para la gran feria del queso\npalo con estopa\nMonedas de Cu x 50\nLibro de hechizos del goblin\ntrampa arcana del mÃ¡s alto nivel (desintegrar)\nanillo de oro\ncarta con la firma de la orden noble para recuperar el amuleto del orÃ¡culo\nReceta de pociÃ³n de invisibilidad\nAnillo con el sello del gobernador\nSobre con promesa de pago\nKragor el buscador, puede mejorar el arma corta\nEstuche que ya he visto - cadaver charro de la taberna\nBolsa con GP\n7 reserva --\u003e mago\n5 lucientes --\u003e mago\nLibro para magia 101 del mercador arcano\nPergamino de kobolds del mercader arcano\nPapel doblado del jefe de la guardia para ponerle al emo\nAmuleto con dije del kobold tuerto\nPerla tornasolada aeloriana (Mago)\n4 phase spider fangs\nllaves delmausoleo de la ciudad alta\n\n---\n\nSir Edric de Amondear\nEpitafio: â€œFue ley, fue luz, fue escudo. CayÃ³ sin rendirse.â€\n\nLady Calendra Lys de Norwyn\nEpitafio: â€œSus manos sanaban, su juicio pesaba.â€\n\nSir Baltras del Alba Eterna\nEpitafio: â€œEn la luz juzgÃ³. En la sombra, no dudÃ³.â€\n\nDame Ysmena de Corlanth\nEpitafio: â€œDonde otros dudaron, ella se adelantÃ³.â€\n\nSir Tavric el Implacable\nEpitafio: â€œSolo doblÃ³ la rodilla ante la ley.â€\n\nDame Lucille Ferrant\nEpitafio: â€œCaminÃ³ por el filo del juicio.â€\n\nSir Galvain Mornclad\nEpitafio: â€œHablÃ³ con su espada, respondiÃ³ con su fe.â€\n\nLady Mariel del Silencio\nCapa de las Juramentadas (permite lanzar silencio 1/dÃ­a).\n\n---\n\nKobold tuerto: lider que hizo una alianza con humanos\nAntes del paso de montaÃ±a de valverde estÃ¡ la otra tibu.\n\n\n"
                                              }
                                          ]
                            },
@@ -467,4 +475,4 @@
 
                    ]
 }
-
+```

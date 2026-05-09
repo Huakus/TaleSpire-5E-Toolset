@@ -1,4 +1,12 @@
-﻿{
+# Borgar
+
+> Archivo generado automaticamente desde el JSON principal del Toolset.
+> No editar manualmente.
+
+## Datos completos
+
+```json
+{
     "characterTempHp":  "",
     "currentHitDice":  "1",
     "insp":  0,
@@ -19,14 +27,14 @@
                                   ],
     "playerToolsProficiency":  [
                                    "Juego de dados",
-                                   "Vehículos (Tierra)"
+                                   "VehÃ­culos (Tierra)"
                                ],
     "initiativeButton":  "+7",
     "AC":  "16",
     "speed":  "40ft.",
     "characterLevel":  "3",
     "playerXP":  "900",
-    "playerClass":  "Semiorco\nBárbaro\nSoldado\n",
+    "playerClass":  "Semiorco\nBÃ¡rbaro\nSoldado\n",
     "currentCharacterHP":  "75",
     "maxCharacterHP":  "75",
     "strengthScore":  "22",
@@ -105,7 +113,7 @@
                                       "eighthColumn":  "1",
                                       "damageBonus":  "1",
                                       "tenthColumn":  "Sutil, Ligero, Monje",
-                                      "elventhColumn":  "Una espada pequeña y versátil, ideal para el combate rápido y cuerpo a cuerpo, a menudo utilizada para dar estocadas y cortes.",
+                                      "elventhColumn":  "Una espada pequeÃ±a y versÃ¡til, ideal para el combate rÃ¡pido y cuerpo a cuerpo, a menudo utilizada para dar estocadas y cortes.",
                                       "twelvethColumn":  "Perforante",
                                       "ninthColumn":  {
                                                           "attacks":  true,
@@ -129,7 +137,7 @@
                                       "weaponType":  "Cuerpo a cuerpo",
                                       "eighthColumn":  "1",
                                       "damageBonus":  "1",
-                                      "tenthColumn":  "Versátil",
+                                      "tenthColumn":  "VersÃ¡til",
                                       "elventhColumn":  "",
                                       "twelvethColumn":  "Cortante",
                                       "ninthColumn":  {
@@ -155,7 +163,7 @@
                                       "eighthColumn":  "",
                                       "damageBonus":  "",
                                       "tenthColumn":  "Arrojadiza, Monk",
-                                      "elventhColumn":  "Una lanza arrojadiza liviana, diseñada para ataques a distancia, con un diseño simple para un fácil manejo y golpes penetrantes efectivos.",
+                                      "elventhColumn":  "Una lanza arrojadiza liviana, diseÃ±ada para ataques a distancia, con un diseÃ±o simple para un fÃ¡cil manejo y golpes penetrantes efectivos.",
                                       "twelvethColumn":  "Perfornate",
                                       "ninthColumn":  {
                                                           "attacks":  true,
@@ -323,7 +331,7 @@
                                                "cost":  "1 cp"
                                            },
                                            {
-                                               "name":  "Raciones (1 día)",
+                                               "name":  "Raciones (1 dÃ­a)",
                                                "uniqueId":  "item-1776392652181-30501a29",
                                                "quantity":  10,
                                                "weight":  20,
@@ -337,7 +345,7 @@
                                                "cost":  "2 sp"
                                            },
                                            {
-                                               "name":  "Cuerda de cáñamo (50 pies)",
+                                               "name":  "Cuerda de cÃ¡Ã±amo (50 pies)",
                                                "uniqueId":  "item-1776392652183-0ebbd371",
                                                "quantity":  1,
                                                "weight":  10,
@@ -364,7 +372,7 @@
                                "group-chevron":  false,
                                "traits":  [
                                               {
-                                                  "traitName":  "Visión en la oscuridad",
+                                                  "traitName":  "VisiÃ³n en la oscuridad",
                                                   "cheveron":  true,
                                                   "traitDescription":  "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
                                                   "checkboxStates":  [
@@ -380,7 +388,7 @@
                                               {
                                                   "traitName":  "Resistencia Incansable",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Cuando te ves reducido a 0 Puntos de Golpe pero no estás totalmente muerto, puedes volver a tener 1 punto de golpe en su lugar.\nNo puedes volver usar este rasgo hasta que no hayas completado un descanso prolongado.",
+                                                  "traitDescription":  "Cuando te ves reducido a 0 Puntos de Golpe pero no estÃ¡s totalmente muerto, puedes volver a tener 1 punto de golpe en su lugar.\nNo puedes volver usar este rasgo hasta que no hayas completado un descanso prolongado.",
                                                   "checkboxStates":  [
                                                                          false
                                                                      ],
@@ -394,7 +402,7 @@
                                               {
                                                   "traitName":  "Ataques Salvajes",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Cuando saques un impacto crítico con un ataque con arma cuerpo a cuerpo, puedes tirar otra vez uno de los dados de daño del arma y añadirlo al daño extra por el impacto crítico.",
+                                                  "traitDescription":  "Cuando saques un impacto crÃ­tico con un ataque con arma cuerpo a cuerpo, puedes tirar otra vez uno de los dados de daÃ±o del arma y aÃ±adirlo al daÃ±o extra por el impacto crÃ­tico.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -408,7 +416,7 @@
                                               {
                                                   "traitName":  "Defensa sin Armadura",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Mientras no lleves ninguna armadura, tu Clase de Armadura será de 10 + Modificador de Destreza + Modificador de Constitución.\nPuedes usar un escudo y aun así beneficiarte de este rasgo.",
+                                                  "traitDescription":  "Mientras no lleves ninguna armadura, tu Clase de Armadura serÃ¡ de 10 + Modificador de Destreza + Modificador de ConstituciÃ³n.\nPuedes usar un escudo y aun asÃ­ beneficiarte de este rasgo.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -422,7 +430,7 @@
                                               {
                                                   "traitName":  "Gran Experto en Armas",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Como siempre estás vigilando el peligro, ganas los siguientes beneficios:\n• Ganas un +5 a la iniciativa.\n• No puedes ser sorprendido mientras estés consciente.\n• Otras criaturas no pueden tomar ventaja en tiradas de ataque contra ti como resultado de estar ocultos de ti.",
+                                                  "traitDescription":  "Como siempre estÃ¡s vigilando el peligro, ganas los siguientes beneficios:\nâ€¢ Ganas un +5 a la iniciativa.\nâ€¢ No puedes ser sorprendido mientras estÃ©s consciente.\nâ€¢ Otras criaturas no pueden tomar ventaja en tiradas de ataque contra ti como resultado de estar ocultos de ti.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -438,7 +446,7 @@
                                               {
                                                   "traitName":  "Ataque Extra",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "A partir del nivel 5, puedes atacar dos veces, en lugar de una, siempre que uses la acción de Atacar en tu turno.",
+                                                  "traitDescription":  "A partir del nivel 5, puedes atacar dos veces, en lugar de una, siempre que uses la acciÃ³n de Atacar en tu turno.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -452,7 +460,7 @@
                                               {
                                                   "traitName":  "Movimiento Rapido",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "A partir del nivel 5, tu velocidad se incrementa en 10 pies (3 metros) mientras no estés usando armadura pesada.",
+                                                  "traitDescription":  "A partir del nivel 5, tu velocidad se incrementa en 10 pies (3 metros) mientras no estÃ©s usando armadura pesada.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -466,7 +474,7 @@
                                               {
                                                   "traitName":  "Furia Inconsciente",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Empezando en el nivel 6, no puedes ser encantado o asustado mientras estés en furia.\nSi estás encantado o asustado cuando entras en furia, el efecto es suspendido durante la duración de esta. ",
+                                                  "traitDescription":  "Empezando en el nivel 6, no puedes ser encantado o asustado mientras estÃ©s en furia.\nSi estÃ¡s encantado o asustado cuando entras en furia, el efecto es suspendido durante la duraciÃ³n de esta. ",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -480,7 +488,7 @@
                                               {
                                                   "traitName":  "Instinto Salvaje",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "A partir del nivel 7, tus instintos son tan precisos que tienes ventaja en las tiradas de iniciativa.\nDe forma adicional, si eres sorprendido al principio del combate y no estás incapacitado, puedes actuar normalmente en tu primer turno, pero sólo si entras en furia antes de hacer otra cosa en ese turno. ",
+                                                  "traitDescription":  "A partir del nivel 7, tus instintos son tan precisos que tienes ventaja en las tiradas de iniciativa.\nDe forma adicional, si eres sorprendido al principio del combate y no estÃ¡s incapacitado, puedes actuar normalmente en tu primer turno, pero sÃ³lo si entras en furia antes de hacer otra cosa en ese turno. ",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -500,7 +508,7 @@
                                               {
                                                   "traitName":  "Furia",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "En combate, luchas con una ferocidad primitiva.\nEn tu turno, puedes entrar en furia como acción adicional.\nMientras estás en furia ganas los siguientes beneficios si no llevas armadura pesada:\n\n● Tienes ventaja en las pruebas y tiradas de salvación de Fuerza.\n● Cuando realizas un ataque de cuerpo a cuerpo usando tu Fuerza, ganas un bonificador al daño que aumenta a medida que subes tu nivel de bárbaro, tal como muestra la columna de Daño de Furia en la tabla Bárbaro.\n● Tienes resistencia al daño contundente, perforante y cortante. Si tienes la capacidad de lanzar hechizos, no puedes lanzarlos o concentrarte en ellos mientras estés en estado de furia.\n\nTu furia tiene una duración de 1 minuto.\nTermina antes si caes inconsciente o si acaba tu turno y no has atacado a ninguna criatura hostil desde tu último turno, o no has recibido daño desde entonces.\nTambién puedes cancelar tu furia en tu turno como acción adicional.\nUna vez has entrado en furia un número de veces igual al número que aparece en la columna Furia de la tabla Bárbaro, debes realizar un descanso prolongado antes de poder entrar en furia de nuevo. ",
+                                                  "traitDescription":  "En combate, luchas con una ferocidad primitiva.\nEn tu turno, puedes entrar en furia como acciÃ³n adicional.\nMientras estÃ¡s en furia ganas los siguientes beneficios si no llevas armadura pesada:\n\nâ— Tienes ventaja en las pruebas y tiradas de salvaciÃ³n de Fuerza.\nâ— Cuando realizas un ataque de cuerpo a cuerpo usando tu Fuerza, ganas un bonificador al daÃ±o que aumenta a medida que subes tu nivel de bÃ¡rbaro, tal como muestra la columna de DaÃ±o de Furia en la tabla BÃ¡rbaro.\nâ— Tienes resistencia al daÃ±o contundente, perforante y cortante. Si tienes la capacidad de lanzar hechizos, no puedes lanzarlos o concentrarte en ellos mientras estÃ©s en estado de furia.\n\nTu furia tiene una duraciÃ³n de 1 minuto.\nTermina antes si caes inconsciente o si acaba tu turno y no has atacado a ninguna criatura hostil desde tu Ãºltimo turno, o no has recibido daÃ±o desde entonces.\nTambiÃ©n puedes cancelar tu furia en tu turno como acciÃ³n adicional.\nUna vez has entrado en furia un nÃºmero de veces igual al nÃºmero que aparece en la columna Furia de la tabla BÃ¡rbaro, debes realizar un descanso prolongado antes de poder entrar en furia de nuevo. ",
                                                   "checkboxStates":  [
                                                                          false,
                                                                          false
@@ -515,7 +523,7 @@
                                               {
                                                   "traitName":  "Ataque Temerario",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "Empezando en el nivel 2, puedes dejar a un lado tu defensa para atacar con feroz desesperación.\nCuando hagas tu primer ataque en tu turno, puedes decidir atacar de forma temeraria.\nHacerlo te da ventaja en un ataque de armas cuerpo a cuerpo que use Fuerza durante este turno, pero los ataques contra ti tienen ventaja hasta el siguiente turno.",
+                                                  "traitDescription":  "Empezando en el nivel 2, puedes dejar a un lado tu defensa para atacar con feroz desesperaciÃ³n.\nCuando hagas tu primer ataque en tu turno, puedes decidir atacar de forma temeraria.\nHacerlo te da ventaja en un ataque de armas cuerpo a cuerpo que use Fuerza durante este turno, pero los ataques contra ti tienen ventaja hasta el siguiente turno.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -529,7 +537,7 @@
                                               {
                                                   "traitName":  "Sentido del Peligro",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "A partir del nivel 2, obtienes un asombroso sentido para percibir los elementos de tu entorno que presentan una amenaza, dándote ventaja cuando trates de apartarte del peligro.\nTienes ventaja en las tiradas de salvación de Destreza contra los efectos que puedas ver, como trampas y hechizos.\nPara beneficiarte de este rasgo no puedes estar ciego, sordo o incapacitado. ",
+                                                  "traitDescription":  "A partir del nivel 2, obtienes un asombroso sentido para percibir los elementos de tu entorno que presentan una amenaza, dÃ¡ndote ventaja cuando trates de apartarte del peligro.\nTienes ventaja en las tiradas de salvaciÃ³n de Destreza contra los efectos que puedas ver, como trampas y hechizos.\nPara beneficiarte de este rasgo no puedes estar ciego, sordo o incapacitado. ",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -543,9 +551,9 @@
                                                   "disadvantage":  false
                                               },
                                               {
-                                                  "traitName":  "Frenesí",
+                                                  "traitName":  "FrenesÃ­",
                                                   "cheveron":  true,
-                                                  "traitDescription":  "A partir del momento en el que eliges esta senda al nivel 3, puedes entrar en frenesí cuando estás en furia.\nSi lo haces, mientras dure tu furia, puedes hacer un único ataque cuerpo a cuerpo como acción adicional en cada uno de tus turnos después de entrar en frenesí.\nCuando tu furia termina, sufres un nivel de agotamiento, como se describe a continuación:\n\nAgotamiento:\nAlgunas habilidades especiales y peligros del entorno, como el hambre y las altas o bajas temperaturas, pueden llevar a una condición especial llamada agotado.\nLa condición agotado está dividida en 6 niveles.\nUn efecto puede darle a una criatura uno o más grados de agotamiento como está especificado en la siguiente descripción:\n\nNivel Efecto\n1 Desventaja en las pruebas de característica.\n2 Movimiento recudido a la mitad.\n3 Desventaja en tiradas de ataque y de salvación.\n4 Puntos de Golpe totales reducidos a la mitad.\n5 Movimiento recudido a 0.\n6 Muerte.\n\nSi una criatura que ya sufre la condición agotado, es afectada por otro efecto que cause la misma condición, su nivel actual de agotamiento se incrementa por la cantidad indicada en la descripción del efecto.\nUna criatura agotada sufre la penalización de su respectivo nivel de agotamiento y también la de los anteriores.\nPor ejemplo, una criatura que sufre de la condición agotada en el grado 2, reducirá su movimiento a la mitad y también tendrá desventaja en las pruebas de característica.\nUn efecto que remueva la condición agotado, reducirá en la criatura la cantidad de grados de agotamiento especificada por el efecto, para que todos los efectos de la condición terminen, el grado de agotamiento de la criatura debe ser reducido a 0.\nTerminar un descanso prolongado reduce en 1 grado el nivel de agotamiento de la criatura, siempre y cuando esta haya comido y bebido algo.",
+                                                  "traitDescription":  "A partir del momento en el que eliges esta senda al nivel 3, puedes entrar en frenesÃ­ cuando estÃ¡s en furia.\nSi lo haces, mientras dure tu furia, puedes hacer un Ãºnico ataque cuerpo a cuerpo como acciÃ³n adicional en cada uno de tus turnos despuÃ©s de entrar en frenesÃ­.\nCuando tu furia termina, sufres un nivel de agotamiento, como se describe a continuaciÃ³n:\n\nAgotamiento:\nAlgunas habilidades especiales y peligros del entorno, como el hambre y las altas o bajas temperaturas, pueden llevar a una condiciÃ³n especial llamada agotado.\nLa condiciÃ³n agotado estÃ¡ dividida en 6 niveles.\nUn efecto puede darle a una criatura uno o mÃ¡s grados de agotamiento como estÃ¡ especificado en la siguiente descripciÃ³n:\n\nNivel Efecto\n1 Desventaja en las pruebas de caracterÃ­stica.\n2 Movimiento recudido a la mitad.\n3 Desventaja en tiradas de ataque y de salvaciÃ³n.\n4 Puntos de Golpe totales reducidos a la mitad.\n5 Movimiento recudido a 0.\n6 Muerte.\n\nSi una criatura que ya sufre la condiciÃ³n agotado, es afectada por otro efecto que cause la misma condiciÃ³n, su nivel actual de agotamiento se incrementa por la cantidad indicada en la descripciÃ³n del efecto.\nUna criatura agotada sufre la penalizaciÃ³n de su respectivo nivel de agotamiento y tambiÃ©n la de los anteriores.\nPor ejemplo, una criatura que sufre de la condiciÃ³n agotada en el grado 2, reducirÃ¡ su movimiento a la mitad y tambiÃ©n tendrÃ¡ desventaja en las pruebas de caracterÃ­stica.\nUn efecto que remueva la condiciÃ³n agotado, reducirÃ¡ en la criatura la cantidad de grados de agotamiento especificada por el efecto, para que todos los efectos de la condiciÃ³n terminen, el grado de agotamiento de la criatura debe ser reducido a 0.\nTerminar un descanso prolongado reduce en 1 grado el nivel de agotamiento de la criatura, siempre y cuando esta haya comido y bebido algo.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -566,4 +574,4 @@
 
                    ]
 }
-
+```

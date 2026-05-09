@@ -1,4 +1,12 @@
-﻿{
+# JuanPi
+
+> Archivo generado automaticamente desde el JSON principal del Toolset.
+> No editar manualmente.
+
+## Datos completos
+
+```json
+{
     "characterTempHp":  "",
     "currentHitDice":  "1",
     "insp":  1,
@@ -13,12 +21,12 @@
                                ],
     "playerLanguageProficiency":  [
                                       "Comun",
-                                      "Dracónico",
+                                      "DracÃ³nico",
                                       "Canto de Ladron"
                                   ],
     "playerToolsProficiency":  [
                                    "Juego de Cartas para Jugar",
-                                   "Herramientas de Ladrón"
+                                   "Herramientas de LadrÃ³n"
                                ],
     "initiativeButton":  "+5",
     "AC":  "15",
@@ -229,4 +237,4 @@
 
                    ]
 }
-
+```

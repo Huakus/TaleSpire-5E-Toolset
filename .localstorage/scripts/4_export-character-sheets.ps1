@@ -1,21 +1,21 @@
 <#
 .SYNOPSIS
-  Exporta una hoja TXT por cada personaje del JSON principal del Toolset.
+Exporta una hoja TXT por cada personaje del JSON principal del Toolset.
 
 .DESCRIPTION
-  - Busca dentro de .localstorage un archivo que contenga el nodo "characters".
-  - Parsea el JSON principal con ConvertFrom-Json.
-  - Antes de parsear, reemplaza en memoria las keys vacias "": por "toolsetEmptyKey":.
-  - Genera un archivo .txt por personaje en ECE\Hojas.
-  - El nombre del archivo sale dinamicamente del nombre/key del personaje.
-  - Borra hojas viejas que ya no correspondan a personajes actuales.
-  - Corre en loop hasta recibir la senal de stop.
+Modo nuevo recomendado:
+- Ejecutar desde 2_orquestrator.ps1 con -RunOnce -Quiet.
+- El script no maneja el tick cuando se usa -RunOnce.
+
+Compatibilidad:
+- Si se ejecuta sin -RunOnce, mantiene el modo worker anterior con IntervalSeconds y StopSignalFile.
 #>
 
 param(
     [string]$StopSignalFile,
     [int]$IntervalSeconds = 10,
     [switch]$RunOnce,
+    [switch]$Quiet,
     [switch]$NoPauseOnError
 )
 
@@ -29,17 +29,19 @@ $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
 . $CommonLoggingScript
 Initialize-Logging -ScriptPath $PSCommandPath
+
 $LocalStorageDir = Split-Path -Parent $ScriptDir
 $OutputDir = Join-Path $LocalStorageDir 'ECE\Hojas'
 
-# Carpetas que no tiene sentido revisar al buscar el JSON principal.
 $IgnoredDirectoryNames = @(
     'Hojas',
+    'Lore',
     '.runtime',
     '.tmp.driveupload',
     '.vscode',
     '.git',
-    'node_modules'
+    'node_modules',
+    'scripts'
 )
 
 # ============================================================
@@ -58,16 +60,18 @@ function Test-ShouldStop {
     return ($StopSignalFile -and (Test-Path -LiteralPath $StopSignalFile))
 }
 
-function Ensure-Directory([string]$Path) {
+function Ensure-Directory {
+    param([Parameter(Mandatory = $true)] [string]$Path)
+
     if (-not (Test-Path -LiteralPath $Path)) {
         [void](New-Item -ItemType Directory -Force -Path $Path)
     }
 }
 
-function Remove-Accents([string]$Text) {
-    if ([string]::IsNullOrWhiteSpace($Text)) {
-        return ''
-    }
+function Remove-Accents {
+    param([string]$Text)
+
+    if ([string]::IsNullOrWhiteSpace($Text)) { return '' }
 
     $normalized = $Text.Normalize([Text.NormalizationForm]::FormD)
     $builder = New-Object System.Text.StringBuilder
@@ -82,27 +86,30 @@ function Remove-Accents([string]$Text) {
     return $builder.ToString().Normalize([Text.NormalizationForm]::FormC)
 }
 
-function ConvertTo-SafeFilePart([string]$Name) {
+function ConvertTo-SafeFilePart {
+    param([string]$Name)
+
     $value = Remove-Accents $Name
     $value = $value.ToLowerInvariant()
     $value = $value -replace '[^a-z0-9]+', '_'
     $value = $value -replace '_+', '_'
     $value = $value.Trim('_')
 
-    if ([string]::IsNullOrWhiteSpace($value)) {
-        return 'sin_nombre'
-    }
+    if ([string]::IsNullOrWhiteSpace($value)) { return 'sin_nombre' }
 
     return $value
 }
 
-function Get-TextFileCandidates([string]$RootPath) {
+function Get-TextFileCandidates {
+    param([Parameter(Mandatory = $true)] [string]$RootPath)
+
     $allFiles = Get-ChildItem -LiteralPath $RootPath -File -Recurse -ErrorAction SilentlyContinue
 
     foreach ($file in $allFiles) {
-        $directoryNames = $file.DirectoryName.Substring($RootPath.Length).Split([IO.Path]::DirectorySeparatorChar, [StringSplitOptions]::RemoveEmptyEntries)
-        $isIgnored = $false
+        $relativeDirectory = $file.DirectoryName.Substring($RootPath.Length)
+        $directoryNames = $relativeDirectory.Split([IO.Path]::DirectorySeparatorChar, [StringSplitOptions]::RemoveEmptyEntries)
 
+        $isIgnored = $false
         foreach ($dirName in $directoryNames) {
             if ($IgnoredDirectoryNames -contains $dirName) {
                 $isIgnored = $true
@@ -110,147 +117,190 @@ function Get-TextFileCandidates([string]$RootPath) {
             }
         }
 
-        if ($isIgnored) {
-            continue
-        }
+        if ($isIgnored) { continue }
 
-        # El JSON principal de TaleSpire puede venir sin extension.
         if ($file.Extension -eq '.json' -or [string]::IsNullOrWhiteSpace($file.Extension)) {
             $file
         }
     }
 }
 
-function ConvertFrom-ToolsetJson([string]$JsonText) {
-    # Windows PowerShell se rompe con propiedades cuyo nombre es vacio: "": 0
-    # Lo renombramos solo en memoria. Opcion A: los archivos exportados quedan con toolsetEmptyKey.
-    $fixedJsonText = $JsonText -replace '([\{,]\s*)""\s*:', '$1"toolsetEmptyKey":'
-    return $fixedJsonText | ConvertFrom-Json
+function ConvertFrom-ToolsetJson {
+    param([Parameter(Mandatory = $true)] [string]$JsonText)
+
+    # Windows PowerShell falla con propiedades cuyo nombre es vacio: "":
+    $safeJson = $JsonText -replace '""\s*:', '"toolsetEmptyKey":'
+    return $safeJson | ConvertFrom-Json
 }
 
-function Find-MainJsonFile {
-    $checked = 0
-    $withCharactersText = 0
-    $parseErrors = @()
-
-    $candidates = Get-TextFileCandidates $LocalStorageDir
-
-    foreach ($file in $candidates) {
-        $checked++
-
-        try {
-            $text = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8
-
-            if ($text -notmatch '"characters"\s*:') {
-                continue
-            }
-
-            $withCharactersText++
-            $data = ConvertFrom-ToolsetJson $text
-
-            if ($null -ne $data.PSObject.Properties['characters']) {
-                return [PSCustomObject]@{
-                    Path = $file.FullName
-                    Data = $data
-                    Checked = $checked
-                    WithCharactersText = $withCharactersText
-                    ParseErrors = $parseErrors
-                }
-            }
-        }
-        catch {
-            $parseErrors += ('{0}: {1}' -f $file.FullName, $_.Exception.Message)
-        }
-    }
-
-    return [PSCustomObject]@{
-        Path = $null
-        Data = $null
-        Checked = $checked
-        WithCharactersText = $withCharactersText
-        ParseErrors = $parseErrors
-    }
-}
-
-function Write-JsonIfChanged {
+function Get-PropertyValue {
     param(
-        [string]$Path,
-        [string]$Content
+        [Parameter(Mandatory = $true)] $Object,
+        [Parameter(Mandatory = $true)] [string[]]$Names
     )
 
-    $shouldWrite = $true
+    if ($null -eq $Object) { return $null }
 
-    if (Test-Path -LiteralPath $Path) {
-        $existing = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
-        if ($existing.TrimEnd() -eq $Content.TrimEnd()) {
-            $shouldWrite = $false
-        }
+    foreach ($name in $Names) {
+        $property = $Object.PSObject.Properties | Where-Object { $_.Name -eq $name } | Select-Object -First 1
+        if ($property) { return $property.Value }
     }
 
-    if ($shouldWrite) {
-        $Content | Set-Content -LiteralPath $Path -Encoding UTF8
-        Write-Log ('EXPORTADO {0}' -f $Path)
-        return $true
-    }
-
-    return $false
+    return $null
 }
 
-function Export-CharacterSheetsOnce {
-    Ensure-Directory $OutputDir
+function Find-ToolsetJsonWithCharacters {
+    $candidates = Get-TextFileCandidates -RootPath $LocalStorageDir |
+        Sort-Object Length -Descending
 
-    $mainJson = Find-MainJsonFile
+    foreach ($file in $candidates) {
+        try {
+            $text = Get-Content -LiteralPath $file.FullName -Raw -ErrorAction Stop
 
-    if (-not $mainJson.Path) {
-        $message = 'WARNING: No se encontro ningun JSON principal con nodo characters. Carpeta revisada recursivamente: {0}. Archivos candidatos revisados={1}, con texto characters={2}.' -f $LocalStorageDir, $mainJson.Checked, $mainJson.WithCharactersText
+            if ($text -notmatch '"characters"') { continue }
 
-        if ($mainJson.ParseErrors.Count -gt 0) {
-            $message += ' Errores de parseo: ' + ($mainJson.ParseErrors -join ' | ')
+            $json = ConvertFrom-ToolsetJson -JsonText $text
+            $characters = Get-PropertyValue -Object $json -Names @('characters')
+
+            if ($characters) {
+                return [PSCustomObject]@{
+                    File = $file
+                    Json = $json
+                    Characters = $characters
+                }
+            }
+        } catch {
+            continue
+        }
+    }
+
+    return $null
+}
+
+function Convert-CharacterContainerToList {
+    param([Parameter(Mandatory = $true)] $Characters)
+
+    $result = New-Object System.Collections.Generic.List[object]
+
+    if ($Characters -is [System.Array]) {
+        foreach ($character in $Characters) {
+            $name = Get-PropertyValue -Object $character -Names @('name', 'nombre', 'characterName')
+            if ([string]::IsNullOrWhiteSpace($name)) { $name = 'sin_nombre' }
+
+            $result.Add([PSCustomObject]@{
+                Name = [string]$name
+                Value = $character
+            })
         }
 
-        Write-Log $message
+        return $result
+    }
+
+    foreach ($property in $Characters.PSObject.Properties) {
+        $character = $property.Value
+        $name = Get-PropertyValue -Object $character -Names @('name', 'nombre', 'characterName')
+        if ([string]::IsNullOrWhiteSpace($name)) { $name = $property.Name }
+
+        $result.Add([PSCustomObject]@{
+            Name = [string]$name
+            Value = $character
+        })
+    }
+
+    return $result
+}
+
+function Convert-CharacterToText {
+    param(
+        [Parameter(Mandatory = $true)] [string]$Name,
+        [Parameter(Mandatory = $true)] $Character
+    )
+
+    $lines = New-Object System.Collections.Generic.List[string]
+    $lines.Add("# $Name")
+    $lines.Add('')
+    $lines.Add('> Archivo generado automaticamente desde el JSON principal del Toolset.')
+    $lines.Add('> No editar manualmente.')
+    $lines.Add('')
+
+    $class = Get-PropertyValue -Object $Character -Names @('class', 'clase')
+    $race = Get-PropertyValue -Object $Character -Names @('race', 'raza')
+    $level = Get-PropertyValue -Object $Character -Names @('level', 'nivel')
+
+    if ($race -or $class -or $level) {
+        $lines.Add('## Resumen')
+        if ($race) { $lines.Add("- Raza: $race") }
+        if ($class) { $lines.Add("- Clase: $class") }
+        if ($level) { $lines.Add("- Nivel: $level") }
+        $lines.Add('')
+    }
+
+    $lines.Add('## Datos completos')
+    $lines.Add('')
+    $lines.Add('```json')
+    $lines.Add(($Character | ConvertTo-Json -Depth 100))
+    $lines.Add('```')
+    $lines.Add('')
+
+    return ($lines -join [Environment]::NewLine)
+}
+
+function Write-TextIfChanged {
+    param(
+        [Parameter(Mandatory = $true)] [string]$Path,
+        [Parameter(Mandatory = $true)] [string]$Content
+    )
+
+    $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+
+    if (Test-Path -LiteralPath $Path) {
+        $previous = [System.IO.File]::ReadAllText($Path)
+        if ($previous -eq $Content) { return $false }
+    }
+
+    [System.IO.File]::WriteAllText($Path, $Content, $utf8NoBom)
+    return $true
+}
+
+function Invoke-ExportCharacterSheetsOnce {
+    Ensure-Directory $OutputDir
+
+    $source = Find-ToolsetJsonWithCharacters
+    if (-not $source) {
+        Write-Log 'WARNING: No se encontro un JSON principal con nodo characters.' -Color 'Yellow'
         return
     }
 
-    $characters = $mainJson.Data.characters
-    $expectedFiles = @{}
-    $exportedCount = 0
-    $updatedCount = 0
+    $characters = Convert-CharacterContainerToList -Characters $source.Characters
+    $expectedFiles = New-Object System.Collections.Generic.HashSet[string]
+    $changedCount = 0
+    $removedCount = 0
 
-    foreach ($characterProperty in $characters.PSObject.Properties) {
-        $characterName = $characterProperty.Name
-        $characterData = $characterProperty.Value
+    foreach ($entry in $characters) {
+        $safeName = ConvertTo-SafeFilePart $entry.Name
+        $fileName = "$safeName.txt"
+        $path = Join-Path $OutputDir $fileName
+        [void]$expectedFiles.Add($path.ToLowerInvariant())
 
-        $safeName = ConvertTo-SafeFilePart $characterName
-        $fileName = 'hoja_{0}.txt' -f $safeName
-        $filePath = Join-Path $OutputDir $fileName
+        $content = Convert-CharacterToText -Name $entry.Name -Character $entry.Value
 
-        $expectedFiles[$fileName.ToLowerInvariant()] = $true
-
-        # Opcion A: la key vacia queda exportada como toolsetEmptyKey. El contenido sigue siendo JSON, pero el archivo es .txt.
-        $characterJson = $characterData | ConvertTo-Json -Depth 100
-        $characterJson = $characterJson.TrimEnd() + [Environment]::NewLine
-
-        $exportedCount++
-        if (Write-JsonIfChanged -Path $filePath -Content $characterJson) {
-            $updatedCount++
+        if (Write-TextIfChanged -Path $path -Content $content) {
+            $changedCount++
+            Write-Log ("EXPORTADO hoja: {0}" -f $fileName)
         }
     }
 
-    # Borra hojas anteriores que ya no correspondan a ningun personaje actual.
-    $deletedCount = 0
-    $oldFiles = Get-ChildItem -LiteralPath $OutputDir -File -Filter 'hoja_*.*' -ErrorAction SilentlyContinue
-
-    foreach ($oldFile in $oldFiles) {
-        if (-not $expectedFiles.ContainsKey($oldFile.Name.ToLowerInvariant())) {
-            Remove-Item -LiteralPath $oldFile.FullName -Force
-            Write-Log ('BORRADO {0}' -f $oldFile.FullName)
-            $deletedCount++
+    $existingFiles = Get-ChildItem -LiteralPath $OutputDir -Filter '*.txt' -File -ErrorAction SilentlyContinue
+    foreach ($file in $existingFiles) {
+        if (-not $expectedFiles.Contains($file.FullName.ToLowerInvariant())) {
+            Remove-Item -LiteralPath $file.FullName -Force
+            $removedCount++
+            Write-Log ("ELIMINADA hoja obsoleta: {0}" -f $file.Name)
         }
     }
 
-    if ($updatedCount -gt 0 -or $deletedCount -gt 0) {
-        Write-Log ('OK: Hojas procesadas={0}, actualizadas={1}, borradas={2}. Fuente: {3}' -f $exportedCount, $updatedCount, $deletedCount, $mainJson.Path)
+    if (-not $Quiet -and $changedCount -eq 0 -and $removedCount -eq 0) {
+        Write-Log 'Hojas de personaje actualizadas. No hay cambios.'
     }
 }
 
@@ -259,31 +309,22 @@ function Export-CharacterSheetsOnce {
 # ============================================================
 
 try {
-    Write-Log 'Iniciando exportador de hojas de personajes...'
-    Write-Log ('Carpeta destino: {0}' -f $OutputDir)
-
-    do {
-        Export-CharacterSheetsOnce
-
-        if ($RunOnce) {
-            break
-        }
-
-        if (-not (Test-ShouldStop)) {
-            Start-Sleep -Seconds $IntervalSeconds
-        }
-    } while (-not (Test-ShouldStop))
-
-    if (-not $RunOnce) {
-        Write-Log 'Senal de stop recibida. Ejecutando exportacion final de hojas...'
-        Export-CharacterSheetsOnce
+    if (-not $Quiet) {
+        Write-Log 'Iniciando exportador de hojas de personajes...'
+        Write-Log ("Carpeta destino: {0}" -f $OutputDir)
     }
 
-    Write-Log 'OK: Exportador de hojas finalizado.'
-    exit 0
-}
-catch {
-    Write-Log ('ERROR: {0}' -f $_.Exception.Message)
+    if ($RunOnce) {
+        Invoke-ExportCharacterSheetsOnce
+        return
+    }
+
+    while (-not (Test-ShouldStop)) {
+        Invoke-ExportCharacterSheetsOnce
+        Start-Sleep -Seconds $IntervalSeconds
+    }
+} catch {
+    Write-Log ("ERROR: {0}" -f $_.Exception.Message) -Color 'Red'
     Wait-BeforeExitOnError
-    exit 1
+    throw
 }

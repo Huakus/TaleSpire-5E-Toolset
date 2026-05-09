@@ -1,4 +1,12 @@
-﻿{
+# Adler
+
+> Archivo generado automaticamente desde el JSON principal del Toolset.
+> No editar manualmente.
+
+## Datos completos
+
+```json
+{
     "characterTempHp":  "",
     "currentHitDice":  "0",
     "insp":  0,
@@ -27,7 +35,7 @@
     "speed":  "35ft.",
     "characterLevel":  "8",
     "playerXP":  "34000",
-    "playerClass":  "Clérigo (SubClass)",
+    "playerClass":  "ClÃ©rigo (SubClass)",
     "currentCharacterHP":  "55",
     "maxCharacterHP":  "55",
     "strengthScore":  "15",
@@ -204,7 +212,7 @@
                                       "eighthColumn":  "",
                                       "damageBonus":  "",
                                       "tenthColumn":  "Sutil, Ligera, Arrojadiza, Monk",
-                                      "elventhColumn":  "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                                      "elventhColumn":  "Una daga es un arma cuerpo a cuerpo pequeÃ±a y versÃ¡til con una hoja puntiaguda, ideal para apuÃ±alar o lanzar.",
                                       "twelvethColumn":  "Perforante",
                                       "ninthColumn":  {
                                                           "attacks":  true,
@@ -238,7 +246,7 @@
                                                          "prepared":  "false"
                                                      },
                                                      {
-                                                         "name":  "Orientación divina",
+                                                         "name":  "OrientaciÃ³n divina",
                                                          "prepared":  "false"
                                                      },
                                                      {
@@ -265,7 +273,7 @@
                       "1st-level":  {
                                         "spells":  [
                                                        {
-                                                           "name":  "Bendición",
+                                                           "name":  "BendiciÃ³n",
                                                            "prepared":  "1"
                                                        },
                                                        {
@@ -297,15 +305,15 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Palabra de curación",
+                                                           "name":  "Palabra de curaciÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Perdición",
+                                                           "name":  "PerdiciÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Protección contra el bien y el mal",
+                                                           "name":  "ProtecciÃ³n contra el bien y el mal",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -347,7 +355,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Aumentar característica",
+                                                           "name":  "Aumentar caracterÃ­stica",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -383,11 +391,11 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Plegaria de curación",
+                                                           "name":  "Plegaria de curaciÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Protección contra veneno",
+                                                           "name":  "ProtecciÃ³n contra veneno",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -399,7 +407,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Vínculo protector",
+                                                           "name":  "VÃ­nculo protector",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -420,7 +428,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Círculo mágico",
+                                                           "name":  "CÃ­rculo mÃ¡gico",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -440,7 +448,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Espíritus guardianes",
+                                                           "name":  "EspÃ­ritus guardianes",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -464,23 +472,23 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Imponer maldición",
+                                                           "name":  "Imponer maldiciÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Luz del día",
+                                                           "name":  "Luz del dÃ­a",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Palabra de curación en masa",
+                                                           "name":  "Palabra de curaciÃ³n en masa",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Protección contra energía",
+                                                           "name":  "ProtecciÃ³n contra energÃ­a",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Quitar maldición",
+                                                           "name":  "Quitar maldiciÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -509,7 +517,7 @@
                       "4th-level":  {
                                         "spells":  [
                                                        {
-                                                           "name":  "Adivinación",
+                                                           "name":  "AdivinaciÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -525,7 +533,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Guardián de la fe",
+                                                           "name":  "GuardiÃ¡n de la fe",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -548,7 +556,7 @@
                       "5th-level":  {
                                         "spells":  [
                                                        {
-                                                           "name":  "Comunión",
+                                                           "name":  "ComuniÃ³n",
                                                            "prepared":  "1"
                                                        },
                                                        {
@@ -564,7 +572,7 @@
                                                            "prepared":  "1"
                                                        },
                                                        {
-                                                           "name":  "Golpe flamígero",
+                                                           "name":  "Golpe flamÃ­gero",
                                                            "prepared":  "1"
                                                        },
                                                        {
@@ -572,7 +580,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Escudriñamiento",
+                                                           "name":  "EscudriÃ±amiento",
                                                            "prepared":  "1"
                                                        },
                                                        {
@@ -682,7 +690,7 @@
                                               {
                                                   "traitName":  "Conocimiento de las Edades",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "Comenzando en el nivel 2 puedes usar tu Canalizar Divinidad para hurgar en un pozo divino de conocimiento. Como una acción, eliges una habilidad o herramienta. Durante 10 minu-tos tienes competencia con la habilidad o herramienta ele-gida.",
+                                                  "traitDescription":  "Comenzando en el nivel 2 puedes usar tu Canalizar Divinidad para hurgar en un pozo divino de conocimiento. Como una acciÃ³n, eliges una habilidad o herramienta. Durante 10 minu-tos tienes competencia con la habilidad o herramienta ele-gida.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -696,7 +704,7 @@
                                               {
                                                   "traitName":  "Leer Pensamientos",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "A partir del nivel 6 puedes usar tu Canalizar Divinidad para leer los pensamientos de una criatura. Luego puedes usar tu acceso a la mente de la criatura para comandarla.\nComo una acción, elige una criatura que puedas ver en un rango de 60 pies (18 metros) de ti. Esa criatura debe 14441seefrrre    eeeete efecto y lanzar el hechizo sugestión sobre la criatura sin gastar un espacio de conjuro. La criatura falla automática-mente su tirada de salvación contra el conjuro.",
+                                                  "traitDescription":  "A partir del nivel 6 puedes usar tu Canalizar Divinidad para leer los pensamientos de una criatura. Luego puedes usar tu acceso a la mente de la criatura para comandarla.\nComo una acciÃ³n, elige una criatura que puedas ver en un rango de 60 pies (18 metros) de ti. Esa criatura debe 14441seefrrre    eeeete efecto y lanzar el hechizo sugestiÃ³n sobre la criatura sin gastar un espacio de conjuro. La criatura falla automÃ¡tica-mente su tirada de salvaciÃ³n contra el conjuro.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -714,7 +722,7 @@
                                "group-chevron":  false,
                                "traits":  [
                                               {
-                                                  "traitName":  "Máscara de la Espesura",
+                                                  "traitName":  "MÃ¡scara de la Espesura",
                                                   "cheveron":  false,
                                                   "traitDescription":  "",
                                                   "checkboxStates":  [
@@ -734,9 +742,9 @@
                                "group-chevron":  false,
                                "traits":  [
                                               {
-                                                  "traitName":  "Ascendencia feérica",
+                                                  "traitName":  "Ascendencia feÃ©rica",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "Tienes ventaja en las tiradas de salvación contra Encantamiento, y no puedes ser dormido mediante la magia. ",
+                                                  "traitDescription":  "Tienes ventaja en las tiradas de salvaciÃ³n contra Encantamiento, y no puedes ser dormido mediante la magia. ",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -748,7 +756,7 @@
                                                   "resetType":  "none"
                                               },
                                               {
-                                                  "traitName":  "Visión en la oscuridad",
+                                                  "traitName":  "VisiÃ³n en la oscuridad",
                                                   "cheveron":  false,
                                                   "traitDescription":  "- 60 pies.\n- En penumbra como si fuera luz.\n- En oscuridad como si fuera penumbra\n- No distingue colores.",
                                                   "checkboxStates":  [
@@ -770,7 +778,7 @@
                                               {
                                                   "traitName":  "",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "•\nTienes ventaja en las tiradas de salvación de Constitución\nhechas para mantener la concentración en un conjuro\ncuando recibes daño.\n•\nPuedes interpretar los componentes somáticos de conju-\nros incluso cuando tienes armas o escudo en una o dos\nmanos.\n•\nCuando el movimiento de una criatura hostil provoca un\nataque de oportunidad para ti, puedes usar tu reacción\npara lanzar un conjuro a la criatura en vez de hacer un\nataque de oportunidad. El conjuro debe tener un tiempo\nde lanzamiento de una acción y sólo puede afectar a esa\ncriatura",
+                                                  "traitDescription":  "â€¢\nTienes ventaja en las tiradas de salvaciÃ³n de ConstituciÃ³n\nhechas para mantener la concentraciÃ³n en un conjuro\ncuando recibes daÃ±o.\nâ€¢\nPuedes interpretar los componentes somÃ¡ticos de conju-\nros incluso cuando tienes armas o escudo en una o dos\nmanos.\nâ€¢\nCuando el movimiento de una criatura hostil provoca un\nataque de oportunidad para ti, puedes usar tu reacciÃ³n\npara lanzar un conjuro a la criatura en vez de hacer un\nataque de oportunidad. El conjuro debe tener un tiempo\nde lanzamiento de una acciÃ³n y sÃ³lo puede afectar a esa\ncriatura",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -790,7 +798,7 @@
                                               {
                                                   "traitName":  "",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "Comenzando al nivel 8 añades tu modificador de Sabiduría al\ndaño que haces con cualquier truco de clérigo.",
+                                                  "traitDescription":  "Comenzando al nivel 8 aÃ±ades tu modificador de SabidurÃ­a al\ndaÃ±o que haces con cualquier truco de clÃ©rigo.",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -811,7 +819,7 @@
                                "notes":  [
                                              {
                                                  "noteTitle":  "inventario auxiliar",
-                                                 "noteContent":  "un símbolo sagrado.\nDiamante para revivir\n0 raciones\nantídoto\nemaablema de contrabandista \nbrazalete de ilusión menor\ngemas 150 de oro\nposiones de cuaración 2\npiedra de foco divino\nLibro de los caballerossa\n740 de oro\n1120 de plata\n430 cobre\n9 de fragmentos de cristales \n3 cristales inestables \n2 pociones de curación mayor\ncollar con 3 cargas de bola de fuego\ntomo de la Zona luciente\nTodo de ur narkam\ncorazón de Ku rash\n"
+                                                 "noteContent":  "un sÃ­mbolo sagrado.\nDiamante para revivir\n0 raciones\nantÃ­doto\nemaablema de contrabandista \nbrazalete de ilusiÃ³n menor\ngemas 150 de oro\nposiones de cuaraciÃ³n 2\npiedra de foco divino\nLibro de los caballerossa\n740 de oro\n1120 de plata\n430 cobre\n9 de fragmentos de cristales \n3 cristales inestables \n2 pociones de curaciÃ³n mayor\ncollar con 3 cargas de bola de fuego\ntomo de la Zona luciente\nTodo de ur narkam\ncorazÃ³n de Ku rash\n"
                                              }
                                          ]
                            },
@@ -821,7 +829,7 @@
                                "notes":  [
                                              {
                                                  "noteTitle":  "idiomas",
-                                                 "noteContent":  "Elfo, comun, Dracónico, Infernal"
+                                                 "noteContent":  "Elfo, comun, DracÃ³nico, Infernal"
                                              }
                                          ]
                            },
@@ -831,18 +839,18 @@
                                "notes":  [
                                              {
                                                  "noteTitle":  "Libros",
-                                                 "noteContent":  "boccob, hextor, pholtus,s uno que no sé, libro del pacto, Dios Deneir"
+                                                 "noteContent":  "boccob, hextor, pholtus,s uno que no sÃ©, libro del pacto, Dios Deneir"
                                              }
                                          ]
                            }
                        ],
     "extrasData":  [
                        {
-                           "name":  "Búho (A)",
+                           "name":  "BÃºho (A)",
                            "currentHp":  "1",
                            "maxHp":  "1",
                            "tempHp":  "0"
                        }
                    ]
 }
-
+```

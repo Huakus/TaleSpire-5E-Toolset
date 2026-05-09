@@ -1,4 +1,12 @@
-﻿{
+# Varka
+
+> Archivo generado automaticamente desde el JSON principal del Toolset.
+> No editar manualmente.
+
+## Datos completos
+
+```json
+{
     "characterTempHp":  "",
     "currentHitDice":  "0",
     "insp":  0,
@@ -7,7 +15,7 @@
     "playerWeaponProficiency":  [
                                     "Arma Simple",
                                     "Daga",
-                                    "Bastón",
+                                    "BastÃ³n",
                                     "Ballesta Ligera",
                                     "Dardo",
                                     "Arco corto",
@@ -22,7 +30,7 @@
     "playerLanguageProficiency":  [
                                       "Comun",
                                       "Elfo",
-                                      "Dracónico",
+                                      "DracÃ³nico",
                                       "Sylvano"
                                   ],
     "playerToolsProficiency":  [
@@ -33,7 +41,7 @@
     "speed":  "30ft.",
     "characterLevel":  "9",
     "playerXP":  "48840",
-    "playerClass":  "Semielfa Bruja\n(Archihada - Ermitaña - [pacto])",
+    "playerClass":  "Semielfa Bruja\n(Archihada - ErmitaÃ±a - [pacto])",
     "currentCharacterHP":  "29",
     "maxCharacterHP":  "70",
     "strengthScore":  "8",
@@ -107,7 +115,7 @@
                                       "fifthColumn":  "1d10",
                                       "sixthColumn":  "ActionSettings",
                                       "seventhColumn":  "CAR",
-                                      "weaponType":  "Mágico",
+                                      "weaponType":  "MÃ¡gico",
                                       "eighthColumn":  "0",
                                       "damageBonus":  "0",
                                       "tenthColumn":  "Eldricht blast",
@@ -141,7 +149,7 @@
                                                          "prepared":  "false"
                                                      },
                                                      {
-                                                         "name":  "Ilusión menor",
+                                                         "name":  "IlusiÃ³n menor",
                                                          "prepared":  "false"
                                                      },
                                                      {
@@ -153,7 +161,7 @@
                                                          "prepared":  "false"
                                                      },
                                                      {
-                                                         "name":  "Prestidigitación",
+                                                         "name":  "PrestidigitaciÃ³n",
                                                          "prepared":  "false"
                                                      },
                                                      {
@@ -165,7 +173,7 @@
                                                          "prepared":  "false"
                                                      },
                                                      {
-                                                         "name":  "Congelación",
+                                                         "name":  "CongelaciÃ³n",
                                                          "prepared":  "false"
                                                      },
                                                      {
@@ -173,11 +181,11 @@
                                                          "prepared":  "false"
                                                      },
                                                      {
-                                                         "name":  "Infestación",
+                                                         "name":  "InfestaciÃ³n",
                                                          "prepared":  "false"
                                                      },
                                                      {
-                                                         "name":  "Piedra mágica",
+                                                         "name":  "Piedra mÃ¡gica",
                                                          "prepared":  "false"
                                                      },
                                                      {
@@ -216,11 +224,11 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Protección contra el bien y el mal",
+                                                           "name":  "ProtecciÃ³n contra el bien y el mal",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Reprensión infernal",
+                                                           "name":  "ReprensiÃ³n infernal",
                                                            "prepared":  "1"
                                                        },
                                                        {
@@ -275,7 +283,7 @@
                       "3rd-level":  {
                                         "spells":  [
                                                        {
-                                                           "name":  "Círculo mágico",
+                                                           "name":  "CÃ­rculo mÃ¡gico",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -307,15 +315,15 @@
                                                            "prepared":  "1"
                                                        },
                                                        {
-                                                           "name":  "Patrón hipnótico",
+                                                           "name":  "PatrÃ³n hipnÃ³tico",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Levantar maldición",
+                                                           "name":  "Levantar maldiciÃ³n",
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Toque vampírico",
+                                                           "name":  "Toque vampÃ­rico",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -366,7 +374,7 @@
                                                            "prepared":  "0"
                                                        },
                                                        {
-                                                           "name":  "Perdición elemental",
+                                                           "name":  "PerdiciÃ³n elemental",
                                                            "prepared":  "0"
                                                        },
                                                        {
@@ -457,7 +465,7 @@
                                                 "cost":  "0 cp"
                                             },
                                             {
-                                                "name":  "Poción de curación",
+                                                "name":  "PociÃ³n de curaciÃ³n",
                                                 "uniqueId":  "item-1756666284136-db46bf3d",
                                                 "quantity":  2,
                                                 "weight":  1,
@@ -465,7 +473,7 @@
                                                 "useable":  true
                                             },
                                             {
-                                                "name":  "Túnica de Agati",
+                                                "name":  "TÃºnica de Agati",
                                                 "uniqueId":  "item-1756671255752-9730fb1f",
                                                 "quantity":  1,
                                                 "weight":  1,
@@ -504,7 +512,7 @@
                                               {
                                                   "traitName":  "Explosion agonizante",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "AL lanzar Eldricht Blast, se añade el modificador de carisma al daño de cada rayo que impacte. El bono se aplica por rayo, no una vez. ",
+                                                  "traitDescription":  "AL lanzar Eldricht Blast, se aÃ±ade el modificador de carisma al daÃ±o de cada rayo que impacte. El bono se aplica por rayo, no una vez. ",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -532,7 +540,7 @@
                                               {
                                                   "traitName":  "Vision del Diablo",
                                                   "cheveron":  false,
-                                                  "traitDescription":  "Se puede ver en la oscuridad, tanto mágica como no mágica, hasta 36 metros (120 pies)",
+                                                  "traitDescription":  "Se puede ver en la oscuridad, tanto mÃ¡gica como no mÃ¡gica, hasta 36 metros (120 pies)",
                                                   "checkboxStates":  [
 
                                                                      ],
@@ -581,4 +589,4 @@
 
                    ]
 }
-
+```
