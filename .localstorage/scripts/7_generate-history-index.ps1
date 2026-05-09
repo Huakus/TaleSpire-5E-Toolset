@@ -83,7 +83,7 @@ function Read-PreviousHashState {
     try {
         return Get-Content -LiteralPath $HashesPath -Raw -Encoding UTF8 | ConvertFrom-Json
     } catch {
-        Write-Log ('WARNING: No se pudo leer el archivo de hashes. Se regenerara el indice. Detalle: {0}' -f $_.Exception.Message) 'Yellow'
+        Write-Log ('WARNING: No se pudo leer el archivo de hashes. Se regenerara el indice. Detalle: {0}' -f $_.Exception.Message) -Color 'Yellow'
         return $null
     }
 }
@@ -306,7 +306,7 @@ try {
     Write-Log 'OK: Generador de indice de historia finalizado.'
     exit 0
 } catch {
-    Write-Log ('ERROR: {0}' -f $_.Exception.Message) 'Red'
+    Write-Log ('ERROR: {0}' -f $_.Exception.Message) -Color 'Red'
     Wait-BeforeExitOnError
     exit 1
 }
