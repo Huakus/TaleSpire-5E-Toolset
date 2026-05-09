@@ -40,6 +40,7 @@ $LoreDir = Join-Path $LocalStorageDir 'ECE\Lore'
 $ChaptersDir = Join-Path $LoreDir 'Capitulos'
 $IndexPath = Join-Path $LoreDir 'Indice_Historia.md'
 $HashesPath = Join-Path $LoreDir 'Indice_Historia.hashes.json'
+$IndexGeneratorVersion = 2
 
 # ============================================================
 # Helpers
@@ -128,7 +129,7 @@ function Get-CurrentChapterHashes {
     return ,$hashes
 }
 
-function Get-PreviousChapterHashesStableJson {
+function Get-PreviousHashState {
     if (-not (Test-Path -LiteralPath $HashesPath)) { return $null }
 
     try {
@@ -138,21 +139,20 @@ function Get-PreviousChapterHashesStableJson {
         if ($null -eq $filesProperty) { return $null }
         if ($null -eq $filesProperty.Value) { return $null }
 
-        return [string](Convert-FilesObjectToStableJson -FilesObject $filesProperty.Value)
+        $versionProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'index_generator_version' } | Select-Object -First 1
+        $version = 0
+        if ($null -ne $versionProperty -and $null -ne $versionProperty.Value) {
+            $version = [int]$versionProperty.Value
+        }
+
+        return [PSCustomObject]@{
+            FilesStableJson = [string](Convert-FilesObjectToStableJson -FilesObject $filesProperty.Value)
+            Version = $version
+            HasVolatileMetadata = [bool]($json.PSObject.Properties.Name -contains 'generated_at')
+        }
     } catch {
         Write-Log ("WARNING: No se pudo leer el archivo de hashes. Se regenerara el indice. Detalle: {0}" -f $_.Exception.Message) -Color 'Yellow'
         return $null
-    }
-}
-
-function Test-HashesFileHasVolatileMetadata {
-    if (-not (Test-Path -LiteralPath $HashesPath)) { return $false }
-
-    try {
-        $json = Get-Content -LiteralPath $HashesPath -Raw | ConvertFrom-Json
-        return [bool]($json.PSObject.Properties.Name -contains 'generated_at')
-    } catch {
-        return $true
     }
 }
 
@@ -166,22 +166,72 @@ function Test-HashesChanged {
     return ($PreviousHashesStableJson -ne $CurrentHashesStableJson)
 }
 
+function Remove-InlineHeadingBody {
+    param(
+        [Parameter(Mandatory = $true)] [string]$Text,
+        [Parameter(Mandatory = $true)] [string]$Level
+    )
+
+    $title = ($Text -replace '\s+', ' ').Trim()
+    $title = $title -replace '^#+\s*', ''
+    $title = $title.Trim()
+
+    if ([string]::IsNullOrWhiteSpace($title)) { return $title }
+
+    # Los capitulos pueden tener el heading y el cuerpo en la misma linea:
+    # "### Subtitulo Texto narrativo...".
+    # Como no hay un separador formal entre titulo y cuerpo, cortamos de forma
+    # conservadora ante comienzos habituales de parrafos narrativos, pero solo
+    # despues de una longitud minima para no cortar nombres dentro del subtitulo.
+    $minimumTitleLength = 35
+    if ($Level -eq '##') { $minimumTitleLength = 18 }
+
+    $bodyStartPatterns = @(
+        'Adler', 'Delerion', 'Varka', 'Borgar', 'Mercion', 'Juanpi', 'Skitrixx', 'Ernesto',
+        'Los aventureros', 'Las aventureras', 'El grupo', 'La partida', 'Los heroes', 'Nuestros heroes',
+        'Ahí', 'Alli', 'Al llegar', 'Antes de', 'Despues de', 'Durante', 'Mientras', 'Entonces',
+        'Cuando', 'Tras', 'Luego', 'Finalmente', 'Parece', 'Se trata', 'Todavia', 'Usando',
+        'Dentro de', 'Toma', 'Avanzan', 'Intentan', 'Cuentan', 'Llegan', 'Llega', 'Al cabo de'
+    )
+
+    foreach ($pattern in $bodyStartPatterns) {
+        $escaped = [regex]::Escape($pattern)
+        $matches = [regex]::Matches($title, ('\s+{0}\b' -f $escaped))
+
+        foreach ($match in $matches) {
+            if ($match.Index -ge $minimumTitleLength) {
+                return $title.Substring(0, $match.Index).Trim()
+            }
+        }
+    }
+
+    # Ultima defensa: si aun parece excesivamente largo, cortar en puntuacion.
+    $maxReasonableTitleLength = 150
+    if ($title.Length -gt $maxReasonableTitleLength) {
+        $punctuationMatch = [regex]::Match($title.Substring(0, [Math]::Min($title.Length, 220)), '[\.!?;:]\s+')
+        if ($punctuationMatch.Success -and $punctuationMatch.Index -ge $minimumTitleLength) {
+            return $title.Substring(0, $punctuationMatch.Index).Trim()
+        }
+    }
+
+    return $title
+}
+
 function Get-MarkdownHeadings {
     param([Parameter(Mandatory = $true)] [string]$Content)
 
     $matches = [regex]::Matches(
         $Content,
-        '(#{2,3})\s+(.+?)(?=\s+#{2,3}\s+|$)',
-        [System.Text.RegularExpressions.RegexOptions]::Singleline
+        '(?m)(#{2,3})\s+(.+?)(?=\s+#{2,3}\s+|\r?\n|$)',
+        [System.Text.RegularExpressions.RegexOptions]::None
     )
 
     $result = New-Object System.Collections.Generic.List[object]
 
     foreach ($match in $matches) {
         $level = $match.Groups[1].Value
-        $title = ($match.Groups[2].Value -replace '\s+', ' ').Trim()
-        $title = $title -replace '^#+\s*', ''
-        $title = $title.Trim()
+        $rawTitle = $match.Groups[2].Value
+        $title = Remove-InlineHeadingBody -Text $rawTitle -Level $level
 
         if (-not [string]::IsNullOrWhiteSpace($title)) {
             $result.Add([PSCustomObject]@{
@@ -251,6 +301,7 @@ function Write-HashesFile {
     # Importante: no guardar timestamps ni metadata volatil.
     # Este archivo debe cambiar solo cuando cambian los capitulos.
     $state = [ordered]@{
+        index_generator_version = $IndexGeneratorVersion
         files = $orderedFiles
     }
 
@@ -284,7 +335,16 @@ function Invoke-GenerateHistoryIndexOnce {
 
     $currentHashes = Get-CurrentChapterHashes -ChapterFiles $chapterFiles
     $currentHashesStableJson = [string](Convert-HashtableToStableJson -Hashtable $currentHashes)
-    $previousHashesStableJson = [string](Get-PreviousChapterHashesStableJson)
+    $previousState = Get-PreviousHashState
+    $previousHashesStableJson = $null
+    $previousVersion = 0
+    $hasVolatileMetadata = $false
+
+    if ($null -ne $previousState) {
+        $previousHashesStableJson = [string]$previousState.FilesStableJson
+        $previousVersion = [int]$previousState.Version
+        $hasVolatileMetadata = [bool]$previousState.HasVolatileMetadata
+    }
 
     $mustRegenerate = -not (Test-Path -LiteralPath $IndexPath)
 
@@ -294,10 +354,15 @@ function Invoke-GenerateHistoryIndexOnce {
             -CurrentHashesStableJson $currentHashesStableJson
     }
 
+    if (-not $mustRegenerate -and $previousVersion -ne $IndexGeneratorVersion) {
+        # Fuerza regeneracion cuando cambia la logica que extrae titulos/subtitulos.
+        $mustRegenerate = $true
+    }
+
     if (-not $mustRegenerate) {
         # Migra una sola vez el archivo viejo si todavia tenia generated_at.
         # No toca Indice_Historia.md y no loguea ruido.
-        if (Test-HashesFileHasVolatileMetadata) {
+        if ($hasVolatileMetadata) {
             Write-HashesFile -Hashes $currentHashes
         }
 
