@@ -40,7 +40,7 @@ $LoreDir = Join-Path $LocalStorageDir 'ECE\Lore'
 $ChaptersDir = Join-Path $LoreDir 'Capitulos'
 $IndexPath = Join-Path $LoreDir 'Indice_Historia.md'
 $HashesPath = Join-Path $LoreDir 'Indice_Historia.hashes.json'
-$IndexGeneratorVersion = 3
+$IndexGeneratorVersion = 4
 
 # ============================================================
 # Helpers
@@ -70,6 +70,22 @@ function Get-FileHashSha256 {
     param([Parameter(Mandatory = $true)] [string]$Path)
 
     return (Get-FileHash -LiteralPath $Path -Algorithm SHA256).Hash.ToLowerInvariant()
+}
+
+function Read-TextFileUtf8 {
+    param([Parameter(Mandatory = $true)] [string]$Path)
+
+    return [System.IO.File]::ReadAllText($Path, [System.Text.Encoding]::UTF8)
+}
+
+function Write-TextFileUtf8NoBom {
+    param(
+        [Parameter(Mandatory = $true)] [string]$Path,
+        [Parameter(Mandatory = $true)] [string]$Text
+    )
+
+    $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+    [System.IO.File]::WriteAllText($Path, $Text, $utf8NoBom)
 }
 
 function Get-RelativePath {
@@ -140,7 +156,7 @@ function Get-PreviousHashState {
     if (-not (Test-Path -LiteralPath $HashesPath)) { return $null }
 
     try {
-        $json = Get-Content -LiteralPath $HashesPath -Raw | ConvertFrom-Json
+        $json = Read-TextFileUtf8 -Path $HashesPath | ConvertFrom-Json
 
         $filesProperty = $json.PSObject.Properties | Where-Object { $_.Name -eq 'files' } | Select-Object -First 1
         if ($null -eq $filesProperty -or $null -eq $filesProperty.Value) { return $null }
@@ -361,7 +377,7 @@ function Write-IndexFile {
     $lines.Add('')
 
     foreach ($file in $ChapterFiles) {
-        $content = Get-Content -LiteralPath $file.FullName -Raw
+        $content = Read-TextFileUtf8 -Path $file.FullName
         $relativePath = Get-RelativePath -BasePath $LoreDir -FullPath $file.FullName
         $headings = Get-MarkdownHeadings -Content $content
 
@@ -410,16 +426,15 @@ function Write-HashesFile {
         files = $orderedFiles
     }
 
-    $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
     $json = $state | ConvertTo-Json -Depth 5
 
     $existingJson = $null
     if (Test-Path -LiteralPath $HashesPath) {
-        $existingJson = Get-Content -LiteralPath $HashesPath -Raw
+        $existingJson = Read-TextFileUtf8 -Path $HashesPath
     }
 
     if ($existingJson -ne $json) {
-        [System.IO.File]::WriteAllText($HashesPath, $json, $utf8NoBom)
+        Write-TextFileUtf8NoBom -Path $HashesPath -Text $json
     }
 }
 
