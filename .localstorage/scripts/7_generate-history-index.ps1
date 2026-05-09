@@ -64,7 +64,18 @@ function Get-RelativePath {
         [Parameter(Mandatory = $true)] [string]$FullPath
     )
 
-    return [System.IO.Path]::GetRelativePath($BasePath, $FullPath) -replace '\\', '/'
+    $baseFullPath = [System.IO.Path]::GetFullPath($BasePath)
+    $targetFullPath = [System.IO.Path]::GetFullPath($FullPath)
+
+    if (-not $baseFullPath.EndsWith([System.IO.Path]::DirectorySeparatorChar)) {
+        $baseFullPath += [System.IO.Path]::DirectorySeparatorChar
+    }
+
+    $baseUri = New-Object System.Uri($baseFullPath)
+    $targetUri = New-Object System.Uri($targetFullPath)
+    $relativeUri = $baseUri.MakeRelativeUri($targetUri)
+
+    return [System.Uri]::UnescapeDataString($relativeUri.ToString()) -replace '\\', '/'
 }
 
 function Get-FileHashSha256([string]$Path) {
