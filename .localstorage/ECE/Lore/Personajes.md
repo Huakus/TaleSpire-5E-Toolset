@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 12)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 14)
 
 ## Protagonistas
 
@@ -56,11 +56,11 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7, 9, 10, 11, 12
+**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
-También aparece transcripto como “Zephyr” o “Zaphir”, pero el nombre canónico es Zafir.
+En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Silas Viera, dentro de las maniobras para usar los túneles hacia la Ciudad Alta. También aparece transcripto como “Zephyr” o “Zaphir”, pero el nombre canónico es Zafir.
 
 ### Arturo
 
@@ -72,9 +72,11 @@ Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ell
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12
+**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
+
+En el Barrio Exterior, su relación previa con el Teniente Tres Dientes pesa en las negociaciones para mover a Lucen Redgar, El Pichón, sin desatar una guerra abierta entre facciones.
 
 ### Viktor Salazar
 
@@ -192,9 +194,15 @@ Veterano aventurero y regente del bodegón El Tridente, en el Distrito de los Ar
 
 Es una figura influyente entre los vagabundos y marginados, con una red de ojos y oídos por todo el barrio. Ofrece ayudar al grupo a entrar a la Ciudad Alta a cambio de recuperar un paquete robado por Ignacio Robledo.
 
+### Teniente Tres Dientes
+
+**Capítulos:** 14
+
+Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir apoyo en el movimiento de Lucen Redgar, El Pichón. Su relación previa con Borgar permite abrir una vía de negociación entre facciones sin provocar una guerra inmediata.
+
 ### Eladio
 
-**Capítulos:** 7, 13
+**Capítulos:** 7, 13, 14
 
 Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
 
@@ -216,11 +224,17 @@ Personaje clave del Distrito de los Artesanos, conocedor de la situación local 
 
 ### Raviel
 
-**Capítulos:** 13
+**Capítulos:** 13, 14
 
 Intermediario y jefe del Gremio de Comerciantes del Barrio Exterior. Varka y Ernesto lo conocen durante el primer acercamiento a la red del gremio, que funciona como fachada de contrabando.
 
-Es cauteloso, defensivo y evita comprometer nombres, rutas o acuerdos sin validar antes si el grupo representa una amenaza, una oportunidad o una trampa.
+Es cauteloso, defensivo y evita comprometer nombres, rutas o acuerdos sin validar antes si el grupo representa una amenaza, una oportunidad o una trampa. El grupo lo bautiza como “el Emo”. En el capítulo 14 exige transportar un paquete, que debe retirarse de Silas Viera, a cambio de permitir el paso por los túneles hacia la Ciudad Alta.
+
+### Silas Viera
+
+**Capítulos:** 14
+
+Dealer y alquimista menor vinculado a la operación de Raviel en el Barrio Exterior. Varka y Ernesto llegan hasta su casa siguiendo a Zafir, y allí descubren que el encargo del paquete y el paso por los túneles forman parte de una trampa.
 
 ### Arnaldo
 
@@ -298,7 +312,7 @@ Maestro herrero del distrito, dueño de la forja principal, que asistió a una r
 
 ### Lucen Redgar, El Pichón
 
-**Capítulos:** 7, 12, 13
+**Capítulos:** 7, 12, 13, 14
 
 Sobrino del dueño de la forja y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
@@ -359,3 +373,9 @@ Nueve figuras con rasgos dracónicos representadas en un tapiz del Templo del C�
 **Capítulos:** 13
 
 Entidad feérica superior asociada a la mujer marcada del Barrio Exterior. La mujer afirma estar ligada a Ninthra y cumplir una tarea relacionada con niños del caserío, cuotas periódicas y marcas feéricas.
+
+### Nema
+
+**Capítulos:** 14
+
+Figura vinculada al mundo feérico y al otro lado del velo. Aparece antes de que el grupo se interne en los túneles y advierte sobre el peligro relacionado con los cristales, el niño del Barrio Exterior y las rutas subterráneas.
