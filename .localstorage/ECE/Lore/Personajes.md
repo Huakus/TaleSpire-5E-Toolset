@@ -50,15 +50,15 @@ Ernesto actúa por instinto, movido por la supervivencia y la adrenalina. Es cap
 
 ### Gobernador Alarico Belmonte
 
-**Capítulos:** 1
+**Capítulos:** 1, 2
 
 Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. Ha confiado en Adler y Delerion desde que descubrieron la red de contrabandistas bajo su castillo, y su rol se vuelve crítico cuando es secuestrado por Borgar Tempestus. Su desaparición desencadena una serie de eventos que empujan a los protagonistas hacia el corazón del conflicto con los mercenarios del Reino del Sur.
 
 ### Zafir
 
-**Capítulos:**
+**Capítulos:** 2
 
-Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur asentados en el Distrito de los Artesanos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, juega con las apariencias de los aventureros y manipula a Arturo como pieza útil dentro de sus planes.
+Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
 ### Arturo
 
@@ -80,7 +80,7 @@ Sargento de la guardia local, asesinado por Ernesto durante una misión en el Di
 
 ### Diego Cortés
 
-**Capítulos:** 1
+**Capítulos:** 1, 2
 
 Guardia del castillo, entusiasta, crédulo y siempre dispuesto a ayudar. Su energía impulsa a los protagonistas en momentos críticos, especialmente durante interrogatorios o situaciones donde la autoridad local es necesaria. Es uno de los pocos humanos del pueblo que confía plenamente en ellos.
 
@@ -92,13 +92,13 @@ Joven aventurera que formaba parte del grupo de contrabandistas infiltrados. Aun
 
 ### Emilio el Herbolario
 
-**Capítulos:** 1
+**Capítulos:** 1, 2
 
 Figura amable, culta y misteriosa de Valverde del Río. Su casa y su conocimiento fueron fundamentales para descifrar el *Libro Guardián*. Es uno de los pocos habitantes del pueblo que entiende la magnitud del conflicto arcano que rodea al Círculo Eterno.
 
 ### Haroldo el Montaraz
 
-**Capítulos:**
+**Capítulos:** 2
 
 Un cazador excéntrico, solitario, huraño y sorprendentemente competente. Fue clave para emboscar a los contrabandistas en los campos y para guiar a Adler y Delerion al campamento enemigo. Su enemistad con Emilio dificulta al grupo, pero su lealtad —cuando la ofrece— es absoluta.
 
@@ -124,7 +124,7 @@ Autoridad del templo de Deneir y superior de Adler. Le encargó viajar a Valverd
 
 **Capítulos:** 1
 
-Líder del grupo de falsos aventureros que operaba cerca de Valverde del Río. Envió a Isadora para acompañar a Adler en la exploración de las cuevas del norte.
+Líder del grupo de falsos aventureros que operaba cerca de Valverde del Río. Adler lo conoce en la entrada de las cuevas del norte, cuando busca información sobre los saqueos y el hijo desaparecido del capataz. Hernando envía a Isadora para acompañar a Adler en la exploración.
 
 ### Tomi Tres Dientes
 
@@ -132,17 +132,17 @@ Líder del grupo de falsos aventureros que operaba cerca de Valverde del Río. E
 
 Criminal del Distrito de los Artesanos cuya influencia y encargos empujaron a Ernesto a sus actos más cuestionables. Una figura peligrosa, siempre en las sombras y moviendo piezas desde lo oculto.
 
-### Heladio Menta
+### Eladio
 
 **Capítulos:**
 
-Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara. Se sospecha que es pariente de Aitor Menta.
+Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
 
 ### Gregorio
 
 **Capítulos:**
 
-Cómplice de Heladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
+Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
 
 ### Petro
 
@@ -164,11 +164,11 @@ Capataz de la forja principal del distrito. Negoció con Delerion mejoras de equ
 
 ### Armando Cortés
 
-**Capítulos:**
+**Capítulos:** 2
 
-Comerciante y hermano de Diego Cortés. Prestó su embarcación al grupo para que pudieran viajar por el Río Verde rumbo al sur, a cambio de un favor político relacionado con Eliza Belmonte, que los aventureros evitaron prometer de manera directa, pero dejaron como deuda.
+Comerciante acaudalado y hermano de Diego Cortés. Adler y Delerion lo conocen en la Taberna del Cantor Alegre, donde les pide ayuda porque los contrabandistas lo están intimidando para obligarlo a colocar productos robados en el mercado de su ciudad.
 
-### Marcion
+### Marion
 
 **Capítulos:**
 
@@ -178,7 +178,7 @@ Antigua mano derecha del **Capitán Menta**. Apareció en el Distrito de los Art
 
 **Capítulos:**
 
-Capitán cuya figura quedó ligada a intrigas mayores del reino. Su muerte y la posterior huida de Marcion se mencionan como piezas dentro de una conspiración que involucra a un Duque y fuerzas carmesíes.
+Capitán cuya figura quedó ligada a intrigas mayores del reino. Su muerte y la posterior huida de Marion se mencionan como piezas dentro de una conspiración que involucra a un Duque y fuerzas carmesíes.
 
 ### Ragnar
 
@@ -196,7 +196,7 @@ Mendigo del Distrito de los Artesanos con “ojos y oídos por todo el distrito�
 
 **Capítulos:**
 
-Erudito de aspecto excéntrico que se cruzó con Ernesto en el Distrito de los Artesanos. Se lo asocia con conocimientos extraños, incluyendo menciones a túneles antiguos excavados por kobolds, y con la idea de que “el canto del metal” es un legado de los titanes.
+Erudito de aspecto excéntrico que se cruzó con Ernesto en el Distrito de los Artesanos. Se lo asocia con conocimientos extraños (incluyendo menciones a túneles antiguos excavados por kobolds) y con la idea de que “el canto del metal” es un legado de los titanes.
 
 ### La jefa del taller de costura
 
@@ -204,17 +204,17 @@ Erudito de aspecto excéntrico que se cruzó con Ernesto en el Distrito de los A
 
 Dirige un taller de costura del Distrito de los Artesanos que aparece entre los focos de rumores e intrigas. Varka fue invitada a su casa tras una jornada de manipulación social en el distrito.
 
-### Señor Redgar
+### El dueño de la forja
 
 **Capítulos:**
 
 Maestro herrero del distrito, dueño de la forja principal, que asistió a una reunión en la taberna **El Cuenco de Carbón**. Fue asesinado por la espalda durante el caos provocado por Petro.
 
-### Lucen Redgar, El Pichón
+### El sobrino del dueño de la forja
 
 **Capítulos:**
 
-El sobrino del dueño de la forja. Joven noble y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
+Joven noble y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
 ### La mujer marcada
 
@@ -222,13 +222,19 @@ El sobrino del dueño de la forja. Joven noble y heredero indirecto de la forja.
 
 Mujer del Barrio Exterior, fuera del Distrito de los Artesanos, cuya presencia se vinculó a desapariciones y a un **símbolo feérico** que llamó la atención de Varka. Fue interrogada por Varka acompañada por Ernesto, revelándose un vínculo con el origen de Varka y con un pacto antiguo.
 
+### Heladio
+
+**Capítulos:**
+
+Nombre que aparece asociado a una “red subterránea” en el Barrio Exterior. Puede tratarse de una variante o error de transcripción respecto de **Eladio**, pero la historia lo registra como entidad separada por ahora.
+
 ## Entidades y deidades
 
 ### Deneir
 
 **Capítulos:** 1
 
-Dios del conocimiento, la escritura y el saber. Es la deidad a la que sirve Adler, quien llega a Valverde del Río con la misión de fundar un templo en su honor.
+Dios del conocimiento, la escritura y el saber. Es la deidad de Adler y la razón por la que este viaja a Valverde del Río para solicitar permiso de fundar un templo en su honor.
 
 ### Ninthra
 
