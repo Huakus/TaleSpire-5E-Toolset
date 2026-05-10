@@ -17,7 +17,11 @@ Adler representa la justicia y la devoción ordenada. Rescata al hijo del leñad
 
 Delerion es un nigromante errante, curioso y de moral ambigua. Su historia inicia en el cementerio de Valverde del Río, donde estudiaba los efectos de la energía mágica sobre los cadáveres. Aunque sus métodos son cuestionables, su propósito no es maligno: busca comprender la naturaleza de la vida, la muerte y la memoria. De inteligencia aguda y carácter excéntrico, Delerion combina la erudición arcana con un humor seco y una curiosidad insaciable que a menudo pone en riesgo a todos los que lo rodean.
 
-A lo largo de la campaña ha pasado de ser un estudioso solitario a un estratega nato. Durante las batallas del puesto de avanzada y la caída de Viktor Salazar, demostró un dominio creciente de la necromancia, utilizando sus conocimientos tanto para defender como para reconstruir. Su relación con Adler ha oscilado entre la desconfianza y la cooperación, pero ambos se reconocen como fuerzas complementarias: el juicio y la fe, la duda y la razón.
+A lo largo de la campaña ha pasado de ser un estudioso solitario a un estratega nato. Durante las batallas del puesto de avanzada y la caída de Viktor Salazar, demostró un dominio creciente de la necromancia, utilizando sus conocimientos tanto para defender como para reconstruir.
+
+Luego de salir del Templo del Círculo Eterno y regresar bajo el castillo de Valverde del Río, volvió solo al puesto de avanzada y levantó a Kiko y Caco como sus no-muertos personales. Para ocultarlos, usó los brazaletes de disfraz que el grupo había utilizado antes para infiltrarse en el campamento mercenario junto a Haroldo, y los preservó con Descanso apacible para evitar su descomposición.
+
+Su relación con Adler ha oscilado entre la desconfianza y la cooperación, pero ambos se reconocen como fuerzas complementarias: el juicio y la fe, la duda y la razón.
 
 En el Templo del Círculo Eterno descubrió su conexión con los antiguos conjuros feéricos y los secretos de la Orden Carmesí. Su curiosidad lo llevó a desatar, sin saberlo, parte del poder sellado del *Corazón Carmesí*, un artefacto prohibido. Desde entonces, su poder crece, pero también su inquietud ante la posibilidad de que la corrupción Carmesí esté marcando su destino. En el Distrito de los Artesanos, su papel como manipulador y lector de mentes lo ha convertido en el cerebro táctico del grupo, capaz de desentrañar conspiraciones y ejecutar planes con precisión quirúrgica.
 
@@ -266,13 +270,21 @@ Kenku usado como sujeto experimental en el laboratorio aeloriano bajo las cuevas
 
 Su capacidad para repetir palabras, tonos, pausas y conversaciones lo convierte en una herramienta potencial para espionaje e infiltración política. Al pronunciar “Sarnakur”, activa memorias antiguas relacionadas con Ur Namkart y guía al grupo hacia la tumba auténtica.
 
-### Kako
+### Kiko
 
-**Capítulos:** 17
+**Capítulos:** 6, 15
 
-Zombie de Delerion sobre el que se realiza el Ritual del Eco en el laboratorio aeloriano bajo las cuevas. El ritual despierta en él una inteligencia funcional, mejora su constitución y le permite comunicarse en aeloriano.
+No-muerto personal de Delerion, levantado a partir de uno de los cadáveres del puesto de avanzada luego de que el grupo escapara del Templo del Círculo Eterno y regresara bajo el castillo de Valverde del Río.
 
-Afirma ser un noble de Escudoferrio, de linaje NASA y oriundo de Balsha, aunque sus recuerdos parecen fragmentarios y vinculados a experimentos previos del laboratorio.
+Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infiltrarse en el campamento mercenario junto a Haroldo, y lo preservó con Descanso apacible para evitar su descomposición. Más adelante fue usado como señuelo contra el troll en las cuevas donde estaba el clan kobold de la Sangre Azul.
+
+### Caco
+
+**Capítulos:** 6, 17
+
+No-muerto personal de Delerion, levantado a partir de uno de los cadáveres del puesto de avanzada luego de que el grupo escapara del Templo del Círculo Eterno y regresara bajo el castillo de Valverde del Río.
+
+Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infiltrarse en el campamento mercenario junto a Haroldo, y lo preservó con Descanso apacible para evitar su descomposición. En el laboratorio aeloriano bajo las cuevas, Delerion realizó sobre él el Ritual del Eco, imbuyéndolo con conocimientos de un noble antiguo, posiblemente Ur Namkart.
 
 ### Aurelio
 
