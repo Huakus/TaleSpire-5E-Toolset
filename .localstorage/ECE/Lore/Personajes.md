@@ -142,13 +142,13 @@ Líder del campamento tiefling del Bosque Antiguo. Adler y Delerion lo conocen a
 
 Es pretencioso, refinado, honorable en apariencia y ambicioso. Sueña con obtener tierras, título y mando militar cuando termine la guerra.
 
-### Kragor Naramach
+### Kragor Namarach
 
 **Capítulos:** 3
 
 Chamán semiorco conocido como “el Buscador”. Adler y Delerion oyen hablar de él en el campamento semiorco del Bosque Antiguo y luego lo encuentran en las ruinas de una torre.
 
-Es excéntrico, amable, obsesivo y está fascinado por las ruinas antiguas, la Corte de las Hadas, las fatas y los restos de civilizaciones perdidas. También aparece mencionado como “Kragor Namarach”, probablemente por error de transcripción.
+Es excéntrico, amable, obsesivo y está fascinado por las ruinas antiguas, la Corte de las Hadas, las fatas y los restos de civilizaciones perdidas.
 
 ### Valerio el Férreo
 
@@ -222,7 +222,7 @@ Capataz de la forja principal del distrito. Negoció con Delerion mejoras de equ
 
 Comerciante acaudalado y hermano de Diego Cortés. Adler y Delerion lo conocen en la Taberna del Cantor Alegre, donde les pide ayuda porque los contrabandistas lo están intimidando para obligarlo a colocar productos robados en el mercado de su ciudad.
 
-### Marcion
+### Mercion
 
 **Capítulos:** 5, 7
 
@@ -262,29 +262,23 @@ Erudito de aspecto excéntrico que se cruzó con Ernesto en el Distrito de los A
 
 Dirige un taller de costura del Distrito de los Artesanos que aparece entre los focos de rumores e intrigas. Varka fue invitada a su casa tras una jornada de manipulación social en el distrito.
 
-### El dueño de la forja
+### Señor Redgar
 
 **Capítulos:** 7
 
 Maestro herrero del distrito, dueño de la forja principal, que asistió a una reunión en la taberna **El Cuenco de Carbón**. Fue asesinado por la espalda durante el caos provocado por Petro.
 
-### El sobrino del dueño de la forja
+### Lucen Redgar, El Pichón
 
 **Capítulos:** 7
 
-Joven noble y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
+Sobrino del dueño de la forja y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
 ### La mujer marcada
 
 **Capítulos:**
 
 Mujer del Barrio Exterior, fuera del Distrito de los Artesanos, cuya presencia se vinculó a desapariciones y a un **símbolo feérico** que llamó la atención de Varka. Fue interrogada por Varka acompañada por Ernesto, revelándose un vínculo con el origen de Varka y con un pacto antiguo.
-
-### Heladio
-
-**Capítulos:**
-
-Nombre que aparece asociado a una “red subterránea” en el Barrio Exterior. Puede tratarse de una variante o error de transcripción respecto de **Eladio**, pero la historia lo registra como entidad separada por ahora.
 
 ## Entidades y deidades
 
@@ -306,7 +300,13 @@ Es afable, musical y enigmático, pero está ligado a un entorno feérico inquie
 
 **Capítulos:** 5, 6
 
-Figura etérea de piel azul que aparece ante el grupo en la cueva de cristales cercana al puesto de avanzada y luego como eco del Círculo Eterno bajo la torre principal. Les habla de los antiguos pactos entre los hombres del norte y la Corte de las Hadas, y de los sellos que protegen el mundo de la corrupción Carmesí.
+Figura etérea de piel azul que aparece ante el grupo en la cueva de cristales cercana al puesto de avanzada y en el Templo del Círculo Eterno, donde estaba Calvus Threnor. Está vinculada a los antiguos pactos entre los hombres del norte y la Corte de las Hadas, y a los sellos que protegen el mundo de la corrupción Carmesí.
+
+### Eco del Círculo Eterno
+
+**Capítulos:** 6
+
+Manifestación o resonancia vinculada al Círculo Eterno, distinta de la proyección feérica. Su presencia aparece asociada a los glifos, sellos y mecanismos antiguos del templo.
 
 ### Caballeros Dracónicos
 
