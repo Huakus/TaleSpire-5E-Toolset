@@ -56,13 +56,13 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7, 9
+**Capítulos:** 2, 4, 7, 9, 10
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
 ### Arturo
 
-**Capítulos:** 8, 9
+**Capítulos:** 8, 9, 10
 
 Humano grandote y musculoso del grupo de Zafir. Varka lo conoce en el mercado del Distrito de los Artesanos y lo manipula con su encanto para que averigüe cómo acceder a la Ciudad Alta.
 
@@ -70,7 +70,7 @@ Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ell
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7, 9
+**Capítulos:** 1, 3, 4, 5, 7, 9, 10
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
@@ -84,7 +84,7 @@ En el campamento mercenario, Adler y Delerion lo enfrentan directamente en su ca
 
 ### Ignacio Robledo
 
-**Capítulos:** 9
+**Capítulos:** 9, 10
 
 Sargento de la guardia local del Distrito de los Artesanos. Tomi Tres Dientes envía al grupo a recuperar un paquete que Robledo le había robado. Ernesto lo encuentra en su casa y el robo termina en una escena violenta que marca uno de los momentos más oscuros del kobold.
 
@@ -184,7 +184,7 @@ Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Tomi Tres Dientes
 
-**Capítulos:** 9
+**Capítulos:** 9, 10
 
 Veterano aventurero y regente del bodegón El Tridente, en el Distrito de los Artesanos. El grupo lo conoce durante una cena comunitaria donde reparte comida a los necesitados del distrito.
 
@@ -244,9 +244,9 @@ Adler, Delerion, Ernesto y Borgar lo conocen directamente al llegar al enclave f
 
 ### Ragnar
 
-**Capítulos:**
+**Capítulos:** 10
 
-Guardaespaldas del sargento Ignacio Robledo. Se lo menciona como parte del círculo de poder y miedo que rodeaba al sargento durante los días posteriores al incendio y la redada en el Distrito de los Artesanos.
+Guardaespaldas del sargento Ignacio Robledo. En el Distrito de los Artesanos, aparece durante la investigación posterior al asesinato de Robledo, cuando la guardia lo interroga por lo ocurrido en la casa del sargento.
 
 ### El Pipo
 
@@ -256,9 +256,11 @@ Mendigo del Distrito de los Artesanos con “ojos y oídos por todo el distrito�
 
 ### Rodrigo Ayward
 
-**Capítulos:** 9
+**Capítulos:** 9, 10
 
 Erudito de aspecto excéntrico que se cruza con Ernesto en el Distrito de los Artesanos. Estudia historias y desplazamientos de kobolds en registros imperiales, y menciona túneles antiguos excavados por kobolds, ruinas bajo el empedrado y la figura legendaria del kobold tuerto.
+
+En el capítulo 10, Ernesto oye que Rodrigo está interrogando a mercenarios que entran a la ciudad.
 
 ### Johanna
 
@@ -268,9 +270,9 @@ Exasistente de Emilio el Herbolario, reencontrada por Ernesto en la casa del sar
 
 ### La jefa del taller de costura
 
-**Capítulos:**
+**Capítulos:** 10
 
-Dirige un taller de costura del Distrito de los Artesanos que aparece entre los focos de rumores e intrigas. Varka fue invitada a su casa tras una jornada de manipulación social en el distrito.
+Dirige un taller de costura del Distrito de los Artesanos que aparece entre los focos de rumores e intrigas. Varka empieza a trabajar allí para obtener información desde dentro y luego es invitada a la casa de la jefa del taller, en ausencia de esta.
 
 ### Señor Redgar
 
@@ -289,6 +291,14 @@ Sobrino del dueño de la forja y heredero indirecto de la forja. Delerion logró
 **Capítulos:**
 
 Mujer del Barrio Exterior, fuera del Distrito de los Artesanos, cuya presencia se vinculó a desapariciones y a un **símbolo feérico** que llamó la atención de Varka. Fue interrogada por Varka acompañada por Ernesto, revelándose un vínculo con el origen de Varka y con un pacto antiguo.
+
+### Hombre del canto del metal
+
+**Capítulos:** 10
+
+Desconocido con sombrero de ala ancha que aborda a Ernesto en un callejón del Distrito de los Artesanos. Dice haber aprendido en Caravencia el arte de “hacer cantar el metal” y demuestra su habilidad transformando una esfera metálica en un plato plano y vibrante.
+
+Menciona que el canto del metal es un legado de los tiempos aelorianos y advierte a Ernesto que la noche anterior vio a Borgar, Zafir y Arturo dirigiéndose hacia el este.
 
 ## Entidades y deidades
 
