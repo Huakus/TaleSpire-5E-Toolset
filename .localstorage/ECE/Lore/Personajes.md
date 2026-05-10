@@ -28,7 +28,7 @@ Su moral se rige por la curiosidad y la lógica más que por la ley o la compasi
 
 Varka es una semielfa de ascendencia feérica introducida en el Templo del Círculo Eterno. Su presencia está ligada a la magia natural y al misterio de los pactos antiguos entre la Corte de las Hadas y los hombres del norte. Posee un carisma magnético y una belleza inquietante, rasgos que utiliza tanto en la diplomacia como en la manipulación. Es intuitiva, espiritual y profundamente consciente de las fuerzas invisibles que rodean al grupo.
 
-Durante su estancia en el Distrito de los Artesanos, Varka ha demostrado ser tan peligrosa como encantadora. Su capacidad para leer las emociones ajenas y dirigir las conversaciones le ha permitido manipular a gremios y mercenarios sin recurrir a la violencia. Ha sido clave para establecer contactos estratégicos, como con el mercenario que prometió ayudarles a cruzar a la Ciudad Alta. Además, mantiene una relación ambigua con Arturo, un espía tiefling que trabaja para Zafir y que se ha enamorado perdidamente de ella. Aunque Varka parece no corresponderle, utiliza su devoción para obtener información o favores con sutil maestría.
+Durante su estancia en el Distrito de los Artesanos, Varka ha demostrado ser tan peligrosa como encantadora. Su capacidad para leer las emociones ajenas y dirigir las conversaciones le ha permitido manipular a gremios y mercenarios sin recurrir a la violencia. Ha sido clave para establecer contactos estratégicos, como con Arturo, un humano grandote y musculoso del grupo de Zafir que se ha enamorado perdidamente de ella. Aunque Varka parece no corresponderle, utiliza su devoción para obtener información o favores con sutil maestría.
 
 Varka representa la conexión viva entre lo humano y lo feérico. Su presencia estabiliza las energías desbordadas del grupo y mantiene el vínculo con la Corte de las Hadas, siendo una pieza emocional y mística central en la historia.
 
@@ -62,9 +62,11 @@ Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur
 
 ### Arturo
 
-**Capítulos:**
+**Capítulos:** 8
 
-Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción casi irracional. Aunque trabaja para Zafir, su lealtad se ve cada vez más comprometida por su fascinación hacia la semielfa. Esto lo vuelve impredecible y potencialmente muy útil… o muy peligroso.
+Humano grandote y musculoso del grupo de Zafir. Varka lo conoce en el mercado del Distrito de los Artesanos y lo manipula con su encanto para que averigüe cómo acceder a la Ciudad Alta.
+
+Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ella, y aporta información sobre un posible lugar de reunión para conseguir el pase. Aunque responde al entorno de Zafir, su fascinación por Varka lo vuelve manipulable e impredecible.
 
 ### Borgar Tempestus
 
