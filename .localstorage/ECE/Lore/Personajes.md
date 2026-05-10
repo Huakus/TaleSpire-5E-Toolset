@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 14)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 15)
 
 ## Protagonistas
 
@@ -72,7 +72,7 @@ Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ell
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14
+**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
@@ -224,7 +224,7 @@ Personaje clave del Distrito de los Artesanos, conocedor de la situación local 
 
 ### Raviel
 
-**Capítulos:** 13, 14
+**Capítulos:** 13, 14, 15
 
 Intermediario y jefe del Gremio de Comerciantes del Barrio Exterior. Varka y Ernesto lo conocen durante el primer acercamiento a la red del gremio, que funciona como fachada de contrabando.
 
@@ -235,6 +235,20 @@ Es cauteloso, defensivo y evita comprometer nombres, rutas o acuerdos sin valida
 **Capítulos:** 14
 
 Dealer y alquimista menor vinculado a la operación de Raviel en el Barrio Exterior. Varka y Ernesto llegan hasta su casa siguiendo a Zafir, y allí descubren que el encargo del paquete y el paso por los túneles forman parte de una trampa.
+
+### Gorak
+
+**Capítulos:** 15
+
+Teniente mencionado en documentos hallados en un campamento abandonado dentro de los túneles de contrabando. Queda vinculado a líderes locales del Barrio Exterior, Raviel y la red que conecta criminalidad, secta feérica y Orden Carmesí.
+
+### Líder kobold de la Sangre Azul
+
+**Capítulos:** 15
+
+Líder del clan kobold de la Sangre Azul, hallado gravemente herido en las cuevas bajo el Barrio Exterior. Adler lo cura y con ese gesto evita un combate con los kobolds.
+
+Explica que su pueblo custodia esas cuevas desde hace generaciones, que antiguamente cooperaban con humanos y que las incursiones recientes de la Orden Carmesí rompieron el equilibrio del lugar.
 
 ### Arnaldo
 
@@ -320,7 +334,7 @@ En el Barrio Exterior, el grupo sigue buscando pistas sobre su paradero y sobre 
 
 ### La mujer marcada
 
-**Capítulos:** 13
+**Capítulos:** 13, 15
 
 Mujer del Barrio Exterior cuya presencia se vincula a desapariciones y a un símbolo feérico que llama la atención de Varka. Varka y Ernesto la encuentran alimentando niños del caserío, aunque ella misma no consume la comida.
 
