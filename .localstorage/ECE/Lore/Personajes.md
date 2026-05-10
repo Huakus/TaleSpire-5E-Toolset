@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 15)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 16)
 
 ## Protagonistas
 
@@ -56,11 +56,13 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14
+**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14, 16
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
-En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Silas Viera, dentro de las maniobras para usar los túneles hacia la Ciudad Alta. También aparece transcripto como “Zephyr” o “Zaphir”, pero el nombre canónico es Zafir.
+En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Silas Viera, dentro de las maniobras para usar los túneles hacia la Ciudad Alta. También aparece transcripto como “Zephyr”, “Zaphir” o “Saffir”, pero el nombre canónico es Zafir.
+
+En las notas del laboratorio aeloriano bajo las cuevas, Zafir aparece señalando al kenku como sujeto ideal para una variante del Ritual del Eco aplicada a seres vivos.
 
 ### Arturo
 
@@ -186,6 +188,12 @@ Nigromante de la Orden Carmesí y antiguo discípulo de Viktor Salazar. El grupo
 
 Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
+### Severino
+
+**Capítulos:** 16
+
+Figura mencionada en las notas del laboratorio aeloriano bajo las cuevas. Aparece como impulsor del proyecto relacionado con una variante del Ritual del Eco aplicada a seres vivos, con fines de espionaje, infiltración política y manipulación de nobles.
+
 ### Tomi Tres Dientes
 
 **Capítulos:** 9, 10
@@ -249,6 +257,14 @@ Teniente mencionado en documentos hallados en un campamento abandonado dentro de
 Líder del clan kobold de la Sangre Azul, hallado gravemente herido en las cuevas bajo el Barrio Exterior. Adler lo cura y con ese gesto evita un combate con los kobolds.
 
 Explica que su pueblo custodia esas cuevas desde hace generaciones, que antiguamente cooperaban con humanos y que las incursiones recientes de la Orden Carmesí rompieron el equilibrio del lugar.
+
+### Kenku sujeto experimental
+
+**Capítulos:** 16
+
+Kenku usado como sujeto experimental en el laboratorio aeloriano bajo las cuevas. El grupo encuentra su jaula rota desde dentro y documentos que explican por qué era ideal para una variante del Ritual del Eco aplicada a seres vivos.
+
+Su capacidad para repetir palabras, tonos, pausas y conversaciones lo convierte en una herramienta potencial para espionaje e infiltración política. Al pronunciar “Sarnakur”, activa memorias antiguas relacionadas con Ur Namkart.
 
 ### Arnaldo
 
@@ -381,6 +397,12 @@ Manifestación o resonancia vinculada al Círculo Eterno, distinta de la proyecc
 **Capítulos:** 6
 
 Nueve figuras con rasgos dracónicos representadas en un tapiz del Templo del Círculo Eterno. Ernesto tiene una visión al tocar el tapiz, en la que estas figuras lo juzgan y le entregan un amuleto de obsidiana con el grabado de un ojo.
+
+### Ur Namkart
+
+**Capítulos:** 16
+
+Figura antigua vinculada a una tumba mencionada por el kenku sujeto experimental al pronunciar la palabra “Sarnakur”. Su tumba debe cerrarse y separarse de otras seis tumbas relacionadas.
 
 ### Ninthra
 
