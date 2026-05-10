@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 16)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 17)
 
 ## Protagonistas
 
@@ -56,11 +56,11 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14, 16
+**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14, 16, 17
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
-En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Silas Viera, dentro de las maniobras para usar los túneles hacia la Ciudad Alta. También aparece transcripto como “Zephyr”, “Zaphir” o “Saffir”, pero el nombre canónico es Zafir.
+En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Silas Viera, dentro de las maniobras para usar los túneles hacia la Ciudad Alta. También aparece transcripto como “Zephyr”, “Zaphir”, “Saffir” o “Saphir”, pero el nombre canónico es Zafir.
 
 En las notas del laboratorio aeloriano bajo las cuevas, Zafir aparece señalando al kenku como sujeto ideal para una variante del Ritual del Eco aplicada a seres vivos.
 
@@ -260,11 +260,25 @@ Explica que su pueblo custodia esas cuevas desde hace generaciones, que antiguam
 
 ### Kenku sujeto experimental
 
-**Capítulos:** 16
+**Capítulos:** 16, 17
 
 Kenku usado como sujeto experimental en el laboratorio aeloriano bajo las cuevas. El grupo encuentra su jaula rota desde dentro y documentos que explican por qué era ideal para una variante del Ritual del Eco aplicada a seres vivos.
 
-Su capacidad para repetir palabras, tonos, pausas y conversaciones lo convierte en una herramienta potencial para espionaje e infiltración política. Al pronunciar “Sarnakur”, activa memorias antiguas relacionadas con Ur Namkart.
+Su capacidad para repetir palabras, tonos, pausas y conversaciones lo convierte en una herramienta potencial para espionaje e infiltración política. Al pronunciar “Sarnakur”, activa memorias antiguas relacionadas con Ur Namkart y guía al grupo hacia la tumba auténtica.
+
+### Kako
+
+**Capítulos:** 17
+
+Zombie de Delerion sobre el que se realiza el Ritual del Eco en el laboratorio aeloriano bajo las cuevas. El ritual despierta en él una inteligencia funcional, mejora su constitución y le permite comunicarse en aeloriano.
+
+Afirma ser un noble de Escudoferrio, de linaje NASA y oriundo de Balsha, aunque sus recuerdos parecen fragmentarios y vinculados a experimentos previos del laboratorio.
+
+### Aurelio
+
+**Capítulos:** 17
+
+Autor de documentos hallados en el laboratorio aeloriano bajo las cuevas. Sus notas conectan el laboratorio con Escudoferrio, Ciudad Alta, Zafir, la red alquímica y los movimientos de quienes abandonaron el complejo.
 
 ### Arnaldo
 
@@ -400,9 +414,17 @@ Nueve figuras con rasgos dracónicos representadas en un tapiz del Templo del C�
 
 ### Ur Namkart
 
-**Capítulos:** 16
+**Capítulos:** 16, 17
 
-Figura antigua vinculada a una tumba mencionada por el kenku sujeto experimental al pronunciar la palabra “Sarnakur”. Su tumba debe cerrarse y separarse de otras seis tumbas relacionadas.
+Figura antigua vinculada a una tumba mencionada por el kenku sujeto experimental al pronunciar la palabra “Sarnakur”. También aparece identificado como Unamkar Azur Dagan.
+
+Su tumba auténtica se revela bajo las cuevas mediante la palabra activadora. En ella el grupo encuentra su cadáver semi-orco, armadura, espada ritual y el Corazón de Kurash.
+
+### Hextor
+
+**Capítulos:** 17
+
+Deidad o entidad asociada al Santuario Olvidado de Hextor. El Corazón de Kurash funciona como guía hacia ese santuario, donde podrían encontrarse bibliotecas con conocimiento sobre la amenaza y la forma de sellarla.
 
 ### Ninthra
 
