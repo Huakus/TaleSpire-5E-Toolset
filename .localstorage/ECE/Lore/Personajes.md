@@ -50,7 +50,7 @@ Ernesto actúa por instinto, movido por la supervivencia y la adrenalina. Es cap
 
 ### Gobernador Alarico Belmonte
 
-**Capítulos:** 1, 2, 3, 4
+**Capítulos:** 1, 2, 3, 4, 5
 
 Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. Ha confiado en Adler y Delerion desde que descubrieron la red de contrabandistas bajo su castillo, y su rol se vuelve crítico cuando es secuestrado por Borgar Tempestus. Su desaparición desencadena una serie de eventos que empujan a los protagonistas hacia el corazón del conflicto con los mercenarios del Reino del Sur.
 
@@ -68,7 +68,7 @@ Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción 
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4
+**Capítulos:** 1, 3, 4, 5
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
@@ -166,7 +166,7 @@ Mercenario de la compañía de Valerio el Férreo. Es mencionado por Valerio com
 
 ### Duque Eldan Brightshield
 
-**Capítulos:** 4
+**Capítulos:** 4, 5
 
 Noble del Reino del Norte, hijo del rey Gareth II y heredero de la dinastía Brightshield. Adler y Delerion lo conocen en Valverde del Río tras regresar con don Alarico Belmonte, luego de la caída de Viktor Salazar.
 
@@ -214,17 +214,21 @@ Capataz de la forja principal del distrito. Negoció con Delerion mejoras de equ
 
 Comerciante acaudalado y hermano de Diego Cortés. Adler y Delerion lo conocen en la Taberna del Cantor Alegre, donde les pide ayuda porque los contrabandistas lo están intimidando para obligarlo a colocar productos robados en el mercado de su ciudad.
 
-### Marion
+### Marcion
 
-**Capítulos:**
+**Capítulos:** 5
 
-Antigua mano derecha del **Capitán Menta**. Apareció en el Distrito de los Artesanos y reconoció a Adler y Delerion, advirtiéndoles que **Petro** planeaba irrumpir en una fiesta para matar a los presentes.
+Asistente del capitán Aitor Menta en el puesto de avanzada al sur de Valverde del Río. Adler, Delerion, Ernesto y Borgar lo conocen al llegar al enclave fortificado, donde acompaña a Menta durante la recepción y toma notas sin pronunciar palabra.
+
+Participa junto a Aitor Menta en el plan de sabotaje contra las defensas del puesto.
 
 ### Capitán Aitor Menta
 
-**Capítulos:** 4
+**Capítulos:** 4, 5
 
 Capitán designado a cargo de las defensas del puesto de avanzada al sur de Valverde del Río. Borgar Tempestus lo identifica ante el grupo como un noble con aspiraciones y como el traidor infiltrado entre las filas del Duque Brightshield.
+
+Adler, Delerion, Ernesto y Borgar lo conocen directamente al llegar al enclave fortificado, donde los recibe con cortesía seca y estudiada.
 
 ### Ragnar
 
@@ -289,6 +293,12 @@ Dios del conocimiento, la escritura y el saber. Es la deidad de Adler y la razó
 Sátiro feérico que Adler y Delerion encuentran en una colina del Bosque Antiguo, después de seguir una canción de laúd. Se presenta como Panthos, la Voz del Bosque, y lleva al grupo al reino feérico para pedirles que recuperen el catalejo robado por Aethelion.
 
 Es afable, musical y enigmático, pero está ligado a un entorno feérico inquietante y peligroso.
+
+### Proyección feérica
+
+**Capítulos:** 5
+
+Figura etérea de piel azul que aparece ante el grupo en la cueva de cristales cercana al puesto de avanzada. Les habla de los antiguos pactos entre los hombres del norte y la Corte de las Hadas, y de los sellos que protegen el mundo de la corrupción Carmesí.
 
 ### Ninthra
 
