@@ -50,13 +50,13 @@ Ernesto actúa por instinto, movido por la supervivencia y la adrenalina. Es cap
 
 ### Gobernador Alarico Belmonte
 
-**Capítulos:** 1, 2, 3
+**Capítulos:** 1, 2, 3, 4
 
 Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. Ha confiado en Adler y Delerion desde que descubrieron la red de contrabandistas bajo su castillo, y su rol se vuelve crítico cuando es secuestrado por Borgar Tempestus. Su desaparición desencadena una serie de eventos que empujan a los protagonistas hacia el corazón del conflicto con los mercenarios del Reino del Sur.
 
 ### Zafir
 
-**Capítulos:** 2
+**Capítulos:** 2, 4
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
@@ -68,15 +68,17 @@ Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción 
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3
+**Capítulos:** 1, 3, 4
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
 ### Viktor Salazar
 
-**Capítulos:** 2, 3
+**Capítulos:** 2, 3, 4
 
 Jefe de los mercenarios del Reino del Sur y figura de autoridad detrás del campamento enemigo. Su nombre surge cuando Zafir ordena mantener preso a Haroldo hasta poder llevarlo ante él, y vuelve a mencionarse cuando el grupo descubre que las bandas de mercenarios subcontratados están reunidas bajo su influencia.
+
+En el campamento mercenario, Adler y Delerion lo enfrentan directamente en su carpa, donde revela su vínculo con el Libro Guardián, el amuleto carmesí y su plan contra Valverde del Río.
 
 ### Ignacio Robledo
 
@@ -86,7 +88,7 @@ Sargento de la guardia local, asesinado por Ernesto durante una misión en el Di
 
 ### Diego Cortés
 
-**Capítulos:** 1, 2, 3
+**Capítulos:** 1, 2, 3, 4
 
 Guardia del castillo, entusiasta, crédulo y siempre dispuesto a ayudar. Su energía impulsa a los protagonistas en momentos críticos, especialmente durante interrogatorios o situaciones donde la autoridad local es necesaria. Es uno de los pocos humanos del pueblo que confía plenamente en ellos.
 
@@ -104,7 +106,7 @@ Figura amable, culta y misteriosa de Valverde del Río. Su casa y su conocimient
 
 ### Haroldo el Montaraz
 
-**Capítulos:** 2, 3
+**Capítulos:** 2, 3, 4
 
 Un cazador excéntrico, solitario, huraño y sorprendentemente competente. Fue clave para emboscar a los contrabandistas en los campos y para guiar a Adler y Delerion al campamento enemigo. Su enemistad con Emilio dificulta al grupo, pero su lealtad —cuando la ofrece— es absoluta.
 
@@ -134,7 +136,7 @@ Líder del grupo de falsos aventureros que operaba cerca de Valverde del Río. A
 
 ### Aethelion
 
-**Capítulos:** 3
+**Capítulos:** 3, 4
 
 Líder del campamento tiefling del Bosque Antiguo. Adler y Delerion lo conocen al llegar al campamento mercenario, donde lo encuentran observando el bosque con un catalejo extraño desde lo alto de unas ruinas.
 
@@ -150,7 +152,7 @@ Es excéntrico, amable, obsesivo y está fascinado por las ruinas antiguas, la C
 
 ### Valerio el Férreo
 
-**Capítulos:** 3
+**Capítulos:** 3, 4
 
 Líder de una compañía de mercenarios humanos asentada en el Bosque Antiguo. Adler y Delerion lo conocen al llegar a su campamento, preocupado por las desapariciones de hombres durante la noche.
 
@@ -161,6 +163,14 @@ Es serio, honorable y reconocido por su talento de mando y por cumplir sus prome
 **Capítulos:** 3
 
 Mercenario de la compañía de Valerio el Férreo. Es mencionado por Valerio como uno de los hombres desaparecidos en los bosques del norte.
+
+### Duque Eldan Brightshield
+
+**Capítulos:** 4
+
+Noble del Reino del Norte, hijo del rey Gareth II y heredero de la dinastía Brightshield. Adler y Delerion lo conocen en Valverde del Río tras regresar con don Alarico Belmonte, luego de la caída de Viktor Salazar.
+
+Es una autoridad política y militar ambiciosa, formal y condescendiente, que toma control parcial de la situación local y asigna al grupo la defensa de un puesto de avanzada al sur de Valverde.
 
 ### Tomi Tres Dientes
 
@@ -200,7 +210,7 @@ Capataz de la forja principal del distrito. Negoció con Delerion mejoras de equ
 
 ### Armando Cortés
 
-**Capítulos:** 2
+**Capítulos:** 2, 4
 
 Comerciante acaudalado y hermano de Diego Cortés. Adler y Delerion lo conocen en la Taberna del Cantor Alegre, donde les pide ayuda porque los contrabandistas lo están intimidando para obligarlo a colocar productos robados en el mercado de su ciudad.
 
@@ -212,9 +222,9 @@ Antigua mano derecha del **Capitán Menta**. Apareció en el Distrito de los Art
 
 ### Capitán Aitor Menta
 
-**Capítulos:**
+**Capítulos:** 4
 
-Capitán cuya figura quedó ligada a intrigas mayores del reino. Su muerte y la posterior huida de Marion se mencionan como piezas dentro de una conspiración que involucra a un Duque y fuerzas carmesíes.
+Capitán designado a cargo de las defensas del puesto de avanzada al sur de Valverde del Río. Borgar Tempestus lo identifica ante el grupo como un noble con aspiraciones y como el traidor infiltrado entre las filas del Duque Brightshield.
 
 ### Ragnar
 
