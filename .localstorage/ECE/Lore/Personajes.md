@@ -50,7 +50,7 @@ Ernesto actúa por instinto, movido por la supervivencia y la adrenalina. Es cap
 
 ### Gobernador Alarico Belmonte
 
-**Capítulos:** 1, 2
+**Capítulos:** 1, 2, 3
 
 Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. Ha confiado en Adler y Delerion desde que descubrieron la red de contrabandistas bajo su castillo, y su rol se vuelve crítico cuando es secuestrado por Borgar Tempestus. Su desaparición desencadena una serie de eventos que empujan a los protagonistas hacia el corazón del conflicto con los mercenarios del Reino del Sur.
 
@@ -68,9 +68,15 @@ Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción 
 
 ### Borgar Tempestus
 
-**Capítulos:** 1
+**Capítulos:** 1, 3
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
+
+### Viktor Salazar
+
+**Capítulos:** 2, 3
+
+Jefe de los mercenarios del Reino del Sur y figura de autoridad detrás del campamento enemigo. Su nombre surge cuando Zafir ordena mantener preso a Haroldo hasta poder llevarlo ante él, y vuelve a mencionarse cuando el grupo descubre que las bandas de mercenarios subcontratados están reunidas bajo su influencia.
 
 ### Ignacio Robledo
 
@@ -80,7 +86,7 @@ Sargento de la guardia local, asesinado por Ernesto durante una misión en el Di
 
 ### Diego Cortés
 
-**Capítulos:** 1, 2
+**Capítulos:** 1, 2, 3
 
 Guardia del castillo, entusiasta, crédulo y siempre dispuesto a ayudar. Su energía impulsa a los protagonistas en momentos críticos, especialmente durante interrogatorios o situaciones donde la autoridad local es necesaria. Es uno de los pocos humanos del pueblo que confía plenamente en ellos.
 
@@ -92,19 +98,19 @@ Joven aventurera que formaba parte del grupo de contrabandistas infiltrados. Aun
 
 ### Emilio el Herbolario
 
-**Capítulos:** 1, 2
+**Capítulos:** 1, 2, 3
 
 Figura amable, culta y misteriosa de Valverde del Río. Su casa y su conocimiento fueron fundamentales para descifrar el *Libro Guardián*. Es uno de los pocos habitantes del pueblo que entiende la magnitud del conflicto arcano que rodea al Círculo Eterno.
 
 ### Haroldo el Montaraz
 
-**Capítulos:** 2
+**Capítulos:** 2, 3
 
 Un cazador excéntrico, solitario, huraño y sorprendentemente competente. Fue clave para emboscar a los contrabandistas en los campos y para guiar a Adler y Delerion al campamento enemigo. Su enemistad con Emilio dificulta al grupo, pero su lealtad —cuando la ofrece— es absoluta.
 
 ### Eliza Belmonte
 
-**Capítulos:**
+**Capítulos:** 3
 
 Sobrina del gobernador y encargada temporal de Valverde del Río durante su secuestro. Joven responsable, decidida y balance entre la nobleza y la vulnerabilidad de su rol. Representa la fibra moral del linaje Belmonte.
 
@@ -125,6 +131,36 @@ Autoridad del templo de Deneir y superior de Adler. Le encargó viajar a Valverd
 **Capítulos:** 1
 
 Líder del grupo de falsos aventureros que operaba cerca de Valverde del Río. Adler lo conoce en la entrada de las cuevas del norte, cuando busca información sobre los saqueos y el hijo desaparecido del capataz. Hernando envía a Isadora para acompañar a Adler en la exploración.
+
+### Aethelion
+
+**Capítulos:** 3
+
+Líder del campamento tiefling del Bosque Antiguo. Adler y Delerion lo conocen al llegar al campamento mercenario, donde lo encuentran observando el bosque con un catalejo extraño desde lo alto de unas ruinas.
+
+Es pretencioso, refinado, honorable en apariencia y ambicioso. Sueña con obtener tierras, título y mando militar cuando termine la guerra.
+
+### Kragor Naramach
+
+**Capítulos:** 3
+
+Chamán semiorco conocido como “el Buscador”. Adler y Delerion oyen hablar de él en el campamento semiorco del Bosque Antiguo y luego lo encuentran en las ruinas de una torre.
+
+Es excéntrico, amable, obsesivo y está fascinado por las ruinas antiguas, la Corte de las Hadas, las fatas y los restos de civilizaciones perdidas. También aparece mencionado como “Kragor Namarach”, probablemente por error de transcripción.
+
+### Valerio el Férreo
+
+**Capítulos:** 3
+
+Líder de una compañía de mercenarios humanos asentada en el Bosque Antiguo. Adler y Delerion lo conocen al llegar a su campamento, preocupado por las desapariciones de hombres durante la noche.
+
+Es serio, honorable y reconocido por su talento de mando y por cumplir sus promesas.
+
+### Orlando
+
+**Capítulos:** 3
+
+Mercenario de la compañía de Valerio el Férreo. Es mencionado por Valerio como uno de los hombres desaparecidos en los bosques del norte.
 
 ### Tomi Tres Dientes
 
@@ -235,6 +271,14 @@ Nombre que aparece asociado a una “red subterránea” en el Barrio Exterior. 
 **Capítulos:** 1
 
 Dios del conocimiento, la escritura y el saber. Es la deidad de Adler y la razón por la que este viaja a Valverde del Río para solicitar permiso de fundar un templo en su honor.
+
+### Panthos, la Voz del Bosque
+
+**Capítulos:** 3
+
+Sátiro feérico que Adler y Delerion encuentran en una colina del Bosque Antiguo, después de seguir una canción de laúd. Se presenta como Panthos, la Voz del Bosque, y lleva al grupo al reino feérico para pedirles que recuperen el catalejo robado por Aethelion.
+
+Es afable, musical y enigmático, pero está ligado a un entorno feérico inquietante y peligroso.
 
 ### Ninthra
 
