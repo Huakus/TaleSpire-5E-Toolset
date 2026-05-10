@@ -74,7 +74,7 @@ Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosa
 
 ### Viktor Salazar
 
-**Capítulos:** 2, 3, 4
+**Capítulos:** 2, 3, 4, 6
 
 Jefe de los mercenarios del Reino del Sur y figura de autoridad detrás del campamento enemigo. Su nombre surge cuando Zafir ordena mantener preso a Haroldo hasta poder llevarlo ante él, y vuelve a mencionarse cuando el grupo descubre que las bandas de mercenarios subcontratados están reunidas bajo su influencia.
 
@@ -171,6 +171,14 @@ Mercenario de la compañía de Valerio el Férreo. Es mencionado por Valerio com
 Noble del Reino del Norte, hijo del rey Gareth II y heredero de la dinastía Brightshield. Adler y Delerion lo conocen en Valverde del Río tras regresar con don Alarico Belmonte, luego de la caída de Viktor Salazar.
 
 Es una autoridad política y militar ambiciosa, formal y condescendiente, que toma control parcial de la situación local y asigna al grupo la defensa de un puesto de avanzada al sur de Valverde.
+
+### Calvus Threnor
+
+**Capítulos:** 6
+
+Nigromante de la Orden Carmesí y antiguo discípulo de Viktor Salazar. El grupo lo encuentra en el Templo del Círculo Eterno, donde había transformado el lugar en un foco de energía corrupta.
+
+Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Tomi Tres Dientes
 
@@ -296,9 +304,15 @@ Es afable, musical y enigmático, pero está ligado a un entorno feérico inquie
 
 ### Proyección feérica
 
-**Capítulos:** 5
+**Capítulos:** 5, 6
 
-Figura etérea de piel azul que aparece ante el grupo en la cueva de cristales cercana al puesto de avanzada. Les habla de los antiguos pactos entre los hombres del norte y la Corte de las Hadas, y de los sellos que protegen el mundo de la corrupción Carmesí.
+Figura etérea de piel azul que aparece ante el grupo en la cueva de cristales cercana al puesto de avanzada y luego como eco del Círculo Eterno bajo la torre principal. Les habla de los antiguos pactos entre los hombres del norte y la Corte de las Hadas, y de los sellos que protegen el mundo de la corrupción Carmesí.
+
+### Caballeros Dracónicos
+
+**Capítulos:** 6
+
+Nueve figuras con rasgos dracónicos representadas en un tapiz del Templo del Círculo Eterno. Ernesto tiene una visión al tocar el tapiz, en la que estas figuras lo juzgan y le entregan un amuleto de obsidiana con el grabado de un ojo.
 
 ### Ninthra
 
