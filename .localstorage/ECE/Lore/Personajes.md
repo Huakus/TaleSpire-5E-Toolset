@@ -50,13 +50,13 @@ Ernesto actúa por instinto, movido por la supervivencia y la adrenalina. Es cap
 
 ### Gobernador Alarico Belmonte
 
-**Capítulos:** 1, 2, 3, 4, 5
+**Capítulos:** 1, 2, 3, 4, 5, 7
 
 Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. Ha confiado en Adler y Delerion desde que descubrieron la red de contrabandistas bajo su castillo, y su rol se vuelve crítico cuando es secuestrado por Borgar Tempestus. Su desaparición desencadena una serie de eventos que empujan a los protagonistas hacia el corazón del conflicto con los mercenarios del Reino del Sur.
 
 ### Zafir
 
-**Capítulos:** 2, 4
+**Capítulos:** 2, 4, 7
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
@@ -68,13 +68,13 @@ Espía tiefling del campamento de Zafir. Se ha enamorado de Varka con devoción 
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5
+**Capítulos:** 1, 3, 4, 5, 7
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
 ### Viktor Salazar
 
-**Capítulos:** 2, 3, 4, 6
+**Capítulos:** 2, 3, 4, 6, 7
 
 Jefe de los mercenarios del Reino del Sur y figura de autoridad detrás del campamento enemigo. Su nombre surge cuando Zafir ordena mantener preso a Haroldo hasta poder llevarlo ante él, y vuelve a mencionarse cuando el grupo descubre que las bandas de mercenarios subcontratados están reunidas bajo su influencia.
 
@@ -88,7 +88,7 @@ Sargento de la guardia local, asesinado por Ernesto durante una misión en el Di
 
 ### Diego Cortés
 
-**Capítulos:** 1, 2, 3, 4
+**Capítulos:** 1, 2, 3, 4, 7
 
 Guardia del castillo, entusiasta, crédulo y siempre dispuesto a ayudar. Su energía impulsa a los protagonistas en momentos críticos, especialmente durante interrogatorios o situaciones donde la autoridad local es necesaria. Es uno de los pocos humanos del pueblo que confía plenamente en ellos.
 
@@ -112,7 +112,7 @@ Un cazador excéntrico, solitario, huraño y sorprendentemente competente. Fue c
 
 ### Eliza Belmonte
 
-**Capítulos:** 3
+**Capítulos:** 3, 7
 
 Sobrina del gobernador y encargada temporal de Valverde del Río durante su secuestro. Joven responsable, decidida y balance entre la nobleza y la vulnerabilidad de su rol. Representa la fibra moral del linaje Belmonte.
 
@@ -166,7 +166,7 @@ Mercenario de la compañía de Valerio el Férreo. Es mencionado por Valerio com
 
 ### Duque Eldan Brightshield
 
-**Capítulos:** 4, 5
+**Capítulos:** 4, 5, 7
 
 Noble del Reino del Norte, hijo del rey Gareth II y heredero de la dinastía Brightshield. Adler y Delerion lo conocen en Valverde del Río tras regresar con don Alarico Belmonte, luego de la caída de Viktor Salazar.
 
@@ -188,51 +188,51 @@ Criminal del Distrito de los Artesanos cuya influencia y encargos empujaron a Er
 
 ### Eladio
 
-**Capítulos:**
+**Capítulos:** 7
 
 Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
 
 ### Gregorio
 
-**Capítulos:**
+**Capítulos:** 7
 
 Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
 
 ### Petro
 
-**Capítulos:**
+**Capítulos:** 7
 
 Personaje clave del Distrito de los Artesanos, conocedor de la situación local y de las tensiones internas del distrito. Su información lo convierte en un aliado vital para la misión principal.
 
 ### Arnaldo
 
-**Capítulos:**
+**Capítulos:** 7
 
 Posadero y regente de **la Posada de los Herreros** en el Distrito de los Artesanos. Fue quien les alquiló al grupo un piso completo tras un regateo duro, convirtiéndose en el primer contacto “civil” que les dio techo en la ciudad baja.
 
 ### Hugo
 
-**Capítulos:**
+**Capítulos:** 7
 
 Capataz de la forja principal del distrito. Negoció con Delerion mejoras de equipo y, encantado por el carisma de Varka, accedió a proveer materiales para falsificar un permiso de paso hacia la Ciudad Alta.
 
 ### Armando Cortés
 
-**Capítulos:** 2, 4
+**Capítulos:** 2, 4, 7
 
 Comerciante acaudalado y hermano de Diego Cortés. Adler y Delerion lo conocen en la Taberna del Cantor Alegre, donde les pide ayuda porque los contrabandistas lo están intimidando para obligarlo a colocar productos robados en el mercado de su ciudad.
 
 ### Marcion
 
-**Capítulos:** 5
+**Capítulos:** 5, 7
 
 Asistente del capitán Aitor Menta en el puesto de avanzada al sur de Valverde del Río. Adler, Delerion, Ernesto y Borgar lo conocen al llegar al enclave fortificado, donde acompaña a Menta durante la recepción y toma notas sin pronunciar palabra.
 
-Participa junto a Aitor Menta en el plan de sabotaje contra las defensas del puesto.
+Participa junto a Aitor Menta en el plan de sabotaje contra las defensas del puesto. Más adelante aparece en el Distrito de los Artesanos, donde reconoce a Adler y Delerion y les advierte que Petro planea irrumpir en una fiesta para matar a los presentes.
 
 ### Capitán Aitor Menta
 
-**Capítulos:** 4, 5
+**Capítulos:** 4, 5, 7
 
 Capitán designado a cargo de las defensas del puesto de avanzada al sur de Valverde del Río. Borgar Tempestus lo identifica ante el grupo como un noble con aspiraciones y como el traidor infiltrado entre las filas del Duque Brightshield.
 
@@ -264,13 +264,13 @@ Dirige un taller de costura del Distrito de los Artesanos que aparece entre los 
 
 ### El dueño de la forja
 
-**Capítulos:**
+**Capítulos:** 7
 
 Maestro herrero del distrito, dueño de la forja principal, que asistió a una reunión en la taberna **El Cuenco de Carbón**. Fue asesinado por la espalda durante el caos provocado por Petro.
 
 ### El sobrino del dueño de la forja
 
-**Capítulos:**
+**Capítulos:** 7
 
 Joven noble y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
@@ -290,7 +290,7 @@ Nombre que aparece asociado a una “red subterránea” en el Barrio Exterior. 
 
 ### Deneir
 
-**Capítulos:** 1
+**Capítulos:** 1, 7
 
 Dios del conocimiento, la escritura y el saber. Es la deidad de Adler y la razón por la que este viaja a Valverde del Río para solicitar permiso de fundar un templo en su honor.
 
