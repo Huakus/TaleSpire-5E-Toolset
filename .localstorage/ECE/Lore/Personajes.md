@@ -56,11 +56,11 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7, 9, 10, 11
+**Capítulos:** 2, 4, 7, 9, 10, 11, 12
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
-También aparece transcripto como “Zephyr”, pero el nombre canónico es Zafir.
+También aparece transcripto como “Zephyr” o “Zaphir”, pero el nombre canónico es Zafir.
 
 ### Arturo
 
@@ -72,7 +72,7 @@ Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ell
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11
+**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
@@ -284,9 +284,11 @@ Maestro herrero del distrito, dueño de la forja principal, que asistió a una r
 
 ### Lucen Redgar, El Pichón
 
-**Capítulos:** 7
+**Capítulos:** 7, 12
 
 Sobrino del dueño de la forja y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
+
+En el Barrio Exterior, el grupo sigue buscando pistas sobre su paradero y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales.
 
 ### La mujer marcada
 
