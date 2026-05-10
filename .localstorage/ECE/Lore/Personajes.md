@@ -56,13 +56,13 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7
+**Capítulos:** 2, 4, 7, 9
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
 ### Arturo
 
-**Capítulos:** 8
+**Capítulos:** 8, 9
 
 Humano grandote y musculoso del grupo de Zafir. Varka lo conoce en el mercado del Distrito de los Artesanos y lo manipula con su encanto para que averigüe cómo acceder a la Ciudad Alta.
 
@@ -70,7 +70,7 @@ Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ell
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7
+**Capítulos:** 1, 3, 4, 5, 7, 9
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
@@ -84,9 +84,9 @@ En el campamento mercenario, Adler y Delerion lo enfrentan directamente en su ca
 
 ### Ignacio Robledo
 
-**Capítulos:**
+**Capítulos:** 9
 
-Sargento de la guardia local, asesinado por Ernesto durante una misión en el Distrito de los Artesanos. Su muerte marca el punto más oscuro del kobold, consecuencia del agotamiento extremo y del caos emocional que arrastraba.
+Sargento de la guardia local del Distrito de los Artesanos. Tomi Tres Dientes envía al grupo a recuperar un paquete que Robledo le había robado. Ernesto lo encuentra en su casa y el robo termina en una escena violenta que marca uno de los momentos más oscuros del kobold.
 
 ### Diego Cortés
 
@@ -102,7 +102,7 @@ Joven aventurera que formaba parte del grupo de contrabandistas infiltrados. Aun
 
 ### Emilio el Herbolario
 
-**Capítulos:** 1, 2, 3
+**Capítulos:** 1, 2, 3, 9
 
 Figura amable, culta y misteriosa de Valverde del Río. Su casa y su conocimiento fueron fundamentales para descifrar el *Libro Guardián*. Es uno de los pocos habitantes del pueblo que entiende la magnitud del conflicto arcano que rodea al Círculo Eterno.
 
@@ -184,9 +184,11 @@ Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Tomi Tres Dientes
 
-**Capítulos:**
+**Capítulos:** 9
 
-Criminal del Distrito de los Artesanos cuya influencia y encargos empujaron a Ernesto a sus actos más cuestionables. Una figura peligrosa, siempre en las sombras y moviendo piezas desde lo oculto.
+Veterano aventurero y regente del bodegón El Tridente, en el Distrito de los Artesanos. El grupo lo conoce durante una cena comunitaria donde reparte comida a los necesitados del distrito.
+
+Es una figura influyente entre los vagabundos y marginados, con una red de ojos y oídos por todo el barrio. Ofrece ayudar al grupo a entrar a la Ciudad Alta a cambio de recuperar un paquete robado por Ignacio Robledo.
 
 ### Eladio
 
@@ -248,15 +250,21 @@ Guardaespaldas del sargento Ignacio Robledo. Se lo menciona como parte del círc
 
 ### El Pipo
 
-**Capítulos:**
+**Capítulos:** 9
 
-Mendigo del Distrito de los Artesanos con “ojos y oídos por todo el distrito”, gracias a una red de mendigos. Fue una fuente de información para Delerion y el grupo durante una reunión nocturna vinculada a Tomi Tres Dientes.
+Mendigo del Distrito de los Artesanos con “ojos y oídos por todo el distrito”, gracias a una red de mendigos. Delerion lo conoce durante la cena en El Tridente, donde le revela rumores sobre el pasado de Tomi Tres Dientes y su influencia entre los vagabundos del distrito.
 
 ### Rodrigo Ayward
 
-**Capítulos:**
+**Capítulos:** 9
 
-Erudito de aspecto excéntrico que se cruzó con Ernesto en el Distrito de los Artesanos. Se lo asocia con conocimientos extraños (incluyendo menciones a túneles antiguos excavados por kobolds) y con la idea de que “el canto del metal” es un legado de los titanes.
+Erudito de aspecto excéntrico que se cruza con Ernesto en el Distrito de los Artesanos. Estudia historias y desplazamientos de kobolds en registros imperiales, y menciona túneles antiguos excavados por kobolds, ruinas bajo el empedrado y la figura legendaria del kobold tuerto.
+
+### Johanna
+
+**Capítulos:** 9
+
+Exasistente de Emilio el Herbolario, reencontrada por Ernesto en la casa del sargento Ignacio Robledo durante el robo del paquete de Tomi Tres Dientes. En ese momento trabaja como prostituta en el Distrito de los Artesanos.
 
 ### La jefa del taller de costura
 
