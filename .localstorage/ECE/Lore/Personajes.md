@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 25)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 26)
 
 ## Protagonistas
 
@@ -33,6 +33,8 @@ Su moral se rige por la curiosidad y la lógica más que por la ley o la compasi
 Varka es una semielfa de ascendencia feérica introducida en el Templo del Círculo Eterno. Su presencia está ligada a la magia natural y al misterio de los pactos antiguos entre la Corte de las Hadas y los hombres del norte. Posee un carisma magnético y una belleza inquietante, rasgos que utiliza tanto en la diplomacia como en la manipulación. Es intuitiva, espiritual y profundamente consciente de las fuerzas invisibles que rodean al grupo.
 
 Durante su estancia en el Distrito de los Artesanos, Varka ha demostrado ser tan peligrosa como encantadora. Su capacidad para leer las emociones ajenas y dirigir las conversaciones le ha permitido manipular a gremios y mercenarios sin recurrir a la violencia. Ha sido clave para establecer contactos estratégicos, como con Arturo, un humano grandote y musculoso del grupo de Zafir que se ha enamorado perdidamente de ella. Aunque Varka parece no corresponderle, utiliza su devoción para obtener información o favores con sutil maestría.
+
+Durante el juicio de Adler en el ayuntamiento, Varka intenta defenderlo haciéndolo pasar por su abuelo senil. Cuando el ritualista del mausoleo la reconoce y ordena arrestarla, contacta a sus patronos y escapa junto a Adler a través de un plano extraterrenal.
 
 Varka representa la conexión viva entre lo humano y lo feérico. Su presencia estabiliza las energías desbordadas del grupo y mantiene el vínculo con la Corte de las Hadas, siendo una pieza emocional y mística central en la historia.
 
@@ -200,13 +202,15 @@ Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Severino
 
-**Capítulos:** 16, 18, 25
+**Capítulos:** 16, 18, 25, 26
 
 Figura mencionada en las notas del laboratorio aeloriano bajo las cuevas. Aparece como impulsor del proyecto relacionado con una variante del Ritual del Eco aplicada a seres vivos, con fines de espionaje, infiltración política y manipulación de nobles.
 
 Bánic lo menciona como contacto relacionado con la Biblioteca del Eco y con los planes de manipulación de memorias y voluntades.
 
 Más adelante aparece en el cementerio de la Ciudad Alta junto a la guardia, un sacerdote y el ritualista de la Orden Carmesí. Al llegar, elimina de inmediato al comandante no muerto que el grupo había suspendido y silenciado, y toma control de la investigación del mausoleo.
+
+Su intervención en el cementerio provoca la detención de Adler y confirma ante el grupo que el incidente está conectado con la Orden Carmesí.
 
 ### Cassian Balté Castimiro
 
@@ -334,7 +338,7 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 ### Nyxara
 
-**Capítulos:** 19, 20, 21, 22, 23
+**Capítulos:** 19, 20, 21, 22, 23, 26
 
 Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
@@ -342,7 +346,9 @@ Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Adv
 
 Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Hadas. Más adelante, su carta de respaldo ayuda al grupo a iniciar el trámite de licencia de mercenario.
 
-También aparece transcripta como Nixara, Xiomara o Ciómara, pero el nombre canónico es Nyxara.
+Tras el escape de Adler y Varka del ayuntamiento, el grupo vuelve a reagruparse en su casa.
+
+También aparece transcripta como Nixara, Xiomara, Siomara o Ciómara, pero el nombre canónico es Nyxara.
 
 ### El Lagarto de los espejos
 
@@ -370,11 +376,13 @@ Gobernador de la Ciudad Alta mencionado por Nyxara. Su creciente paranoia está 
 
 ### Ritualista de la Orden Carmesí
 
-**Capítulos:** 25
+**Capítulos:** 25, 26
 
 Hombre joven encontrado por el grupo dentro de un mausoleo del cementerio de la Ciudad Alta, realizando un ritual vinculado a la Orden Carmesí.
 
 Cuando el grupo lo sorprende, advierte que no deberían haberse metido con la Orden Carmesí, levanta dos muertos vivientes y desaparece. Más tarde vuelve junto a Severino, el sacerdote y la guardia cuando el cementerio ya está rodeado.
+
+Durante el juicio de Adler en el ayuntamiento, aparece nuevamente, reconoce a Varka y ordena que también la arresten.
 
 ### Arnaldo
 
@@ -498,13 +506,15 @@ Es afable, musical y enigmático, pero está ligado a un entorno feérico inquie
 
 ### Orden Carmesí
 
-**Capítulos:** 6, 15, 16, 18, 24, 25
+**Capítulos:** 6, 15, 16, 18, 24, 25, 26
 
 Organización vinculada a la corrupción Carmesí, los rituales prohibidos, la manipulación de conocimientos y los experimentos bajo tierra. Su influencia aparece desde el Templo del Círculo Eterno y vuelve a surgir en los túneles, la Biblioteca del Eco y los conflictos políticos de la Ciudad Alta.
 
 En el capítulo 24, Cassian Balté Castimiro conecta sus movimientos con la presión sobre los gremios, el Templo del Moradi y la ciudad legal.
 
 En el cementerio de la Ciudad Alta, un ritualista vinculado a la Orden Carmesí usa un mausoleo para levantar muertos vivientes y desaparece antes de regresar junto a Severino y la guardia.
+
+En el ayuntamiento, el ritualista reconoce a Varka durante el juicio de Adler y ordena su arresto, confirmando que la Orden Carmesí mantiene influencia directa sobre la respuesta oficial al incidente del cementerio.
 
 ### El Velado
 
