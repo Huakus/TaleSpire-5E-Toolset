@@ -10,9 +10,9 @@ Brightshield pretendía utilizar el viaje para librarse de ellos o comprometerlo
 
 ### Recompensa para el templo de Deneir, no muertos de Delerion y cartas de Aitor Menta
 
-Antes de partir, Adler recibió una recompensa de manos del Gobernador: los fondos necesarios para construir un templo en honor a Deneir en Valverde del Río. Por su parte, Delerion visitó el cementerio local con otros propósitos. Allí invocó a dos ayudantes no muertos, disimulados mediante brazaletes de disfraz y conjuros de descanso apacible.
+Antes de partir, Adler recibió una recompensa de manos del Gobernador: los fondos necesarios para construir un templo en honor a Deneir en Valverde del Río. Por su parte, Delerion visitó el cementerio local con otros propósitos. Allí invocó a dos ayudantes no muertos, disimulados mediante brazaletes de disfraz y conjuros de Descanso apacible.
 
-También exploró el campo de batalla del puesto de avanzada, donde encontró entre las pertenencias abandonadas del Capitán Aitor Menta dos cartas reveladoras: una dirigida a su esposa, en la que mencionaba servir al nigromante Viktor Salazar por orden de su superior, "El Lord"; y otra dirigida a ese mismo Lord, informando que el matrimonio con Eliza Belmonte estaba listo para consumarse.
+También exploró el campo de batalla del puesto de avanzada, donde encontró entre las pertenencias abandonadas del Capitán Aitor Menta dos cartas reveladoras: una dirigida a su esposa, en la que mencionaba servir al nigromante Viktor Salazar por orden de su superior, "el Lord"; y otra dirigida a ese mismo Lord, informando que el matrimonio con Eliza Belmonte estaba listo para consumarse.
 
 Alarico también les pidió que hablaran con Borgar Tempestus, quien relató que el Duque aprovechó la confusión del combate en el paso de montaña para eliminar testigos de su conspiración, entre ellos al Capitán Menta. Borgar logró huir, pero quedó marcado como traidor. Marion, la asistente de Menta, también habría escapado.
 
@@ -20,7 +20,7 @@ Alarico también les pidió que hablaran con Borgar Tempestus, quien relató que
 
 Antes de partir, los aventureros hablaron con el comerciante Armando Cortés, hermano de Diego Cortés, quien accedió a prestarles su embarcación a cambio de un favor: interceder ante el Gobernador para aprobar el casamiento de su sobrina Eliza con un noble del sur. Los aventureros se negaron, pero prometieron que le deberían una.
 
-También se reunieron con Eliza, quien confesó sentirse atrapada por las intrigas políticas de Valverde y el matrimonio concertado con ese misterioso Lord, ignorando que él estaba detrás de las conspiraciones del Duque y los Carmesíes.
+También se reunieron con Eliza, quien confesó sentirse atrapada por las intrigas políticas de Valverde y el matrimonio concertado con ese misterioso Lord, ignorando que él estaba detrás de las conspiraciones del Duque y la Orden Carmesí.
 
 ### Viaje nocturno por el Río Verde hacia el Distrito de los Artesanos
 
@@ -30,7 +30,7 @@ Esa noche, partieron en la barca de Cortés por el Río Verde. El amanecer los e
 
 El grupo se alojó en la Posada de los Herreros, regenteada por Arnaldo, quien les alquiló un piso completo tras un duro regateo. Luego visitaron la forja principal, donde conocieron a Hugo, capataz del taller. Mientras Delerion negociaba la mejora del equipamiento del grupo, utilizó a su familiar para espiar el lugar, descubriendo una cámara oculta llena de cristales lucientes y de reserva, similares a los del Corazón Carmesí. Decidió guardar el hallazgo en secreto.
 
-El capataz, encantado por el carisma de Varka, accedió a proveer materiales para falsificar un permiso de paso a la ciudad alta. Esa tarde, el grupo descubrió que Zafir, un tiefling conocido por sus contactos, también estaba interesado en Petro, el contacto que podía guiarlos hacia los mercenarios del sur.
+El capataz, encantado por el carisma de Varka, accedió a proveer materiales para falsificar un permiso de paso a la Ciudad Alta. Esa tarde, el grupo descubrió que Zafir, un tiefling conocido por sus contactos, también estaba interesado en Petro, el contacto que podía guiarlos hacia los mercenarios del sur.
 
 ### Investigación en El Cuenco de Carbón sobre Petro y los mercenarios
 
@@ -50,6 +50,6 @@ Eladio, Gregorio y el sobrino del herrero habían desaparecido. El dueño de la 
 
 ### Consecuencias del incendio, trato con Zafir y búsqueda de mercenarios del norte
 
-Con ayuda de los guardias, los aventureros ayudaron a apagar las llamas y a rescatar a los sobrevivientes. El distrito amaneció cubierto de ceniza. La muerte del herrero dejó la forja sin dueño y a su sobrino desaparecido. La guardia interrogó al grupo, pero su versión fue aceptada. Horas después, se reunieron con Zafir, quien, aunque irritado por el desastre, cumplió su palabra: colaboraría con ellos para falsificar los documentos necesarios para cruzar a la ciudad alta.
+Con ayuda de los guardias, los aventureros ayudaron a apagar las llamas y a rescatar a los sobrevivientes. El distrito amaneció cubierto de ceniza. La muerte del herrero dejó la forja sin dueño y a su sobrino desaparecido. La guardia interrogó al grupo, pero su versión fue aceptada. Horas después, se reunieron con Zafir, quien, aunque irritado por el desastre, cumplió su palabra: colaboraría con ellos para falsificar los documentos necesarios para cruzar a la Ciudad Alta.
 
 Antes de marcharse, el grupo decidió explorar más el distrito en busca de los mercenarios leales al Reino del Norte. El viaje apenas comenzaba, pero el humo del Cuenco de Carbón y las sombras del sur dejaban claro que algo más oscuro se movía detrás de los gremios y sus alianzas.

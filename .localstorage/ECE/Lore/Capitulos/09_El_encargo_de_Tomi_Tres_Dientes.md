@@ -2,7 +2,7 @@
 
 ### Cena en El Tridente y rumores sobre el pasado de Tomi Tres Dientes
 
-Tras el golpe a la forja, en el Distrito de los Artesanos, Delerion, Adler, Varka y Skitrix "Ernesto" Koboldtanz acudieron a una reunión nocturna en el bodegón El Tridente, regenteado por Tomi Tres Dientes, un veterano aventurero que ahora dedicaba sus días a alimentar a los necesitados del distrito. Entre vapores de estofado y tablones cubiertos de platos, el grupo colaboró con la distribución de la comida, mientras Tomi los observaba con atención.
+Tras el golpe a la forja, en el Distrito de los Artesanos, Delerion, Adler, Varka y Skitrix “Stix Ernesto” Koboldtanz acudieron a una reunión nocturna en el bodegón El Tridente, regenteado por Tomi Tres Dientes, un veterano aventurero que ahora dedicaba sus días a alimentar a los necesitados del distrito. Entre vapores de estofado y tablones cubiertos de platos, el grupo colaboró con la distribución de la comida, mientras Tomi los observaba con atención.
 
 Durante el reparto, Delerion conversó con un mendigo apodado El Pipo, quien le reveló que Tomi era considerado una leyenda entre los vagabundos del distrito, y que años atrás había huido del Reino del Este tras asesinar a un noble. A raíz de ese crimen, se vio obligado a escapar sin poder llevarse consigo un gran tesoro, que dejó oculto en su tierra natal. Desde entonces, se había establecido en el Reino del Sur, donde ahora regenteaba El Tridente.
 
@@ -62,7 +62,7 @@ La sangre bañó la cama, las paredes y al propio Ernesto, sellando el destino d
 
 Sabiendo que el guardia personal del sargento estaría de vuelta en cualquier momento, atinó a hacer lo único que se le ocurrió para eliminar las pruebas que podrían inculparlo: incendiar el lugar del crimen con los cuerpos de sus víctimas aún dentro. Tomó una lámpara de aceite que había cerca y la roció por toda la habitación antes de encenderla.
 
-Ernesto salió de la casa sin saber bien qué hacer, cuando recordó que debajo de la cama había una gran bolsa de monedas de oro, por lo que intentó volver a la casa, pero sin éxito. Al alejarse de la casa, con el calor de las llamas aún pegado a la piel y la ropa empapada en sudor y sangre, Ernesto se encontró con la ex-asistente de Emilio, ahora reconvertida en prostituta. Ella estaba inmóvil, paralizada frente al incendio que devoraba la vivienda que acababa de abandonar.
+Ernesto salió de la casa sin saber bien qué hacer, cuando recordó que debajo de la cama había una gran bolsa de monedas de oro, por lo que intentó volver a la casa, pero sin éxito. Al alejarse de la casa, con el calor de las llamas aún pegado a la piel y la ropa empapada en sudor y sangre, Ernesto se encontró con la exasistente de Emilio, ahora reconvertida en prostituta. Ella estaba inmóvil, paralizada frente al incendio que devoraba la vivienda que acababa de abandonar.
 
 Ernesto, temblando de agotamiento físico y mental, con la respiración agitada y la mirada perdida, logró enfocar su atención en la mujer. Con voz ronca y cansada, la sacó de su trance. No le quedaban fuerzas para sutilezas: la amenazó con firmeza, exigiéndole que abandonara la ciudad de inmediato y regresara a Valverde. Le puso unas monedas de oro en la mano con manos que apenas podían sostenerse firmes.
 
@@ -70,8 +70,8 @@ La mujer, sacudida tanto por la escena como por la determinación del kobold, as
 
 ### El grupo descubre que Tomi huyó y abre el paquete robado
 
-De regreso a la posada, el grupo se reunió. Varka se pidió al posadero que confirmara su coartada, y todos subieron a la habitación de Adler para discutir los próximos pasos. Decidieron que Ernesto debía entregar el paquete cuanto antes. Sin embargo, al llegar al Tridente, encontró el local cerrado. Pipo le informó que Tomi había huido, recomendando a todos que se alejaran. Ernesto consideró dejar el paquete dentro del local, pero desistió y regresó a la posada con él.
+De regreso a la posada, el grupo se reunió. Varka le pidió al posadero que confirmara su coartada, y todos subieron a la habitación de Adler para discutir los próximos pasos. Decidieron que Ernesto debía entregar el paquete cuanto antes. Sin embargo, al llegar al Tridente, encontró el local cerrado. Pipo le informó que Tomi había huido, recomendando a todos que se alejaran. Ernesto consideró dejar el paquete dentro del local, pero desistió y regresó a la posada con él.
 
-El grupo, ya sin opciones claras, decidió abrir la caja. En su interior hallaron un artefacto arcano desconocido: un tubo largo con un mango y una perilla móvil. El objeto brillaba con una energía azul fría, y su superficie facetada estaba grabada con runas élficas. La energía que emanaba era inconfundible para Delerion: era del mismo tipo que la de los cristales lucientes y de reserva vinculados al templo del Círculo Eterno. No parecía un tesoro común, sino un artefacto de propósito desconocido.
+El grupo, ya sin opciones claras, decidió abrir la caja. En su interior hallaron un artefacto arcano desconocido: un tubo largo con un mango y una perilla móvil. El objeto brillaba con una energía azul fría, y su superficie facetada estaba grabada con runas élficas. La energía que emanaba era inconfundible para Delerion: era del mismo tipo que la de los cristales lucientes y de reserva vinculados al Templo del Círculo Eterno. No parecía un tesoro común, sino un artefacto de propósito desconocido.
 
 Desconcertados y exhaustos, lo ocultaron en la habitación de Adler y se fueron a dormir, sin saber qué consecuencias acarrearía lo que acababan de desatar.
