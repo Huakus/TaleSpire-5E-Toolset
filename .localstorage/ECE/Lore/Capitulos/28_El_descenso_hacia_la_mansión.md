@@ -2,15 +2,15 @@
 
 ### La decisión de rescatar a Petro
 
-Reagrupados en la casa de **Xiomara**, también conocida como **Siomara** o **Nyxara**, el grupo discute sus próximos pasos después del rescate de **Adler**.
+Reagrupados en la casa de **Nyxara**, el grupo discute sus próximos pasos después del rescate de **Adler**.
 
-La situación sigue siendo urgente. **Petro** continúa en peligro y su rescate no puede esperar demasiado. **Mersion** insiste en que deben actuar ese mismo día, antes de que sus enemigos tengan más tiempo para moverlo, prepararlo o utilizarlo para sus propios fines.
+La situación sigue siendo urgente. **Petro** continúa en peligro y su rescate no puede esperar demasiado. **Mercion** insiste en que deben actuar ese mismo día, antes de que sus enemigos tengan más tiempo para moverlo, prepararlo o utilizarlo para sus propios fines.
 
 El grupo decide no avanzar con todos sus miembros. La misión requiere sigilo, velocidad y capacidad para moverse por rutas subterráneas.
 
-Finalmente, parten **Mersion**, **Varka**, **Adler**, **Stixx Ernesto** y **Delerion**.
+Finalmente, parten **Mercion**, **Varka**, **Adler**, **Stix Ernesto** y **Delerion**.
 
-**Borgar**, **Caco** y **Arturo** permanecen en la casa de **Xiomara**, encargados de cuidar al pichón y proteger el refugio mientras el resto del grupo se dirige hacia la mansión.
+**Borgar**, **Caco** y **Arturo** permanecen en la casa de **Nyxara**, encargados de cuidar al Pichón y proteger el refugio mientras el resto del grupo se dirige hacia la mansión.
 
 ### El regreso a las cloacas
 
@@ -24,7 +24,7 @@ Después de avanzar unos metros, detectan movimiento en la oscuridad. Entre los 
 
 El combate es breve.
 
-El grupo reacciona rápido y logra eliminar a las arañas sin sufrir mayores complicaciones. Una vez despejado el paso, **Mersion** guía al resto por la ruta que recuerda, buscando una salida cercana a la mansión.
+El grupo reacciona rápido y logra eliminar a las arañas sin sufrir mayores complicaciones. Una vez despejado el paso, **Mercion** guía al resto por la ruta que recuerda, buscando una salida cercana a la mansión.
 
 ### El mausoleo conectado
 
@@ -66,7 +66,7 @@ El combate comienza de inmediato.
 
 La expulsión cambia por completo el ritmo del enfrentamiento.
 
-En lugar de ser rodeados, los aventureros pueden concentrarse en los enemigos de a uno. **Mersion**, **Varka**, **Delerion**, **Adler** y **Ernesto** aprovechan la ventaja para destruirlos antes de que recuperen la iniciativa.
+En lugar de ser rodeados, los aventureros pueden concentrarse en los enemigos de a uno. **Mercion**, **Varka**, **Delerion**, **Adler** y **Ernesto** aprovechan la ventaja para destruirlos antes de que recuperen la iniciativa.
 
 Los no-muertos son despachados con relativa facilidad.
 
@@ -82,7 +82,7 @@ El grupo analiza la situación.
 
 Dejar a alguien atrás no es una opción conveniente. Tampoco quieren quedar separados en territorio enemigo.
 
-**Stixx Ernesto** examina el mecanismo y trabaja sobre la palanca. En lugar de limitarse a activarla, la modifica para alterar su funcionamiento.
+**Stix Ernesto** examina el mecanismo y trabaja sobre la palanca. En lugar de limitarse a activarla, la modifica para alterar su funcionamiento.
 
 El kobold logra trabar el sistema.
 
@@ -154,7 +154,7 @@ El grupo decide atacar.
 
 **Delerion** propone utilizar el círculo visto por **Martita** para abrir una conexión mágica hacia la sala de Severino. A través de la araña, logra observar las runas del círculo y usarlas como referencia para preparar el conjuro.
 
-Antes de ejecutar el plan, el grupo envía a **Stixx Ernesto** por el hueco.
+Antes de ejecutar el plan, el grupo envía a **Stix Ernesto** por el hueco.
 
 El kobold avanza en silencio, se infiltra en la sala lateral y se coloca detrás de Severino, esperando el momento exacto para atacar.
 
@@ -168,7 +168,7 @@ El grupo aparece de golpe en la sala de Severino.
 
 La llegada es repentina. Severino no alcanza a prepararse del todo antes de que el kobold actúe desde su espalda.
 
-**Stixx Ernesto** lanza el primer ataque con su daga.
+**Stix Ernesto** lanza el primer ataque con su daga.
 
 El golpe impacta contra la túnica de Severino, pero no logra atravesarla. La protección mágica repele el arma y evita el daño.
 
@@ -180,7 +180,7 @@ Esta vez el golpe entra.
 
 La daga atraviesa la defensa de Severino y causa una herida devastadora. El ataque ocurre al mismo tiempo que el resto del grupo termina de materializarse en la sala.
 
-Cuando **Mersion**, **Varka**, **Adler** y **Delerion** llegan, Severino ya está cayendo.
+Cuando **Mercion**, **Varka**, **Adler** y **Delerion** llegan, Severino ya está cayendo.
 
 El nigromante se desploma, tosiendo sangre, y queda muerto en un charco oscuro sobre el suelo de la catacumba.
 
