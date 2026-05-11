@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 24)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 25)
 
 ## Protagonistas
 
@@ -200,11 +200,13 @@ Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Severino
 
-**Capítulos:** 16, 18
+**Capítulos:** 16, 18, 25
 
 Figura mencionada en las notas del laboratorio aeloriano bajo las cuevas. Aparece como impulsor del proyecto relacionado con una variante del Ritual del Eco aplicada a seres vivos, con fines de espionaje, infiltración política y manipulación de nobles.
 
 Bánic lo menciona como contacto relacionado con la Biblioteca del Eco y con los planes de manipulación de memorias y voluntades.
+
+Más adelante aparece en el cementerio de la Ciudad Alta junto a la guardia, un sacerdote y el ritualista de la Orden Carmesí. Al llegar, elimina de inmediato al comandante no muerto que el grupo había suspendido y silenciado, y toma control de la investigación del mausoleo.
 
 ### Cassian Balté Castimiro
 
@@ -366,6 +368,14 @@ Lo encuentran en la posada de Calis de Bruma. Tras negociar el precio, realiza l
 
 Gobernador de la Ciudad Alta mencionado por Nyxara. Su creciente paranoia está vinculada al aumento de vigilancia, a la presencia de los capas verdes y al clima de control que afecta a la ciudad.
 
+### Ritualista de la Orden Carmesí
+
+**Capítulos:** 25
+
+Hombre joven encontrado por el grupo dentro de un mausoleo del cementerio de la Ciudad Alta, realizando un ritual vinculado a la Orden Carmesí.
+
+Cuando el grupo lo sorprende, advierte que no deberían haberse metido con la Orden Carmesí, levanta dos muertos vivientes y desaparece. Más tarde vuelve junto a Severino, el sacerdote y la guardia cuando el cementerio ya está rodeado.
+
 ### Arnaldo
 
 **Capítulos:** 7
@@ -488,11 +498,13 @@ Es afable, musical y enigmático, pero está ligado a un entorno feérico inquie
 
 ### Orden Carmesí
 
-**Capítulos:** 6, 15, 16, 18, 24
+**Capítulos:** 6, 15, 16, 18, 24, 25
 
 Organización vinculada a la corrupción Carmesí, los rituales prohibidos, la manipulación de conocimientos y los experimentos bajo tierra. Su influencia aparece desde el Templo del Círculo Eterno y vuelve a surgir en los túneles, la Biblioteca del Eco y los conflictos políticos de la Ciudad Alta.
 
 En el capítulo 24, Cassian Balté Castimiro conecta sus movimientos con la presión sobre los gremios, el Templo del Moradi y la ciudad legal.
+
+En el cementerio de la Ciudad Alta, un ritualista vinculado a la Orden Carmesí usa un mausoleo para levantar muertos vivientes y desaparece antes de regresar junto a Severino y la guardia.
 
 ### El Velado
 
