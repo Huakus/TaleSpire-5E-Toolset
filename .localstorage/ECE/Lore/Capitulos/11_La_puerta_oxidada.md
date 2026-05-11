@@ -1,8 +1,8 @@
 ## Capítulo 11: La Puerta Oxidada del Distrito Artesano
 
-### Reencuentro con Borgar, Zephyr y Arturo en una casa del este del distrito
+### Reencuentro con Borgar, Zafir y Arturo en una casa del este del distrito
 
-El grupo avanzó hacia el este, siguiendo las pistas que podían conducirlos hasta Borgar, Zephyr y Arturo. Las callejuelas angostas del distrito resonaban con el martilleo distante de los artesanos; fue entonces, al pasar frente a una casa humilde, que una voz urgente los llamó desde el interior. Allí, resguardados de la vista pública, Borgar, Zephyr y Arturo aguardaban en penumbra.
+El grupo avanzó hacia el este, siguiendo las pistas que podían conducirlos hasta Borgar, Zafir y Arturo. Las callejuelas angostas del distrito resonaban con el martilleo distante de los artesanos; fue entonces, al pasar frente a una casa humilde, que una voz urgente los llamó desde el interior. Allí, resguardados de la vista pública, Borgar, Zafir y Arturo aguardaban en penumbra.
 
 ### Los mercenarios revelan el acuerdo secreto con la guardia de la Ciudad Alta
 
@@ -10,7 +10,7 @@ El encuentro fue tenso al principio, pero pronto los tres explicaron que la reda
 
 ### Borgar menciona una puerta lateral hacia la Ciudad Alta
 
-Cuando el grupo mencionó su propia misión respecto al tridente, el interés de los tres mercenarios se encendió de inmediato; preguntaron si habían logrado hacerse con él. La respuesta negativa tensó el ambiente, pero únicamente por un instante: el fracaso parecía comprensible dados los riesgos que habían corrido. Fue entonces cuando Borgar compartió la información más importante: existía una puerta lateral que permitía salir del Distrito de los Artesanos hacia la Ciudad Alta.
+Cuando el grupo mencionó su propia misión respecto al artefacto, el interés de los tres mercenarios se encendió de inmediato; preguntaron si habían logrado hacerse con él. La respuesta negativa tensó el ambiente, pero únicamente por un instante: el fracaso parecía comprensible dados los riesgos que habían corrido. Fue entonces cuando Borgar compartió la información más importante: existía una puerta lateral que permitía salir del Distrito de los Artesanos hacia la Ciudad Alta.
 
 ### Inspección de la puerta oxidada y vigilancia de los cinco guardias
 
@@ -22,11 +22,11 @@ Varka tomó la iniciativa. Se adelantó con pasos desordenados y, al ver a los g
 
 ### Adler usa Taumaturgia para crear el llanto de un bebé
 
-Una voz tenue, quebrada, amplificada con unnatural profundidad. Adler, con un simple gesto y el murmullo de Taumaturgia, creó la ilusión perfecta. El guardia se alejó confundido, buscando al supuesto infante. Con el camino despejado, Ernesto se deslizó hacia la puerta, examinando bisagras, cerradura y el sedimento acumulado por los años.
+Una voz tenue, quebrada, amplificada con una profundidad antinatural. Adler, con un simple gesto y el murmullo de Taumaturgia, creó la ilusión perfecta. El guardia se alejó confundido, buscando al supuesto infante. Con el camino despejado, Ernesto se deslizó hacia la puerta, examinando bisagras, cerradura y el sedimento acumulado por los años.
 
-### Delerion cruza la muralla con Paso brumoso y engrasa la puerta desde el otro lado
+### Delerion cruza la muralla con Paso Brumoso y engrasa la puerta desde el otro lado
 
-Delerion, por su parte, actuó con precisión quirúrgica: invocó a su búho y, coordinando su visión con Paso brumoso, se teletransportó al otro lado de la muralla sin ser visto. Una vez allí, utilizó su báculo para acelerar sus desplazamientos y aplicó una gruesa capa de grasa arcana en la base y bisagras, suavizando el óxido que impedía el movimiento de la puerta. Al recibir la señal de Delerion desde el otro lado, Ernesto procedió a forzar la cerradura.
+Delerion, por su parte, actuó con precisión quirúrgica: invocó a su búho y, coordinando su visión con Paso Brumoso, se teletransportó al otro lado de la muralla sin ser visto. Una vez allí, utilizó su báculo para acelerar sus desplazamientos y aplicó una gruesa capa de grasa arcana en la base y bisagras, suavizando el óxido que impedía el movimiento de la puerta. Al recibir la señal de Delerion desde el otro lado, Ernesto procedió a forzar la cerradura.
 
 ### Ernesto fuerza la cerradura y se vuelve invisible antes de ser descubierto
 
@@ -34,7 +34,7 @@ Sus herramientas trabajaron en silencio y, justo cuando los guardias regresaban 
 
 ### El grupo confirma que Borgar podrá abrir la puerta y se retira sin ser detectado
 
-Calculó que un empujón de Borgar—o cualquier fuerza equivalente—bastaría para liberarla. Era momento de retirarse. Delerion volvió a atravesar la muralla usando el mismo método sutil con el que había entrado; Varka terminó su actuación con un último sollozo y se marchó tambaleante, como una madre desesperada sin rumbo; Ernesto, aún invisible, serpenteó entre los guardias sin ser detectado.
+Calculó que un empujón de Borgar —o cualquier fuerza equivalente— bastaría para liberarla. Era momento de retirarse. Delerion volvió a atravesar la muralla usando el mismo método sutil con el que había entrado; Varka terminó su actuación con un último sollozo y se marchó tambaleante, como una madre desesperada sin rumbo; Ernesto, aún invisible, serpenteó entre los guardias sin ser detectado.
 
 ### Regreso a la casa de Borgar para preparar el siguiente movimiento
 

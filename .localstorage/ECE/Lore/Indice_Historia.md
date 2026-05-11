@@ -153,13 +153,13 @@ Archivo: `Lore/Capitulos/10_Rumores_en_el_Distrito_de_los_Artesanos.md`
 ## Capítulo 11: La Puerta Oxidada del Distrito Artesano
 Archivo: `Lore/Capitulos/11_La_puerta_oxidada.md`
 
-- Reencuentro con Borgar, Zephyr y Arturo en una casa del este del distrito
+- Reencuentro con Borgar, Zafir y Arturo en una casa del este del distrito
 - Los mercenarios revelan el acuerdo secreto con la guardia de la Ciudad Alta
 - Borgar menciona una puerta lateral hacia la Ciudad Alta
 - Inspección de la puerta oxidada y vigilancia de los cinco guardias
 - Varka distrae a los guardias fingiendo el robo de su hijo
 - Adler usa Taumaturgia para crear el llanto de un bebé
-- Delerion cruza la muralla con Paso brumoso y engrasa la puerta desde el otro lado
+- Delerion cruza la muralla con Paso Brumoso y engrasa la puerta desde el otro lado
 - Ernesto fuerza la cerradura y se vuelve invisible antes de ser descubierto
 - El grupo confirma que Borgar podrá abrir la puerta y se retira sin ser detectado
 - Regreso a la casa de Borgar para preparar el siguiente movimiento
