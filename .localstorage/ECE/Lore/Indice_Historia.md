@@ -27,7 +27,7 @@ Archivo: `Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md`
 
 - Delerion, Adler y Diego regresan a la casa de Emilio antes de ir a la taberna
 - En la Taberna del Cantor Alegre escuchan rumores sobre Haroldo el Montaraz
-- Armando Cortez pide ayuda contra los contrabandistas
+- Armando Cortés pide ayuda contra los contrabandistas
 - Adler y Delerion interrogan a Haroldo y descubren que también investiga a los mercenarios
 - Emboscada en los campos de Valverde contra los contrabandistas restantes
 - Delerion pide el libro del linaje Belmonte y Emilio revela su naturaleza mágica
