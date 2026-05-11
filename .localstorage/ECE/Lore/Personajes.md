@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 19)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 20)
 
 ## Protagonistas
 
@@ -72,13 +72,13 @@ En la escalera hacia la Ciudad Alta, lidera un grupo de contrabandistas que lleg
 
 ### Arturo
 
-**Capítulos:** 8, 9, 10, 11, 18
+**Capítulos:** 8, 9, 10, 11, 18, 20
 
 Humano grandote y musculoso del grupo de Zafir. Varka lo conoce en el mercado del Distrito de los Artesanos y lo manipula con su encanto para que averigüe cómo acceder a la Ciudad Alta.
 
 Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ella, y aporta información sobre un posible lugar de reunión para conseguir el pase. Aunque responde al entorno de Zafir, su fascinación por Varka lo vuelve manipulable e impredecible.
 
-En la batalla de la escalera hacia la Ciudad Alta, combate contra Zafir y logra derrotarlo, quebrando la moral de los contrabandistas.
+En la batalla de la escalera hacia la Ciudad Alta, combate contra Zafir y logra derrotarlo, quebrando la moral de los contrabandistas. Más tarde acompaña al grupo en las cloacas bajo la Ciudad Alta, durante el combate contra las arañas.
 
 ### Borgar Tempestus
 
@@ -322,11 +322,13 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 ### Nyxara
 
-**Capítulos:** 19
+**Capítulos:** 19, 20
 
 Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
 Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Advierte sobre el aumento de los capas verdes, la necesidad de una licencia de mercenario y la posibilidad de comerciar en El Velado con ayuda de su tío.
+
+Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie.
 
 ### Nair Kules
 
