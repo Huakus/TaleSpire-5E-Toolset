@@ -10,13 +10,13 @@ Entre las pistas aparece una **llave oxidada**.
 
 La llave orienta la investigación hacia una zona funeraria de la **Ciudad Alta**. El grupo identifica una posible relación entre la llave, los artefactos robados y un mausoleo del cementerio.
 
-### El grupo busca el orbe de Stixx Ernesto en el cementerio
+### El grupo busca el orbe de Stix Ernesto en el cementerio
 
 Después de conseguir la **llave oxidada**, el grupo se dirige al cementerio para continuar la investigación.
 
-El objetivo principal es buscar el orbe que le habían pedido a **Stixx Ernesto** que encontrara.
+El objetivo principal es buscar el orbe que le habían pedido a **Skitrix “Stix Ernesto” Koboldtanz** que encontrara.
 
-Al llegar, el grupo detecta energía arcana emanando de uno de los mausoleos. La presencia mágica llama la atención de **Delerion**, quien utiliza **clarividencia** para observar el interior sin abrir la puerta.
+Al llegar, el grupo detecta energía arcana emanando de uno de los mausoleos. La presencia mágica llama la atención de **Delerion**, quien utiliza **Clarividencia** para observar el interior sin abrir la puerta.
 
 Del otro lado ve a un hombre joven realizando algún tipo de ritual.
 
@@ -66,7 +66,7 @@ Lo levantan en el aire con **Levitación** y luego conjuran **Silencio** a su al
 
 Con el comandante suspendido y silenciado, el grupo elimina al resto de los muertos vivientes.
 
-Mientras tanto, varios transeúntes huyen del cementerio para buscar a la policía y a la guardia.
+Mientras tanto, varios transeúntes huyen del cementerio para buscar a la guardia.
 
 ### Severino llega con el sacerdote, el ritualista y la guardia
 
@@ -74,7 +74,7 @@ El grupo entiende que tiene poco tiempo para seguir investigando.
 
 La guardia comienza a rodear el cementerio.
 
-Junto con ellos llega el sacerdote de la iglesia, acompañado por **Severino**, el mismo nombre que había aparecido en las notas encontradas en el laboratorio Carmesí de la Cueva de los Kobolds.
+Junto con ellos llega el sacerdote de la iglesia, acompañado por **Severino**, el mismo nombre que había aparecido en las notas encontradas en el laboratorio Carmesí de las cuevas kobold.
 
 Severino llega acompañado por el hombre joven que había desaparecido del mausoleo.
 

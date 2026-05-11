@@ -315,7 +315,7 @@ Archivo: `Lore/Capitulos/24_Cassian_Balte_Castimiro.md`
 Archivo: `Lore/Capitulos/25_La_llave_oxidada_y_el_combate_del_cementerio.md`
 
 - El grupo retoma la investigación sobre los artefactos robados y la llave oxidada
-- El grupo busca el orbe de Stixx Ernesto en el cementerio
+- El grupo busca el orbe de Stix Ernesto en el cementerio
 - El ritualista de la Orden Carmesí desaparece tras levantar dos muertos vivientes
 - El grupo derrota a los primeros muertos vivientes y encuentra pruebas del ritual
 - Delerion retira la espada arcana y provoca el levantamiento del cementerio
@@ -328,13 +328,13 @@ Archivo: `Lore/Capitulos/25_La_llave_oxidada_y_el_combate_del_cementerio.md`
 Archivo: `Lore/Capitulos/26_Adler_vs_el_ayuntamiento.md`
 
 - Adler es detenido tras el incidente del cementerio y llevado al ayuntamiento
-- Delerion, Barca y el grupo vigilan el ayuntamiento y evalúan cómo intervenir
-- Barca intenta defender a Adler haciéndolo pasar por su abuelo senil
-- El grupo considera usar el anillo de Paso Brumoso de Stixx Ernesto para sacar a
-- El ritualista del mausoleo llega al juicio, reconoce a Barca y ordena arrestarla
-- Barca contacta a sus patronos y escapa con
+- Delerion, Varka y el grupo vigilan el ayuntamiento y evalúan cómo intervenir
+- Varka intenta defender a Adler haciéndolo pasar por su abuelo senil
+- El grupo considera usar el anillo de Paso Brumoso de Stix Ernesto para sacar a
+- El ritualista del mausoleo llega al juicio, reconoce a
+- Varka contacta a sus patronos y escapa con
 - Delerion se retira discretamente del ayuntamiento durante la alarma
-- El grupo se reagrupa en la casa de Xiomara tras el escape
+- El grupo se reagrupa en la casa de Nyxara tras el escape
 
 ## Capítulo 27: La reagrupación en la casa de Siomara
 Archivo: `Lore/Capitulos/27_La_reagrupación_en_la_casa_de_Siomara.md`
