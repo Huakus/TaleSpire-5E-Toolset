@@ -412,7 +412,7 @@
   - **Capítulos:** 13, 14
 
 - **Entorno del Teniente Tres Dientes**
-  - Negociación para mover a Lucen VanDuren.
+  - Negociación para mover a Lucen Vann Durel.
   - Vínculo previo con Borgar.
   - **Capítulos:** 14
 

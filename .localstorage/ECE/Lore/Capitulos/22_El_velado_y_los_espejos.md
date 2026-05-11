@@ -14,7 +14,7 @@ Allí no basta con presentarse. Hay que demostrar que uno tiene algo valioso par
 
 A través de las pistas recibidas, el grupo llega a una casa vinculada con espejos y secretos.
 
-**El Pichón**, también conocido como **Lucen VanDuren**, les habla de una prueba extraña: pararse frente a tres espejos y observar si alguno sonríe. La sonrisa no es un gesto decorativo, sino una señal. Indica que la persona posee un secreto valioso, algo que El Velado podría querer comprar, usar o guardar.
+**El Pichón**, también conocido como **Lucen Vann Durel**, les habla de una prueba extraña: pararse frente a tres espejos y observar si alguno sonríe. La sonrisa no es un gesto decorativo, sino una señal. Indica que la persona posee un secreto valioso, algo que El Velado podría querer comprar, usar o guardar.
 
 El grupo acepta someterse a la prueba.
 

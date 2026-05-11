@@ -1,12 +1,12 @@
 ## Capítulo 18: Sangre en la Escalera
 
-### Zafir llega con contrabandistas y Lucen VanDuren hacia la escalera de la Ciudad Alta
+### Zafir llega con contrabandistas y Lucen Vann Durel hacia la escalera de la Ciudad Alta
 
 Con la retirada kobold en marcha y el tesoro clasificado para su entrega, el grupo se prepara para abandonar las cuevas.
 
 La calma dura poco.
 
-Un grupo de contrabandistas liderado por **Zafir** llega a la zona de la escalera que conduce hacia la **Ciudad Alta**. Entre ellos aparece **Lucen VanDuren**, conocido como **el Pichón**, vivo, curado y vestido como noble, pero bajo control enemigo.
+Un grupo de contrabandistas liderado por **Zafir** llega a la zona de la escalera que conduce hacia la **Ciudad Alta**. Entre ellos aparece **Lucen Vann Durel**, conocido como **el Pichón**, vivo, curado y vestido como noble, pero bajo control enemigo.
 
 Los contrabandistas intentan imponer condiciones desde una posición de soberbia. La conversación busca evitar el conflicto, pero la extorsión implícita y el peligro sobre Lucen hacen que la tensión escale rápidamente.
 
@@ -102,7 +102,7 @@ Sobre el llamado **pícaro barbudo**, afirma no conocer su nombre ni haberlo vis
 
 El plan enemigo apuntaba hacia la **Ciudad Alta**.
 
-Una parte de la estrategia consistía en usar distracciones, como la entrega de **Petro** a la guardia, para generar caos y mover piezas con ventaja. Petro conocía secretos de la forja y controlaba el gremio de artesanos. Además, era hijo legítimo de **Redgar VanDuren**, cuyo asesinato formaba parte del entramado.
+Una parte de la estrategia consistía en usar distracciones, como la entrega de **Petro** a la guardia, para generar caos y mover piezas con ventaja. Petro conocía secretos de la forja y controlaba el gremio de artesanos. Además, era hijo legítimo de **Rethgar Vann Durel**, cuyo asesinato formaba parte del entramado.
 
 Bánic también menciona la **Biblioteca del Eco**, descrita por un contacto llamado **Severino** como un lugar o artefacto capaz de extraer memorias y manipular voluntades.
 

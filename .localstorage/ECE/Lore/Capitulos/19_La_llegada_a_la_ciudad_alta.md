@@ -12,9 +12,9 @@ No hay enemigos visibles ni combate inmediato. La amenaza no desaparece, pero ca
 
 En la Ciudad Alta, el peligro parece menos salvaje y más político.
 
-### Lucen VanDuren reconoce la ciudad mientras intenta recomponer su mente
+### Lucen Vann Durel reconoce la ciudad mientras intenta recomponer su mente
 
-**Lucen VanDuren**, el Pichón, muestra un estado mental frágil y disociado.
+**Lucen Vann Durel**, el Pichón, muestra un estado mental frágil y disociado.
 
 A medida que avanza por las calles, reconoce lugares, casas y esquinas, pero evita enfrentar de lleno los recuerdos traumáticos. La tortura, el encierro, el hambre y el maltrato prolongado siguen actuando sobre él.
 

@@ -32,7 +32,7 @@ A partir del incidente, el grupo comienza a observar el barrio con mayor cautela
 
 **Borgar** orienta al grupo hacia el siguiente punto de interés: el llamado **Gremio de Comerciantes**, una fachada utilizada por contrabandistas que operan desde el Barrio Exterior.
 
-La información disponible indica que el Gremio podría tener acceso a rutas subterráneas hacia la **Ciudad Alta**. Esa posibilidad lo convierte en una pieza clave para avanzar en la investigación sobre el **Pichón**, también conocido como **Lucen VanDuren**, y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales del barrio.
+La información disponible indica que el Gremio podría tener acceso a rutas subterráneas hacia la **Ciudad Alta**. Esa posibilidad lo convierte en una pieza clave para avanzar en la investigación sobre el **Pichón**, también conocido como **Lucen Vann Durel**, y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales del barrio.
 
 ### El grupo planea infiltrarse en el Gremio de Comerciantes
 

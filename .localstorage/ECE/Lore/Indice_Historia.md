@@ -232,7 +232,7 @@ Archivo: `Lore/Capitulos/17_La_tumba_de_Ur_Namkart.md`
 ## Capítulo 18: Sangre en la Escalera
 Archivo: `Lore/Capitulos/18_Sangre_en_la_escalera.md`
 
-- Zafir llega con contrabandistas y Lucen VanDuren hacia la escalera de la Ciudad Alta
+- Zafir llega con contrabandistas y Lucen Vann Durel hacia la escalera de la Ciudad Alta
 - Delerion lanza una Bola de Fuego y libera a Lucen del control de Zafir
 - Zafir, el humano del tapado rojo, el kenku y Arturo entran en combate
 - Varka, Adler y Borgar presionan a Zafir mientras Lucen escapa hacia la party
@@ -249,7 +249,7 @@ Archivo: `Lore/Capitulos/18_Sangre_en_la_escalera.md`
 Archivo: `Lore/Capitulos/19_La_llegada_a_la_ciudad_alta.md`
 
 - El grupo abandona las cuevas y emerge en la Ciudad Alta
-- Lucen VanDuren reconoce la ciudad mientras intenta recomponer su mente
+- Lucen Vann Durel reconoce la ciudad mientras intenta recomponer su mente
 - Lucen recomienda evitar su mansión familiar y refugiarse en una posada conocida
 - La party reorganiza sus objetivos tras llegar a la Ciudad Alta
 - Lucen lleva al grupo a la taberna de Nyxara para buscar refugio e información

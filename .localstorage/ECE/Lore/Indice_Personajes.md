@@ -70,7 +70,7 @@ En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Sil
 
 En las notas del laboratorio aeloriano bajo las cuevas, Zafir aparece señalando al kenku como sujeto ideal para una variante del Ritual del Eco aplicada a seres vivos.
 
-En la escalera hacia la Ciudad Alta, lidera un grupo de contrabandistas que llega con Lucen VanDuren bajo control enemigo. Muere durante el combate, tras enfrentarse al grupo y ser derrotado por Arturo. Tras su muerte, su nombre sigue apareciendo ligado a planes, contactos nobles y pistas dentro de la Ciudad Alta.
+En la escalera hacia la Ciudad Alta, lidera un grupo de contrabandistas que llega con Lucen Vann Durel bajo control enemigo. Muere durante el combate, tras enfrentarse al grupo y ser derrotado por Arturo. Tras su muerte, su nombre sigue apareciendo ligado a planes, contactos nobles y pistas dentro de la Ciudad Alta.
 
 ### Arturo
 
@@ -82,7 +82,7 @@ Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ell
 
 En la batalla de la escalera hacia la Ciudad Alta, combate contra Zafir y logra derrotarlo, quebrando la moral de los contrabandistas. Más tarde acompaña al grupo en las cloacas bajo la Ciudad Alta, durante el combate contra las arañas.
 
-Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Borgar y Caco, cuidando a Lucen VanDuren y protegiendo el refugio.
+Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Borgar y Caco, cuidando a Lucen Vann Durel y protegiendo el refugio.
 
 ### Borgar Tempestus
 
@@ -90,11 +90,11 @@ Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junt
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
-En el Barrio Exterior, su relación previa con el Teniente Tres Dientes pesa en las negociaciones para mover a Lucen VanDuren, El Pichón, sin desatar una guerra abierta entre facciones.
+En el Barrio Exterior, su relación previa con el Teniente Tres Dientes pesa en las negociaciones para mover a Lucen Vann Durel, El Pichón, sin desatar una guerra abierta entre facciones.
 
 En la batalla de la escalera, presiona a Zafir junto al grupo y participa en el combate contra los contrabandistas. Más tarde, en la casa de Nyxara, el grupo reflexiona sobre sus secretos y su vínculo con Gorak.
 
-Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Caco y Arturo, cuidando a Lucen VanDuren y protegiendo el refugio.
+Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Caco y Arturo, cuidando a Lucen Vann Durel y protegiendo el refugio.
 
 ### Viktor Salazar
 
@@ -238,7 +238,7 @@ Es una figura influyente entre los vagabundos y marginados, con una red de ojos 
 
 **Capítulos:** 14
 
-Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir apoyo en el movimiento de Lucen VanDuren, El Pichón. Su relación previa con Borgar permite abrir una vía de negociación entre facciones sin provocar una guerra inmediata.
+Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir apoyo en el movimiento de Lucen Vann Durel, El Pichón. Su relación previa con Borgar permite abrir una vía de negociación entre facciones sin provocar una guerra inmediata.
 
 ### Eladio
 
@@ -246,7 +246,7 @@ Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir 
 
 Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
 
-También aparece mencionado en el Barrio Exterior como parte del grupo que mantiene prisionero a Lucen VanDuren, El Pichón. Puede aparecer transcripto como “Heladio”, pero el nombre canónico es Eladio.
+También aparece mencionado en el Barrio Exterior como parte del grupo que mantiene prisionero a Lucen Vann Durel, El Pichón. Puede aparecer transcripto como “Heladio”, pero el nombre canónico es Eladio.
 
 En la Ciudad Alta, su nombre vuelve a aparecer ligado a las maniobras sobre la forja, el Gremio de Comerciantes y la presión económica que rodea a Lucen. Más adelante intenta huir junto a Gregorio, pero el grupo termina contratándolos para enviarlos al norte como mercenarios al servicio del gobernador de Valverde del Río.
 
@@ -256,7 +256,7 @@ En la Ciudad Alta, su nombre vuelve a aparecer ligado a las maniobras sobre la f
 
 Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
 
-En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pichón. En la Ciudad Alta, su nombre vuelve a surgir asociado a las maniobras sobre la forja y la desaparición de Lucen. Más adelante intenta huir junto a Eladio, pero el grupo termina contratándolos para enviarlos al norte como mercenarios al servicio del gobernador de Valverde del Río.
+En el Barrio Exterior aparece vinculado al cautiverio de Lucen Vann Durel, El Pichón. En la Ciudad Alta, su nombre vuelve a surgir asociado a las maniobras sobre la forja y la desaparición de Lucen. Más adelante intenta huir junto a Eladio, pero el grupo termina contratándolos para enviarlos al norte como mercenarios al servicio del gobernador de Valverde del Río.
 
 ### Petro
 
@@ -264,7 +264,7 @@ En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pich
 
 Personaje clave del Distrito de los Artesanos, conocedor de la situación local y de las tensiones internas del distrito. Su información lo convierte en un aliado vital para la misión principal.
 
-Petro asesinó a Redgar VanDuren durante el caos en **El Cuenco de Carbón**. Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDuren, vinculado al control del gremio de artesanos y a secretos de la forja. Los enemigos planeaban usar la entrega de Petro a la guardia como distracción.
+Petro asesinó a Rethgar Vann Durel durante el caos en **El Cuenco de Carbón**. Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Rethgar Vann Durel, vinculado al control del gremio de artesanos y a secretos de la forja. Los enemigos planeaban usar la entrega de Petro a la guardia como distracción.
 
 En la Ciudad Alta, Mercion revela que Petro está cautivo en una mansión y que, si el grupo no lo rescata esa misma noche, probablemente morirá. Durante la incursión bajo la mansión, el aprendiz de Severino menciona que Petro está siendo preparado.
 
@@ -324,7 +324,7 @@ Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infilt
 
 Tras la batalla en la escalera hacia la Ciudad Alta, ayuda a Delerion a arrastrar cadáveres hacia el arroyo para simular un ataque de bestias. Luego queda integrado a la logística del grupo en la Ciudad Alta, donde su presencia requiere discreción.
 
-Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Borgar y Arturo, cuidando a Lucen VanDuren y protegiendo el refugio.
+Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Borgar y Arturo, cuidando a Lucen Vann Durel y protegiendo el refugio.
 
 ### Aurelio
 
@@ -338,7 +338,7 @@ Autor de documentos hallados en el laboratorio aeloriano bajo las cuevas. Sus no
 
 Enano contrabandista y guerrero entrenado que sobrevive oculto tras la batalla de la escalera hacia la Ciudad Alta. Varka y Martita lo localizan entre las piedras, y Delerion lo somete con Hechizar Persona.
 
-Durante el interrogatorio revela detalles sobre los planes hacia la Ciudad Alta, la entrega de Petro a la guardia, Severino, la Biblioteca del Eco y los contactos nobles vinculados a Zafir. También confiesa que Petro es hijo legítimo de Redgar VanDuren. Finalmente, el grupo decide ejecutarlo.
+Durante el interrogatorio revela detalles sobre los planes hacia la Ciudad Alta, la entrega de Petro a la guardia, Severino, la Biblioteca del Eco y los contactos nobles vinculados a Zafir. También confiesa que Petro es hijo legítimo de Rethgar Vann Durel. Finalmente, el grupo decide ejecutarlo.
 
 ### Raby
 
@@ -350,7 +350,7 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 **Capítulos:** 19, 20, 21, 22, 23, 26, 27, 28
 
-Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
+Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen Vann Durel lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
 Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Advierte sobre el aumento de los capas verdes, la necesidad de una licencia de mercenario y la posibilidad de comerciar en El Velado con ayuda de su tío.
 
@@ -466,19 +466,19 @@ Exasistente de Emilio el Herbolario, reencontrada por Ernesto en la casa del sar
 
 Dirige un taller de costura del Distrito de los Artesanos que aparece entre los focos de rumores e intrigas. Varka empieza a trabajar allí para obtener información desde dentro y luego es invitada a la casa de la jefa del taller, en ausencia de esta.
 
-### Redgar VanDuren
+### Rethgar Vann Durel
 
 **Capítulos:** 7, 18, 27, 19
 
-Maestro herrero del distrito, dueño de la forja principal, tío de Lucen VanDuren y padre legítimo de Petro. Asistió a una reunión en la taberna **El Cuenco de Carbón** y fue asesinado por Petro durante el caos de esa noche.
+Maestro herrero del distrito, dueño de la forja principal, tío de Lucen Vann Durel y padre legítimo de Petro. Asistió a una reunión en la taberna **El Cuenco de Carbón** y fue asesinado por Petro durante el caos de esa noche.
 
-Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDuren. Su muerte forma parte del entramado de tensiones entre la forja, Petro, el gremio de artesanos y las facciones criminales.
+Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Rethgar Vann Durel. Su muerte forma parte del entramado de tensiones entre la forja, Petro, el gremio de artesanos y las facciones criminales.
 
-### Lucen VanDuren, El Pichón
+### Lucen Vann Durel, El Pichón
 
 **Capítulos:** 7, 12, 13, 14, 18, 19, 22
 
-Sobrino de Redgar VanDuren y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
+Sobrino de Rethgar Vann Durel y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
 En el Barrio Exterior, el grupo sigue buscando pistas sobre su paradero y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales. Luego descubren que Eladio, Gregorio y sus asociados lo mantienen prisionero en una casa o estructura vinculada a los movimientos del Gremio.
 
