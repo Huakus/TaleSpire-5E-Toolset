@@ -10,33 +10,33 @@ El paquete no está en su poder. Raviel indica que deben buscarlo con **Silas Vi
 
 El acuerdo deja al grupo en una posición incómoda. Aceptar implica involucrarse directamente en una red de contrabando. Rechazarlo significa perder una de las pocas vías posibles para llegar a la Ciudad Alta sin exponerse de forma abierta ante la guardia o las facciones que controlan los accesos.
 
-### Varka y Ernesto sospechan de la actitud extrañamente animada de Zephyr
+### Varka y Ernesto sospechan de la actitud extrañamente animada de Zafir
 
-Mientras el grupo procesa la propuesta de Raviel, **Varka** y **Skitrix “Stix Ernesto” Koboldtanz** observan una actitud extraña en **Zephyr**.
+Mientras el grupo procesa la propuesta de Raviel, **Varka** y **Skitrix “Stix Ernesto” Koboldtanz** observan una actitud extraña en **Zafir**.
 
-En la taberna, Zephyr se muestra demasiado animado para la situación en la que se encuentra el grupo. Su entusiasmo contrasta con la tensión general, con el peligro del encargo y con la incertidumbre sobre los túneles.
+En la taberna, Zafir se muestra demasiado animado para la situación en la que se encuentra el grupo. Su entusiasmo contrasta con la tensión general, con el peligro del encargo y con la incertidumbre sobre los túneles.
 
 La conducta despierta sospechas. Varka y Ernesto deciden seguirlo discretamente cuando se aparta del resto.
 
 El rastro los conduce hasta la casa de **Silas Viera**, el mismo hombre señalado por Raviel como responsable de entregar el paquete.
 
-### Varka y Ernesto descubren que Zephyr preparó una trampa con Silas Viera
+### Varka y Ernesto descubren que Zafir preparó una trampa con Silas Viera
 
-En la casa de Silas Viera, Varka y Ernesto descubren que Zephyr mantiene una conversación incriminadora con el alquimista.
+En la casa de Silas Viera, Varka y Ernesto descubren que Zafir mantiene una conversación incriminadora con el alquimista.
 
 Lo que parecía un simple encargo de transporte revela una intención más peligrosa. El paso por los túneles no es solo una ruta de contrabando ni una prueba de confianza: es una trampa.
 
-La conversación deja en evidencia que **Zephyr traicionó al grupo**. Su papel no consiste únicamente en acompañarlos o facilitar contactos, sino en conducirlos hacia una situación preparada de antemano.
+La conversación deja en evidencia que **Zafir traicionó al grupo**. Su papel no consiste únicamente en acompañarlos o facilitar contactos, sino en conducirlos hacia una situación preparada de antemano.
 
 El verdadero objetivo del paso por los túneles es que el grupo limpie aquello que acecha bajo la ciudad, o muera en el intento. Raviel y quienes participan de la operación necesitan despejar esa ruta, pero no están dispuestos a arriesgar a sus propios hombres.
 
 El paquete se convierte entonces en una excusa operativa. Transportarlo hacia la Ciudad Alta sirve para empujar al grupo a internarse en los túneles y enfrentar el peligro que bloquea o amenaza la red subterránea.
 
-### La traición de Zephyr redefine el acuerdo con Raviel
+### La traición de Zafir redefine el acuerdo con Raviel
 
 Con lo escuchado en la casa de Silas, Varka y Ernesto comprenden que la situación del grupo cambió por completo.
 
-Zephyr ya no puede ser tratado como un contacto dudoso o un aliado incómodo. Su traición queda confirmada por su vínculo con Silas y por su participación en el engaño que busca enviar al grupo a los túneles bajo una premisa falsa.
+Zafir ya no puede ser tratado como un contacto dudoso o un aliado incómodo. Su traición queda confirmada por su vínculo con Silas y por su participación en el engaño que busca enviar al grupo a los túneles bajo una premisa falsa.
 
 La información también redefine el acuerdo con Raviel. El favor exigido no es solo un pago por acceso, sino parte de una maniobra mayor para usar al grupo como herramienta descartable.
 
@@ -46,9 +46,9 @@ El Barrio Exterior deja de presentarse como un territorio de favores criminales 
 
 Con esta información, el grupo decide buscar apoyo en el **Teniente Tres Dientes**.
 
-El objetivo no es denunciar toda la operación ni provocar una intervención abierta, sino conseguir ayuda para resolver el traspaso del **Pichón**, también conocido como **Lucen Redgar**, desde las manos de **Heladio** hacia el Gremio.
+El objetivo no es denunciar toda la operación ni provocar una intervención abierta, sino conseguir ayuda para resolver el traspaso del **Pichón**, también conocido como **Lucen VanDuren**, desde las manos de **Eladio** hacia el Gremio.
 
-Tres Dientes se muestra pragmático. No actúa como un aliado limpio ni desinteresado, pero entiende el valor de intervenir sin romper por completo el equilibrio del Barrio Exterior. Su ayuda puede permitir que el movimiento del Pichón se concrete sin desatar una guerra inmediata entre Heladio, Raviel, el Gremio y la guardia.
+Tres Dientes se muestra pragmático. No actúa como un aliado limpio ni desinteresado, pero entiende el valor de intervenir sin romper por completo el equilibrio del Barrio Exterior. Su ayuda puede permitir que el movimiento del Pichón se concrete sin desatar una guerra inmediata entre Eladio, Raviel, el Gremio y la guardia.
 
 Su relación previa con **Borgar** vuelve a pesar en la conversación. Entre ambos existe un trasfondo de acuerdos viejos, favores incómodos y violencia administrada, suficiente para abrir una puerta de negociación en medio de una situación cada vez más inestable.
 

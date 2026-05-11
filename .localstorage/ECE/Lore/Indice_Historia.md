@@ -186,9 +186,9 @@ Archivo: `Lore/Capitulos/13_Sombras_bajo_el_gremio.md`
 Archivo: `Lore/Capitulos/14_Pactos_deudas_y_traiciones.md`
 
 - Raviel exige transportar un paquete a cambio del paso hacia la Ciudad Alta
-- Varka y Ernesto sospechan de la actitud extrañamente animada de Zephyr
-- Varka y Ernesto descubren que Zephyr preparó una trampa con Silas Viera
-- La traición de Zephyr redefine el acuerdo con Raviel
+- Varka y Ernesto sospechan de la actitud extrañamente animada de Zafir
+- Varka y Ernesto descubren que Zafir preparó una trampa con Silas Viera
+- La traición de Zafir redefine el acuerdo con Raviel
 - El grupo busca apoyo del Teniente Tres Dientes para mover al Pichón
 - Adler cura físicamente a Lucen mientras el grupo decide qué hacer con él
 - Varka recibe una visión hacia el sur durante una sesión con una adivina

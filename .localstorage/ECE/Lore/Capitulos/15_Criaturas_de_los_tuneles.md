@@ -6,21 +6,21 @@ Con los acuerdos precarios del Barrio Exterior aún frescos, el grupo se interna
 
 Las cuevas son húmedas, atravesadas por un arroyo poco profundo y cubiertas por restos de construcciones viejas. En sus paredes aparecen frescos antiguos que narran guerras entre orcos del sur y humanos del norte.
 
-Sin embargo, los murales más antiguos muestran una escena distinta: humanos y kobolds compartiendo un pacto. **Stixx Ernesto** interpreta la simbología kobold y concluye que no se trataba de una alianza igualitaria, sino de una relación de servidumbre kobold hacia los humanos. El lugar parece haber sido un santuario antiguo, reutilizado con el tiempo por distintas facciones.
+Sin embargo, los murales más antiguos muestran una escena distinta: humanos y kobolds compartiendo un pacto. **Skitrix “Stix Ernesto” Koboldtanz** interpreta la simbología kobold y concluye que no se trataba de una alianza igualitaria, sino de una relación de servidumbre kobold hacia los humanos. El lugar parece haber sido un santuario antiguo, reutilizado con el tiempo por distintas facciones.
 
 ### El campamento abandonado conecta al Barrio Exterior con la Orden Carmesí y la secta feérica
 
-Más adelante, el grupo encuentra un campamento abandonado, restos de fogata y documentos deteriorados. Entre las notas aparecen menciones al Barrio Exterior, líderes locales como Raviel, un teniente llamado **Borac** o **Gorak**, y una mujer asociada a la desaparición de niños.
+Más adelante, el grupo encuentra un campamento abandonado, restos de fogata y documentos deteriorados. Entre las notas aparecen menciones al Barrio Exterior, líderes locales como Raviel, un teniente llamado **Gorak**, y una mujer asociada a la desaparición de niños.
 
 Los indicios conectan directamente la superficie con el subsuelo. La red criminal, la secta feérica, los contrabandistas y los rituales de la Orden Carmesí parecen superponerse en los mismos túneles.
 
-Al llegar a una trifurcación, el grupo envía exploradores, incluyendo zombies y a **Martita**, la araña de Delerion. Pronto descubren trampas de ballesta de manufactura kobold, improvisadas y apresuradas. Las defensas no parecen parte de una fortaleza estable, sino de una retirada desesperada.
+Al llegar a una trifurcación, el grupo envía exploradores, incluyendo zombis y a **Martita**, la araña de Delerion. Pronto descubren trampas de ballesta de manufactura kobold, improvisadas y apresuradas. Las defensas no parecen parte de una fortaleza estable, sino de una retirada desesperada.
 
 ### El arroyo subterráneo revela la presencia de criaturas acuáticas antiguas
 
 La exploración se vuelve más peligrosa cuando el grupo percibe grandes criaturas acuáticas en el arroyo. Se oyen chapoteos, ruidos pesados y movimientos de formas capaces de arrastrar o devorar a una persona.
 
-**Borgar** advierte que esas criaturas son antiguas y peligrosas. **Adler** bendice al grupo, **Delerion** conjura fuego para controlar un acceso, y **Stixx Ernesto** avanza esquivando nuevas trampas desde posiciones elevadas.
+**Borgar** advierte que esas criaturas son antiguas y peligrosas. **Adler** bendice al grupo, **Delerion** conjura fuego para controlar un acceso, y **Skitrix “Stix Ernesto” Koboldtanz** avanza esquivando nuevas trampas desde posiciones elevadas.
 
 La amenaza del subsuelo no se limita a los kobolds. Algo más viejo, más grande y menos razonable habita en las profundidades.
 
@@ -28,7 +28,7 @@ La amenaza del subsuelo no se limita a los kobolds. Algo más viejo, más grande
 
 En una curva de las cuevas, el grupo encuentra el cadáver de un guerrero humano con armadura oxidada y una espada caída, muerto desde hace semanas. Cerca del cuerpo, Borgar detecta una mancha de sangre no humana, posiblemente kobold.
 
-Los susurros y pasos ligeros confirman la presencia de un grupo armado. Stixx descubre una caverna donde varios kobolds aguardan en posición defensiva, con un herido grave en el centro.
+Los susurros y pasos ligeros confirman la presencia de un grupo armado. Stix descubre una caverna donde varios kobolds aguardan en posición defensiva, con un herido grave en el centro.
 
 En lugar de atacar, el grupo intenta comunicarse en dracónico. Adler cura al kobold agonizante, y el gesto cambia de inmediato el tono del encuentro: las armas bajan y los kobolds aceptan al grupo como aliados circunstanciales.
 
@@ -52,9 +52,9 @@ Con la zona inmediata asegurada, el grupo avanza junto a los kobolds hacia la gu
 
 La cámara del troll es amplia, atravesada por un arroyo profundo, con orillas rocosas y un techo bajo que limita el uso de ciertos conjuros. El grupo decide atraerlo hacia una orilla controlada, mientras los kobolds se mantienen en posiciones seguras.
 
-El troll emerge agresivamente y se lanza contra el primer objetivo visible, uno de los zombies asistentes de Delerion. Stixx Ernesto se posiciona mediante una maniobra acrobática, imbuye su arma con fuego alquímico y ataca desde el sigilo. Delerion utiliza fuego para impedir que las heridas del troll se cierren, confirmando que la regeneración de la criatura falla ante el daño quemante.
+El troll emerge agresivamente y se lanza contra el primer objetivo visible, uno de los zombis asistentes de Delerion. Stix Ernesto se posiciona mediante una maniobra acrobática, imbuye su arma con fuego alquímico y ataca desde el sigilo. Delerion utiliza fuego para impedir que las heridas del troll se cierren, confirmando que la regeneración de la criatura falla ante el daño quemante.
 
-La situación se complica cuando el troll decapita a uno de los zombies de Delerion, provocando la ruptura de un vial luminoso o cegador. Una explosión de luz intensa deja temporalmente ciegos a casi todos los presentes, incluido el propio troll.
+La situación se complica cuando el troll decapita a uno de los zombis de Delerion, provocando la ruptura de un vial luminoso o cegador. Una explosión de luz intensa deja temporalmente ciegos a casi todos los presentes, incluido el propio troll.
 
 En medio de la ceguera, el combate continúa guiado por sonidos, golpes y gritos. El troll, gravemente herido y desorientado, cae o se arroja al agua profunda del arroyo. Borgar, uno de los pocos que conserva la visión, toma una pistola lanzaconjuros y dispara contra la criatura sumergida, generando una explosión arcana que sacude la cámara.
 
