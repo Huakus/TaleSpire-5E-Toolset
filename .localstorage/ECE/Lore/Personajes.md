@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 22)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 23)
 
 ## Protagonistas
 
@@ -92,11 +92,11 @@ En la batalla de la escalera, presiona a Zafir junto al grupo y participa en el 
 
 ### Viktor Salazar
 
-**Capítulos:** 2, 3, 4, 6, 7
+**Capítulos:** 2, 3, 4, 6, 7, 23
 
 Jefe de los mercenarios del Reino del Sur y figura de autoridad detrás del campamento enemigo. Su nombre surge cuando Zafir ordena mantener preso a Haroldo hasta poder llevarlo ante él, y vuelve a mencionarse cuando el grupo descubre que las bandas de mercenarios subcontratados están reunidas bajo su influencia.
 
-En el campamento mercenario, Adler y Delerion lo enfrentan directamente en su carpa, donde revela su vínculo con el Libro Guardián, el amuleto carmesí y su plan contra Valverde del Río.
+En el campamento mercenario, Adler y Delerion lo enfrentan directamente en su carpa, donde revela su vínculo con el Libro Guardián, el amuleto carmesí y su plan contra Valverde del Río. En la Ciudad Alta, su nombre aparece en noticias públicas y rumores del diario local.
 
 ### Ignacio Robledo
 
@@ -324,17 +324,17 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 ### Nyxara
 
-**Capítulos:** 19, 20, 21, 22
+**Capítulos:** 19, 20, 21, 22, 23
 
 Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
 Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Advierte sobre el aumento de los capas verdes, la necesidad de una licencia de mercenario y la posibilidad de comerciar en El Velado con ayuda de su tío.
 
-Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Hadas.
+Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Hadas. Más adelante, su carta de respaldo ayuda al grupo a iniciar el trámite de licencia de mercenario.
 
 También aparece transcripta como Nixara, Xiomara o Ciómara, pero el nombre canónico es Nyxara.
 
-### El Agarto
+### El Lagarto de los espejos
 
 **Capítulos:** 22
 
@@ -342,7 +342,15 @@ Figura de peso dentro de El Velado. El grupo lo conoce durante la prueba de los 
 
 Se interesa por los secretos que el grupo trae desde las cuevas y los túneles bajo la ciudad. A cambio de información sobre criaturas, actividad subterránea y hallazgos peligrosos, ofrece respaldo, información y acceso a saberes prohibidos. También aparece asociado a un taller donde circulan tecnología antigua fragmentada y alquimia.
 
-Puede aparecer mencionado de forma ambigua como Guazo, Lagarto Juancho o Lagarto, pero por ahora queda registrado como El Agarto.
+Puede aparecer mencionado de forma ambigua como Guazo, Lagarto Juancho o Lagarto, pero queda registrado como El Lagarto de los espejos.
+
+### Maestro Valerian
+
+**Capítulos:** 23
+
+Artista autorizado de la Ciudad Alta al que el grupo busca para obtener retratos certificados necesarios para completar la licencia de mercenario.
+
+Lo encuentran en la posada de Calis de Bruma. Tras negociar el precio, realiza los retratos oficiales del grupo, permitiéndoles continuar el trámite administrativo.
 
 ### Nair Kules
 
