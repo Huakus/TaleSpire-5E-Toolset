@@ -42,7 +42,7 @@ El grupo comprende que el laboratorio fue utilizado para un robo sistemático de
 
 El mecanismo parece haber sido construido para funcionar incluso sin la intervención directa de un mago. Canales de energía arcana recorren la sala, alimentando el sistema desde distintos puntos.
 
-Stixx identifica uno de esos puntos de flujo y logra interrumpir el mecanismo. Al cortar la circulación arcana, el zumbido se detiene de manera abrupta.
+Stix identifica uno de esos puntos de flujo y logra interrumpir el mecanismo. Al cortar la circulación arcana, el zumbido se detiene de manera abrupta.
 
 El silencio que queda después resulta casi más incómodo que el sonido.
 
@@ -76,7 +76,7 @@ Por su capacidad de conservar palabras, tonos, pausas y conversaciones sin reint
 
 La finalidad práctica del experimento era clara: espionaje, infiltración política y manipulación de nobles.
 
-Las notas mencionan a **Saffir**, quien señalaba al kenku como sujeto ideal; a **Severino**, impulsor del proyecto; y a la **Orden Carmesí**, interesada en que el método estuviera operativo.
+Las notas mencionan a **Zafir**, quien señalaba al kenku como sujeto ideal; a **Severino**, impulsor del proyecto; y a la **Orden Carmesí**, interesada en que el método estuviera operativo.
 
 El grupo también confirma que la magia utilizada tiene relación con la **Corte de las Hadas**, pero aplicada en sentido inverso: no para proteger o preservar, sino para extraer, vulnerar y apropiarse.
 
