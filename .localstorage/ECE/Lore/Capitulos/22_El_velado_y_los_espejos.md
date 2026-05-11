@@ -14,7 +14,7 @@ Allí no basta con presentarse. Hay que demostrar que uno tiene algo valioso par
 
 A través de las pistas recibidas, el grupo llega a una casa vinculada con espejos y secretos.
 
-El **Pichón** les habla de una prueba extraña: pararse frente a tres espejos y observar si alguno sonríe. La sonrisa no es un gesto decorativo, sino una señal. Indica que la persona posee un secreto valioso, algo que El Velado podría querer comprar, usar o guardar.
+**El Pichón**, también conocido como **Lucen VanDuren**, les habla de una prueba extraña: pararse frente a tres espejos y observar si alguno sonríe. La sonrisa no es un gesto decorativo, sino una señal. Indica que la persona posee un secreto valioso, algo que El Velado podría querer comprar, usar o guardar.
 
 El grupo acepta someterse a la prueba.
 
@@ -32,11 +32,11 @@ La Ciudad Alta se revela como un sistema doble: por arriba, guardias, permisos y
 
 El grupo comprende que su paso por las cuevas, los túneles y las zonas subterráneas les dio algo que otros desean: conocimiento.
 
-### El grupo revela al Agarto secretos sobre las criaturas y actividad subterránea
+### El grupo revela al Lagarto secretos sobre las criaturas y actividad subterránea
 
-Luego de superar la primera instancia, el grupo llega hasta **el Agarto**, una figura de mayor peso dentro de El Velado.
+Luego de superar la primera instancia, el grupo llega hasta **el Lagarto**, una figura de mayor peso dentro de El Velado.
 
-El Agarto también se interesa por la prueba de los espejos y por aquello que el grupo trae consigo. No busca una historia cualquiera, sino información que tenga valor real dentro de la red clandestina.
+El Lagarto también se interesa por la prueba de los espejos y por aquello que el grupo trae consigo. No busca una historia cualquiera, sino información que tenga valor real dentro de la red clandestina.
 
 El grupo revela parte de lo descubierto bajo la ciudad: la existencia de un troll deforme, criaturas como goblins y kobolds, y señales de actividad subterránea que no pertenecen a una simple guarida de monstruos.
 
@@ -44,9 +44,9 @@ El hallazgo tiene peso.
 
 Para El Velado, esa información no es sólo una anécdota de aventura. Es una pieza dentro de un mapa de poder, comercio y secretos enterrados bajo la Ciudad Alta.
 
-### El Agarto entrega información, respaldo y un ritual prohibido
+### El Lagarto entrega información, respaldo y un ritual prohibido
 
-A cambio del secreto, el Agarto entrega información y respaldo.
+A cambio del secreto, el Lagarto entrega información y respaldo.
 
 Entre lo compartido aparece un ritual prohibido, algo que confirma que El Velado no se limita al contrabando o al comercio informal. Sus contactos alcanzan saberes ocultos, prácticas peligrosas y formas de poder que el mundo oficial no admite públicamente.
 

@@ -285,8 +285,8 @@ Archivo: `Lore/Capitulos/22_El_velado_y_los_espejos.md`
 - El grupo se acerca al circuito clandestino de la Ciudad Alta
 - El Pichón explica la prueba de los tres espejos que detectan secretos
 - El Velado exige información, favores o secretos a cambio de legitimidad
-- El grupo revela al Agarto secretos sobre las criaturas y actividad subterránea
-- El Agarto entrega información, respaldo y un ritual prohibido
+- El grupo revela al Lagarto secretos sobre las criaturas y actividad subterránea
+- El Lagarto entrega información, respaldo y un ritual prohibido
 - El taller del Lagarto revela comercio con tecnología antigua y alquimia
 - El grupo queda mejor posicionado pero más comprometido con El Velado
 
