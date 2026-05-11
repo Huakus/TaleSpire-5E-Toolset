@@ -50,7 +50,7 @@ Archivo: `Lore/Capitulos/03_El_rescate_de_aroldo.md`
 - El prisionero revela el punto de encuentro de los mercenarios en el Bosque Antiguo
 - Llegada al campamento tiefling del Bosque Antiguo y encuentro con Aethelion
 - Aethelion habla de los campamentos mercenarios y del extraño catalejo encontrado en el bosque
-- El campamento semiorco habla sobre Kragor Naramach, el Buscador
+- El campamento semiorco habla sobre Kragor Namarach, el Buscador
 - Encuentro con la compañía de Valerio el Férreo y noticia de desapariciones en el bosque
 - Adler y Delerion encuentran a Kragor Namarach en las ruinas de la torre
 - Delerion engaña a Kragor con la canción del bosque y encuentra un pergamino antiguo

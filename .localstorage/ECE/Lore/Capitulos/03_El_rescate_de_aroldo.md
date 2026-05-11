@@ -4,7 +4,7 @@
 
 Los aventureros consiguen llegar hasta la balsa sin despertar sospechas y navegan río arriba, siguiendo la misma ruta que hicieron para llegar. El sol alumbra su camino pero el viento sopla fuerte en su contra y la balsa se desvía bajo el inexperto control de Adler y Delerion. De pronto, algo capta su atención: una embarcación de considerable tamaño que ha naufragado y se halla semisumergida junto a la costa del río. Dirigen la embarcación hasta la costa ribereña para examinar el naufragio más de cerca.
 
-Es evidente que se trata de la embarcación de transporte en la que huyó Borgar Tempestus después de haberse mofado de su derrota y haber huido impunemente para reunirse con sus camaradas mercenarios contratados por el reino del sur. Así, descienden para inspeccionar el lugar y descubrir alguna información útil sobre el jefe contrabandista y lo que sea que ocurrió después de que su nave naufragara en aquel punto de su ruta.
+Es evidente que se trata de la embarcación de transporte en la que huyó Borgar Tempestus después de haberse mofado de su derrota y haber huido impunemente para reunirse con sus camaradas mercenarios contratados por el Reino del Sur. Así, descienden para inspeccionar el lugar y descubrir alguna información útil sobre el jefe contrabandista y lo que sea que ocurrió después de que su nave naufragara en aquel punto de su ruta.
 
 ### Investigación del campamento improvisado y hallazgo de cadáveres en la playa
 
@@ -20,7 +20,7 @@ Adler y Delerion recorren el campamento y encuentran algunas cosas reveladoras. 
 
 Entre los restos que dejó, encuentran un boceto de un mapa con unas coordenadas y una nota que reza: “Si pasan por este lugar, y saben quién hizo esto, he dejado algunas cosas interesantes en el lugar de siempre”. Después de aquello parece que consiguió robar un caballo a un transeúnte que iba por un camino cercano y partió a toda prisa hacia Valverde del Río para resolver “ciertos asuntos” y partir hacia el campamento de los mercenarios con algún tipo de prueba de lealtad.
 
-Los aventureros se percatan de la urgencia de la situación, pero algo más dispara su preocupación. Están agotados y sin respaldo y el claro donde se encuentra se rodea de aullidos amenazantes. Parece que la manada de lobos que acorraló a Borgar ahora también los acecha. Deciden plantar cara con la intención de derrotar a las fieras y poder explorar el campamento abandonado con mayor detenimiento.
+Los aventureros se percatan de la urgencia de la situación, pero algo más dispara su preocupación. Están agotados y sin respaldo, y el claro donde se encuentran se rodea de aullidos amenazantes. Parece que la manada de lobos que acorraló a Borgar ahora también los acecha. Deciden plantar cara con la intención de derrotar a las fieras y poder explorar el campamento abandonado con mayor detenimiento.
 
 ### Combate contra los lobos y retirada urgente hacia Valverde del Río
 
@@ -30,15 +30,15 @@ En vista de que están en desventaja, deciden volver rápidamente hacia la balsa
 
 ### Regreso inesperado a Valverde y noticia del secuestro de Alarico Belmonte
 
-Adler y Delerion regresan a Valverde del Río antes de lo previsto. El primer indicio de que su retorno no estaba previsto se hace evidente cuando llegan a la casa de Emilio y se encuentran con que han salido de viaje. En el castillo del gobernador se encuentra con su sobrina, Eliza Belmonte, que ha quedado a cargo en ausencia de su tío que, al parecer, ha sido secuestrado por el semiorco Borgar Tempestus, aunque nadie sabe exactamente para qué.
+Adler y Delerion regresan a Valverde del Río antes de lo previsto. El primer indicio de que su retorno no estaba previsto se hace evidente cuando llegan a la casa de Emilio y se encuentran con que ha salido de viaje. En el castillo del gobernador se encuentran con su sobrina, Eliza Belmonte, que ha quedado a cargo en ausencia de su tío que, al parecer, ha sido secuestrado por el semiorco Borgar Tempestus, aunque nadie sabe exactamente para qué.
 
-El mercenario, además, ha asaltado a los pobladores y galopa a toda velocidad hacia el sur. Tras dar una vuelta por el pueblo, recogen rumores de avistamientos de un enorme semi-orco en las cercanías del pueblo dirigiéndose a caballo hacia el sur. Cuando van hacia el castillo, descubren con sorpresa que el gobernador tampoco está presente.
+El mercenario, además, ha asaltado a los pobladores y galopa a toda velocidad hacia el sur. Tras dar una vuelta por el pueblo, recogen rumores de avistamientos de un enorme semiorco en las cercanías del pueblo dirigiéndose a caballo hacia el sur. Cuando van hacia el castillo, descubren con sorpresa que el gobernador tampoco está presente.
 
-Tras pedir algunos detalles a su amigo Diego, éste les dice que don Alarico partió con su escolta en una carroza y, esa misma mañana tuvieron noticias de que el carruaje había sido hallado en mitad del camino con los escoltas muertos y un caballo faltante. Al parecer, el semiorco ha conseguido llegar al pueblo en tiempo récord, ha asaltado a los pobladores, ha secuestrado al gobernador, y se lo ha llevado al campamento de los mercenarios.
+Tras pedir algunos detalles a su amigo Diego, este les dice que don Alarico partió con su escolta en una carroza y, esa misma mañana, tuvieron noticias de que el carruaje había sido hallado en mitad del camino con los escoltas muertos y un caballo faltante. Al parecer, el semiorco ha conseguido llegar al pueblo en tiempo récord, ha asaltado a los pobladores, ha secuestrado al gobernador, y se lo ha llevado al campamento de los mercenarios.
 
 ### Diego consigue acceso al secuaz capturado de Borgar y el grupo prepara el interrogatorio
 
-Sin embargo, Diego les revela un dato muy valioso, Borgar viajaba con un secuaz y éste ha sido capturado y está bajo custodia de la guardia. No ha soltado nada pero, si quieren interrogarlo, puede arreglar todo para que tengan un momento a solas con el prisionero en el granero. Adler y Delirion aceptan y pactan el encuentro al anochecer. Para hacer tiempo, se dieron una vuelta por la posada y confirmaron los rumores que ya habían escuchado.
+Sin embargo, Diego les revela un dato muy valioso: Borgar viajaba con un secuaz y este ha sido capturado y está bajo custodia de la guardia. No ha soltado nada pero, si quieren interrogarlo, puede arreglar todo para que tengan un momento a solas con el prisionero en el granero. Adler y Delerion aceptan y pactan el encuentro al anochecer. Para hacer tiempo, se dan una vuelta por la posada y confirman los rumores que ya habían escuchado.
 
 Se percatan, además, del revuelo que se está armando en el pueblo ante la expectativa de la llegada de la comitiva del duque Brightshield. Los hombres están ebrios y pendencieros, golpean al inepto bardo que intenta proyectar su música por encima del tumulto y las prostitutas se empiezan a mostrar cada vez con menos disimulo. Al caer la noche, se dirigen al granero para interrogar al prisionero.
 
@@ -46,29 +46,29 @@ El clérigo y el mago no tienen mucha experiencia en aquel asunto de la coerció
 
 ### El prisionero revela el punto de encuentro de los mercenarios en el Bosque Antiguo
 
-Antes de que el prisionero tuviera que ser llevado de vuelta a los calabozos al borde de la muerte, pudieron sacarle información sobre un punto de encuentro para diferentes bandas de mercenarios subcontratados por Viktor Salazar que se están estableciendo en un sitio conocido como el Bosque Antiguo. El prisionero ha conseguido señalar en el mapa de los aventureros el lugar donde deberían encontrar a estos mercenarios.
+Antes de que el prisionero tuviera que ser llevado de vuelta a los calabozos al borde de la muerte, pudieron sacarle información sobre un punto de encuentro para diferentes bandas de mercenarios subcontratados por Viktor Salazar que se están estableciendo en un sitio conocido como el Bosque Antiguo. El prisionero consigue señalar en el mapa de los aventureros el lugar donde deberían encontrar a estos mercenarios.
 
 Diego parece muy exaltado después del interrogatorio, así que tienen que bajar un poco su ímpetu para informarle que tomarán rumbo hacia esta nueva ubicación con la esperanza de reunir un poco más de información y, con suerte, llegar al campamento de los mercenarios antes que Borgar o, mejor aún, interceptarlo en su camino. Así, reúnen algunos pertrechos y después se dirigen a la balsa para llegar a la nueva ubicación.
 
-Según la información que han podido recabar, parece que estos mercenarios subcontratados se están congregando en algún punto a pocos kilómetros al norte del campamento de los mercenarios del que ya han conseguido escapar, en medio de los bosques. Se puede llegar por el río y ésto podría darles una cierta ventaja sobre Borgar, aunque, por lo que han averiguado, parece que el semiorco viaja a marchas forzadas, así que los aventureros tendrán que adecuarse.
+Según la información que han podido recabar, parece que estos mercenarios subcontratados se están congregando en algún punto a pocos kilómetros al norte del campamento de los mercenarios del que ya han conseguido escapar, en medio de los bosques. Se puede llegar por el río y esto podría darles una cierta ventaja sobre Borgar, aunque, por lo que han averiguado, parece que el semiorco viaja a marchas forzadas, así que los aventureros tendrán que adecuarse.
 
 ### Llegada al campamento tiefling del Bosque Antiguo y encuentro con Aethelion
 
-El humo de múltiples hogueras sube entre los árboles del bosque antiguo formando columnas grises que invaden el olfato con el aroma de carne siendo cocinada al fuego. Descienden de la balsa y se abren camino hasta llegar a un campamento integrado por un grupo de Tieflings. Están cortando leña, armando sus carpas y prendiendo fuego. En la cima de una larga escalinata en ruinas que parece haber formado parte de una torre en alguna época antigua se encuentra Aethelion, el líder del grupo.
+El humo de múltiples hogueras sube entre los árboles del Bosque Antiguo formando columnas grises que invaden el olfato con el aroma de carne siendo cocinada al fuego. Descienden de la balsa y se abren camino hasta llegar a un campamento integrado por un grupo de tieflings. Están cortando leña, armando sus carpas y prendiendo fuego. En la cima de una larga escalinata en ruinas que parece haber formado parte de una torre en alguna época antigua se encuentra Aethelion, el líder del grupo.
 
-Está observando el panorama a través de un catalejo. Se reúnen con él en lo alto de la escalera en ruinas y se encuentran con un mercenario de carácter un tanto pretencioso aunque parece honorable. Con modales refinados y un vocabulario cuidado, responde a las preguntas de los aventureros sin mayores inconvenientes.
+Está observando el panorama a través de un catalejo. Se reúnen con él en lo alto de la escalera en ruinas y se encuentran con un mercenario de carácter un tanto pretencioso, aunque parece honorable. Con modales refinados y un vocabulario cuidado, responde a las preguntas de los aventureros sin mayores inconvenientes.
 
 ### Aethelion habla de los campamentos mercenarios y del extraño catalejo encontrado en el bosque
 
 El líder mercenario les da un panorama de la distribución de los campamentos y en quiénes pueden confiar. Claro que el catalejo no pasa desapercibido a la atención de los aventureros. Su manufactura es única y se trata de un artefacto realmente raro. Lo más llamativo es que el mercenario afirma haberlo encontrado en ese mismo bosque, sobre el mismo sitio donde están ahora cuando llegaron.
 
-Les cuenta que, cuando mira a través del artefacto, siente que no sólo puede ver claramente aquello que está lejos, también siente que su mente se aclara y puede hacer mejores planes para las batallas que vienen. El mercenario tiene la ambición de que, una vez que acabe la guerra y el bando que los contrató resulte victorioso, la Corona lo recompense con tierras y un título y, posiblemente, el mando de las tropas. Es un apasionado líder militar y sueña con ser un conquistador.
+Les cuenta que, cuando mira a través del artefacto, siente que no solo puede ver claramente aquello que está lejos, también siente que su mente se aclara y puede hacer mejores planes para las batallas que vienen. El mercenario tiene la ambición de que, una vez que acabe la guerra y el bando que los contrató resulte victorioso, la Corona lo recompense con tierras y un título y, posiblemente, el mando de las tropas. Es un apasionado líder militar y sueña con ser un conquistador.
 
 Los aventureros deciden acercarse al campamento más cercano que es el de un grupo de mercenarios semiorcos. Según Aethelion, son bastante educados pese a lo que cabría esperar y parece que su líder puede saber algunas cosas sobre el bosque donde se encuentran.
 
-### El campamento semiorco habla sobre Kragor Naramach, el Buscador
+### El campamento semiorco habla sobre Kragor Namarach, el Buscador
 
-El grupo de semiorcos resulta ser, efectivamente, bastante amable. Cuando preguntan por su líder, los mercenarios responden que ha partido hace un par de noches a explorar unas ruinas cercanas que lo tienen obsesionado. Su nombre es Kragor Naramach, aunque todos lo llaman “el Buscador”, aunque es más un mote que un mérito. Descubren que es un semiorco de gran tamaño pero que no tiene una gran inclinación por el combate y el saqueo.
+El grupo de semiorcos resulta ser, efectivamente, bastante amable. Cuando preguntan por su líder, los mercenarios responden que ha partido hace un par de noches a explorar unas ruinas cercanas que lo tienen obsesionado. Su nombre es Kragor Namarach, aunque todos lo llaman “el Buscador”, aunque es más un mote que un mérito. Descubren que es un semiorco de gran tamaño pero que no tiene una gran inclinación por el combate y el saqueo.
 
 En su clan era marginado porque estaba obsesionado con el reino de las fatas y los restos de antiguas civilizaciones. Colecciona piedras con las que después hace amuletos, transcribe todas las runas que encuentra en sus viajes y se mueve hacia donde sea que haya rumores de presencia feérica. Sin embargo, es un buen líder y un gran chamán aunque sus rituales sean un tanto excéntricos.
 
@@ -76,17 +76,17 @@ Según indican los mercenarios, su líder ha estado balbuceando cosas sobre una 
 
 ### Encuentro con la compañía de Valerio el Férreo y noticia de desapariciones en el bosque
 
-Caminan a lo largo de la costa del río hasta que dan, en el extremo occidental del bosque, con un campamento formado por un grupo de mercenarios de aspecto apesadumbrado. Son todos humanos y su líder es Valerio a quien, según sus compañeros, también suelen conocer como “El Férreo”, por su talento para el mando en combate y su compromiso de cumplir cualquier promesa que haga. Valerio les cuenta que están preocupados por están desapareciendo hombres de los campamentos durante la noche.
+Caminan a lo largo de la costa del río hasta que dan, en el extremo occidental del bosque, con un campamento formado por un grupo de mercenarios de aspecto apesadumbrado. Son todos humanos y su líder es Valerio, a quien, según sus compañeros, también suelen conocer como “el Férreo”, por su talento para el mando en combate y su compromiso de cumplir cualquier promesa que haga. Valerio les cuenta que están preocupados porque están desapareciendo hombres de los campamentos durante la noche.
 
-Parece que todos los que se adentran en los bosques más al norte no vuelven. No saben qué es lo que los ha llevado hasta aquel lugar, pero han perdido a Orlando, un compañero muy valioso y temen que pueda estar muerto. Los aventureros se comprometen a buscarlo y descubrir lo que le haya pasado. Los mercenarios les agradecen y los invitan a instalarse en su campamento y compartir la comida con ellos. Aprovechan el momento para distenderse y alimentarse con algo más que conservas y pan viejo.
+Parece que todos los que se adentran en los bosques más al norte no vuelven. No saben qué es lo que los ha llevado hasta aquel lugar, pero han perdido a Orlando, un compañero muy valioso, y temen que pueda estar muerto. Los aventureros se comprometen a buscarlo y descubrir lo que le haya pasado. Los mercenarios les agradecen y los invitan a instalarse en su campamento y compartir la comida con ellos. Aprovechan el momento para distenderse y alimentarse con algo más que conservas y pan viejo.
 
 Cuando están satisfechos, parten hacia los bosques del norte. A lo lejos pueden ver las ruinas de una torre derrumbada y, al consultar el mapa que dejó Borgar, parece que la ubicación debería coincidir con ese sitio, así que hacia allá dirigen sus pasos.
 
 ### Adler y Delerion encuentran a Kragor Namarach en las ruinas de la torre
 
-En las ruinas de la torre se encuentra con el líder de los mercenarios semiorcos. Resulta ser un personaje, como mínimo, tan estrafalario como describieron sus compañeros. Lleva unos ropajes vastos y raídos, un montón de amuletos y piedrecillas colgantes y un collar con una llamativa piedra verde que brilla con un tono fosforescente colgada del cuello. Parece estar absorto en sus meditaciones hasta que Adler y Delerion lo interrumpen y entonces saluda de forma amable aunque algo abstraída.
+En las ruinas de la torre se encuentran con el líder de los mercenarios semiorcos. Resulta ser un personaje, como mínimo, tan estrafalario como describieron sus compañeros. Lleva unos ropajes vastos y raídos, un montón de amuletos y piedrecillas colgantes y un collar con una llamativa piedra verde que brilla con un tono fosforescente colgada del cuello. Parece estar absorto en sus meditaciones hasta que Adler y Delerion lo interrumpen, y entonces saluda de forma amable aunque algo abstraída.
 
-Resulta ser un tipo bastante hablador que parece estar realmente obsesionado con las ruinas locales. Les cuenta que son los restos del antiguo imperio Aleroriano, que conocía formas de magia ya olvidadas y tenía una conexión íntima con los dioses y la Corte de las Hadas. Hay muchas leyendas e historias, especialmente entre los clanes orcos del Reino del Sur, pero se dice que todo su conocimiento está perdido.
+Resulta ser un tipo bastante hablador que parece estar realmente obsesionado con las ruinas locales. Les cuenta que son los restos del antiguo imperio aeloriano, que conocía formas de magia ya olvidadas y tenía una conexión íntima con los dioses y la Corte de las Hadas. Hay muchas leyendas e historias, especialmente entre los clanes orcos del Reino del Sur, pero se dice que todo su conocimiento está perdido.
 
 Para Kragor, en realidad no está perdido, sino que es guardado celosamente por los seres feéricos que un día pelearon codo a codo con Aeloria.
 
@@ -114,9 +114,9 @@ No entierran la verdad donde cae la lluvia, la esconden en la canción de un la�
 
 Los aventureros se encuentran en la cima de la colina. Frente a ellos, un sátiro les sonríe tras detener sus dedos, dejando cuidadosamente el instrumento a un lado. Sin embargo, también notan algo más: parece que el cielo ha cambiado, el aire, todo. Una oscuridad crepuscular domina de pronto el bosque, que hasta hacía un momento estaba completamente soleado. Tienen la sensación de que están siendo observados, de que todo en aquel lugar está vivo… y tiene hambre.
 
-Sin embargo, la criatura que está frente a ellos sonríe con afabilidad, desentonando con el resto del ambiente. Se presenta como Panthos, la Voz del Bosque y les explica que están en el reino feérico, su canción los ha traído hasta ese plano. Los ha llamado porque necesita ayuda con un asunto, quiere recuperar el catalejo que le ha robado el capitán mercenario del campamento tiefling, pero no quiere delatar su presencia a los mercenarios.
+Sin embargo, la criatura que está frente a ellos sonríe con afabilidad, desentonando con el resto del ambiente. Se presenta como Panthos, la Voz del Bosque, y les explica que están en el reino feérico; su canción los ha traído hasta ese plano. Los ha llamado porque necesita ayuda con un asunto: quiere recuperar el catalejo que le ha robado el capitán mercenario del campamento tiefling, pero no quiere delatar su presencia a los mercenarios.
 
-Cuando le preguntan por la causa de las desapariciones en el campamento, les explica que en entre los árboles al norte vive una ninfa, probablemente ella esté atrayendo a los hombres. Si es el caso, es poco probable que sigan con vida.
+Cuando le preguntan por la causa de las desapariciones en el campamento, les explica que entre los árboles al norte vive una ninfa, probablemente ella esté atrayendo a los hombres. Si es el caso, es poco probable que sigan con vida.
 
 ### Delerion lee el pergamino feérico y absorbe su magia
 
@@ -124,19 +124,19 @@ Los aventureros se ponen en marcha para ir en busca del catalejo, mientras discu
 
 El pergamino se deshace en sus manos y siente cómo la magia que estaba encerrada se transfiere hacia su propio cuerpo. No consigue recordar lo que leyó y pronto ya no siente nada más en particular, pero tiene la certeza de que algo acaba de entrar en su carne. Sin embargo, no tiene mucho tiempo para pensar en eso, ya que unos gritos agudos y un zumbido amenazador se acercan rápidamente.
 
-Un grupo de hadas enfurecidas empiezan a atacarlos con fiereza, aparentemente enfurecidas por lo que sea que haya hecho el mago.
+Un grupo de hadas enfurecidas empieza a atacarlos con fiereza, aparentemente enfurecidas por lo que sea que haya hecho el mago.
 
 ### Combate contra las hadas y robo sigiloso del catalejo de Aethelion
 
 La batalla resulta difícil y consiguen salir librados por poco. En vista de esto, deciden que tienen que salir de aquel plano cuanto antes, especialmente si existe la amenaza de la ninfa o si se encuentran con más seres feéricos enojados. Avanzan por el bosque con cuidado, prestando atención y manteniendo el sigilo. En su camino se cruzan con el chamán semiorco yendo hacia la ubicación falsa señalada por Delerion, pero parece congelado, o como si avanzara muy lento.
 
-Todo a su alrededor se ve igual que antes, pero con un tono sombrío y preternatural. Pronto llegaron al campamento de los tieflings El capitán permanece casi congelado sobre la cima de la escalera. Usando el sigilo, Delerion tomó el catalejo que colgaba del cinto del mercenario. Después, lanzó un conjuro de Grasa en los peldaños ruinosos y volvió con Adler. Juntos entregaron el artefacto a su legítimo dueño y este los devolvió a su plano.
+Todo a su alrededor se ve igual que antes, pero con un tono sombrío y preternatural. Pronto llegan al campamento de los tieflings. El capitán permanece casi congelado sobre la cima de la escalera. Usando el sigilo, Delerion toma el catalejo que colgaba del cinto del mercenario. Después, lanza un conjuro de Grasa en los peldaños ruinosos y vuelve con Adler. Juntos entregan el artefacto a su legítimo dueño y este los devuelve a su plano.
 
-Sin embargo, una extraña sensación se quedó con el mago y muchas más preguntas que las respuestas que habían conseguido.
+Sin embargo, una extraña sensación se queda con el mago y muchas más preguntas que las respuestas que habían conseguido.
 
 ### Valerio acepta ayudar a rescatar a Haroldo y Alarico del campamento mercenario
 
-Tras leer el pergamino, Delerion descubrió que podía entender un poco más de las runas que estaban grabadas en el Libro Guardián, sin embargo, aún no pueden comprender completamente el conjuro. Al llegar al campamento de Valerio, le comentan las malas noticias, todo parece apuntar a que los hombres fueron atraídos por la ninfa de los bosques del norte hacia su muerte. Apesadumbrado, el capitán les agradece y les dice que pueden quedarse con las pertenencias del mercenario caído.
+Tras leer el pergamino, Delerion descubre que puede entender un poco más de las runas que están grabadas en el Libro Guardián, sin embargo, aún no pueden comprender completamente el conjuro. Al llegar al campamento de Valerio, le comentan las malas noticias: todo parece apuntar a que los hombres fueron atraídos por la ninfa de los bosques del norte hacia su muerte. Apesadumbrado, el capitán les agradece y les dice que pueden quedarse con las pertenencias del mercenario caído.
 
 Los aventureros también se percatan de que apenas han pasado unos pocos minutos en el plano donde están, cuando estaban seguros de que habían permanecido en el reino feérico durante varias horas. Cumplidas todas las formalidades, los aventureros piden ayuda a Valerio para volver al campamento de los mercenarios y rescatar a su amigo Haroldo, cuya vida está en serio riesgo y, también, rescatar a don Alarico Belmonte, que ya podría haber sido llevado hasta allá por Borgar.
 
