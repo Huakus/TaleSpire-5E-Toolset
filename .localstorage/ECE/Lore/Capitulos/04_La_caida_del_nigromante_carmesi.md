@@ -4,7 +4,7 @@
 
 Los aventureros arriban nuevamente al campamento de los contrabandistas durante la madrugada. Todavía quedan algunas horas antes del amanecer, pero los mercenarios se han asegurado de que se viera bien claro el cuerpo de Haroldo empalado en el frente de la empalizada, con una mueca de tormento y terror congelada para siempre. Todos los fuegos están encendidos y se puede notar a simple vista que han reforzado la guardia después de descubrir la infiltración de Adler y Delerion. Los están esperando.
 
-Ayudados ahora por Valerio y sus mercenarios, acaban furtivamente con los guardias de la puerta. Delerion conjura una mano espectral con la que abren la puerta del otro lado mientras Don Niembro, su búho, sobrevuela el área. A través de sus poderosos ojos, el mago puede ver toda la disposición del campamento. Lo primero que hacen es crear una distracción para los guardias que están del otro lado de la puerta.
+Ayudados ahora por Valerio y sus mercenarios, acaban furtivamente con los guardias de la puerta. Delerion conjura una mano espectral con la que abren la puerta del otro lado mientras Don Miembro, su búho, sobrevuela el área. A través de sus poderosos ojos, el mago puede ver toda la disposición del campamento. Lo primero que hacen es crear una distracción para los guardias que están del otro lado de la puerta.
 
 Luego, ingresan y siguen el camino que ya conocen, enfrentándose con los mercenarios del torreón este.
 
@@ -18,7 +18,7 @@ Don Miembro, que vigila desde las alturas, advierte al mago de que los mercenari
 
 ### El arquero hipnotizado incendia los barriles para frenar a los refuerzos
 
-Aprovechando a su hipnotizado sirviente, el mago ordena que dispare con su arco a un montón de barriles que se encuentran justo entre los aventureros y el camino de los enemigos. El arquero resulta ser un haz con el arco y la flecha. Con la calma de un experto, mete la flecha en el aceite de una lámpara cercana y después la enciende en el fuego de una antorcha, apunta a los barriles, tensa el arco y, un segundo después, suelta el proyectil, que silva por el aire trazando una estela anaranjada.
+Aprovechando a su hipnotizado sirviente, el mago ordena que dispare con su arco a un montón de barriles que se encuentran justo entre los aventureros y el camino de los enemigos. El arquero resulta ser un as con el arco y la flecha. Con la calma de un experto, mete la flecha en el aceite de una lámpara cercana y después la enciende en el fuego de una antorcha, apunta a los barriles, tensa el arco y, un segundo después, suelta el proyectil, que silba por el aire trazando una estela anaranjada.
 
 La parábola termina justo en un barril de licor que estalla esparciendo las llamas por toda el área, encendiendo otros barriles e interponiendo una barrera incandescente, deteniendo a los enemigos en su lugar. Han ganado algo de tiempo, pero los capitanes enemigos empiezan a gritar órdenes y sus esbirros se ponen rápidamente en marcha para buscar barriles con agua y empezar a apagar el incendio.
 
@@ -26,7 +26,7 @@ Zafir, el mercenario tiefling, junto a un puñado de sus mejores hombres, todav�
 
 ### Adler y Delerion avanzan hacia la carpa de Viktor Salazar
 
-Los aventureros corren hacia el norte, dejando atrás los gritos y estruendos del combate. La voz de Valerio, que grita sus órdenes a los hombres que les quedan, se va apagando tras ellos. Sin mirar atrás, avanzan por el campamento mientras Don Miembro va mostrando el camino al mago. Puede ver el centro del campamento, una gran carpa y cuatro guardias con armaduras completas apostados uno en cada esquina.
+Los aventureros corren hacia el norte, dejando atrás los gritos y estruendos del combate. La voz de Valerio, que grita sus órdenes a los hombres que le quedan, se va apagando tras ellos. Sin mirar atrás, avanzan por el campamento mientras Don Miembro va mostrando el camino al mago. Puede ver el centro del campamento, una gran carpa y cuatro guardias con armaduras completas apostados uno en cada esquina.
 
 En una zona empalizada más adelante, puede ver al gobernador, atado, parado en un patíbulo, en lo que parece ser un inminente sacrificio humano. Avanzan cada vez más despacio a medida que se acercan a la carpa. No ven rastros del nigromante al que están buscando, el famoso Viktor Salazar que ha estado detrás de todo lo que está pasando. Pero no tienen mucho tiempo que perder.
 
@@ -36,7 +36,7 @@ Al acercarse más, se percatan de que los guardias son en realidad armaduras ani
 
 Para sorpresa de los aventureros, Salazar les habla cordialmente, ofreciéndoles un trato. Quiere que se unan a sus mercenarios, siendo la otra alternativa morir tras la inminente llegada de sus refuerzos. Les confirma que Borgar está en el campamento también, como refuerzo para evitar hasta la última posibilidad de escape. Por otro lado, promete grandes recompensas si se unen a su bando. Finalmente les revela que han caído en su trampa.
 
-El nigromante posee un amuleto que le permitirá desatar todo el poder del Libro Guardián para arrasar con Valverde del Río y ganarse el Favor de la corona del Reino del Sur y obtener el poder que se oculta bajo el castillo de don Alarico Belmonte. Sólo necesitaba el Libro Guardián y ahora lo tiene justo frente así, con todo el poder de su magia y cuatro guardianes implacables para que lo protejan.
+El nigromante posee un amuleto que le permitirá desatar todo el poder del Libro Guardián para arrasar con Valverde del Río y ganarse el favor de la corona del Reino del Sur y obtener el poder que se oculta bajo el castillo de don Alarico Belmonte. Sólo necesitaba el Libro Guardián y ahora lo tiene justo frente a sí, con todo el poder de su magia y cuatro guardianes implacables para que lo protejan.
 
 Adler y Delerion tienen dos alternativas bastante claras: unirse al nigromante y sus planes y permitir el sacrificio del gobernador, o morir y ser parte de sus macabros planes. Pero Adler pone en marcha un plan arriesgado.
 
@@ -44,7 +44,7 @@ Adler y Delerion tienen dos alternativas bastante claras: unirse al nigromante y
 
 Antes de que el nigromante pudiera hacer nada, Adler se puso detrás y lo apresó con una llave, aprovechando su fortaleza física frente a la anatomía frágil de Viktor Salazar. Entonces le gritó a Delerion que usara todo su poder arcano. El mago, sin saber muy bien qué hacer, obedeció, lanzando una bola de fuego contra su compañero, que estaba trenzado en un abrazo con su enemigo.
 
-El clérigo consiguió cubrir la boca del nigromante para evitar que pudiera usar su magia de ninguna manera, mientras caían bolas incendiarias sobre ellos. Por fin el nigromante consiguió liberarse de la presa, pero entonces el mago lanzó grasa y el Adler volvió a agarrarlo. Ambos se revolcaban en el barro mientras llovía fuego y muerte sobre ellos.
+El clérigo consiguió cubrir la boca del nigromante para evitar que pudiera usar su magia de ninguna manera, mientras caían bolas incendiarias sobre ellos. Por fin el nigromante consiguió liberarse de la presa, pero entonces el mago lanzó Grasa y Adler volvió a agarrarlo. Ambos se revolcaban en el barro mientras llovía fuego y muerte sobre ellos.
 
 Las armaduras animadas se aproximaban peligrosamente hacia los contendientes pero, finalmente, los cuerpos entrelazados del nigromante y el clérigo dejaron de moverse. Los espíritus que animaban las corazas se desvanecieron y las armaduras quedaron apiladas en el piso, desperdigadas por el campamento. Un momento después, Adler empezó a moverse y se puso en pie con dificultad, chamuscado y completamente cubierto de barro, pero vivo. Inmediatamente fueron hacia donde se encontraba el gobernador.
 
@@ -58,15 +58,15 @@ En el cadáver de Salazar pudieron obtener, entre otras cosas, un amuleto con un
 
 ### Borgar Tempestus cambia de bando y ofrece una vía de escape
 
-El semiorco se encontraba frente a ellos, con su sonrisa socarrona y su sarcasmo insondable, como si no le importara el apremiante contexto en que se encontraban. para su sorpresa, no venía a cobrarse la vida de los asesinos de su jefe. De hecho, todo lo contrario, se ofreció a ayudarlos a escapar si, a cambio, intercedían por él frente a las autoridades del Reino del Norte.
+El semiorco se encontraba frente a ellos, con su sonrisa socarrona y su sarcasmo insondable, como si no le importara el apremiante contexto en que se encontraban. Para su sorpresa, no venía a cobrarse la vida de los asesinos de su jefe. De hecho, todo lo contrario, se ofreció a ayudarlos a escapar si, a cambio, intercedían por él frente a las autoridades del Reino del Norte.
 
-Aparentemente, había medido sus oportunidades de sacar provecho de la guerra y, en vista de la humillante derrota que los aventureros habían infligido al gran Viktor Salazar, había decidio que cambiar de bando era lo que más provechoso podía llegar a reportarle a un mercenario sin escrúpulos como él. Los aventureros, sin muchas más alternativas, aceptaron, y pidieron un poco de ayuda para resolver un pequeño asunto si es que tenían la oportunidad. Delerion ya estaba poniendo un excéntrico plan en marcha.
+Aparentemente, había medido sus oportunidades de sacar provecho de la guerra y, en vista de la humillante derrota que los aventureros habían infligido al gran Viktor Salazar, había decidido que cambiar de bando era lo más provechoso que podía llegar a reportarle a un mercenario sin escrúpulos como él. Los aventureros, sin muchas más alternativas, aceptaron, y pidieron un poco de ayuda para resolver un pequeño asunto si es que tenían la oportunidad. Delerion ya estaba poniendo un excéntrico plan en marcha.
 
 ### Adler, Delerion y Borgar intimidan a Zafir para liberar a Valerio
 
 Los pasos se aproximaban al campamento del nigromante, donde los aventureros habían decidido aventurarse. Don Alarico Belmonte no decía mucho, su expresión era la de alguien que había caído en un estado completamente catatónico después del terrible trauma que habría pasado durante su travesía a la par del mercenario semiorco para luego ser apresado por un malévolo nigromante que planeaba sacrificarlo para desatar un terrible conjuro sobre un montón de almas campechanas e inocentes.
 
-Viktor Salazar yacía muerto en el barro y la grasa y su campamento estaba siendo rápidamente consumido por las llamas. Por el camino se acercaba la compañía de Zafir, el tiefling, pero no esperaba encontrarse con la imagen que tenía al frente: una pila de armaduras coronada por el cuerpo del nigromante y las llamas que lo devoraban todo. Detrás del grotesco espectáculo, Delerion y Adler en pie, victoriosos, junto al gobernado y nada menos que Borgar Tempestus.
+Viktor Salazar yacía muerto en el barro y la grasa y su campamento estaba siendo rápidamente consumido por las llamas. Por el camino se acercaba la compañía de Zafir, el tiefling, pero no esperaba encontrarse con la imagen que tenía al frente: una pila de armaduras coronada por el cuerpo del nigromante y las llamas que lo devoraban todo. Detrás del grotesco espectáculo, Delerion y Adler en pie, victoriosos, junto al gobernador y nada menos que Borgar Tempestus.
 
 Los mercenarios no estaban en mejores condiciones y la táctica de intimidación rindió sus frutos. Aventureros y mercenarios negociaron la libertad de Valerio a cambio de no incendiar el campamento de Salazar con todos sus valiosos tesoros y Zafir terminó por acceder, en parte gracias a la intervención de su otrora correligionario, Borgar.
 
@@ -78,13 +78,13 @@ Los aventureros vuelven con un regusto agridulce en sus paladares. Han completad
 
 Sin embargo, Haroldo perdió la vida entre las empalizadas del campamento de los mercenarios después de haber confiado en sus amigos y Valerio fue el único superviviente de su compañía después del combate en el que fueron clave para la victoria sobre Viktor Salazar. No es el retorno triunfal que esperaban, menos aún para Delerion, quien no disfruta para nada de la compañía de Borgar Tempestus.
 
-El semiorco tiene el mal hábito de seguir con su humor sarcástico sin importarle el clima sombrío que domina en la balsa que los lleva río arriba. Finalmente llegan hasta el campamento de los mercenarios para recuperar todas las vituallas que todavía quedaban en el sitio de acampada de Valerio y su banda. reúnen a los caballos, la comida, los tesoros y todo lo que había. Para hacer tiempo, Delerion envía a Don Miembro a explorar la zona para reportar cualquier novedad.
+El semiorco tiene el mal hábito de seguir con su humor sarcástico sin importarle el clima sombrío que domina en la balsa que los lleva río arriba. Finalmente llegan hasta el campamento de los mercenarios para recuperar todas las vituallas que todavía quedaban en el sitio de acampada de Valerio y su banda. Reúnen a los caballos, la comida, los tesoros y todo lo que había. Para hacer tiempo, Delerion envía a Don Miembro a explorar la zona para reportar cualquier novedad.
 
-Los mercenarios parecen no haberse enterado todavía de que su cadena de mando acaba de desmoronarse. Pero descubren algo más: en el campamento de los tiefling, todos están reunidos al pie de las escalinata, al rededor del cuerpo de Aethelion, que parece haber resbalado con la grasa que Delerion había dejado en los escalones tras robarle el catalejo para su legítimo dueño. Por lo visto, los aventureros tienen muchas razones para largarse lo antes posible de aquel lugar, y así lo hacen.
+Los mercenarios parecen no haberse enterado todavía de que su cadena de mando acaba de desmoronarse. Pero descubren algo más: en el campamento de los tieflings, todos están reunidos al pie de la escalinata, alrededor del cuerpo de Aethelion, que parece haber resbalado con la Grasa que Delerion había dejado en los escalones tras robarle el catalejo para devolvérselo a su legítimo dueño. Por lo visto, los aventureros tienen muchas razones para largarse lo antes posible de aquel lugar, y así lo hacen.
 
 ### Regreso de don Alarico a Valverde y llegada del Duque Eldan Brightshield
 
-Los aventureros vuelven triunfales el pequeño poblado, escoltando al gobernador, pero se sorprenden al encontrar un movimiento inusualmente agitado. Hay una gran cantidad de soldados circulando y la taberna parece estar abarrotada con borrachos entrando y saliendo y el estruendo de una música festiva acompañada del coro de decenas de ebrios felices. Frente al castillo del gobernador, se ha reunido lo que parece ser una comitiva acompañando a un noble.
+Los aventureros vuelven triunfales al pequeño poblado, escoltando al gobernador, pero se sorprenden al encontrar un movimiento inusualmente agitado. Hay una gran cantidad de soldados circulando y la taberna parece estar abarrotada con borrachos entrando y saliendo y el estruendo de una música festiva acompañada del coro de decenas de ebrios felices. Frente al castillo del gobernador, se ha reunido lo que parece ser una comitiva acompañando a un noble.
 
 Pronto se enteran de que quien ha llegado es nada menos que el Duque Eldan Brightshield, hijo del rey Gareth II y heredero de la dinastía Brightshield. Las noticias de la invasión sureña han llegado a la corona y han enviado a nada menos que la sangre real a defender las tierras fronterizas. La bienvenida que dan al gobernador se percibe ciertamente fría y forzada, casi como si no esperaran que don Alarico regresara.
 
@@ -112,9 +112,9 @@ Adler y Delerion, por su parte, preocupados por la palabra que le dieron al semi
 
 ### Encuentro con Skitrix “Stix Ernesto” Koboldtanz en Valverde
 
-Los aventureros deciden hacer una parada en la taberna antes de proseguir con sus tareas pero, en el camino, se encuentran con un kobold que se presenta como Skitrix Koboldtanz, pero que los humanos suelen llamarlo Stix Ernesto. Inmediatamente empieza a olfatear a Delerion y parece percatarse de la magia del Libro Guardian.
+Los aventureros deciden hacer una parada en la taberna antes de proseguir con sus tareas pero, en el camino, se encuentran con un kobold que se presenta como Skitrix Koboldtanz, pero que los humanos suelen llamar Stix Ernesto. Inmediatamente empieza a olfatear a Delerion y parece percatarse de la magia del Libro Guardián.
 
-También pregunta por alguien a quien llama “el kobold tuerto” aunque los aventureros no saben si puede ser otro kobold, alguna especie de deidad o simplemente un personaje ficticio, aunque parece estar convencido de que existe. Los elfos sienten desconfianza por el recién llegado, pero finalmente lo invitan a la taberna para tomar unos tragos, ponerse al día y resolver algunos asuntos inconclusos.
+También pregunta por alguien a quien llama “el kobold tuerto” aunque los aventureros no saben si puede ser otro kobold, alguna especie de deidad o simplemente un personaje ficticio, aunque parece estar convencido de que existe. Los aventureros sienten desconfianza por el recién llegado, pero finalmente lo invitan a la taberna para tomar unos tragos, ponerse al día y resolver algunos asuntos inconclusos.
 
 Una vez ahí, se enteran de que el escándalo se debe a los soldados del rey y a las numerosas prostitutas que han atraído durante el viaje de la comitiva. El kobold aprovecha para robar algunas bolsas de oro de los cinturones donde cuelgan esperando a que alguien las tome. Después de ponerse al tanto de todo lo que ha pasado en el pueblo durante su ausencia, los aventureros suben a las habitaciones para hablar con Armando Cortés y recoger su merecida recompensa.
 
@@ -122,8 +122,8 @@ Una vez ahí, se enteran de que el escándalo se debe a los soldados del rey y a
 
 Tras avisar al comerciante que su problema con los mercenarios ha sido resuelto y obtener una cuantiosa recompensa, el trío se dirige al granero para ver cómo la está llevando el semiorco. Ya en el lugar, se encuentran con la figura completamente apaleada de Borgar Tempestus, quien ha recibido toda la fuerza de la justicia real a fin de sacarle cualquier información relevante que pueda estar guardando.
 
-El mercenario no ha soltado una palabra, pero, cuando llega el trío, empieza a decir que sólo va a hablar si lo dejan a solas con ellos. A regañadientes, los soldados acceden a dejarlos con el prisionero. Entonces les comenta que tiene información importante, pero sólo si lo liberan. Sabe que hay un traidor entre las filas del Duque, alguien importante y puede decirles quién es.
+El mercenario no ha soltado una palabra, pero, cuando llega el trío, empieza a decir que sólo va a hablar si lo dejan a solas con ellos. A regañadientes, los soldados acceden a dejarlos con el prisionero. Entonces les comenta que tiene información importante, pero sólo si lo liberan. Sabe que hay un traidor entre las filas del Duque, alguien importante, y puede decirles quién es.
 
 Tras algunas negociaciones, los soldados reales acceden a dejarlo libre, bajo responsabilidad de los aventureros, y entonces el semiorco les cuenta que el capitán designado a cargo de las defensas del puesto de avanzada, un noble con aspiraciones llamado lord Aitor Menta, es el topo. Sin embargo, no pueden delatarlo inmediatamente, ya que es una persona con influencias en la capital y, sin las pruebas suficientes, inculparlo sería una mala jugada.
 
-Tendrán que llevar a Borgar con ellos al puesto y servirse de su ayuda para ponerlo en evidencia frente al Duque. Así, Adler, Delerion, Stix Ernesto y Borgar, se ponen en marcha hacia el puesto de avanzada para empezar una nueva misión bajo el mando del Duque Brightshield.
+Tendrán que llevar a Borgar con ellos al puesto y servirse de su ayuda para ponerlo en evidencia frente al Duque. Así, Adler, Delerion, Stix Ernesto y Borgar se ponen en marcha hacia el puesto de avanzada para empezar una nueva misión bajo el mando del Duque Brightshield.
