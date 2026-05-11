@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 23)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 24)
 
 ## Protagonistas
 
@@ -92,11 +92,11 @@ En la batalla de la escalera, presiona a Zafir junto al grupo y participa en el 
 
 ### Viktor Salazar
 
-**Capítulos:** 2, 3, 4, 6, 7, 23
+**Capítulos:** 2, 3, 4, 6, 7, 23, 24
 
 Jefe de los mercenarios del Reino del Sur y figura de autoridad detrás del campamento enemigo. Su nombre surge cuando Zafir ordena mantener preso a Haroldo hasta poder llevarlo ante él, y vuelve a mencionarse cuando el grupo descubre que las bandas de mercenarios subcontratados están reunidas bajo su influencia.
 
-En el campamento mercenario, Adler y Delerion lo enfrentan directamente en su carpa, donde revela su vínculo con el Libro Guardián, el amuleto carmesí y su plan contra Valverde del Río. En la Ciudad Alta, su nombre aparece en noticias públicas y rumores del diario local.
+En el campamento mercenario, Adler y Delerion lo enfrentan directamente en su carpa, donde revela su vínculo con el Libro Guardián, el amuleto carmesí y su plan contra Valverde del Río. En la Ciudad Alta, su nombre aparece en noticias públicas, rumores del diario local y menciones vinculadas a la Orden Carmesí y el Reino del Sur.
 
 ### Ignacio Robledo
 
@@ -206,6 +206,14 @@ Figura mencionada en las notas del laboratorio aeloriano bajo las cuevas. Aparec
 
 Bánic lo menciona como contacto relacionado con la Biblioteca del Eco y con los planes de manipulación de memorias y voluntades.
 
+### Cassian Balté Castimiro
+
+**Capítulos:** 24
+
+Contacto vinculado al Templo del Moradi en la Ciudad Alta. El grupo recibe una pista sobre él después de avanzar con la licencia de mercenario y lo busca como posible aliado o intermediario.
+
+Cassian ayuda a conectar la presión sobre los gremios, los movimientos de la Orden Carmesí, la necesidad de documentos oficiales y la tensión entre la ciudad legal y sus redes clandestinas. Su vínculo con el templo y con la Casa Gremial lo convierte en una fuente útil de información y resguardo.
+
 ### Tomi Tres Dientes
 
 **Capítulos:** 9, 10
@@ -222,21 +230,21 @@ Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir 
 
 ### Eladio
 
-**Capítulos:** 7, 13, 14, 19
+**Capítulos:** 7, 13, 14, 19, 24
 
 Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
 
 También aparece mencionado en el Barrio Exterior como parte del grupo que mantiene prisionero a Lucen VanDuren, El Pichón. Puede aparecer transcripto como “Heladio”, pero el nombre canónico es Eladio.
 
-En la Ciudad Alta, su nombre vuelve a aparecer ligado a las maniobras sobre la forja, el Gremio de Comerciantes y la presión económica que rodea a Lucen.
+En la Ciudad Alta, su nombre vuelve a aparecer ligado a las maniobras sobre la forja, el Gremio de Comerciantes y la presión económica que rodea a Lucen. Más adelante intenta huir junto a Gregorio, pero el grupo termina contratándolos para enviarlos al norte como mercenarios al servicio del gobernador de Valverde del Río.
 
 ### Gregorio
 
-**Capítulos:** 7, 13, 19
+**Capítulos:** 7, 13, 19, 24
 
 Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
 
-En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pichón. En la Ciudad Alta, su nombre vuelve a surgir asociado a las maniobras sobre la forja y la desaparición de Lucen.
+En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pichón. En la Ciudad Alta, su nombre vuelve a surgir asociado a las maniobras sobre la forja y la desaparición de Lucen. Más adelante intenta huir junto a Eladio, pero el grupo termina contratándolos para enviarlos al norte como mercenarios al servicio del gobernador de Valverde del Río.
 
 ### Petro
 
@@ -477,6 +485,14 @@ Dios del conocimiento, la escritura y el saber. Es la deidad de Adler y la razó
 Sátiro feérico que Adler y Delerion encuentran en una colina del Bosque Antiguo, después de seguir una canción de laúd. Se presenta como Panthos, la Voz del Bosque, y lleva al grupo al reino feérico para pedirles que recuperen el catalejo robado por Aethelion.
 
 Es afable, musical y enigmático, pero está ligado a un entorno feérico inquietante y peligroso.
+
+### Orden Carmesí
+
+**Capítulos:** 6, 15, 16, 18, 24
+
+Organización vinculada a la corrupción Carmesí, los rituales prohibidos, la manipulación de conocimientos y los experimentos bajo tierra. Su influencia aparece desde el Templo del Círculo Eterno y vuelve a surgir en los túneles, la Biblioteca del Eco y los conflictos políticos de la Ciudad Alta.
+
+En el capítulo 24, Cassian Balté Castimiro conecta sus movimientos con la presión sobre los gremios, el Templo del Moradi y la ciudad legal.
 
 ### El Velado
 
