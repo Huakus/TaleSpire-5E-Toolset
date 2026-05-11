@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 20)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 21)
 
 ## Protagonistas
 
@@ -82,13 +82,13 @@ En la batalla de la escalera hacia la Ciudad Alta, combate contra Zafir y logra 
 
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 18
+**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 18, 21
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
 En el Barrio Exterior, su relación previa con el Teniente Tres Dientes pesa en las negociaciones para mover a Lucen VanDuren, El Pichón, sin desatar una guerra abierta entre facciones.
 
-En la batalla de la escalera, presiona a Zafir junto al grupo y participa en el combate contra los contrabandistas.
+En la batalla de la escalera, presiona a Zafir junto al grupo y participa en el combate contra los contrabandistas. Más tarde, en la casa de Nyxara, el grupo reflexiona sobre sus secretos y su vínculo con Gorak.
 
 ### Viktor Salazar
 
@@ -262,9 +262,11 @@ Dealer y alquimista menor vinculado a la operación de Raviel en el Barrio Exter
 
 ### Gorak
 
-**Capítulos:** 15
+**Capítulos:** 15, 21
 
 Teniente mencionado en documentos hallados en un campamento abandonado dentro de los túneles de contrabando. Queda vinculado a líderes locales del Barrio Exterior, Raviel y la red que conecta criminalidad, secta feérica y Orden Carmesí.
+
+En la casa de Nyxara, el grupo reflexiona sobre el vínculo de Gorak con los secretos de Borgar.
 
 ### Líder kobold de la Sangre Azul
 
@@ -322,13 +324,15 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 ### Nyxara
 
-**Capítulos:** 19, 20
+**Capítulos:** 19, 20, 21
 
 Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
 Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Advierte sobre el aumento de los capas verdes, la necesidad de una licencia de mercenario y la posibilidad de comerciar en El Velado con ayuda de su tío.
 
-Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie.
+Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Alas.
+
+También aparece transcripta como Nixara, Xiomara o Ciómara, pero el nombre canónico es Nyxara.
 
 ### Nair Kules
 
@@ -455,6 +459,12 @@ Dios del conocimiento, la escritura y el saber. Es la deidad de Adler y la razó
 Sátiro feérico que Adler y Delerion encuentran en una colina del Bosque Antiguo, después de seguir una canción de laúd. Se presenta como Panthos, la Voz del Bosque, y lleva al grupo al reino feérico para pedirles que recuperen el catalejo robado por Aethelion.
 
 Es afable, musical y enigmático, pero está ligado a un entorno feérico inquietante y peligroso.
+
+### Corte de las Alas
+
+**Capítulos:** 21
+
+Entidad o facción feérica vinculada al espejo mágico del refugio de Nyxara. Sus reflejos muestran presencias, advertencias y vínculos que no pertenecen del todo al plano ordinario.
 
 ### Proyección feérica
 
