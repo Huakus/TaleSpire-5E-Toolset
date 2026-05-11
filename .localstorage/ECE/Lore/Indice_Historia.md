@@ -126,7 +126,7 @@ Archivo: `Lore/Capitulos/08_Golpe_de_cristales.md`
 - Reunión matutina en la posada y tensión creciente en el Distrito de los Artesanos
 - Infiltración en la forja para robar cristales lucientes y cristales de reserva
 - La curandera local examina a Varka tras la falsa descompensación
-- Reaparición del mercenario enamorado y coordinación del contacto para acceder a la ciudad alta
+- Reaparición del mercenario enamorado y coordinación del contacto para acceder a la Ciudad Alta
 
 ## Capítulo 9: El encargo de Tomi Tres Dientes
 Archivo: `Lore/Capitulos/09_El_encargo_de_Tomi_Tres_Dientes.md`

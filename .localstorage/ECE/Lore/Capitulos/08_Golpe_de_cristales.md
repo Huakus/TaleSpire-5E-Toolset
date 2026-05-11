@@ -6,7 +6,7 @@ El amanecer se filtraba entre el humo y el hollín del Distrito de los Artesanos
 
 Entre la multitud del mercado matutino, Varka entabló conversación con un mercenario de aspecto tosco, pero vulnerable ante su encanto. La bruja lo envolvió con palabras hábiles y una mirada que desarmaba cualquier desconfianza, haciéndolo sentir el centro del mundo por unos instantes. Mientras hablaban, Delerion, siempre precavido, conjuró Detectar pensamientos para leer la superficie de su mente.
 
-Lo que halló fue ansiedad: El mercenario pensaba en los bloqueos que impedían el paso hacia la ciudad alta y en la paga prometida por los reclutadores del sur. Pese a su desconfianza inicial, la presencia de Varka y la conversación con el grupo lo llevaron a ofrecer su ayuda, prometiendo averiguar cómo podían acceder a la ciudad alta.
+Lo que halló fue ansiedad: el mercenario pensaba en los bloqueos que impedían el paso hacia la Ciudad Alta y en la paga prometida por los reclutadores del sur. Pese a su desconfianza inicial, la presencia de Varka y la conversación con el grupo lo llevaron a ofrecer su ayuda, prometiendo averiguar cómo podían acceder a la Ciudad Alta.
 
 ### Infiltración en la forja para robar cristales lucientes y cristales de reserva
 
@@ -22,13 +22,13 @@ Allí logró obtener siete cristales de reserva y cinco cristales lucientes ante
 
 ### La curandera local examina a Varka tras la falsa descompensación
 
-El plan habría sido perfecto, de no ser porque la agitación atrajo a una curandera local. Alarmada por el desmayo de Varka, insistió en llevarla a su casa para atenderla. Para mantener la coartada, Delerion agravó intencionalmente los síntomas de su compañera conjurándole una versión leve de Rayo de Enfermedad, provocando palidez y frialdad en su piel. Tras unos minutos de diálogo convincente, lograron persuadir a la sanadora de llevar a Varka a la posada, donde estaba efectivamente Adler, el cérigo.
+El plan habría sido perfecto, de no ser porque la agitación atrajo a una curandera local. Alarmada por el desmayo de Varka, insistió en llevarla a su casa para atenderla. Para mantener la coartada, Delerion agravó intencionalmente los síntomas de su compañera conjurándole una versión leve de Rayo de Enfermedad, provocando palidez y frialdad en su piel. Tras unos minutos de diálogo convincente, lograron persuadir a la sanadora de llevar a Varka a la posada, donde estaba efectivamente Adler, el clérigo.
 
 Ya en la posada, Adler conjuró una curación rápida, y la escena concluyó sin levantar sospechas.
 
-### Reaparición del mercenario enamorado y coordinación del contacto para acceder a la ciudad alta
+### Reaparición del mercenario enamorado y coordinación del contacto para acceder a la Ciudad Alta
 
-Esa misma noche, cuando el bullicio de la taberna se había apagado, apareció de nuevo el mercenario de la mañana, el mismo que había hablado con Varka en el mercado. Llegó buscando verla y, de paso, comentar sobre el lugar de reunión donde podrían obtener el pase a la ciudad alta. Delerion, atento, leyó sus pensamientos y detectó una marcada hostilidad hacia el grupo.
+Esa misma noche, cuando el bullicio de la taberna se había apagado, apareció de nuevo el mercenario de la mañana, el mismo que había hablado con Varka en el mercado. Llegó buscando verla y, de paso, comentar sobre el lugar de reunión donde podrían obtener el pase a la Ciudad Alta. Delerion, atento, leyó sus pensamientos y detectó una marcada hostilidad hacia el grupo.
 
 Intentó suavizar la tensión brindándole al hombre algunos "consejos" sobre cómo llegar al corazón de Varka, pero su intento fue desastroso, dejando aún peor impresión. El mercenario, sin embargo, no era misterioso ni calculador, solo estaba completamente embelesado por la bruja y deseoso de impresionarla. Fue entonces cuando Varka intervino, cambiando el tono de la conversación con naturalidad y carisma, asegurando la cita para la próxima jornada.
 
