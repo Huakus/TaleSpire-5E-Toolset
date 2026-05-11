@@ -6,15 +6,15 @@ Tras limpiar la escena, reunir el botín y asegurarse de que la escalera aún pu
 
 La salida hacia la **Ciudad Alta** se concreta en plena mañana.
 
-Después de la humedad, la oscuridad, el humo y la sangre de las Kobold Caves, el cambio de entorno resulta brusco. La party emerge a un espacio urbano más ordenado, con calles cuidadas, construcciones de mayor riqueza y una vigilancia social más sutil.
+Después de la humedad, la oscuridad, el humo y la sangre de las cuevas kobold, el cambio de entorno resulta brusco. La party emerge a un espacio urbano más ordenado, con calles cuidadas, construcciones de mayor riqueza y una vigilancia social más sutil.
 
 No hay enemigos visibles ni combate inmediato. La amenaza no desaparece, pero cambia de forma.
 
 En la Ciudad Alta, el peligro parece menos salvaje y más político.
 
-### Lucen Redgar reconoce la ciudad mientras intenta recomponer su mente
+### Lucen VanDuren reconoce la ciudad mientras intenta recomponer su mente
 
-**Lucen Redgar**, el Pichón, muestra un estado mental frágil y disociado.
+**Lucen VanDuren**, el Pichón, muestra un estado mental frágil y disociado.
 
 A medida que avanza por las calles, reconoce lugares, casas y esquinas, pero evita enfrentar de lleno los recuerdos traumáticos. La tortura, el encierro, el hambre y el maltrato prolongado siguen actuando sobre él.
 
@@ -42,9 +42,9 @@ La posada funciona como un refugio inmediato, pero no definitivo. El grupo se ho
 
 Durante esa primera noche en la Ciudad Alta, la party ordena sus prioridades.
 
-Los objetivos principales siguen abiertos: localizar a los mercenarios o contrabandistas restantes, seguir el rastro de **Zephyr**, comprender la conexión noble revelada por la invitación, investigar la **Biblioteca del Eco** y avanzar hacia el **Santuario Olvidado de Hextor** mediante el **Corazón de Kurash**.
+Los objetivos principales siguen abiertos: localizar a los mercenarios o contrabandistas restantes, seguir el rastro de **Zafir**, comprender la conexión noble revelada por la invitación, investigar la **Biblioteca del Eco** y avanzar hacia el **Santuario Olvidado de Hextor** mediante el **Corazón de Kurash**.
 
-**Kako**, el no-muerto surgido del Ritual del Eco, queda integrado a la logística del grupo. Su presencia exige discreción y cuidado, pero también representa una fuente potencial de información antigua.
+**Caco**, el no-muerto surgido del Ritual del Eco, queda integrado a la logística del grupo. Su presencia exige discreción y cuidado, pero también representa una fuente potencial de información antigua.
 
 Lucen, por su parte, necesita protección y estabilidad. Ya no es solo una pieza de intercambio: es testigo, víctima y posible llave para entender parte de la conspiración que se mueve dentro de la Ciudad Alta.
 
@@ -72,7 +72,7 @@ La Ciudad Alta se presenta como un territorio donde no basta con sobrevivir: tam
 
 Nyxara también habla de la crisis económica que afecta a la forja.
 
-La falta de ventas, los problemas con productos familiares y la inestabilidad del mercado han golpeado a sectores importantes de la ciudad. La situación de la forja no aparece aislada: se conecta con la desaparición del Pichón, las maniobras de Heladio y Gregorio, la presión sobre el Gremio de Comerciantes y la necesidad de controlar permisos oficiales.
+La falta de ventas, los problemas con productos familiares y la inestabilidad del mercado han golpeado a sectores importantes de la ciudad. La situación de la forja no aparece aislada: se conecta con la desaparición del Pichón, las maniobras de Eladio y Gregorio, la presión sobre el Gremio de Comerciantes y la necesidad de controlar permisos oficiales.
 
 En la Ciudad Alta, el conflicto económico se mezcla con la política, la vigilancia y los intereses clandestinos.
 
