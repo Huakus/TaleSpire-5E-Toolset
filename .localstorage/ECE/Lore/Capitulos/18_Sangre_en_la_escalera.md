@@ -1,28 +1,28 @@
 ## Capítulo 18: Sangre en la Escalera
 
-### Zephyr llega con contrabandistas y Lucen Redgar hacia la escalera de la Ciudad Alta
+### Zafir llega con contrabandistas y Lucen VanDuren hacia la escalera de la Ciudad Alta
 
 Con la retirada kobold en marcha y el tesoro clasificado para su entrega, el grupo se prepara para abandonar las cuevas.
 
 La calma dura poco.
 
-Un grupo de contrabandistas liderado por **Zephyr** llega a la zona de la escalera que conduce hacia la **Ciudad Alta**. Entre ellos aparece **Lucen Redgar**, conocido como **el Pichón**, vivo, curado y vestido como noble, pero bajo control enemigo.
+Un grupo de contrabandistas liderado por **Zafir** llega a la zona de la escalera que conduce hacia la **Ciudad Alta**. Entre ellos aparece **Lucen VanDuren**, conocido como **el Pichón**, vivo, curado y vestido como noble, pero bajo control enemigo.
 
 Los contrabandistas intentan imponer condiciones desde una posición de soberbia. La conversación busca evitar el conflicto, pero la extorsión implícita y el peligro sobre Lucen hacen que la tensión escale rápidamente.
 
-### Delerion lanza una Bola de Fuego y libera a Lucen del control de Zephyr
+### Delerion lanza una Bola de Fuego y libera a Lucen del control de Zafir
 
 El combate se desata cuando **Delerion** lanza una **Bola de Fuego** contra los contrabandistas.
 
-El estallido impacta a varios enemigos y obliga a **Zephyr** a soltar a Lucen. **Skitrix “Stix Ernesto” Koboldtanz** aprovecha la apertura y ejecuta un ataque furtivo exitoso.
+El estallido impacta a varios enemigos y obliga a **Zafir** a soltar a Lucen. **Skitrix “Stix Ernesto” Koboldtanz** aprovecha la apertura y ejecuta un ataque furtivo exitoso.
 
 La explosión también prende fuego la escalera que conduce hacia la Ciudad Alta. El incendio transforma el combate en una carrera contra el tiempo: la estructura está dañada y podría colapsar si el fuego no se controla.
 
 A pesar de que algunos miembros del grupo cuentan con medios para volar o escapar, deciden mantenerse firmes y enfrentar la amenaza.
 
-### Zephyr, el humano del tapado rojo, el kenku y Arturo entran en combate
+### Zafir, el humano del tapado rojo, el kenku y Arturo entran en combate
 
-Entre los contrabandistas destaca Zephyr.
+Entre los contrabandistas destaca Zafir.
 
 También participa un humano corpulento con un tapado rojo, frío y calculador, que asume un rol táctico de liderazgo. Junto a ellos se mueve un kenku con un anillo de teletransporte, capaz de reposicionarse sin abandonar el combate.
 
@@ -32,13 +32,13 @@ La pelea se vuelve caótica. Delerion lanza una segunda Bola de Fuego, dañando 
 
 El enemigo entra en un estado de furia y desesperación.
 
-### Varka, Adler y Borgar presionan a Zephyr mientras Lucen escapa hacia la party
+### Varka, Adler y Borgar presionan a Zafir mientras Lucen escapa hacia la party
 
-**Varka** lanza **Marchitar** sobre el tiefling, causándole daño necrótico y dejándolo visiblemente al borde del colapso, con el cuerpo ardiendo y un virote de Stixx clavado.
+**Varka** lanza **Marchitar** sobre el tiefling, causándole daño necrótico y dejándolo visiblemente al borde del colapso, con el cuerpo ardiendo y un virote de Stix clavado.
 
 El kenku enemigo utiliza su anillo para reposicionarse tácticamente, manteniéndose activo en la lucha.
 
-**Adler** decide no curar de inmediato y lanza una **Saeta Guiada** contra Zephyr. El impacto abre una oportunidad para el siguiente ataque.
+**Adler** decide no curar de inmediato y lanza una **Saeta Guiada** contra Zafir. El impacto abre una oportunidad para el siguiente ataque.
 
 **Borgar** aprovecha la ventaja y arremete con múltiples golpes, incendiando la ropa del líder y causándole un daño considerable. Aun así, el enemigo continúa de pie.
 
@@ -98,17 +98,17 @@ Su nombre es **Bánic**. Es un guerrero entrenado, con experiencia como mercenar
 
 Durante el interrogatorio, Bánic revela que su rol dentro de la banda era el de contrabandista. No formaba parte del liderazgo ni tenía acceso directo a todos los contactos.
 
-Sobre el llamado **pícaro barbudo**, afirma no conocer su nombre ni haberlo visto presentarse formalmente. Sabe, sin embargo, que coordinaba ciertos asuntos externos y que reservaba para sí mismo las tareas cruciales, enviando a otros, como **Raby** y **Zaphir**, a ejecutar sus planes.
+Sobre el llamado **pícaro barbudo**, afirma no conocer su nombre ni haberlo visto presentarse formalmente. Sabe, sin embargo, que coordinaba ciertos asuntos externos y que reservaba para sí mismo las tareas cruciales, enviando a otros, como **Raby** y **Zafir**, a ejecutar sus planes.
 
 El plan enemigo apuntaba hacia la **Ciudad Alta**.
 
-Una parte de la estrategia consistía en usar distracciones, como la entrega de **Petro** a la guardia, para generar caos y mover piezas con ventaja. Petro conocía secretos de la forja y controlaba el gremio de artesanos. Además, era hijo ilegítimo de **Bandur**, cuyo asesinato a manos de **Redgar** formaba parte del entramado.
+Una parte de la estrategia consistía en usar distracciones, como la entrega de **Petro** a la guardia, para generar caos y mover piezas con ventaja. Petro conocía secretos de la forja y controlaba el gremio de artesanos. Además, era hijo legítimo de **Redgar VanDuren**, cuyo asesinato formaba parte del entramado.
 
 Bánic también menciona la **Biblioteca del Eco**, descrita por un contacto llamado **Severino** como un lugar o artefacto capaz de extraer memorias y manipular voluntades.
 
 El plan original pretendía usarla sobre Lucen, el Pichón, pero la irrupción de la party y los eventos en las cuevas impidieron que se completara.
 
-### Una invitación noble vincula a Saphir con una mansión cercana al castillo
+### Una invitación noble vincula a Zafir con una mansión cercana al castillo
 
 Bánic confirma la existencia de contactos en la Ciudad Alta.
 
@@ -118,7 +118,7 @@ El contacto principal, sin embargo, era el encapuchado, ya muerto.
 
 Entre las evidencias recuperadas aparece una carta o invitación oficial con el sello de una familia noble muy antigua. **Adler** reconoce el emblema y lo vincula con símbolos vistos anteriormente en tumbas antiguas.
 
-La revelación confirma que Saphir había sido invitado formalmente a una mansión cercana al castillo.
+La revelación confirma que Zafir había sido invitado formalmente a una mansión cercana al castillo.
 
 El conflicto deja de ser solo una red de contrabando. Hay respaldo noble, intereses políticos y conexiones antiguas con linajes vinculados a los hallazgos del subsuelo.
 
@@ -130,13 +130,13 @@ Liberarlo parece demasiado peligroso. Mantenerlo prisionero implica cargar con u
 
 Finalmente, optan por ejecutarlo.
 
-Bánic suplica y cae de rodillas. La decisión se concreta mediante múltiples apuñalamientos, al estilo de una ejecución colectiva. Muere lentamente, dejando una huella emocional profunda en quienes apoyaron la medida, pero también en Adler, que se mostró en contra de la medida y decidió no formar parte de la ejecución. 
+Bánic suplica y cae de rodillas. La decisión se concreta mediante múltiples apuñalamientos, al estilo de una ejecución colectiva. Muere lentamente, dejando una huella emocional profunda en quienes apoyaron la medida, pero también en Adler, que se mostró en contra de la medida y decidió no formar parte de la ejecución.
 
 ### Delerion organiza la limpieza de cadáveres para simular un ataque de bestias
 
 Para evitar que se descubra una masacre organizada, Delerion organiza al grupo para deshacerse de los cadáveres.
 
-Los cuerpos son llevados hacia el arroyo para que sean devorados por criaturas grandes del agua. **Kako**, el no-muerto controlado por **Delerion**, ayuda arrastrando los cuerpos.
+Los cuerpos son llevados hacia el arroyo para que sean devorados por criaturas grandes del agua. **Caco**, el no-muerto controlado por **Delerion**, ayuda arrastrando los cuerpos.
 
 La intención es que la escena parezca el resultado de un ataque de bestias, no de una ejecución sistemática tras un combate.
 

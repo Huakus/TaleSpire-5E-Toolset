@@ -232,16 +232,16 @@ Archivo: `Lore/Capitulos/17_La_tumba_de_Ur_Namkart.md`
 ## Capítulo 18: Sangre en la Escalera
 Archivo: `Lore/Capitulos/18_Sangre_en_la_escalera.md`
 
-- Zephyr llega con contrabandistas y Lucen Redgar hacia la escalera de la Ciudad Alta
-- Delerion lanza una Bola de Fuego y libera a Lucen del control de Zephyr
-- Zephyr, el humano del tapado rojo, el kenku y Arturo entran en combate
-- Varka, Adler y Borgar presionan a Zephyr mientras Lucen escapa hacia la party
+- Zafir llega con contrabandistas y Lucen VanDuren hacia la escalera de la Ciudad Alta
+- Delerion lanza una Bola de Fuego y libera a Lucen del control de Zafir
+- Zafir, el humano del tapado rojo, el kenku y Arturo entran en combate
+- Varka, Adler y Borgar presionan a Zafir mientras Lucen escapa hacia la party
 - Arturo derrota al tiefling y la moral enemiga empieza a quebrarse
 - El artífice despliega un cañón mecánico y
 - Un enemigo invisible escapa mientras el grupo apaga parcialmente la escalera
 - Varka y Martita localizan a Bánic oculto entre las piedras
 - Bánic revela el plan hacia la Ciudad Alta, Petro, Severino y la Biblioteca del Eco
-- Una invitación noble vincula a Saphir con una mansión cercana al castillo
+- Una invitación noble vincula a Zafir con una mansión cercana al castillo
 - El grupo decide ejecutar a Bánic tras debatir sus opciones
 - Delerion organiza la limpieza de cadáveres para simular un ataque de bestias
 
