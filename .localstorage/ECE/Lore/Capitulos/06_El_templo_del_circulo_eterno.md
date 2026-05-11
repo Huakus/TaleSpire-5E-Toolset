@@ -2,7 +2,7 @@
 
 ### Descenso bajo la torre principal y aparición del eco del Círculo Eterno
 
-Tras la defensa del puesto de avanzada, el grupo decidió explorar la cueva que se extendía bajo la torre principal. Delerion, Adler y Skitrix “Ernesto” Koboldtanz descendieron entre formaciones de piedra iluminadas por un resplandor azulado que parecía provenir del suelo mismo. En el centro de la cámara inferior encontraron un gran glifo grabado en el piso que comenzó a brillar al acercarse. De él emergió la imagen de una mujer de piel azul y voz monótona, que se presentó como un eco del Círculo Eterno.
+Tras la defensa del puesto de avanzada, el grupo decidió explorar la cueva que se extendía bajo la torre principal. Delerion, Adler y Skitrix “Stix Ernesto” Koboldtanz descendieron entre formaciones de piedra iluminadas por un resplandor azulado que parecía provenir del suelo mismo. En el centro de la cámara inferior encontraron un gran glifo grabado en el piso que comenzó a brillar al acercarse. De él emergió la imagen de una mujer de piel azul y voz monótona, que se presentó como un eco del Círculo Eterno.
 
 Les habló sobre pactos antiguos y la corrupción de los sellos, antes de desvanecerse.
 
@@ -42,7 +42,7 @@ Comprendieron que el templo había sido construido para contener un artefacto pe
 
 ### Activación violenta del Corazón Carmesí y aparición del golem de piedra
 
-Avanzando por un pasillo lleno de trampas, el grupo llegó a una gran sala circular. En el centro, una orbe flotante de cristal rojo latía rodeada por siete pedestales con huecos para cristales menores. El artefacto estaba inactivo, pero su energía era palpable. Siguiendo los diagramas encontrados, el grupo insertó insertar varios cristales lucientes en unos receptáculos cilíndricos para intentar comprender su funcionamiento. El Corazón se activó de forma violenta, generando un zumbido ensordecedor.
+Avanzando por un pasillo lleno de trampas, el grupo llegó a una gran sala circular. En el centro, un orbe flotante de cristal rojo latía rodeado por siete pedestales con huecos para cristales menores. El artefacto estaba inactivo, pero su energía era palpable. Siguiendo los diagramas encontrados, el grupo insertó varios cristales lucientes en unos receptáculos cilíndricos para intentar comprender su funcionamiento. El Corazón se activó de forma violenta, generando un zumbido ensordecedor.
 
 Un golem de piedra emergió, pero el mago lo neutralizó con un hechizo de levitación. Mientras tanto, Ernesto intentó interferir con el mecanismo tocando el cristal central, lo que provocó una descarga que lo conectó momentáneamente con la mente del nigromante, atrapado en otra sala. Junto a la sala principal, tras una reja irrompible, alcanzaron a ver una cámara colmada de tesoros y riquezas antiguas.
 
@@ -56,4 +56,4 @@ Habían regresado a Valverde del Río.
 
 ### Supervivencia del grupo, poder Carmesí restante y retorno a la sala bajo el castillo
 
-El grupo descansó en silencio, consciente de lo que había ocurrido. Habían sobrevivido al Templo del Círculo Eterno y sellado una parte del poder Carmesí que seguía resonando bajo en el grimorio que Delerio tiene en la mochila, así como en los cristales que consiguieron sacar antes de salir de la sala del Corazón Carmesí. El lugar donde aparecieron es la sala de los bandidos de la cueva del capítulo 1, justo debajo del casitllo de Alarico Belmonte, en Valverde Del Río.
+El grupo descansó en silencio, consciente de lo que había ocurrido. Habían sobrevivido al Templo del Círculo Eterno y sellado una parte del poder Carmesí que seguía resonando en el grimorio que Delerion tiene en la mochila, así como en los cristales que consiguieron sacar antes de salir de la sala del Corazón Carmesí. El lugar donde aparecieron es la sala de los bandidos de la cueva del capítulo 1, justo debajo del castillo de Alarico Belmonte, en Valverde del Río.
