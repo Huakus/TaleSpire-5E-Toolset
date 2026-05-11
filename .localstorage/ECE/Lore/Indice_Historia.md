@@ -180,7 +180,7 @@ Archivo: `Lore/Capitulos/13_Sombras_bajo_el_gremio.md`
 - Martita descubre mercancías, oro y una trampilla oculta bajo una caja pesada
 - Varka y Ernesto realizan el primer contacto con Raviel y la red del Gremio
 - Varka y Ernesto descubren a una mujer marcada por Ninthra que alimenta niños
-- Confirmación de que Heladio y Gregorio mantienen prisionero al Pichón
+- Confirmación de que Eladio y Gregorio mantienen prisionero al Pichón
 
 ## Capítulo 14: Pactos, Deudas y Traiciones
 Archivo: `Lore/Capitulos/14_Pactos_deudas_y_traiciones.md`

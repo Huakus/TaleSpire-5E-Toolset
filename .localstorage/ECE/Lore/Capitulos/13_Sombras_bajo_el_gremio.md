@@ -24,7 +24,7 @@ Con la información obtenida, **Varka** se dirige a un punto de contacto del Gre
 
 Varka ingresa sola al contacto visible, mientras **Skitrix “Stix Ernesto” Koboldtanz** permanece oculto en las inmediaciones, fuera de la línea directa de visión. Desde allí observa accesos, movimientos, posibles salidas y señales entre los miembros del Gremio.
 
-En el interior, Varka es recibida por un intermediario que evita dar su nombre, aunque más adelante se enterarán que se llama **Raviel**, y es el jefe del gremio de los comerciantes. Raviel mantiene una actitud defensiva desde el inicio del intercambio. La conversación avanza con cautela, pausas frecuentes y evasivas ante preguntas directas.
+En el interior, Varka es recibida por un intermediario que evita dar su nombre, aunque más adelante se enterarán de que se llama **Raviel**, y es el jefe del Gremio de Comerciantes. Raviel mantiene una actitud defensiva desde el inicio del intercambio. La conversación avanza con cautela, pausas frecuentes y evasivas ante preguntas directas.
 
 Varka intenta establecer credenciales suficientes para justificar su presencia y acceder a niveles superiores del Gremio. Raviel responde con preguntas indirectas, buscando determinar si ella representa una amenaza, una oportunidad o una trampa.
 
@@ -44,12 +44,12 @@ La mujer revela estar ligada a **Ninthra**, una entidad feérica superior. Su ta
 
 La desaparición de niños en el Barrio Exterior deja de ser un rumor aislado y se vuelve parte de un patrón ritual. La amenaza feérica queda integrada al conflicto del barrio: lo que al principio parecía una operación criminal vinculada al Gremio comienza a mostrar conexiones con pactos antiguos, entidades del otro lado del velo y fuerzas que operan sobre los sectores más vulnerables de Valverde del Río.
 
-### Confirmación de que Heladio y Gregorio mantienen prisionero al Pichón
+### Confirmación de que Eladio y Gregorio mantienen prisionero al Pichón
 
-La investigación permite confirmar que **Heladio** y sus asociados mantienen a **El Pichón**, también conocido como **Lucen Redgar**, prisionero en una casa utilizada como aguantadero o en una estructura vinculada a los movimientos del Gremio.
+La investigación permite confirmar que **Eladio** y sus asociados mantienen a **El Pichón**, también conocido como **Lucen VanDuren**, prisionero en una casa utilizada como aguantadero o en una estructura vinculada a los movimientos del Gremio.
 
-El Pichón se encuentra golpeado, debilitado y retenido por hombres relacionados con **Heladio** y **Gregorio**. Su captura no es un hecho aislado: forma parte de una disputa mayor entre la forja, los contrabandistas, la guardia y quienes buscan controlar la producción desde las sombras.
+El Pichón se encuentra golpeado, debilitado y retenido por hombres relacionados con **Eladio** y **Gregorio**. Su captura no es un hecho aislado: forma parte de una disputa mayor entre la forja, los contrabandistas, la guardia y quienes buscan controlar la producción desde las sombras.
 
-Heladio y quienes lo rodean planean huir, presionados tanto por la guardia como por fuerzas más antiguas que empiezan a moverse en el Barrio Exterior.
+Eladio y quienes lo rodean planean huir, presionados tanto por la guardia como por fuerzas más antiguas que empiezan a moverse en el Barrio Exterior.
 
 El grupo comprende que rescatar al Pichón por la fuerza podría desatar una respuesta inmediata del Gremio, mientras que dejarlo allí implica permitir que sea trasladado, ejecutado o usado como moneda de cambio.
