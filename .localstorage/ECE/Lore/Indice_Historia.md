@@ -167,7 +167,7 @@ Archivo: `Lore/Capitulos/11_La_puerta_oxidada.md`
 ## Capítulo 12: El Día del Ganso
 Archivo: `Lore/Capitulos/12_El_dia_del_ganso.md`
 
-- Salida del Distrito de los Artesanos por la puerta occidental hacia la Ciudad Exterior
+- Salida del Distrito de los Artesanos por la puerta occidental hacia el Barrio Exterior
 - El grupo presencia la persecución de un niño por un ganso agresivo
 - Ernesto recupera el collar del ganso y restaura su comportamiento normal
 - El Barrio Exterior revela pobreza, contrabando y señales de magia feérica

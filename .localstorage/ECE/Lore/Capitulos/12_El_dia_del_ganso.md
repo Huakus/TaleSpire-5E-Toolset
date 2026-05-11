@@ -1,8 +1,8 @@
 ## Capítulo 12: El Día del Ganso
 
-### Salida del Distrito de los Artesanos por la puerta occidental hacia la Ciudad Exterior
+### Salida del Distrito de los Artesanos por la puerta occidental hacia el Barrio Exterior
 
-Tras abandonar el Distrito de los Artesanos, el grupo cruza la puerta occidental del barrio de los artesanos rumbo a la **Ciudad Exterior**. **Zaphir**, con su habitual mezcla de presencia, papeles oportunos y seguridad ensayada, maneja el intercambio con la guardia.
+Tras abandonar el Distrito de los Artesanos, el grupo cruza la puerta occidental del barrio de los artesanos rumbo al **Barrio Exterior**. **Zafir**, con su habitual mezcla de presencia, papeles oportunos y seguridad ensayada, maneja el intercambio con la guardia.
 
 Su intervención evita preguntas innecesarias y permite que el grupo salga de la ciudad amurallada, aunque queda instalada una advertencia implícita: regresar no será igual de sencillo.
 
@@ -32,7 +32,7 @@ A partir del incidente, el grupo comienza a observar el barrio con mayor cautela
 
 **Borgar** orienta al grupo hacia el siguiente punto de interés: el llamado **Gremio de Comerciantes**, una fachada utilizada por contrabandistas que operan desde el Barrio Exterior.
 
-La información disponible indica que el Gremio podría tener acceso a rutas subterráneas hacia la **Ciudad Alta**. Esa posibilidad lo convierte en una pieza clave para avanzar en la investigación sobre el **Pichón**, también conocido como **Lucen Redgar**, y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales del barrio.
+La información disponible indica que el Gremio podría tener acceso a rutas subterráneas hacia la **Ciudad Alta**. Esa posibilidad lo convierte en una pieza clave para avanzar en la investigación sobre el **Pichón**, también conocido como **Lucen VanDuren**, y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales del barrio.
 
 ### El grupo planea infiltrarse en el Gremio de Comerciantes
 
