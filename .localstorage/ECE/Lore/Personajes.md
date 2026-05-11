@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 17)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 18)
 
 ## Protagonistas
 
@@ -60,7 +60,7 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14, 16, 17
+**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14, 16, 17, 18
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
@@ -68,21 +68,27 @@ En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Sil
 
 En las notas del laboratorio aeloriano bajo las cuevas, Zafir aparece señalando al kenku como sujeto ideal para una variante del Ritual del Eco aplicada a seres vivos.
 
+En la escalera hacia la Ciudad Alta, lidera un grupo de contrabandistas que llega con Lucen VanDuren bajo control enemigo. Muere durante el combate, tras enfrentarse al grupo y ser derrotado por Arturo.
+
 ### Arturo
 
-**Capítulos:** 8, 9, 10, 11
+**Capítulos:** 8, 9, 10, 11, 18
 
 Humano grandote y musculoso del grupo de Zafir. Varka lo conoce en el mercado del Distrito de los Artesanos y lo manipula con su encanto para que averigüe cómo acceder a la Ciudad Alta.
 
 Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ella, y aporta información sobre un posible lugar de reunión para conseguir el pase. Aunque responde al entorno de Zafir, su fascinación por Varka lo vuelve manipulable e impredecible.
 
+En la batalla de la escalera hacia la Ciudad Alta, combate contra Zafir y logra derrotarlo, quebrando la moral de los contrabandistas.
+
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15
+**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 18
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
-En el Barrio Exterior, su relación previa con el Teniente Tres Dientes pesa en las negociaciones para mover a Lucen Redgar, El Pichón, sin desatar una guerra abierta entre facciones.
+En el Barrio Exterior, su relación previa con el Teniente Tres Dientes pesa en las negociaciones para mover a Lucen VanDuren, El Pichón, sin desatar una guerra abierta entre facciones.
+
+En la batalla de la escalera, presiona a Zafir junto al grupo y participa en el combate contra los contrabandistas.
 
 ### Viktor Salazar
 
@@ -194,9 +200,11 @@ Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Severino
 
-**Capítulos:** 16
+**Capítulos:** 16, 18
 
 Figura mencionada en las notas del laboratorio aeloriano bajo las cuevas. Aparece como impulsor del proyecto relacionado con una variante del Ritual del Eco aplicada a seres vivos, con fines de espionaje, infiltración política y manipulación de nobles.
+
+Bánic lo menciona como contacto relacionado con la Biblioteca del Eco y con los planes de manipulación de memorias y voluntades.
 
 ### Tomi Tres Dientes
 
@@ -210,7 +218,7 @@ Es una figura influyente entre los vagabundos y marginados, con una red de ojos 
 
 **Capítulos:** 14
 
-Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir apoyo en el movimiento de Lucen Redgar, El Pichón. Su relación previa con Borgar permite abrir una vía de negociación entre facciones sin provocar una guerra inmediata.
+Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir apoyo en el movimiento de Lucen VanDuren, El Pichón. Su relación previa con Borgar permite abrir una vía de negociación entre facciones sin provocar una guerra inmediata.
 
 ### Eladio
 
@@ -218,7 +226,7 @@ Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir 
 
 Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
 
-También aparece mencionado en el Barrio Exterior como parte del grupo que mantiene prisionero a Lucen Redgar, El Pichón. Puede aparecer transcripto como “Heladio”, pero el nombre canónico es Eladio.
+También aparece mencionado en el Barrio Exterior como parte del grupo que mantiene prisionero a Lucen VanDuren, El Pichón. Puede aparecer transcripto como “Heladio”, pero el nombre canónico es Eladio.
 
 ### Gregorio
 
@@ -226,13 +234,15 @@ También aparece mencionado en el Barrio Exterior como parte del grupo que manti
 
 Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
 
-En el Barrio Exterior aparece vinculado al cautiverio de Lucen Redgar, El Pichón.
+En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pichón.
 
 ### Petro
 
-**Capítulos:** 7
+**Capítulos:** 7, 18
 
 Personaje clave del Distrito de los Artesanos, conocedor de la situación local y de las tensiones internas del distrito. Su información lo convierte en un aliado vital para la misión principal.
+
+Petro asesinó a Redgar VanDuren durante el caos en **El Cuenco de Carbón**. Bánic revela más adelante que los enemigos planeaban usar la entrega de Petro a la guardia como distracción. También lo describe como hijo ilegítimo de Bandur, vinculado al control del gremio de artesanos y a secretos de la forja.
 
 ### Raviel
 
@@ -280,17 +290,33 @@ Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infilt
 
 ### Caco
 
-**Capítulos:** 6, 17
+**Capítulos:** 6, 17, 18
 
 No-muerto personal de Delerion, levantado a partir de uno de los cadáveres del puesto de avanzada luego de que el grupo escapara del Templo del Círculo Eterno y regresara bajo el castillo de Valverde del Río.
 
 Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infiltrarse en el campamento mercenario junto a Haroldo, y lo preservó con Descanso apacible para evitar su descomposición. En el laboratorio aeloriano bajo las cuevas, Delerion realizó sobre él el Ritual del Eco, imbuyéndolo con conocimientos de un noble antiguo, posiblemente Ur Namkart.
+
+Tras la batalla en la escalera hacia la Ciudad Alta, ayuda a Delerion a arrastrar cadáveres hacia el arroyo para simular un ataque de bestias.
 
 ### Aurelio
 
 **Capítulos:** 17
 
 Autor de documentos hallados en el laboratorio aeloriano bajo las cuevas. Sus notas conectan el laboratorio con Escudoferrio, Ciudad Alta, Zafir, la red alquímica y los movimientos de quienes abandonaron el complejo.
+
+### Bánic
+
+**Capítulos:** 18
+
+Enano contrabandista y guerrero entrenado que sobrevive oculto tras la batalla de la escalera hacia la Ciudad Alta. Varka y Martita lo localizan entre las piedras, y Delerion lo somete con Hechizar Persona.
+
+Durante el interrogatorio revela detalles sobre los planes hacia la Ciudad Alta, la entrega de Petro a la guardia, Severino, la Biblioteca del Eco y los contactos nobles vinculados a Zafir. Finalmente, el grupo decide ejecutarlo.
+
+### Raby
+
+**Capítulos:** 18
+
+Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de la escalera. Aparece como uno de los ejecutores enviados por el pícaro barbudo para llevar adelante planes externos junto a Zafir.
 
 ### Arnaldo
 
@@ -360,19 +386,23 @@ Exasistente de Emilio el Herbolario, reencontrada por Ernesto en la casa del sar
 
 Dirige un taller de costura del Distrito de los Artesanos que aparece entre los focos de rumores e intrigas. Varka empieza a trabajar allí para obtener información desde dentro y luego es invitada a la casa de la jefa del taller, en ausencia de esta.
 
-### Señor Redgar
+### Redgar VanDuren
 
-**Capítulos:** 7
+**Capítulos:** 7, 18
 
-Maestro herrero del distrito, dueño de la forja principal, que asistió a una reunión en la taberna **El Cuenco de Carbón**. Fue asesinado por la espalda durante el caos provocado por Petro.
+Maestro herrero del distrito, dueño de la forja principal y tío de Lucen VanDuren, El Pichón. Asistió a una reunión en la taberna **El Cuenco de Carbón** y fue asesinado por Petro durante el caos de esa noche.
 
-### Lucen Redgar, El Pichón
+Bánic revela más adelante que la muerte de Redgar VanDuren forma parte del entramado de tensiones entre la forja, Petro, el gremio de artesanos y las facciones criminales.
 
-**Capítulos:** 7, 12, 13, 14
+### Lucen VanDuren, El Pichón
 
-Sobrino del dueño de la forja y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
+**Capítulos:** 7, 12, 13, 14, 18
+
+Sobrino de Redgar VanDuren y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
 En el Barrio Exterior, el grupo sigue buscando pistas sobre su paradero y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales. Luego descubren que Eladio, Gregorio y sus asociados lo mantienen prisionero en una casa o estructura vinculada a los movimientos del Gremio.
+
+En la escalera hacia la Ciudad Alta, aparece vivo, curado y vestido como noble, pero bajo control enemigo. El grupo lo libera durante el combate y Adler salva su vida tras una descarga del cañón mecánico del artífice.
 
 ### La mujer marcada
 
