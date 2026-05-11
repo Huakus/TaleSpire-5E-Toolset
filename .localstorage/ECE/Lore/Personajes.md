@@ -1,4 +1,4 @@
-﻿# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 26)
+﻿# Personajes de *Ecos del Círculo Eterno*
 
 ## Protagonistas
 
