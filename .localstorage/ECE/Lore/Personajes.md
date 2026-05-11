@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 26)
+﻿# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 26)
 
 ## Protagonistas
 
@@ -202,7 +202,7 @@ Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Severino
 
-**Capítulos:** 16, 18, 25, 26
+**Capítulos:** 16, 18, 25, 26, 27
 
 Figura mencionada en las notas del laboratorio aeloriano bajo las cuevas. Aparece como impulsor del proyecto relacionado con una variante del Ritual del Eco aplicada a seres vivos, con fines de espionaje, infiltración política y manipulación de nobles.
 
@@ -210,7 +210,7 @@ Bánic lo menciona como contacto relacionado con la Biblioteca del Eco y con los
 
 Más adelante aparece en el cementerio de la Ciudad Alta junto a la guardia, un sacerdote y el ritualista de la Orden Carmesí. Al llegar, elimina de inmediato al comandante no muerto que el grupo había suspendido y silenciado, y toma control de la investigación del mausoleo.
 
-Su intervención en el cementerio provoca la detención de Adler y confirma ante el grupo que el incidente está conectado con la Orden Carmesí.
+Su intervención en el cementerio provoca la detención de Adler y confirma ante el grupo que el incidente está conectado con la Orden Carmesí. Tras reagruparse en la casa de Nyxara, el grupo vuelve a señalarlo como una pieza central de las instalaciones ocultas bajo la ciudad.
 
 ### Cassian Balté Castimiro
 
@@ -254,11 +254,13 @@ En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pich
 
 ### Petro
 
-**Capítulos:** 7, 18
+**Capítulos:** 7, 18, 27
 
 Personaje clave del Distrito de los Artesanos, conocedor de la situación local y de las tensiones internas del distrito. Su información lo convierte en un aliado vital para la misión principal.
 
 Petro asesinó a Redgar VanDuren durante el caos en **El Cuenco de Carbón**. Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDuren, vinculado al control del gremio de artesanos y a secretos de la forja. Los enemigos planeaban usar la entrega de Petro a la guardia como distracción.
+
+En la Ciudad Alta, Mercion revela que Petro está cautivo en una mansión y que, si el grupo no lo rescata esa misma noche, probablemente morirá.
 
 ### Raviel
 
@@ -338,7 +340,7 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 ### Nyxara
 
-**Capítulos:** 19, 20, 21, 22, 23, 26
+**Capítulos:** 19, 20, 21, 22, 23, 26, 27
 
 Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
@@ -346,7 +348,7 @@ Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Adv
 
 Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Hadas. Más adelante, su carta de respaldo ayuda al grupo a iniciar el trámite de licencia de mercenario.
 
-Tras el escape de Adler y Varka del ayuntamiento, el grupo vuelve a reagruparse en su casa.
+Tras el escape de Adler y Varka del ayuntamiento, el grupo vuelve a reagruparse en su casa, que funciona nuevamente como punto seguro para descansar, reorganizarse y planear los siguientes movimientos.
 
 También aparece transcripta como Nixara, Xiomara, Siomara o Ciómara, pero el nombre canónico es Nyxara.
 
@@ -404,13 +406,15 @@ Comerciante acaudalado y hermano de Diego Cortés. Adler y Delerion lo conocen e
 
 ### Mercion
 
-**Capítulos:** 5, 7, 13
+**Capítulos:** 5, 7, 13, 27
 
 Asistente del capitán Aitor Menta en el puesto de avanzada al sur de Valverde del Río. Adler, Delerion, Ernesto y Borgar lo conocen al llegar al enclave fortificado, donde acompaña a Menta durante la recepción y toma notas sin pronunciar palabra.
 
 Participa junto a Aitor Menta en el plan de sabotaje contra las defensas del puesto. Más adelante aparece en el Distrito de los Artesanos, donde reconoce a Adler y Delerion y les advierte que Petro planea irrumpir en una fiesta para matar a los presentes.
 
 En el Barrio Exterior vuelve a aparecer cerca del entramado del Gremio de Comerciantes, interesada en rutas, favores, prisioneros y contactos.
+
+En la casa de Nyxara, reaparece tras el escape del ayuntamiento e insiste en que el grupo debe rescatar a Petro esa misma noche. Varka logra descubrir que Mercion tiene sentimientos por Petro.
 
 ### Capitán Aitor Menta
 
@@ -454,7 +458,7 @@ Dirige un taller de costura del Distrito de los Artesanos que aparece entre los 
 
 ### Redgar VanDuren
 
-**Capítulos:** 7, 18, 19
+**Capítulos:** 7, 18, 27, 19
 
 Maestro herrero del distrito, dueño de la forja principal, tío de Lucen VanDuren y padre legítimo de Petro. Asistió a una reunión en la taberna **El Cuenco de Carbón** y fue asesinado por Petro durante el caos de esa noche.
 
@@ -506,7 +510,7 @@ Es afable, musical y enigmático, pero está ligado a un entorno feérico inquie
 
 ### Orden Carmesí
 
-**Capítulos:** 6, 15, 16, 18, 24, 25, 26
+**Capítulos:** 6, 15, 16, 18, 24, 25, 26, 27
 
 Organización vinculada a la corrupción Carmesí, los rituales prohibidos, la manipulación de conocimientos y los experimentos bajo tierra. Su influencia aparece desde el Templo del Círculo Eterno y vuelve a surgir en los túneles, la Biblioteca del Eco y los conflictos políticos de la Ciudad Alta.
 
@@ -515,6 +519,8 @@ En el capítulo 24, Cassian Balté Castimiro conecta sus movimientos con la pres
 En el cementerio de la Ciudad Alta, un ritualista vinculado a la Orden Carmesí usa un mausoleo para levantar muertos vivientes y desaparece antes de regresar junto a Severino y la guardia.
 
 En el ayuntamiento, el ritualista reconoce a Varka durante el juicio de Adler y ordena su arresto, confirmando que la Orden Carmesí mantiene influencia directa sobre la respuesta oficial al incidente del cementerio.
+
+Tras la reagrupación en la casa de Nyxara, el grupo vuelve a conectar a la Orden Carmesí con posibles laboratorios, túneles e instalaciones ocultas bajo la Ciudad Alta.
 
 ### El Velado
 
