@@ -6,7 +6,7 @@ El amanecer llegó teñido de un gris ceniciento sobre los techos del Distrito d
 
 ### Identificación del arma mágica alimentada por cristales lucientes
 
-La caja recuperada del sargento contenía un artefacto tan extraño como fascinante. Un cuerpo metálico cubierto de runas y filamentos cristalinos emanaba una energía arcana estable, casi contenida. Delerion fue el primero en comprender su naturaleza: una arma mágica capaz de canalizar ataques arcanos sin necesidad de conocimiento mágico, alimentada por cristales lucientes. Era un hallazgo de un valor incalculable, algo que no debía existir fuera de los laboratorios de la Orden Carmesí.
+La caja recuperada del sargento contenía un artefacto tan extraño como fascinante. Un cuerpo metálico cubierto de runas y filamentos cristalinos emanaba una energía arcana estable, casi contenida. Delerion fue el primero en comprender su naturaleza: un arma mágica capaz de canalizar ataques arcanos sin necesidad de conocimiento mágico, alimentada por cristales lucientes. Era un hallazgo de un valor incalculable, algo que no debía existir fuera de los laboratorios de la Orden Carmesí.
 
 Adler, al examinarla, comprendió la magnitud de lo que tenían entre manos: “esto vale lo mismo que un castillo”, dijo con gravedad, como si pronunciara una advertencia. Sabiendo que un objeto así atraería tanto el poder como la desgracia, Delerion invocó el conjuro Aura Mágica del Arcano y cubrió el artefacto con un velo ilusorio que lo haría invisible ante cualquier detección mágica. Desde ese momento, la caja se volvió un secreto dentro del secreto.
 
@@ -30,7 +30,7 @@ Había movimientos extraños, entregas fuera de horario y miradas cómplices que
 
   * Una de las costureras era pareja de Borgar, el semiorco que había trabajado con el grupo anteriormente.
   * El taller parecía ser una tapadera para uno de los cuatro gremios clandestinos del distrito, aunque aún no estaba claro cuál.
-  * Para mantener su fachada, Varka introdujo un nuevo rumor entre las trabajadoras: que uno de los guardias, enamorado del sargento, lo había matado en un arrebato pasional. Al finalizar la jornada, fue invitada a la casa de la jefa del taller, en ausencia de ésta, para seguir conversando con las demás mujeres. Varka aceptó, convencida de que aquel hilo podía llevarla más lejos de lo que imaginaba.
+  * Para mantener su fachada, Varka introdujo un nuevo rumor entre las trabajadoras: que uno de los guardias, enamorado del sargento, lo había matado en un arrebato pasional. Al finalizar la jornada, fue invitada a la casa de la jefa del taller, en ausencia de esta, para seguir conversando con las demás mujeres. Varka aceptó, convencida de que aquel hilo podía llevarla más lejos de lo que imaginaba.
 
 ### Ernesto sigue la pista de Tomi Tres Dientes y conoce al hombre del canto del metal
 
@@ -38,6 +38,6 @@ En el resto del distrito, los rumores se mezclaban y se multiplicaban. Delerion 
 
 Al llegar, encontró una multitud reunida frente al local, un rumor de voces que hablaban de desapariciones, deudas y venganzas. En el suelo, el kobold distinguió huellas de botas pesadas que se alejaban hacia el este, cruzando entre las casas. Intentó acercarse más, pero su instinto le falló; no percibió más de lo evidente. Al retirarse, notó a un hombre de sombrero de ala ancha que lo observaba desde el callejón detrás de la posada donde se hospedaban.
 
-El desconocido se presentó con voz calmada: decía haber aprendido en Caravencia, al sur, “el arte de hacer cantar el metal”. Ante la mirada del kobold, susurró sobre una esfera metálica que llevaba consigo, y el objeto se transformó en un plato plano, vibrante y perfecto, resonando con un eco imposible. “El canto del metal”, explicó el hombre, “es un legado de los tiempos de los Aelorianos.
+El desconocido se presentó con voz calmada: decía haber aprendido en Caravencia, al sur, “el arte de hacer cantar el metal”. Ante la mirada del kobold, susurró sobre una esfera metálica que llevaba consigo, y el objeto se transformó en un plato plano, vibrante y perfecto, resonando con un eco imposible. “El canto del metal”, explicó el hombre, “es un legado de los tiempos de los aelorianos”.
 
-Y no es casual que me haya cruzado con un kobold justo ahora.” Antes de que Ernesto pudiera responder, el hombre añadió, casi como quien deja caer una advertencia: la noche anterior había visto a Borgar, Zafir y Arturo dirigiéndose hacia el este.
+Y no es casual que me haya cruzado con un kobold justo ahora. Antes de que Ernesto pudiera responder, el hombre añadió, casi como quien deja caer una advertencia: la noche anterior había visto a Borgar, Zafir y Arturo dirigiéndose hacia el este.
