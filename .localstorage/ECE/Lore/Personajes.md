@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 18)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 19)
 
 ## Protagonistas
 
@@ -60,7 +60,7 @@ Gobernante de Valverde del Río y último heredero directo del linaje Belmonte. 
 
 ### Zafir
 
-**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14, 16, 17, 18
+**Capítulos:** 2, 4, 7, 9, 10, 11, 12, 14, 16, 17, 18, 19
 
 Tiefling de presencia magnética y capitán de los mercenarios del Reino del Sur. Adler, Delerion y Haroldo lo encuentran en el campamento mercenario al infiltrarse haciéndose pasar por bandidos. Astuto, perceptivo y manipulador, mantiene siempre una ventaja psicológica en cada conversación. Huele la magia y las mentiras, y juega con las apariencias de los aventureros.
 
@@ -68,7 +68,7 @@ En el Barrio Exterior vuelve a aparecer vinculado a Borgar, Arturo, Raviel y Sil
 
 En las notas del laboratorio aeloriano bajo las cuevas, Zafir aparece señalando al kenku como sujeto ideal para una variante del Ritual del Eco aplicada a seres vivos.
 
-En la escalera hacia la Ciudad Alta, lidera un grupo de contrabandistas que llega con Lucen VanDuren bajo control enemigo. Muere durante el combate, tras enfrentarse al grupo y ser derrotado por Arturo.
+En la escalera hacia la Ciudad Alta, lidera un grupo de contrabandistas que llega con Lucen VanDuren bajo control enemigo. Muere durante el combate, tras enfrentarse al grupo y ser derrotado por Arturo. Tras su muerte, su nombre sigue apareciendo ligado a planes, contactos nobles y pistas dentro de la Ciudad Alta.
 
 ### Arturo
 
@@ -222,19 +222,21 @@ Figura pragmática del Barrio Exterior a la que el grupo recurre para conseguir 
 
 ### Eladio
 
-**Capítulos:** 7, 13, 14
+**Capítulos:** 7, 13, 14, 19
 
 Mago presente en la fiesta del distrito. Su magia, comportamiento y vínculos lo convierten en un personaje envolvente cuya importancia aún no está del todo clara.
 
 También aparece mencionado en el Barrio Exterior como parte del grupo que mantiene prisionero a Lucen VanDuren, El Pichón. Puede aparecer transcripto como “Heladio”, pero el nombre canónico es Eladio.
 
+En la Ciudad Alta, su nombre vuelve a aparecer ligado a las maniobras sobre la forja, el Gremio de Comerciantes y la presión económica que rodea a Lucen.
+
 ### Gregorio
 
-**Capítulos:** 7, 13
+**Capítulos:** 7, 13, 19
 
 Cómplice de Eladio, de actitud nerviosa y poco discreta. Su presencia aporta humor involuntario en escenas tensas del Distrito.
 
-En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pichón.
+En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pichón. En la Ciudad Alta, su nombre vuelve a surgir asociado a las maniobras sobre la forja y la desaparición de Lucen.
 
 ### Petro
 
@@ -242,7 +244,7 @@ En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pich
 
 Personaje clave del Distrito de los Artesanos, conocedor de la situación local y de las tensiones internas del distrito. Su información lo convierte en un aliado vital para la misión principal.
 
-Petro asesinó a Redgar VanDuren durante el caos en **El Cuenco de Carbón**. Bánic revela más adelante que los enemigos planeaban usar la entrega de Petro a la guardia como distracción. También lo describe como hijo ilegítimo de Bandur, vinculado al control del gremio de artesanos y a secretos de la forja.
+Petro asesinó a Redgar VanDuren durante el caos en **El Cuenco de Carbón**. Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDuren, vinculado al control del gremio de artesanos y a secretos de la forja. Los enemigos planeaban usar la entrega de Petro a la guardia como distracción.
 
 ### Raviel
 
@@ -290,13 +292,13 @@ Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infilt
 
 ### Caco
 
-**Capítulos:** 6, 17, 18
+**Capítulos:** 6, 17, 18, 19
 
 No-muerto personal de Delerion, levantado a partir de uno de los cadáveres del puesto de avanzada luego de que el grupo escapara del Templo del Círculo Eterno y regresara bajo el castillo de Valverde del Río.
 
 Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infiltrarse en el campamento mercenario junto a Haroldo, y lo preservó con Descanso apacible para evitar su descomposición. En el laboratorio aeloriano bajo las cuevas, Delerion realizó sobre él el Ritual del Eco, imbuyéndolo con conocimientos de un noble antiguo, posiblemente Ur Namkart.
 
-Tras la batalla en la escalera hacia la Ciudad Alta, ayuda a Delerion a arrastrar cadáveres hacia el arroyo para simular un ataque de bestias.
+Tras la batalla en la escalera hacia la Ciudad Alta, ayuda a Delerion a arrastrar cadáveres hacia el arroyo para simular un ataque de bestias. Luego queda integrado a la logística del grupo en la Ciudad Alta, donde su presencia requiere discreción.
 
 ### Aurelio
 
@@ -310,13 +312,27 @@ Autor de documentos hallados en el laboratorio aeloriano bajo las cuevas. Sus no
 
 Enano contrabandista y guerrero entrenado que sobrevive oculto tras la batalla de la escalera hacia la Ciudad Alta. Varka y Martita lo localizan entre las piedras, y Delerion lo somete con Hechizar Persona.
 
-Durante el interrogatorio revela detalles sobre los planes hacia la Ciudad Alta, la entrega de Petro a la guardia, Severino, la Biblioteca del Eco y los contactos nobles vinculados a Zafir. Finalmente, el grupo decide ejecutarlo.
+Durante el interrogatorio revela detalles sobre los planes hacia la Ciudad Alta, la entrega de Petro a la guardia, Severino, la Biblioteca del Eco y los contactos nobles vinculados a Zafir. También confiesa que Petro es hijo legítimo de Redgar VanDuren. Finalmente, el grupo decide ejecutarlo.
 
 ### Raby
 
 **Capítulos:** 18
 
 Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de la escalera. Aparece como uno de los ejecutores enviados por el pícaro barbudo para llevar adelante planes externos junto a Zafir.
+
+### Nyxara
+
+**Capítulos:** 19
+
+Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
+
+Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Advierte sobre el aumento de los capas verdes, la necesidad de una licencia de mercenario y la posibilidad de comerciar en El Velado con ayuda de su tío.
+
+### Nair Kules
+
+**Capítulos:** 19
+
+Gobernador de la Ciudad Alta mencionado por Nyxara. Su creciente paranoia está vinculada al aumento de vigilancia, a la presencia de los capas verdes y al clima de control que afecta a la ciudad.
 
 ### Arnaldo
 
@@ -388,21 +404,23 @@ Dirige un taller de costura del Distrito de los Artesanos que aparece entre los 
 
 ### Redgar VanDuren
 
-**Capítulos:** 7, 18
+**Capítulos:** 7, 18, 19
 
-Maestro herrero del distrito, dueño de la forja principal y tío de Lucen VanDuren, El Pichón. Asistió a una reunión en la taberna **El Cuenco de Carbón** y fue asesinado por Petro durante el caos de esa noche.
+Maestro herrero del distrito, dueño de la forja principal, tío de Lucen VanDuren y padre legítimo de Petro. Asistió a una reunión en la taberna **El Cuenco de Carbón** y fue asesinado por Petro durante el caos de esa noche.
 
-Bánic revela más adelante que la muerte de Redgar VanDuren forma parte del entramado de tensiones entre la forja, Petro, el gremio de artesanos y las facciones criminales.
+Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDuren. Su muerte forma parte del entramado de tensiones entre la forja, Petro, el gremio de artesanos y las facciones criminales.
 
 ### Lucen VanDuren, El Pichón
 
-**Capítulos:** 7, 12, 13, 14, 18
+**Capítulos:** 7, 12, 13, 14, 18, 19
 
 Sobrino de Redgar VanDuren y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
 En el Barrio Exterior, el grupo sigue buscando pistas sobre su paradero y sobre las redes que conectan la forja, los contrabandistas y las facciones criminales. Luego descubren que Eladio, Gregorio y sus asociados lo mantienen prisionero en una casa o estructura vinculada a los movimientos del Gremio.
 
 En la escalera hacia la Ciudad Alta, aparece vivo, curado y vestido como noble, pero bajo control enemigo. El grupo lo libera durante el combate y Adler salva su vida tras una descarga del cañón mecánico del artífice.
+
+Al llegar a la Ciudad Alta, guía al grupo hacia refugios más discretos y recomienda evitar su mansión familiar por temor a vigilancia, trampas o contactos comprometidos.
 
 ### La mujer marcada
 
