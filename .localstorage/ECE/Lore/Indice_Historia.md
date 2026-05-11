@@ -336,7 +336,7 @@ Archivo: `Lore/Capitulos/26_Adler_vs_el_ayuntamiento.md`
 - Delerion se retira discretamente del ayuntamiento durante la alarma
 - El grupo se reagrupa en la casa de Nyxara tras el escape
 
-## Capítulo 27: La reagrupación en la casa de Siomara
+## Capítulo 27: La reagrupación en la casa de Nyxara
 Archivo: `Lore/Capitulos/27_La_reagrupación_en_la_casa_de_Siomara.md`
 
 - La retirada

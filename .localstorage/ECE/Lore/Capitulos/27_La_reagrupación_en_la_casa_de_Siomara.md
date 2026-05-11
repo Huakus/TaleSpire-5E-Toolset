@@ -1,4 +1,4 @@
-## Capítulo 27: La reagrupación en la casa de Siomara
+## Capítulo 27: La reagrupación en la casa de Nyxara
 
 ### La retirada
 
@@ -6,7 +6,7 @@ Después de liberar a **Adler**, el grupo se dispersa para evitar ser capturado.
 
 La guardia mantiene la búsqueda activa y el ayuntamiento queda bajo tensión. Permanecer cerca del lugar ya no es una opción segura.
 
-El grupo decide dirigirse hacia la casa de **Siomara**, también conocida como **Nyxara** o **Xiomara**, para reagruparse.
+El grupo decide dirigirse hacia la casa de **Nyxara** para reagruparse.
 
 ### Camino al refugio
 
@@ -24,13 +24,13 @@ Su captura confirma que la guardia ya no representa sólo una amenaza administra
 
 ### Nuevas sospechas
 
-La aparición de **Severino** junto al ritualista del mausoleo confirma una conexión entre el cementerio, la **Orden Carmesí** y los documentos encontrados anteriormente en el laboratorio de la Cueva de los Kobolds.
+La aparición de **Severino** junto al ritualista del mausoleo confirma una conexión entre el cementerio, la **Orden Carmesí** y los documentos encontrados anteriormente en el laboratorio de las cuevas kobold.
 
 También se menciona la posibilidad de que haya laboratorios, túneles o instalaciones ocultas bajo la ciudad vinculadas a la Orden Carmesí.
 
 ### La búsqueda de aliados
 
-Durante la reorganización, en la casa de Siomara, el grupo revisa lo ocurrido. Se encuentran con **Mercion**, quien insta al grupo a descansar un poco e ir a liberar a **Petro**, quien está cautivo en la mansión de la ciudad. **Varka** logra sacarle a **MErcion** que tiene sentimientos por **Petro**, y que si no lo rescatan esa misma noche, morirá.
+Durante la reorganización en la casa de Nyxara, el grupo revisa lo ocurrido. Se encuentran con **Mercion**, quien insta al grupo a descansar un poco e ir a liberar a **Petro**, que está cautivo en la mansión de la ciudad. **Varka** logra sacarle a **Mercion** que tiene sentimientos por **Petro**, y que si no lo rescatan esa misma noche, morirá.
 
 Aparecen menciones a **Borgar**, **Arturo** y otros vínculos que podrían ayudar al grupo a sostenerse dentro de la ciudad.
 
@@ -38,7 +38,7 @@ También se evalúa la importancia de proteger a quienes conocen secretos releva
 
 ### El descanso y la planificación
 
-Una vez reunidos en la casa de Siomara, el grupo toma un momento para descansar y ordenar prioridades.
+Una vez reunidos en la casa de Nyxara, el grupo toma un momento para descansar y ordenar prioridades.
 
 La party necesita decidir sus próximos movimientos: seguir investigando a la Orden Carmesí, buscar información sobre Severino, proteger a sus aliados o preparar una incursión más directa contra las estructuras ocultas bajo la ciudad.
 
