@@ -74,7 +74,7 @@ En la escalera hacia la Ciudad Alta, lidera un grupo de contrabandistas que lleg
 
 ### Arturo
 
-**Capítulos:** 8, 9, 10, 11, 18, 20
+**Capítulos:** 8, 9, 10, 11, 18, 20, 28
 
 Humano grandote y musculoso del grupo de Zafir. Varka lo conoce en el mercado del Distrito de los Artesanos y lo manipula con su encanto para que averigüe cómo acceder a la Ciudad Alta.
 
@@ -82,15 +82,19 @@ Esa misma noche vuelve a buscarla en la taberna, completamente fascinado por ell
 
 En la batalla de la escalera hacia la Ciudad Alta, combate contra Zafir y logra derrotarlo, quebrando la moral de los contrabandistas. Más tarde acompaña al grupo en las cloacas bajo la Ciudad Alta, durante el combate contra las arañas.
 
+Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Borgar y Caco, cuidando a Lucen VanDuren y protegiendo el refugio.
+
 ### Borgar Tempestus
 
-**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 18, 21
+**Capítulos:** 1, 3, 4, 5, 7, 9, 10, 11, 12, 14, 15, 18, 21, 28
 
 Semiorco brutal y oportunista. Fue uno de los líderes del contrabando que acosaba Valverde del Río. Sobrevivió al naufragio de su embarcación y asesinó a su propia tripulación antes de secuestrar al gobernador. Su figura aparece constantemente como una amenaza móvil que antecede al poder de Viktor Salazar.
 
 En el Barrio Exterior, su relación previa con el Teniente Tres Dientes pesa en las negociaciones para mover a Lucen VanDuren, El Pichón, sin desatar una guerra abierta entre facciones.
 
 En la batalla de la escalera, presiona a Zafir junto al grupo y participa en el combate contra los contrabandistas. Más tarde, en la casa de Nyxara, el grupo reflexiona sobre sus secretos y su vínculo con Gorak.
+
+Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Caco y Arturo, cuidando a Lucen VanDuren y protegiendo el refugio.
 
 ### Viktor Salazar
 
@@ -202,7 +206,7 @@ Es ambicioso, peligroso y está obsesionado con el poder oculto del templo.
 
 ### Severino
 
-**Capítulos:** 16, 18, 25, 26, 27
+**Capítulos:** 16, 18, 25, 26, 27, 28
 
 Figura mencionada en las notas del laboratorio aeloriano bajo las cuevas. Aparece como impulsor del proyecto relacionado con una variante del Ritual del Eco aplicada a seres vivos, con fines de espionaje, infiltración política y manipulación de nobles.
 
@@ -211,6 +215,8 @@ Bánic lo menciona como contacto relacionado con la Biblioteca del Eco y con los
 Más adelante aparece en el cementerio de la Ciudad Alta junto a la guardia, un sacerdote y el ritualista de la Orden Carmesí. Al llegar, elimina de inmediato al comandante no muerto que el grupo había suspendido y silenciado, y toma control de la investigación del mausoleo.
 
 Su intervención en el cementerio provoca la detención de Adler y confirma ante el grupo que el incidente está conectado con la Orden Carmesí. Tras reagruparse en la casa de Nyxara, el grupo vuelve a señalarlo como una pieza central de las instalaciones ocultas bajo la ciudad.
+
+Durante la incursión bajo la mansión, el grupo lo encuentra en una sala lateral de las catacumbas. Tras observarlo mediante Martita y preparar una conexión mágica con el círculo de teletransportación, el grupo lo ataca por sorpresa. Ernesto, potenciado por Delerion, lo hiere mortalmente antes de que pueda responder.
 
 ### Cassian Balté Castimiro
 
@@ -254,13 +260,13 @@ En el Barrio Exterior aparece vinculado al cautiverio de Lucen VanDuren, El Pich
 
 ### Petro
 
-**Capítulos:** 7, 18, 27
+**Capítulos:** 7, 18, 27, 28
 
 Personaje clave del Distrito de los Artesanos, conocedor de la situación local y de las tensiones internas del distrito. Su información lo convierte en un aliado vital para la misión principal.
 
 Petro asesinó a Redgar VanDuren durante el caos en **El Cuenco de Carbón**. Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDuren, vinculado al control del gremio de artesanos y a secretos de la forja. Los enemigos planeaban usar la entrega de Petro a la guardia como distracción.
 
-En la Ciudad Alta, Mercion revela que Petro está cautivo en una mansión y que, si el grupo no lo rescata esa misma noche, probablemente morirá.
+En la Ciudad Alta, Mercion revela que Petro está cautivo en una mansión y que, si el grupo no lo rescata esa misma noche, probablemente morirá. Durante la incursión bajo la mansión, el aprendiz de Severino menciona que Petro está siendo preparado.
 
 ### Raviel
 
@@ -310,13 +316,15 @@ Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infilt
 
 ### Caco
 
-**Capítulos:** 6, 17, 18, 19
+**Capítulos:** 6, 17, 18, 19, 28
 
 No-muerto personal de Delerion, levantado a partir de uno de los cadáveres del puesto de avanzada luego de que el grupo escapara del Templo del Círculo Eterno y regresara bajo el castillo de Valverde del Río.
 
 Delerion lo disfrazó con uno de los brazaletes usados anteriormente para infiltrarse en el campamento mercenario junto a Haroldo, y lo preservó con Descanso apacible para evitar su descomposición. En el laboratorio aeloriano bajo las cuevas, Delerion realizó sobre él el Ritual del Eco, imbuyéndolo con conocimientos de un noble antiguo, posiblemente Ur Namkart.
 
 Tras la batalla en la escalera hacia la Ciudad Alta, ayuda a Delerion a arrastrar cadáveres hacia el arroyo para simular un ataque de bestias. Luego queda integrado a la logística del grupo en la Ciudad Alta, donde su presencia requiere discreción.
+
+Durante la incursión para rescatar a Petro, permanece en la casa de Nyxara junto a Borgar y Arturo, cuidando a Lucen VanDuren y protegiendo el refugio.
 
 ### Aurelio
 
@@ -340,7 +348,7 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 ### Nyxara
 
-**Capítulos:** 19, 20, 21, 22, 23, 26, 27
+**Capítulos:** 19, 20, 21, 22, 23, 26, 27, 28
 
 Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
@@ -348,7 +356,7 @@ Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Adv
 
 Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Hadas. Más adelante, su carta de respaldo ayuda al grupo a iniciar el trámite de licencia de mercenario.
 
-Tras el escape de Adler y Varka del ayuntamiento, el grupo vuelve a reagruparse en su casa, que funciona nuevamente como punto seguro para descansar, reorganizarse y planear los siguientes movimientos.
+Tras el escape de Adler y Varka del ayuntamiento, el grupo vuelve a reagruparse en su casa, que funciona nuevamente como punto seguro para descansar, reorganizarse y planear los siguientes movimientos. Desde allí, el grupo parte hacia las cloacas para intentar rescatar a Petro.
 
 También aparece transcripta como Nixara, Xiomara, Siomara o Ciómara, pero el nombre canónico es Nyxara.
 
@@ -378,13 +386,15 @@ Gobernador de la Ciudad Alta mencionado por Nyxara. Su creciente paranoia está 
 
 ### Ritualista de la Orden Carmesí
 
-**Capítulos:** 25, 26
+**Capítulos:** 25, 26, 28
 
 Hombre joven encontrado por el grupo dentro de un mausoleo del cementerio de la Ciudad Alta, realizando un ritual vinculado a la Orden Carmesí.
 
 Cuando el grupo lo sorprende, advierte que no deberían haberse metido con la Orden Carmesí, levanta dos muertos vivientes y desaparece. Más tarde vuelve junto a Severino, el sacerdote y la guardia cuando el cementerio ya está rodeado.
 
 Durante el juicio de Adler en el ayuntamiento, aparece nuevamente, reconoce a Varka y ordena que también la arresten.
+
+En las catacumbas bajo la mansión, aparece como aprendiz de Severino. Informa que Petro está siendo preparado y luego desaparece mediante un círculo de teletransportación.
 
 ### Arnaldo
 
@@ -406,7 +416,7 @@ Comerciante acaudalado y hermano de Diego Cortés. Adler y Delerion lo conocen e
 
 ### Mercion
 
-**Capítulos:** 5, 7, 13, 27
+**Capítulos:** 5, 7, 13, 27, 28
 
 Asistente del capitán Aitor Menta en el puesto de avanzada al sur de Valverde del Río. Adler, Delerion, Ernesto y Borgar lo conocen al llegar al enclave fortificado, donde acompaña a Menta durante la recepción y toma notas sin pronunciar palabra.
 
@@ -414,7 +424,7 @@ Participa junto a Aitor Menta en el plan de sabotaje contra las defensas del pue
 
 En el Barrio Exterior vuelve a aparecer cerca del entramado del Gremio de Comerciantes, interesada en rutas, favores, prisioneros y contactos.
 
-En la casa de Nyxara, reaparece tras el escape del ayuntamiento e insiste en que el grupo debe rescatar a Petro esa misma noche. Varka logra descubrir que Mercion tiene sentimientos por Petro.
+En la casa de Nyxara, reaparece tras el escape del ayuntamiento e insiste en que el grupo debe rescatar a Petro esa misma noche. Varka logra descubrir que Mercion tiene sentimientos por Petro. Luego guía al grupo por las cloacas y catacumbas bajo la Ciudad Alta hacia la mansión donde Petro está cautivo.
 
 ### Capitán Aitor Menta
 
@@ -510,7 +520,7 @@ Es afable, musical y enigmático, pero está ligado a un entorno feérico inquie
 
 ### Orden Carmesí
 
-**Capítulos:** 6, 15, 16, 18, 24, 25, 26, 27
+**Capítulos:** 6, 15, 16, 18, 24, 25, 26, 27, 28
 
 Organización vinculada a la corrupción Carmesí, los rituales prohibidos, la manipulación de conocimientos y los experimentos bajo tierra. Su influencia aparece desde el Templo del Círculo Eterno y vuelve a surgir en los túneles, la Biblioteca del Eco y los conflictos políticos de la Ciudad Alta.
 
@@ -520,7 +530,7 @@ En el cementerio de la Ciudad Alta, un ritualista vinculado a la Orden Carmesí 
 
 En el ayuntamiento, el ritualista reconoce a Varka durante el juicio de Adler y ordena su arresto, confirmando que la Orden Carmesí mantiene influencia directa sobre la respuesta oficial al incidente del cementerio.
 
-Tras la reagrupación en la casa de Nyxara, el grupo vuelve a conectar a la Orden Carmesí con posibles laboratorios, túneles e instalaciones ocultas bajo la Ciudad Alta.
+Tras la reagrupación en la casa de Nyxara, el grupo vuelve a conectar a la Orden Carmesí con posibles laboratorios, túneles e instalaciones ocultas bajo la Ciudad Alta. La incursión hacia la mansión confirma una red de catacumbas, círculos de teletransportación y operaciones vinculadas a Severino.
 
 ### El Velado
 
