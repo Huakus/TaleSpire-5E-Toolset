@@ -2,7 +2,7 @@
 
 ### Llegada al enclave fortificado al sur de Valverde
 
-Tras la audiencia con el Duque Eldan Brightshield y la revelación de la traición de lord Aitor Menta, los aventureros fueron enviados al sur de Valverde del Río para supervisar las defensas de un pequeño enclave fortificado en construcción. Los acompañaban el semiorco Borgar Tempestus, bajo custodia pero en condición de colaborador, y el kobold Skitrix Koboldtanz, apodado Ernesto. El duque les encomendó la defensa del paso de montaña, una posición clave ante la inminente avanzada goblin.
+Tras la audiencia con el Duque Eldan Brightshield y la revelación de la traición de lord Aitor Menta, los aventureros fueron enviados al sur de Valverde del Río para supervisar las defensas de un pequeño enclave fortificado en construcción. Los acompañaban el semiorco Borgar Tempestus, bajo custodia pero en condición de colaborador, y el kobold Skitrix “Stix Ernesto” Koboldtanz, apodado Ernesto. El Duque les encomendó la defensa del paso de montaña, una posición clave ante la inminente avanzada goblin.
 
 El viaje transcurrió entre aldeas exhaustas por la guerra y bosques ennegrecidos, hasta que divisaron las empalizadas y torres de madera del puesto.
 
@@ -14,9 +14,9 @@ Los aventureros observaron el movimiento del puesto, la mezcla de ruido, polvo y
 
 ### Delerion descubre el plan de sabotaje de Aitor Menta y Marion
 
-Delerion fue quien descubrió la verdadera naturaleza del complot. Aprovechó la curiosidad natural de su comadreja familiar y la envió a cavar un pequeño túnel bajo la carpa del capitán. Desde allí, pudo escuchar con claridad la conversación entre Aitor Menta y su asistente Marion: planeaban emplear materiales desgastados en la construcción de la muralla y compartir con el enemigo los puntos débiles de sus cimientos para provocar su derrumbe durante el ataque.
+Delerion fue quien descubrió la verdadera naturaleza del complot. Aprovechó la curiosidad natural de su familiar y lo envió a cavar un pequeño túnel bajo la carpa del capitán. Desde allí, pudo escuchar con claridad la conversación entre Aitor Menta y su asistente Marion: planeaban emplear materiales desgastados en la construcción de la muralla y compartir con el enemigo los puntos débiles de sus cimientos para provocar su derrumbe durante el ataque.
 
-Al comprender la magnitud de la traición, el grupo decidió actuar sin levantar sospechas. Durante la noche, reemplazaron los tablones podridos y los clavos oxidados por materiales nuevos, reforzando cada junta con madera firme y metal limpio. Cuando terminaron, nadie sabía que los materiales habían sido cambiados y el trabajo en la muralla continuó sin problemas
+Al comprender la magnitud de la traición, el grupo decidió actuar sin levantar sospechas. Durante la noche, reemplazaron los tablones podridos y los clavos oxidados por materiales nuevos, reforzando cada junta con madera firme y metal limpio. Cuando terminaron, nadie sabía que los materiales habían sido cambiados y el trabajo en la muralla continuó sin problemas.
 
 ### Delerion usa trabajadores zombis para acelerar la construcción de la muralla
 
@@ -30,7 +30,7 @@ Ernesto partió en una incursión solitaria hacia las colinas del sur para recon
 
 ### Ernesto viaja a Valverde como emisario para advertir a Alarico
 
-Sabedores de que no podían denunciar a Aitor sin pruebas oficiales, los aventureros enviaron al kobold como emisario para advertir al gobernador Alarico Belmonte. Ernesto partió al amanecer, cruzó bosques infestados de bandidos y consiguió llegar a Valverde con los documentos que incriminaban al capitán. El gobernador, ató cabos rápidamente y envió refuerzos.
+Sabedores de que no podían denunciar a Aitor sin pruebas oficiales, los aventureros enviaron al kobold como emisario para advertir al gobernador Alarico Belmonte. Ernesto partió al amanecer, cruzó bosques infestados de bandidos y consiguió llegar a Valverde con los documentos que incriminaban al capitán. El gobernador ató cabos rápidamente y envió refuerzos.
 
 ### El grupo tiende una trampa y captura a Aitor Menta y Marion
 
@@ -60,6 +60,6 @@ Todo quedó dispuesto para el enfrentamiento. Sin embargo, antes de que las trop
 
 ### Aparición de la proyección feérica en la cueva de cristales
 
-Una luz azul emanó desde las profundidades de la cueva del otro lado del río. El grupo descendió y fue recibido por una figura etérea, de piel azul y voz serena: la misma proyección feérica que ya habían encontrado en las ruinas del templo del Círculo Eterno. Les habló de los antiguos pactos entre los hombres del norte y la Corte de las Hadas, y de los sellos que aún protegen el mundo de la corrupción Carmesí.
+Una luz azul emanó desde las profundidades de la cueva del otro lado del río. El grupo descendió y fue recibido por una figura etérea, de piel azul y voz serena: la misma proyección feérica que ya habían encontrado en las ruinas del Templo del Círculo Eterno. Les habló de los antiguos pactos entre los hombres del norte y la Corte de las Hadas, y de los sellos que aún protegen el mundo de la corrupción Carmesí.
 
 Cuando la visión se desvaneció, el eco del Círculo Eterno volvió a resonar en el corazón del grupo.
