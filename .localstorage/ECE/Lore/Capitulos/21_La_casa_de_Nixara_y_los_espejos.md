@@ -2,7 +2,7 @@
 
 ### El grupo llega al refugio de Nyxara tras escapar de las cloacas
 
-Luego de abandonar las cloacas y dejar atrás el nido de arañas, el grupo llega a la casa de **Nyxara**, también llamada **Nixara**, **Xiomara** o **Ciómara** según distintas voces de la ciudad.
+Luego de abandonar las cloacas y dejar atrás el nido de arañas, el grupo llega a la casa de **Nyxara**.
 
 El contraste con los túneles es inmediato. Después de la humedad, el veneno, las telarañas y el combate, la casa ofrece una calma extraña. No es una posada ni un espacio público, sino un refugio privado, protegido por la confianza y por rutas ocultas bajo la **Ciudad Alta**.
 
@@ -32,11 +32,11 @@ No llegan a una conclusión definitiva, pero deducen que Borgar mantiene ciertos
 
 La información es incompleta, pero suficiente para reforzar una idea: en la Ciudad Alta nadie se mueve solo por la superficie de los hechos. Las relaciones, los favores y los secretos importan tanto como los documentos oficiales.
 
-### El grupo examina un espejo mágico vinculado a la Corte de las Alas
+### El grupo examina un espejo mágico vinculado a la Corte de las Hadas
 
 Más adelante, el grupo examina un espejo mágico dentro del refugio.
 
-El objeto no funciona como un espejo común. Sus reflejos cambian, se desplazan y parecen responder a fuerzas ligadas a la **Corte de las Alas**. La superficie muestra imágenes inestables, presencias veladas y ecos de algo que no pertenece del todo al plano ordinario.
+El objeto no funciona como un espejo común. Sus reflejos cambian, se desplazan y parecen responder a fuerzas ligadas a la **Corte de las Hadas**. La superficie muestra imágenes inestables, presencias veladas y ecos de algo que no pertenece del todo al plano ordinario.
 
 Entre los reflejos aparece una imagen de Nyxara, vigilante y atenta.
 
@@ -62,7 +62,7 @@ Antes de abandonar el refugio, **Varka** tiene un momento íntimo frente al espe
 
 Su reflejo no se comporta como una simple imagen. Le responde con una frase enigmática, vinculada a la idea de ser un viajero de negocios difícil de encontrar.
 
-El intercambio no ofrece respuestas claras, pero refuerza la conexión de Varka con fuerzas féericas, pactos y presencias que observan desde lugares difíciles de nombrar.
+El intercambio no ofrece respuestas claras, pero refuerza la conexión de Varka con fuerzas feéricas, pactos y presencias que observan desde lugares difíciles de nombrar.
 
 El grupo deja atrás la casa de Nyxara con más información, pero también con nuevas dudas.
 

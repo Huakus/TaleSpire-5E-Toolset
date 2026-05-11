@@ -275,7 +275,7 @@ Archivo: `Lore/Capitulos/21_La_casa_de_Nixara_y_los_espejos.md`
 - El grupo llega al refugio de Nyxara tras escapar de las cloacas
 - Nyxara explica la necesidad de obtener una licencia de mercenario
 - El grupo reflexiona sobre los secretos de
-- El grupo examina un espejo mágico vinculado a la Corte de las Alas
+- El grupo examina un espejo mágico vinculado a la Corte de las Hadas
 - Nyxara advierte que “esa mujer viene sin un precio”
 - Varka recibe una respuesta enigmática de su reflejo
 
