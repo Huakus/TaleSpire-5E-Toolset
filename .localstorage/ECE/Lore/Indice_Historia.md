@@ -223,10 +223,10 @@ Archivo: `Lore/Capitulos/17_La_tumba_de_Ur_Namkart.md`
 - El grupo usa la palabra Sarnakur para revelar la tumba oculta de Ur Namkart
 - Stix Ernesto desactiva las trampas del sarcófago auténtico
 - El grupo encuentra el Corazón de Kurash y su vínculo con el Santuario Olvidado de Hextor
-- Delerion realiza el Ritual del Eco sobre Kako y despierta su inteligencia
-- Kako y el kenku comparten recuerdos por los experimentos del laboratorio
+- Delerion realiza el Ritual del Eco sobre Caco y despierta su inteligencia
+- Caco y el kenku comparten recuerdos por los experimentos del laboratorio
 - Adler retira la armadura, la espada ritual y el Corazón de Kurash de la tumba
-- Los documentos de Aurelio conectan el laboratorio con Escudoferrio, Ciudad Alta y Zephyr
+- Los documentos de Aurelio conectan el laboratorio con Escudoferrio, Ciudad Alta y Zafir
 - El clan de la Sangre Azul confirma su éxodo y revela rutas hacia la Ciudad Alta
 
 ## Capítulo 18: Sangre en la Escalera

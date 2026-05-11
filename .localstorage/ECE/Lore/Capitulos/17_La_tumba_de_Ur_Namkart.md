@@ -16,7 +16,7 @@ Dentro de la cámara, el grupo encuentra el sarcófago auténtico de **Unamkar A
 
 La tapa está protegida por trampas antiguas, todavía funcionales. **Skitrix “Stix Ernesto” Koboldtanz** examina el mecanismo con cautela y logra desactivarlo sin activar las defensas del sepulcro.
 
-En el interior descansa un cadáver semi-orco, noble y guerrero, conservado en perfecto estado. Junto al cuerpo hay una armadura y una espada rituales, ambas cargadas de peso histórico y simbólico.
+En el interior descansa un cadáver semiorco, noble y guerrero, conservado en perfecto estado. Junto al cuerpo hay una armadura y una espada rituales, ambas cargadas de peso histórico y simbólico.
 
 El kenku no confirma verbalmente la identidad del cadáver, pero su reacción ante la cámara, el sarcófago y los objetos refuerza la certeza del grupo: han encontrado la tumba verdadera.
 
@@ -30,21 +30,21 @@ Los documentos recuperados del laboratorio indican que los responsables del comp
 
 El grupo comprende que la Orden Carmesí, los alquimistas y los contrabandistas no estaban explorando las cuevas al azar. Buscaban una pieza concreta, oculta detrás de sellos que no lograron abrir antes de la invasión goblin.
 
-### Delerion realiza el Ritual del Eco sobre Kako y despierta su inteligencia
+### Delerion realiza el Ritual del Eco sobre Caco y despierta su inteligencia
 
-Con el laboratorio parcialmente funcional, **Delerion** ejecuta el Ritual del Eco sobre uno de sus zombies, específicamente **Kako**.
+Con el laboratorio parcialmente funcional, **Delerion** ejecuta el Ritual del Eco sobre uno de sus zombis, específicamente **Caco**.
 
 El ritual se completa con éxito. Delerion no solo logra realizarlo, sino que también aprende formalmente su estructura, registrándolo en su libro para futuras ocasiones.
 
-Como resultado, Kako despierta con una inteligencia funcional y una constitución mejorada. Puede comunicarse en aeloriano y revelar fragmentos coherentes de su identidad.
+Como resultado, Caco despierta con una inteligencia funcional y una constitución mejorada. Puede comunicarse en aeloriano y revelar fragmentos coherentes de su identidad.
 
-Kako afirma ser un noble de **Escudoferrio**, con linaje **NASA**, oriundo de **Balsha**.
+Caco afirma ser un noble de **Escudoferrio**, con linaje **NASA**, oriundo de **Balsha**.
 
 La visión obtenida a través del eco muestra una ciudad antigua, Escudoferrio, y a un noble preparándose para un conflicto político y militar. La memoria no es completa, pero sí suficiente para confirmar que el ritual puede devolver fragmentos de identidad, lenguaje y contexto histórico.
 
-### Kako y el kenku comparten recuerdos por los experimentos del laboratorio
+### Caco y el kenku comparten recuerdos por los experimentos del laboratorio
 
-La interacción posterior revela que Kako y el kenku comparten recuerdos.
+La interacción posterior revela que Caco y el kenku comparten recuerdos.
 
 La conexión entre ambos no parece natural. Probablemente deriva de un drenaje previo, de una transferencia parcial o de los experimentos realizados en el laboratorio.
 
@@ -66,7 +66,7 @@ También revela que el Corazón de Kurash no funciona como ancla de la tumba. Su
 
 Allí, en las bibliotecas del santuario, podría encontrarse más conocimiento sobre la amenaza y sobre la forma de sellarla.
 
-### Los documentos de Aurelio conectan el laboratorio con Escudoferrio, Ciudad Alta y Zephyr
+### Los documentos de Aurelio conectan el laboratorio con Escudoferrio, Ciudad Alta y Zafir
 
 El grupo revisa documentos restantes escritos por **Aurelio**.
 
@@ -74,7 +74,7 @@ Las notas confirman que un grupo llegó a la zona aproximadamente tres meses atr
 
 Luego saquearon documentos clave y dirigieron sus movimientos hacia la **Ciudad Alta**.
 
-La información conecta los hallazgos del laboratorio con los contrabandistas de la superficie. Entre las figuras vinculadas reaparece **Zephyr**, también mencionado como **Saphir**, cuya traición al grupo ya había sido revelada.
+La información conecta los hallazgos del laboratorio con los contrabandistas de la superficie. Entre las figuras vinculadas reaparece **Zafir**, cuya traición al grupo ya había sido revelada.
 
 ### El clan de la Sangre Azul confirma su éxodo y revela rutas hacia la Ciudad Alta
 
