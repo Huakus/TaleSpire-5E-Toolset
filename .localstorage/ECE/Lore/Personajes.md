@@ -1,4 +1,4 @@
-# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 21)
+# Personajes de *Ecos del Círculo Eterno* (versión expandida hasta Capítulo 22)
 
 ## Protagonistas
 
@@ -324,15 +324,25 @@ Nombre mencionado por Bánic durante el interrogatorio posterior a la batalla de
 
 ### Nyxara
 
-**Capítulos:** 19, 20, 21
+**Capítulos:** 19, 20, 21, 22
 
 Dueña o contacto de una taberna segura en la Ciudad Alta. Lucen VanDuren lleva allí al grupo buscando refugio e información tras salir de las cuevas.
 
 Conoce rutas discretas, contactos seguros y reglas no escritas de la ciudad. Advierte sobre el aumento de los capas verdes, la necesidad de una licencia de mercenario y la posibilidad de comerciar en El Velado con ayuda de su tío.
 
-Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Alas.
+Abre un paso oculto por las cloacas para que el grupo pueda moverse bajo la Ciudad Alta y llegar a su casa evitando controles en la superficie. Su refugio contiene un espejo mágico vinculado a la Corte de las Hadas.
 
 También aparece transcripta como Nixara, Xiomara o Ciómara, pero el nombre canónico es Nyxara.
+
+### El Agarto
+
+**Capítulos:** 22
+
+Figura de peso dentro de El Velado. El grupo lo conoce durante la prueba de los espejos y la negociación clandestina para obtener respaldo en la Ciudad Alta.
+
+Se interesa por los secretos que el grupo trae desde las cuevas y los túneles bajo la ciudad. A cambio de información sobre criaturas, actividad subterránea y hallazgos peligrosos, ofrece respaldo, información y acceso a saberes prohibidos. También aparece asociado a un taller donde circulan tecnología antigua fragmentada y alquimia.
+
+Puede aparecer mencionado de forma ambigua como Guazo, Lagarto Juancho o Lagarto, pero por ahora queda registrado como El Agarto.
 
 ### Nair Kules
 
@@ -418,7 +428,7 @@ Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDu
 
 ### Lucen VanDuren, El Pichón
 
-**Capítulos:** 7, 12, 13, 14, 18, 19
+**Capítulos:** 7, 12, 13, 14, 18, 19, 22
 
 Sobrino de Redgar VanDuren y heredero indirecto de la forja. Delerion logró convencerlo de contratarlo, junto con Ernesto, como tutor mágico. Desapareció durante el incendio y el caos en **El Cuenco de Carbón**.
 
@@ -426,7 +436,7 @@ En el Barrio Exterior, el grupo sigue buscando pistas sobre su paradero y sobre 
 
 En la escalera hacia la Ciudad Alta, aparece vivo, curado y vestido como noble, pero bajo control enemigo. El grupo lo libera durante el combate y Adler salva su vida tras una descarga del cañón mecánico del artífice.
 
-Al llegar a la Ciudad Alta, guía al grupo hacia refugios más discretos y recomienda evitar su mansión familiar por temor a vigilancia, trampas o contactos comprometidos.
+Al llegar a la Ciudad Alta, guía al grupo hacia refugios más discretos y recomienda evitar su mansión familiar por temor a vigilancia, trampas o contactos comprometidos. Más adelante explica al grupo la prueba de los tres espejos vinculada a El Velado.
 
 ### La mujer marcada
 
@@ -444,7 +454,7 @@ Desconocido con sombrero de ala ancha que aborda a Ernesto en un callejón del D
 
 Menciona que el canto del metal es un legado de los tiempos aelorianos y advierte a Ernesto que la noche anterior vio a Borgar, Zafir y Arturo dirigiéndose hacia el este.
 
-## Entidades y deidades
+## Entidades, facciones y deidades
 
 ### Deneir
 
@@ -460,11 +470,19 @@ Sátiro feérico que Adler y Delerion encuentran en una colina del Bosque Antigu
 
 Es afable, musical y enigmático, pero está ligado a un entorno feérico inquietante y peligroso.
 
-### Corte de las Alas
+### El Velado
 
-**Capítulos:** 21
+**Capítulos:** 22
 
-Entidad o facción feérica vinculada al espejo mágico del refugio de Nyxara. Sus reflejos muestran presencias, advertencias y vínculos que no pertenecen del todo al plano ordinario.
+Red clandestina de la Ciudad Alta basada en favores, secretos, información y comercio oculto. Funciona como contraparte subterránea del sistema legal de permisos y licencias.
+
+El grupo se acerca a El Velado para conseguir respaldo y legitimidad, pero descubre que su ayuda exige entregar secretos o favores. La red está vinculada a espejos que detectan secretos, tecnología antigua fragmentada, alquimia y saberes prohibidos.
+
+### Corte de las Hadas
+
+**Capítulos:** 3, 5, 6, 21
+
+Poder feérico vinculado a los antiguos pactos entre los hombres del norte y fuerzas del otro lado del velo. Su influencia aparece en el Bosque Antiguo, en el Templo del Círculo Eterno, en la cueva de cristales y en el espejo mágico del refugio de Nyxara.
 
 ### Proyección feérica
 
