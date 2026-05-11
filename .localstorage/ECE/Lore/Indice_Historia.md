@@ -298,7 +298,7 @@ Archivo: `Lore/Capitulos/23_La_licencia_de_mercenario.md`
 - El trámite exige retratos certificados por un artista autorizado
 - El grupo busca al Maestro Valerian en la posada de Calis de Bruma
 - Valerian realiza los retratos oficiales tras negociar el precio
-- Surgen noticias públicas sobre Víctor Salazar y el diario local
+- Surgen noticias públicas sobre Viktor Salazar y el diario local
 - El grupo queda listo para continuar el trámite con respaldo, documentación y retratos
 
 ## Capítulo 24: Cassian Balté Castimiro

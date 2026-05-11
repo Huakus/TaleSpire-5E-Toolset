@@ -54,11 +54,11 @@ Valerian trabaja con rapidez y habilidad.
 
 Los retratos quedan listos como parte del registro oficial.
 
-### Surgen noticias públicas sobre Víctor Salazar y el diario local
+### Surgen noticias públicas sobre Viktor Salazar y el diario local
 
 Durante la interacción con Valerian y el entorno de la posada, también aparecen menciones a noticias recientes y al diario local.
 
-Entre los nombres que circulan surge **Víctor Salazar**, vinculado a hechos públicos que todavía resuenan en la ciudad.
+Entre los nombres que circulan surge **Viktor Salazar**, vinculado a hechos públicos que todavía resuenan en la ciudad.
 
 La información no resuelve la situación inmediata, pero recuerda que la Ciudad Alta está llena de relatos superpuestos: lo que ocurre en secreto bajo la superficie convive con lo que se publica, se comenta y se manipula en espacios visibles.
 
