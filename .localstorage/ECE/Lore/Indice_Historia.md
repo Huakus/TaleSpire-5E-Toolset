@@ -309,7 +309,7 @@ Archivo: `Lore/Capitulos/24_Cassian_Balte_Castimiro.md`
 - Cassian queda establecido como posible aliado o intermediario
 - Cassian conecta la presión sobre los gremios, la Orden Carmesí y la ciudad legal
 - El grupo evalúa asegurar el edificio del gremio ante posibles ataques o infiltraciones
-- Gregorio y Heladio intentan huir y el grupo los contrata para enviarlos al norte
+- Gregorio y Eladio intentan huir y el grupo los contrata para enviarlos al norte
 
 ## Capítulo 25: La llave oxidada y el combate del cementerio
 Archivo: `Lore/Capitulos/25_La_llave_oxidada_y_el_combate_del_cementerio.md`

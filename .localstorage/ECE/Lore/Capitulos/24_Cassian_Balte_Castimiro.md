@@ -16,7 +16,7 @@ Al llegar, presencia una discusión entre figuras del templo y un peregrino. La 
 
 Durante la visita, surge información vinculada a la **Orden Carmesí**.
 
-El nombre de **Víctor Salazar** vuelve a aparecer asociado a esos hechos. Su asesinato queda relacionado con la Orden Carmesí, el Reino del Sur y sectores que intentan controlar la información dentro de la Ciudad Alta.
+El nombre de **Viktor Salazar** vuelve a aparecer asociado a esos hechos. Su asesinato queda relacionado con la Orden Carmesí, el Reino del Sur y sectores que intentan controlar la información dentro de la Ciudad Alta.
 
 ### Cassian queda establecido como posible aliado o intermediario
 
@@ -42,12 +42,12 @@ La desaparición de figuras clave, la vigilancia creciente y los movimientos de 
 
 El grupo toma medidas para proteger sus intereses y evitar ataques, infiltraciones o maniobras de terceros.
 
-### Gregorio y Heladio intentan huir y el grupo los contrata para enviarlos al norte
+### Gregorio y Eladio intentan huir y el grupo los contrata para enviarlos al norte
 
-Mientras tanto, en la plaza de la ciudad, se desarrolla un conflicto que involucra a **Gregorio**, **Heladio** y un grupo de navegantes.
+Mientras tanto, en la plaza de la ciudad, se desarrolla un conflicto que involucra a **Gregorio**, **Eladio** y un grupo de navegantes.
 
-**Heladio** y **Gregorio** quieren huír de la ciudad, pero los navegantes se niegan a llevarlos al Reino del Este, de donde son oriundos.
+**Eladio** y **Gregorio** quieren huir de la ciudad, pero los navegantes se niegan a llevarlos al Reino del Este, de donde son oriundos.
 
-El grupo evalúa la posibilidad de contratarlos, aunque con cautela. Sus necesidades puede convertirlos en un recurso útil, pero también en una fuente de problemas.
+El grupo evalúa la posibilidad de contratarlos, aunque con cautela. Sus necesidades pueden convertirlos en un recurso útil, pero también en una fuente de problemas.
 
 Al final determinan contratarlos y enviarlos al norte, donde serán empleados como mercenarios a la orden del gobernador de Valverde del Río.
