@@ -1,36 +1,4 @@
-diff --git a/.localstorage/ECE/Lore/Personajes.md b/.localstorage/ECE/Lore/Personajes.md
---- a/.localstorage/ECE/Lore/Personajes.md
-+++ b/.localstorage/ECE/Lore/Personajes.md
-@@
--**Capítulos:** 16, 18, 25, 26
-+**Capítulos:** 16, 18, 25, 26, 27
-@@
--Su intervención en el cementerio provoca la detención de Adler y confirma ante el grupo que el incidente está conectado con la Orden Carmesí.
-+Su intervención en el cementerio provoca la detención de Adler y confirma ante el grupo que el incidente está conectado con la Orden Carmesí. Tras reagruparse en la casa de Nyxara, el grupo vuelve a señalarlo como una pieza central de las instalaciones ocultas bajo la ciudad.
-@@
--**Capítulos:** 5, 7, 13
-+**Capítulos:** 5, 7, 13, 27
-@@
- En el Barrio Exterior vuelve a aparecer cerca del entramado del Gremio de Comerciantes, interesada en rutas, favores, prisioneros y contactos.
-+
-+En la casa de Nyxara, reaparece tras el escape del ayuntamiento e insiste en que el grupo debe rescatar a Petro esa misma noche. Varka logra descubrir que Mercion tiene sentimientos por Petro.
-@@
--**Capítulos:** 7, 18
-+**Capítulos:** 7, 18, 27
-@@
- Petro asesinó a Redgar VanDuren durante el caos en **El Cuenco de Carbón**. Bánic revela antes de ser ejecutado que Petro es hijo legítimo de Redgar VanDuren, vinculado al control del gremio de artesanos y a secretos de la forja. Los enemigos planeaban usar la entrega de Petro a la guardia como distracción.
-+
-+En la Ciudad Alta, Mercion revela que Petro está cautivo en una mansión y que, si el grupo no lo rescata esa misma noche, probablemente morirá.
-@@
--**Capítulos:** 19, 20, 21, 22, 23, 26
-+**Capítulos:** 19, 20, 21, 22, 23, 26, 27
-@@
--Tras el escape de Adler y Varka del ayuntamiento, el grupo vuelve a reagruparse en su casa.
-+Tras el escape de Adler y Varka del ayuntamiento, el grupo vuelve a reagruparse en su casa, que funciona nuevamente como punto seguro para descansar, reorganizarse y planear los siguientes movimientos.
-@@
--**Capítulos:** 6, 15, 16, 18, 24, 25, 26
-+**Capítulos:** 6, 15, 16, 18, 24, 25, 26, 27
-@@
- En el ayuntamiento, el ritualista reconoce a Varka durante el juicio de Adler y ordena su arresto, confirmando que la Orden Carmesí mantiene influencia directa sobre la respuesta oficial al incidente del cementerio.
-+
-+Tras la reagrupación en la casa de Nyxara, el grupo vuelve a conectar a la Orden Carmesí con posibles laboratorios, túneles e instalaciones ocultas bajo la Ciudad Alta.
+diff --git a/Personajes.md b/Personajes.md
+--- a/Personajes.md
++++ b/Personajes.md
+@@ -1,1 +1,1 @@
