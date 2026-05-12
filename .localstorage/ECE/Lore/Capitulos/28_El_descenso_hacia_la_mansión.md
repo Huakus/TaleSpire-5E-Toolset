@@ -140,7 +140,7 @@ Luego se coloca en el centro de un círculo dibujado en el suelo. El círculo co
 
 El grupo entiende que se trata de un círculo de teletransportación.
 
-### La decisión de atacar
+### La decisión de atacar a Severino
 
 La situación obliga al grupo a decidir rápido.
 

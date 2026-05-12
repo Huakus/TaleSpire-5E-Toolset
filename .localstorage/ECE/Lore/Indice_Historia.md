@@ -358,6 +358,6 @@ Archivo: `Lore/Capitulos/28_El_descenso_hacia_la_mansión.md`
 - El pasillo de las trampas
 - Martita explora
 - El hueco hacia la sala lateral
-- La decisión de atacar
+- La decisión de atacar a Severino
 - El salto hacia Severino
 
