@@ -33,10 +33,10 @@
     "initiativeButton":  "+3",
     "AC":  "16",
     "speed":  "35ft.",
-    "characterLevel":  "8",
-    "playerXP":  "34000",
+    "characterLevel":  "9",
+    "playerXP":  "48000",
     "playerClass":  "ClÃ©rigo (SubClass)",
-    "currentCharacterHP":  "55",
+    "currentCharacterHP":  "50",
     "maxCharacterHP":  "55",
     "strengthScore":  "15",
     "dexterityScore":  "16",
@@ -130,7 +130,7 @@
                                       "secondColumn":  "Mace of Disruption",
                                       "itemId":  "item-1746080097005-1ea53dc2",
                                       "thirdColumn":  "5ft",
-                                      "fourthColumn":  "+5",
+                                      "fourthColumn":  "+6",
                                       "fifthColumn":  "1d6/2d6",
                                       "sixthColumn":  "ActionSettings",
                                       "seventhColumn":  "FUE",
@@ -819,7 +819,7 @@
                                "notes":  [
                                              {
                                                  "noteTitle":  "inventario auxiliar",
-                                                 "noteContent":  "un sÃ­mbolo sagrado.\nDiamante para revivir\n0 raciones\nantÃ­doto\nemaablema de contrabandista \nbrazalete de ilusiÃ³n menor\ngemas 150 de oro\nposiones de cuaraciÃ³n 2\npiedra de foco divino\nLibro de los caballerossa\n740 de oro\n1120 de plata\n430 cobre\n9 de fragmentos de cristales \n3 cristales inestables \n2 pociones de curaciÃ³n mayor\ncollar con 3 cargas de bola de fuego\ntomo de la Zona luciente\nTodo de ur narkam\ncorazÃ³n de Ku rash\n"
+                                                 "noteContent":  "un sÃ­mbolo sagrado.\nDiamante para revivir\n0 raciones\nantÃ­doto\nemaablema de contrabandista \nbrazalete de ilusiÃ³n menor\ngemas 150 de oro\nposiones de cuaraciÃ³n 1\npiedra de foco divino\nLibro de los caballerossa\n740 de oro\n1120 de plata\n430 cobre\n9 de fragmentos de cristales \n3 cristales inestables \n2 pociones de curaciÃ³n mayor\ncollar con 3 cargas de bola de fuego\ntomo de la Zona luciente\nTodo de ur narkam\ncorazÃ³n de Ku rash\n"
                                              }
                                          ]
                            },
