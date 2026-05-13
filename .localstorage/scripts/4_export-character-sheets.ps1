@@ -298,10 +298,6 @@ function Invoke-ExportCharacterSheetsOnce {
             Write-Log ("ELIMINADA hoja obsoleta: {0}" -f $file.Name)
         }
     }
-
-    if (-not $Quiet -and $changedCount -eq 0 -and $removedCount -eq 0) {
-        Write-Log 'Hojas de personaje actualizadas. No hay cambios.'
-    }
 }
 
 # ============================================================
