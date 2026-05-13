@@ -208,30 +208,6 @@
                                                            "prepared":  "1"
                                                        },
                                                        {
-                                                           "name":  "Texto ilusorio",
-                                                           "prepared":  "0"
-                                                       },
-                                                       {
-                                                           "name":  "Hechizar persona",
-                                                           "prepared":  "0"
-                                                       },
-                                                       {
-                                                           "name":  "Mal de ojo",
-                                                           "prepared":  "0"
-                                                       },
-                                                       {
-                                                           "name":  "ProtecciÃ³n contra el bien y el mal",
-                                                           "prepared":  "0"
-                                                       },
-                                                       {
-                                                           "name":  "ReprensiÃ³n infernal",
-                                                           "prepared":  "0"
-                                                       },
-                                                       {
-                                                           "name":  "Retirada expeditiva",
-                                                           "prepared":  "0"
-                                                       },
-                                                       {
                                                            "name":  "Sirviente invisible",
                                                            "prepared":  "0"
                                                        },
