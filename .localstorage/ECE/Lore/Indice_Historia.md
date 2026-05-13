@@ -349,15 +349,15 @@ Archivo: `Lore/Capitulos/27_La_reagrupación_en_la_casa_de_Siomara.md`
 ## Capítulo 28: El descenso hacia la mansión
 Archivo: `Lore/Capitulos/28_El_descenso_hacia_la_mansión.md`
 
-- La decisión de rescatar a Petro
-- El regreso a las cloacas
-- El mausoleo conectado
-- La ruta bajo tierra
-- Los muertos de las catacumbas
-- La palanca
-- El pasillo de las trampas
-- Martita explora
-- El hueco hacia la sala lateral
-- La decisión de atacar a Severino
-- El salto hacia Severino
+- Mercion convence al grupo de actuar por Petro
+- Las cloacas vuelven a estar infestadas
+- Una tumba antigua conecta con las cloacas
+- El grupo elige avanzar bajo la mansión
+- Adler expulsa a los no-muertos de las catacumbas
+- Stix Ernesto traba el mecanismo de la puerta
+- Trampas espirituales bloquean el avance
+- Martita descubre una sala demasiado peligrosa
+- Martita localiza a Severino bajo la mansión
+- El grupo decide emboscar a Severino
+- La teletransportación y el asesinato de Severino
 
