@@ -1,0 +1,689 @@
+{
+    "characterTempHp": "",
+    "currentHitDice": "0",
+    "insp": 0,
+    "upcastToggle": 1,
+    "exhaustionToggle": 0,
+    "playerWeaponProficiency": [
+        "Arma Simple",
+        "Daga",
+        "Bastón",
+        "Ballesta Ligera",
+        "Dardo",
+        "Arco corto",
+        "Honda",
+        "Espada Larga",
+        "Espada Corta",
+        "Arco largo"
+    ],
+    "playerArmorProficiency": [
+        "Liviano"
+    ],
+    "playerLanguageProficiency": [
+        "Comun",
+        "Elfo",
+        "Dracónico",
+        "Sylvano"
+    ],
+    "playerToolsProficiency": [
+        "Kit de Herbalismo"
+    ],
+    "initiativeButton": "+3",
+    "AC": "17",
+    "speed": "30ft.",
+    "characterLevel": "9",
+    "playerXP": "48840",
+    "playerClass": "Semielfa Bruja\n(Archihada - Ermitaña - [pacto])",
+    "currentCharacterHP": "70",
+    "maxCharacterHP": "70",
+    "strengthScore": "8",
+    "dexterityScore": "16",
+    "constitutionScore": "16",
+    "intelligenceScore": "8",
+    "wisdomScore": "12",
+    "charismaScore": "20",
+    "acrobaticsMod": "DES",
+    "animalHandlingMod": "SAB",
+    "arcanaMod": "INT",
+    "athleticsMod": "FUE",
+    "deceptionMod": "CAR",
+    "historyMod": "INT",
+    "insightMod": "SAB",
+    "intimidationMod": "CAR",
+    "investigationMod": "INT",
+    "medicineMod": "SAB",
+    "natureMod": "INT",
+    "perceptionMod": "SAB",
+    "performanceMod": "CAR",
+    "persuasionMod": "CAR",
+    "religionMod": "INT",
+    "sleightofHandMod": "DES",
+    "stealthMod": "DES",
+    "survivalMod": "SAB",
+    "": 1,
+    "hitDiceButton": "0d8",
+    "pb-1": 0,
+    "pb-2": 0,
+    "pb-3": 1,
+    "pb-4": 0,
+    "pb-5": 2,
+    "pb-6": 0,
+    "pb-7": 0,
+    "pb-8": 1,
+    "pb-9": 0,
+    "pb-10": 1,
+    "pb-11": 0,
+    "pb-12": 0,
+    "pb-13": 0,
+    "pb-14": 2,
+    "pb-15": 1,
+    "pb-16": 0,
+    "pb-17": 0,
+    "pb-18": 0,
+    "pb-19": 0,
+    "pb-20": 0,
+    "pb-21": 0,
+    "pb-22": 0,
+    "pb-23": 1,
+    "pb-24": 1,
+    "conditions": [],
+    "coins": {
+        "cp": 45,
+        "sp": 0,
+        "ep": 0,
+        "gp": 0,
+        "pp": 0
+    },
+    "alignment": "TN",
+    "actionTable": [
+        {
+            "1": {
+                "proficiencyButton": "1",
+                "secondColumn": "Ballesta ligera",
+                "itemId": "item-1758681798905-3cdf7d65",
+                "thirdColumn": "80ft/320ft",
+                "fourthColumn": "+3",
+                "fifthColumn": "1d8",
+                "sixthColumn": "ActionSettings",
+                "seventhColumn": "FUE",
+                "weaponType": "Cuerpo a cuerpo",
+                "eighthColumn": "",
+                "damageBonus": "",
+                "tenthColumn": "Munición, De carga, Dos manos",
+                "elventhColumn": "Un arma pequeña, de alcance con una sola mano, que dispara rayos con gran precisión, a menudo preferida por su facilidad de uso y portabilidad.",
+                "twelvethColumn": "Perforante",
+                "ninthColumn": {
+                    "attacks": false,
+                    "actions": false,
+                    "bonus-actions": false,
+                    "reactions": false,
+                    "other": false
+                }
+            }
+        },
+        {
+            "2": {
+                "proficiencyButton": "1",
+                "secondColumn": "Daga +3",
+                "itemId": "item-1761528715784-712e3eb2",
+                "thirdColumn": "5ft - 20/60ft",
+                "fourthColumn": "+10",
+                "fifthColumn": "1d4+1d6",
+                "sixthColumn": "ActionSettings",
+                "seventhColumn": "DES",
+                "weaponType": "Cuerpo a cuerpo",
+                "eighthColumn": "3",
+                "damageBonus": "3",
+                "tenthColumn": "Sutil, Ligero, Arrojadiza, Monje",
+                "elventhColumn": "Una daga es un arma cuerpo a cuerpo pequeña y versátil con una hoja puntiaguda, ideal para apuñalar o lanzar.",
+                "twelvethColumn": "Perforante",
+                "ninthColumn": {
+                    "attacks": true,
+                    "actions": true,
+                    "bonus-actions": false,
+                    "reactions": false,
+                    "other": false
+                }
+            }
+        },
+        {
+            "3": {
+                "proficiencyButton": "1",
+                "secondColumn": "Eldricht blast 1",
+                "thirdColumn": "120ft",
+                "fourthColumn": "+9",
+                "fifthColumn": "1d10",
+                "sixthColumn": "ActionSettings",
+                "seventhColumn": "CAR",
+                "weaponType": "Mágico",
+                "eighthColumn": "0",
+                "damageBonus": "0",
+                "tenthColumn": "Eldricht blast",
+                "elventhColumn": "Eldricht blast + Explosion agonizante + empujon repelente",
+                "twelvethColumn": "Magico",
+                "ninthColumn": {
+                    "attacks": true,
+                    "actions": true,
+                    "bonus-actions": false,
+                    "reactions": false,
+                    "other": false
+                }
+            }
+        }
+    ],
+    "spellData": {
+        "spellcastingModifier": "CHA",
+        "spelllevelselected": "5",
+        "Cantrip": {
+            "spells": [
+                {
+                    "name": "Amigos",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Cuchilla protectora",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Estallido Arcano",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Ilusión menor",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Impacto verdadero",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Mano de mago",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Prestidigitación",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Rociada venenosa",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Toque helado",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Congelación",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Crear hoguera",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Infestación",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Piedra mágica",
+                    "prepared": "false"
+                },
+                {
+                    "name": "Llamar a los muertos",
+                    "prepared": "false"
+                }
+            ],
+            "slots": []
+        },
+        "1st-level": {
+            "spells": [
+                {
+                    "name": "Armadura de Agathys",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Brazos de Hadar",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Entender idiomas",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Texto ilusorio",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Hechizar persona",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Mal de ojo",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Protección contra el bien y el mal",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Reprensión infernal",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Retirada expeditiva",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Sirviente invisible",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Virote encantado",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Causar miedo",
+                    "prepared": "0"
+                }
+            ],
+            "slots": [
+                false,
+                false
+            ]
+        },
+        "2nd-level": {
+            "spells": [
+                {
+                    "name": "Cautivar",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Corona de locura",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Atar a la tierra",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Espina mental",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Hoja de sombra",
+                    "prepared": "0"
+                }
+            ],
+            "slots": []
+        },
+        "3rd-level": {
+            "spells": [
+                {
+                    "name": "Círculo mágico",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Contrahechizo",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Disipar magia",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Don de lenguas",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Forma gaseosa",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Hambre de Hadar",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Imagen mayor",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Terror",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Patrón hipnótico",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Levantar maldición",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Toque vampírico",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Volar",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Enemigos abundantes",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Invocar demonios menores",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Paso atronador",
+                    "prepared": "0"
+                }
+            ],
+            "slots": []
+        },
+        "4th-level": {
+            "spells": [
+                {
+                    "name": "Destierro",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Marchitar",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Puerta dimensional",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Terreno alucinatorio",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Hechizar Monstruo",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Invocar demonio mayor",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Perdición elemental",
+                    "prepared": "0"
+                },
+                {
+                    "name": "Resplandor enfermizo",
+                    "prepared": "1"
+                },
+                {
+                    "name": "Sombra de moil",
+                    "prepared": "0"
+                }
+            ],
+            "slots": []
+        },
+        "5th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "6th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "7th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "8th-level": {
+            "spells": [],
+            "slots": []
+        },
+        "9th-level": {
+            "spells": [],
+            "slots": []
+        }
+    },
+    "inventoryData": {
+        "equipment": [
+            {
+                "name": "Armadura de Cuero",
+                "uniqueId": "item-1758676564790-f2f0a39a",
+                "quantity": 1,
+                "weight": 10,
+                "cost": "10 gp",
+                "equipped": false
+            },
+            {
+                "name": "Ballesta ligera",
+                "uniqueId": "item-1758681798905-3cdf7d65",
+                "quantity": 1,
+                "weight": 5,
+                "cost": "25 gp",
+                "equipped": true
+            },
+            {
+                "name": "Daga +3",
+                "uniqueId": "item-1761528715784-712e3eb2",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "2 gp",
+                "equipped": true
+            },
+            {
+                "name": "Armadura de Cuero",
+                "uniqueId": "item-1758676564790-f2f0a39a",
+                "quantity": 1,
+                "weight": 10,
+                "cost": "10 gp",
+                "equipped": true
+            },
+            {
+                "name": "Ballesta ligera",
+                "uniqueId": "item-1758681798905-3cdf7d65",
+                "quantity": 1,
+                "weight": 5,
+                "cost": "25 gp",
+                "equipped": true
+            },
+            {
+                "name": "Daga +3",
+                "uniqueId": "item-1761528715784-712e3eb2",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "2 gp",
+                "equipped": true
+            },
+            {
+                "name": "Capa con runas",
+                "uniqueId": "item-1756659266075-4b0928c6",
+                "quantity": 1,
+                "weight": 5,
+                "cost": "0 cp"
+            },
+            {
+                "name": "Orbe",
+                "uniqueId": "item-1756660760382-82ed676b",
+                "quantity": 1,
+                "weight": 3,
+                "cost": "20 gp"
+            },
+            {
+                "name": "Bastón de Acelerar",
+                "uniqueId": "item-1756663384324-9b6c8ddb",
+                "quantity": 1,
+                "weight": 4,
+                "cost": "20 gp",
+                "equipped": true
+            },
+            {
+                "name": "Poción de curación",
+                "uniqueId": "item-1756666284136-db46bf3d",
+                "quantity": 2,
+                "weight": 1,
+                "cost": "50 gp",
+                "useable": true
+            },
+            {
+                "name": "Varita de Armadura de Mago",
+                "uniqueId": "item-1756670608780-0e699639",
+                "quantity": 1,
+                "weight": 0.2,
+                "cost": "2000 gp",
+                "equipped": false,
+                "currentCharges": 3
+            },
+            {
+                "name": "Túnica de Agati",
+                "uniqueId": "item-1756671255752-9730fb1f",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "15000 gp",
+                "equipped": true
+            },
+            {
+                "name": "Armadura de Cuero",
+                "uniqueId": "item-1758676564790-f2f0a39a",
+                "quantity": 1,
+                "weight": 10,
+                "cost": "10 gp",
+                "equipped": false
+            },
+            {
+                "name": "Ballesta ligera",
+                "uniqueId": "item-1758681798905-3cdf7d65",
+                "quantity": 1,
+                "weight": 5,
+                "cost": "25 gp",
+                "equipped": true
+            },
+            {
+                "name": "Daga +3",
+                "uniqueId": "item-1761528715784-712e3eb2",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "2 gp",
+                "equipped": true
+            },
+            {
+                "name": "Armadura de Cuero",
+                "uniqueId": "item-1758676564790-f2f0a39a",
+                "quantity": 1,
+                "weight": 10,
+                "cost": "10 gp",
+                "equipped": true
+            },
+            {
+                "name": "Ballesta ligera",
+                "uniqueId": "item-1758681798905-3cdf7d65",
+                "quantity": 1,
+                "weight": 5,
+                "cost": "25 gp",
+                "equipped": true
+            },
+            {
+                "name": "Daga +3",
+                "uniqueId": "item-1761528715784-712e3eb2",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "2 gp",
+                "equipped": true
+            }
+        ],
+        "backpack": [
+            {
+                "name": "Antorcha",
+                "uniqueId": "item-1758680577847-d4e859e6",
+                "quantity": 10,
+                "weight": 10,
+                "cost": "1 cp"
+            },
+            {
+                "name": "Kit de herbolario",
+                "uniqueId": "item-1758682778985-854d98ca",
+                "quantity": 1,
+                "weight": 3,
+                "cost": "5 gp"
+            },
+            {
+                "name": "Daga",
+                "uniqueId": "item-1759104875248-7b14367d",
+                "quantity": 1,
+                "weight": 1,
+                "cost": "2 gp",
+                "equipped": true
+            }
+        ],
+        "other-possessions": [],
+        "attunement": []
+    },
+    "groupTraitData": [
+        {
+            "group-title": "Invocaciones",
+            "group-chevron": false,
+            "traits": [
+                {
+                    "traitName": "Explosion agonizante",
+                    "cheveron": false,
+                    "traitDescription": "AL lanzar Eldricht Blast, se añade el modificador de carisma al daño de cada rayo que impacte. El bono se aplica por rayo, no una vez. ",
+                    "checkboxStates": [],
+                    "numberOfUses": "0",
+                    "adjustmentCategory": "None",
+                    "adjustmentSubCategory": "",
+                    "adjustmentAbility": "NONE",
+                    "adjustmentValue": "0",
+                    "resetType": "none"
+                },
+                {
+                    "traitName": "Empujon repelente",
+                    "cheveron": false,
+                    "traitDescription": "Cuando impacta a una criatura con Eldricht Blast puede empujarla hasta 3 metros (10 pies) en linea recta lejos de tu posicion. No hay tirada de salvacion. ",
+                    "checkboxStates": [],
+                    "numberOfUses": "0",
+                    "adjustmentCategory": "None",
+                    "adjustmentSubCategory": "",
+                    "adjustmentAbility": "NONE",
+                    "adjustmentValue": "0",
+                    "resetType": "none"
+                },
+                {
+                    "traitName": "Vision del Diablo",
+                    "cheveron": false,
+                    "traitDescription": "Se puede ver en la oscuridad, tanto mágica como no mágica, hasta 36 metros (120 pies)",
+                    "checkboxStates": [],
+                    "numberOfUses": "0",
+                    "adjustmentCategory": "None",
+                    "adjustmentSubCategory": "",
+                    "adjustmentAbility": "NONE",
+                    "adjustmentValue": "0",
+                    "resetType": "none"
+                },
+                {
+                    "traitName": "Forma de las Sombras",
+                    "cheveron": false,
+                    "traitDescription": "Requisito: ninguno. Se puede lanzar \"Invisibilidad\" a voluntad, sin gastar espacios de conjuro, siempre que estes en penumbra u oscuridad. Requiere condiciones de luz adecuadas",
+                    "checkboxStates": [],
+                    "numberOfUses": "0",
+                    "adjustmentCategory": "None",
+                    "adjustmentSubCategory": "",
+                    "adjustmentAbility": "NONE",
+                    "adjustmentValue": "0",
+                    "resetType": "none"
+                },
+                {
+                    "traitName": "Mil caras",
+                    "cheveron": false,
+                    "traitDescription": "Disfraz a voluntad, sin gastar espacios de conjuro. Una hora por uso",
+                    "checkboxStates": [],
+                    "numberOfUses": "0",
+                    "adjustmentCategory": "None",
+                    "adjustmentSubCategory": "",
+                    "adjustmentAbility": "NONE",
+                    "adjustmentValue": "0",
+                    "resetType": "none"
+                }
+            ]
+        }
+    ],
+    "groupNotesData": [],
+    "extrasData": []
+}
