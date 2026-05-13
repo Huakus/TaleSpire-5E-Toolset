@@ -186,19 +186,19 @@ try {
     $syncProcess = Start-PowerShellWorker `
         -Title 'Toolset Git Sync' `
         -ScriptPath $SyncToolsetScript `
-        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
 
     # 2. Arranca el exportador de hojas como worker independiente.
     $exportProcess = Start-PowerShellWorker `
         -Title 'Character Sheets Export' `
         -ScriptPath $ExportCharacterSheetsScript `
-        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
 
     # 3. Arranca el generador de indice de historia como worker independiente.
     $historyIndexProcess = Start-PowerShellWorker `
         -Title 'History Index Generator' `
         -ScriptPath $GenerateHistoryIndexScript `
-        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
 
     $backgroundWorkers = @(
         @{ Name = '5_sync-toolset-git.ps1'; Process = $syncProcess },
