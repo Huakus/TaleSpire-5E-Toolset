@@ -339,12 +339,12 @@ Archivo: `Lore/Capitulos/26_Adler_vs_el_ayuntamiento.md`
 ## Capítulo 27: La reagrupación en la casa de Nyxara
 Archivo: `Lore/Capitulos/27_La_reagrupación_en_la_casa_de_Siomara.md`
 
-- La retirada
-- Camino al refugio
-- La situación de Adler
-- Nuevas sospechas
-- La búsqueda de aliados
-- El descanso y la planificación
+- Huida tras el rescate de Adler
+- El regreso cauteloso al refugio de Nyxara
+- Adler queda expuesto ante la guardia de la Ciudad Alta
+- Severino, el mausoleo y la pista de la Orden Carmesí
+- Mercion revela la urgencia de rescatar a Petro
+- Descanso breve antes de la incursión
 
 ## Capítulo 28: El descenso hacia la mansión
 Archivo: `Lore/Capitulos/28_El_descenso_hacia_la_mansión.md`
