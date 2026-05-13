@@ -201,11 +201,11 @@
                                         "spells":  [
                                                        {
                                                            "name":  "Armadura de Agathys",
-                                                           "prepared":  "0"
+                                                           "prepared":  "1"
                                                        },
                                                        {
                                                            "name":  "Brazos de Hadar",
-                                                           "prepared":  "0"
+                                                           "prepared":  "1"
                                                        },
                                                        {
                                                            "name":  "Entender idiomas",
