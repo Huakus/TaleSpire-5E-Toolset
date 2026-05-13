@@ -300,7 +300,7 @@
                                                        },
                                                        {
                                                            "name":  "Volar",
-                                                           "prepared":  "0"
+                                                           "prepared":  "1"
                                                        },
                                                        {
                                                            "name":  "Enemigos abundantes",
