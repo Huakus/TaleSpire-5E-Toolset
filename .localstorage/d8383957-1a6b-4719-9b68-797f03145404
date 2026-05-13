@@ -1656,7 +1656,7 @@
                     "spells": [
                         {
                             "name": "Destierro",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Marchitar",
@@ -1676,7 +1676,7 @@
                         },
                         {
                             "name": "Invocar demonio mayor",
-                            "prepared": "0"
+                            "prepared": "1"
                         },
                         {
                             "name": "Perdición elemental",
