@@ -1551,6 +1551,10 @@
                         {
                             "name": "Causar miedo",
                             "prepared": "0"
+                        },
+                        {
+                            "name": "Reprensión infernal",
+                            "prepared": "0"
                         }
                     ],
                     "slots": [
