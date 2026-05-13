@@ -1,23 +1,20 @@
 <#
 .SYNOPSIS
-Orquesta el lanzamiento de TaleSpire y ejecuta el mantenimiento del Toolset en un tick central.
+Orquesta el lanzamiento de TaleSpire y los workers del Toolset.
 
 .DESCRIPTION
-Responsabilidades:
-- Abrir TaleSpire mediante 3_start-talespire.ps1.
-- Esperar a que el proceso TaleSpire exista.
-- Mientras TaleSpire este abierto, ejecutar un unico tick ordenado:
-  1. 4_export-character-sheets.ps1 -RunOnce -Quiet
-  2. 7_generate-history-index.ps1 -RunOnce -Quiet
-  3. 5_sync-toolset-git.ps1 -RunOnce -Quiet
-- Loguear puntos durante ticks sin cambios.
-- Mantener logs relevantes solamente ante cambios, warnings o errores.
+Este script no hace sync, no exporta hojas, no genera indices y no abre TaleSpire directamente.
+Solo coordina scripts separados:
+- 5_sync-toolset-git.ps1: mantiene sincronizado el repo Toolset.
+- 4_export-character-sheets.ps1: exporta una hoja TXT por personaje.
+- 7_generate-history-index.ps1: genera Lore\Indice_Historia.md desde Lore\Capitulos.
+- 3_start-talespire.ps1: abre el juego.
+- 6_wait-talespire-close.ps1: espera a que TaleSpire cierre y crea una senal de stop.
+
+Los workers corren como procesos separados, compartiendo la misma consola.
 #>
 
 param(
-    [int]$TickSeconds = 10,
-    [string]$ProcessName = 'TaleSpire',
-    [int]$StartupTimeoutSeconds = 90,
     [switch]$NoPauseOnError
 )
 
@@ -29,13 +26,20 @@ $ErrorActionPreference = 'Stop'
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
+
 . $CommonLoggingScript
 Initialize-Logging -ScriptPath $PSCommandPath
+
+# Runtime fuera del repo.
+# No debe vivir dentro de .localstorage porque Git sincroniza esa carpeta.
+$RuntimeDir = Join-Path $env:TEMP 'talespire-toolset-runtime'
+$StopSignalFile = Join-Path $RuntimeDir 'stop-all.signal'
 
 $StartTaleSpireScript = Join-Path $ScriptDir '3_start-talespire.ps1'
 $SyncToolsetScript = Join-Path $ScriptDir '5_sync-toolset-git.ps1'
 $ExportCharacterSheetsScript = Join-Path $ScriptDir '4_export-character-sheets.ps1'
 $GenerateHistoryIndexScript = Join-Path $ScriptDir '7_generate-history-index.ps1'
+$WaitTaleSpireCloseScript = Join-Path $ScriptDir '6_wait-talespire-close.ps1'
 
 # ============================================================
 # Helpers
@@ -49,34 +53,32 @@ function Wait-BeforeExitOnError {
     }
 }
 
-function Assert-ScriptExists {
-    param([Parameter(Mandatory = $true)] [string]$Path)
-
+function Assert-ScriptExists([string]$Path) {
     if (-not (Test-Path -LiteralPath $Path)) {
         throw "No se encontro el script requerido: $Path"
     }
 }
 
-function Quote-Argument {
-    param([Parameter(Mandatory = $true)] [string]$Value)
-
+function Quote-Argument([string]$Value) {
     return '"' + ($Value -replace '"', '\"') + '"'
 }
 
-function Start-PowerShellScript {
+function Start-PowerShellWorker {
     param(
-        [Parameter(Mandatory = $true)] [string]$Title,
-        [Parameter(Mandatory = $true)] [string]$ScriptPath,
+        [string]$Title,
+        [string]$ScriptPath,
         [string[]]$ExtraArgs = @()
     )
 
     $args = @(
         '-NoProfile',
-        '-ExecutionPolicy', 'Bypass',
-        '-File', (Quote-Argument $ScriptPath)
+        '-ExecutionPolicy',
+        'Bypass',
+        '-File',
+        (Quote-Argument $ScriptPath)
     ) + $ExtraArgs
 
-    Write-Log ("Iniciando: {0}" -f $Title)
+    Write-Log ("Iniciando worker: {0}" -f $Title)
 
     return Start-Process `
         -FilePath 'powershell.exe' `
@@ -85,131 +87,197 @@ function Start-PowerShellScript {
         -PassThru
 }
 
+function Stop-WorkerIfAlive {
+    param(
+        [System.Diagnostics.Process]$Process,
+        [string]$Name
+    )
+
+    if ($Process -and -not $Process.HasExited) {
+        Write-Log ("Deteniendo worker: {0}" -f $Name)
+        $Process.Kill()
+        $Process.WaitForExit()
+    }
+}
+
 function Assert-ProcessExitCodeOk {
     param(
         [System.Diagnostics.Process]$Process,
-        [Parameter(Mandatory = $true)] [string]$ScriptName
+        [string]$ScriptName
     )
 
-    if (-not $Process) { return }
+    if (-not $Process) {
+        return
+    }
 
     $Process.Refresh()
 
-    if ($null -eq $Process.ExitCode) { return }
+    if ($null -eq $Process.ExitCode) {
+        return
+    }
 
     if ($Process.ExitCode -ne 0) {
         throw "{0} termino con codigo {1}." -f $ScriptName, $Process.ExitCode
     }
 }
 
-function Invoke-MaintenanceScript {
+function Assert-WorkersStillOk {
     param(
-        [Parameter(Mandatory = $true)] [string]$Name,
-        [Parameter(Mandatory = $true)] [string]$ScriptPath
+        [hashtable[]]$Workers
     )
 
-    if (-not (Test-Path -LiteralPath $ScriptPath)) {
-        throw "No se encontro el script requerido para el tick: $ScriptPath"
-    }
+    foreach ($worker in $Workers) {
+        $process = $worker.Process
+        $name = $worker.Name
 
-    $global:LASTEXITCODE = 0
-    & $ScriptPath -RunOnce -Quiet -NoPauseOnError
-
-    if ($LASTEXITCODE -and $LASTEXITCODE -ne 0) {
-        throw "{0} termino con codigo {1}." -f $Name, $LASTEXITCODE
-    }
-
-    $global:LASTEXITCODE = 0
-}
-
-function Invoke-MaintenanceTick {
-    Invoke-MaintenanceScript -Name 'Character Sheets Export' -ScriptPath $ExportCharacterSheetsScript
-    Invoke-MaintenanceScript -Name 'History Index Generator' -ScriptPath $GenerateHistoryIndexScript
-    Invoke-MaintenanceScript -Name 'Toolset Git Sync' -ScriptPath $SyncToolsetScript
-}
-
-function Wait-ForProcessStart {
-    param(
-        [Parameter(Mandatory = $true)] [string]$Name,
-        [Parameter(Mandatory = $true)] [int]$TimeoutSeconds
-    )
-
-    Write-Log ("Esperando proceso {0}..." -f $Name)
-
-    for ($i = 0; $i -lt $TimeoutSeconds; $i++) {
-        if (Get-Process -Name $Name -ErrorAction SilentlyContinue) {
-            Write-Log ("{0} detectado. Iniciando ticks de mantenimiento." -f $Name)
-            return $true
+        if (-not $process) {
+            continue
         }
 
-        Start-Sleep -Seconds 1
-    }
+        $process.Refresh()
 
-    return $false
+        if ($process.HasExited -and $process.ExitCode -ne 0) {
+            throw "{0} termino con codigo {1}." -f $name, $process.ExitCode
+        }
+    }
 }
 
-function Wait-OrBreakIfProcessClosed {
+function Wait-ProcessWithWorkerMonitoring {
     param(
-        [Parameter(Mandatory = $true)] [string]$Name,
-        [Parameter(Mandatory = $true)] [int]$Seconds
+        [System.Diagnostics.Process]$Process,
+        [string]$ScriptName,
+        [hashtable[]]$Workers = @(),
+        [int]$PollSeconds = 2
     )
 
-    for ($i = 0; $i -lt $Seconds; $i++) {
-        if (-not (Get-Process -Name $Name -ErrorAction SilentlyContinue)) {
-            return $false
-        }
-
-        Start-Sleep -Seconds 1
+    while (-not $Process.HasExited) {
+        Assert-WorkersStillOk -Workers $Workers
+        Start-Sleep -Seconds $PollSeconds
+        $Process.Refresh()
     }
 
-    return $true
+    Assert-ProcessExitCodeOk -Process $Process -ScriptName $ScriptName
 }
 
 # ============================================================
 # Flujo principal
 # ============================================================
 
-try {
-    if ($TickSeconds -lt 1) {
-        throw 'TickSeconds debe ser mayor o igual a 1.'
-    }
+$syncProcess = $null
+$exportProcess = $null
+$historyIndexProcess = $null
 
+try {
     Assert-ScriptExists $StartTaleSpireScript
     Assert-ScriptExists $SyncToolsetScript
     Assert-ScriptExists $ExportCharacterSheetsScript
     Assert-ScriptExists $GenerateHistoryIndexScript
+    Assert-ScriptExists $WaitTaleSpireCloseScript
 
-    $startProcess = Start-PowerShellScript `
+    if (-not (Test-Path -LiteralPath $RuntimeDir)) {
+        [void](New-Item -ItemType Directory -Force -Path $RuntimeDir)
+    }
+
+    if (Test-Path -LiteralPath $StopSignalFile) {
+        Remove-Item -LiteralPath $StopSignalFile -Force
+    }
+
+    # 1. Arranca el sync como worker independiente.
+    $syncProcess = Start-PowerShellWorker `
+        -Title 'Toolset Git Sync' `
+        -ScriptPath $SyncToolsetScript `
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+
+    # 2. Arranca el exportador de hojas como worker independiente.
+    $exportProcess = Start-PowerShellWorker `
+        -Title 'Character Sheets Export' `
+        -ScriptPath $ExportCharacterSheetsScript `
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+
+    # 3. Arranca el generador de indice de historia como worker independiente.
+    $historyIndexProcess = Start-PowerShellWorker `
+        -Title 'History Index Generator' `
+        -ScriptPath $GenerateHistoryIndexScript `
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+
+    $backgroundWorkers = @(
+        @{ Name = '5_sync-toolset-git.ps1'; Process = $syncProcess },
+        @{ Name = '4_export-character-sheets.ps1'; Process = $exportProcess },
+        @{ Name = '7_generate-history-index.ps1'; Process = $historyIndexProcess }
+    )
+
+    # 4. Abre TaleSpire como script separado.
+    $startProcess = Start-PowerShellWorker `
         -Title 'Start TaleSpire' `
         -ScriptPath $StartTaleSpireScript `
         -ExtraArgs @('-NoPauseOnError')
 
-    $startProcess.WaitForExit()
-    Assert-ProcessExitCodeOk -Process $startProcess -ScriptName '3_start-talespire.ps1'
+    Wait-ProcessWithWorkerMonitoring `
+        -Process $startProcess `
+        -ScriptName '3_start-talespire.ps1' `
+        -Workers $backgroundWorkers
 
-    if (-not (Wait-ForProcessStart -Name $ProcessName -TimeoutSeconds $StartupTimeoutSeconds)) {
-        Write-Log ("{0} no aparecio dentro del tiempo esperado. Cerrando orquestador." -f $ProcessName) -Color 'Yellow'
-        Start-Sleep -Seconds 2
-        exit 2
+    # 5. Espera a que TaleSpire cierre.
+    # Al cerrar, este worker crea la senal de stop.
+    $watchProcess = Start-PowerShellWorker `
+        -Title 'Wait TaleSpire Close' `
+        -ScriptPath $WaitTaleSpireCloseScript `
+        -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
+
+    Wait-ProcessWithWorkerMonitoring `
+        -Process $watchProcess `
+        -ScriptName '6_wait-talespire-close.ps1' `
+        -Workers $backgroundWorkers
+
+    # 6. Espera a que los workers detecten la senal, hagan su cierre final y salgan.
+    if ($historyIndexProcess -and -not $historyIndexProcess.HasExited) {
+        Write-Log 'Esperando cierre del worker de indice de historia...'
+        $historyIndexProcess.WaitForExit()
     }
 
-    while (Get-Process -Name $ProcessName -ErrorAction SilentlyContinue) {
-        Invoke-MaintenanceTick
-        Write-Log '.' -Inline
-
-        if (-not (Wait-OrBreakIfProcessClosed -Name $ProcessName -Seconds $TickSeconds)) {
-            break
-        }
+    if ($exportProcess -and -not $exportProcess.HasExited) {
+        Write-Log 'Esperando cierre del worker de hojas...'
+        $exportProcess.WaitForExit()
     }
 
-    Write-Log ("{0} cerrado. Ejecutando tick final..." -f $ProcessName)
-    Invoke-MaintenanceTick
+    if ($syncProcess -and -not $syncProcess.HasExited) {
+        Write-Log 'Esperando cierre del worker de sync...'
+        $syncProcess.WaitForExit()
+    }
 
-    Write-Log 'OK: mantenimiento finalizado.'
+    Assert-ProcessExitCodeOk -Process $historyIndexProcess -ScriptName '7_generate-history-index.ps1'
+    Assert-ProcessExitCodeOk -Process $exportProcess -ScriptName '4_export-character-sheets.ps1'
+    Assert-ProcessExitCodeOk -Process $syncProcess -ScriptName '5_sync-toolset-git.ps1'
+
+    Write-Log 'OK: TaleSpire cerrado. Workers finalizados correctamente.'
     Start-Sleep -Seconds 2
     exit 0
-} catch {
-    Write-Log ("ERROR: {0}" -f $_.Exception.Message) -Color 'Red'
+}
+catch {
+    $errorMessage = "ERROR: {0}" -f $_.Exception.Message
+
+    Write-Log $errorMessage -Color 'Red'
+    Show-ErrorAlert $errorMessage
+
+    if (-not (Test-Path -LiteralPath $StopSignalFile)) {
+        try {
+            [void](New-Item -ItemType File -Force -Path $StopSignalFile)
+        }
+        catch {}
+    }
+
+    Stop-WorkerIfAlive -Process $historyIndexProcess -Name 'History Index Generator'
+    Stop-WorkerIfAlive -Process $exportProcess -Name 'Character Sheets Export'
+    Stop-WorkerIfAlive -Process $syncProcess -Name 'Toolset Git Sync'
+
     Wait-BeforeExitOnError
     exit 1
+}
+finally {
+    try {
+        if (Test-Path -LiteralPath $StopSignalFile) {
+            Remove-Item -LiteralPath $StopSignalFile -Force -ErrorAction SilentlyContinue
+        }
+    }
+    catch {}
 }

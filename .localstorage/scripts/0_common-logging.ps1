@@ -1,12 +1,13 @@
 <#
 .SYNOPSIS
-  Helpers comunes de logging para los scripts del Toolset.
+Helpers comunes de logging para los scripts del Toolset.
 
 .DESCRIPTION
-  - Calcula un prefijo dinamico desde el nombre del script que lo inicializa.
-  - Si el nombre empieza con numero, usa ese numero: [5].
-  - Si no encuentra numero, usa [?].
-  - Permite logs normales y logs inline para puntos de espera.
+- Calcula un prefijo dinamico desde el nombre del script que lo inicializa.
+- Si el nombre empieza con numero, usa ese numero: [5].
+- Si no encuentra numero, usa [?].
+- Permite logs normales y logs inline para puntos de espera.
+- Permite mostrar una alarma visible/sonora cuando ocurre un error.
 #>
 
 $script:LogPrefix = '[?]'
@@ -66,5 +67,36 @@ function Write-Log {
     }
     else {
         Write-Host $line -ForegroundColor $Color
+    }
+}
+
+function Show-ErrorAlert {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string]$Message,
+
+        [string]$Title = 'TaleSpire Toolset - Error'
+    )
+
+    try {
+        [console]::beep(1000, 700)
+        [console]::beep(800, 700)
+    }
+    catch {
+        Write-Log ('No se pudo reproducir alarma sonora: {0}' -f $_.Exception.Message) -Color 'Yellow'
+    }
+
+    try {
+        Add-Type -AssemblyName PresentationFramework
+
+        [System.Windows.MessageBox]::Show(
+            $Message,
+            $Title,
+            'OK',
+            'Error'
+        ) | Out-Null
+    }
+    catch {
+        Write-Log ('No se pudo mostrar alerta visual: {0}' -f $_.Exception.Message) -Color 'Yellow'
     }
 }
