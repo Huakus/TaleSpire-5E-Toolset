@@ -1788,6 +1788,14 @@
                         "weight": 1.5,
                         "cost": "500 gp",
                         "useable": true
+                    },
+                    {
+                        "name": "Poción de mayor curación",
+                        "uniqueId": "item-1778721817290-169b3988",
+                        "quantity": 1,
+                        "weight": 0.5,
+                        "cost": "100 gp",
+                        "useable": true
                     }
                 ],
                 "other-possessions": [],
