@@ -467,6 +467,14 @@
                                                "quantity":  1,
                                                "weight":  3,
                                                "cost":  "5 gp"
+                                           },
+                                           {
+                                               "name":  "PociÃ³n de curaciÃ³n superior",
+                                               "uniqueId":  "item-1778721765485-7e1d178a",
+                                               "quantity":  3,
+                                               "weight":  1.5,
+                                               "cost":  "500 gp",
+                                               "useable":  true
                                            }
                                        ],
                           "other-possessions":  [
