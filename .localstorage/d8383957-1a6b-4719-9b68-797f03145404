@@ -1780,6 +1780,14 @@
                         "quantity": 1,
                         "weight": 3,
                         "cost": "5 gp"
+                    },
+                    {
+                        "name": "Poción de curación superior",
+                        "uniqueId": "item-1778721765485-7e1d178a",
+                        "quantity": 1,
+                        "weight": 0.5,
+                        "cost": "500 gp",
+                        "useable": true
                     }
                 ],
                 "other-possessions": [],
