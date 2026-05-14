@@ -42,7 +42,7 @@
     "characterLevel":  "9",
     "playerXP":  "48840",
     "playerClass":  "Semielfa Bruja\n(Archihada - ErmitaÃ±a - [pacto])",
-    "currentCharacterHP":  "40",
+    "currentCharacterHP":  "51",
     "maxCharacterHP":  "70",
     "strengthScore":  "8",
     "dexterityScore":  "16",
@@ -471,8 +471,8 @@
                                            {
                                                "name":  "PociÃ³n de mayor curaciÃ³n",
                                                "uniqueId":  "item-1778721817290-169b3988",
-                                               "quantity":  3,
-                                               "weight":  1.5,
+                                               "quantity":  1,
+                                               "weight":  0.5,
                                                "cost":  "100 gp",
                                                "useable":  true
                                            }
