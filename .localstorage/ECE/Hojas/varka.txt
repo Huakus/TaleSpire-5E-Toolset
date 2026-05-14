@@ -469,11 +469,11 @@
                                                "cost":  "5 gp"
                                            },
                                            {
-                                               "name":  "PociÃ³n de curaciÃ³n superior",
-                                               "uniqueId":  "item-1778721765485-7e1d178a",
+                                               "name":  "PociÃ³n de mayor curaciÃ³n",
+                                               "uniqueId":  "item-1778721817290-169b3988",
                                                "quantity":  3,
                                                "weight":  1.5,
-                                               "cost":  "500 gp",
+                                               "cost":  "100 gp",
                                                "useable":  true
                                            }
                                        ],
