@@ -419,14 +419,6 @@
                                                "quantity":  1,
                                                "weight":  6,
                                                "cost":  "15 gp"
-                                           },
-                                           {
-                                               "name":  "PociÃ³n de mayor curaciÃ³n",
-                                               "uniqueId":  "item-1777866315805-29c3f8bb",
-                                               "quantity":  1,
-                                               "weight":  0.5,
-                                               "cost":  "100 gp",
-                                               "useable":  true
                                            }
                                        ],
                           "other-possessions":  [
