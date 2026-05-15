@@ -1,11 +1,9 @@
-name: Publish ECE to WordPress
+name: Publish Toolset to WordPress
 
 on:
   push:
     branches:
       - main
-    paths:
-      - ".localstorage/ECE/**"
 
 jobs:
   publish:
@@ -15,16 +13,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Publish ECE folder via FTP
+      - name: Publish full repository via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
 
-          local-dir: ./.localstorage/ECE/
-          server-dir: /public_html/campaign_files/toolset/.localstorage/ECE/
+          local-dir: ./
+          server-dir: /public_html/campaign_files/toolset/
 
           exclude: |
             **/.git*
             **/.git*/**
+            **/.github/**
