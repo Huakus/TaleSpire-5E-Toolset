@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
 
           local-dir: ./
-          server-dir: /public_html/campaign_files/toolset/
+          server-dir: /campaign_files/toolset/
 
           exclude: |
             **/.git*
