@@ -2,11 +2,11 @@
 
 Generado automaticamente por `.localstorage/scripts/8_generate-public-file-index.ps1`.
 
-Generado: 2026-05-14 21:59:26 -03:00
+Generado: 2026-05-14 22:23:22 -03:00
 
 Base URL: https://elcirculoeterno.macreative.site/campaign_files/toolset/
 
-Total de archivos indexados: 98
+Total de archivos indexados: 97
 
 ## Uso recomendado
 
@@ -16,7 +16,6 @@ Usar este archivo como mapa principal para encontrar la URL publica directa de c
 
 | Archivo | URL |
 |---|---|
-| `PUBLIC_FILE_INDEX.md` | https://elcirculoeterno.macreative.site/campaign_files/toolset/PUBLIC_FILE_INDEX.md |
 | `.gitignore` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.gitignore |
 | `.localstorage.zip` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage.zip |
 | `.localstorage/bot_files/ECE_historia_oficial.md` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/ECE_historia_oficial.md |
@@ -79,7 +78,6 @@ Usar este archivo como mapa principal para encontrar la URL publica directa de c
 | `.localstorage/scripts/6_wait-talespire-close.ps1` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/scripts/6_wait-talespire-close.ps1 |
 | `.localstorage/scripts/7_generate-history-index.ps1` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/scripts/7_generate-history-index.ps1 |
 | `.localstorage/scripts/8_generate-public-file-index.ps1` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/scripts/8_generate-public-file-index.ps1 |
-| `.localstorage/scripts/verify-script-replacement.ps1` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/scripts/verify-script-replacement.ps1 |
 | `.vscode/settings.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.vscode/settings.json |
 | `CharacterCreator/AbilityScore.js` | https://elcirculoeterno.macreative.site/campaign_files/toolset/CharacterCreator/AbilityScore.js |
 | `CharacterCreator/Backgrounds.js` | https://elcirculoeterno.macreative.site/campaign_files/toolset/CharacterCreator/Backgrounds.js |
@@ -105,6 +103,7 @@ Usar este archivo como mapa principal para encontrar la URL publica directa de c
 | `Monster_Manual-es.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/Monster_Manual-es.json |
 | `PlayerCharacter.html` | https://elcirculoeterno.macreative.site/campaign_files/toolset/PlayerCharacter.html |
 | `PlayerScript.js` | https://elcirculoeterno.macreative.site/campaign_files/toolset/PlayerScript.js |
+| `PUBLIC_FILE_INDEX.md` | https://elcirculoeterno.macreative.site/campaign_files/toolset/PUBLIC_FILE_INDEX.md |
 | `README.md` | https://elcirculoeterno.macreative.site/campaign_files/toolset/README.md |
 | `SharedScript.js` | https://elcirculoeterno.macreative.site/campaign_files/toolset/SharedScript.js |
 | `spells-eng.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/spells-eng.json |
