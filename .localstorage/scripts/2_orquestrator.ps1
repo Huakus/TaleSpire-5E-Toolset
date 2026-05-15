@@ -5,7 +5,7 @@
 .DESCRIPTION
  Este script no hace sync, no exporta hojas, no genera indices y no abre TaleSpire directamente.
  Solo coordina scripts separados:
- - 8_generate-public-file-index.ps1: genera PUBLIC_FILE_INDEX.md con URLs publicas.
+ - 8_generate-public-file-index.ps1: genera Indice_Archivos.md con URLs publicas de ECE.
  - 5_sync-toolset-git.ps1: mantiene sincronizado el repo Toolset.
  - 4_export-character-sheets.ps1: exporta una hoja TXT por personaje.
  - 7_generate-history-index.ps1: genera Lore\Indice_Historia.md desde Lore\Capitulos.
@@ -204,14 +204,15 @@ try {
  }
 
  $Repo = Split-Path -Parent (Split-Path -Parent $ScriptDir)
- $PublicFileIndexBaseUrl = 'https://elcirculoeterno.macreative.site/campaign_files/toolset'
- $PublicFileIndexRelativePath = 'PUBLIC_FILE_INDEX.md'
+ $PublicFileIndexRepo = Join-Path $Repo '.localstorage\ECE'
+ $PublicFileIndexBaseUrl = 'https://elcirculoeterno.macreative.site/campaign_files/ECE'
+ $PublicFileIndexRelativePath = 'Indice_Archivos.md'
 
  # 1. Genera el indice publico una vez antes de iniciar el sync.
  Invoke-PowerShellOnce `
   -Title 'Public File Index Generator' `
   -ScriptPath $GeneratePublicFileIndexScript `
-  -ExtraArgs @('-Repo', (Quote-Argument $Repo), '-BaseUrl', $PublicFileIndexBaseUrl, '-OutputRelativePath', $PublicFileIndexRelativePath)
+  -ExtraArgs @('-Repo', (Quote-Argument $PublicFileIndexRepo), '-BaseUrl', $PublicFileIndexBaseUrl, '-OutputRelativePath', $PublicFileIndexRelativePath)
 
  # 2. Arranca el sync como worker independiente.
  $syncProcess = Start-PowerShellWorker `
@@ -285,7 +286,7 @@ try {
  Invoke-PowerShellOnce `
   -Title 'Public File Index Generator Final' `
   -ScriptPath $GeneratePublicFileIndexScript `
-  -ExtraArgs @('-Repo', (Quote-Argument $Repo), '-BaseUrl', $PublicFileIndexBaseUrl, '-OutputRelativePath', $PublicFileIndexRelativePath)
+  -ExtraArgs @('-Repo', (Quote-Argument $PublicFileIndexRepo), '-BaseUrl', $PublicFileIndexBaseUrl, '-OutputRelativePath', $PublicFileIndexRelativePath)
 
  # 9. Sync final one-shot para subir el indice publico definitivo.
  Invoke-PowerShellOnce `
