@@ -20,8 +20,8 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
 
-          local-dir: ./
-          server-dir: /campaign_files/toolset/
+          local-dir: ./.localstorage/ECE/
+          server-dir: /campaign_files/ECE/
 
           exclude: |
             **/.git*
