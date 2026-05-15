@@ -1,0 +1,30 @@
+name: Publish ECE to WordPress
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".localstorage/ECE/**"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Publish ECE folder via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+
+          local-dir: ./.localstorage/ECE/
+          server-dir: /public_html/campaign_files/toolset/.localstorage/ECE/
+
+          exclude: |
+            **/.git*
+            **/.git*/**
