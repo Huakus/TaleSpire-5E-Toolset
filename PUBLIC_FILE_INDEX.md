@@ -1,16 +1,20 @@
-﻿# Indice publico de archivos
+﻿# Indice publico de archivos ECE
 
 Generado automaticamente por `.localstorage/scripts/8_generate-public-file-index.ps1`.
 
-Generado: 2026-05-14 22:23:22 -03:00
+Generado: 2026-05-14 22:44:35 -03:00
 
 Base URL: https://elcirculoeterno.macreative.site/campaign_files/toolset/
 
-Total de archivos indexados: 97
+Carpeta local indexada: `C:\Users\joaqu\AppData\LocalLow\BouncyRock Entertainment\TaleSpire\Symbiotes\Toolset`
+
+Total de archivos indexados: 89
 
 ## Uso recomendado
 
-Usar este archivo como mapa principal para encontrar la URL publica directa de cualquier archivo del proyecto.
+Usar este archivo como mapa principal para encontrar la URL publica directa de cualquier archivo de ECE.
+
+Las rutas listadas son relativas a `.localstorage/ECE/`.
 
 ## Archivos
 
@@ -18,14 +22,6 @@ Usar este archivo como mapa principal para encontrar la URL publica directa de c
 |---|---|
 | `.gitignore` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.gitignore |
 | `.localstorage.zip` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage.zip |
-| `.localstorage/bot_files/ECE_historia_oficial.md` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/ECE_historia_oficial.md |
-| `.localstorage/bot_files/hoja_adler.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/hoja_adler.json |
-| `.localstorage/bot_files/hoja_borgar.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/hoja_borgar.json |
-| `.localstorage/bot_files/hoja_delerion.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/hoja_delerion.json |
-| `.localstorage/bot_files/hoja_ernesto.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/hoja_ernesto.json |
-| `.localstorage/bot_files/hoja_mercion.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/hoja_mercion.json |
-| `.localstorage/bot_files/hoja_varka.json` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/hoja_varka.json |
-| `.localstorage/bot_files/Personajes.md` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/bot_files/Personajes.md |
 | `.localstorage/d8383957-1a6b-4719-9b68-797f03145404` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/d8383957-1a6b-4719-9b68-797f03145404 |
 | `.localstorage/ECE/Hojas/adler.txt` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/ECE/Hojas/adler.txt |
 | `.localstorage/ECE/Hojas/borgar.txt` | https://elcirculoeterno.macreative.site/campaign_files/toolset/.localstorage/ECE/Hojas/borgar.txt |
