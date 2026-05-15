@@ -2,7 +2,7 @@
 
 Generado automaticamente por `.localstorage/scripts/8_generate-public-file-index.ps1`.
 
-Generado: 2026-05-14 22:46:11 -03:00
+Generado: 2026-05-14 23:08:03 -03:00
 
 Base URL: https://elcirculoeterno.macreative.site/campaign_files/ECE/
 
@@ -20,7 +20,6 @@ Las rutas listadas son relativas a `.localstorage/ECE/`.
 
 | Archivo | URL |
 |---|---|
-| `Indice_Archivos.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Indice_Archivos.md |
 | `Hojas/adler.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/adler.txt |
 | `Hojas/borgar.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/borgar.txt |
 | `Hojas/delerion.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/delerion.txt |
@@ -28,6 +27,7 @@ Las rutas listadas son relativas a `.localstorage/ECE/`.
 | `Hojas/mercion.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/mercion.txt |
 | `Hojas/skitrixx_stix_ernesto_koboldtanz.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/skitrixx_stix_ernesto_koboldtanz.txt |
 | `Hojas/varka.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/varka.txt |
+| `Indice_Archivos.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Indice_Archivos.md |
 | `Lore/Capitulos/01_Valverde_del_Rio.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/01_Valverde_del_Rio.md |
 | `Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md |
 | `Lore/Capitulos/03_El_rescate_de_aroldo.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/03_El_rescate_de_aroldo.md |
