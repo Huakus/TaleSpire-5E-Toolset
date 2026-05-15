@@ -186,7 +186,6 @@ function Invoke-PowerShellOnce {
 $syncProcess = $null
 $exportProcess = $null
 $historyIndexProcess = $null
-$publicFileIndexProcess = $null
 
 try {
  Assert-ScriptExists $StartTaleSpireScript
@@ -204,44 +203,41 @@ try {
   Remove-Item -LiteralPath $StopSignalFile -Force
  }
 
+ $Repo = Split-Path -Parent (Split-Path -Parent $ScriptDir)
+ $PublicFileIndexBaseUrl = 'https://elcirculoeterno.macreative.site/campaign_files/toolset'
+ $PublicFileIndexRelativePath = 'PUBLIC_FILE_INDEX.md'
+
  # 1. Genera el indice publico una vez antes de iniciar el sync.
  Invoke-PowerShellOnce `
   -Title 'Public File Index Generator' `
   -ScriptPath $GeneratePublicFileIndexScript `
-  -ExtraArgs @('-RunOnce', '-NoPauseOnError', '-Quiet')
+  -ExtraArgs @('-Repo', (Quote-Argument $Repo), '-BaseUrl', $PublicFileIndexBaseUrl, '-OutputRelativePath', $PublicFileIndexRelativePath)
 
- # 2. Mantiene actualizado el indice publico como worker independiente.
- $publicFileIndexProcess = Start-PowerShellWorker `
-  -Title 'Public File Index Generator' `
-  -ScriptPath $GeneratePublicFileIndexScript `
-  -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
-
- # 3. Arranca el sync como worker independiente.
+ # 2. Arranca el sync como worker independiente.
  $syncProcess = Start-PowerShellWorker `
   -Title 'Toolset Git Sync' `
   -ScriptPath $SyncToolsetScript `
-  -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
+  -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
 
- # 4. Arranca el exportador de hojas como worker independiente.
+ # 3. Arranca el exportador de hojas como worker independiente.
  $exportProcess = Start-PowerShellWorker `
   -Title 'Character Sheets Export' `
   -ScriptPath $ExportCharacterSheetsScript `
   -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
 
- # 5. Arranca el generador de indice de historia como worker independiente.
+ # 4. Arranca el generador de indice de historia como worker independiente.
  $historyIndexProcess = Start-PowerShellWorker `
   -Title 'History Index Generator' `
   -ScriptPath $GenerateHistoryIndexScript `
   -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
 
  $backgroundWorkers = @(
-  @{ Name = '8_generate-public-file-index.ps1'; Process = $publicFileIndexProcess },
   @{ Name = '5_sync-toolset-git.ps1'; Process = $syncProcess },
   @{ Name = '4_export-character-sheets.ps1'; Process = $exportProcess },
   @{ Name = '7_generate-history-index.ps1'; Process = $historyIndexProcess }
  )
 
- # 6. Abre TaleSpire como script separado.
+ # 5. Abre TaleSpire como script separado.
  $startProcess = Start-PowerShellWorker `
   -Title 'Start TaleSpire' `
   -ScriptPath $StartTaleSpireScript `
@@ -252,7 +248,7 @@ try {
   -ScriptName '3_start-talespire.ps1' `
   -Workers $backgroundWorkers
 
- # 7. Espera a que TaleSpire cierre.
+ # 6. Espera a que TaleSpire cierre.
  # Al cerrar, este worker crea la senal de stop.
  $watchProcess = Start-PowerShellWorker `
   -Title 'Wait TaleSpire Close' `
@@ -264,7 +260,7 @@ try {
   -ScriptName '6_wait-talespire-close.ps1' `
   -Workers $backgroundWorkers
 
- # 8. Espera a que los workers detecten la senal y salgan.
+ # 7. Espera a que los workers detecten la senal y salgan.
  if ($historyIndexProcess -and -not $historyIndexProcess.HasExited) {
   Write-Log 'Esperando cierre del worker de indice de historia...'
   $historyIndexProcess.WaitForExit()
@@ -275,10 +271,6 @@ try {
   $exportProcess.WaitForExit()
  }
 
- if ($publicFileIndexProcess -and -not $publicFileIndexProcess.HasExited) {
-  Write-Log 'Esperando cierre del worker de indice publico...'
-  $publicFileIndexProcess.WaitForExit()
- }
 
  if ($syncProcess -and -not $syncProcess.HasExited) {
   Write-Log 'Esperando cierre del worker de sync...'
@@ -287,20 +279,19 @@ try {
 
  Assert-ProcessExitCodeOk -Process $historyIndexProcess -ScriptName '7_generate-history-index.ps1'
  Assert-ProcessExitCodeOk -Process $exportProcess -ScriptName '4_export-character-sheets.ps1'
- Assert-ProcessExitCodeOk -Process $publicFileIndexProcess -ScriptName '8_generate-public-file-index.ps1'
  Assert-ProcessExitCodeOk -Process $syncProcess -ScriptName '5_sync-toolset-git.ps1'
 
- # 9. Ultima pasada segura: genera el indice publico despues de exportar/generar indices.
+ # 8. Ultima pasada segura: genera el indice publico despues de exportar/generar indices.
  Invoke-PowerShellOnce `
   -Title 'Public File Index Generator Final' `
   -ScriptPath $GeneratePublicFileIndexScript `
-  -ExtraArgs @('-RunOnce', '-NoPauseOnError', '-Quiet')
+  -ExtraArgs @('-Repo', (Quote-Argument $Repo), '-BaseUrl', $PublicFileIndexBaseUrl, '-OutputRelativePath', $PublicFileIndexRelativePath)
 
- # 10. Sync final one-shot para subir el indice publico definitivo.
+ # 9. Sync final one-shot para subir el indice publico definitivo.
  Invoke-PowerShellOnce `
   -Title 'Toolset Git Sync Final' `
   -ScriptPath $SyncToolsetScript `
-  -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError', '-Quiet')
+  -ExtraArgs @('-StopSignalFile', (Quote-Argument $StopSignalFile), '-NoPauseOnError')
 
  Write-Log 'OK: TaleSpire cerrado. Workers finalizados correctamente.'
  Start-Sleep -Seconds 2
@@ -320,7 +311,6 @@ catch {
 
  Stop-WorkerIfAlive -Process $historyIndexProcess -Name 'History Index Generator'
  Stop-WorkerIfAlive -Process $exportProcess -Name 'Character Sheets Export'
- Stop-WorkerIfAlive -Process $publicFileIndexProcess -Name 'Public File Index Generator'
  Stop-WorkerIfAlive -Process $syncProcess -Name 'Toolset Git Sync'
 
  Wait-BeforeExitOnError

@@ -19,17 +19,27 @@
  Ruta relativa del indice generado dentro del repo.
 #>
 param(
- [Parameter(Mandatory = $true)]
  [string]$Repo,
 
  [string]$BaseUrl = 'https://elcirculoeterno.macreative.site/campaign_files/toolset',
 
- [string]$OutputRelativePath = 'PUBLIC_FILE_INDEX.md'
+ [string]$OutputRelativePath = 'PUBLIC_FILE_INDEX.md',
+
+ [switch]$NoPauseOnError,
+
+ [switch]$Quiet,
+
+ [switch]$RunOnce,
+
+ [string]$StopSignalFile
 )
 
 $ErrorActionPreference = 'Stop'
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+if (-not $Repo) {
+ $Repo = Split-Path -Parent (Split-Path -Parent $ScriptDir)
+}
 $CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
 
 if (Test-Path $CommonLoggingScript) {
