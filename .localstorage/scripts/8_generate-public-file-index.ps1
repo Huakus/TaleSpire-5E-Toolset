@@ -1,29 +1,29 @@
 <#
 .SYNOPSIS
- Genera el indice publico de archivos del repo Toolset.
+ Genera el indice publico de archivos publicados de ECE.
 
 .DESCRIPTION
  Responsabilidad unica:
- - Recorrer el repo local del Toolset.
- - Generar PUBLIC_FILE_INDEX.md con la ruta relativa y la URL publica de cada archivo publicado.
+ - Recorrer la carpeta local publicada de ECE.
+ - Generar Indice_Archivos.md con la ruta relativa y la URL publica de cada archivo publicado.
 
  Este script NO sincroniza Git y NO publica en WordPress.
 
 .PARAMETER Repo
- Carpeta local del repo Toolset.
+ Carpeta local que se publica. Para ECE debe ser .localstorage\ECE.
 
 .PARAMETER BaseUrl
- URL publica base donde se publica el repo completo.
+ URL publica base donde se publica ECE.
 
 .PARAMETER OutputRelativePath
- Ruta relativa del indice generado dentro del repo.
+ Ruta relativa del indice generado dentro de Repo.
 #>
 param(
  [string]$Repo,
 
- [string]$BaseUrl = 'https://elcirculoeterno.macreative.site/campaign_files/toolset',
+ [string]$BaseUrl = 'https://elcirculoeterno.macreative.site/campaign_files/ECE',
 
- [string]$OutputRelativePath = 'PUBLIC_FILE_INDEX.md',
+ [string]$OutputRelativePath = 'Indice_Archivos.md',
 
  [switch]$NoPauseOnError,
 
@@ -38,7 +38,8 @@ $ErrorActionPreference = 'Stop'
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 if (-not $Repo) {
- $Repo = Split-Path -Parent (Split-Path -Parent $ScriptDir)
+ $RepoRoot = Split-Path -Parent (Split-Path -Parent $ScriptDir)
+ $Repo = Join-Path $RepoRoot '.localstorage\ECE'
 }
 $CommonLoggingScript = Join-Path $ScriptDir '0_common-logging.ps1'
 
@@ -100,7 +101,7 @@ function Test-IsExcludedPath([string]$RelativePath) {
 }
 
 if (-not (Test-Path $Repo)) {
- throw ('No existe el repo Toolset: {0}' -f $Repo)
+ throw ('No existe la carpeta ECE a indexar: {0}' -f $Repo)
 }
 
 $Repo = [System.IO.Path]::GetFullPath($Repo)
@@ -148,7 +149,7 @@ if (-not $indexExistsInList) {
 $generatedAt = Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz'
 
 $content = New-Object System.Collections.Generic.List[string]
-$content.Add('# Indice publico de archivos')
+$content.Add('# Indice publico de archivos ECE')
 $content.Add('')
 $content.Add('Generado automaticamente por `.localstorage/scripts/8_generate-public-file-index.ps1`.')
 $content.Add('')
@@ -156,11 +157,15 @@ $content.Add(('Generado: {0}' -f $generatedAt))
 $content.Add('')
 $content.Add(('Base URL: {0}/' -f $BaseUrl.TrimEnd('/')))
 $content.Add('')
+$content.Add(('Carpeta local indexada: `{0}`' -f $Repo))
+$content.Add('')
 $content.Add(('Total de archivos indexados: {0}' -f $files.Count))
 $content.Add('')
 $content.Add('## Uso recomendado')
 $content.Add('')
-$content.Add('Usar este archivo como mapa principal para encontrar la URL publica directa de cualquier archivo del proyecto.')
+$content.Add('Usar este archivo como mapa principal para encontrar la URL publica directa de cualquier archivo de ECE.')
+$content.Add('')
+$content.Add('Las rutas listadas son relativas a `.localstorage/ECE/`.')
 $content.Add('')
 $content.Add('## Archivos')
 $content.Add('')
