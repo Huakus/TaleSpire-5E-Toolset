@@ -2,7 +2,7 @@
 
 Generado automaticamente por `.localstorage/scripts/8_generate-public-file-index.ps1`.
 
-Generado: 2026-05-14 23:08:03 -03:00
+Generado: 2026-05-15 23:15:01 -03:00
 
 Base URL: https://elcirculoeterno.macreative.site/campaign_files/ECE/
 
@@ -28,34 +28,34 @@ Las rutas listadas son relativas a `.localstorage/ECE/`.
 | `Hojas/skitrixx_stix_ernesto_koboldtanz.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/skitrixx_stix_ernesto_koboldtanz.txt |
 | `Hojas/varka.txt` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Hojas/varka.txt |
 | `Indice_Archivos.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Indice_Archivos.md |
-| `Lore/Capitulos/01_Valverde_del_Rio.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/01_Valverde_del_Rio.md |
-| `Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md |
-| `Lore/Capitulos/03_El_rescate_de_aroldo.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/03_El_rescate_de_aroldo.md |
-| `Lore/Capitulos/04_La_caida_del_nigromante_carmesi.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/04_La_caida_del_nigromante_carmesi.md |
-| `Lore/Capitulos/05_La_batalla_del_puesto_de_avanzada.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/05_La_batalla_del_puesto_de_avanzada.md |
-| `Lore/Capitulos/06_El_templo_del_circulo_eterno.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/06_El_templo_del_circulo_eterno.md |
-| `Lore/Capitulos/07_El_distrito_de_los_artesanos.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/07_El_distrito_de_los_artesanos.md |
-| `Lore/Capitulos/08_Golpe_de_cristales.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/08_Golpe_de_cristales.md |
-| `Lore/Capitulos/09_El_encargo_de_Tomi_Tres_Dientes.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/09_El_encargo_de_Tomi_Tres_Dientes.md |
-| `Lore/Capitulos/10_Rumores_en_el_Distrito_de_los_Artesanos.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/10_Rumores_en_el_Distrito_de_los_Artesanos.md |
-| `Lore/Capitulos/11_La_puerta_oxidada.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/11_La_puerta_oxidada.md |
-| `Lore/Capitulos/12_El_dia_del_ganso.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/12_El_dia_del_ganso.md |
-| `Lore/Capitulos/13_Sombras_bajo_el_gremio.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/13_Sombras_bajo_el_gremio.md |
-| `Lore/Capitulos/14_Pactos_deudas_y_traiciones.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/14_Pactos_deudas_y_traiciones.md |
-| `Lore/Capitulos/15_Criaturas_de_los_tuneles.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/15_Criaturas_de_los_tuneles.md |
-| `Lore/Capitulos/16_La_biblioteca_del_eco.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/16_La_biblioteca_del_eco.md |
-| `Lore/Capitulos/17_La_tumba_de_Ur_Namkart.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/17_La_tumba_de_Ur_Namkart.md |
-| `Lore/Capitulos/18_Sangre_en_la_escalera.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/18_Sangre_en_la_escalera.md |
-| `Lore/Capitulos/19_La_llegada_a_la_ciudad_alta.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/19_La_llegada_a_la_ciudad_alta.md |
-| `Lore/Capitulos/20_Las_arañas_bajo_la_ciudad_alta.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/20_Las_ara%C3%B1as_bajo_la_ciudad_alta.md |
-| `Lore/Capitulos/21_La_casa_de_Nixara_y_los_espejos.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/21_La_casa_de_Nixara_y_los_espejos.md |
-| `Lore/Capitulos/22_El_velado_y_los_espejos.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/22_El_velado_y_los_espejos.md |
-| `Lore/Capitulos/23_La_licencia_de_mercenario.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/23_La_licencia_de_mercenario.md |
-| `Lore/Capitulos/24_Cassian_Balte_Castimiro.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/24_Cassian_Balte_Castimiro.md |
-| `Lore/Capitulos/25_La_llave_oxidada_y_el_combate_del_cementerio.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/25_La_llave_oxidada_y_el_combate_del_cementerio.md |
-| `Lore/Capitulos/26_Adler_vs_el_ayuntamiento.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/26_Adler_vs_el_ayuntamiento.md |
-| `Lore/Capitulos/27_La_reagrupación_en_la_casa_de_Siomara.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/27_La_reagrupaci%C3%B3n_en_la_casa_de_Siomara.md |
-| `Lore/Capitulos/28_El_descenso_hacia_la_mansión.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/28_El_descenso_hacia_la_mansi%C3%B3n.md |
+| `Lore/Capitulos/01.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/01.md |
+| `Lore/Capitulos/02.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/02.md |
+| `Lore/Capitulos/03.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/03.md |
+| `Lore/Capitulos/04.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/04.md |
+| `Lore/Capitulos/05.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/05.md |
+| `Lore/Capitulos/06.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/06.md |
+| `Lore/Capitulos/07.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/07.md |
+| `Lore/Capitulos/08.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/08.md |
+| `Lore/Capitulos/09.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/09.md |
+| `Lore/Capitulos/10.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/10.md |
+| `Lore/Capitulos/11.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/11.md |
+| `Lore/Capitulos/12.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/12.md |
+| `Lore/Capitulos/13.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/13.md |
+| `Lore/Capitulos/14.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/14.md |
+| `Lore/Capitulos/15.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/15.md |
+| `Lore/Capitulos/16.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/16.md |
+| `Lore/Capitulos/17.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/17.md |
+| `Lore/Capitulos/18.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/18.md |
+| `Lore/Capitulos/19.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/19.md |
+| `Lore/Capitulos/20.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/20.md |
+| `Lore/Capitulos/21.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/21.md |
+| `Lore/Capitulos/22.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/22.md |
+| `Lore/Capitulos/23.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/23.md |
+| `Lore/Capitulos/24.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/24.md |
+| `Lore/Capitulos/25.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/25.md |
+| `Lore/Capitulos/26.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/26.md |
+| `Lore/Capitulos/27.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/27.md |
+| `Lore/Capitulos/28.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Capitulos/28.md |
 | `Lore/Indice_Historia.hashes.json` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Indice_Historia.hashes.json |
 | `Lore/Indice_Historia.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Indice_Historia.md |
 | `Lore/Indice_Lugares.md` | https://elcirculoeterno.macreative.site/campaign_files/ECE/Lore/Indice_Lugares.md |

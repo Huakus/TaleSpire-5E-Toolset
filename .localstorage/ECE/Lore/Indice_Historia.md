@@ -4,7 +4,7 @@
 > No editar manualmente.
 
 ## Capítulo 1: Valverde del Río
-Archivo: `Lore/Capitulos/01_Valverde_del_Rio.md`
+Archivo: `Lore/Capitulos/01.md`
 
 - Llegada de Adler a Valverde del Río para solicitar permiso al gobernador
 - Encuentro de Adler con el campamento de supuestos aventureros
@@ -23,7 +23,7 @@ Archivo: `Lore/Capitulos/01_Valverde_del_Rio.md`
 - Emboscada nocturna en el muelle contra los contrabandistas y aparición de
 
 ## Capítulo 2: La Conspiración de los Contrabandistas
-Archivo: `Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md`
+Archivo: `Lore/Capitulos/02.md`
 
 - Delerion, Adler y Diego regresan a la casa de Emilio antes de ir a la taberna
 - En la Taberna del Cantor Alegre escuchan rumores sobre Haroldo el Montaraz
@@ -39,7 +39,7 @@ Archivo: `Lore/Capitulos/02_La_conspiracion_de_los_contrabandistas.md`
 - Haroldo revela que robó una copia de la llave y propone un plan desde la celda
 
 ## Capítulo 3: El rescate de Haroldo
-Archivo: `Lore/Capitulos/03_El_rescate_de_aroldo.md`
+Archivo: `Lore/Capitulos/03.md`
 
 - Adler y Delerion escapan del campamento mercenario en la balsa y encuentran el naufragio de
 - Investigación del campamento improvisado y hallazgo de cadáveres en la playa
@@ -61,7 +61,7 @@ Archivo: `Lore/Capitulos/03_El_rescate_de_aroldo.md`
 - Valerio acepta ayudar a rescatar a Haroldo y Alarico del campamento mercenario
 
 ## Capítulo 4: La caída del Nigromante Carmesí
-Archivo: `Lore/Capitulos/04_La_caida_del_nigromante_carmesi.md`
+Archivo: `Lore/Capitulos/04.md`
 
 - Regreso nocturno al campamento mercenario y hallazgo del cuerpo de Haroldo
 - Asalto al torreón este junto a Valerio y sus mercenarios
@@ -80,7 +80,7 @@ Archivo: `Lore/Capitulos/04_La_caida_del_nigromante_carmesi.md`
 - Borgar revela que lord Aitor Menta es el traidor del Duque
 
 ## Capítulo 5: La Batalla del Puesto de Avanzada
-Archivo: `Lore/Capitulos/05_La_batalla_del_puesto_de_avanzada.md`
+Archivo: `Lore/Capitulos/05.md`
 
 - Llegada al enclave fortificado al sur de Valverde
 - Primer contacto con Aitor Menta, Marion y el estado de las defensas
@@ -95,7 +95,7 @@ Archivo: `Lore/Capitulos/05_La_batalla_del_puesto_de_avanzada.md`
 - Aparición de la proyección feérica en la cueva de cristales
 
 ## Capítulo 6: El Templo del Círculo Eterno
-Archivo: `Lore/Capitulos/06_El_templo_del_circulo_eterno.md`
+Archivo: `Lore/Capitulos/06.md`
 
 - Descenso bajo la torre principal y aparición del eco del Círculo Eterno
 - Teletransporte al interior del templo y encuentro con
@@ -109,7 +109,7 @@ Archivo: `Lore/Capitulos/06_El_templo_del_circulo_eterno.md`
 - Supervivencia del grupo, poder Carmesí restante y retorno a la sala bajo el castillo
 
 ## Capítulo 7: El Distrito de los Artesanos
-Archivo: `Lore/Capitulos/07_El_distrito_de_los_artesanos.md`
+Archivo: `Lore/Capitulos/07.md`
 
 - Reunión con el Duque Brightshield y advertencia secreta de Alarico Belmonte
 - Recompensa para el templo de Deneir, no muertos de
@@ -121,7 +121,7 @@ Archivo: `Lore/Capitulos/07_El_distrito_de_los_artesanos.md`
 - Consecuencias del incendio, trato con Zafir y búsqueda de mercenarios del norte
 
 ## Capítulo 8: Golpe de Cristales
-Archivo: `Lore/Capitulos/08_Golpe_de_cristales.md`
+Archivo: `Lore/Capitulos/08.md`
 
 - Reunión matutina en la posada y tensión creciente en el Distrito de los Artesanos
 - Infiltración en la forja para robar cristales lucientes y cristales de reserva
@@ -129,7 +129,7 @@ Archivo: `Lore/Capitulos/08_Golpe_de_cristales.md`
 - Reaparición del mercenario enamorado y coordinación del contacto para acceder a la Ciudad Alta
 
 ## Capítulo 9: El encargo de Tomi Tres Dientes
-Archivo: `Lore/Capitulos/09_El_encargo_de_Tomi_Tres_Dientes.md`
+Archivo: `Lore/Capitulos/09.md`
 
 - Cena en El Tridente y rumores sobre el pasado de Tomi Tres Dientes
 - Tomi ofrece ayuda para entrar a la Ciudad Alta a cambio de recuperar un paquete
@@ -142,7 +142,7 @@ Archivo: `Lore/Capitulos/09_El_encargo_de_Tomi_Tres_Dientes.md`
 - El grupo descubre que Tomi huyó y abre el paquete robado
 
 ## Capítulo 10: Rumores en el Distrito de los Artesanos
-Archivo: `Lore/Capitulos/10_Rumores_en_el_Distrito_de_los_Artesanos.md`
+Archivo: `Lore/Capitulos/10.md`
 
 - Amanecer gris tras el asesinato del sargento Ignacio Robledo
 - Identificación del arma mágica alimentada por cristales lucientes
@@ -151,7 +151,7 @@ Archivo: `Lore/Capitulos/10_Rumores_en_el_Distrito_de_los_Artesanos.md`
 - Ernesto sigue la pista de Tomi Tres Dientes y conoce al hombre del canto del metal
 
 ## Capítulo 11: La Puerta Oxidada del Distrito Artesano
-Archivo: `Lore/Capitulos/11_La_puerta_oxidada.md`
+Archivo: `Lore/Capitulos/11.md`
 
 - Reencuentro con Borgar, Zafir y Arturo en una casa del este del distrito
 - Los mercenarios revelan el acuerdo secreto con la guardia de la Ciudad Alta
@@ -165,7 +165,7 @@ Archivo: `Lore/Capitulos/11_La_puerta_oxidada.md`
 - Regreso a la casa de Borgar para preparar el siguiente movimiento
 
 ## Capítulo 12: El Día del Ganso
-Archivo: `Lore/Capitulos/12_El_dia_del_ganso.md`
+Archivo: `Lore/Capitulos/12.md`
 
 - Salida del Distrito de los Artesanos por la puerta occidental hacia el Barrio Exterior
 - El grupo presencia la persecución de un niño por un ganso agresivo
@@ -174,7 +174,7 @@ Archivo: `Lore/Capitulos/12_El_dia_del_ganso.md`
 - El grupo planea infiltrarse en el Gremio de Comerciantes
 
 ## Capítulo 13: Sombras bajo el Gremio
-Archivo: `Lore/Capitulos/13_Sombras_bajo_el_gremio.md`
+Archivo: `Lore/Capitulos/13.md`
 
 - Investigación del Gremio de Comerciantes como fachada de contrabando
 - Martita descubre mercancías, oro y una trampilla oculta bajo una caja pesada
@@ -183,7 +183,7 @@ Archivo: `Lore/Capitulos/13_Sombras_bajo_el_gremio.md`
 - Confirmación de que Eladio y Gregorio mantienen prisionero al Pichón
 
 ## Capítulo 14: Pactos, Deudas y Traiciones
-Archivo: `Lore/Capitulos/14_Pactos_deudas_y_traiciones.md`
+Archivo: `Lore/Capitulos/14.md`
 
 - Raviel exige transportar un paquete a cambio del paso hacia la Ciudad Alta
 - Varka y Ernesto sospechan de la actitud extrañamente animada de Zafir
@@ -196,7 +196,7 @@ Archivo: `Lore/Capitulos/14_Pactos_deudas_y_traiciones.md`
 - El grupo se prepara para entrar en los túneles sabiendo que es una trampa
 
 ## Capítulo 15: Criaturas de los túneles
-Archivo: `Lore/Capitulos/15_Criaturas_de_los_tuneles.md`
+Archivo: `Lore/Capitulos/15.md`
 
 - El grupo desciende a túneles de contrabando construidos sobre un santuario antiguo
 - El campamento abandonado conecta al Barrio Exterior con la Orden Carmesí y la secta feérica
@@ -206,7 +206,7 @@ Archivo: `Lore/Capitulos/15_Criaturas_de_los_tuneles.md`
 - Combate contra el troll regenerativo sensible al fuego y la luz
 
 ## Capítulo 16: La Biblioteca del Eco
-Archivo: `Lore/Capitulos/16_La_biblioteca_del_eco.md`
+Archivo: `Lore/Capitulos/16.md`
 
 - Descanso largo en las cuevas junto al clan de la Sangre Azul
 - Exploración del complejo aeloriano bajo las cuevas
@@ -218,7 +218,7 @@ Archivo: `Lore/Capitulos/16_La_biblioteca_del_eco.md`
 - El kenku pronuncia “Sarnakur” y activa memorias antiguas sobre Ur Namkart
 
 ## Capítulo 17: La Tumba de Ur Namkart
-Archivo: `Lore/Capitulos/17_La_tumba_de_Ur_Namkart.md`
+Archivo: `Lore/Capitulos/17.md`
 
 - El grupo usa la palabra Sarnakur para revelar la tumba oculta de Ur Namkart
 - Stix Ernesto desactiva las trampas del sarcófago auténtico
@@ -230,7 +230,7 @@ Archivo: `Lore/Capitulos/17_La_tumba_de_Ur_Namkart.md`
 - El clan de la Sangre Azul confirma su éxodo y revela rutas hacia la Ciudad Alta
 
 ## Capítulo 18: Sangre en la Escalera
-Archivo: `Lore/Capitulos/18_Sangre_en_la_escalera.md`
+Archivo: `Lore/Capitulos/18.md`
 
 - Zafir llega con contrabandistas y Lucen Vann Durel hacia la escalera de la Ciudad Alta
 - Delerion lanza una Bola de Fuego y libera a Lucen del control de Zafir
@@ -246,7 +246,7 @@ Archivo: `Lore/Capitulos/18_Sangre_en_la_escalera.md`
 - Delerion organiza la limpieza de cadáveres para simular un ataque de bestias
 
 ## Capítulo 19: La Llegada a la Ciudad Alta
-Archivo: `Lore/Capitulos/19_La_llegada_a_la_ciudad_alta.md`
+Archivo: `Lore/Capitulos/19.md`
 
 - El grupo abandona las cuevas y emerge en la Ciudad Alta
 - Lucen Vann Durel reconoce la ciudad mientras intenta recomponer su mente
@@ -259,7 +259,7 @@ Archivo: `Lore/Capitulos/19_La_llegada_a_la_ciudad_alta.md`
 - El grupo llega al refugio seguro de Nyxara
 
 ## Capítulo 20: Las arañas bajo la Ciudad Alta
-Archivo: `Lore/Capitulos/20_Las_arañas_bajo_la_ciudad_alta.md`
+Archivo: `Lore/Capitulos/20.md`
 
 - El grupo desciende por las cloacas abiertas por Nyxara
 - Una araña grande mata a Martita y revela la infestación
@@ -270,7 +270,7 @@ Archivo: `Lore/Capitulos/20_Las_arañas_bajo_la_ciudad_alta.md`
 - El grupo sale de las cloacas cerca de la casa de Nyxara
 
 ## Capítulo 21: La casa de Nyxara y los espejos
-Archivo: `Lore/Capitulos/21_La_casa_de_Nixara_y_los_espejos.md`
+Archivo: `Lore/Capitulos/21.md`
 
 - El grupo llega al refugio de Nyxara tras escapar de las cloacas
 - Nyxara explica la necesidad de obtener una licencia de mercenario
@@ -280,7 +280,7 @@ Archivo: `Lore/Capitulos/21_La_casa_de_Nixara_y_los_espejos.md`
 - Varka recibe una respuesta enigmática de su reflejo
 
 ## Capítulo 22: El Velado y los espejos
-Archivo: `Lore/Capitulos/22_El_velado_y_los_espejos.md`
+Archivo: `Lore/Capitulos/22.md`
 
 - El grupo se acerca al circuito clandestino de la Ciudad Alta
 - El Pichón explica la prueba de los tres espejos que detectan secretos
@@ -291,7 +291,7 @@ Archivo: `Lore/Capitulos/22_El_velado_y_los_espejos.md`
 - El grupo queda mejor posicionado pero más comprometido con El Velado
 
 ## Capítulo 23: La licencia de mercenario
-Archivo: `Lore/Capitulos/23_La_licencia_de_mercenario.md`
+Archivo: `Lore/Capitulos/23.md`
 
 - El grupo inicia el trámite de licencia de mercenario en la municipalidad
 - Un anciano custodia los papeles durante una interrupción en la fila
@@ -302,7 +302,7 @@ Archivo: `Lore/Capitulos/23_La_licencia_de_mercenario.md`
 - El grupo queda listo para continuar el trámite con respaldo, documentación y retratos
 
 ## Capítulo 24: Cassian Balté Castimiro
-Archivo: `Lore/Capitulos/24_Cassian_Balte_Castimiro.md`
+Archivo: `Lore/Capitulos/24.md`
 
 - El grupo recibe una pista sobre Cassian Balté Castimiro y el Templo del Moradi
 - El grupo visita el Templo del Moradi y oye nuevas menciones a la Orden Carmesí
@@ -312,7 +312,7 @@ Archivo: `Lore/Capitulos/24_Cassian_Balte_Castimiro.md`
 - Gregorio y Eladio intentan huir y el grupo los contrata para enviarlos al norte
 
 ## Capítulo 25: La llave oxidada y el combate del cementerio
-Archivo: `Lore/Capitulos/25_La_llave_oxidada_y_el_combate_del_cementerio.md`
+Archivo: `Lore/Capitulos/25.md`
 
 - El grupo retoma la investigación sobre los artefactos robados y la llave oxidada
 - El grupo busca el orbe de Stix Ernesto en el cementerio
@@ -325,7 +325,7 @@ Archivo: `Lore/Capitulos/25_La_llave_oxidada_y_el_combate_del_cementerio.md`
 - El grupo intenta huir invisible, pero
 
 ## Capítulo 26: Adler vs el ayuntamiento
-Archivo: `Lore/Capitulos/26_Adler_vs_el_ayuntamiento.md`
+Archivo: `Lore/Capitulos/26.md`
 
 - Adler es detenido tras el incidente del cementerio y llevado al ayuntamiento
 - Delerion, Varka y el grupo vigilan el ayuntamiento y evalúan cómo intervenir
@@ -337,7 +337,7 @@ Archivo: `Lore/Capitulos/26_Adler_vs_el_ayuntamiento.md`
 - El grupo se reagrupa en la casa de Nyxara tras el escape
 
 ## Capítulo 27: La reagrupación en la casa de Nyxara
-Archivo: `Lore/Capitulos/27_La_reagrupación_en_la_casa_de_Siomara.md`
+Archivo: `Lore/Capitulos/27.md`
 
 - Huida tras el rescate de Adler
 - El regreso cauteloso al refugio de Nyxara
@@ -347,7 +347,7 @@ Archivo: `Lore/Capitulos/27_La_reagrupación_en_la_casa_de_Siomara.md`
 - Descanso breve antes de la incursión
 
 ## Capítulo 28: El descenso hacia la mansión
-Archivo: `Lore/Capitulos/28_El_descenso_hacia_la_mansión.md`
+Archivo: `Lore/Capitulos/28.md`
 
 - Mercion convence al grupo de actuar por Petro
 - Las cloacas vuelven a estar infestadas
