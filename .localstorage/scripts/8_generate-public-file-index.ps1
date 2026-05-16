@@ -1,27 +1,23 @@
 <#
 .SYNOPSIS
- Genera el indice publico de archivos publicados de ECE.
+ Genera el indice de archivos publicados de ECE.
 
 .DESCRIPTION
  Responsabilidad unica:
  - Recorrer la carpeta local publicada de ECE.
- - Generar Indice_Archivos.md con la ruta relativa y la URL publica de cada archivo publicado.
+ - Generar Indice_Archivos.md con paths parciales relativos a ECE.
+ - NO genera URLs completas.
 
  Este script NO sincroniza Git y NO publica en WordPress.
 
 .PARAMETER Repo
  Carpeta local que se publica. Para ECE debe ser .localstorage\ECE.
 
-.PARAMETER BaseUrl
- URL publica base donde se publica ECE.
-
 .PARAMETER OutputRelativePath
  Ruta relativa del indice generado dentro de Repo.
 #>
 param(
  [string]$Repo,
-
- [string]$BaseUrl = 'https://elcirculoeterno.macreative.site/campaign_files/ECE',
 
  [string]$OutputRelativePath = 'Indice_Archivos.md',
 
@@ -48,6 +44,10 @@ if (Test-Path $CommonLoggingScript) {
 }
 
 function Write-IndexLog([string]$Message, [string]$Color = 'White') {
+ if ($Quiet) {
+  return
+ }
+
  if (Get-Command Write-Log -ErrorAction SilentlyContinue) {
   Write-Log $Message -Color $Color
  }
@@ -61,15 +61,6 @@ function ConvertTo-RelativePath([string]$Root, [string]$FullName) {
  $fileFull = [System.IO.Path]::GetFullPath($FullName)
  $relative = $fileFull.Substring($rootFull.Length + 1)
  return ($relative -replace '\\', '/')
-}
-
-function ConvertTo-PublicUrl([string]$BaseUrl, [string]$RelativePath) {
- $base = $BaseUrl.TrimEnd('/')
- $segments = $RelativePath -split '/'
- $encodedSegments = foreach ($segment in $segments) {
-  [System.Uri]::EscapeDataString($segment)
- }
- return ($base + '/' + ($encodedSegments -join '/'))
 }
 
 function Test-IsExcludedPath([string]$RelativePath) {
@@ -120,14 +111,12 @@ $files = Get-ChildItem -Path $Repo -File -Recurse -Force |
   if (-not (Test-IsExcludedPath -RelativePath $relativePath)) {
    [PSCustomObject]@{
     RelativePath = $relativePath
-    Url = ConvertTo-PublicUrl -BaseUrl $BaseUrl -RelativePath $relativePath
     SizeBytes = $_.Length
    }
   }
  } |
  Sort-Object RelativePath
 
-# El indice tambien se publica, pero durante el escaneo puede no existir todavia.
 $indexExistsInList = $false
 foreach ($file in $files) {
  if ($file.RelativePath -eq $OutputRelativePath) {
@@ -140,7 +129,6 @@ if (-not $indexExistsInList) {
  $files = @(
   [PSCustomObject]@{
    RelativePath = $OutputRelativePath
-   Url = ConvertTo-PublicUrl -BaseUrl $BaseUrl -RelativePath $OutputRelativePath
    SizeBytes = 0
   }
  ) + $files
@@ -149,13 +137,11 @@ if (-not $indexExistsInList) {
 $generatedAt = Get-Date -Format 'yyyy-MM-dd HH:mm:ss zzz'
 
 $content = New-Object System.Collections.Generic.List[string]
-$content.Add('# Indice publico de archivos ECE')
+$content.Add('# Indice de archivos ECE')
 $content.Add('')
 $content.Add('Generado automaticamente por `.localstorage/scripts/8_generate-public-file-index.ps1`.')
 $content.Add('')
 $content.Add(('Generado: {0}' -f $generatedAt))
-$content.Add('')
-$content.Add(('Base URL: {0}/' -f $BaseUrl.TrimEnd('/')))
 $content.Add('')
 $content.Add(('Carpeta local indexada: `{0}`' -f $Repo))
 $content.Add('')
@@ -163,19 +149,20 @@ $content.Add(('Total de archivos indexados: {0}' -f $files.Count))
 $content.Add('')
 $content.Add('## Uso recomendado')
 $content.Add('')
-$content.Add('Usar este archivo como mapa principal para encontrar la URL publica directa de cualquier archivo de ECE.')
+$content.Add('Usar este archivo como mapa principal para encontrar paths parciales dentro de ECE.')
 $content.Add('')
-$content.Add('Las rutas listadas son relativas a `.localstorage/ECE/`.')
+$content.Add('Ejemplo:')
+$content.Add('')
+$content.Add('Path parcial:')
+$content.Add('')
+$content.Add('`Lore/Indice_Historia.md`')
 $content.Add('')
 $content.Add('## Archivos')
 $content.Add('')
-$content.Add('| Archivo | URL |')
-$content.Add('|---|---|')
 
 foreach ($file in $files) {
- $safePath = $file.RelativePath.Replace('|', '\|')
- $safeUrl = $file.Url.Replace('|', '%7C')
- $content.Add(('| `{0}` | {1} |' -f $safePath, $safeUrl))
+ $safePath = $file.RelativePath.Replace('\', '/')
+ $content.Add(('- `{0}`' -f $safePath))
 }
 
 $newContent = ($content -join "`r`n") + "`r`n"
